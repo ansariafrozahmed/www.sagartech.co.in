@@ -1,0 +1,506 @@
+@import url('media.css');
+* {
+    font-family: 'Myriad-Pro', sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+#video
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.section {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+
+.s1 
+    video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+      }
+    
+
+
+.s2 {
+    background: url('img/second.jpg');
+    background-size: cover;
+}
+
+.s3 {
+    background: url('img/third.jpg');
+    background-size: cover;
+}
+
+.s4 {
+    background: url('img/fourth.jpg');
+    background-size: cover;
+}
+
+  
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    border-radius: 0%;
+    position: absolute;
+    z-index: 1;
+    height: 5px;
+    width: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    background: #fff;
+    height: 15px;
+    width: 15px;
+    margin: -6px 0 0 -6px;
+    border-radius: 0%;
+}
+
+header {
+    background: rgba(92, 66, 66, 0.3);
+    position: fixed;
+    top: 0;
+    color: white;
+    z-index: 100;
+    width: 100%;
+
+}  
+  
+
+.right {
+    display: flex;
+}
+
+.menu-trigger {
+    padding: 5px 70px 20px 40px;
+    font-family: 'Myriad-Pro';
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.side-icons li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 1px 20px 0px;
+    padding-top: 30px;
+    padding-bottom:1px;
+    margin-right: -30px;
+    font-weight: 200;
+    color: #ffff;
+}
+
+.t-shadow {
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.side-icons li:last-child {
+    padding-right: 50px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden !important
+}
+
+.menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    font-weight: 500;
+    width:100%;
+}
+
+
+.menu-trigger:hover,
+.side-icons i:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.menu .close:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.level-1,
+.level-2,
+.level-3 {
+    background: rgba(0, 0, 0, 0.9);
+    min-height: 100% !important;
+    border-left: #ccc 1px solid ;
+    width:260px;
+}
+
+.level-2,
+.level-3 {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    width:260px;
+  
+
+}
+
+.close {
+    font-size: 20px;
+    font-weight: 10px;
+    color: rgb(253, 253, 253);
+    padding: 5px;
+    position: fixed;
+    left:30px;
+    top:30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    border-spacing: 1px;
+}
+
+.level-1 ul {
+    padding-top: 40%;
+    padding-left: 10px;
+    }
+
+.menu li {
+    list-style: none;
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.level-1-item {
+    padding: 1px;
+    text-align: center;
+    transition: all 0.2s;
+    font-size:15px;
+    font-weight: 550;
+    font-family: 'Myriad-Pro';
+}
+
+.level-2-item,
+.level-3-item {
+    padding: 4px;
+    font-size:15px;
+    font-weight: 300;
+    font-family: 'Myriad-Pro';
+    transition: all 0.2s;
+}
+
+.level-1-item img {
+    height: 20px;
+    padding: 1px;
+}
+
+.level-1-item > a::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 1px;
+    background: #666;
+    margin: 0 auto;
+    margin-top: 15px;
+    transition: all 0.2s;
+}
+
+.level-2-item > a::after,
+.level-3-item > a::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 1px;
+    background: #666;
+    margin-top: 15px;
+    transition: all 0.2s;
+}
+
+.menu li:hover,
+.menu li.active {
+    border-right: 3px solid #fff;
+    
+    
+}
+
+.menu li:hover a::after,
+.menu li.active a::after {
+    width: 50px;
+    background: #666;
+    margin-top: 15px;
+}
+
+.menu a:hover {
+    color: #666 !important;
+    margin-left: 5px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 5px 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    background-color: #fedcba;
+    font-size: 1.5rem;
+    color: black !important;
+}
+
+.search-bar input {
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    width: 90%;
+}
+
+.btn-personal {
+    background-color: rgba(0, 0,0, 0.0) !important;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    color: white !important;
+
+}
+
+.btn-personal:hover {
+    background-color: white !important;
+    color: gray !important;
+}
+
+.footer {
+    background-color: #262626;
+}
+
+.lower-footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #ddd;
+}
+
+.about-hero {
+    background: url(img/about.jpg);
+    height: 100vh;
+    display: flex;
+}
+
+.product-hero {
+    background: url(img/first.jpg);
+    height: 100vh;
+    display: flex;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.yellow-text {
+    color: #f3bc47;
+}
+
+.yellow-bg {
+    background-color: #f3bc47;
+}
+
+.parallax-about {
+    background: url(img/about-paralax.jpg);
+}
+
+.section-heading h3 {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    font-weight: 200;
+    font-style: 'Myriad-Pro';
+
+}
+
+.about-content h4,
+.content-icon {
+    transition: all .5s;
+}
+
+.about-content:hover .content-icon,
+.about-content p {
+    color: white;
+    padding-top: .5rem !important;
+    cursor: default;
+}
+
+.about-content:hover h4 {
+    color: #f3bc47;
+    cursor: default;
+}
+
+.value-tab a {
+    color: #333 !important;
+    transition: all .5s;
+}
+
+.value-tab a:hover,
+.value-tab a.active {
+    color: black !important;
+    font-weight: 600;
+}
+
+body.fp-viewing-0 .s1 {
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+body.fp-viewing-1 .s2 {
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+body.fp-viewing-2 .s3 {
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+body.fp-viewing-3 .s4 {
+    animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@keyframes scale-up-center {
+    to {
+        transform: scale(1.05);
+        background-position: center;
+        transition: 0.2s linear;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .close {
+        font-size: 2rem;
+
+    }
+
+    .level-1-item img {
+        height: 30px;
+        padding: 5px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .close {
+        font-size: 2rem;
+    }
+
+    .level-1-item img {
+        height: 25px;
+    }
+}
+
+.parallax {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.well {
+    width: 200px;
+    display: inline-block;
+}
+
+.well img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a:active,
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+.about-cta {
+    background: url(img/about-cta.jpg)
+}
+
+.btn-hoverable {
+    background: #f3bc47;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.btn-hoverable:hover {
+   background: #fff;
+}
+
+.product-intro{
+    background-color: rgba(94,158,168,0.12);
+}
+
+.product-intro h4{
+    line-height: 2.5rem;
+}
+
+.product-features li{
+    line-height: 2rem;
+}
+
+.product-image img{
+    height: 500px;
+}
