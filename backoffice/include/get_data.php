@@ -110,7 +110,7 @@ else if(isset($_GET['port_id'])) {
 //graphics section
 
 else if(isset($_GET['grap'])) {
-    $server = "198.252.98.91";
+    $server = "localhost";
 $username = "sagartec_shuja";
 $password = "21);z%FKdcIq";
 $dbname = "sagartec_sagartech";
@@ -248,7 +248,7 @@ else if(isset($_GET['post_id'])) {
 //activites Section
 
 else if(isset($_GET['actShow'])) {
-    $server = "198.252.98.91";
+    $server = "localhost";
     $username = "sagartec_shuja";
     $password = "21);z%FKdcIq";
     $dbname = "sagartec_sagartech";
@@ -320,7 +320,7 @@ else if(isset($_GET['actShow_id'])) {
 //themes Section
 
 else if(isset($_GET['thm'])) {
-    $server = "198.252.98.91";
+    $server = "localhost";
 $username = "sagartec_shuja";
 $password = "21);z%FKdcIq";
 $dbname = "sagartec_sagartech";

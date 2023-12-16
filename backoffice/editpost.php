@@ -1,6 +1,6 @@
 <?php
 include("include/config.php");
-$server = "198.252.98.91";
+$server = "localhost";
 $username = "sagartec_shuja";
 $password = "21);z%FKdcIq";
 $dbname = "sagartec_sagartech";
