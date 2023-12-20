@@ -7,13 +7,11 @@
         <title>Web Development and Digital Marketing in Mumbai - Sagar Tech</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description"
-            content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
 
-        <meta name="keywords"
-            content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+
+        <meta name="keywords" content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
 
@@ -31,27 +29,35 @@
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
-        <meta property="og:description"
-            content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        <meta property="og:description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
         <meta property="og:url" content="https://sagartech.co.in/">
         <meta property="og:site_name" content="Sagartech - Technical Solution">
         <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
+        <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
         <!-- Meta Pixel Code -->
         <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1473706306814871');
-        fbq('track', 'PageView');
+            ! function(f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function() {
+                    n.callMethod ?
+                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window, document, 'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1473706306814871');
+            fbq('track', 'PageView');
         </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1"
-        /></noscript>
+        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" /></noscript>
         <!-- End Meta Pixel Code -->
 
         <link rel="canonical" href="https://www.sagartech.co.in/">
@@ -136,6 +142,7 @@
             font-size: 40px;
             color: black;
         }
+
         .shadows {
             -webkit-box-shadow: 0px 10px 11px -1px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: 0px 10px 11px -1px rgba(0, 0, 0, 0.75);
@@ -214,7 +221,7 @@
             padding: 0;
         }
 
-        .cards_item {   
+        .cards_item {
             display: flex;
             padding: 1rem;
         }
@@ -346,15 +353,16 @@
             //  console.log(id);
             var id = 1;
             $('#demo-modal').load('modal-data.php?modal=' + id,
-                function () {
+                function() {
                     $('#bootstrap-modal').modal({
                         show: true
                     });
                 });
         }
     </script>
-<!--onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1" onselectstart="return!1" ondragstart="return!1"-->
-<body >
+    <!--onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1" onselectstart="return!1" ondragstart="return!1"-->
+
+<body>
     <!-- loading -->
     <div id="loading">
         <div id="loading-center">
@@ -369,25 +377,15 @@
 
     <!--=================================
 Banner -->
-    <div id="rev_slider_116_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="bg-effect"
-        data-source="gallery" style=>
+    <div id="rev_slider_116_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="bg-effect" data-source="gallery" style=>
         <!-- START REVOLUTION SLIDER 5.4.8 fullwidth mode -->
         <div id="rev_slider_116_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
             <ul class="icon-none">
                 <!-- SLIDE  -->
-                <li data-index="rs-385" data-transition="random-static,random-premium,random"
-                    data-slotamount="default,default,default,default" data-hideafterloop="0"
-                    data-hideslideonmobile="off" data-randomtransition="on"
-                    data-easein="default,default,default,default" data-easeout="default,default,default,default"
-                    data-masterspeed="default,default,default,default" data-thumb="images/header/webdesign.jpg"
-                    data-rotate="0,0,0,0" data-saveperformance="off" class="b1-video" data-title="Slide" data-param1=""
-                    data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
-                    data-param8="" data-param9="" data-param10="" data-description="">
+                <li data-index="rs-385" data-transition="random-static,random-premium,random" data-slotamount="default,default,default,default" data-hideafterloop="0" data-hideslideonmobile="off" data-randomtransition="on" data-easein="default,default,default,default" data-easeout="default,default,default,default" data-masterspeed="default,default,default,default" data-thumb="images/header/webdesign.jpg" data-rotate="0,0,0,0" data-saveperformance="off" class="b1-video" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                     <!-- MAIN IMAGE -->
 
-                    <img src="images/bg/Sagar Tech image merge.jpg" alt="website design in mumbai"
-                        title="website design in mumbai" data-bgposition="center center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="images/bg/Sagar Tech image merge.jpg" alt="website design in mumbai" title="website design in mumbai" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                 </li>
                 <!-- SLIDE  -->
@@ -496,8 +494,7 @@ About Us -->
         <!--</div>-->
 
         <!--<section class="overview-block-pt green-bg" style="background: #FFFFFF">-->
-        <section class="overview-block-pt100 device-aria iq-bg jarallax"
-            style="padding-bottom: 60px;background-image: url('images/bg/bg-st-all.jpg'); background-position: left center;">
+        <section class="overview-block-pt100 device-aria iq-bg jarallax" style="padding-bottom: 60px;background-image: url('images/bg/bg-st-all.jpg'); background-position: left center;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
@@ -507,28 +504,21 @@ About Us -->
                             <h1 class="iq-tw-6 small-title iq-font-dark">Web Designers in Mumbai</h1>
                             <p class="iq-mb-0" style="text-align: justify; font-size: 16px;color:black;">Sagar Tech
                                 Technical Solutions is a <b class="about-cont-link"><a href="index">website designing
-                                        company</a></b> in Mumbai, INDIA. We offer services like <b
-                                    class="about-cont-link"><a href="website-design-mumbai">Web Design</a></b>, Website
+                                        company</a></b> in Mumbai, INDIA. We offer services like <b class="about-cont-link"><a href="website-design-mumbai">Web Design</a></b>, Website
                                 development,
                                 Custom Website designing, Dynamic website. We also provide Content management system for
                                 managing E-commerce websites.
                                 We are creative web designers and developers and our interest is in creating beautiful
                                 websites using web and SEO standards.
-                                We also develop Mobile Apps for Android and iOS using <b class="about-cont-link"><a
-                                        href="https://flutter.dev">Flutter</a></b>.
+                                We also develop Mobile Apps for Android and iOS using <b class="about-cont-link"><a href="https://flutter.dev">Flutter</a></b>.
                                 We are one of the best <b class="about-cont-link"><a href="digital_marketing_agency_in_mumbai">Digital
                                         Marketing agency</a></b> in Mumbai providng services like Local SEO by
                                 optimizing
-                                your <b class="about-cont-link"><a
-                                        href="https://www.google.com/intl/en_in/business/">GMB</a></b>, PAN INDIA <b
-                                    class="about-cont-link"><a
-                                        href="https://developers.google.com/search/docs/beginner/seo-starter-guide">SEO
+                                your <b class="about-cont-link"><a href="https://www.google.com/intl/en_in/business/">GMB</a></b>, PAN INDIA <b class="about-cont-link"><a href="https://developers.google.com/search/docs/beginner/seo-starter-guide">SEO
                                         (Search engine optimization)</a></b>,
-                                Social Media Optimization, <b class="about-cont-link"><a
-                                        href="https://blog.hubspot.com/marketing/social-media-marketing">Social Media
+                                Social Media Optimization, <b class="about-cont-link"><a href="https://blog.hubspot.com/marketing/social-media-marketing">Social Media
                                         Marketing. </a></b>
-                                We are <b>ISO consultants in Mumbai</b>. An organization specializing in <b
-                                    class="about-cont-link"><a href="https://www.iso.org/home.html" target="_blank">ISO
+                                We are <b>ISO consultants in Mumbai</b>. An organization specializing in <b class="about-cont-link"><a href="https://www.iso.org/home.html" target="_blank">ISO
                                         Certification</a></b>, ISO Implementation. Our aim is to ensure that
                                 organisation met customer expectations as per recognised international standards.
                             </p>
@@ -536,9 +526,7 @@ About Us -->
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <a href="https://bit.ly/39uDgT8" target="_blank">
-                            <img src="images/payu-partner.png" alt="payumoney partner" title="payumoney partner"
-                                class="img-fluid about-home"
-                                style="visibility: visible; animation-duration: 2s; animation-name:fadeInRight; margin-top: auto;">
+                            <img src="images/payu-partner.png" alt="payumoney partner" title="payumoney partner" class="img-fluid about-home" style="visibility: visible; animation-duration: 2s; animation-name:fadeInRight; margin-top: auto;">
                         </a>
                     </div>
                 </div>
@@ -554,11 +542,9 @@ About Us -->
                     <div class="col-lg-4 mb-4 web-services wow fadeInUp" data-wow-duration="1.0s">
                         <div class="cardz services-hover">
                             <a href="web-design-company-mumbai">
-                                <i class="fa fa-file-code-o services-onhover" aria-hidden="true"
-                                    style="font-size: 120px;"></i>
+                                <i class="fa fa-file-code-o services-onhover" aria-hidden="true" style="font-size: 120px;"></i>
                                 <div class="card-body">
-                                    <h4 class="services-onhover iq-tw-6" style="font-size: 24px;margin-bottom: -28px;"
-                                        class="card-title text-center">Website Design and Development</h4>
+                                    <h4 class="services-onhover iq-tw-6" style="font-size: 24px;margin-bottom: -28px;" class="card-title text-center">Website Design and Development</h4>
                                     <p class="card-text services-onhover" style="text-align:center !important;"></p>
                                 </div>
                             </a>
@@ -575,8 +561,7 @@ About Us -->
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb     -4 web-services wow fadeInUp" data-wow-duration="1.0s"
-                        style="margin-bottom:25px">
+                    <div class="col-lg-4 mb     -4 web-services wow fadeInUp" data-wow-duration="1.0s" style="margin-bottom:25px">
                         <div class="cardz services-hover">
                             <a href="bulk_sms_service_providers_in_mumbai">
                                 <i class='far fa-comment-dots services-onhover' style='font-size:120px'></i>
@@ -625,10 +610,8 @@ About Us -->
         </section>
         <!--===============Service ==================-->
         <!--===============Portfolio & all Section ==================-->
-        <section class="overview-block-pt100 device-aria iq-bg jarallax"
-            style="background-image: url('images/bg/sagartechimg2.jpg'); background-position: left center;">
-            <div class="modal fade" id="bootstrap-modal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <section class="overview-block-pt100 device-aria iq-bg jarallax" style="background-image: url('images/bg/sagartechimg2.jpg'); background-position: left center;">
+            <div class="modal fade" id="bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -690,36 +673,24 @@ About Us -->
                             <div class="">
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;"
-                                                    src="images/header/mithiyaj responsive.png" alt="mithiyaj"
-                                                    class="img-thumbnail"></a></div>
+                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/mithiyaj responsive.png" alt="mithiyaj" class="img-thumbnail"></a></div>
 
                                     </div>
                                     <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;"
-                                                    src="images/header/riyaz responsive.png" alt="riyaz"
-                                                    class="img-thumbnail"></a></div>
+                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/riyaz responsive.png" alt="riyaz" class="img-thumbnail"></a></div>
                                     </div>
                                     <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;"
-                                                    src="images/header/zoffec responsive.png"
-                                                    alt="zoffec" class="img-thumbnail"></a></div>
+                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/zoffec responsive.png" alt="zoffec" class="img-thumbnail"></a></div>
                                     </div>
                                     <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;"
-                                                    src="images/header/puresaff responsive.png" alt="puresaff"
-                                                    class="img-thumbnail"></a></div>
+                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/puresaff responsive.png" alt="puresaff" class="img-thumbnail"></a></div>
 
                                     </div>
                                     <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;"
-                                                    src="images/header/abyaz responsive.png" alt="abyaz"
-                                                    class="img-thumbnail"></a></div>
+                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/abyaz responsive.png" alt="abyaz" class="img-thumbnail"></a></div>
                                     </div>
                                     <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;"
-                                                    src="images/header/amclogistic responsive.png"
-                                                    alt="amc logistics india pvt ltd" class="img-thumbnail"></a></div>
+                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/amclogistic responsive.png" alt="amc logistics india pvt ltd" class="img-thumbnail"></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -903,13 +874,11 @@ About Us -->
                                         <div class="iq-feature9 text-center">
                                             <div class="iq-feature9-blog">
                                                 <div class="left why-choose">
-                                                    <img src="images/creativity.png" class="img-fluid"
-                                                        alt="creative designers in mumbai">
+                                                    <img src="images/creativity.png" class="img-fluid" alt="creative designers in mumbai">
                                                 </div>
                                                 <div class="best-content">
                                                     <h5 class="iq-font-black iq-tw-6 iq-mt-15">Creative Designing</h5>
-                                                    <p class="iq-mb-0">We at <b><a
-                                                                href="https://sagartech.co.in/index">Sagar Tech -
+                                                    <p class="iq-mb-0">We at <b><a href="https://sagartech.co.in/index">Sagar Tech -
                                                                 Technical Solutions</a></b> have
                                                         a team of professional graphic designers and developers, who
                                                         design websites as per client requirement.</p>
@@ -921,8 +890,7 @@ About Us -->
                                         <div class="iq-feature9 text-center">
                                             <div class="iq-feature9-blog">
                                                 <div class="left why-choose">
-                                                    <a href="#img1"><img src="images/isoreduced.png" class="img-fluid"
-                                                            alt="iso certified"></a>
+                                                    <a href="#img1"><img src="images/isoreduced.png" class="img-fluid" alt="iso certified"></a>
                                                 </div>
                                                 <div class="best-content">
                                                     <h5 class="iq-font-black iq-tw-6 iq-mt-15">ISO CERTIFIED</h5>
@@ -944,15 +912,13 @@ About Us -->
                                         <div class="iq-feature9 text-center">
                                             <div class="iq-feature9-blog">
                                                 <div class="left why-choose">
-                                                    <img src="images/business.png" class="img-fluid"
-                                                        alt="affordable cost">
+                                                    <img src="images/business.png" class="img-fluid" alt="affordable cost">
                                                 </div>
                                                 <div class="best-content">
                                                     <h5 class="iq-font-black iq-tw-6 iq-mt-15">Affordable Design</h5>
                                                     <p class="iq-mb-0">We are <b>affordable web designers.</b> We design
                                                         and develop beautiful static, dynamic and E-Commerce websites
-                                                        with <b><a href="https://analytics.google.com/analytics/web/"
-                                                                target="_blank">Google Analytics</a></b> following SEO
+                                                        with <b><a href="https://analytics.google.com/analytics/web/" target="_blank">Google Analytics</a></b> following SEO
                                                         standards at affordable price.</p>
                                                 </div>
                                             </div>
@@ -962,15 +928,13 @@ About Us -->
                                         <div class="iq-feature9-blog text-center">
                                             <div class="iq-feature9">
                                                 <div class="left why-choose">
-                                                    <a href="#img2"><img src="images/msme.png" class="img-fluid"
-                                                            alt="msme registered"></a>
+                                                    <a href="#img2"><img src="images/msme.png" class="img-fluid" alt="msme registered"></a>
                                                 </div>
                                                 <div class="best-content">
                                                     <h5 class="iq-font-black iq-tw-6 iq-mt-15">MSME Registered</h5>
                                                     <p class="iq-mb-50">We are registered by Govt. of India under
                                                         Ministry of Micro, Small &
-                                                        Medium Enterprises with <b><a href="https://msme.gov.in/"
-                                                                target="_blank">UAM No: MH19D0077334</a></b></p>
+                                                        Medium Enterprises with <b><a href="https://msme.gov.in/" target="_blank">UAM No: MH19D0077334</a></b></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -1027,8 +991,7 @@ About Us -->
                             <!--    <li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
                             <div class="cardss">
                                 <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i
-                                                class="ion-ios-lightbulb-outline"></i></span>
+                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-lightbulb-outline"></i></span>
                                         <span class="iq-font-red">Planning</span>
                                     </h2>
                                     <p class="card_text">Developer creates the data that allow to see the entire site
@@ -1039,8 +1002,7 @@ About Us -->
                             <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
                             <div class="cardss">
                                 <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i
-                                                class="ion-ios-speedometer-outline"></i></span>
+                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-speedometer-outline"></i></span>
                                         <span class="iq-font-red">Design</span>
                                     </h2>
                                     <p class="card_text">We design website for a word "WOW" at first glance.</p>
@@ -1050,8 +1012,7 @@ About Us -->
                             <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
                             <div class="cardss">
                                 <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i
-                                                class="ion-ios-photos-outline"></i></span>
+                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-photos-outline"></i></span>
                                         <span class="iq-font-red">Development</span>
                                     </h2>
                                     <p class="card_text">Web development can range from developing a simple static
@@ -1062,8 +1023,7 @@ About Us -->
                             <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
                             <div class="cardss">
                                 <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i
-                                                class="ion-ios-list-outline"></i></span>
+                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-list-outline"></i></span>
                                         <span class="iq-font-red">Testing</span>
                                     </h2>
                                     <p class="card_text">Every single link would be tested to make sure that there are
@@ -1074,8 +1034,7 @@ About Us -->
                             <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
                             <div class="cardss">
                                 <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i
-                                                class="ion-ios-list-outline"></i></span>
+                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-list-outline"></i></span>
                                         <span class="iq-font-red">Delivery</span>
                                     </h2>
                                     <p class="card_text">Once you give your web designer final approval, it is time to
@@ -1086,8 +1045,7 @@ About Us -->
                             <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
                             <div class="cardss">
                                 <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i
-                                                class="ion-ios-list-outline"></i></span>
+                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-list-outline"></i></span>
                                         <span class="iq-font-red">Maintenance</span>
                                     </h2>
                                     <p class="card_text">Maintenance includes to update the info on your website, to
@@ -1220,35 +1178,31 @@ About Us -->
 Counter -->
         <div class="overview-block-pt iq-mb-60 white-bg">
             <div class="container">
-                <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s"
-                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;margin-bottom: 30px;">Our Statistics</h3>
+                <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;margin-bottom: 30px;">Our Statistics</h3>
                 <div class="row iq-counter3 sdbtehnd">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="iq-counter text-left iq-pall-20 wow slideInLeft" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid"
-                                    src="images/counter/like1.png" alt="project counter"></div>
+                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/like1.png" alt="project counter"></div>
                             <div class="right">
-                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="500"
-                                    data-speed="5000">500+</span><ofds>+</ofds>
+                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="500" data-speed="5000">500+</span>
+                                <ofds>+</ofds>
                                 <div class="iq-lead iq-font-black" style="font-weight:600;">Projects Done</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="iq-counter  text-left iq-pall-20 wow slideInLeft" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid"
-                                    src="images/counter/client2.png" alt="clients counter"></div>
+                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/client2.png" alt="clients counter"></div>
                             <div class="right">
-                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="200"
-                                    data-speed="5000">100%</span><ofds>+</ofds>
+                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="200" data-speed="5000">100%</span>
+                                <ofds>+</ofds>
                                 <div class="iq-lead iq-font-black" style="font-weight:600;">Satisfied Clients</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="iq-counter text-left iq-pall-20 wow slideInRight" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid"
-                                    src="images/counter/certi1.png" alt="certificate counter"></div>
+                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/certi1.png" alt="certificate counter"></div>
                             <div class="right">
                                 <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="1" data-speed="5000">1</span>
                                 <div class="iq-lead iq-font-black" style="font-weight:600;">Certification</div>
@@ -1257,11 +1211,9 @@ Counter -->
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="iq-counter text-left iq-pall-20 wow slideInRight" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid"
-                                    src="images/counter/star.png" alt="rating counter"></div>
+                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/star.png" alt="rating counter"></div>
                             <div class="right">
-                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="4.9"
-                                    data-speed="5000">4.9</span>
+                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="4.9" data-speed="5000">4.9</span>
                                 <div class="iq-lead iq-font-black" style="font-weight:600;">Rating</div>
                             </div>
                         </div>
@@ -2031,13 +1983,13 @@ Testimonial -->
         <!--</div>-->
         <!-- Start of Async ProveSource Code -->
         <script>
-            ! function (o, i) {
+            ! function(o, i) {
                 window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
                     dq: [],
-                    display: function () {
+                    display: function() {
                         this.dq.push(arguments)
                     }
-                }, o._provesrcAsyncInit = function () {
+                }, o._provesrcAsyncInit = function() {
                     provesrc.init({
                         apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
                         v: "0.0.4"
@@ -2052,8 +2004,7 @@ Testimonial -->
         <!--<div class='sk-ww-google-reviews' data-embed-id='91562'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>-->
         <!--if the below comment is not working uncomment above line-->
         <!--<iframe src="https://socialproofed.com/members/google-reviews/widget/6318e1be861fa63baca7c86e" width="600" height="450" style="border:0;margin:10%" allowfullscreen="" title="Social Proofed Widget"></iframe> -->
-        <div class="iq-testimonial2 overview-block-ptb iq-over-black-40 iq-bg jarallax"
-            style="background-image: url('images/bg/36.jpg'); background-position: center,center;display:none">
+        <div class="iq-testimonial2 overview-block-ptb iq-over-black-40 iq-bg jarallax" style="background-image: url('images/bg/36.jpg'); background-position: center,center;display:none">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
@@ -2064,56 +2015,55 @@ Testimonial -->
                         $sql = mysqli_query($con, "SELECT * FROM testimonial");
                         while ($rows = mysqli_fetch_assoc($sql)) {
                         ?>
-                        <div class="test-cardss">
-                            <div class="card_content text-center">
-                                <div class="feedback">
-                                    <div class="m-auto pb-2" style="width:30%;height:30%;">
-                                        <img alt="testimonials" class="img-fluid center-block"
-                                            src="images/services/digital-icon/<?php if ($rows['test_gen'] == 'Female') {
+                            <div class="test-cardss">
+                                <div class="card_content text-center">
+                                    <div class="feedback">
+                                        <div class="m-auto pb-2" style="width:30%;height:30%;">
+                                            <img alt="testimonials" class="img-fluid center-block" src="images/services/digital-icon/<?php if ($rows['test_gen'] == 'Female') {
                                                                                                                                             echo 'team1.png';
                                                                                                                                         } else {
                                                                                                                                             echo 'team2.png';
                                                                                                                                         } ?>">
-                                    </div>
-                                    <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">
-                                        <?php echo $rows['test_name']; ?>
-                                    </div>
-                                    <div class="iq-info brd-none">
-                                        <p>
-                                            <?php echo $rows['test_content']; ?>
-                                        </p>
-                                    </div>
-                                    <div class="iq-mt-10">
-                                        <div class="avtar-name">
-                                            <!-- <span>CEO, Sagar Tech</span> -->
-                                            <div class="iq-star iq-font-dark">
-                                                <?php
+                                        </div>
+                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">
+                                            <?php echo $rows['test_name']; ?>
+                                        </div>
+                                        <div class="iq-info brd-none">
+                                            <p>
+                                                <?php echo $rows['test_content']; ?>
+                                            </p>
+                                        </div>
+                                        <div class="iq-mt-10">
+                                            <div class="avtar-name">
+                                                <!-- <span>CEO, Sagar Tech</span> -->
+                                                <div class="iq-star iq-font-dark">
+                                                    <?php
                                                     $stars = $rows['test_rate'];
                                                     $array = preg_split("/\./", $stars);
                                                     $fstars = $array[0];
                                                     $hstars = $array[1];
                                                     for ($i = 0; $i < $fstars; $i++) {
                                                     ?>
-                                                <i class="fa fa-star" style="color:red" aria-hidden="true"></i>
-                                                <?php
+                                                        <i class="fa fa-star" style="color:red" aria-hidden="true"></i>
+                                                    <?php
                                                     }
                                                     if ($hstars != '0') {
                                                     ?>
-                                                <i class="fa fa-star-half-o" style="color:red" aria-hidden="true"></i>
-                                                <?php
+                                                        <i class="fa fa-star-half-o" style="color:red" aria-hidden="true"></i>
+                                                    <?php
                                                     }
                                                     ?>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <!--<h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i-->
+                                    <!--                                      class="ion-ios-list-outline"></i></span>-->
+                                    <!--                              <span class="iq-font-red">Delivery</span>-->
+                                    <!--                          </h2>-->
+                                    <!--<p class="card_text">Once you give your web designer final approval, it is time to deliver the site.</p>-->
                                 </div>
-                                <!--<h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i-->
-                                <!--                                      class="ion-ios-list-outline"></i></span>-->
-                                <!--                              <span class="iq-font-red">Delivery</span>-->
-                                <!--                          </h2>-->
-                                <!--<p class="card_text">Once you give your web designer final approval, it is time to deliver the site.</p>-->
                             </div>
-                        </div>
                         <?php
                         }
                         ?>
@@ -2130,25 +2080,17 @@ Testimonial -->
 Testimonial -->
         <section class="overview-block-pt green-bg pt-1 m-5" style="background: #fff">
             <div class="container-fluid text-center">
-                <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s"
-                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Our Channel Partner
+                <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Our Channel Partner
                 </h3>
                 <div class="row pt-4">
                     <div class="col-md-6 mb-4 text-right">
-                        <a href="https://onboarding.payumoney.com/app/account?partner_name=Ubaid+Saudagar&partner_source=Affiliate+Links&partner_uuid=11ea-0a92-04761236-af3e-02aa98a2d2b0&source=Partner"
-                            target="_blank">
-                            <img src="images/payumoney.png" alt="payumoney" class="img-fluid wow fadeInUp stcp fdhhh"
-                                data-wow-delay="1.5s"
-                                style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;height: 70px;width: auto;">
+                        <a href="https://onboarding.payumoney.com/app/account?partner_name=Ubaid+Saudagar&partner_source=Affiliate+Links&partner_uuid=11ea-0a92-04761236-af3e-02aa98a2d2b0&source=Partner" target="_blank">
+                            <img src="images/payumoney.png" alt="payumoney" class="img-fluid wow fadeInUp stcp fdhhh" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;height: 70px;width: auto;">
                         </a>
                     </div>
                     <div class="col-md-6 mb-4 text-left">
-                        <a
-                            href="https://www.digitalocean.com/?refcode=a642978614f3&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
-                            <img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg"
-                                alt="DigitalOcean Referral Badge" class="img-fluid wow fadeInUp stcp fdhhh"
-                                data-wow-delay="1.5s"
-                                style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;height: 70px;width: auto;" />
+                        <a href="https://www.digitalocean.com/?refcode=a642978614f3&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
+                            <img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" class="img-fluid wow fadeInUp stcp fdhhh" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;height: 70px;width: auto;" />
                         </a>
                     </div>
                 </div>
@@ -2159,17 +2101,16 @@ Testimonial -->
 
 
         <div class="container" style="padding: 20px 0px;">
-            <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s"
-                style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Our Clients</h3>
+            <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Our Clients</h3>
             <section class="customer-logos slider">
                 <?php
                 // $sql = mysqli_query($con,"SELECT * FROM images WHERE img_act_id = 7 ORDER BY img_id DESC");
                 //     while($rows = mysqli_fetch_assoc($sql)) {
                 ?>
 
-                <!--<div class="slide m-auto text-center"><img src="<?php 
-                // echo $rows['img_tag'];
-                ?>"></div>-->
+                <!--<div class="slide m-auto text-center"><img src="<?php
+                                                                    // echo $rows['img_tag'];
+                                                                    ?>"></div>-->
 
                 <div class="slide slide-stlogos"><a><img alt="Globex" src="images/logo/01 Globex.png"></a></div>
                 <div class="slide slide-stlogos"><a><img alt="UJSA Aircon Pvt." src="images/logo/02 UJSA Aircon Pvt. Ltd.png"></a></div>
@@ -2179,8 +2120,7 @@ Testimonial -->
                 <div class="slide slide-stlogos"><a><img alt="Zodiac Classic" src="images/logo/13 Zodiac Classic.png"></a></div>
                 <div class="slide slide-stlogos"><a><img alt="ZZ Consultants" src="images/logo/14 ZZ Consultants.png"></a></div>
                 <div class="slide slide-stlogos"><a><img alt="Oasis Consulting" src="images/logo/15 Oasis Consulting.jpg"></a></div>
-                <div class="slide slide-stlogos" style="padding:0px"><a><img alt="Zoheb Lala" style="border-radius:10px"
-                            src="images/logo/18 Zoheb Lala.png"></a></div>
+                <div class="slide slide-stlogos" style="padding:0px"><a><img alt="Zoheb Lala" style="border-radius:10px" src="images/logo/18 Zoheb Lala.png"></a></div>
                 <div class="slide slide-stlogos"><a><img alt="Andhar" src="images/logo/19 Andhar.png"></a></div>
                 <div class="slide slide-stlogos"><a><img alt="Rapid Transport" src="images/logo/20 Rapid Transport.png"></a></div>
                 <div class="slide slide-stlogos"><a><img alt="Alhamd Group" src="images/logo/21 Alhamd Group.png"></a></div>
@@ -2294,8 +2234,7 @@ Action Box -->
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 mb-5 iq-font-white">
-                        <img style="border-radius:10px" class="card-img-top img-fluid"
-                            src="images/bg/digi-market-index-page.jpg" alt="Card image cap">
+                        <img style="border-radius:10px" class="card-img-top img-fluid" src="images/bg/digi-market-index-page.jpg" alt="Card image cap">
                     </div>
                     <div class="col-lg-7 mb-5 iq-font-white">
                         <h2 class="iq-font-white iq-fw-4 iq-pb-10" style="font-weight: 500;">Wordpress developers and
@@ -2306,8 +2245,7 @@ Action Box -->
                                 <b><a href="https://bit.ly/3lVXn28" target="_blank">WordPress</a></b> is very SEO
                                 friendly and there are large numbers of plugins available which makes SEO optimization
                                 so easy for you.
-                                We are one of the best wordpress developers in Mumbai and use <b><a
-                                        href="https://elementor.com/pro/" target="_blank">Elementor Pro</a></b> which is
+                                We are one of the best wordpress developers in Mumbai and use <b><a href="https://elementor.com/pro/" target="_blank">Elementor Pro</a></b> which is
                                 the most advanced website builder plugin for WordPress, allowing you to visually design
                                 forms, posts, WooCommerce, slides and more.
                                 We provide you with a complete Business Solution starting from design and development of
@@ -2352,15 +2290,13 @@ Login -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="fname">Full Name</label>
-                                    <input type="text" class="form-control" name="fname" id="fname"
-                                        aria-describedby="emailHelp" placeholder="Enter full name">
+                                    <input type="text" class="form-control" name="fname" id="fname" aria-describedby="emailHelp" placeholder="Enter full name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email1">Email address</label>
-                                    <input type="email" class="form-control" id="email1" name="email1"
-                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                    <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter email">
                                     <small id="emailHelp" class="form-text text-muted">Your information is safe with
                                         us.</small>
                                 </div>
@@ -2370,8 +2306,7 @@ Login -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="mobile">Contact Number</label>
-                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10"
-                                        aria-describedby="emailHelp" placeholder="Enter Contact Number">
+                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -2402,8 +2337,7 @@ Login -->
             </div>
         </div>
     </div>
-    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog"
-        aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm text-center">
             <div class="modal-content text-center">
                 <div class="modal-header text-center">
@@ -2450,10 +2384,8 @@ Login -->
                     <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
                     <ul class="iq-media-blog iq-mt-20">
                         <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i
-                                    class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i
-                                    class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i class="fa fa-facebook "></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="# "><i class="fa fa-github "></i></a></li>
                     </ul>
                 </div>
@@ -2469,11 +2401,11 @@ Login -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="js/jquery.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
 
             // Gets the video src from the data-src on each button
             var $imageSrc;
-            $('.gallery img').click(function () {
+            $('.gallery img').click(function() {
                 $imageSrc = $(this).data('bigimage');
             });
             console.log($imageSrc);
@@ -2481,7 +2413,7 @@ Login -->
 
 
             // when the modal is opened autoplay it  
-            $('#myModal').on('shown.bs.modal', function (e) {
+            $('#myModal').on('shown.bs.modal', function(e) {
 
                 // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
 
@@ -2490,7 +2422,7 @@ Login -->
 
 
             // reset the modal image
-            $('#myModal').on('hide.bs.modal', function (e) {
+            $('#myModal').on('hide.bs.modal', function(e) {
                 // a poor man's stop video
                 $("#image").attr('src', '');
             })
@@ -2505,7 +2437,7 @@ Login -->
     </script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.no-fouc').removeClass('no-fouc');
             $('.quotes').slick({
                 slidesToShow: 2,
@@ -2517,30 +2449,30 @@ Login -->
                 speed: 800,
                 adaptiveHeight: true,
                 responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 400,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 400,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
                 ]
             });
 
-            $("#myCarousel").on("slide.bs.carousel", function (e) {
+            $("#myCarousel").on("slide.bs.carousel", function(e) {
                 var $e = $(e.relatedTarget);
                 var idx = $e.index();
                 var itemsPerSlide = 3;
@@ -2572,7 +2504,7 @@ Login -->
 
 
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.whyquotes').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -2583,26 +2515,26 @@ Login -->
                 speed: 800,
                 adaptiveHeight: true,
                 responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 400,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 400,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
                 ]
             });
             $(".wesagartech").slick({
@@ -2617,21 +2549,21 @@ Login -->
                 autoplay: true,
                 autoplaySpeed: 5000,
                 responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        centerMode: false
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            centerMode: false
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
                 ]
             });
-            $('.wesagartech').appear(function () {
+            $('.wesagartech').appear(function() {
                 $('.wesagartech').slick('slickPlay');
             });
             //Slick Carousel Controllers
@@ -2646,18 +2578,18 @@ Login -->
                 autoplay: true,
                 autoplaySpeed: 2000,
                 responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        centerMode: false
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            centerMode: false
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
                 ]
             });
             $('.customer-logos').slick({
@@ -2691,32 +2623,32 @@ Login -->
                 autoplay: true,
                 autoplaySpeed: 2000,
                 responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 2,
-                        centerMode: false
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            centerMode: false
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
                 ]
             });
         });
     </script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('web-services').hover(
-                function () {
+                function() {
                     $(this).animate({
                         'zoom': 1.2
                     }, 400);
                 },
-                function () {
+                function() {
                     $(this).animate({
                         'zoom': 1
                     }, 400);
@@ -2769,12 +2701,12 @@ Login -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
     <script>
-        $(function () {
+        $(function() {
             var myform = $(".add_mainarea_form");
             var completed = '0%';
             $(myform).ajaxForm({
 
-                complete: function () {
+                complete: function() {
                     $('#largeModal').modal('hide')
                     setTimeout(
                         $('.bd-example-modal-sm').modal('show'), 3000);
@@ -2783,9 +2715,9 @@ Login -->
 
 
         });
-        $(document).ready(function () {
+        $(document).ready(function() {
 
-            $('body').bind('cut copy paste', function (e) {
+            $('body').bind('cut copy paste', function(e) {
                 e.preventDefault();
             });
 
@@ -2802,7 +2734,7 @@ Login -->
     <script>
         var revapi116,
             tpj;
-        (function () {
+        (function() {
             if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener(
                 "DOMContentLoaded", onLoad);
             else onLoad();
@@ -2989,7 +2921,7 @@ Login -->
     <!-- GetButton.io widget -->
     <!-- GetButton.io widget -->
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -3005,7 +2937,7 @@ Login -->
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
