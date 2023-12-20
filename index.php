@@ -34,18 +34,6 @@
         <meta property="og:site_name" content="Sagartech - Technical Solution">
         <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
         <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D38LP7CMNV"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-
-            gtag('config', 'G-D38LP7CMNV');
-        </script>
         <!-- Meta Pixel Code -->
         <script>
             ! function(f, b, e, v, n, t, s) {
