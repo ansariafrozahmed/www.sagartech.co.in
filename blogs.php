@@ -256,7 +256,7 @@
     /* IE 10+ and Edge */
     user-select: none;
     /* Non-prefixed version, 
-								  currently supported by Chrome and Opera */
+                  currently supported by Chrome and Opera */
   }
 
   @media screen and (max-width: 960px) {
@@ -366,11 +366,12 @@
 
   <?php
   $page = "service";
-  include("include/header2.php");
+  include("include/trialh.php");
   ?>
 
   <!--======= Breadcrumb Left With BG Image =======-->
-  <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-image: url('images/bg/blog_bg.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+  <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
+    style="background-image: url('images/bg/blog_bg.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-sm-12">
@@ -429,7 +430,9 @@ MAIN CONTENT -->
                 </div>
                 <div class="card-body">
 
-                  <a id="shmenulinks" class="nav-link" style="border-radius: 0.25rem; cursor: pointer; width: 100%;" data-toggle="collapse" aria-expanded="true" aria-controls="menulinks" data-target="#menulinks"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                  <a id="shmenulinks" class="nav-link" style="border-radius: 0.25rem; cursor: pointer; width: 100%;"
+                    data-toggle="collapse" aria-expanded="true" aria-controls="menulinks" data-target="#menulinks"><i
+                      class="fa fa-bars" aria-hidden="true"></i></a>
 
                   <div id="menulinks" class="nav nav-pills collapse">
 
@@ -442,11 +445,14 @@ MAIN CONTENT -->
                         $sql = mysqli_query($con, "SELECT YEAR(post_date) AS YEAR, COUNT(*) AS TOTAL FROM posts GROUP BY YEAR ORDER BY post_id DESC");
                         while ($drows = mysqli_fetch_assoc($sql)) {
                           //  print_r($drows);
-                        ?>
+                          ?>
 
-                          <a href="#<?php echo $drows['YEAR']; ?>" id="yrClk" class="list-group-item yrClk" data-toggle="collapse" aria-expanded="false"><?php echo $drows['YEAR'] . ' (' . $drows['TOTAL'] . ')'; ?></a>
+                          <a href="#<?php echo $drows['YEAR']; ?>" id="yrClk" class="list-group-item yrClk"
+                            data-toggle="collapse" aria-expanded="false">
+                            <?php echo $drows['YEAR'] . ' (' . $drows['TOTAL'] . ')'; ?>
+                          </a>
                           <div class="collapse" id="<?php echo $drows['YEAR']; ?>"></div>
-                        <?php
+                          <?php
                         }
                         //  print_r($arr);
                         ?>
@@ -461,7 +467,7 @@ MAIN CONTENT -->
                     //     $stmt = mysqli_query($con,"SELECT COUNT(*) as total FROM theme WHERE thm_cat_id = '$id'");
                     //     $row = mysqli_fetch_assoc($stmt);
                     //     $count = $row['total'];
-
+                    
                     ?>
 
                     <?php
@@ -483,18 +489,23 @@ MAIN CONTENT -->
 
                 $sql = mysqli_query($con, "SELECT * FROM posts");
                 while ($rows = mysqli_fetch_assoc($sql)) {
-                ?>
+                  ?>
 
                   <div class="col-md-6">
                     <div class="post__card ">
                       <a class="postId" id="<?php echo $rows['post_id']; ?>" href="#<?php echo $rows['post_id']; ?>">
                         <div class="post__card_- feature">
-                          <div class="post__card__image" style="background-image: url(images/blog/<?php echo $rows['post_img']; ?>)">
+                          <div class="post__card__image"
+                            style="background-image: url(images/blog/<?php echo $rows['post_img']; ?>)">
                           </div>
                           <div>
                             <div class="post__card_meta">
-                              <p class="post__card_title"><?php echo $rows['post_name']; ?></p>
-                              <p class="post__card_alttitle comment more"><?php echo $rows['post_desc']; ?></p>
+                              <p class="post__card_title">
+                                <?php echo $rows['post_name']; ?>
+                              </p>
+                              <p class="post__card_alttitle comment more">
+                                <?php echo $rows['post_desc']; ?>
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -510,17 +521,17 @@ MAIN CONTENT -->
                     ?>
                     <!--</div>-->
                     <!--<h1> <?php //echo $rows['post_name'];
-                              ?> </h1>-->
+                      ?> </h1>-->
                     <!--<hr>-->
                     <!--<img src="images/blog/<?php //echo $rows['post_img'];
-                                              ?>" class="img-fluid width-100">-->
+                      ?>" class="img-fluid width-100">-->
                     <!--<p class="comment more">-->
                     <?php //echo $rows['post_content'];
-                    ?>
+                      ?>
                     <!--</p>-->
                     <!--</div>-->
                   </div>
-                <?php
+                  <?php
                 }
                 ?>
               </div>
@@ -543,8 +554,12 @@ Footer -->
         <div class="row overview-block-ptb4">
           <div class="col-lg-4 col-sm-6 iq-mtb-20">
             <div class="logo">
-              <img id="footer_logo_img" class="img-fluid rounded" src="images/sagartech.png" alt="#" style="background: white; padding: 5px;">
-              <div class="iq-font-white iq-mt-15" align="justify">Sagar Tech was founded in 2018 by young entrepreneurs with a customer & employee centric mind. Having contributed many services in the IT industry serving clients with services like web development, application development and software product development, we are capable of delivering solutions and exceeding your expectations.</div>
+              <img id="footer_logo_img" class="img-fluid rounded" src="images/sagartech.png" alt="#"
+                style="background: white; padding: 5px;">
+              <div class="iq-font-white iq-mt-15" align="justify">Sagar Tech was founded in 2018 by young entrepreneurs
+                with a customer & employee centric mind. Having contributed many services in the IT industry serving
+                clients with services like web development, application development and software product development, we
+                are capable of delivering solutions and exceeding your expectations.</div>
             </div>
           </div>
 
@@ -560,8 +575,10 @@ Footer -->
             <hr class="iq-mtb-20">
             <ul class="iq-media-blog text-left">
               <li><a href="https://twitter.com/SagarTech2" target="_blank"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/" target="_blank"><i
+                    class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/" target="_blank"><i
+                    class="fa fa-linkedin"></i></a></li>
               <!-- <li><a href="#"><i class="fa fa-github"></i></a></li> -->
             </ul>
           </div>
@@ -581,7 +598,8 @@ Footer -->
               <i aria-hidden="true" class="ion-ios-email-outline"></i>
               <div class="content">
                 <div class="iq-tw-6 title">Mail</div>
-                <div class="iq-mb-0">24 X 7 online support<br><a href="mailto:info@sagartech.co.in" style="color: white;">info@sagartech.co.in</a></div>
+                <div class="iq-mb-0">24 X 7 online support<br><a href="mailto:info@sagartech.co.in"
+                    style="color: white;">info@sagartech.co.in</a></div>
               </div>
             </div>
           </div>
@@ -607,7 +625,8 @@ Footer -->
             <div class="iq-copyright iq-mt-10 iq-font-white">
               Copyright
               <span id="copyright">
-                <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script data-cfasync="false"
+                  src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                 <script>
                   document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
                 </script>
@@ -657,12 +676,12 @@ Footer -->
 
   <script src="/node_modules/readmore-js/readmore.min.js"></script>
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       var showChar = 100;
       var ellipsestext = "...";
       var moretext = "more";
       var lesstext = "less";
-      $('.more').each(function() {
+      $('.more').each(function () {
         var content = $(this).html();
 
         if (content.length > showChar) {
@@ -677,7 +696,7 @@ Footer -->
 
       });
 
-      $(".morelink").click(function() {
+      $(".morelink").click(function () {
         if ($(this).hasClass("less")) {
           $(this).removeClass("less");
           $(this).html(moretext);
@@ -692,7 +711,7 @@ Footer -->
 
       // 	recent posts jquery
 
-      $(".recents").click(function() {
+      $(".recents").click(function () {
 
         $('.posts').html('');
 
@@ -702,14 +721,14 @@ Footer -->
           data: {
             all: 'all'
           },
-          success: function(data) {
+          success: function (data) {
             console.log(data);
             $('.posts').html(data);
           }
         })
 
       })
-      $(".yrClk").on('click', function() {
+      $(".yrClk").on('click', function () {
         var x = $(this).attr('href');
         // console.log(x);
         if ($(x).is(':empty')) {
@@ -719,10 +738,10 @@ Footer -->
             data: {
               year: x
             },
-            success: function(data) {
+            success: function (data) {
               // console.log(data);
               $(x).html(data);
-              $(".mnthClk").on('click', function() {
+              $(".mnthClk").on('click', function () {
                 //console.log('working');
                 var y = $(this).attr('href');
                 var m = y.replace(/^#+/i, '');
@@ -736,13 +755,13 @@ Footer -->
                       month: val[0],
                       yaer: val[1]
                     },
-                    success: function(data) {
+                    success: function (data) {
                       // console.log(data);
                       $(y).html(data);
 
                       var showTitle = 30;
                       var ellipsestext = "...";
-                      $('.pstClk').each(function() {
+                      $('.pstClk').each(function () {
                         var content = $(this).html();
 
                         if (content.length > showTitle) {
@@ -757,7 +776,7 @@ Footer -->
                         }
 
                       });
-                      $('.pstClk').click(function() {
+                      $('.pstClk').click(function () {
 
                         var xid = $(this).attr('href');
                         var id = xid.replace(/^#+/i, '');
@@ -768,14 +787,14 @@ Footer -->
                           data: {
                             title_id: id
                           },
-                          success: function(data) {
+                          success: function (data) {
 
                             $('.posts').html(data);
                             var showChar = 100;
                             var ellipsestext = "...";
                             var moretext = "more";
                             var lesstext = "less";
-                            $('.more').each(function() {
+                            $('.more').each(function () {
                               var content = $(this).html();
 
                               if (content.length > showChar) {
@@ -790,7 +809,7 @@ Footer -->
 
                             });
 
-                            $(".morelink").click(function() {
+                            $(".morelink").click(function () {
                               if ($(this).hasClass("less")) {
                                 $(this).removeClass("less");
                                 $(this).html(moretext);
@@ -816,7 +835,7 @@ Footer -->
 
       //article redirect 
 
-      $('.postId').click(function() {
+      $('.postId').click(function () {
 
         var h = $(this).prop('id');
         // console.log(h);
@@ -828,7 +847,7 @@ Footer -->
         form.submit();
       })
 
-      $('.form_sent').submit(function(e) {
+      $('.form_sent').submit(function (e) {
         e.preventDefault();
         var num = $('#ph_no').val();
         var text = $('#msg_1').val();
@@ -841,7 +860,7 @@ Footer -->
             number: num,
             text: text
           },
-          success: function(data) {
+          success: function (data) {
             if (data.includes('workingmsg-id')) {
               $('#largeModal').modal('hide')
               setTimeout(
@@ -873,25 +892,25 @@ Footer -->
   </script>
 
   <script type="text/javascript">
-    (function() {
-      var options = {
-        whatsapp: "+919820133303", // WhatsApp number
-        call_to_action: "Message us", // Call to action
-        position: "left", // Position may be 'right' or 'left'
-      };
-      var proto = document.location.protocol,
-        host = "getbutton.io",
-        url = proto + "//static." + host;
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function() {
-        WhWidgetSendButton.init(host, proto, options);
-      };
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    })();
+      (function () {
+        var options = {
+          whatsapp: "+919820133303", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol,
+          host = "getbutton.io",
+          url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () {
+          WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      })();
   </script>
   <!-- /WhatsHelp.io widget -->
 </body>
