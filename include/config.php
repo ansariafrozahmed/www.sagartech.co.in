@@ -1,14 +1,14 @@
 <?php
 
-define('DB_SERVER', 'localhost');
-define('DB_USER', 'sagartec_shuja');
-define('DB_PASS', '21);z%FKdcIq');
-define('DB_NAME', 'sagartec_sagartech');
-
 // define('DB_SERVER', 'localhost');
-// define('DB_USER', 'root');
-// define('DB_PASS', '');
+// define('DB_USER', 'sagartec_shuja');
+// define('DB_PASS', '21);z%FKdcIq');
 // define('DB_NAME', 'sagartec_sagartech');
+
+define('DB_SERVER', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'sagartec_sagartech');
 
 $con = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
 // Check connection

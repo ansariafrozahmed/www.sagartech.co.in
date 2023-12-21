@@ -46,11 +46,9 @@ if (curl_errno($ch)) {
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta name="description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
 
-    <meta name="keywords"
-        content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
+    <meta name="keywords" content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
 
@@ -68,8 +66,7 @@ if (curl_errno($ch)) {
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
-    <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta property="og:description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
     <meta property="og:url" content="https://sagartech.co.in/">
     <meta property="og:site_name" content="Sagartech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
@@ -106,6 +103,11 @@ if (curl_errno($ch)) {
     .ba-section p {
         font-size: 18px;
         margin-top: 10px;
+    }
+
+    img {
+        height: auto;
+        width: 100%;
     }
 
     @media (max-width: 767px) {
