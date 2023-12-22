@@ -10,8 +10,7 @@
     <!-- <title>Demo - Bootstrap navbar megamenu dropdown. html code example </title> -->
 
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
     <style type="text/css">
         button:focus {
@@ -296,10 +295,10 @@
     </style>
 
     <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             /////// Prevent closing from click inside dropdown
-            document.querySelectorAll('.dropdown-menu').forEach(function (element) {
-                element.addEventListener('click', function (e) {
+            document.querySelectorAll('.dropdown-menu').forEach(function(element) {
+                element.addEventListener('click', function(e) {
                     e.stopPropagation();
                 });
             })
@@ -311,58 +310,42 @@
 
 <body>
     <!-- ============= COMPONENT ============== -->
-    <nav id="menu-1" class="navbar navbar-expand-lg megaMenus"
-        style="background-color: #2b2a2a; position: relative; z-index: 1; width: 100%;">
+    <nav id="menu-1" class="navbar navbar-expand-lg megaMenus" style="background-color: #2b2a2a; position: relative; z-index: 1; width: 100%;">
         <div class="container-fluid">
             <!-- menu logo -->
             <ul class="menu-logo">
                 <li style="list-style: none;">
                     <a href="https://sagartech.co.in/">
-                        <img id="logo_img" src="images/sagartech.png" class="rounded" alt="logo"
-                            style="background: white; padding: 5px; margin: 10px;width: auto;height: 55px;position: relative;z-index: 1111;">
+                        <img id="logo_img" src="images/sagartech.png" class="rounded" alt="logo" style="background: white; padding: 5px; margin: 10px;width: auto;height: 55px;position: relative;z-index: 1111;">
                     </a>
                 </li>
             </ul>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span style="color: white;" class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="navbar-nav" style="margin-left: auto;">
-                    <li <?php echo ($page == 'home') ? 'class=active' : ''; ?> class="nav-item"> <a class="nav-link"
-                            href="https://sagartech.co.in/">Home </a> </li>
+                    <li <?php echo ($page == 'home') ? 'class=active' : ''; ?> class="nav-item"> <a class="nav-link" href="https://sagartech.co.in/">Home </a> </li>
                     <li style="display: inline-flex;color: white;" <?php echo ($page == 'services') ? 'class=active' : ''; ?> class="nav-item dropdown has-megamenu">
                         <a class="nav-link dgeg" href="digital-marketing-and-web-development-service">Services</a>
                         &nbsp;&nbsp;
                         <!-- <i class="none fa fa-caret-down" style="font-size:24px"></i> -->
-                        <i class="dropdown-toggle dgeg" data-bs-toggle="dropdown"
-                            style="font-size:24px;margin-left: auto;display: block;"></i>
+                        <i class="dropdown-toggle dgeg" data-bs-toggle="dropdown" style="font-size:24px;margin-left: auto;display: block;"></i>
                         <div class="dropdown-menu megamenu" role="menu" style="width:100%; background-color:#2b2a2a;">
                             <div class="row g-3">
                                 <div class="col-lg-2 col-md-12 col-12 mb-2">
                                     <div class="col-megamenu">
-                                        <div class="web-link-item" style="display:flex"><i class="fa fa-file-code-o"
-                                                aria-hidden="true"
-                                                style="padding: 10px 15px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
-                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a
-                                                    style="font-weight: bold;" href="web-design-company-mumbai">Web
+                                        <div class="web-link-item" style="display:flex"><i class="fa fa-file-code-o" aria-hidden="true" style="padding: 10px 15px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
+                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="web-design-company-mumbai">Web
                                                     Development</a></h6>
                                         </div>
-                                        <ul class="list-display list-checkmarks dgdg" data-transition="random"
-                                            data-slotamount="7" data-masterspeed="300"
-                                            style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
-                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a
-                                                    href="domain-registration">Domain Registration</a></li>
-                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a
-                                                    href="web-hosting-service">Web Hosting</li>
-                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a
-                                                    href="web-development-company-mumbai">Static Website</a></li>
-                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a
-                                                    href="dynamic-website-development">Dynamic Website</a></li>
-                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a
-                                                    href="Ecommerce-Website-Design-Service">E-commerce Website</a></li>
-                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a
-                                                    href="blog-website-development">Blog Website</a></li>
+                                        <ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
+                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a href="domain-registration">Domain Registration</a></li>
+                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a href="web-hosting-service">Web Hosting</li>
+                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a href="web-development-company-mumbai">Static Website</a></li>
+                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a href="dynamic-website-development">Dynamic Website</a></li>
+                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a href="Ecommerce-Website-Design-Service">E-commerce Website</a></li>
+                                            <li class="wow fadeInUp fdyet" style="visibility: visible; "><a href="blog-website-development">Blog Website</a></li>
                                         </ul>
                                         <!--<h6 style="display: flex;align-items: center;margin: -12px 0 12px;font-weight: bold;" class="title">CMS</h6>-->
                                         <!--<ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 0px;">-->
@@ -375,36 +358,23 @@
                                 </div><!-- end col-3 -->
                                 <div class="col-lg-2 col-md-12 col-12 mb-2">
                                     <div class="col-megamenu">
-                                        <div class="web-link-item" style="display:flex"><i class="fas fa-bullhorn"
-                                                aria-hidden="true"
-                                                style="padding: 11px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
-                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a
-                                                    style="font-weight: bold;" href="digital-marketing-service">Digital
+                                        <div class="web-link-item" style="display:flex"><i class="fas fa-bullhorn" aria-hidden="true" style="padding: 11px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
+                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="digital-marketing-service">Digital
                                                     Marketing</a></h6>
                                         </div>
-                                        <ul class="list-display list-checkmarks dgdg" data-transition="random"
-                                            data-slotamount="7" data-masterspeed="300"
-                                            style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="seo-service-india">SEO</a></li>
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="social-media-agency-india">SMO</li>
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="local-seo-service-india">Local SEO</a></li>
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="google-ads-service">Google Adwords</li>
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="social-media-marketing-service">SMM</li>
+                                        <ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="seo-service-india">SEO</a></li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="social-media-agency-india">SMO</li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="local-seo-service-india">Local SEO</a></li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="google-ads-service">Google Adwords</li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="social-media-marketing-service">SMM</li>
                                         </ul>
                                     </div> <!-- col-megamenu.// -->
                                 </div><!-- end col-3 -->
                                 <div class="col-lg-2 col-md-12 col-12 mb-2">
                                     <div class="col-megamenu">
-                                        <div class="web-link-item" style="display:flex"><i class="far fa-comment-dots"
-                                                aria-hidden="true"
-                                                style="padding: 12px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
-                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a
-                                                    style="font-weight: bold;" href="bulk-sms-service">Bulk SMS</a></h6>
+                                        <div class="web-link-item" style="display:flex"><i class="far fa-comment-dots" aria-hidden="true" style="padding: 12px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
+                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="bulk-sms-service">Bulk SMS</a></h6>
                                         </div>
                                         <!--<ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">-->
                                         <!--    <li class="wow fadeInUp fdyet gfhdfg" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><a href="">SEO</a></li>-->
@@ -417,35 +387,23 @@
                                 </div>
                                 <div class="col-lg-2 col-md-12 col-12 mb-2">
                                     <div class="col-megamenu">
-                                        <div class="web-link-item" style="display:flex"><i class="far fa-object-group"
-                                                aria-hidden="true"
-                                                style="padding: 12px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
-                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a
-                                                    style="font-weight: bold;" href="graphic-design-service">Graphic
+                                        <div class="web-link-item" style="display:flex"><i class="far fa-object-group" aria-hidden="true" style="padding: 12px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
+                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="graphic-design-service">Graphic
                                                     Designing</a></h6>
                                         </div>
-                                        <ul class="list-display list-checkmarks dgdg" data-transition="random"
-                                            data-slotamount="7" data-masterspeed="300"
-                                            style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="logo-design-service">Logo Designing</a></li>
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="brochure-designing">Brochure Designing</li>
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="post-design">Post Designing</a></li>
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a
-                                                    href="banner-design-company">Banner Designing</li>
+                                        <ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="logo-design-service">Logo Designing</a></li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="brochure-designing">Brochure Designing</li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="post-design">Post Designing</a></li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="banner-design-company">Banner Designing</li>
                                             <!--<li class="wow fadeInUp fdyet gfhdfg" data-wow-delay="4s" style="visibility: visible; animation-delay: 4s; animation-name: fadeInUp;"><a href="Ecommerce-Website-Design-Service">SMM</li>-->
                                         </ul>
                                     </div> <!-- col-megamenu.// -->
                                 </div><!-- end col-3 -->
                                 <div class="col-lg-2 col-md-12 col-12 mb-2">
                                     <div class="col-megamenu">
-                                        <div class="web-link-item" style="display:flex"><i class="fas fa-mobile-alt"
-                                                aria-hidden="true"
-                                                style="padding: 12px 16px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
-                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a
-                                                    style="font-weight: bold;" href="">APP Development</a></h6>
+                                        <div class="web-link-item" style="display:flex"><i class="fas fa-mobile-alt" aria-hidden="true" style="padding: 12px 16px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
+                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="app-development">APP Development</a></h6>
                                         </div>
                                         <!--<ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">-->
                                         <!--    <li class="wow fadeInUp fdyet gfhdfg" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><a href="">SEO</a></li>-->
@@ -458,11 +416,8 @@
                                 </div><!-- end col-3 -->
                                 <div class="col-lg-2 col-md-12 col-12 mb-2">
                                     <div class="col-megamenu">
-                                        <div class="web-link-item" style="display:flex"><i class="fa fa-pencil-square-o"
-                                                aria-hidden="true"
-                                                style="padding: 12px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
-                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a
-                                                    style="font-weight: bold;" href="">ISO Consulting</a></h6>
+                                        <div class="web-link-item" style="display:flex"><i class="fa fa-pencil-square-o" aria-hidden="true" style="padding: 12px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
+                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="">ISO Consulting</a></h6>
                                         </div>
                                         <!--<ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">-->
                                         <!--    <li class="wow fadeInUp fdyet gfhdfg" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><a href="">SEO</a></li>-->
@@ -476,19 +431,12 @@
                             </div><!-- end row -->
                         </div> <!-- dropdown-mega-menu.// -->
                     </li>
-                    <li <?php echo ($page == 'packages') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link"
-                            href="digital-marketing-agency-mumbai-packages"> Packages </a></li>
-                    <li <?php echo ($page == 'portfolio') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link"
-                            href="sagar-tech-website-portfolio">Portfolio</a></li>
-                    <li <?php echo ($page == 'about') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link"
-                            href="about">About Us</a></li>
-                    <li <?php echo ($page == 'contact') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link"
-                            href="contact"> Contact Us </a></li>
-                    <li <?php echo ($page == 'blogs') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link"
-                            href="https://sagartech.co.in/blog">Blogs</a></li>
-                    <li class="active fvgdgt" style="height: 35px;"><a class="gfrsyy"
-                            style="text-decoration: none;color:white;text-transform:uppercase;" href="#"
-                            data-toggle="modal" data-target="#largeModal">Request Quote!</a></i>
+                    <li <?php echo ($page == 'packages') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="digital-marketing-agency-mumbai-packages"> Packages </a></li>
+                    <li <?php echo ($page == 'portfolio') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="sagar-tech-website-portfolio">Portfolio</a></li>
+                    <li <?php echo ($page == 'about') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="about">About Us</a></li>
+                    <li <?php echo ($page == 'contact') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="contact"> Contact Us </a></li>
+                    <li <?php echo ($page == 'blogs') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="https://sagartech.co.in/blog">Blogs</a></li>
+                    <li class="active fvgdgt" style="height: 35px;"><a class="gfrsyy" style="text-decoration: none;color:white;text-transform:uppercase;" href="#" data-toggle="modal" data-target="#largeModal">Request Quote!</a></i>
                 </ul>
             </div> <!-- navbar-collapse.// -->
         </div> <!-- container-fluid.// -->
@@ -506,8 +454,7 @@
 
 
 
-    <div class="modal fade" id="bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true">
+    <div class="modal fade" id="bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -547,15 +494,13 @@
                             <div class="col-md-12">
                                 <div class="form-group text-left">
                                     <label for="fname">Full Name</label>
-                                    <input type="text" class="form-control" name="fname" id="fname"
-                                        aria-describedby="emailHelp" placeholder="Enter full name" required>
+                                    <input type="text" class="form-control" name="fname" id="fname" aria-describedby="emailHelp" placeholder="Enter full name" required>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group text-left">
                                     <label for="email1">Email address</label>
-                                    <input type="email" class="form-control" id="email1" name="email1"
-                                        aria-describedby="emailHelp" placeholder="Enter email" required>
+                                    <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter email" required>
                                     <!-- <small id="emailHelp" class="form-text text-muted">Your information is safe with
                                         us.</small> -->
                                 </div>
@@ -565,16 +510,13 @@
                             <div class="col-md-12">
                                 <div class="form-group text-left">
                                     <label for="mobile">Contact Number</label>
-                                    <input type="number" class="form-control" name="mobile" id="mobile" min-length="10"
-                                        max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number"
-                                        required>
+                                    <input type="number" class="form-control" name="mobile" id="mobile" min-length="10" max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number" required>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group text-left">
                                     <label for="services">Requested Service</label>
-                                    <select class="form-control" name="service" id="services" list="service"
-                                        placeholder="Select Service" required>
+                                    <select class="form-control" name="service" id="services" list="service" placeholder="Select Service" required>
                                         <datalist id="service">
                                             <option>Website Development</option>
                                             <option>Digital Marketing</option>
@@ -591,24 +533,21 @@
                             <div class="col-md-12">
                                 <div class="form-group text-left">
                                     <label for="service">Adittional Words</label>
-                                    <textarea class="form-control" rows="3" id="words" name="addwords"
-                                        required></textarea>
+                                    <textarea class="form-control" rows="3" id="words" name="addwords" required></textarea>
                                 </div>
                             </div>
                         </div>
                         <!-- <button class="g-recaptcha" data-sitekey="reCAPTCHA_site_key" data-callback='onSubmit' data-action='submit'>Submit</button> -->
                         <div class="modal-footer border-top-0 d-flex justify-content-center">
                             <button type="submit" name="quote_submit" class="btn btn-success">Submit</button>
-                            <button type="button" class="btn btn-success" data-dismiss="modal"><i
-                                    class="glyphicon glyphicon-remove"></i> Close</button>
+                            <button type="button" class="btn btn-success" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Close</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog"
-        aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm text-center">
             <div class="modal-content text-center">
                 <div class="modal-header text-center">
@@ -656,10 +595,8 @@
                     <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
                     <ul class="iq-media-blog iq-mt-20">
                         <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i
-                                    class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i
-                                    class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i class="fa fa-facebook "></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="# "><i class="fa fa-github "></i></a></li>
                     </ul>
                 </div>
@@ -670,11 +607,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="js/jquery.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
 
             // Gets the video src from the data-src on each button
             var $imageSrc;
-            $('.gallery img').click(function () {
+            $('.gallery img').click(function() {
                 $imageSrc = $(this).data('bigimage');
             });
             console.log($imageSrc);
@@ -682,7 +619,7 @@
 
 
             // when the modal is opened autoplay it  
-            $('#myModal').on('shown.bs.modal', function (e) {
+            $('#myModal').on('shown.bs.modal', function(e) {
 
                 // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
 
@@ -691,7 +628,7 @@
 
 
             // reset the modal image
-            $('#myModal').on('hide.bs.modal', function (e) {
+            $('#myModal').on('hide.bs.modal', function(e) {
                 // a poor man's stop video
                 $("#image").attr('src', '');
             })

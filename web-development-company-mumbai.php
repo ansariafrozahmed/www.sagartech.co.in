@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <title>Web development company in mumbai | Sagartech</title>
+    <title>No. 1 Web Development Agency in Mumbai </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Sagartech web development company in mumbai provide website in 2 to 4 days with affordable price. Visit our website to now more about our service.">
     <meta name="keywords" content="web development company">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="web development company in mumbai | Sagartech">
-        <meta property="og:url" content="https://sagartech.co.in/web-development-company-mumbai">
-        <meta property="og:image" content="https://sagartech.co.in/images/bg/metastatic.png">
-        <meta property="og:description" content="Sagartech web development company in mumbai provide website in 2 to 4 days with affordable price. Visit our website to now more about our service.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="web development company in mumbai | Sagartech">
+    <meta property="og:url" content="https://sagartech.co.in/web-development-company-mumbai">
+    <meta property="og:image" content="https://sagartech.co.in/images/bg/metastatic.png">
+    <meta property="og:description" content="Sagartech web development company in mumbai provide website in 2 to 4 days with affordable price. Visit our website to now more about our service.">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
@@ -336,7 +336,7 @@ Action Box -->
                     </div>
                     <div class="col-lg-4 mb-4 wow fadeInDown sdffre" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInDown;">
                         <div class="cardz dfsdf">
-                           
+
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 mb-4">
@@ -347,7 +347,7 @@ Action Box -->
                     </div>
                     <div class="col-lg-4 mb-4 wow fadeInDown sdffre" data-wow-duration="1.0s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInDown;">
                         <div class="cardz dfsdf">
-                           
+
                         </div>
                     </div>
                     <div class="col-lg-12 col-md-12 mb-4">
@@ -359,7 +359,7 @@ Action Box -->
             </div>
 
 
-            
+
     </div>
     </section>
 
@@ -511,7 +511,7 @@ Action Box -->
     <!--                             <span class="c-faq__title q6">When Is Payment Required For Your Website?</span>-->
 
     <!--                           </li>-->
-    <!--                       </ul>  <!-- /end c-faqs -->
+    <!--                       </ul>  /end c-faqs -->
     <!--                   </div>-->
     <!--                   <div class="col-md-6">-->
     <!--                       <div class="c-faq__answer faqans" id="q1">Yes we do have design templates for various domains. We can design your Website using the design templates or make Customized Design as per your requirement, <a href="portfolio">click</a> to see our work.</div>-->
@@ -622,16 +622,13 @@ Footer -->
     </style>
     <section class="faq" id="faqsection" style="padding: 40px 0px 0px;">
         <div class="container">
-            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container wow fadeInUp"
-                style="margin-bottom: 30px;">
+            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container wow fadeInUp" style="margin-bottom: 30px;">
                 <div class="col-md-12 text-center pb-4">
-                    <h3 class="abel"><i><img src="images/faq.png" alt="faq"
-                                class="img-fluid fimg"></i>&nbsp;&nbsp;&nbsp;Frequently Asked Questions</h3>
+                    <h3 class="abel"><i><img src="images/faq.png" alt="faq" class="img-fluid fimg"></i>&nbsp;&nbsp;&nbsp;Frequently Asked Questions</h3>
                 </div>
                 <button class="accordion w3-animate-bottom">What is a static website and how does it differ from a dynamic website?</button>
                 <div class="panel">
-                    <div id="1471940310033-e04cce97-a81d"
-                        class="vc_toggle vc_toggle_square vc_toggle_color_black vc_toggle_color_inverted vc_toggle_size_md vc_toggle_active" style="display:flex">
+                    <div id="1471940310033-e04cce97-a81d" class="vc_toggle vc_toggle_square vc_toggle_color_black vc_toggle_color_inverted vc_toggle_size_md vc_toggle_active" style="display:flex">
                         <i class='far fa-arrow-alt-circle-right' style='font-size:30px'></i>&nbsp;&nbsp;
                         <p>A static website is a website that consists of HTML, CSS, and JavaScript files that are served to the client's browser exactly as they are stored. The content and appearance of the website do not change unless the underlying code is manually altered. Dynamic websites, on the other hand, generate content on the fly in response to user actions, such as clicking buttons or submitting forms, using server-side scripts and databases.</p>
                     </div>
@@ -639,8 +636,7 @@ Footer -->
 
                 <button class="accordion w3-animate-bottom">What are the limitations of a static website?</button>
                 <div class="panel">
-                    <div id="1471940310033-e04cce97-a81d"
-                        class="vc_toggle vc_toggle_square vc_toggle_color_black vc_toggle_color_inverted vc_toggle_size_md vc_toggle_active" style="display:flex"> 
+                    <div id="1471940310033-e04cce97-a81d" class="vc_toggle vc_toggle_square vc_toggle_color_black vc_toggle_color_inverted vc_toggle_size_md vc_toggle_active" style="display:flex">
                         <i class='far fa-arrow-alt-circle-right' style='font-size:30px'></i>&nbsp;&nbsp;
                         <p>The main limitation of a static website is that it does not support dynamic content or user interactions. For example, you cannot have a contact form that sends an email to the website owner, or an e-commerce platform that allows users to purchase products online. If you need these types of features, you will need to use a dynamic website or add dynamic functionality to your static website using JavaScript. Additionally, static websites cannot store user data, so they are not suitable for sites that need to remember user preferences or provide personalized content.</p>
                     </div>
@@ -653,7 +649,7 @@ Footer -->
         var i;
 
         for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
+            acc[i].addEventListener("click", function() {
                 this.classList.toggle("actives");
                 var panel = this.nextElementSibling;
 
@@ -663,7 +659,7 @@ Footer -->
                     panel.style.maxHeight = panel.scrollHeight + "px";
                 }
             });
-        }        
+        }
     </script>
     <?php include("include/footer.php"); ?>
 

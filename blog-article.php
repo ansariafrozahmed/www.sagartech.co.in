@@ -1,7 +1,8 @@
 <?php
 
-$api_endpoint = 'https://sagartech.online/ansariafroz/wp-json/wp/v2/posts';
-$id_to_fetch = $_GET['id'];
+$id = $_GET['id'];
+$api_endpoint = "https://sagartech.co.in/blogs/wp-json/wp/v2/posts/$id";
+
 
 // Create cURL session
 $ch = curl_init();
@@ -25,13 +26,14 @@ if (curl_errno($ch)) {
     $data = json_decode($response, true);
 
     // Filter the data based on the desired ID
-    $filtered_data = array_filter($data, function ($item) use ($id_to_fetch) {
-        return $item['id'] == $id_to_fetch;
-    });
+    // $filtered_data = array_filter($data, function ($item) use ($id_to_fetch) {
+    //     return $item['id'] == $id_to_fetch;
+    // });
 
     // Print the filtered data
     // echo '<pre>';
     // print_r($filtered_data);
+    // die;
 }
 
 ?>
@@ -139,19 +141,17 @@ if (curl_errno($ch)) {
     <section class="ba-section">
         <div style="padding-bottom: 50px;">
             <h1 style="padding-bottom: 10px;">
-                <?php echo $filtered_data[0]['title']['rendered'] ?>
+                <?php echo $data['title']['rendered'] ?>
             </h1>
             <!-- Introduction -->
-            <?php echo $filtered_data[0]['content']['rendered'] ?>
+            <?php echo $data['content']['rendered'] ?>
         </div>
         <hr>
         <div>
             <p style="font-size:18px; color: red;">
                 <?php
-
-
                 // Convert the numeric date to a string in the desired format
-                $stringDate = date('F j, Y', strtotime($filtered_data[0]['date']));
+                $stringDate = date('F j, Y', strtotime($data['date']));
 
                 // Output the result
                 echo $stringDate;

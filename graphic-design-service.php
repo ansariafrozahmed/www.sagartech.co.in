@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Graphic Design Service in India | Sagartech.</title>
+    <title>#1 Graphic Design Services Company In India | Sagartech</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Looking for a creative graphic design service? Sagar Tech provide u best graphic designs such as Logo design, Brochure Design, Post Design, Banner Design and more.">
-    <meta name="keywords" content="graphic design service">
-    
-    
+    <meta name="description" content="Transform your brand into a visual masterpiece with Sagar Tech graphic design services. Our team is all about turning your ideas into unforgettable designs.">
+    <meta name="keywords" content="graphic design services">
+
+
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Graphic Design Service in India | Sagartech.">
+    <meta property="og:title" content="#1 Graphic Design Services Company In India | Sagartech">
     <meta property="og:url" content="https://sagartech.co.in/graphic-design-service">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/graphic-logo.png">
-    <meta property="og:description" content="Looking for a creative graphic design service? Sagar Tech provide u best graphic designs such as Logo design, Brochure Design, Post Design, Banner Design and more.">
+    <meta property="og:description" content="Transform your brand into a visual masterpiece with Sagar Tech graphic design services. Our team is all about turning your ideas into unforgettable designs.">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="css/web-dev.css" ype="text/css">
     <link href="css/newcssresponsive.css" rel="stylesheet" type="text/css" />
 </head>
+<style>
+</style>
 
 <body>
     <!-- loading -->
@@ -66,74 +68,184 @@ MAIN CONTENT -->
         <section class="iq-action-blog overview-block-pt particles-bg newsection-st" style="margin: 0px 0px 70px 0px;">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="iq-tw-6 small-title iq-font-dark">Graphic Designer in Mumbai</h2>
-                </div>
-            </div>
-
-    </div>
-    </section>
-
-<!--===============Services ==================-->
-        <section class="web-service-color" style="background:url(images/bg/bg-service.jpg);">
-            <div class="container">
-                <h2 style="margin-bottom: 50px;" class="iq-tw-6 small-title iq-font-dark">Our Graphic Designing Services</h2>
-                <!--<h1 class="text-center web-service-heading">Web Designers in Mumbai</h1>             -->
-                <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-duration="1.0s">
-                        <a href="logo-design-service">
-                            <div class="cardz services-hover">
-                                <i class="fas fa-vector-square services-onhover" aria-hidden="true"
-                                    style="font-size: 120px;"></i>
-                                <div class="card-body">
-                                    <h4 class="card-title services-onhover iq-tw-6" style=""
-                                        class="card-title text-center">Logo Designing</h4>
-                                    <p class="card-text services-onhover" style="text-align:center !important;"></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 mb-4 wow fadeInDown" data-wow-duration="1.0s" style="">
-                        <a href="brochure-designing">
-                            <div class="cardz">
-                                <i class="fas fa-draw-polygon" aria-hidden="true"
-                                        style="font-size: 120px;"></i>
-                                <div class="card-body">
-                                    <h4 class="card-title text-center iq-tw-6">Brochure Designing</h4>
-                                    <p class="card-text" style="text-align:center !important;"></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 mb-4 wow fadeInDown" data-wow-duration="1.0s" style="">
-                        <a href="post-design">
-                            <div class="cardz">
-                                <i class="fas fa-object-group" aria-hidden="true"
-                                        style="font-size: 120px;"></i>
-                                <div class="card-body">
-                                    <h4 class="card-title text-center iq-tw-6">Post Designing</h4>
-                                    <p class="card-text" style="text-align:center !important;"></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-duration="1.0s"
-                        style="margin-bottom:25px">
-                        <a href="banner-design-company">
-                            <div class="cardz services-hover">
-                                <i class="fas fa-object-ungroup services-onhover" aria-hidden="true"
-                                    style="font-size: 120px;"></i>
-                                <div class="card-body">
-                                    <h4 class="card-title services-onhover iq-tw-6" style=""
-                                        class="card-title text-center">Banner Designing</h4>
-                                    <p class="card-text services-onhover" style="text-align:center !important;"></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                    <h1 class="iq-tw-6 small-title iq-font-dark" style="padding: 0 30px;">#1 Graphic Designing Company In Mumbai</h1>
                 </div>
             </div>
         </section>
-        <!--===============Service ==================-->
+    </div>
+
+    <style>
+        .main-content-web {
+            padding: 50px 100px;
+        }
+
+        .main-content-web p {
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        .second-content-web h1 {
+            font-weight: 600;
+            font-size: 35px;
+            margin-bottom: 5px;
+        }
+
+        .second-content-web h2 {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .second-content-web h6 {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 5px 0;
+        }
+
+        .second-content-web h5 {
+            font-size: 17px;
+        }
+
+        .second-content-web h4 {
+            font-weight: 600;
+        }
+
+        .third-content-web {
+            margin-top: 15px;
+        }
+
+        .third-content-web h4 {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width:767px) {
+            .main-content-web {
+                padding: 20px;
+            }
+
+            .main-content-web p {
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+
+            .second-content-web h1 {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: normal;
+                margin-bottom: 5px;
+            }
+
+            .second-content-web h6 {
+                font-size: 16px;
+                font-weight: 600;
+                margin: 5px 0;
+            }
+
+            .second-content-web h5 {
+                font-size: 17px;
+            }
+
+            .second-content-web h4 {
+                font-weight: 600;
+            }
+
+            .third-content-web {
+                margin-top: 15px;
+            }
+
+            .third-content-web h4 {
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+    <div class="main-content-web">
+        <div class="second-content-web">
+            <h2>Why Graphic Design Services Is Important For Your Business</h2>
+            <p>At Sagar Tech - Technical Solutions, we understand the power of visual communication in today's dynamic business landscape. In a world driven by visuals, a compelling graphic design is the key to making a lasting impression and standing out from the crowd. We are your trusted partner in bringing your brand to life through innovative and impactful graphic design services.</p>
+            <!-- ------------------------------ -->
+            <h2>Why Graphic Design Services Matters :</h2>
+            <p>In the digital age, where attention spans are shorter than ever, a well-crafted visual identity is crucial for capturing your audience's attention and conveying your message effectively. Whether you are a start-up looking to establish your brand or an established business aiming to refresh your image, our graphic design services are tailored to meet your unique needs.</p>
+            <!-- ------------------------------ -->
+            <h2>Our Graphic Design Services :</h2>
+            <h6>1. Logo Design:</h6>
+            <p>Your logo is the face of your brand. Our expert designers work collaboratively with you to create a distinctive and memorable logo that reflects your brand identity and values.</p>
+            <h6>2. Branding and Identity:</h6>
+            <p>Graphic Design Services are beyond just logos, diving deep into your brand to develop a cohesive visual identity. From colour schemes to typography, we ensure consistency across all your branding materials.</p>
+            <h6>3. Print Design:</h6>
+            <p>From business cards and brochures to posters and banners, our graphic design services are aimed at making your offline presence as impactful as your online presence.</p>
+            <h6>4. Web Design:</h6>
+            <p>In the digital realm, your website is often the first interaction a potential customer has with your brand. Our web design services focus on creating visually appealing, user-friendly websites that leave a lasting impression.</p>
+            <h6>5. Social Media Graphics:</h6>
+            <p>In the age of social media, eye-catching graphics are essential for engagement. We create stunning visuals optimiSed for various social media platforms to boost your online presence.</p>
+            <!-- ----------------------- -->
+            <h4>Why Choose Us Graphic Design Services :</h4>
+            <h6>1. Creative Excellence:</h6>
+            <p>Our team of skilled and experienced graphic designers is committed to delivering designs that not only meet but exceed your expectations. That makes us one of the best graphic design companies in india. We believe in pushing creative boundaries to provide you with unique and memorable visuals</p>
+            <h6>2. Client-Centric Approach:</h6>
+            <p>Your satisfaction is our priority. We work closely with you, understanding your vision and incorporating your feedback at every step of the design process to ensure the final product aligns perfectly with your brand identity.</p>
+            <h6>3. Timely Delivery:</h6>
+            <p>We understand the importance of deadlines. Our efficient workflow and commitment to timelines ensure that you receive your designs promptly without compromising on quality.</p>
+        </div>
+        <div class="third-content-web">
+            <p>Elevate your brand with our top-notch graphic design services. Contact us today to discuss your project and let us turn your vision into a visually stunning reality. At Sagar Tech - Technical Solutions, we don't just design; we create experiences.</p>
+        </div>
+    </div>
+
+    <!--===============Services ==================-->
+    <section class="web-service-color" style="background:url(images/bg/bg-service.jpg);">
+        <div class="container">
+            <h2 style="margin-bottom: 50px;" class="iq-tw-6 small-title iq-font-dark">Our Graphic Designing Services</h2>
+            <!--<h1 class="text-center web-service-heading">Web Designers in Mumbai</h1>             -->
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-duration="1.0s">
+                    <a href="logo-design-service">
+                        <div class="cardz services-hover">
+                            <i class="fas fa-vector-square services-onhover" aria-hidden="true" style="font-size: 120px;"></i>
+                            <div class="card-body">
+                                <h4 class="card-title services-onhover iq-tw-6" style="" class="card-title text-center">Logo Designing</h4>
+                                <p class="card-text services-onhover" style="text-align:center !important;"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4 wow fadeInDown" data-wow-duration="1.0s" style="">
+                    <a href="brochure-designing">
+                        <div class="cardz">
+                            <i class="fas fa-draw-polygon" aria-hidden="true" style="font-size: 120px;"></i>
+                            <div class="card-body">
+                                <h4 class="card-title text-center iq-tw-6">Brochure Designing</h4>
+                                <p class="card-text" style="text-align:center !important;"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4 wow fadeInDown" data-wow-duration="1.0s" style="">
+                    <a href="post-design">
+                        <div class="cardz">
+                            <i class="fas fa-object-group" aria-hidden="true" style="font-size: 120px;"></i>
+                            <div class="card-body">
+                                <h4 class="card-title text-center iq-tw-6">Post Designing</h4>
+                                <p class="card-text" style="text-align:center !important;"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-duration="1.0s" style="margin-bottom:25px">
+                    <a href="banner-design-company">
+                        <div class="cardz services-hover">
+                            <i class="fas fa-object-ungroup services-onhover" aria-hidden="true" style="font-size: 120px;"></i>
+                            <div class="card-body">
+                                <h4 class="card-title services-onhover iq-tw-6" style="" class="card-title text-center">Banner Designing</h4>
+                                <p class="card-text services-onhover" style="text-align:center !important;"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===============Service ==================-->
 
 
 
