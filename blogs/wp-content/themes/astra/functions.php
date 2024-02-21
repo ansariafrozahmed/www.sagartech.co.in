@@ -15,17 +15,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Define Constants
  */
-define( 'ASTRA_THEME_VERSION', '4.0.2' );
+define( 'ASTRA_THEME_VERSION', '4.5.2' );
 define( 'ASTRA_THEME_SETTINGS', 'astra-settings' );
 define( 'ASTRA_THEME_DIR', trailingslashit( get_template_directory() ) );
 define( 'ASTRA_THEME_URI', trailingslashit( esc_url( get_template_directory_uri() ) ) );
-define( 'ASTRA_PRO_UPGRADE_URL', 'https://wpastra.com/pro/?utm_source=wp&utm_medium=dashboard' );
 
 /**
  * Minimum Version requirement of the Astra Pro addon.
  * This constant will be used to display the notice asking user to update the Astra addon to the version defined below.
  */
-define( 'ASTRA_EXT_MIN_VER', '4.0.0' );
+define( 'ASTRA_EXT_MIN_VER', '4.5.0' );
 
 /**
  * Setup helper functions of Astra.
@@ -34,6 +33,9 @@ require_once ASTRA_THEME_DIR . 'inc/core/class-astra-theme-options.php';
 require_once ASTRA_THEME_DIR . 'inc/core/class-theme-strings.php';
 require_once ASTRA_THEME_DIR . 'inc/core/common-functions.php';
 require_once ASTRA_THEME_DIR . 'inc/core/class-astra-icons.php';
+
+define( 'ASTRA_PRO_UPGRADE_URL', astra_get_pro_url( 'https://wpastra.com/pro/', 'dashboard', 'free-theme', 'upgrade-now' ) );
+define( 'ASTRA_PRO_CUSTOMIZER_UPGRADE_URL', astra_get_pro_url( 'https://wpastra.com/pro/', 'customizer', 'free-theme', 'upgrade' ) );
 
 /**
  * Update theme
@@ -152,6 +154,7 @@ require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-ubermeu.php';
 require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-divi-builder.php';
 require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-amp.php';
 require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-yoast-seo.php';
+require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-surecart.php';
 require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-starter-content.php';
 require_once ASTRA_THEME_DIR . 'inc/addons/transparent-header/class-astra-ext-transparent-header.php';
 require_once ASTRA_THEME_DIR . 'inc/addons/breadcrumbs/class-astra-breadcrumbs.php';
@@ -166,7 +169,7 @@ if ( version_compare( PHP_VERSION, '5.4', '>=' ) ) {
 	require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-web-stories.php';
 }
 
-// Beaver Themer compatibility requires PHP 5.3 for anonymus functions.
+// Beaver Themer compatibility requires PHP 5.3 for anonymous functions.
 if ( version_compare( PHP_VERSION, '5.3', '>=' ) ) {
 	require_once ASTRA_THEME_DIR . 'inc/compatibility/class-astra-beaver-themer.php';
 }
@@ -179,3 +182,22 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+add_action('rest_api_init', 'register_rest_images' );
+function register_rest_images(){
+    register_rest_field( array('post'),
+        'fimg_url',
+        array(
+            'get_callback'    => 'get_rest_featured_image',
+            'update_callback' => null,
+            'schema'          => null,
+        )
+    );
+}
+function get_rest_featured_image( $object, $field_name, $request ) {
+    if( $object['featured_media'] ){
+        $img = wp_get_attachment_image_src( $object['featured_media'], 'app-thumb' );
+        return $img[0];
+    }
+    return false;
+}

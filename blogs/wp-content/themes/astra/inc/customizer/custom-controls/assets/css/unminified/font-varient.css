@@ -1,3 +1,7 @@
+.ast-customizer-font-varient-wrap {
+	margin-top: 12px;
+}
+
 .ast-customizer-font-varient-wrap .ast-multi-select__value-container {
     overflow-x: hidden;
     flex-wrap: nowrap;
@@ -63,4 +67,19 @@
     background: linear-gradient(90deg, rgba(247,247,247,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
     pointer-events: none;
     z-index: 1;
+}
+
+#customize-control-astra-settings-ast-headings-font-settings .ast-fields-wrap,
+#customize-control-astra-settings-ast-body-font-settings .ast-fields-wrap {
+    overflow: visible;
+}
+
+/**
+ * Hide normal font weight from font weight dropdown and display only if its set as font weight.
+ */
+.customize-control-ast-font select option[value="normal"], .customize-control-ast-font select[data-value="normal"] option[value="400"] {
+    display: none;
+}
+.customize-control-ast-font select[data-value="normal"] option[value="normal"] {
+    display: block;
 }

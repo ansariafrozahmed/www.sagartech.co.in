@@ -70,6 +70,28 @@ Import Css
 @import url("shortcodes.css");
 @import url("style-customizer.css");
 
+
+/* -------------------------------------------------------------- */
+/* TECH STACK */
+
+.tech-stack {
+	padding:50px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.tech-stack img {
+	height: 70px;
+	width: 70px;
+}
+
+@media (max-width: 767px){
+	.tech-stack {
+		padding:20px;
+	}
+}
+
 /*---------------------------------------------------------------------
 General
 -----------------------------------------------------------------------*/

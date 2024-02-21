@@ -76,7 +76,7 @@
 								  currently supported by Chrome and Opera */
 }
 </Style>
-<body onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1" onselectstart="return!1" ondragstart="return!1">
+<body>
     <!-- loading -->
     <div id="loading">
         <div id="loading-center">
@@ -100,7 +100,9 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- HEADER  -->
     <?php 
     $page = 'contact';
-    include("include/trialh.php"); ?>
+    // include("include/trialh.php");
+    include 'include/newHeader.php';
+    ?>
     <!-- /HEADER END -->
     <!-- search -->
     <!-- <div class="search">
@@ -128,7 +130,7 @@ s0.parentNode.insertBefore(s1,s0);
     </div> -->
     <!-- /search END -->
     <!--======= Breadcrumb Left With BG Image =======-->
-    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
+    <!-- <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
         style="background-image: url('images/bg/contact-slider-page.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <div class="row align-items-center">
@@ -141,7 +143,7 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--======= Breadcrumb Left With BG Image =======-->
     
     <!--=================================
@@ -190,18 +192,20 @@ MAIN CONTENT -->
                                     </div>
                                     
                                     <div class="contact-box right media-body">
-                                        <h5 class="iq-tw-6">Registered Address</h5>
-                                        <p>Dudhwala Complex, D/1304, Bellasis Road, RBI Staff Colony, Mumbai Central, Mumbai – 400008, Maharashtra, INDIA.</p>
+                                        <h5 class="iq-tw-6">India Address</h5>
+                                        <p>501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai - 400009</p>
+                                        <p style="margin-top:-10px; color:#ff0808;"><a href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></p>
                                     </div>
                                 </div>
-                                <div class="iq-contact-box media">
+                                <div class="iq-contact-box media" style="margin-top:15px;">
                                     <div class="iq-icon left">
                                         <i aria-hidden="true" class="ion-ios-location-outline"></i>
                                     </div>
                                     
                                     <div class="contact-box right media-body">
-                                        <h5 class="iq-tw-6">Office Address</h5>
-                                        <p>501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai - 400009</p>
+                                        <h5 class="iq-tw-6">Dubai Address</h5>
+                                        <p>Po box 7152 dubai UAE</p>
+                                        <p style="margin-top:-10px; color:#ff0808;"><a href="mailto:info@sagartech.ae">info@sagartech.ae</a></p>
                                     </div>
                                 </div>
                                 <div class=".iq-contact-box right media iq-mt-40">
@@ -215,7 +219,7 @@ MAIN CONTENT -->
                                         <div class="iq-mb-0">Mon-Fri 9:00am - 6:00pm</div>
                                     </div>
                                 </div>
-                                <div class=".iq-contact-box right media iq-mt-40">
+                                <!-- <div class=".iq-contact-box right media iq-mt-40">
                                     <div class="iq-icon left">
                                         <i aria-hidden="true" class="ion-ios-email-outline"></i>
                                     </div>
@@ -224,13 +228,11 @@ MAIN CONTENT -->
                                         <span class="lead iq-tw-5"><a href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></span>
                                         <div class="iq-mb-0">24 X 7 online support<br></div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <ul class="info-share list-inline">
-                                    <li class="list-inline-item"><a href="https://twitter.com/SagarTech2" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.facebook.com/Sagar-Tech-223839251868625/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.facebook.com/sagartechwebdevelopersmumbai" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                     <li class="list-inline-item"><a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                     <li class="list-inline-item"><a href="https://www.instagram.com/sagartechsolutions/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                    <a href="https://www.sulekha.com/sagar-tech-technical-solutions-mumbai-central-mumbai-contact-address" target="_blank"><img class="sulekha-icon" src="images/bg/og-sulekha-logo.png"></a>
                                 </ul>
                             </div>
                         </div>
@@ -249,32 +251,7 @@ MAIN CONTENT -->
                                                                                     
                                                                                     
 Action Box -->
-        <div class="iq-action-blog black-bg particles-bg iq-ptb-40">
-            <canvas id="canvas"></canvas>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 mb-5 iq-font-white">
-                        <img style="border-radius:10px" class="card-img-top img-fluid" src="images/bg/web-design-contact.jpg" alt="Card image cap">
-                    </div>
-                    <div class="col-lg-6 iq-font-white">
-                        <h1 class="iq-font-white iq-fw-4 iq-pb-10" style="font-weight: 500;">Website Designers and Developers in Mumbai<strong class="iq-font-black"></strong></h1>
-                        <div align="justify">
-                            <p>
-                                We, Sagar Tech are holding a good position in South Mumbai as Web Designers and Developers. 
-                                We are having 5 star ratings on Google, our motto is client satisfaction. The most important is our after sales service. 
-                                We hold our clients hand till they do need us in anyway. We do all that is possible to satisfy our clients. 
-                                We cater in 3 areas specifically viz. Web Development, Digital Marketing, Mobile App Development. <strong> 
-                                <!--<a href="https://www.optimizely.com/optimization-glossary/content-management-system/">content management system</a>, -->
-                                <!--<a href="https://wordpress.org/" target="_blank" rel="noopener">wordpress</a></strong>, -->
-                            </p>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-2 col-md-3 text-right"><a href="about.html" class="button white grey iq-re-4-mt30 iq-mr-0">Read More</a> </div> -->
-                </div>
-            </div>
-            <!--=================================
-Action Box -->
-        </div>
+        
         <!--=================================
 Main Content -->
         <!--=================================

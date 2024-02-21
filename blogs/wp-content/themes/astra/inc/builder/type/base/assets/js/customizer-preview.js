@@ -157,14 +157,6 @@ function astra_builder_button_css( builder_type = 'header', button_count ) {
 
 		astra_font_extras_css( builder_type + '-' + prefix + '-font-extras', button_selector + ' .ast-custom-button' );
 
-		// Border Radius.
-		astra_css(
-			'astra-settings[' + builder_type + '-' + prefix + '-border-radius]',
-			'border-radius',
-			selector + ' .ast-custom-button',
-			'px'
-		);
-
 		// Border Color.
 		astra_color_responsive_css(
 			context + '-button-border-color',
@@ -186,6 +178,25 @@ function astra_builder_button_css( builder_type = 'header', button_count ) {
 		astra_builder_visibility_css( section, selector, 'block' );
 
 		(function (index) {
+			// Builder Type Border Radius Fields
+			wp.customize('astra-settings[' + builder_type + '-button' + index + '-border-radius-fields]', function (setting) {
+				setting.bind(function (border) {
+					let globalSelector = '.ast-' + builder_type + '-button-'+ index +' .ast-custom-button';
+					let dynamicStyle = globalSelector + '{ border-top-left-radius :' + border['desktop']['top'] + border['desktop-unit']
+							+ '; border-bottom-right-radius :' + border['desktop']['bottom'] + border['desktop-unit'] + '; border-bottom-left-radius :'
+							+ border['desktop']['left'] + border['desktop-unit'] + '; border-top-right-radius :' + border['desktop']['right'] + border['desktop-unit'] + '; } ';
+
+					dynamicStyle += '@media (max-width: ' + tablet_break_point + 'px) { ' + globalSelector + '{ border-top-left-radius :' + border['tablet']['top'] + border['tablet-unit']
+							+ '; border-bottom-right-radius :' + border['tablet']['bottom'] + border['tablet-unit'] + '; border-bottom-left-radius :'
+							+ border['tablet']['left'] + border['tablet-unit'] + '; border-top-right-radius :' + border['tablet']['right'] + border['tablet-unit'] + '; } } ';
+
+					dynamicStyle += '@media (max-width: ' + mobile_break_point + 'px) { ' + globalSelector + '{ border-top-left-radius :' + border['mobile']['top'] + border['mobile-unit']
+							+ '; border-bottom-right-radius :' + border['mobile']['bottom'] + border['mobile-unit'] + '; border-bottom-left-radius :'
+							+ border['mobile']['left'] + border['mobile-unit'] + '; border-top-right-radius :' + border['mobile']['right'] + border['mobile-unit'] + '; } } ';
+
+					astra_add_dynamic_css( 'astra-settings[' + builder_type + '-button' + index + '-border-radius-fields]', dynamicStyle);
+				});
+			});
 			wp.customize( 'astra-settings[' + builder_type + '-button'+ index +'-border-size]', function( setting ) {
 				setting.bind( function( border ) {
 					var dynamicStyle = '.ast-' + builder_type + '-button-'+ index +' .ast-custom-button {';
@@ -322,13 +333,49 @@ function astra_builder_social_css( builder_type = 'header', social_count ) {
 			'px'
 		);
 
-		// Icon Border Radius.
-		astra_css(
-			'astra-settings[' + builder_type + '-social-' + index + '-radius]',
-			'border-radius',
-			selector + ' .' + builder_type + '-social-inner-wrap .ast-builder-social-element',
-			'px'
+		// Icon Brand Color.
+		astra_color_responsive_css(
+			context + '-soc-color',
+			'astra-settings[' + builder_type + '-social-' + index + '-brand-color]',
+			'fill',
+			selector + ' .ast-social-color-type-official svg'
 		);
+
+		astra_color_responsive_css(
+			context + '-soc-label-color',
+			'astra-settings[' + builder_type + '-social-' + index + '-brand-color]',
+			'color',
+			selector + ' .ast-social-color-type-official .social-item-label'
+		);
+
+		// Icon Label Brand Color.
+		astra_color_responsive_css(
+			context + '-soc-label-color',
+			'astra-settings[' + builder_type + '-social-' + index + '-brand-label-color]',
+			'color',
+			selector + ' .ast-social-color-type-official span.social-item-label'
+		);
+
+		// Icon Border Radius Fields
+		wp.customize('astra-settings[' + builder_type + '-social-' + index + '-radius-fields]', function (setting) {
+			setting.bind(function (border) {
+
+				let globalSelector = selector + ' .' + builder_type + '-social-inner-wrap .ast-builder-social-element';
+				let dynamicStyle = globalSelector + '{ border-top-left-radius :' + border['desktop']['top'] + border['desktop-unit']
+						+ '; border-bottom-right-radius :' + border['desktop']['bottom'] + border['desktop-unit'] + '; border-bottom-left-radius :'
+						+ border['desktop']['left'] + border['desktop-unit'] + '; border-top-right-radius :' + border['desktop']['right'] + border['desktop-unit'] + '; } ';
+
+				dynamicStyle += '@media (max-width: ' + tablet_break_point + 'px) { ' + globalSelector + '{ border-top-left-radius :' + border['tablet']['top'] + border['tablet-unit']
+						+ '; border-bottom-right-radius :' + border['tablet']['bottom'] + border['tablet-unit'] + '; border-bottom-left-radius :'
+						+ border['tablet']['left'] + border['tablet-unit'] + '; border-top-right-radius :' + border['tablet']['right'] + border['tablet-unit'] + '; } } ';
+
+				dynamicStyle += '@media (max-width: ' + mobile_break_point + 'px) { ' + globalSelector + '{ border-top-left-radius :' + border['mobile']['top'] + border['mobile-unit']
+						+ '; border-bottom-right-radius :' + border['mobile']['bottom'] + border['mobile-unit'] + '; border-bottom-left-radius :'
+						+ border['mobile']['left'] + border['mobile-unit'] + '; border-top-right-radius :' + border['mobile']['right'] + border['mobile-unit'] + '; } } ';
+
+				astra_add_dynamic_css( builder_type + '-social-' + index + '-radius-fields', dynamicStyle);
+			});
+		});
 
 		// Typography CSS Generation.
 		astra_responsive_font_size(
@@ -558,13 +605,13 @@ function astra_builder_widget_css( builder_type = 'header' ) {
 			builder_type + '-widget-' + index + '-title-color',
 			'astra-settings[' + builder_type + '-widget-' + index + '-title-color]',
 			'color',
-			selector + ' .widget-title'
+			selector + ' .widget-title, ' + selector + ' h1, ' + selector + ' .widget-area h1, ' + selector + ' h2, ' + selector + ' .widget-area h2, ' + selector + ' h3, ' + selector + ' .widget-area h3, ' + selector + ' h4, ' + selector + ' .widget-area h4, ' + selector + ' h5, ' + selector + ' .widget-area h5, ' + selector + ' h6, ' + selector + ' .widget-area h6'
 		);
 
 		// Widget Title Typography.
 		astra_responsive_font_size(
 			'astra-settings[' + builder_type + '-widget-' + index + '-font-size]',
-			selector + ' .widget-title'
+			selector + ' .widget-title, ' + selector + ' h1, ' + selector + ' .widget-area h1, ' + selector + ' h2, ' + selector + ' .widget-area h2, ' + selector + ' h3, ' + selector + ' .widget-area h3, ' + selector + ' h4, ' + selector + ' .widget-area h4, ' + selector + ' h5, ' + selector + ' .widget-area h5, ' + selector + ' h6, ' + selector + ' .widget-area h6'
 		);
 
 		// Widget Content Typography.

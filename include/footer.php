@@ -1,112 +1,231 @@
+<?php
+include('config.php');
+?>
 <style>
-    #back-to-top .top:hover i {
-        color: white;
-    }
+.footer {
+	background-color: #f2f2f2;
+	padding: 50px 80px;
+	border-top:1px solid #d1d1d1;
+}
+
+.footer-upper {
+    margin-bottom:50px;
+    text-align:center;
+}
+
+.footer-upper img {
+    margin-bottom:15px;
+    height: 50px;
+}
+
+.footer-upper p {
+    text-align:center;
+}
+
+.contain {
+
+	margin: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: #2b2a2a;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	font-weight: 600;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #FF0808;
+	width: 40px;
+	height: 3px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	color: #2b2a2a;
+	display: block;
+	font-size: 15px;
+	font-weight: 500;
+	text-transform: capitalize;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #FF0808;
+	padding-left: 7px;
+}
+
+.footer-col .social-links a {
+	color: #FFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 10px 10px 0;
+	line-height: 40px;
+	transition: all 0.5s ease;
+	background-color: #FFF;
+}
+
+.footer-col .social-links a:hover {
+}
+
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
+
+.footer-bottom {
+	padding:15px;
+	background:#fff;
+}
+.footer-bottom h2 {
+	text-align:center;
+	font-size:15px;
+	font-weight:600;
+	color:#2b2a2a;
+	line-height:normal;
+}
+.address-wrap {
+	margin-bottom:15px;
+}
+.address-wrap .country {
+	font-size:16px;
+	font-weight:600;
+	color:#ff0808;
+}
+.address-wrap .add {
+	font-weight:600;
+	line-height:normal;
+	font-size:14px;
+}
+.address-wrap .mail {
+	color:#ff0808;
+	font-size:14px;
+	font-weight:600;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.footer {
+		background-color: #f2f2f2;
+		padding: 50px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.footer {
+		background-color: #f2f2f2;
+		padding: 50px 20px;
+	}
+}
 </style>
-<script src="https://kit.fontawesome.com/a01b3cbb85.js" crossorigin="anonymous"></script>
 
 
-
-<footer class="iq-footer5 black-bg" style="margin-top:0">
-    <div class="footer-top">
-        <div class="m-5" style="margin-top: 0 !important;">
-            <div class="row pb-0 overview-block-ptb4">
-                <div class="col-lg-4 col-sm-12 iq-mtb-20">
-                    <div class="logo">
-                        <div class="sagrlogo">
-                            <img id="footer_logo_img" class="img-fluid rounded" src="images/sagartech.png" alt="sagartech logo" style="background: white; padding: 5px;">
-                        </div>
-                        <div class="iq-font-white " align="left">Sagar Tech was founded in 2018 by young entrepreneurs with a customer & employee centric mind. Having contributed many services in the IT industry serving clients with services like web development, application development and software product development, we are capable of delivering solutions and exceeding your expectations.</div>
-                    </div>
-                    <hr class="iq-mtb-20">
-                    <ul class="iq-media-blog text-left">
-                        <!--<li><a href="https://twitter.com/SagarTech2" target="_blank"><i class="fab fa-twitter"></i></a></li>-->
-                        <li><a href="https://www.facebook.com/sagartechsolutions/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://www.instagram.com/sagartechsolutions/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com/SagarTech2" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <a href="https://www.sulekha.com/sagar-tech-technical-solutions-mumbai-central-mumbai-contact-address"><img class="sulekha-icon" src="images/bg/og-sulekha-logo.png" alt="sulekha icon"></a>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 iq-mtb-20 location footer-2-links">
-                    <h5 class="small-title iq-tw-6 iq-font-white iq-mb-30" style="margin-bottom:40px;text-align:left;margin-left: -5px;">Quick Links</h5>
-                    <div class="footer-2-links">
-                        <div class="footer-2-links-1">
-                            <ul class="quicl-link-ul" style="text-align:left;">
-                                <li class="quicl-link-li"><a class="quicl-link-a" href="https://sagartech.co.in/">Home</a></li>
-                                <li class="quicl-link-li"><a class="quicl-link-a" href="about">About us</a></li>
-                                <li class="quicl-link-li"><a class="quicl-link-a" href="digital-marketing-and-web-development-service">Our Services</a></li>
-                                <li class="quicl-link-li"><a class="quicl-link-a" href="sagar-tech-website-portfolio">Portfolio</a></li>
-                                <li class="quicl-link-li"><a class="quicl-link-a" href="digital-marketing-agency-mumbai-packages">Packages</a></li>
-                                <li class="quicl-link-li"><a class="quicl-link-a" href="https://sagartech.co.in/blogs/">Blogs</a></li>
-                                <li class="quicl-link-li"><a class="quicl-link-a" href="contact">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6 iq-mtb-20 location">
-                    <h5 class="small-title iq-tw-6 iq-font-white iq-mb-30" style="margin-bottom:20px;text-align:left">Contact Us</h5>
-                    <div class="blog">
-                        <i style="font-size: 30px;" aria-hidden="true" class="ion-ios-location-outline"></i>
-                        <div class="content">
-                            <div class="iq-tw-6 title">Location</div>
-                            501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai - 400009
-                        </div>
-                    </div>
-
-                    <div class="blog">
-                        <i style="font-size: 30px;" aria-hidden="true" class="ion-ios-email-outline"></i>
-                        <div class="content">
-                            <div class="iq-tw-6 title">Mail</div>
-                            <div class="iq-mb-0">24 X 7 online support<br><a href="mailto:info@sagartech.co.in" style="color: white;">info@sagartech.co.in</a></div>
-                        </div>
-                    </div>
-
-                    <div class="blog">
-                        <i style="font-size: 30px;" aria-hidden="true" class="ion-ios-telephone-outline"></i>
-                        <div class="content">
-                            <div class="iq-tw-6 title">Phone</div>
-                            <a href="tel:+919820133303" style="color: white;">+91 98201 33303</a><br>
-                            <a href="tel:+919152220484" style="color: white;">+91 91522 20484</a>
-                        </div>
-                    </div>
-                </div>
-
-            <!-- <div class="col-lg-4 col-sm-6 iq-mtb-20 iq-newsletter">
-                     <h5 class="small-title iq-tw-6 iq-font-white iq-mb-30">Send Query</h5>
-                     <p class="iq-font-white"></p>
-                     <form class="newsletter-form">
-                        <div class="input-group">
-                           <input type="email" class="form-control placeholder" placeholder="Enter your Email">
-                           <a class="button" href="#" role="button">Send</a>
-                        </div>
-                     </form>
-                     
-                  </div> -->
+<head>
+	<script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+</head>
+	<footer class="footer">
+        <div class="footer-upper">
+            <img src="<?= WEB_URL ?>images/sagartech.png" alt="sagartech logo">
+            <p>
+               Sagar Tech was founded in 2018 by young entrepreneurs with a customer & employee centric mind. Having contributed many services in the IT industry serving clients with services like web development, application development and software product development, we are capable of delivering solutions and exceeding your expectations 
+            </p>
         </div>
-    </div>
-    </div>
-    <div class="footer-bottom iq-ptb-20 dark-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <div class="iq-copyright iq-font-white">
-                        Copyright
-                        <span id="copyright">
-                            <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                            <script>
-                                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-                            </script>
-                        </span>
-                        <a class="iq-font-red" href="https://sagartech.co.in/">Sagar Tech - Technical Solutions</a> All Rights Reserved
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </script>
-    <!-- /WhatsHelp.io widget -->
-</footer>
+		<div class="contain row">
+			<div class="footer-col">
+				<h4>company</h4>
+				<ul>
+					<li><a href="<?= WEB_URL ?>about">About Us</a></li>
+					<li><a href="<?= WEB_URL ?>contacct">Contact Us</a></li>
+					<!-- <li><a href="#">Team</a></li> -->
+					<li><a href="<?= WEB_URL ?>blog">Blogs</a></li>
+					<li><a href="<?= WEB_URL ?>our-portfolio">Portfolio</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>Quick Links</h4>
+				<ul>
+					<li><a href="<?= WEB_URL ?>web-development-company">Web Development</a></li>
+					<li><a href="<?= WEB_URL ?>mobile-app-development-company">App Development</a></li>
+					<li><a href="<?= WEB_URL ?>digital-marketing-company">Digital Marketing</a></li>
+					<li><a href="<?= WEB_URL ?>graphic-design-services">Graphic Designing</a></li>
+					<li><a href="<?= WEB_URL ?>bulk-sms-service-provider">Bulk SMS</a></li>
+				</ul>
+			</div>
+			<div class="footer-col">
+				<h4>Our Address</h4>
+				<div class="address-wrap">
+					<span class="country">INDIA</span>
+					<br>
+					<span class="add">501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai - 400009</span>
+					<br>
+					<span class="mail"><a href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></span>
+				</div>
+				<div class="address-wrap">
+					<span class="country">DUBAI</span>
+					<br>
+					<span class="add">P.O. Box 7152, Dubai, UAE</span>
+					<br>
+					<span class="mail"><a href="mailto:info@sagartech.ae">info@sagartech.ae</a></span>
+				</div>
+			</div>
+			<div class="footer-col">
+				<h4>Contact Number</h4>
+				<div class="address-wrap">
+					<a href="tel:919820133303" class="country">+91 98201 33303</a>
+					<br>
+					<a href="tel:919152220484" class="country">+91 91522 20484</a>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.14610188209!2d72.820677774249!3d18.969153955319968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf7f0baae5fd%3A0xe15b1154ec3eb6e9!2sSagar%20Tech%20-%20Web%20Developers%20%26%20Digital%20Marketing%20Agency!5e0!3m2!1sen!2sin!4v1708425595087!5m2!1sen!2sin" width="100%" height="120" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<div class="social-links">
+					<a href="https://www.facebook.com/sagartechwebdevelopersmumbai"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="https://www.instagram.com/sagartechsolutions/"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/"><i class="fa-brands fa-linkedin-in"></i></a>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	<div class="footer-bottom">
+			<h2>Copyright 
+			<span id="copyright">
+                <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script>
+                	document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+                </script>
+			</span>	
+			<a class="interlink" href="https://sagartech.co.in/">Sagar Tech - Technical Solutions</a> All Rights Reserved</h2>
+	</div>

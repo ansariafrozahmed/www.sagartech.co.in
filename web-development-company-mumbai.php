@@ -137,7 +137,7 @@
     }
 </style>
 
-<body onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1" onselectstart="return!1" ondragstart="return!1">
+<body>
     <!-- loading -->
     <div id="loading">
         <div id="loading-center">

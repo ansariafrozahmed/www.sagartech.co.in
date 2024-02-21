@@ -31,8 +31,12 @@
   border-radius: 3px;
   right: 0;
   left: 0;
-  z-index: 10000;
+  z-index: 8;
   background-color: #fff;
+}
+
+.customize-control-ast-color-palette .ast-field-settings-modal {
+	z-index: 11;
 }
 
 .ast-field-settings-modal .customize-control-ast-divider:first-child {
@@ -330,7 +334,7 @@
 }
 
 .astra-media-tab .ast-danger-btn {
-  color: var(--ast-customizer-color-13);
+  color: var(--ast-customizer-color-14);
   margin-top: 10px;
 }
 
@@ -339,7 +343,7 @@
 }
 
 .astra-media-tab .ast-danger-btn:hover {
-  border-color: var(--ast-customizer-color-13);
+  border-color: var(--ast-customizer-color-14);
 }
 
 .components-base-control.ast-text-control-input {

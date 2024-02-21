@@ -1,4 +1,0 @@
-User-Agent: *
-Disallow: 
-
-Sitemap: https://www.sagartech.co.in/sitemap.xml

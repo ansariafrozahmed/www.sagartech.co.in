@@ -1,4 +1,6 @@
 <?php
+
+
 /**
  * The base configuration for WordPress
  *
@@ -92,8 +94,8 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 }
 
 define( 'WP_REDIS_PREFIX', 'sagartech.co.in:' );
-define( 'WP_MEMORY_LIMIT', '256M' );
-define( 'WP_MAX_MEMORY_LIMIT', '512M' );
+define( 'WP_MEMORY_LIMIT', '512M' );
+define( 'WP_MAX_MEMORY_LIMIT', '1024M' );
 define( 'CONCATENATE_SCRIPTS', false );
 define( 'WP_POST_REVISIONS', '10' );
 define( 'MEDIA_TRASH', true );

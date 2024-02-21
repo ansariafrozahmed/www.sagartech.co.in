@@ -10,6 +10,10 @@ define('DB_NAME', 'sagartec_sagartech');
 // define('DB_PASS', '');
 // define('DB_NAME', 'sagartec_sagartech');
 
+define('WEB_URL', "https://sagartech.co.in/");
+error_reporting(error_reporting() & ~E_WARNING);
+
+
 $con = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
 // Check connection
 if (mysqli_connect_errno()) {

@@ -1,3 +1,6 @@
+<?php
+include('config.php');
+?>
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -295,14 +298,14 @@
     </style>
 
     <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function() {
-            /////// Prevent closing from click inside dropdown
-            document.querySelectorAll('.dropdown-menu').forEach(function(element) {
-                element.addEventListener('click', function(e) {
-                    e.stopPropagation();
-                });
-            })
-        });
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     /////// Prevent closing from click inside dropdown
+        //     document.querySelectorAll('.dropdown-menu').forEach(function(element) {
+        //         element.addEventListener('click', function(e) {
+        //             e.stopPropagation();
+        //         });
+        //     })
+        // });
         // DOMContentLoaded  end
     </script>
 
@@ -316,7 +319,7 @@
             <ul class="menu-logo">
                 <li style="list-style: none;">
                     <a href="https://sagartech.co.in/">
-                        <img id="logo_img" src="images/sagartech.png" class="rounded" alt="logo" style="background: white; padding: 5px; margin: 10px;width: auto;height: 55px;position: relative;z-index: 1111;">
+                        <img id="logo_img" src="<?= WEB_URL ?>images/sagartech.png" class="rounded" alt="logo" style="background: white; padding: 5px; margin: 10px;width: auto;height: 55px;position: relative;z-index: 1111;">
                     </a>
                 </li>
             </ul>
@@ -327,7 +330,7 @@
                 <ul class="navbar-nav" style="margin-left: auto;">
                     <li <?php echo ($page == 'home') ? 'class=active' : ''; ?> class="nav-item"> <a class="nav-link" href="https://sagartech.co.in/">Home </a> </li>
                     <li style="display: inline-flex;color: white;" <?php echo ($page == 'services') ? 'class=active' : ''; ?> class="nav-item dropdown has-megamenu">
-                        <a class="nav-link dgeg" href="digital-marketing-and-web-development-service">Services</a>
+                        <a class="nav-link dgeg" href="#">Services</a>
                         &nbsp;&nbsp;
                         <!-- <i class="none fa fa-caret-down" style="font-size:24px"></i> -->
                         <i class="dropdown-toggle dgeg" data-bs-toggle="dropdown" style="font-size:24px;margin-left: auto;display: block;"></i>
@@ -363,7 +366,7 @@
                                                     Marketing</a></h6>
                                         </div>
                                         <ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
-                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="seo-service-india">SEO</a></li>
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="seo-service-india">Search Engine Optimization</a></li>
                                             <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="social-media-agency-india">SMO</li>
                                             <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="local-seo-service-india">Local SEO</a></li>
                                             <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="google-ads-service">Google Adwords</li>
@@ -392,6 +395,7 @@
                                                     Designing</a></h6>
                                         </div>
                                         <ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">
+                                            <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="brand-identity-and-designing">Brand Identity</a></li>
                                             <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="logo-design-service">Logo Designing</a></li>
                                             <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="brochure-designing">Brochure Designing</li>
                                             <li class="wow fadeInUp fdyet gfhdfg" style="visibility: visible; "><a href="post-design">Post Designing</a></li>
@@ -417,7 +421,7 @@
                                 <div class="col-lg-2 col-md-12 col-12 mb-2">
                                     <div class="col-megamenu">
                                         <div class="web-link-item" style="display:flex"><i class="fa fa-pencil-square-o" aria-hidden="true" style="padding: 12px;font-size: 25px;border: 2px solid;border-radius: 100%;"></i>&nbsp;
-                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="">ISO Consulting</a></h6>
+                                            &nbsp; <h6 style="display: flex;align-items: center;" class="title"><a style="font-weight: bold;" href="iso-consulting">ISO Consulting</a></h6>
                                         </div>
                                         <!--<ul class="list-display list-checkmarks dgdg" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;margin: 25px 0;">-->
                                         <!--    <li class="wow fadeInUp fdyet gfhdfg" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><a href="">SEO</a></li>-->
@@ -431,13 +435,19 @@
                             </div><!-- end row -->
                         </div> <!-- dropdown-mega-menu.// -->
                     </li>
-                    <li <?php echo ($page == 'packages') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="digital-marketing-agency-mumbai-packages"> Packages </a></li>
-                    <li <?php echo ($page == 'portfolio') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="sagar-tech-website-portfolio">Portfolio</a></li>
-                    <li <?php echo ($page == 'about') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="about">About Us</a></li>
-                    <li <?php echo ($page == 'contact') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="contact"> Contact Us </a></li>
-                    <li <?php echo ($page == 'blogs') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="https://sagartech.co.in/blog">Blogs</a></li>
+                    <li <?php echo ($page == 'packages') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="<?= WEB_URL ?>digital-marketing-agency-mumbai-packages"> Packages </a></li>
+                    <li <?php echo ($page == 'portfolio') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="<?= WEB_URL ?>our-portfolio">Portfolio</a></li>
+                    <li <?php echo ($page == 'about') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="<?= WEB_URL ?>about">About Us</a></li>
+                    <li <?php echo ($page == 'contact') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="<?= WEB_URL ?>contact"> Contact Us </a></li>
+                    <li <?php echo ($page == 'blogs') ? 'class=active' : ''; ?> class="nav-item"><a class="nav-link" href="<?= WEB_URL ?>blog">Blogs</a></li>
                     <li class="active fvgdgt" style="height: 35px;"><a class="gfrsyy" style="text-decoration: none;color:white;text-transform:uppercase;" href="#" data-toggle="modal" data-target="#largeModal">Request Quote!</a></i>
+                        <?php
+                        // include 'include/quote-modal.php'
+                        ?>
                 </ul>
+                <?php
+                //  include 'include/quote-modal.php' 
+                ?>
             </div> <!-- navbar-collapse.// -->
         </div> <!-- container-fluid.// -->
     </nav>

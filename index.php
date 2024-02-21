@@ -1,3 +1,9 @@
+<?php
+
+include('include/config.php');
+error_reporting(error_reporting() & ~E_WARNING);
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -138,11 +144,6 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <Style>
-        ofds {
-            font-size: 40px;
-            color: black;
-        }
-
         .shadows {
             -webkit-box-shadow: 0px 10px 11px -1px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: 0px 10px 11px -1px rgba(0, 0, 0, 0.75);
@@ -181,17 +182,112 @@
 
 
         body {
-            -youbkit-touch-callout: none;
+            /* -youbkit-touch-callout: none; */
             /* iOS Safari */
-            -youbkit-user-select: none;
+            /* -youbkit-user-select: none; */
             /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
-            -moz-user-select: none;
+            /* -moz-user-select: none; */
             /* Firefox */
-            -ms-user-select: none;
+            /* -ms-user-select: none; */
             /* IE 10+ and Edge */
-            user-select: none;
+            /* user-select: none; */
             /* Non-prefixed version, 
 								  currently supported by Chrome and Opera */
+        }
+
+        /*-------------Accordian-----------------*/
+
+        .faqs-heading {
+            text-align: center;
+            margin: 1em 0;
+            font-weight: 700;
+            font-size: 50px;
+            color: #212121;
+        }
+
+        .accordion {
+            max-width: 70%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+        }
+
+        .accordion-item {
+            border-top: 1px solid #c5c5c5;
+            color: #333;
+        }
+
+        .accordion-item h2 {
+            padding: 15px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: normal;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            /* Set a default max-height, but don't display it */
+            overflow: hidden;
+            /* Hide the content */
+            transition: max-height 0.4s ease-out;
+            /* Add a transition effect when sliding down (and up) the content */
+            padding: 0 1em;
+        }
+
+        .accordion-content p {
+            padding: 1em 0;
+            font-size: 16px;
+            color: gray;
+            margin: 0;
+        }
+
+        /* Add this class to .accordion-content when the accordion item is active/open */
+        .accordion-content.active {
+            max-height: auto;
+            /* Adjust as needed */
+        }
+
+        /*adding the + and - signs*/
+        .accordion-item h2 {
+            position: relative;
+            padding-right: 30px;
+            /* Adjust as needed */
+        }
+
+        .accordion-item h2::before {
+            content: "+";
+            color: #8f060f;
+            position: absolute;
+            right: 10px;
+            /* Adjust as needed */
+        }
+
+        .accordion-item.active h2::before {
+            content: "-";
+        }
+
+        /* For mobile screens */
+        @media (max-width: 767px) {
+            .accordion {
+                max-width: 100vw;
+                margin: 0 auto;
+            }
+
+            .accordion-item h2 {
+                padding: 20px;
+                font-size: 16px;
+                line-height: normal;
+                margin: 0;
+                cursor: pointer;
+            }
+
+            .accordion-content p {
+                padding: 1em 0;
+                font-size: 15px;
+                margin: 0;
+                line-height: normal;
+            }
         }
 
         .why-choose img {
@@ -332,11 +428,6 @@
             color: #f7f7f7;
         }
 
-        .bubble blockquote,
-        .testimonial-reel {
-            cursor: url(data:image/png;base64,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), auto;
-        }
-
         .test-cardss {
             background-color: white;
             border-radius: 0.25rem;
@@ -360,7 +451,6 @@
                 });
         }
     </script>
-    <!--onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1" onselectstart="return!1" ondragstart="return!1"-->
 
 <body>
     <!-- loading -->
@@ -373,10 +463,19 @@
     <!-- HEADER  -->
     <?php
     $page = 'home';
-    include("include/trialh.php"); ?>
+    // include("include/trialh.php"); 
+    include ('include/newHeader.php');
+    ?>
 
+<?php 
+// include 'include/newHeader.php'
+?>
     <!--=================================
 Banner -->
+
+
+
+
     <div id="rev_slider_116_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="bg-effect" data-source="gallery" style=>
         <!-- START REVOLUTION SLIDER 5.4.8 fullwidth mode -->
         <div id="rev_slider_116_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
@@ -411,7 +510,7 @@ Banner -->
                 <!--    data-masterspeed="default,default,default,default"-->
                 <!--    data-thumb="images/header/digital_marketing_agency_in_mumbai.jpg" data-rotate="0,0,0,0" data-saveperformance="off"-->
                 <!--    class="b1-video" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4=""-->
-                <!--    data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10=""-->
+                <!--    data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" -->
                 <!--    data-description="">-->
                 <!-- MAIN IMAGE -->
                 <!--    <img src="images/header/digital_marketing_agency_in_mumbai.jpg" alt="digital marketing agency in mumbai" title = "digital marketing agency in mumbai" data-bgposition="center center" data-bgfit="cover"-->
@@ -494,12 +593,11 @@ About Us -->
         <!--</div>-->
 
         <!--<section class="overview-block-pt green-bg" style="background: #FFFFFF">-->
-        <section class="overview-block-pt100 device-aria iq-bg jarallax" style="padding-bottom: 60px;background-image: url('images/bg/bg-st-all.jpg'); background-position: left center;">
+        <!-- <section class="overview-block-pt100 device-aria iq-bg jarallax" style="padding-bottom: 60px;background-image: url('images/bg/bg-st-all.jpg'); background-position: left center;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-12">
-                        <!--<div class="heading-title iq-font-black text-center">-->
-                        <!--    <h2 class="title black iq-tw-6" style="color: black;">About Us</h2>-->
+
                         <div class="col-lg-12">
                             <h1 class="iq-tw-6 small-title iq-font-dark">Web Designers in Mumbai</h1>
                             <p class="iq-mb-0" style="text-align: justify; font-size: 16px;color:black;">Sagar Tech
@@ -531,13 +629,100 @@ About Us -->
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--===============About Us ==================-->
+
+
+
+        <?php
+        include 'include/intro.php'
+        ?>
+        <?php
+        include 'our-service.php'
+        ?>
+
         <!--===============Services ==================-->
-        <section class="web-service-color" style="backgroung:url(images/bg/bg-service.jpg);">
-            <div class="container">
+
+        <!-- <section class="web-service-color" style="background-image: url(./banner/graphic_background.webp);">
+            <section class="container">
                 <h2 class="iq-tw-6 small-title iq-font-dark">Our Services</h2>
-                <!--<h1 class="text-center web-service-heading">Web Designers in Mumbai</h1>             -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mt-4 mb-4">
+                            <a href="/web-design-company-mumbai">
+                                <img src="./portfolio-mockups/builders/pmdecor.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Website Design and Development</h5>
+                                    <p class="card-text">A website is important because it allows businesses, organizations, and individuals to establish an online presence, provide information, communicate with their audience, and conduct transactions in the digital age.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mt-4 mb-4">
+                            <a href="/digital-marketing-service">
+                                <img src="indeximages/1.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Digital Marketing</h5>
+                                    <p class="card-text">Mobile apps are essential for businesses to reach and engage with their customers on-the-go, provide seamless user experience, and increase accessibility to products or services.</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <!-- </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mt-4 mb-4">
+                            <a href="/bulk-sms-service">
+                                <img src="indeximages/6.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Bulk SMS Service</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente culpa perspiciatis sunt rerum corporis libero explicabo omnis soluta, nostrum alias impedit blanditiis. Inventore harum impedit quisquam dignissimos molestias quibusdam tempore?</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <!-- </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mt-4 mb-4">
+                            <a href="/graphic-design-service">
+                                <img src="indeximages/2.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">Graphic Designing</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore eaque eligendi similique autem at consectetur nemo eum repudiandae, dolorum a veniam voluptatibus cum voluptatem nam ipsum laudantium neque quis consequuntur.</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <!-- </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mt-4 mb-4">
+                            <a href="/app-development">
+                                <img src="indeximages/3.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">App Development</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro nemo sapiente in, debitis repellat dolores enim hic culpa impedit praesentium qui dolor tenetur similique aliquid atque temporibus, accusantium dolorum aut.</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <!-- </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mt-4 mb-4">
+                            <a href="/iso-consulting">
+                                <img src="indeximages/5.svg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title font-weight-bold">ISO Consulting</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt repellat nemo fugiat sint eveniet dolores at commodi iste in. Aspernatur cum doloremque, dolores molestiae eaque fugit doloribus. Debitis, delectus!</p> -->
+        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        <!-- </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+        <!-- <div class="container">
+                <h2 class="iq-tw-6 small-title iq-font-dark">Our Services</h2>
+                <h1 class="text-center web-service-heading">Web Designers in Mumbai</h1>
                 <div class="row row-cols-1 row-cols-md-3">
                     <div class="col-lg-4 mb-4 web-services wow fadeInUp" data-wow-duration="1.0s">
                         <div class="cardz services-hover">
@@ -606,1669 +791,623 @@ About Us -->
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <!--===============Service ==================-->
-        <!--===============Portfolio & all Section ==================-->
-        <section class="overview-block-pt100 device-aria iq-bg jarallax" style="background-image: url('images/bg/sagartechimg2.jpg'); background-position: left center;">
-            <div class="modal fade" id="bootstrap-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">
-                                <?php echo 'Course Details'; ?>
-                            </h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div id="demo-modal">
 
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
+        <?php
+        // include 'include/portfolioSlider.php'
+        ?>
+
+
+        <!-- <section>
+            <div class="container py-5">
+                <div class="col-lg-12 pb-5">
+                    <h2 class="iq-tw-6 small-title iq-font-dark">Our Portfolio</h2>
                 </div>
             </div>
-            <style>
-                .item {
-                    left: 0;
-                    top: 0;
-                    position: relative;
-                    overflow: hidden;
-                    margin-top: 50px;
-
-                }
-
-                .item img {
-                    -webkit-transition: 0.6s ease;
-                    transition: 0.6s ease;
-
-                }
-
-                .item img:hover {
-                    -webkit-transform: scale(1.1);
-                    transform: scale(1.1);
-
-                }
-
-                .img-thumbnail {
-                    border: 0px;
-                    border-radius: 0px;
-                }
-            </style>
-            <!--===============Portfolio ==================-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 pb-5">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h2 class="iq-tw-6 small-title iq-font-dark">Our Portfolio</h2>
-                            </div>
-                        </div>
-                        <div class="iq-mt-30">
-                            <div class="">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/mithiyaj responsive.png" alt="mithiyaj" class="img-thumbnail"></a></div>
-
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/riyaz responsive.png" alt="riyaz" class="img-thumbnail"></a></div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/zoffec responsive.png" alt="zoffec" class="img-thumbnail"></a></div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/puresaff responsive.png" alt="puresaff" class="img-thumbnail"></a></div>
-
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/abyaz responsive.png" alt="abyaz" class="img-thumbnail"></a></div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="item"><a><img style="background-color: transparent;" src="images/header/amclogistic responsive.png" alt="amc logistics india pvt ltd" class="img-thumbnail"></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="iq-mt-30">
-                            <div class="">
-                                <div class="row" style="color:red;display: flex;justify-content: center;">
-
-                                    <a href="portfolio"><button class="button visitbtn">SEE MORE</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--===============Portfolio ==================-->
-            <style>
-                .tile {
-                    width: 45vh;
-                    height: 45vh;
-                    margin: 10px;
-                    background-color: #99aeff;
-                    display: inline-block;
-                    background-size: cover;
-                    position: relative;
-                    cursor: pointer;
-                    transition: all 0.4s ease-out;
-                    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
-                    overflow: hidden;
-                    color: white;
-                    font-family: 'Roboto';
-
-                }
-
-                .tile img {
-                    height: 100%;
-                    width: 100%;
-                    position: absolute;
-                    opacity: 1;
-                    top: 0;
-                    left: 0;
-                    z-index: 0;
-                    transition: all 0.4s ease-out;
-                }
-
-                .tile .text {
-                    /*   z-index:99; */
-                    position: absolute;
-                    padding: 30px;
-                    height: calc(100% - 60px);
-                }
-
-                .tile h1 {
-                    color: #fff;
-                    font-size: 5vh;
-                    margin: 0;
-                    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-                }
-
-                .tile h2 {
-                    color: #fff;
-                    font-size: 2.5vh;
-                    margin: 20px 0 0 0;
-                    font-style: italic;
-                    transform: translateX(200px);
-                }
-
-                .tile p {
-                    color: #fff;
-                    font-size: 2vh;
-                    margin: 20px 0 0 0;
-                    line-height: 25px;
-                    /*   opacity:0; */
-                    transform: translateX(-200px);
-                    transition-delay: 0.2s;
-                }
-
-                .animate-text {
-                    opacity: 0;
-                    transition: all 0.6s ease-in-out;
-                }
-
-                .tile:hover {
-                    /*   background-color:#99aeff; */
-                    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
-                    transform: scale(1.05);
-                }
-
-                .tile:hover img {
-                    opacity: 0.2;
-                }
-
-                .tile:hover .animate-text {
-                    transform: translateX(0);
-                    opacity: 1;
-                }
-            </style>
-            <!--<div class="container">-->
-            <!--    <div class="row">-->
-            <!--        <div class="col-lg-12 pb-5">-->
-            <!--            <div class="row">-->
-            <!--                <div class="col-lg-12">-->
-            <!--                    <h3 class="iq-tw-6 small-title iq-font-dark">Our Work</h3>-->
-            <!--                </div>-->
-            <!--            </div>-->
-            <!--            <div class="iq-mt-30">-->
-            <!--                <div class="">-->
-            <!--                    <div class="wrap">-->
-            <!--                        <div class="col-lg-3 col-sm-6">-->
-            <!--                            <div class="tile">-->
-            <!--                                <img src='images/header/s1.jpg' />-->
-            <!--                                <div class="text">-->
-            <!--                                    <h1>Lorem ipsum.</h1>-->
-            <!--                                    <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>-->
-            <!--                                    <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                        <div class="col-lg-3 col-sm-6">-->
-            <!--                            <div class="tile">-->
-            <!--                                <img src='images/header/s2.jpg' />-->
-            <!--                                <div class="text">-->
-            <!--                                    <h1>Lorem ipsum.</h1>-->
-            <!--                                    <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>-->
-            <!--                                    <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                        <div class="col-lg-3 col-sm-6">-->
-            <!--                            <div class="tile">-->
-            <!--                                <img src='images/header/s3.jpg' />-->
-            <!--                                <div class="text">-->
-            <!--                                    <h1>Lorem ipsum.</h1>-->
-            <!--                                    <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>-->
-            <!--                                    <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>-->
-            <!--                                    <div class="dots">-->
-            <!--                                        <span></span>-->
-            <!--                                        <span></span>-->
-            <!--                                        <span></span>-->
-            <!--                                    </div>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                        <div class="col-lg-3 col-sm-6">-->
-            <!--                            <div class="tile">-->
-            <!--                                <img src='images/header/s4.jpg' />-->
-            <!--                                <div class="text">-->
-            <!--                                    <h1>Lorem ipsum.</h1>-->
-            <!--                                    <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>-->
-            <!--                                    <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>-->
-            <!--                                    <div class="dots">-->
-            <!--                                        <span></span>-->
-            <!--                                        <span></span>-->
-            <!--                                        <span></span>-->
-            <!--                                    </div>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                </div> -->
-            <!--            </div>-->
-            <!--        </div>-->
-            <!--    </div>-->
-            <!--</div>-->
-            <!--<div class="pt-4"></div>-->
-            <!--<div class="pt-4"></div>-->
-            <!--<div class="pt-4"></div>-->
-            <!--===============Best Web Developers in Mumbai ==================-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 pb-5">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h2 class="iq-tw-6 small-title iq-font-dark">Website Development and Digital Marketing Company</h2>
-                            </div>
-                        </div>
-                        <div class="iq-mt-30">
-                            <div class="">
-                                <section class="row text-center">
-                                    <div class="col-lg-3 col-md-6" style="margin-bottom: 40px;">
-                                        <div class="iq-feature9 text-center">
-                                            <div class="iq-feature9-blog">
-                                                <div class="left why-choose">
-                                                    <img src="images/creativity.png" class="img-fluid" alt="creative designers in mumbai">
-                                                </div>
-                                                <div class="best-content">
-                                                    <h5 class="iq-font-black iq-tw-6 iq-mt-15">Creative Designing</h5>
-                                                    <p class="iq-mb-0">We at <b><a href="https://sagartech.co.in/index">Sagar Tech -
-                                                                Technical Solutions</a></b> have
-                                                        a team of professional graphic designers and developers, who
-                                                        design websites as per client requirement.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6" style="margin-bottom: 40px;">
-                                        <div class="iq-feature9 text-center">
-                                            <div class="iq-feature9-blog">
-                                                <div class="left why-choose">
-                                                    <a href="#img1"><img src="images/isoreduced.png" class="img-fluid" alt="iso certified"></a>
-                                                </div>
-                                                <div class="best-content">
-                                                    <h5 class="iq-font-black iq-tw-6 iq-mt-15">ISO CERTIFIED</h5>
-                                                    <p class="iq-mb-0">The Quality Management System of Sagar Tech -
-                                                        Technical Solutions has
-                                                        been Audited and found to be in accordance with requirements of
-                                                        <b> <a href="https://www.iso.org/home.html" target="_blank">ISO
-                                                                9001:2015
-                                                                Standard.</b></a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <a href="#_" class="lightbox" id="img1">
-                                                <img src="images/iso-certified.jpg" alt="iso certified">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6" style="margin-bottom: 40px;">
-                                        <div class="iq-feature9 text-center">
-                                            <div class="iq-feature9-blog">
-                                                <div class="left why-choose">
-                                                    <img src="images/business.png" class="img-fluid" alt="affordable cost">
-                                                </div>
-                                                <div class="best-content">
-                                                    <h5 class="iq-font-black iq-tw-6 iq-mt-15">Affordable Design</h5>
-                                                    <p class="iq-mb-0">We are <b>affordable web designers.</b> We design
-                                                        and develop beautiful static, dynamic and E-Commerce websites
-                                                        with <b><a href="https://analytics.google.com/analytics/web/" target="_blank">Google Analytics</a></b> following SEO
-                                                        standards at affordable price.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6" style="margin-bottom: 40px;">
-                                        <div class="iq-feature9-blog text-center">
-                                            <div class="iq-feature9">
-                                                <div class="left why-choose">
-                                                    <a href="#img2"><img src="images/msme.png" class="img-fluid" alt="msme registered"></a>
-                                                </div>
-                                                <div class="best-content">
-                                                    <h5 class="iq-font-black iq-tw-6 iq-mt-15">MSME Registered</h5>
-                                                    <p class="iq-mb-50">We are registered by Govt. of India under
-                                                        Ministry of Micro, Small &
-                                                        Medium Enterprises with <b><a href="https://msme.gov.in/" target="_blank">UAM No: MH19D0077334</a></b></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="#_" class="lightbox" id="img2">
-                                            <img alt="certificate1" src="images/certificate1.jpg">
-                                        </a>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-                    </div>
-                    <!--===============Best Web Developers in Mumbai ==================-->
-                    <!--===============How we Work! ==================-->
-
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h3 class="iq-tw-6 small-title iq-font-dark">How we Work!</h3>
-
-                            </div>
-                        </div>
-                        <div class="testimonial-reel">
-                            <!-- <div class="row iq-mt-30">
-                            <div class="col-lg-6">
-                                <div class="iq-feature16 iq-mtb-15 iq-pr-30">
-                                    <h5 class="iq-font-black iq-tw-6"><span class="icon-small"><i class="ion-ios-lightbulb-outline"></i></span>Awesome
-                                        <span class="iq-font-red">.</span>
-                                    </h5>
-                                    <p>We create awesome stuffs in web development, in applications and also in software products. </p>
-                                </div>
-                                <div class="iq-feature16 iq-mtb-15 iq-pr-30">
-                                    <h5 class="iq-font-black iq-tw-6"><span class="icon-small"><i class="ion-ios-photos-outline"></i></span>Innovative
-                                    <span class="iq-font-red">.</span>
-                                    </h5>
-                                    <p>We come up with the innovative idea for better utilization of the resources and to produce new solutions. </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="iq-feature16 iq-mtb-15 iq-pr-30">
-                                    <h5 class="iq-font-black iq-tw-6"><span class="icon-small"><i class="ion-ios-speedometer-outline"></i></span>Creavite
-                                    <span class="iq-font-red">.</span>
-                                    </h5>
-                                    <p>Most of us think about creativity as making something, but we thought the word means �to grow�. </p>
-                                </div>
-                                <div class="iq-feature16 iq-mtb-15 iq-pr-30">
-                                    <h5 class="iq-font-black iq-tw-6"><span class="icon-small"><i class="ion-ios-list-outline"></i></span>Experimental
-                                    <span class="iq-font-red">.</span>
-                                    </h5>
-                                    <p>We design new things, implement it and test it because we know chain of experiments is the path to betterment. </p>
-                                </div>
-                            </div> 
-                        </div> -->
-                            <!--<ul class="cards">-->
-                            <!--    <li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
-                            <div class="cardss">
-                                <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-lightbulb-outline"></i></span>
-                                        <span class="iq-font-red">Planning</span>
-                                    </h2>
-                                    <p class="card_text">Developer creates the data that allow to see the entire site
-                                        will look like.</p>
-                                </div>
-                            </div>
-                            <!--</li>-->
-                            <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
-                            <div class="cardss">
-                                <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-speedometer-outline"></i></span>
-                                        <span class="iq-font-red">Design</span>
-                                    </h2>
-                                    <p class="card_text">We design website for a word "WOW" at first glance.</p>
-                                </div>
-                            </div>
-                            <!--</li>-->
-                            <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
-                            <div class="cardss">
-                                <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-photos-outline"></i></span>
-                                        <span class="iq-font-red">Development</span>
-                                    </h2>
-                                    <p class="card_text">Web development can range from developing a simple static
-                                        website to complex Web applications.</p>
-                                </div>
-                            </div>
-                            <!--</li>-->
-                            <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
-                            <div class="cardss">
-                                <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-list-outline"></i></span>
-                                        <span class="iq-font-red">Testing</span>
-                                    </h2>
-                                    <p class="card_text">Every single link would be tested to make sure that there are
-                                        no broken ones among them.</p>
-                                </div>
-                            </div>
-                            <!--</li>-->
-                            <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
-                            <div class="cardss">
-                                <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-list-outline"></i></span>
-                                        <span class="iq-font-red">Delivery</span>
-                                    </h2>
-                                    <p class="card_text">Once you give your web designer final approval, it is time to
-                                        deliver the site.</p>
-                                </div>
-                            </div>
-                            <!--</li>-->
-                            <!--<li class="cards_item wow zoomInRight" data-wow-duration="1.0s">-->
-                            <div class="cardss">
-                                <div class="card_content">
-                                    <h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i class="ion-ios-list-outline"></i></span>
-                                        <span class="iq-font-red">Maintenance</span>
-                                    </h2>
-                                    <p class="card_text">Maintenance includes to update the info on your website, to
-                                        upgrade your technology & maintenance type items include regular backups.</p>
-                                </div>
-                            </div>
-                            <!--    </li>-->
-                            <!--</ul>-->
-                        </div>
-                    </div>
-                    <!--<div class="col-lg-4 img-cent">-->
-                    <!--    <img src="images/flowreduced.png" class="img-fluid " id="mydirect"-->
-                    <!--        style="visibility: visible; animation-duration: 2s; animation-name:fadeInRight; margin-top: auto;">-->
-
-                    <!--</div>-->
-                </div>
-                <!--===============How we Work! ==================-->
-
-            </div>
-        </section>
-
-        <!--===============Portfolio & all Section ==================-->
-
-        <!--<div class="row iq-mt-50">-->
-        <!--    <div class="col-lg-6 col-md-12 iq-mtb-15">-->
-        <!--    <div class="iq-feature7 wow fadeInLeft" data-wow-duration="1.5s">-->
-        <!--    <div class="feature-aria">-->
-        <!--    <div class="feature-content">-->
-        <!--    <h3 class="iq-font-dark iq-tw-6">Our Mission</h3>-->
-        <!--    <p>To give employment to maximum unemployed and skillful persons. To be a one stop solutions for our clients' Design, Web Development, Android Applications, iOS Applications and Difital Marketing.</p>-->
-        <!--     <div class="read-more green"><a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></div> -->
-        <!--    </div>-->
-        <!--    </div>-->
-        <!--    </div>-->
-        <!--    </div>-->
-        <!--    <div class="col-lg-6 col-md-12 iq-mtb-15 iq-re-9-mt30 order-first order-lg-2 text-center">-->
-        <!--    <div class="feature-aria">-->
-        <!--    <img class="img-fluid wow fadeInRight" data-wow-duration="1.5s" src="images/bg/mission12.png" alt="" size>-->
-        <!--    </div>-->
-        <!--    </div>-->
-        <!--</div>-->
-
-
-
-        <!--<section class="web-service-color ">-->
-        <!--    <div class="container">-->
-        <!--        <h1 class="text-center web-service-heading">Our Services</h1>-->
-
-        <!--    <div class="row row-cols-1 row-cols-md-3">-->
-        <!--  <div class="col mb-4 web-services wow fadeInUp" data-wow-duration="1.0s">-->
-        <!--    <div class="cardz">-->
-        <!--         <a href="webdevelopment">-->
-        <!--      <img src="images/responsive-Website.png" class="text-center" alt="..." style="height: 200px; width: 200px; margin:0 auto;">-->
-        <!--      <div class="card-body">-->
-        <!--        <h4 class="card-title text-center">Website Design and Development</h4>-->
-        <!--        <p class="card-text" style="text-align:center !important;"></p>-->
-        <!--      </div>-->
-        <!--      </a>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--  <div class="col mb-4 web-services wow fadeInDown" data-wow-duration="1.0s" style="margin-top: 40px;">-->
-        <!--    <div class="cardz">-->
-        <!--        <a href="digital_marketing_agency_in_mumbai">-->
-        <!--      <img src="images/dm.png" class="text-center" alt="..." style="height: 200px; width: 200px; margin:0 auto;">-->
-        <!--      <div class="card-body">-->
-        <!--        <h4 class="card-title text-center">Digital Marketing</h4>-->
-        <!--        <p class="card-text" style="text-align:center !important;"></p>-->
-        <!--      </div>-->
-        <!--      </a>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--  <div class="col mb-4 web-services wow fadeInUp" data-wow-duration="1.0s">-->
-        <!--    <div class="cardz ">-->
-        <!--        <a href="bulk_sms_service_providers_in_mumbai">-->
-        <!--      <img src="images/bulk-sms.png" class="text-center" alt="..." style="height: 200px; width: 200px; margin:0 auto;">-->
-        <!--      <div class="card-body">-->
-        <!--        <h4 class="card-title text-center">Bulk SMS Service</h4>-->
-        <!--        <p class="card-text" style="text-align:center !important;"></p>-->
-        <!--      </div>-->
-        <!--      </a>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--  <div class="col mb-4 web-services wow fadeInDown" data-wow-duration="1.0s" style="margin-top: 40px;">-->
-        <!--    <div class="cardz ">-->
-        <!--        <a href="graphicdesign">-->
-        <!--      <img src="images/logodesign.png" class="text-center" alt="..." style="height: 200px; width: 200px; margin:0 auto;">-->
-        <!--      <div class="card-body">-->
-        <!--        <h4 class="card-title text-center">Graphic Designing</h4>-->
-        <!--        <p class="card-text" style="text-align:center !important;"></p>-->
-        <!--      </div>-->
-        <!--      </a>-->
-        <!--    </div>-->
-        <!--  </div>-->
-        <!--</div>-->
-
-        <!--    </div>-->
-        <!--</section>-->
-
-
-
-        <!--=================================
-About Us -->
-        <!--<section class="overview-block-pt green-bg" style="background: #373737">-->
-        <!--    <div class="container">-->
-        <!--        <div class="row">-->
-        <!--            <div class="col-lg-8 col-md-12">-->
-        <!--                <div class="heading-title iq-font-white text-center">-->
-        <!--                    <h2 class="title white iq-tw-6" style="color: white;">About Us</h2>-->
-        <!--                    <p style="text-align: justify;">Sagar Tech � Technical Solutions, is a company established by-->
-        <!--                        young Entrepreneurs with 8 years of Technical Experience, giving you a complete Business-->
-        <!--                        Solution Plan starting with Website Development (Ecommerce website along with-->
-        <!--                        synchronized Android and iOS App, Business website, Event Promoting website, Agency-->
-        <!--                        website, etc), Customized Software for your Business to Digital Marketing including SEO,-->
-        <!--                        Social Media Marketing, Bulk SMS service and Accounting Services. We want to promote and-->
-        <!--                        showcase our client�s services and their business in a very professional way so that to-->
-        <!--                        attract their customers and make a firm trust in them for their services and for their-->
-        <!--                        company.-->
-        <!--                    </p>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--            <div class="col-lg-4 col-md-12">-->
-        <!--                <img src="images/partner.png" class="img-fluid" style="visibility: visible; animation-duration: 2s; animation-name:fadeInRight; margin-top: auto;">-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</section>-->
-        <!--=================================
-About Us -->
-        <!--=================================
-Counter -->
-        <div class="overview-block-pt iq-mb-60 white-bg">
-            <div class="container">
-                <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;margin-bottom: 30px;">Our Statistics</h3>
-                <div class="row iq-counter3 sdbtehnd">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-counter text-left iq-pall-20 wow slideInLeft" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/like1.png" alt="project counter"></div>
-                            <div class="right">
-                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="500" data-speed="5000">500+</span>
-                                <ofds>+</ofds>
-                                <div class="iq-lead iq-font-black" style="font-weight:600;">Projects Done</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-counter  text-left iq-pall-20 wow slideInLeft" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/client2.png" alt="clients counter"></div>
-                            <div class="right">
-                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="200" data-speed="5000">100%</span>
-                                <ofds>+</ofds>
-                                <div class="iq-lead iq-font-black" style="font-weight:600;">Satisfied Clients</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-counter text-left iq-pall-20 wow slideInRight" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/certi1.png" alt="certificate counter"></div>
-                            <div class="right">
-                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="1" data-speed="5000">1</span>
-                                <div class="iq-lead iq-font-black" style="font-weight:600;">Certification</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-counter text-left iq-pall-20 wow slideInRight" data-wow-duration="1.0s">
-                            <div class="left iq-font-black iq-mr-10"><img class="img-fluid" src="images/counter/star.png" alt="rating counter"></div>
-                            <div class="right">
-                                <span class="timer iq-font-black iq-tw-6 iq-mt-0" data-to="4.9" data-speed="5000">4.9</span>
-                                <div class="iq-lead iq-font-black" style="font-weight:600;">Rating</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--=================================
-Counter -->
-        <!--================================
-Great Theme for Your Business  -->
-        <!-- <section class="overview-block-ptb device-aria iq-bg iq-over-black-80 jarallax"
-            style="background-image: url('images/bg/13.jpg'); background-position: left center;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12 iq-mtb-15 iq-font-white">
-                        <h3 class="small-title iq-font-white iq-tw-6 iq-mb-20">Great Website for Your Business</h3>
-                        <p class="iq-mb-30">A simple way to view a your busniess on website is that it is your online
-                            business address. This is where your customers, clients and associates go to find you on the
-                            Internet. The Home page identifies your branded value proposition, the About Us page tells
-                            visitors all about your business and the Contact Us page informs everyone how to get in
-                            touch with you. It legitimizes your business and improves your credibility. It gives your
-                            business an identity and is virtual proof that it exists.</p>
-                        <ul class="listing-mark iq-tw-6">
-                            <li>A website is a great way to share your story.</li>
-                            <li>A website gives you the platform to highlight your experience and expertise.</li>
-                            <li>A mobile responsive website, one that can be accessed by mobile devices such as
-                                smartphones and tablets.</li>
-                            <li>Unlike a brick- and- mortar business that operates 9- to- 5, a website never closes
-                                shop. It is open 24/7, even on holidays.</li>
-                            <li>Let the Market Know �Who You Are�.</li>
-                            <li>Educate the Market of Your Business.</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 iq-mtb-15 iq-font-white iq-re-4-mt50">
-                        <h3 class="iq-tw-6 small-title iq-font-white">Powerful Skills</h3>
-                        <ul class="listing-mark iq-tw-6">
-                            <li>Professional Skills : Design Tool, Design Sense, UX Design, Responsive Design, Graphic
-                                Design and Adobe Animate. </li>
-                            <li>Technical Skills : HTML, CSS, JavaScript, Bootstrap, PHP, Web Server Management, etc
-                            </li>
-                            <li>Soft Skills : Time management, Project Management, SEO and Customer Service.</li>
-                        </ul>
-                        <div class="iq-skill2 white">
-                            <div class="iq-mt-80">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
-                                        <div class="heading">HTML5</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-html5" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="75" data-delay="0" data-type="%">
-                                        <div class="heading">CSS3</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-css3" aria-hidden="true"></i></div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="93" data-delay="0" data-type="%">
-                                        <div class="heading">Bootstrap</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-bold"></i></div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="88" data-delay="0" data-type="%">
-                                        <div class="heading">Java Script</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-coffee" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="89" data-delay="0" data-type="%">
-                                        <div class="heading">Jquery</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-coffee" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="79" data-delay="0" data-type="%">
-                                        <div class="heading">AJAX</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-adn" aria-hidden="true"></i></div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="88" data-delay="0" data-type="%">
-                                        <div class="heading">MySql</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-server" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="93" data-delay="0" data-type="%">
-                                        <div class="heading">Wordpress</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-file-word-o"
-                                        aria-hidden="true"></i></div>
-                            </div>
-                            <div class="iq-mt-30">
-                                <div class="right-blog">
-                                    <div class="progress-bar" data-percent="88" data-delay="0" data-type="%">
-                                        <div class="heading">SEO</div>
-                                    </div>
-                                </div>
-                                <div class="left-icon iq-font-white"><i class="fa fa-server" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <?php 
+            // include 'caroussel.html'
+            ?>
+            <div style="padding: 20px; text-align: center;">
+                <a href="our-portfolio" target="_blank" style="background-color: #ff0808; color: white; padding: 10px 15px; border-radius: 5px;">View More <svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" fill="white" viewBox="0 0 512 512">
+                        <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                    </svg></a>
             </div>
         </section> -->
-        <!--================================
-Great Theme for Your Business  -->
-        <!--=================================
-Our Great Features -->
-        <!-- <section class="overview-block-ptb iq-hide">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="heading-title text-center">
-                            <h2 class="title iq-tw-6">Our Great Features and Qualities</h2>
-                            <p style="text-align: center;">Sagar Tech - A complete Business Solution Plan starting with
-                                Website Development (Ecommerce website along with synchronized Android and iOS App,
-                                Business website, Event Promoting website, Agency website, etc), Customized Software for
-                                your Business to Digital Marketing including SEO, Social Media Marketing. We look
-                                forward for Customer Satisfaction and Quality Management as we are Entrepreneurs, not
-                                Businessmen. <a href="http://bulk.sagartech.co.in/" style="color: red" target="_blank">Bulk SMS
-                                    service.</a></p>
-                        </div>
-                    </div>
+
+       
+    </div>
+    <!--===============How we Work! ==================-->
+
+    </div>
+    </section>
+
+
+    <script>
+        ! function(o, i) {
+            window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
+                dq: [],
+                display: function() {
+                    this.dq.push(arguments)
+                }
+            }, o._provesrcAsyncInit = function() {
+                provesrc.init({
+                    apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
+                    v: "0.0.4"
+                })
+            };
+            var r = i.createElement("script");
+            r.type = "text/javascript", r.async = !0, r["ch" + "ar" + "set"] = "UTF-8", r.src = "https://cdn.provesrc.com/provesrc.js";
+            var e = i.getElementsByTagName("script")[0];
+            e.parentNode.insertBefore(r, e)
+        }(window, document);
+    </script><!-- End of Async ProveSource Code -->
+    <!--<div class='sk-ww-google-reviews' data-embed-id='91562'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>-->
+    <!--if the below comment is not working uncomment above line-->
+    <!--<iframe src="https://socialproofed.com/members/google-reviews/widget/6318e1be861fa63baca7c86e" width="600" height="450" style="border:0;margin:10%" allowfullscreen="" title="Social Proofed Widget"></iframe> -->
+    <div class="iq-testimonial2 overview-block-ptb iq-over-black-40 iq-bg jarallax" style="background-image: url('images/bg/36.jpg'); background-position: center,center;display:none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-lightbulb-o iq-font-white"></i>
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Powerful Website / Android App / iOS App</h5>
-                                <p class="iq-mb-0">Powerful website : Many websites are well designed and allow a good
-                                    level of customization options without a need for coding. Android Application is an
-                                    open source solution for mobile devices offering a complete software stack including
-                                    operating system, middle ware and key mobile applications.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-comments" aria-hidden="true"></i>
-                                    
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15"><a href="http://bulk.sagartech.co.in/">Bulk
-                                        SMS service</a></h5>
-                                <p class="iq-mb-0">Bulk sms helps you to create a bunch of customize sms to reach out to
-                                    customers. 24x7 support for your texts, Instant Delivery in 5-10 Seconds, Branded
-                                    Sender ID like LM-BRANDS, Powerful HTTP API's, Instant DND refunds.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.5s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="ion-ios-speedometer-outline iq-font-white"></i>
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Easy to Customize</h5>
-                                <p class="iq-mb-0">A custom web design is the product of web experts who hand-craft your
-                                    site starting from a blank page. Your custom web design is able to have efficient
-                                    code that is built to make your website fly, and not try to be a big template shell
-                                    to be all things for all users.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="2.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="ion-ios-list-outline iq-font-white"></i>
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Clean Code</h5>
-                                <p class="iq-mb-0">Code is easy to read, whether that reader is the original author of
-                                    the code or somebody else. It is easy to understand the execution flow of the entire
-                                    application and how the different objects collaborate with each other.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="ion-load-a iq-font-white"></i>
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Modern Design Layout</h5>
-                                <p class="iq-mb-0">Every year, we see new elements and styles in website design begin to
-                                    emerge. We provide latest design to your project.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.5s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="ion-social-javascript-outline iq-font-white"></i>
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">JS Animations</h5>
-                                <p class="iq-mb-0">With the Web Animations API, we can move interactive animations from
-                                    stylesheets to JavaScript, separating presentation from behavior. For building
-                                    custom animation libraries and creating interactive animations, the JS Animations
-                                    might be the perfect tool.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="2.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="ion-ios-paperplane-outline iq-font-white"></i>
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">New Updates</h5>
-                                <p class="iq-mb-0">A Site That�s Not Updated Loses Value. We use Outdated Theme &
-                                    Technologies for your projects.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-hand-pointer-o" aria-hidden="true"></i>
-                                    
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Clean Intentions</h5>
-                                <p class="iq-mb-0">We look forward to fulfill our Vision and Mission. Our Tariff varies
-                                    from work to work and not from Customer to Customer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-check-square" aria-hidden="true"></i>
-                                    
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Quality Management</h5>
-                                <p class="iq-mb-0">The Quality Management System of Sagar Tech - Technical Solutions has
-                                    been Audited and found to be in accordance with requirements of <b> ISO 9001:2015
-                                        Standard.</b></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                                    
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Customer Satisfaction</h5>
-                                <p class="iq-mb-0">We focus on Customer Satisfaction as we are "Entrepreneurs" and not
-                                    Businessmen.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-eye" aria-hidden="true"></i>
-                                    
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Transparency</h5>
-                                <p class="iq-mb-0">We are very much transparent in our work with No Hidden Cost to
-                                    maintain clear and good relationships with our Clients.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                    
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Punctuality</h5>
-                                <p class="iq-mb-0">We stick to our Deadlines with effective cooperation from our
-                                    Clients.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 iq-mt-40">
-                        <div class="iq-feature9 text-center iq-plr-10 wow fadeInUp" data-wow-duration="1.0s">
-                            <div class="iq-feature9-blog">
-                                <div class="left">
-                                    <i class="fa fa-registered" aria-hidden="true"></i>
-                                    
-                                </div>
-                                <h5 class="iq-font-black iq-tw-6 iq-mt-15">Registered</h5>
-                                <p class="iq-mb-0">We are registered by Govt. of India under Ministry of Micro, Small &
-                                    Medium Enterprises with <b>UAM No: MH19D0077334</b></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--=================================
-Our Great Features -->
-        <!--=================================
-Team  -->
-        <!-- <section class="overview-block-ptb grey-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="heading-title text-center">
-                            <h2 class="title iq-tw-6">Meet the Team</h2>
-                            <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-team5">
-                            <div class="team-images">
-                                <img class="img-fluid" src="images/team/team1.jpg" alt="">
-                                <div class="team-social">
-                                    <ul class="list-inline">
-                                        <li>
-                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-dribbble"></i> </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-description">
-                                <h6 class="iq-tw-6"><a href="team-details-1.html">Rinks Cooper</a></h6>
-                                <p>CEO, Sagar Tech</p>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
-                                        <div class="skill-head">Photoshop</div>
+                <div class="testimonial-card">
+                    <?php
+                    $sql = mysqli_query($con, "SELECT * FROM testimonial");
+                    while ($rows = mysqli_fetch_assoc($sql)) {
+                    ?>
+                        <div class="test-cardss">
+                            <div class="card_content text-center">
+                                <div class="feedback">
+                                    <div class="m-auto pb-2" style="width:30%;height:30%;">
+                                        <img alt="testimonials" class="img-fluid center-block" src="images/services/digital-icon/<?php if ($rows['test_gen'] == 'Female') {
+                                                                                                                                        echo 'team1.png';
+                                                                                                                                    } else {
+                                                                                                                                        echo 'team2.png';
+                                                                                                                                    } ?>">
+                                    </div>
+                                    <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">
+                                        <?php echo $rows['test_name']; ?>
+                                    </div>
+                                    <div class="iq-info brd-none">
+                                        <p>
+                                            <?php echo $rows['test_content']; ?>
+                                        </p>
+                                    </div>
+                                    <div class="iq-mt-10">
+                                        <div class="avtar-name">
+                                            <!-- <span>CEO, Sagar Tech</span> -->
+                                            <div class="iq-star iq-font-dark">
+                                                <?php
+                                                $stars = $rows['test_rate'];
+                                                $array = preg_split("/\./", $stars);
+                                                $fstars = $array[0];
+                                                $hstars = $array[1];
+                                                for ($i = 0; $i < $fstars; $i++) {
+                                                ?>
+                                                    <i class="fa fa-star" style="color:red" aria-hidden="true"></i>
+                                                <?php
+                                                }
+                                                if ($hstars != '0') {
+                                                ?>
+                                                    <i class="fa fa-star-half-o" style="color:red" aria-hidden="true"></i>
+                                                <?php
+                                                }
+                                                ?>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="90" data-delay="0" data-type="%">
-                                        <div class="skill-head">Branding</div>
-                                    </div>
-                                </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="86" data-delay="0" data-type="%">
-                                        <div class="skill-head">CSS 3</div>
-                                    </div>
-                                </div>
+                                <!--<h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i-->
+                                <!--                                      class="ion-ios-list-outline"></i></span>-->
+                                <!--                              <span class="iq-font-red">Delivery</span>-->
+                                <!--                          </h2>-->
+                                <!--<p class="card_text">Once you give your web designer final approval, it is time to deliver the site.</p>-->
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-team5">
-                            <div class="team-images">
-                                <img class="img-fluid" src="images/team/team2.jpg" alt="">
-                                <div class="team-social">
-                                    <ul class="list-inline">
-                                        <li>
-                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-dribbble"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-dribbble"></i> </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-description">
-                                <h6 class="iq-tw-6"><a href="team-details-1.html">Haris Morgan</a></h6>
-                                <p>CEO, Sagar Tech</p>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
-                                        <div class="skill-head">Photoshop</div>
-                                    </div>
-                                </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="90" data-delay="0" data-type="%">
-                                        <div class="skill-head">Branding</div>
-                                    </div>
-                                </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="86" data-delay="0" data-type="%">
-                                        <div class="skill-head">CSS 3</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-team5">
-                            <div class="team-images">
-                                <img class="img-fluid" src="images/team/team3.jpg" alt="">
-                                <div class="team-social">
-                                    <ul class="list-inline">
-                                        <li>
-                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-dribbble"></i> </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-description">
-                                <h6 class="iq-tw-6"><a href="team-details-1.html">JD Scot</a></h6>
-                                <p>CEO, Sagar Tech</p>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
-                                        <div class="skill-head">Photoshop</div>
-                                    </div>
-                                </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="90" data-delay="0" data-type="%">
-                                        <div class="skill-head">Branding</div>
-                                    </div>
-                                </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="86" data-delay="0" data-type="%">
-                                        <div class="skill-head">CSS 3</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="iq-team5">
-                            <div class="team-images">
-                                <img class="img-fluid" src="images/team/team4.jpg" alt="">
-                                <div class="team-social">
-                                    <ul class="list-inline">
-                                        <li>
-                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <i class="fa fa-dribbble"></i> </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="team-description">
-                                <h6 class="iq-tw-6"><a href="team-details-1.html">Nik Jorden</a></h6>
-                                <p>CEO, Sagar Tech</p>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="96" data-delay="0" data-type="%">
-                                        <div class="skill-head">Photoshop</div>
-                                    </div>
-                                </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="90" data-delay="0" data-type="%">
-                                        <div class="skill-head">Branding</div>
-                                    </div>
-                                </div>
-                                <div class="skill-blog">
-                                    <div class="progress-bar" data-percent="86" data-delay="0" data-type="%">
-                                        <div class="skill-head">CSS 3</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--=================================
-Team  -->
-        <!--================================
-Testimonial -->
-        <!--<div class="iq-testimonial2 overview-block-ptb iq-over-black-40 iq-bg jarallax"-->
-        <!--    style="background-image: url('images/bg/36.jpg'); background-position: center center;">-->
-        <!--    <div class="container">-->
-        <!--        <div class="row">-->
-        <!--            <div class="col-lg-6 col-sm-12">-->
-        <!--            </div>-->
-        <!--            <div class="col-lg-6 col-sm-12">-->
-        <!--                <h3 class="iq-tw-6 small-title iq-font-white">Testimonial</h3>-->
-        <!--                <div class="testi-white iq-brd iq-mt-40">-->
-        <!--                    <div class="owl-carousel re-inherit" data-autoplay="true" data-loop="true" data-nav="true"-->
-        <!--                        data-dots="false" data-items="1" data-items-laptop="1" data-items-tab="1"-->
-        <!--                        data-items-mobile="1" data-items-mobile-sm="1">-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>Putting together a website is a task, finding the right individual or-->
-        <!--                                        company is even more complex. I did my search around looking for this-->
-        <!--                                        particular company that has the ability to create, design and optimize-->
-        <!--                                        my website. I have no words to explain the magnificent and professional-->
-        <!--                                        work that Sagar Tech done for me. The designers and developers are true-->
-        <!--                                        professionals. They understand your vision and make it a reality. &#128077;-->
-        <!--                                        Thanks SagarTech team!</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team1.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Elham S.</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>Great platform to create a website and apps. Where in you get numbers of-->
-        <!--                                        sample templates which will help you to understand the types of web-->
-        <!--                                        pages can be generated with minimal amount. This templates has help us-->
-        <!--                                        understand the concept and most importantly the usage of website in-->
-        <!--                                        today's digital world. We can also develop the digital marketing through-->
-        <!--                                        SagarTech. Good luck!</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team2.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Mohammed Ammar Mungi-->
-        <!--                                        </div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>Know this organization... And one can rely on it's sustainability, and-->
-        <!--                                        get assurity of quality work no doubt on that!</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team2.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Shadab Shaikh</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>Experienced web designers , quick responses to problems at a very-->
-        <!--                                        affordable price . I�m very happy with my website and would definitely-->
-        <!--                                        suggest them to others.</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team2.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Musharraf Ansari</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>Nice work Sagar Tech team... done excellent work for my construction-->
-        <!--                                        company build an amazing website. Great work! appreciated...!</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team2.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Imran Ali Sayyed</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>It being really good initiatives to be taken by the developer and owner,-->
-        <!--                                        seems to be beneficial and helpful for whole humanity through out the-->
-        <!--                                        world. Keep it up and best of luck.</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team2.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Wasim Waghoo</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>It's a great platform to showcase and enhance your business skills and-->
-        <!--                                        goals..They share very good team work as they complete their assigned-->
-        <!--                                        tast or project within deadline.</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team1.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Humaira Waghoo</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>It was a good experience with Sagartech as having great knowledge-->
-        <!--                                        regarding website development and helpful in terms of co-ordination with-->
-        <!--                                        Mobile apps as well.. good going keep it up.</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team2.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Muzammil Jethwa</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>Best website building work all over mumbai!!!..Excellent job!!! Was a-->
-        <!--                                        great experience with their customer friendly staff...keep it up-->
-        <!--                                        guys&#128077;&#128077;</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team2.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Danish Mulla</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                        <div class="item">-->
-        <!--                            <div class="feedback">-->
-        <!--                                <div class="iq-info brd-none">-->
-        <!--                                    <p>Excellent work, supportive staff and have a very good experience in-->
-        <!--                                        pocket friendly price.</p>-->
-        <!--                                </div>-->
-        <!--                                <div class="iq-mt-10">-->
-        <!--                                    <div class="iq-avtar iq-mr-20"> <img alt="" class="img-fluid center-block"-->
-        <!--                                            src="images/services/digital-icon/team1.png"></div>-->
-        <!--                                    <div class="avtar-name">-->
-        <!--                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">Huda Mungi</div>-->
-        <!--                                         <span>CEO, Sagar Tech</span> -->
-        <!--                                        <div class="iq-star iq-font-dark"><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star"-->
-        <!--                                                aria-hidden="true"></i><i class="fa fa-star-half-o"-->
-        <!--                                                aria-hidden="true"></i></div>-->
-        <!--                                    </div>-->
-        <!--                                </div>-->
-        <!--                            </div>-->
-        <!--                        </div>-->
-        <!--                    </div>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--    </div>-->
-        <!--</div>-->
-        <!-- Start of Async ProveSource Code -->
-        <script>
-            ! function(o, i) {
-                window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
-                    dq: [],
-                    display: function() {
-                        this.dq.push(arguments)
+                    <?php
                     }
-                }, o._provesrcAsyncInit = function() {
-                    provesrc.init({
-                        apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
-                        v: "0.0.4"
-                    })
-                };
-                var r = i.createElement("script");
-                r.type = "text/javascript", r.async = !0, r["ch" + "ar" + "set"] = "UTF-8", r.src = "https://cdn.provesrc.com/provesrc.js";
-                var e = i.getElementsByTagName("script")[0];
-                e.parentNode.insertBefore(r, e)
-            }(window, document);
-        </script><!-- End of Async ProveSource Code -->
-        <!--<div class='sk-ww-google-reviews' data-embed-id='91562'></div><script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script>-->
-        <!--if the below comment is not working uncomment above line-->
-        <!--<iframe src="https://socialproofed.com/members/google-reviews/widget/6318e1be861fa63baca7c86e" width="600" height="450" style="border:0;margin:10%" allowfullscreen="" title="Social Proofed Widget"></iframe> -->
-        <div class="iq-testimonial2 overview-block-ptb iq-over-black-40 iq-bg jarallax" style="background-image: url('images/bg/36.jpg'); background-position: center,center;display:none">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12">
-                    </div>
-                    <div class="testimonial-card">
-                        <?php
-                        include('include/config.php');
-                        $sql = mysqli_query($con, "SELECT * FROM testimonial");
-                        while ($rows = mysqli_fetch_assoc($sql)) {
-                        ?>
-                            <div class="test-cardss">
-                                <div class="card_content text-center">
-                                    <div class="feedback">
-                                        <div class="m-auto pb-2" style="width:30%;height:30%;">
-                                            <img alt="testimonials" class="img-fluid center-block" src="images/services/digital-icon/<?php if ($rows['test_gen'] == 'Female') {
-                                                                                                                                            echo 'team1.png';
-                                                                                                                                        } else {
-                                                                                                                                            echo 'team2.png';
-                                                                                                                                        } ?>">
-                                        </div>
-                                        <div class="iq-lead iq-mb-0 iq-tw-6 iq-font-red">
-                                            <?php echo $rows['test_name']; ?>
-                                        </div>
-                                        <div class="iq-info brd-none">
-                                            <p>
-                                                <?php echo $rows['test_content']; ?>
-                                            </p>
-                                        </div>
-                                        <div class="iq-mt-10">
-                                            <div class="avtar-name">
-                                                <!-- <span>CEO, Sagar Tech</span> -->
-                                                <div class="iq-star iq-font-dark">
-                                                    <?php
-                                                    $stars = $rows['test_rate'];
-                                                    $array = preg_split("/\./", $stars);
-                                                    $fstars = $array[0];
-                                                    $hstars = $array[1];
-                                                    for ($i = 0; $i < $fstars; $i++) {
-                                                    ?>
-                                                        <i class="fa fa-star" style="color:red" aria-hidden="true"></i>
-                                                    <?php
-                                                    }
-                                                    if ($hstars != '0') {
-                                                    ?>
-                                                        <i class="fa fa-star-half-o" style="color:red" aria-hidden="true"></i>
-                                                    <?php
-                                                    }
-                                                    ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--<h2 class="card_title iq-font-red iq-tw-6"><span class="icon-small"><i-->
-                                    <!--                                      class="ion-ios-list-outline"></i></span>-->
-                                    <!--                              <span class="iq-font-red">Delivery</span>-->
-                                    <!--                          </h2>-->
-                                    <!--<p class="card_text">Once you give your web designer final approval, it is time to deliver the site.</p>-->
-                                </div>
-                            </div>
-                        <?php
-                        }
-                        ?>
+                    ?>
 
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div id="map">
-                        </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div id="map">
                     </div>
                 </div>
             </div>
         </div>
-        <!--================================
-Testimonial -->
-        <section class="overview-block-pt green-bg pt-1 m-5" style="background: #fff">
-            <div class="container-fluid text-center">
-                <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Our Channel Partner
-                </h3>
-                <div class="row pt-4">
-                    <div class="col-md-6 mb-4 text-right">
-                        <a href="https://onboarding.payumoney.com/app/account?partner_name=Ubaid+Saudagar&partner_source=Affiliate+Links&partner_uuid=11ea-0a92-04761236-af3e-02aa98a2d2b0&source=Partner" target="_blank">
-                            <img src="images/payumoney.png" alt="payumoney" class="img-fluid wow fadeInUp stcp fdhhh" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;height: 70px;width: auto;">
-                        </a>
-                    </div>
-                    <div class="col-md-6 mb-4 text-left">
-                        <a href="https://www.digitalocean.com/?refcode=a642978614f3&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
-                            <img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" class="img-fluid wow fadeInUp stcp fdhhh" data-wow-delay="1.5s" style="visibility: visible; animation-delay: 1.5s; animation-name: fadeInUp;height: 70px;width: auto;" />
-                        </a>
+    </div>
+
+
+
+
+    
+<hr>
+    <?php
+    include 'include/ourClients.php'
+    ?>
+
+
+<?php
+include 'include/portfolioSlider.php'
+?>
+<hr>
+<?php
+    include 'include/techStack.php'
+    ?>
+
+
+<style>
+  .stats-class {
+    padding: 50px 100px;
+  }
+  .stats-class h6 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #2b2a2a;
+    text-transform: uppercase;
+  }
+  .card-divvvv {
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .stats-cards {
+    aspect-ratio: 4/2;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .stats-cards img {
+    height: 70px;
+  }
+  .stats-card-detail {
+    text-align: center;
+  }
+  .stats-card-detail h5 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .stats-card-detail span {
+    font-size: 15px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .stats-class {
+      padding: 50px;
+    }
+    .stats-class h6 {
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      color: #2b2a2a;
+      text-transform: uppercase;
+    }
+    .card-divvvv {
+      padding: 30px 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 15px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .stats-class {
+      padding: 40px 20px;
+    }
+    .stats-class h6 {
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      color: #2b2a2a;
+      text-transform: uppercase;
+    }
+    .card-divvvv {
+      padding: 30px 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+  }
+</style>
+<div class="stats-class">
+  <h6>Our <span style="color: #ff0808">Statistics</span></h6>
+  <div class="card-divvvv">
+    <div class="stats-cards">
+      <img src="images/counter/like1.png" alt="" />
+      <div class="stats-card-detail">
+        <h5 style="color:green">500+</h5>
+        <span>Projects Done</span>
+      </div>
+    </div>
+    <div class="stats-cards">
+      <img src="images/counter/client2.png" alt="" />
+      <div class="stats-card-detail">
+        <h5 style="color:green">200+</h5>
+        <span>Satisfied Clients</span>
+      </div>
+    </div>
+    <div class="stats-cards">
+      <img src="https://cdn-icons-png.flaticon.com/512/2163/2163245.png" alt="" />
+      <div class="stats-card-detail">
+        <h5 style="color:green">1</h5>
+        <span>Awards</span>
+      </div>
+    </div>
+    <div class="stats-cards">
+      <img src="https://gurcooresidency.com/wp-content/uploads/2021/09/Google-Review-Icon.jpg" alt="" />
+      <div class="stats-card-detail">
+        <h5 style="color:green">5</h5>
+        <span>Rating</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- <style>
+  .wordpress-section {
+    padding: 50px 100px;
+    display: flex;
+    gap: 30px;
+  }
+  .wordpress-left {
+    width: 60%;
+    margin: auto 0;
+  }
+  .wordpress-left h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: initial;
+    color: #2b2b2b;
+    margin-bottom: 5px;
+  }
+  .wordpress-left h2 span {
+    color: #ff0808;
+  }
+  .wordpress-right {
+    width: 40%;
+  }
+  .wordpress-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  @media only screen and (max-width: 999px) {
+    .wordpress-section {
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 30px;
+    }
+    .wordpress-left {
+      width: 100%;
+      margin: auto 0;
+    }
+    .wordpress-left h2 {
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 600;
+      color: #2b2b2b;
+      margin-bottom: 10px;
+    }
+    .wordpress-left h2 span {
+      color: #ff0808;
+    }
+    .wordpress-right {
+      width: 100%;
+    }
+    .wordpress-right img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+</style>
+
+<div class="wordpress-section">
+  <div class="wordpress-left">
+    <h2>Wordpress developers in Mumbai</h2>
+    <div>
+      <p>
+        WordPress is very SEO friendly and there are large numbers of plugins
+      available which makes SEO optimization so easy for you. We are one of the
+      best wordpress developers in Mumbai and use Elementor Pro which is the
+      most advanced website builder plugin for WordPress, allowing you to
+      visually design forms, posts, WooCommerce, slides and more. We provide you
+      with a complete Business Solution starting from design and development of
+      your website, Local SEO, SEO and help you to scale your Busines to next
+      level of Excellence at affordable price.
+      </p>
+    </div>
+  </div>
+  <div class="wordpress-right">
+    <img
+      src="https://sagartech.co.in/portfolio-mockups/business/yogeshprashna.webp"
+      alt=""
+    />
+  </div>
+</div> -->
+
+
+    
+    <!-- <section class="iq-action-blog black-bg particles-bg iq-ptb-40" style="margin-top:0px;">
+        <canvas id="canvas"></canvas>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 iq-font-white">
+                    <img style="border-radius:10px" class="card-img-top img-fluid" src="images/bg/digi-market-index-page.jpg" alt="Card image cap">
+                </div>
+                <div class="col-lg-7 mb-5 iq-font-white">
+                    <h2 class="iq-font-white iq-fw-4 iq-pb-10" style="font-weight: 500;">Wordpress developers and
+                        Best Digital Marketing agency in Mumbai.<strong class="iq-font-black"></strong></h2>
+                    <div>
+                        <p>
+
+                            <b><a href="https://bit.ly/3lVXn28" target="_blank">WordPress</a></b> is very SEO
+                            friendly and there are large numbers of plugins available which makes SEO optimization
+                            so easy for you.
+                            We are one of the best wordpress developers in Mumbai and use <b><a href="https://elementor.com/pro/" target="_blank">Elementor Pro</a></b> which is
+                            the most advanced website builder plugin for WordPress, allowing you to visually design
+                            forms, posts, WooCommerce, slides and more.
+                            We provide you with a complete Business Solution starting from design and development of
+                            your website, Local SEO, SEO and help you to scale your Busines to next level of
+                            Excellence at affordable price.
+                        </p>
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-3 text-right"><a href="about.html" class="button white grey iq-re-4-mt30 iq-mr-0">Read More</a> </div>
             </div>
-        </section>
+        </div>
+    </section> -->
+
+
+    <style>
+        .index-testimonial {
+            padding:50px 100px;
+            text-align:center;
+            background:#f2f2f2;
+        }
+        .index-testimonial h2 {
+            font-size:35px;
+            font-weight:600;
+            line-height:normal;
+        }
+        .inner-testimonial {
+            display:flex;
+            width: 100%;
+            gap:40px;
+            padding-top:40px;
+        }
+        .inner-testimonial .inner-left {
+            width: 60%;
+        }
+        .inner-left iframe {
+            height:350px;
+            width: 100%;
+        }
+        .inner-testimonial .inner-right {
+            width: 40%;
+            margin:auto 0px;
+        }
+        .inner-right h2 {
+            font-size:23px;
+            font-weight:600;
+            text-align:left;
+        }
+        .inner-right span {
+            margin-bottom:10px;
+            font-size:18px;
+            font-weight:600;
+            color:#ff0808;
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+            .index-testimonial {
+            padding:50px;
+            text-align:center;
+            background:#f2f2f2;
+        }
+        .index-testimonial h2 {
+            font-size:25px;
+            font-weight:600;
+            line-height:normal;
+        }
+        .inner-testimonial {
+            display:flex;
+            flex-direction:column;
+            width: 100%;
+            gap:40px;
+            padding-top:20px;
+        }
+        .inner-testimonial .inner-left {
+            width: 100%;
+        }
+        .inner-left iframe {
+            height:350px;
+            width: 100%;
+        }
+        .inner-testimonial .inner-right {
+            width: 100%;
+            margin:auto 0px;
+        }
+        .inner-right h2 {
+            font-size:23px;
+            font-weight:600;
+            text-align:left;
+        }
+        .inner-right span {
+            margin-bottom:10px;
+            font-size:18px;
+            font-weight:600;
+            color:#ff0808;
+        }
+        }
+
+        @media only screen and (max-width: 767px){
+            .index-testimonial {
+            padding:50px 20px;
+            text-align:center;
+            background:#f2f2f2;
+        }
+        .index-testimonial h2 {
+            font-size:22px;
+            font-weight:600;
+            line-height:normal;
+        }
+        .inner-testimonial {
+            display:flex;
+            flex-direction:column;
+            width: 100%;
+            gap:40px;
+            padding-top:20px;
+        }
+        .inner-testimonial .inner-left {
+            width: 100%;
+        }
+        .inner-left iframe {
+            height:200px;
+            width: 100%;
+        }
+        .inner-testimonial .inner-right {
+            width: 100%;
+            margin:auto 0px;
+        }
+        .inner-right h2 {
+            font-size:23px;
+            font-weight:600;
+            text-align:left;
+        }
+        .inner-right span {
+            margin-bottom:10px;
+            font-size:18px;
+            font-weight:600;
+            color:#ff0808;
+        }
+        }
+    </style>
+    <div class="index-testimonial">
+        <h2>Testimonial From Our <span style="color:#ff0808;">Valuable Client</span></h2>
+        <div class="inner-testimonial">
+            <div class="inner-left">
+                <iframe src="https://www.youtube.com/embed/YNW7g-z2am4?si=NT44aPzQ510gkJLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="inner-right">
+                <h2>SAQUIB AGBOATWALA <span style="color:#ff0808; font-size:18px;">(CEO)</span></h2>
+                <span>OASIS CONSULTING</span>
+                <p>
+                    It is a distinct pleasure for me to recommend Sagar Tech to one and all.They offer a wide variety of services to all kinds of businesses to help them scale. They are Professional, Patient, diligent and detail oriented in their work.
+                    <br>
+                    They handle things very efficiently and are available for any questions you have. They also keep you updated by providing regular reports so you always feel in the loop.
+                    Overall it was a 10/10 experience choosing Sagar Tech and I highly recommend everyone to give them a chance. 👍🏻
+                </p>
+            </div>
+        </div>
+    </div>
 
 
 
 
-        <div class="container" style="padding: 20px 0px;">
-            <h3 class="iq-tw-6 small-title iq-font-dark wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Our Clients</h3>
-            <section class="customer-logos slider">
-                <?php
-                // $sql = mysqli_query($con,"SELECT * FROM images WHERE img_act_id = 7 ORDER BY img_id DESC");
-                //     while($rows = mysqli_fetch_assoc($sql)) {
-                ?>
 
-                <!--<div class="slide m-auto text-center"><img src="<?php
-                                                                    // echo $rows['img_tag'];
-                                                                    ?>"></div>-->
 
-                <div class="slide slide-stlogos"><a><img alt="Globex" src="images/logo/01 Globex.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="UJSA Aircon Pvt." src="images/logo/02 UJSA Aircon Pvt. Ltd.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="mithoyaj" src="images/logo/mithoyaj logo.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Eperts4Expats" src="images/logo/05 Eperts4Expats.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="M4 Group" src="images/logo/07 M4 Group.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Zodiac Classic" src="images/logo/13 Zodiac Classic.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="ZZ Consultants" src="images/logo/14 ZZ Consultants.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Oasis Consulting" src="images/logo/15 Oasis Consulting.jpg"></a></div>
-                <div class="slide slide-stlogos" style="padding:0px"><a><img alt="Zoheb Lala" style="border-radius:10px" src="images/logo/18 Zoheb Lala.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Andhar" src="images/logo/19 Andhar.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Rapid Transport" src="images/logo/20 Rapid Transport.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Alhamd Group" src="images/logo/21 Alhamd Group.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Infinitus" src="images/logo/22 Infinitus.jpg"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="AS Audio" src="images/logo/24 AS Audio.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Acero" src="images/logo/26 Acero.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Hadi International" src="images/logo/27 Hadi International.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Padmavati Chains" src="images/logo/29 Padmavati Chains.png"></a></div>
-                <div class="slide slide-stlogos" style="background: #ffcc29;"><a><img alt="Soot Boot Wala" src="images/logo/30 Soot Boot Wala.png"></a></div>
-                <div class="slide slide-stlogos"><a><img alt="Tasavvur" src="images/logo/31 Tasavvur.png"></a></div>
 
-                <?php
-                // }
-                ?>
-            </section>
 
+
+    <h3 class="faqs-heading">FAQs</h3>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h2>What services does Sagar Tech Technical Solution offer?</h2>
+                <div class="accordion-content">
+                    <p>
+          Sagar Tech Technical Solution is an award-winning company that provides a comprehensive range of services, including:
+          <br><br>
+          <b>Web Development:</b> We specialise in web development, software development, and customised solutions that meet your specific requirements.
+          <br>
+          <b>Digital Marketing:</b> Our team offers strategic digital marketing services such as Google Ads, SEO, social media marketing, and email marketing to help you increase your online presence and achieve results.
+          <br>
+          <b>App Development:</b> We create innovative and user-friendly mobile applications for the iOS and Android platforms to assist businesses in effectively engaging their target audiences.
+          <br>
+          <b>Graphic Design:</b> Our skilled designers create visually appealing graphics, logos, branding materials, and user interfaces to enhance your brand's identity and communication.
+        </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2>How can I request a quote for services?</h2>
+                <div class="accordion-content">
+                    <p>To request a quote, simply visit our website and fill out the contact form with details about your project requirements. Our team will get back to you promptly with a customised quote tailored to your needs.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2>What industries does Sagar Tech Technical Solution work with?</h2>
+                <div class="accordion-content">
+                    <p>We have worked with clients in a variety of industries, including e-commerce, healthcare, education, finance, Real Estate, Interior Design,  Perfume Industry . Our adaptable approach allows us to meet the unique needs of each business.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2>Is Sagar Tech Technical Solution capable of handling large-scale projects?</h2>
+                <div class="accordion-content">
+                    <p>Absolutely yes! We have a proven track record of successfully delivering large-scale projects for enterprise clients.Our team has the expertise and resources to handle projects of any size and complexity.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2>How long does it typically take to complete a project?</h2>
+                <div class="accordion-content">
+                    <p>The timeline for each project varies according to its scope, complexity, and specific requirements. We work together closely with our clients to establish realistic timelines and achievements, ensuring timely delivery without affecting quality.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2>What digital marketing services does Sagar Tech Technical Solution offer?</h2>
+                <div class="accordion-content">
+                    <p>Sagar Tech Technical Solution offers a variety of digital marketing services to help businesses improve their online presence and meet marketing objectives. Our services include Google Ads,, SEO, SEM, SMM, email marketing, content marketing, and others.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2>How can digital marketing services benefit my business?</h2>
+                <div class="accordion-content">
+                    <p>Digital marketing services are critical for businesses seeking to increase visibility, attract targeted traffic, generate leads, and increase conversions. Businesses can reach their target audience more effectively by leveraging various digital channels and strategies, engaging with them on relevant platforms, and driving meaningful interactions that lead to business growth and success.</p>
+                </div>
+            </div>
 
         </div>
+        <script>
+            document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
+                accordionToggle.addEventListener('click', () => {
+                    const accordionItem = accordionToggle.parentNode;
+                    const accordionContent = accordionToggle.nextElementSibling;
 
+                    // If this accordion item is already open, close it.
+                    if (accordionContent.style.maxHeight) {
+                        accordionContent.style.maxHeight = null;
+                        accordionItem.classList.remove('active');
+                    } else {
+                        accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                        accordionItem.classList.add('active');
+                    }
+                });
+            });
+        </script>
 
-
-
-
-
-        <!--================================
-Pricing  -->
-        <!-- <section class="overview-block-ptb">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="heading-title text-center">
-                            <h2 class="title iq-tw-6">Our Pricing</h2>
-                            <p>Lorem Ipsum is simply dummy text ever sincehar the 1500s, when an unknownshil printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="iq-pricing-5 iq-ptb-40 white-bg">
-                            <div class="pricing-header iq-mb-30">
-                                <h6 class="iq-tw-6 iq-mb-10">Start Up</h6>
-                                <h3 class="iq-tw-6">$1.99</h3>
-                            </div>
-                            <ul class="iq-mtb-30">
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-                            </ul>
-                            <a class="button" href="#">Purchase</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 iq-re-4-mt50">
-                        <div class="iq-pricing-5 iq-ptb-40 active white-bg">
-                            <div class="pricing-header iq-mb-30">
-                                <h6 class="iq-tw-6 iq-mb-10">Professional</h6>
-                                <h3 class="iq-tw-6">$4.99</h3>
-                            </div>
-                            <ul class="iq-mtb-30">
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-                            </ul>
-                            <a class="button" href="#">Purchase</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 iq-re-9-mt50">
-                        <div class="iq-pricing-5 iq-ptb-40 white-bg">
-                            <div class="pricing-header iq-mb-30">
-                                <h6 class="iq-tw-6 iq-mb-10">Advanced</h6>
-                                <h3 class="iq-tw-6">$9.99</h3>
-                            </div>
-                            <ul class="iq-mtb-30">
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-                            </ul>
-                            <a class="button" href="#">Purchase</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 iq-re-9-mt50">
-                        <div class="iq-pricing-5 iq-ptb-40 white-bg">
-                            <div class="pricing-header iq-mb-30">
-                                <h6 class="iq-tw-6 iq-mb-10">Premium</h6>
-                                <h3 class="iq-tw-6">$45.99</h3>
-                            </div>
-                            <ul class="iq-mtb-30">
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>Photoshop</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-checkmark-round"></i>HTML5 &amp; CSS 3</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Wordpress</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Javascript</li>
-                                <li class="iq-mtb-20"><i aria-hidden="true" class="iq-mr-10 ion-close-round"></i>Animation</li>
-                            </ul>
-                            <a class="button" href="#">Purchase</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--================================
-Pricing  -->
-        <!--=================================
-Action Box -->
-        <section class="iq-action-blog black-bg particles-bg iq-ptb-40" style="margin-top:0px;">
-            <canvas id="canvas"></canvas>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5 mb-5 iq-font-white">
-                        <img style="border-radius:10px" class="card-img-top img-fluid" src="images/bg/digi-market-index-page.jpg" alt="Card image cap">
-                    </div>
-                    <div class="col-lg-7 mb-5 iq-font-white">
-                        <h2 class="iq-font-white iq-fw-4 iq-pb-10" style="font-weight: 500;">Wordpress developers and
-                            Best Digital Marketing agency in Mumbai.<strong class="iq-font-black"></strong></h2>
-                        <div align="justify">
-                            <p>
-
-                                <b><a href="https://bit.ly/3lVXn28" target="_blank">WordPress</a></b> is very SEO
-                                friendly and there are large numbers of plugins available which makes SEO optimization
-                                so easy for you.
-                                We are one of the best wordpress developers in Mumbai and use <b><a href="https://elementor.com/pro/" target="_blank">Elementor Pro</a></b> which is
-                                the most advanced website builder plugin for WordPress, allowing you to visually design
-                                forms, posts, WooCommerce, slides and more.
-                                We provide you with a complete Business Solution starting from design and development of
-                                your website, Local SEO, SEO and help you to scale your Busines to next level of
-                                Excellence at affordable price.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-2 col-md-3 text-right"><a href="about.html" class="button white grey iq-re-4-mt30 iq-mr-0">Read More</a> </div> -->
-                </div>
-            </div>
-        </section>
-
-
-        <!--=================================
-Action Box -->
-        <!--=================================
-Main Content -->
     </div>
     <!--=================================
 Footer-6 -->
     <?php
-    include("include/faqaccordian.html");
+    // include("include/accordion.html");
+    // include("include/faqaccordian.html");
+    include 'blogSectionHome.php';
     include("include/footer.php");
     ?>
     <!--=================================
@@ -2393,9 +1532,9 @@ Login -->
         </div>
     </div>
     <!-- back-to-top -->
-    <div id="back-to-top">
+    <!-- <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
+    </div> -->
     <!-- back-to-top End -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>

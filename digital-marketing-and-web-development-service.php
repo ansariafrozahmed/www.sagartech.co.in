@@ -7,10 +7,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="Sagartech provide website development, digital marketing, App development and bulk SMS services with affordable price. Contact us now and get your qoute.">
-    <meta name="keywords"
-        content="Website Development and Digital Marketing">
+    <meta name="description" content="Sagartech provide website development, digital marketing, App development and bulk SMS services with affordable price. Contact us now and get your qoute.">
+    <meta name="keywords" content="Website Development and Digital Marketing">
     <meta name="author" content="Ubaid saudagar">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Website Development and Digital Marketing - Sagartech">
@@ -33,7 +31,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-156939866-1');
@@ -174,7 +175,9 @@
         padding: 0 25%;
         font-weight: bold;
     }
-    .single-serviecs-block:hover h4, .single-serviecs-block:hover p {
+
+    .single-serviecs-block:hover h4,
+    .single-serviecs-block:hover p {
         color: white !important;
     }
 </Style>
@@ -210,8 +213,7 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- /HEADER END -->
 
     <!--======= Breadcrumb Left With BG Image =======-->
-    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
-        style="background-image: url('images/bg/service-slider.jpeg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-image: url('images/bg/service-slider.jpeg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
         <!--style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RhZmZ8ZW58MHx8MHx8&w=1000&q=80'); background-position: center center; background-repeat: no-repeat; background-size: cover;">-->
         <div class="container">
             <div class="row align-items-center">
@@ -345,55 +347,40 @@ MAIN CONTENT -->
                             <!--<h1 class="iq-tw-6 small-title iq-font-dark">Web Designers in Mumbai</h1>-->
                             <h1 class="iq-tw-6 iq-font-dark" style="text-align:center;">Website Development, Digital Marketing, App development and Bulk SMS services</h1>
                             <p class="iq-mb-0 p-0" style="text-align: justify; font-size: 16px;">Sagar Tech Technical
-                                Solutions is a <b><a href="index">Web development company</a></b> in <b><a
-                                        href="https://en.wikipedia.org/wiki/South_Mumbai" target="_blank">South
-                                        Mumbai</a></b>.
-                                We offer services like <b><a href="website-design-mumbai">Website Designing</a></b>,
+                                Solutions is a <b><a href="index">Web development company</a></b> in South
+                                Mumbai.
+                                We offer services like <b><a href="web-design-company-mumbai">Website Designing</a></b>,
                                 Website development, Custom Website designing,
                                 Dynamic website development. We also provide Content management system for managing
                                 E-commerce websites.
-                                We also develop Mobile Apps for Android and iOS using <b><a
-                                        href="https://flutter.dev">Flutter</a></b>.
+                                We also develop Mobile Apps for Android and iOS using <b><a href="https://flutter.dev">Flutter</a></b>.
                                 We are one of the best <b><a href="digital-marketing-service">Digital Marketing agency</a></b> in
                                 Mumbai providng services like Local SEO by optimizing your
-                                <b><a href="https://www.google.com/intl/en_in/business/">GMB</a></b>, PAN INDIA <b><a
-                                        href="https://developers.google.com/search/docs/beginner/seo-starter-guide">
-                                        SEO (Search engine optimization)</a></b>, Social Media Optimization, <b><a
-                                        href="https://blog.hubspot.com/marketing/social-media-marketing">
+                                <b><a href="https://www.google.com/intl/en_in/business/">GMB</a></b>, PAN INDIA <b><a href="https://developers.google.com/search/docs/beginner/seo-starter-guide">
+                                        SEO (Search engine optimization)</a></b>, Social Media Optimization, <b><a href="https://blog.hubspot.com/marketing/social-media-marketing">
                                         Social Media Marketing. </a></b>
                                 We are an organization specializing in <b>ISO Certification</b>, ISO Implementation. Our
                                 aim is to ensure that organisation met customer expectations as per recognised
                                 international standards.
-                                There are 6 steps before you get an <b><a href="https://www.iso.org/certification.html"
-                                        target="_blank">ISO Certificate.</a></b> <br>
+                                There are 6 steps before you get an <b><a href="https://www.iso.org/certification.html" target="_blank">ISO Certificate.</a></b> <br>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <ul class="list-display list-checkmarks" data-transition="random"
-                                        data-slotamount="7" data-masterspeed="300"
-                                        style="padding-left: 1.5rem;text-align: left;">
-                                        <li class="wow fadeInUp" data-wow-delay="0.2s"
-                                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                    <ul class="list-display list-checkmarks" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;">
+                                        <li class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                             GAP Analysis</li>
-                                        <li class="wow fadeInUp" data-wow-delay="1s"
-                                            style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;">
+                                        <li class="wow fadeInUp" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;">
                                             Training</li>
-                                        <li class="wow fadeInUp" data-wow-delay="2s"
-                                            style="visibility: visible; animation-delay: 2s; animation-name: fadeInUp;">
+                                        <li class="wow fadeInUp" data-wow-delay="2s" style="visibility: visible; animation-delay: 2s; animation-name: fadeInUp;">
                                             Documentation</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
-                                    <ul class="list-display list-checkmarks" data-transition="random"
-                                        data-slotamount="7" data-masterspeed="300"
-                                        style="padding-left: 1.5rem;text-align: left;">
-                                        <li class="wow fadeInUp" data-wow-delay="0.2s"
-                                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                    <ul class="list-display list-checkmarks" data-transition="random" data-slotamount="7" data-masterspeed="300" style="padding-left: 1.5rem;text-align: left;">
+                                        <li class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                                             Audit</li>
-                                        <li class="wow fadeInUp" data-wow-delay="1s"
-                                            style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;">
+                                        <li class="wow fadeInUp" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;">
                                             Implementation</li>
-                                        <li class="wow fadeInUp" data-wow-delay="2s"
-                                            style="visibility: visible; animation-delay: 2s; animation-name: fadeInUp;">
+                                        <li class="wow fadeInUp" data-wow-delay="2s" style="visibility: visible; animation-delay: 2s; animation-name: fadeInUp;">
                                             Certification</li>
                                     </ul>
                                 </div>
@@ -481,8 +468,7 @@ MAIN CONTENT -->
                     <!--</div>-->
                 </div>
             </div>
-            <div class="modal fade bd-example-modal-sm text-center" id="accModal" tabindex="-1" role="dialog"
-                aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal fade bd-example-modal-sm text-center" id="accModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-sm text-center">
                     <div class="modal-content text-center">
                         <div class="modal-header text-center">
@@ -506,8 +492,7 @@ Action Box -->
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 mb-5 iq-font-white">
-                        <img style="border-radius:10px" class="card-img-top img-fluid"
-                            src="images/bg/tools-total-it.png" alt="Card image cap">
+                        <img style="border-radius:10px" class="card-img-top img-fluid" src="images/bg/tools-total-it.png" alt="Card image cap">
                     </div>
                     <div class="col-lg-6 iq-font-white">
                         <h2 class="iq-font-white iq-fw-4 iq-pb-10" style="font-weight: 500;">A Complete Solution of Your
@@ -528,9 +513,9 @@ Action Box -->
 Main Content -->
     <!--=================================
 Footer -->
-    <?php 
+    <?php
     // include("include/faqaccordian.html");
-    include("include/footer.php"); 
+    include("include/footer.php");
     ?>
     <!--=================================
 Footer -->
@@ -570,28 +555,35 @@ Footer -->
     <!-- WhatsHelp.io widget -->
     <script src="js/notcopyable.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
-            var msgpopup = "COPYING CONTENT IS PROHIBITED";
-            function handle() {
-                if (toShowMessage == "1") alert(message);
-                if (closeSelf == "1") self.close();
-                return false;
-            }
-            function mouseDown() {
-                if (event.button == "2" || event.button == "3") { handle(); }
-            }
-            function mouseUp(e) {
-                //if (document.layers || (document.getElementById && !document.all)){
-                if (e.which == "2" || e.which == "3") { handle(); }
-                //}
-            }
-            document.onmousedown = mouseDown;
-            document.onmouseup = mouseUp;
-            // $('body').bind('cut copy paste', function (e) {
-            //       e.preventDefault();
-            //   });
-        })
-            (function () {
+        $(document).ready(function() {
+                var msgpopup = "COPYING CONTENT IS PROHIBITED";
+
+                function handle() {
+                    if (toShowMessage == "1") alert(message);
+                    if (closeSelf == "1") self.close();
+                    return false;
+                }
+
+                function mouseDown() {
+                    if (event.button == "2" || event.button == "3") {
+                        handle();
+                    }
+                }
+
+                function mouseUp(e) {
+                    //if (document.layers || (document.getElementById && !document.all)){
+                    if (e.which == "2" || e.which == "3") {
+                        handle();
+                    }
+                    //}
+                }
+                document.onmousedown = mouseDown;
+                document.onmouseup = mouseUp;
+                // $('body').bind('cut copy paste', function (e) {
+                //       e.preventDefault();
+                //   });
+            })
+            (function() {
                 var options = {
                     //whatsapp: "+919820133303", // WhatsApp number
                     email: "info@sagartech.co.in",
@@ -605,7 +597,7 @@ Footer -->
                 s.type = 'text/javascript';
                 s.async = true;
                 s.src = url + '/widget-send-button/js/init.js';
-                s.onload = function () {
+                s.onload = function() {
                     WhWidgetSendButton.init(host, proto, options);
                 };
                 var x = document.getElementsByTagName('script')[0];
@@ -613,7 +605,7 @@ Footer -->
             })();
     </script>
     <!-- /WhatsHelp.io widget -->
-  
+
     <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <div class="modal-dialog  modal-md">
             <div class="modal-content text-center">
@@ -629,15 +621,13 @@ Footer -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="fname">Full Name</label>
-                                    <input type="text" class="form-control" name="fname" id="fname"
-                                        aria-describedby="emailHelp" placeholder="Enter full name">
+                                    <input type="text" class="form-control" name="fname" id="fname" aria-describedby="emailHelp" placeholder="Enter full name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email1">Email address</label>
-                                    <input type="email" class="form-control" id="email1" name="email1"
-                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                    <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter email">
                                     <small id="emailHelp" class="form-text text-muted">Your information is safe with
                                         us.</small>
                                 </div>
@@ -647,8 +637,7 @@ Footer -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="mobile">Contact Number</label>
-                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10"
-                                        aria-describedby="emailHelp" placeholder="Enter Contact Number">
+                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -681,14 +670,14 @@ Footer -->
             </div>
         </div>
     </div>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
     <script>
-        $(function () {
+        $(function() {
             var myform = $(".add_mainarea_form");
             var completed = '0%';
             $(myform).ajaxForm({
 
-                complete: function () {
+                complete: function() {
                     $('#largeModal').modal('hide')
                     setTimeout(
                         $('.bd-example-modal-sm').modal('show'), 3000);
@@ -697,9 +686,9 @@ Footer -->
 
 
         });
-        $(document).ready(function () {
+        $(document).ready(function() {
 
-            $('body').bind('cut copy paste', function (e) {
+            $('body').bind('cut copy paste', function(e) {
                 e.preventDefault();
             });
 
@@ -713,8 +702,7 @@ Footer -->
 
         });
     </script>
-    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog"
-        aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm text-center">
             <div class="modal-content text-center">
                 <div class="modal-header text-center">
@@ -761,10 +749,8 @@ Footer -->
                     <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
                     <ul class="iq-media-blog iq-mt-20">
                         <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i
-                                    class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i
-                                    class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i class="fa fa-facebook "></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="# "><i class="fa fa-github "></i></a></li>
                     </ul>
                 </div>

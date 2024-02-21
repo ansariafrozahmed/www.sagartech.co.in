@@ -90,17 +90,22 @@ class Astra_Headings_Typo_Configs extends Astra_Customizer_Config_Base {
 				'transport'         => 'postMessage',
 				'priority'          => 28,
 				'title'             => __( 'Font Size', 'astra' ),
-				'suffix'            => array( 'px', 'em' ),
+				'suffix'            => array( 'px', 'em', 'vw' ),
 				'input_attrs'       => array(
 					'px' => array(
 						'min'  => 0,
 						'step' => 1,
-						'max'  => 100,
+						'max'  => 200,
 					),
 					'em' => array(
 						'min'  => 0,
 						'step' => 0.01,
 						'max'  => 20,
+					),
+					'vw' => array(
+						'min'  => 0,
+						'step' => 0.1,
+						'max'  => 25,
 					),
 				),
 			),
@@ -171,17 +176,22 @@ class Astra_Headings_Typo_Configs extends Astra_Customizer_Config_Base {
 				'transport'         => 'postMessage',
 				'priority'          => 28,
 				'title'             => __( 'Font Size', 'astra' ),
-				'suffix'            => array( 'px', 'em' ),
+				'suffix'            => array( 'px', 'em', 'vw' ),
 				'input_attrs'       => array(
 					'px' => array(
 						'min'  => 0,
 						'step' => 1,
-						'max'  => 100,
+						'max'  => 200,
 					),
 					'em' => array(
 						'min'  => 0,
 						'step' => 0.01,
 						'max'  => 20,
+					),
+					'vw' => array(
+						'min'  => 0,
+						'step' => 0.1,
+						'max'  => 25,
 					),
 				),
 			),
@@ -251,17 +261,22 @@ class Astra_Headings_Typo_Configs extends Astra_Customizer_Config_Base {
 				'transport'         => 'postMessage',
 				'priority'          => 28,
 				'title'             => __( 'Font Size', 'astra' ),
-				'suffix'            => array( 'px', 'em' ),
+				'suffix'            => array( 'px', 'em', 'vw' ),
 				'input_attrs'       => array(
 					'px' => array(
 						'min'  => 0,
 						'step' => 1,
-						'max'  => 100,
+						'max'  => 200,
 					),
 					'em' => array(
 						'min'  => 0,
 						'step' => 0.01,
 						'max'  => 20,
+					),
+					'vw' => array(
+						'min'  => 0,
+						'step' => 0.1,
+						'max'  => 25,
 					),
 				),
 			),
@@ -331,17 +346,22 @@ class Astra_Headings_Typo_Configs extends Astra_Customizer_Config_Base {
 				'transport'         => 'postMessage',
 				'priority'          => 28,
 				'title'             => __( 'Font Size', 'astra' ),
-				'suffix'            => array( 'px', 'em' ),
+				'suffix'            => array( 'px', 'em', 'vw' ),
 				'input_attrs'       => array(
 					'px' => array(
 						'min'  => 0,
 						'step' => 1,
-						'max'  => 100,
+						'max'  => 200,
 					),
 					'em' => array(
 						'min'  => 0,
 						'step' => 0.01,
 						'max'  => 20,
+					),
+					'vw' => array(
+						'min'  => 0,
+						'step' => 0.1,
+						'max'  => 25,
 					),
 				),
 			),
@@ -411,17 +431,22 @@ class Astra_Headings_Typo_Configs extends Astra_Customizer_Config_Base {
 				'transport'         => 'postMessage',
 				'priority'          => 28,
 				'title'             => __( 'Font Size', 'astra' ),
-				'suffix'            => array( 'px', 'em' ),
+				'suffix'            => array( 'px', 'em', 'vw' ),
 				'input_attrs'       => array(
 					'px' => array(
 						'min'  => 0,
 						'step' => 1,
-						'max'  => 100,
+						'max'  => 200,
 					),
 					'em' => array(
 						'min'  => 0,
 						'step' => 0.01,
 						'max'  => 20,
+					),
+					'vw' => array(
+						'min'  => 0,
+						'step' => 0.1,
+						'max'  => 25,
 					),
 				),
 			),
@@ -490,17 +515,22 @@ class Astra_Headings_Typo_Configs extends Astra_Customizer_Config_Base {
 				'transport'         => 'postMessage',
 				'priority'          => 28,
 				'title'             => __( 'Font Size', 'astra' ),
-				'suffix'            => array( 'px', 'em' ),
+				'suffix'            => array( 'px', 'em', 'vw' ),
 				'input_attrs'       => array(
 					'px' => array(
 						'min'  => 0,
 						'step' => 1,
-						'max'  => 100,
+						'max'  => 200,
 					),
 					'em' => array(
 						'min'  => 0,
 						'step' => 0.01,
 						'max'  => 20,
+					),
+					'vw' => array(
+						'min'  => 0,
+						'step' => 0.1,
+						'max'  => 25,
 					),
 				),
 			),

@@ -111,6 +111,33 @@ if ( ! class_exists( 'Astra_Theme_Background_Updater' ) ) {
 			'4.0.2' => array(
 				'astra_theme_background_updater_4_0_2',
 			),
+			'4.1.0' => array(
+				'astra_theme_background_updater_4_1_0',
+			),
+			'4.1.4' => array(
+				'astra_theme_background_updater_4_1_4',
+			),
+			'4.1.6' => array(
+				'astra_theme_background_updater_4_1_6',
+			),
+			'4.1.7' => array(
+				'astra_theme_background_updater_4_1_7',
+			),
+			'4.2.0' => array(
+				'astra_theme_background_updater_4_2_0',
+			),
+			'4.2.2' => array(
+				'astra_theme_background_updater_4_2_2',
+			),
+			'4.4.0' => array(
+				'astra_theme_background_updater_4_4_0',
+			),
+			'4.5.0' => array(
+				'astra_theme_background_updater_4_5_0',
+			),
+			'4.5.2' => array(
+				'astra_theme_background_updater_4_5_2',
+			),
 		);
 
 		/**

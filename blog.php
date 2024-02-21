@@ -1,293 +1,314 @@
-  <?php
+<?php include "include/config.php"; ?>
 
-    // API endpoint URL
-    $api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/posts';
+<?php
 
-    // Initialize cURL session
-    $ch = curl_init($api_url);
+// API endpoint URL
+$api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/posts';
 
-    // Set cURL options
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string instead of echoing it
-    // You can add more options like headers, authentication, etc.
+// Initialize cURL session
+$ch = curl_init($api_url);
 
-    // Execute cURL session and store the response
-    $response = curl_exec($ch);
+// Set cURL options
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string instead of echoing it
+// You can add more options like headers, authentication, etc.
 
-    // Check for cURL errors
-    if (curl_errno($ch)) {
-        echo 'Curl error: ' . curl_error($ch);
+// Execute cURL session and store the response
+$response = curl_exec($ch);
+
+// Check for cURL errors
+if (curl_errno($ch)) {
+    echo 'Curl error: ' . curl_error($ch);
+}
+
+// Close cURL session
+curl_close($ch);
+
+// Process the response
+if ($response) {
+    // Decode the JSON response if the API returns JSON
+    $data = json_decode($response, true);
+
+    // Process the data as neededa
+    // echo '<pre>';
+    // print_r($data);
+} else {
+    echo 'No response from the API';
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blogs - Sagar Tech</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+
+    <meta name="keywords" content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
+Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
+Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
+
+    <meta name="author" content="Ubaid saudagar">
+    <meta name="designer" content="Ubaid Saudagar">
+    <meta name="publisher" content="Ubaid Saudagar">
+    <meta name="copyright" content="https://www.sagartech.co.in">
+    <meta name="distribution" content="Global">
+    <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
+    <meta name="document-type" content="Public">
+    <meta name="robots" content="all">
+    <meta name="Googlebot" content="Index, Follow">
+    <meta name="rating" content="Safe for Kids">
+    <meta name="language" content="english">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
+    <meta property="og:description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta property="og:url" content="https://sagartech.co.in/">
+    <meta property="og:site_name" content="Sagartech - Technical Solution">
+    <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
+    <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
+    <link rel="canonical" href="https://www.sagartech.co.in/">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logoonly.jpg" />
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link href="revolution/css/settings.css" rel="stylesheet" type="text/css">
+    <!-- ADD-ONS CSS FILES -->
+    <link href="revolution/css/revolution.addon.particles.css" rel="stylesheet" type="text/css">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- responsive -->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/newcssresponsive.css" rel="stylesheet" type="text/css" />
+    <!-- custom -->
+    <!--<link href="css/custom.css" rel="stylesheet" type="text/css" />-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    .whole {
+        background-color: #f2f2f2;
     }
 
-    // Close cURL session
-    curl_close($ch);
-
-    // Process the response
-    if ($response) {
-        // Decode the JSON response if the API returns JSON
-        $data = json_decode($response, true);
-
-        // Process the data as neededa
-        // echo '<pre>';
-        // print_r($data);
-    } else {
-        echo 'No response from the API';
+    .main {
+        padding: 40px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 30px;
     }
-    ?>
-  <!DOCTYPE html>
-  <html lang="en">
 
-  <head>
-      <title>Blogs - Sagar Tech</title>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
+    .blogcard {
+        /* border: 1px solid gray; */
+        border-radius: 10px;
+        overflow: hidden;
+        /* box-shadow: 2px 2px 2px gray; */
+        /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
 
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    .blogimg {
+        height: 180px;
+        overflow: hidden;
+    }
 
-      <meta name="keywords" content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
-    Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
-    Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
+    .blogimg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.5s;
+    }
 
-      <meta name="author" content="Ubaid saudagar">
-      <meta name="designer" content="Ubaid Saudagar">
-      <meta name="publisher" content="Ubaid Saudagar">
-      <meta name="copyright" content="https://www.sagartech.co.in">
-      <meta name="distribution" content="Global">
-      <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
-      <meta name="document-type" content="Public">
-      <meta name="robots" content="all">
-      <meta name="Googlebot" content="Index, Follow">
-      <meta name="rating" content="Safe for Kids">
-      <meta name="language" content="english">
-      <meta property="og:locale" content="en_US">
-      <meta property="og:type" content="website">
-      <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
-      <meta property="og:description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
-      <meta property="og:url" content="https://sagartech.co.in/">
-      <meta property="og:site_name" content="Sagartech - Technical Solution">
-      <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
-      <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
-      <link rel="canonical" href="https://www.sagartech.co.in/">
-      <!-- Favicon -->
-      <link rel="shortcut icon" href="images/logoonly.jpg" />
-      <!-- bootstrap -->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-      <!-- REVOLUTION STYLE SHEETS -->
-      <link href="revolution/css/settings.css" rel="stylesheet" type="text/css">
-      <!-- ADD-ONS CSS FILES -->
-      <link href="revolution/css/revolution.addon.particles.css" rel="stylesheet" type="text/css">
-      <!-- main style -->
-      <link href="css/style.css" rel="stylesheet" type="text/css" />
-      <!-- responsive -->
-      <link href="css/responsive.css" rel="stylesheet" type="text/css" />
-      <link href="css/newcssresponsive.css" rel="stylesheet" type="text/css" />
-      <!-- custom -->
-      <!--<link href="css/custom.css" rel="stylesheet" type="text/css" />-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="css/index.css">
-  </head>
-  <style>
-      body {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-      }
+    .blogimg img:hover {
+        transform: scale(1.05);
+        /* transform: rotate(20deg); */
+    }
 
-      .main {
-          padding: 40px;
-          display: grid;
-          width: 100%;
-          grid-template-columns: repeat(4, minmax(0, 1fr));
-          gap: 30px;
-      }
+    .blogcardtext {
+        padding: 5px 15px;
+    }
 
-      .blogcard {
-          /* border: 1px solid gray; */
-          /* border-radius: 20px 0; */
-          overflow: hidden;
-          /* box-shadow: 2px 2px 2px gray; */
-          /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-      }
+    .blogcardtext h5 {
+        font-size: 18px;
+        margin-top: 5px;
+        line-height: 25px;
+        font-weight: 600;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        margin-bottom: 10px;
+    }
 
-      .blogimg {
-          height: 200px;
-          overflow: hidden;
-      }
+    .blogcardtext p {
+        line-height: 22px;
+        overflow: hidden;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+    }
 
-      .blogimg img {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-          transition: 0.5s;
-      }
+    .readmore {
+        color: red;
+        font-weight: 600;
+    }
 
-      .blogimg img:hover {
-          transform: scale(1.05);
-          /* transform: rotate(20deg); */
-      }
+    .blogdate {
+        padding: 0 15px;
+        padding-top: 5px;
+        border-top: 1px solid #e0e0d1;
+    }
 
-      .blogcardtext {
-          padding: 15px;
-      }
+    .heading {
+        padding: 0 40px;
+        padding-top: 40px;
+    }
 
-      .blogcardtext h5 {
-          font-size: 20px;
-          margin-top: 5px;
-          line-height: 25px;
-          font-weight: 600;
-          overflow: hidden;
-          display: -webkit-box;
-          -webkit-box-orient: vertical;
-          -webkit-line-clamp: 2;
-          margin-bottom: 10px;
-      }
+    .heading h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
 
-      .blogcardtext p {
-          line-height: 22px;
-          overflow: hidden;
-          line-height: 20px;
-          display: -webkit-box;
-          -webkit-box-orient: vertical;
-          -webkit-line-clamp: 4;
-      }
+    @media (max-width: 767px) {
+        .heading {
+            padding: 0 25px;
+            padding-top: 25px;
+        }
 
-      .readmore {
-          color: red;
-          font-weight: 600;
-      }
+        .heading h2 {
+            font-size: 40px;
+            font-weight: 700;
+        }
 
-      .blogdate {
-          padding: 0 15px;
-          padding-top: 5px;
-          border-top: 1px solid #e0e0d1;
-      }
+        .main {
+            padding: 25px;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            gap: 25px;
+        }
 
-      @media (max-width: 767px) {
-          .main {
-              padding: 25px;
-              display: grid;
-              width: 100%;
-              grid-template-columns: repeat(1, minmax(0, 1fr));
-              gap: 25px;
-          }
+        .blogcard {
+            /* border: 1px solid gray; */
+            /* border-radius: 10px; */
+            overflow: hidden;
+            /* box-shadow: 2px 2px 2px gray; */
+        }
 
-          .blogcard {
-              /* border: 1px solid gray; */
-              /* border-radius: 10px; */
-              overflow: hidden;
-              /* box-shadow: 2px 2px 2px gray; */
-          }
+        .blogimg {
+            height: 170px;
+        }
 
-          .blogimg {
-              height: 170px;
-          }
+        .blogimg img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
 
-          .blogimg img {
-              height: 100%;
-              width: 100%;
-              object-fit: cover;
-          }
+        .blogcardtext {
+            padding: 15px;
+        }
 
-          .blogcardtext {
-              padding: 15px;
-          }
+        .blogcardtext h5 {
+            font-size: 20px;
+            margin-top: 5px;
+            line-height: 25px;
+            font-weight: 600;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            margin-bottom: 10px;
+        }
 
-          .blogcardtext h5 {
-              font-size: 20px;
-              margin-top: 5px;
-              line-height: 25px;
-              font-weight: 600;
-              overflow: hidden;
-              display: -webkit-box;
-              -webkit-box-orient: vertical;
-              -webkit-line-clamp: 1;
-              margin-bottom: 10px;
-          }
+        .blogcardtext p {
+            line-height: 22px;
+            overflow: hidden;
+            line-height: 20px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+        }
 
-          .blogcardtext p {
-              line-height: 22px;
-              overflow: hidden;
-              line-height: 20px;
-              display: -webkit-box;
-              -webkit-box-orient: vertical;
-              -webkit-line-clamp: 3;
-          }
+        .readmore {
+            color: red;
+            font-weight: 600;
+        }
+    }
+</style>
 
-          .readmore {
-              color: red;
-              font-weight: 600;
-          }
-      }
-  </style>
+<body>
 
-  <body>
+    <?php $page = 'blogs';
+    include 'include/newHeader.php' ?>
 
-      <?php $page = 'blogs';
-        include 'include/trialh.php' ?>
-
-      <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?w=996&t=st=1703225602~exp=1703226202~hmac=f67e8bbd5179b67cddcc5d59140a8ef5d7e9086acd3e1d5e231fd78bf0050762'); background-position: center; background-repeat: no-repeat; background-size: cover;">
-          <div class="container">
-              <div class="row align-items-center">
-                  <div class="col-lg-6 col-sm-12">
-                      <div class="iq-mb-0">
-                          <h2 class="iq-font-white iq-tw-6">Blog</h2>
-                      </div>
-                  </div>
-                  <div class="col-lg-6 col-sm-12">
-                      <nav aria-label="breadcrumb" class="text-right">
-                          <ol class="breadcrumb">
-                              <li class="breadcrumb-item"><a href="index"><i class="ion-android-home"></i> Home</a></li>
-                              <li class="breadcrumb-item active" aria-current="page">Blog</li>
-                          </ol>
-                      </nav>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- Main Section -->
-      <section class="main">
-          <?php foreach ($data as $item) { ?>
-              <div class="blogcard">
-                  <a href="https://sagartech.co.in/blog-article?id=<?php echo $item['id'] ?>">
-                      <div class="blogimg">
-                          <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>" alt="">
-                      </div>
-                  </a>
-                  <div class=" blogcardtext">
-                      <a href="https://sagartech.co.in/blog-article?id=<?php echo $item['id'] ?>">
-                          <h5>
-                              <?php echo $item['title']['rendered'] ?>
-                          </h5>
-                          <!-- <p> -->
-                          <?php echo $item['excerpt']['rendered'] ?>
-                          <!-- </p> -->
-                      </a>
-                      <a href="https://sagartech.co.in/blog-article?id=<?php echo $item['id'] ?>">
-                          <span class="readmore">Read more....</span>
-                      </a>
-                  </div>
-                  <div class="blogdate">
-                      <p>
-                          <?php
-
-                            // Convert the numeric date to a string in the desired format
-                            $stringDate = date('F j, Y', strtotime($item['date']));
-
-                            // Output the result
-                            echo $stringDate;
-                            ?>
-                      </p>
-                  </div>
-              </div>
-          <?php } ?>
-      </section>
-
-      <?php
-        // include("include/faqaccordian.html");
-        include("include/footer.php");
+    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?w=996&t=st=1703225602~exp=1703226202~hmac=f67e8bbd5179b67cddcc5d59140a8ef5d7e9086acd3e1d5e231fd78bf0050762'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="iq-mb-0">
+                        <h2 class="iq-font-white iq-tw-6">Blog</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <nav aria-label="breadcrumb" class="text-right">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index"><i class="ion-android-home"></i> Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Section -->
+    <section class="main">
+        <?php foreach ($data as $item) {
         ?>
+            <div class="blogcard">
+                <a href="https://sagartech.co.in/blog-article/<?php echo $item['slug']; ?>/<?php echo $item['id'] ?>">
+                    <div class="blogimg">
+                        <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>" alt="">
+                    </div>
+                </a>
+                <div class=" blogcardtext">
+                    <a href="https://sagartech.co.in/blog-article/<?php echo $item['slug']; ?>/<?php echo $item['id'] ?>">
+                        <h5>
+                            <?php echo $item['title']['rendered'] ?>
+                        </h5>
+                        <!-- <p> -->
+                        <?php echo $item['excerpt']['rendered'] ?>
+                        <!-- </p> -->
+                    </a>
+                    <a href="https://sagartech.co.in/blog-article/<?php echo $item['slug']; ?>/<?php echo $item['id'] ?>">
+                        <span class="readmore">Read more....</span>
+                    </a>
+                </div>
+                <div class="blogdate">
+                    <p>
+                        <?php
 
-  </body>
+                        // Convert the numeric date to a string in the desired format
+                        $stringDate = date('F j, Y', strtotime($item['date']));
 
-  </html>
+                        // Output the result
+                        echo $stringDate;
+                        ?>
+                    </p>
+                </div>
+            </div>
+        <?php } ?>
+    </section>
+
+    <?php
+    // include("include/faqaccordian.html");
+    include("include/footer.php");
+    ?>
+
+</body>
+
+</html>
