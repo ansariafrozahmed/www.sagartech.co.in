@@ -8,9 +8,11 @@
 // define('DB_SERVER', 'localhost');
 // define('DB_USER', 'root');
 // define('DB_PASS', '');
-// define('DB_NAME', 'sagartec_sagartech');
+// define('DB_NAME', 'sagartech');
 
+// define('WEB_URL', "http://localhost/sagartech.co.in/");
 define('WEB_URL', "https://sagartech.co.in/");
+
 // error_reporting(error_reporting() & ~E_WARNING);
 
 

@@ -9,7 +9,7 @@
     <meta name="description" content="Are you looking for web development? Our expert team is committed to turning your digital dreams into reality, which make us best web development company in India.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="No. 1 Web Development Company in Mumbai Best Web Development Services>
+    <meta property="og:title" content="No. 1 Web Development Company in Mumbai Best Web Development Services">
     <meta property="og:url" content="https://sagartech.co.in/web-development-company">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaweb.png">
     <meta property="og:description" content="Are you looking for web development? Our expert team is committed to turning your digital dreams into reality, which make us best web development company in India.">
@@ -895,7 +895,11 @@
 </style>
 
 <body>
-    
+<div id="loading">
+        <div id="loading-center">
+            <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo">
+        </div>
+    </div>
     <?php
     $page = 'services';
     // include("include/trialh.php");
@@ -1270,57 +1274,16 @@ include 'include/portfolioSlider.php'
 
 
     <?php include("include/footer.php"); ?>
-
-    <!-- Footer -->
-    <!-- back-to-top -->
-    <!-- <div id="back-to-top">
-        <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div> --> 
-    <!-- back-to-top End -->
-    <!--================ Jquery =================-->
-    <!-- Jquery  -->
-    <!-- <script src="js/jquery.min.js"></script> -->
-    <!-- popper  -->
-    <!-- <script src="js/popper.min.js"></script> -->
-    <!--  bootstrap -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-    <!-- Google captcha code Js -->
-    <!-- <script src='../../../../www.google.com/recaptcha/api.js'></script> -->
-    <!-- Mega Menu -->
-    <!-- <script src="js/mega-menu/mega_menu.js"></script> -->
-    <!-- Main -->
-    <!-- <script src="js/main.js"></script> -->
-
-    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
-    <!-- price_range_script -->
-    <!-- <script src="js/price_range_script.js"></script> -->
-    <!-- modernizr.custom -->
-    <!-- <script src="js/modernizr.custom.js"></script> -->
-    <!-- jquerypp.custom -->
-    <!-- <script src="js/jquerypp.custom.js"></script> -->
-    <!-- bookblock -->
-    <!-- <script src="js/jquery.bookblock.js"></script> -->
-    <!-- style-customizer-->
-    <!-- <script src="js/style-customizer.js"></script> -->
-    <!-- Custom -->
-    <!-- <script src="js/custom.js"></script> -->
-    <!-- WhatsHelp.io widget -->
-    <!--<script src="js/notcopyable.js"></script>-->
-    <script>
-        function someFunction(obj, abc) {
-            // alert(abc);
-            // alert($(obj).attr('class'));
-            $(".faqans").css("display", "none");
-            $("#" + abc).css("display", "block");
-
-        }
-    </script>
+    <script src="js/custom.js"></script>
     <script type="text/javascript">
         (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
-                call_to_action: "Message us", // Call to action
+                email: "info@sagartech.co.in", // Email
+                call_to_action: "Contact Us", // Call to action
+                button_color: "#FF0808", // Color of button
                 position: "left", // Position may be 'right' or 'left'
+                order: "whatsapp,email", // Order of buttons
             };
             var proto = document.location.protocol,
                 host = "getbutton.io",

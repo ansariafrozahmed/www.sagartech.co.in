@@ -3,7 +3,7 @@
 <?php
 
 // API endpoint URL
-$api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/posts?per_page=50';
+$api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/posts?per_page=8';
 
 // Initialize cURL session
 $ch = curl_init($api_url);

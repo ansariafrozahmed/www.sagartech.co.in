@@ -182,11 +182,16 @@ if (curl_errno($ch)) {
         padding: 10px;
         overflow: hidden;
         margin-bottom: 10px;
+        
+    }
+    .latestimgdiv {
+        aspect-ratio: 4 / 2;
     }
 
     .latestblog img {
         height: 100%;
         width: 100%;
+        object-fit: cover;
         margin-bottom: 5px;
         border-radius: 10px;
     }
@@ -394,7 +399,9 @@ if (curl_errno($ch)) {
                 ?>
                     <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                         <div class="latestblog">
+                            <div class="latestimgdiv">
                             <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>" alt="">
+                            </div>
                             <!-- <img src="https://sagartech.co.in/blogs/wp-content/uploads/2023/12/Digital-Marketing-1.png" alt=""> -->
                             <span class="latesttitle"><?php echo $item['title']['rendered'] ?></span>
                             <span class="latestdate">

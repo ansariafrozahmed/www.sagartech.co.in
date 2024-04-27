@@ -987,89 +987,6 @@ include("../include/config.php");
 
 
 
-    <!-- <h3>FAQs</h3>
-    <div class="accordion">
-        <div class="accordion-item">
-            <h2>Why do I need professional web development services?</h2>
-            <div class="accordion-content">
-                <p>Professional web development services ensure that your website is created with the latest technologies, adheres to industry standards, and provides a seamless user experience. This can enhance your online presence and business credibility.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>What technologies do you use for web development?</h2>
-            <div class="accordion-content">
-                <p>We utilize a variety of technologies, including HTML, CSS, JavaScript, PHP, Python, Ruby on Rails, and various content management systems (CMS) like WordPress, Drupal, and Joomla, depending on the project requirements.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>Do you provide e-commerce development services?</h2>
-            <div class="accordion-content">
-                <p>Yes, we specialize in e-commerce development, creating secure and user-friendly online stores. Our solutions include payment gateway integration, product management, and order processing features.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>How long does it take to develop a website?</h2>
-            <div class="accordion-content">
-                <p>The timeline for web development varies depending on the complexity and scope of the project. Simple websites may take a few weeks, while more complex projects, such as e-commerce platforms, can take several months.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>How can i get started with your web development services?</h2>
-            <div class="accordion-content">
-                <p>To get started, simply contact us through our website or by email. We'll schedule a consultation to discuss your project requirements, goals, and any specific features you want to include in your website or web application.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>Can you create custom web applications tailored to my business needs?</h2>
-            <div class="accordion-content">
-                <p>Yes, we specialize in developing custom web applications designed to meet specific business requirements, providing unique solutions for your industry or niche.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>Can you integrate a payment gateway for e-commerce functionality?</h2>
-            <div class="accordion-content">
-                <p>Yes, we specialize in integrating secure payment gateways such as PayPal, Stripe, and others to facilitate online transactions for e-commerce websites.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>Do you provide ongoing website analytics and performance tracking?</h2>
-            <div class="accordion-content">
-                <p>We can integrate analytics tools such as Google Analytics to track website performance, user behavior, and other key metrics, providing insights for continuous improvement.
-            </div>
-        </div>
-
-        <div class="accordion-item">
-            <h2>Can you assist with domain registration and hosting services?</h2>
-            <div class="accordion-content">
-                <p>While our primary focus is on web development, we can provide guidance on domain registration and recommend reliable hosting services to suit your needs.
-            </div>
-        </div>
-    </div>
-    <script>
-        document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
-            accordionToggle.addEventListener('click', () => {
-                const accordionItem = accordionToggle.parentNode;
-                const accordionContent = accordionToggle.nextElementSibling;
-
-                // If this accordion item is already open, close it.
-                if (accordionContent.style.maxHeight) {
-                    accordionContent.style.maxHeight = null;
-                    accordionItem.classList.remove('active');
-                } else {
-                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-                    accordionItem.classList.add('active');
-                }
-            });
-        });
-    </script> -->
-
 
 
     <script>
@@ -1086,53 +1003,19 @@ include("../include/config.php");
     <?php
     include("../include/footer.php");
     ?>
-    <!--=================================
-        Footer -->
 
-    <!-- back-to-top -->
-    <div id="back-to-top">
-        <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
-    <!-- back-to-top End -->
-
-
-    <!--================ Jquery =================-->
-    <!-- Jquery  -->
     <script src="../js/jquery.min.js"></script>
-    <!-- popper  -->
-    <script src="../js/popper.min.js"></script>
-    <!--  bootstrap -->
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- Google captcha code Js -->
-    <script src='../../../../www.google.com/recaptcha/api.js'></script>
-    <!-- Mega Menu -->
-    <script src="../js/mega-menu/mega_menu.js"></script>
-    <!-- Main -->
-    <script src="../js/main.js"></script>
-
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <!-- price_range_script -->
-    <script src="../js/price_range_script.js"></script>
-    <!-- modernizr.custom -->
-    <script src="../js/modernizr.custom.js"></script>
-    <!-- jquerypp.custom -->
-    <script src="../js/jquerypp.custom.js"></script>
-    <!-- bookblock -->
-    <script src="../js/jquery.bookblock.js"></script>
-    <!-- style-customizer-->
-    <script src="../js/style-customizer.js"></script>
-    <!-- Custom -->
     <script src="../js/custom.js"></script>
-    <script src="../js/notcopyable.js"></script>
 
-    <!-- WhatsHelp.io widget -->
     <script type="text/javascript">
         (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
-                email: "info@sagartech.co.in",
-                call_to_action: "Message us", // Call to action
+                email: "info@sagartech.co.in", // Email
+                call_to_action: "Contact Us", // Call to action
+                button_color: "#FF0808", // Color of button
                 position: "left", // Position may be 'right' or 'left'
+                order: "whatsapp,email", // Order of buttons
             };
             var proto = document.location.protocol,
                 host = "getbutton.io",
@@ -1148,157 +1031,6 @@ include("../include/config.php");
             x.parentNode.insertBefore(s, x);
         })();
     </script>
-    <!-- /WhatsHelp.io widget -->
-
-    <!-- <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog  modal-md">
-            <div class="modal-content text-center">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Request a quote</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form class="form-horizontal add_mainarea_form" action="sendmail.php" method="post">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="fname">Full Name</label>
-                                    <input type="text" class="form-control" name="fname" id="fname" aria-describedby="emailHelp" placeholder="Enter full name">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email1">Email address</label>
-                                    <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">Your information is safe with
-                                        us.</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="mobile">Contact Number</label>
-                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="services">Requested Service</label>
-                                    <input name="service" id="services" list="service"> <datalist id="service">
-                                        <option>Website Development</option>
-                                        <option>Digital Marketing</option>
-                                        <option>Bulk SMS</option>
-                                        <option>Graphic Design</option>
-                                    </datalist>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="service">Adittional Words</label>
-                                    <textarea class="form-control" rows="5" id="words" name="addwords"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer border-top-0 d-flex justify-content-center">
-                            <button type="submit" name="quote_submit" class="btn btn-success">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-    <script>
-        $(function() {
-            var myform = $(".add_mainarea_form");
-            var completed = '0%';
-            $(myform).ajaxForm({
-
-                complete: function() {
-                    $('#largeModal').modal('hide')
-                    setTimeout(
-                        $('.bd-example-modal-sm').modal('show'), 3000);
-                }
-            });
-
-
-        });
-        $(document).ready(function() {
-
-            $('body').bind('cut copy paste', function(e) {
-                e.preventDefault();
-            });
-
-            function doAnimation() {
-                $("#buttonbounce").effect("bounce", {
-                    times: 3
-                }, 1000, doAnimation);
-            }
-
-            doAnimation();
-
-        });
-    </script>
-    <!-- <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm text-center">
-            <div class="modal-content text-center">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title" id="myModalLabel">SAGAR TECH</h4>
-                </div>
-                <div class="modal-body tex-center">
-                    <h5>Request submitted</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade iq-login-from" tabindex="-1" role="dialog" id="form" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title iq-tw-5">Login</h4>
-                    <a class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times; </span>
-                    </a>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="recipient-name" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="recipient-password" placeholder="Password">
-                        </div>
-                        <a class="button iq-mtb-10" href="#">Login</a>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input">Remember Me</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 text-right">
-                                <a href="#">Forgot Password</a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer text-center">
-                    <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
-                    <ul class="iq-media-blog iq-mt-20">
-                        <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="# "><i class="fa fa-github "></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </body>
 
 </html>

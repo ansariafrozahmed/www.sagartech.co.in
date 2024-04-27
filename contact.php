@@ -95,76 +95,17 @@
             <img src="images/logoonly.jpg" alt="loder">
         </div>
     </div>
-    <!--Start of Tawk.to Script-->
-    <!-- <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5def76bd43be710e1d216625/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
-    <!--End of Tawk.to Script-->
-    <!-- loading End -->
-    <!-- HEADER  -->
+   
     <?php
     $page = 'contact';
     // include("include/trialh.php");
     include 'include/newHeader.php';
     ?>
-    <!-- /HEADER END -->
-    <!-- search -->
-    <!-- <div class="search">
-        <button id="btn-search-close" class="btn btn--search-close" aria-label="Close search form">
-            <i class="fa fa-close" aria-hidden="true"></i>
-        </button>
-        <form class="search__form">
-            <input class="search__input" name="search" type="search" placeholder="Qwilo Search" autocomplete="off" autocapitalize="off" spellcheck="false">
-            <span class="search__info">Hit enter to search or ESC to close</span>
-        </form>
-        <div class="search__related">
-            <div class="search__suggestion iq-font-white">
-                <h3 class="iq-font-white iq-tw-6">May We Suggest?</h3>
-                <p>#drone #funny #catgif #broken #lost #hilarious #good #red #blue #nono #why #yes #yesyes #aliens #green</p>
-            </div>
-            <div class="search__suggestion iq-font-white">
-                <h3 class="iq-font-white iq-tw-6">Is It This?</h3>
-                <p>#good #red #hilarious #blue #nono #why #yes #yesyes #aliens #green #drone #funny #catgif #broken #lost</p>
-            </div>
-            <div class="search__suggestion iq-font-white">
-                <h3 class="iq-font-white iq-tw-6">Where Art Thou?</h3>
-                <p>#broken #lost #good #red #funny #hilarious #catgif #blue #nono #why #yes #yesyes #aliens #green #drone</p>
-            </div>
-        </div>
-    </div> -->
-    <!-- /search END -->
-    <!--======= Breadcrumb Left With BG Image =======-->
-    <!-- <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
-        style="background-image: url('images/bg/contact-slider-page.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-sm-12">
-                    <h2 class="iq-font-white" style="font-weight: bold;text-align: left;">Contact Us</h2>
-                    <ol class="breadcrumb" style="margin-left: -10px;margin-top: 10px;">
-                        <li class="breadcrumb-item"><a href="https://sagartech.co.in/"><i class="ion-android-home"></i> Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!--======= Breadcrumb Left With BG Image =======-->
-
-    <!--=================================
-MAIN CONTENT -->
+    
     <div class="main-content iq-contact2">
         <!-- Contact Us 2 -->
 
         <div class="iq-map">
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.840108181602!2d144.95373631539215!3d-37.8172139797516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1497005461921"></iframe> -->
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.1445602807225!2d72.82107231437519!3d18.96922206025068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf7f0baae5fd%3A0xe15b1154ec3eb6e9!2sSagar%20Tech%20-%20Technical%20Solutions!5e0!3m2!1sen!2sin!4v1587891492931!5m2!1sen!2sin"
                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -270,325 +211,33 @@ MAIN CONTENT -->
                 </div>
             </div>
         </section>
-        <!-- Contact Us -->
-        <!--=================================
-        
-         
-                                                                                    
-                                                                                        
-                                                                                        , 
-                                                                                        
-                                                                                    
-                                                                                    
-Action Box -->
-
-        <!--=================================
-Main Content -->
-        <!--=================================
-Footer -->
+       
         <?php include ("include/footer.php"); ?>
-        <!-- back-to-top -->
-        <div id="back-to-top">
-            <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-        </div>
-        <!-- back-to-top End -->
-
-        <!--================ Jquery =================-->
-        <!-- Jquery  -->
-        <script src="js/jquery.min.js"></script>
-        <!-- popper  -->
-        <script src="js/popper.min.js"></script>
-        <!--  bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Google captcha code Js -->
-        <!-- <script src='../../../../www.google.com/recaptcha/api.js'></script> -->
-        <!-- Mega Menu -->
-        <script src="js/mega-menu/mega_menu.js"></script>
-        <!-- Main -->
-        <script src="js/main.js"></script>
-
-
-        <!-- price_range_script -->
-        <script src="js/price_range_script.js"></script>
-        <!-- modernizr.custom -->
-        <script src="js/modernizr.custom.js"></script>
-        <!-- jquerypp.custom -->
-        <script src="js/jquerypp.custom.js"></script>
-        <!-- bookblock -->
-        <script src="js/jquery.bookblock.js"></script>
-        <!-- style-customizer-->
-        <script src="js/style-customizer.js"></script>
-        <!-- Custom -->
+        
         <script src="js/custom.js"></script>
-        <script src="js/notcopyable.js"></script>
-        <!--send mail -->
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js"></script>
-        <!-- <script src="include/function.js"></script> -->
-        <!-- Main -->
-
-        <!-- Phone number country code -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.2.4/js/intlTelInput.min.js"></script>
-
-        <script>
-            // $("#send").click(sendMail($("#name").val(),$("#email").val(),$("#msg").val(),"#send","#contact"));
-            const input = document.querySelector("#contact_phone");
-            var iti = window.intlTelInput(input, {
-                showSelectedDialCode: true,
-                initialCountry: "in",
-                utilsScript:
-                    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/21.2.4/js/utils.js?1713364227752",
-            });
-
-            $("#contact_send").click(function () {
-                var dial_code = document.querySelector(".iti__selected-dial-code").textContent;
-                var contact_phone = dial_code + ' ' + $("#contact_phone").val()
-
-                $('#myContact').validate({ // initialize the plugin
-                    rules: {
-                        name: {
-                            required: true
-
-                        },
-                        email: {
-                            required: true,
-                            email: true
-                        },
-                        phone: {
-                            required: true,
-                            // minlength: 10,
-                            // digits: true
-                        },
-                        msg: {
-                            required: false,
-                            // minlength: 5
-                        }
-                    },
-                    submitHandler: function (form) { // for demo
-                        sendMail($("#contact_name").val(), $("#contact_email").val(), contact_phone, $("#contact_msg").val(), "#contact_send", "#myContact"); // for demo
-                        return false; // for demo
-                    }
-                });
-
-
-            });
-
-
-            function sendMail(name, email, phone, msg, btnId, formId) {
-                $.ajax({
-                    url: "sendmail.php",
-                    method: "POST",
-                    data: {
-                        name: name,
-                        email: email,
-                        phone: phone,
-                        msg: msg,
-                        msg_submit: true,
-                    },
-                    beforeSend: function () {
-                        $(btnId).html('Sending...');
-                    },
-                    success: function (data) {
-                        if (data == '1') {
-                            swal("Thanks for being awesome!", "We will get back to you shortly.", "success");
-                        } else {
-                            swal("Oops", "Something Went Wrong.", "error");
-                        }
-                        $(formId).trigger("reset");
-
-                    },
-                    complete: function () {
-                        $(btnId).html('Send Message');
-                    }
-                });
-            }
-        </script>
-
-        <!-- WhatsHelp.io widget -->
-        <script type="text/javascript">
-            (function () {
-                var options = {
-                    whatsapp: "+919820133303", // WhatsApp number
-                    email: "info@sagartech.co.in",
-                    call_to_action: "Message us", // Call to action
-                    position: "left", // Position may be 'right' or 'left'
-                };
-                var proto = document.location.protocol,
-                    host = "getbutton.io",
-                    url = proto + "//static." + host;
-                var s = document.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = url + '/widget-send-button/js/init.js';
-                s.onload = function () {
-                    WhWidgetSendButton.init(host, proto, options);
-                };
-                var x = document.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);
-            })();
-        </script>
-        <!-- /WhatsHelp.io widget -->
-
-        <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
-            aria-hidden="true">
-            <div class="modal-dialog  modal-md">
-                <div class="modal-content text-center">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Request a quote</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form class="form-horizontal add_mainarea_form" action="sendmail.php" method="post">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="fname">Full Name</label>
-                                        <input type="text" class="form-control" name="fname" id="fname"
-                                            aria-describedby="emailHelp" placeholder="Enter full name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email1">Email address</label>
-                                        <input type="email" class="form-control" id="email1" name="email1"
-                                            aria-describedby="emailHelp" placeholder="Enter email">
-                                        <small id="emailHelp" class="form-text text-muted">Your information is safe with
-                                            us.</small>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="mobile">Contact Number</label>
-                                        <input type="number" class="form-control" name="mobile" id="mobile"
-                                            max-length="10" aria-describedby="emailHelp"
-                                            placeholder="Enter Contact Number">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="services">Requested Service</label>
-                                        <input name="service" id="services" list="service"> <datalist id="service">
-                                            <option>Website Development</option>
-                                            <option>Digital Marketing</option>
-                                            <option>Bulk SMS</option>
-                                            <option>Graphic Design</option>
-                                        </datalist>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="service">Adittional Words</label>
-                                        <textarea class="form-control" rows="5" id="words" name="addwords"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer border-top-0 d-flex justify-content-center">
-                                <button type="submit" name="quote_submit" class="btn btn-success">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-        <script>
-            $(function () {
-                var myform = $(".add_mainarea_form");
-                var completed = '0%';
-                $(myform).ajaxForm({
-
-                    complete: function () {
-                        $('#largeModal').modal('hide')
-                        setTimeout(
-                            $('.bd-example-modal-sm').modal('show'), 3000);
-                    }
-                });
-
-
-            });
-            $(document).ready(function () {
-
-                $('body').bind('cut copy paste', function (e) {
-                    e.preventDefault();
-                });
-
-                function doAnimation() {
-                    $("#buttonbounce").effect("bounce", {
-                        times: 3
-                    }, 1000, doAnimation);
-                }
-
-                doAnimation();
-
-            });
-        </script>
-        <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog"
-            aria-labelledby="mySmallModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-sm text-center">
-                <div class="modal-content text-center">
-                    <div class="modal-header text-center">
-                        <h4 class="modal-title" id="myModalLabel">SAGAR TECH</h4>
-                    </div>
-                    <div class="modal-body tex-center">
-                        <h5>Request submitted</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade iq-login-from" tabindex="-1" role="dialog" id="form" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header text-center">
-                        <h4 class="modal-title iq-tw-5">Login</h4>
-                        <a class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times; </span>
-                        </a>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="recipient-name" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="recipient-password"
-                                    placeholder="Password">
-                            </div>
-                            <a class="button iq-mtb-10" href="#">Login</a>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input">Remember Me</label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 text-right">
-                                    <a href="#">Forgot Password</a>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer text-center">
-                        <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
-                        <ul class="iq-media-blog iq-mt-20">
-                            <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                            <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i
-                                        class="fa fa-facebook "></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i
-                                        class="fa fa-linkedin"></i></a></li>
-                            <li><a href="# "><i class="fa fa-github "></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <script type="text/javascript">
+        (function() {
+            var options = {
+                whatsapp: "+919820133303", // WhatsApp number
+                email: "info@sagartech.co.in", // Email
+                call_to_action: "Contact Us", // Call to action
+                button_color: "#FF0808", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "whatsapp,email", // Order of buttons
+            };
+            var proto = document.location.protocol,
+                host = "getbutton.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
 </body>
-
-
 </html>
