@@ -36,8 +36,8 @@ wp-config.php
 /.htaccess
 
 
-/blogs/*
-/web/*
+blogs/
+web/
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
