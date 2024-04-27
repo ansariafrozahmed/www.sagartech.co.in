@@ -668,7 +668,7 @@ include ('config.php');
                   <li><a href="<?= WEB_URL ?>portfolio/logo">Logo Design Portfolio</a></li>
                   <li><a href="<?= WEB_URL ?>portfolio/banner">Banner Design Portfolio</a></li>
                   <li><a href="<?= WEB_URL ?>portfolio/brochure">Brochure Design Portfolio</a></li>
-                  <!-- <li><a href="<?= WEB_URL ?>portfolio/social-media-post">Social Media Post Portfolio</a></li> -->
+                  <li><a href="<?= WEB_URL ?>portfolio/social-media-post">Social Media Post Portfolio</a></li>
                   <!-- <li class="portfolio-dropdown"><a href="#">Social Media Portfolio <i class="fas fa-angle-right"></i></a>
                           <div class="multi-level-dropdown">
                             <ul>
