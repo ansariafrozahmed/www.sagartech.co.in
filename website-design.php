@@ -329,7 +329,7 @@ Footer -->
                      <div class="iq-copyright iq-mt-10 iq-font-white">
                         Copyright 
                         <span id="copyright">
-                           <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                           <script data-cfasync="false" src="../../../ email-decode.min.js"></script><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
                         </span>
                         <a class="iq-font-red" href="index.php">Sagar Tech</a> All Rights Reserved 
                      </div>

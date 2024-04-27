@@ -69,7 +69,7 @@
     }
 
     .herosectionpara {
-        width: 50%;
+        width: 60%;
         color: white;
         margin-top: 10px;
     }
@@ -559,21 +559,8 @@
             <img src="images/logoonly.jpg" alt="loder">
         </div>
     </div>
-    <!--Start of Tawk.to Script-->
-    <!-- <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5def76bd43be710e1d216625/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
-    <!--End of Tawk.to Script-->
-    <!-- loading End -->
-    <!-- HEADER  -->
+    
+    
     <?php
     $page = 'services';
     include 'include/newHeader.php';
@@ -591,7 +578,7 @@ s0.parentNode.insertBefore(s1,s0);
             <li>Social Media Optimization</li>
         </ul>
         <p class="herosectionpara">
-             With more than 4.95 billion people using social media globally This indicates that 61% of people use social media worldwide. Social media has become an important  part of our daily lives, offering businesses a unique platform to connect with their audience and promote their brand. Social media optimization (SMO) is a strategy used to enhance a brand's presence on social media platforms by optimising profiles, content, and interactions with your audience. At Sagar Tech Technical Solution, we specialise in providing expert SMO services to help businesses improve their social media presence and achieve their marketing objectives.</p>
+             With more than 4.95 billion people using social media globally This indicates that 61% of people use social media worldwide. Social media has become an important  part of our daily lives, offering businesses a unique platform to connect with their audience and promote their brand. Social media optimization (SMO) is a strategy used to enhance a brand's presence on social media platforms by optimising profiles, content, and interactions with your audience. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a>, we specialise in providing expert <a class="interlink" href="digital-marketing-company">Digital Marketing</a> & SMO services to help businesses improve their social media presence and achieve their marketing objectives.</p>
         <div class="herobuttonsnew">
             <a href="our-portfolio" class="button">View Portfolio</a>
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -611,7 +598,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
         </div>
         <div class="right">
-            <img src="./images/smo.jpg" alt="">
+            <img src="./images/smo.jpg" alt="social media optimization">
         </div>
     </div>
 
@@ -625,7 +612,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------ -->
             <div class="third-card">
                 <div class="third-card-head">
-                    <img src="icons/audit.webp" alt="">
+                    <img src="icons/audit.webp" alt="social media optimization">
                     <h3>Understanding Your Business</h3>
                 </div>
                 <p>We begin by getting to know your target market, industry, and business objectives. It allows us to better customise our SMO strategies to your unique requirements and goals.</p>
@@ -633,7 +620,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------ -->
             <div class="third-card">
                 <div class="third-card-head">
-                    <img src="icons/research.webp" alt="">
+                    <img src="icons/research.webp" alt="social media optimization">
                     <h3>Competitor Analysis</h3>
                 </div>
                 <p>We examine the social media strategies of the competition to find out what works and what doesn't. It helps in the creation of strategies that set your brand apart and take advantage of hidden potential.</p>
@@ -641,7 +628,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------ -->
             <div class="third-card">
                 <div class="third-card-head">
-                    <img src="icons/keyword.webp" alt="">
+                    <img src="icons/keyword.webp" alt="social media optimization">
                     <h3>Content Strategy</h3>
                 </div>
                 <p>We create a content strategy that is consistent with your brand voice and catered to your target market. Creating a variety of interesting content, including articles, videos, pictures, and infographics, is part of this.</p>
@@ -649,7 +636,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------ -->
             <div class="third-card">
                 <div class="third-card-head">
-                    <img src="icons/seo.webp" alt="">
+                    <img src="icons/seo.webp" alt="social media optimization">
                     <h3>Analytics and Optimization</h3>
                 </div>
                 <p>We monitor important performance indicators like reach, engagement, and conversion rates in order to determine how well our SMO strategies are working. We continuously enhance our strategies to guarantee the best impact based on the data.</p>
@@ -657,7 +644,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------ -->
             <div class="third-card">
                 <div class="third-card-head">
-                    <img src="icons/report.webp" alt="">
+                    <img src="icons/report.webp" alt="social media optimization">
                     <h3>Regular Reporting</h3>
                 </div>
                 <p>We give you regular reports on the effectiveness of your social media Optimization, along with analysis and suggestions for development. This supports your decision-making regarding your social media strategy and helps you stay informed.</p>
@@ -1132,9 +1119,9 @@ Footer -->
 
     <!-- Footer -->
     <!-- back-to-top -->
-    <div id="back-to-top">
+    <!-- <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
+    </div> -->
     <!-- back-to-top End -->
     <!--================ Jquery =================-->
     <!-- Jquery  -->

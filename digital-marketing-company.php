@@ -43,57 +43,79 @@
 </head>
 <style type="text/css">
     .herosectionnew {
-  position: relative;
-  padding: 70px 60px;
-  overflow: hidden;
-  background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
+        position: relative;
+        padding: 70px 60px;
+        overflow: hidden;
+        background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        /* Add overlay */
+        position: relative;
+        }
 
-.herosectionnew h1 {
-  font-size: 30px;
-  color: white;
-  font-weight: 600;
-}
+        .herosectionnew::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+        z-index: 1; /* Adjust z-index to position the overlay */
+        }
 
-.herobreadrumb {
-  display: flex;
-  font-weight: 600;
-  gap: 5px;
-  margin: 5px 0px;
-  align-items: center;
-}
+        .herosectionnew h1 {
+        font-size: 30px;
+        color: white;
+        line-height:normal;
+        width: 56%;
+        font-weight: 600;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-.herosectionpara {
-  width: 40%;
-  color: white;
-  margin-top: 10px;
-}
+        .herobreadrumb {
+        display: flex;
+        font-weight: 600;
+        gap: 5px;
+        margin: 5px 0px;
+        align-items: center;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-.herobuttonsnew {
-    margin:10px 0px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: start;
-}
+        .herosectionpara {
+        width: 55%;
+        color: white;
+        margin-top: 10px;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-.button {
-  background-color: red;
-  color: white;
-  padding: 8px 30px;
-  border-radius: 10px;
-  border: 1px solid red;
-}
+        .herobuttonsnew {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: start;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-.button:hover {
-  background-color: white;
-  color: red !important;
-  border: 1px solid red;
-}
+        .button {
+        background-color: red;
+        color: white;
+        padding: 8px 30px;
+        border-radius: 10px;
+        border: 1px solid red;
+        }
+
+        .button:hover {
+        background-color: white;
+        color: red !important;
+        border: 1px solid red;
+        }
 
 @media only screen and (max-width: 767px) {
   .herosectionnew {
@@ -843,8 +865,7 @@ s0.parentNode.insertBefore(s1,s0);
             <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is an award-winning 🏆 Digital marketing Company right here in the heart of Mumbai. We help To Drive Sales on Your Website By Providing Expert Digital Marketing Solutions. We Provide Services Like <a class="interlink" href="google-ads-services">Google Ads</a>, <a class="interlink" href="seo-company-in-mumbai">Search Engine Optimization</a>, <a class="interlink" href="social-media-marketing-agency">Social Media Ads</a>, and more.
         </p>
         <div class="herobuttonsnew">
-            <?php include 'include/quote.php' ?>
-            <a href="our-portfolio" class="button">View Portfolio</a>
+            <a href="portfolio/instagram-insights" class="button">View Portfolio</a>
         </div>
     </div>
 
@@ -1374,6 +1395,12 @@ Footer -->
             });
         }
     </script> -->
+
+    <?php
+    include("blogSectionHome.php");
+    ?>
+
+
     <?php include("include/footer.php"); ?>
 
     <!-- Footer -->

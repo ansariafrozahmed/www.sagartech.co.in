@@ -2,31 +2,31 @@
 <html lang="en">
 
 <head>
-    <title>No. 1 Web Development Company in Mumbai</title>
+    <title>No. 1 Web Development Company in Mumbai Best Web Development Services</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Are you looking for web development? Our expert team is committed to turning your digital dreams into reality, which make us best web development company in India.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="No. 1 Web Development Company in Mumbai">
-    <meta property="og:url" content="https://sagartech.co.in/web-design-company-mumbai">
+    <meta property="og:title" content="No. 1 Web Development Company in Mumbai Best Web Development Services>
+    <meta property="og:url" content="https://sagartech.co.in/web-development-company">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaweb.png">
     <meta property="og:description" content="Are you looking for web development? Our expert team is committed to turning your digital dreams into reality, which make us best web development company in India.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/web-design-company-mumbai" />
+    <link rel="canonical" href="https://sagartech.co.in" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
     <!-- main style -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!-- responsive -->
-    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/responsive.css" rel="stylesheet" type="text/css" /> -->
     <!-- custom -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/custom.css" rel="stylesheet" type="text/css" /> -->
     <!-- <link rel="stylesheet" href="css/web-dev.css" ype="text/css"> -->
-    <link href="css/newcssresponsive.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/newcssresponsive.css" rel="stylesheet" type="text/css" /> -->
     <!-- <link rel="stylesheet" href="css/web-design.css"> -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
@@ -42,57 +42,87 @@
     </script>
 </head>
 <style type="text/css">
-    .herosectionnew {
-  position: relative;
-  padding: 70px 60px;
-  overflow: hidden;
-  background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  p {
+  text-transform: capitalize;
+  }
+        .herosectionnew {
+      position: relative;
+      padding: 70px 60px;
+      overflow: hidden;
+      background-image: url("./banner/banner.webp");
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      /* Add overlay */
+      position: relative;
+    }
 
-.herosectionnew h1 {
-  font-size: 30px;
-  color: white;
-  font-weight: 600;
-}
+    .herosectionnew::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+      z-index: 1; /* Adjust z-index to position the overlay */
+    }
 
-.herobreadrumb {
-  display: flex;
-  font-weight: 600;
-  gap: 5px;
-  margin: 5px 0px;
-  align-items: center;
-}
+    .herosectionnew h1 {
+      font-size: 30px;
+      color: white;
+      font-weight: 600;
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2; /* Ensure text appears above overlay */
+    }
 
-.herosectionpara {
-  width: 40%;
-  color: white;
-  margin-top: 10px;
-}
+    .herobreadrumb {
+      display: flex;
+      font-weight: 600;
+      gap: 5px;
+      margin: 5px 0px;
+      align-items: center;
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2; /* Ensure text appears above overlay */
+    }
 
-.herobuttonsnew {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: start;
-}
+    .herosectionpara {
+      width: 40%;
+      color: white;
+      margin-top: 10px;
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2; /* Ensure text appears above overlay */
+    }
 
-.button {
-  background-color: red;
-  color: white;
-  padding: 8px 30px;
-  border-radius: 10px;
-  border: 1px solid red;
-}
+    .herobuttonsnew {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: start;
+      position: relative; /* Ensure text appears above overlay */
+      z-index: 2; /* Ensure text appears above overlay */
+    }
 
-.button:hover {
-  background-color: white;
-  color: red !important;
-  border: 1px solid red;
-}
+    .button {
+      background-color: red;
+      color: white;
+      padding: 8px 30px;
+      border-radius: 10px;
+      border: 1px solid red;
+    }
+
+    .button:hover {
+      background-color: white;
+      color: red !important;
+      border: 1px solid red;
+    }
+
 
 @media only screen and (max-width: 767px) {
   .herosectionnew {
@@ -888,7 +918,7 @@
         <div class="herobuttonsnew">
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
             <?php include 'include/quote.php' ?>
-            <a href="our-portfolio" class="quote-button" style="color:white">View Portfolio</a>
+            <a href="portfolio/website" class="quote-button" style="color:white">View Portfolio</a>
         </div>
     </div>
 
@@ -899,14 +929,15 @@
         <div class="left">
             <h2>Why web development is important</h2>
             <!-- <h3>Subtitle</h3> -->
-            <p>Welcome to <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>, where innovation meets excellence in the world of web development. In an era where digital presence is non-negotiable, we are your partners in crafting websites that not only meet but exceed your expectations. Our team of seasoned developers is committed to transforming your vision into a captivating and functional online experience.That makes us No.1 Website Development Company in India.</p>
+            <p>Welcome to Sagar Tech Technical Solutions, where innovation meets excellence in the world of web development. We take great pride in having some of best web developer in mumbai. In an era where digital presence is non-negotiable, we are your partners in crafting websites that not only meet but exceed your expectations. Our team of seasoned developers is committed to transforming your vision into a captivating and functional online experience.That makes us No.1 Website Development Company in India.</p>
+            <br>
             <div class="herobuttonsnew">
                 <!-- <a href="#">Quick Enquiry</a> -->
                 <a href="about" class="button">About Us</a>
             </div>
         </div>
         <div class="right">
-            <img src="./images/Business.webp" alt="Web Development">
+            <img src="./banner/business.webp" alt="Web Development">
         </div>
     </div>
 
@@ -916,7 +947,7 @@
         <div class="ourprocesssectiontwo">
             <div class="discover">
                 <div class="headingggggg">Expertise that Matters</div>
-                <p>With years of experience under our belt, we have honed our skills in a multitude of web development technologies. From front-end design to back-end functionality, we cover it all. Our team stays abreast of the latest industry trends, ensuring that your website is not just contemporary but also future-proof.</p>
+                <p>With years of experience in web development services under our belt, we have honed our skills in a multitude of web development technologies. From front-end design to back-end functionality, we cover it all. Our team stays abreast of the latest industry trends, ensuring that your website is not just contemporary but also future-proof.</p>
             </div>
             <div class="discover">
                 <div class="headingggggg">Tailored Solutions</div>
@@ -952,8 +983,8 @@
 
     <div class="typesofsection">
         <h2>Types of website development services</h2>
+        <br>
         <!-- <h3>subtitle</h3> -->
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium adipisci voluptatem sint recusandae ipsam iure ex velit asperiores tempore, consequuntur facere sapiente at vitae non temporibus eveniet minima quia cum, nisi culpa, cumque dolore id? Saepe autem illum dicta ut ab amet consequuntur laudantium inventore eius sed laborum, natus sunt?</p>
         <div class="typesofcard">
             <a href="ecommerce-website-development">
                 <div class="carddd">
@@ -1023,7 +1054,7 @@ include 'include/portfolioSlider.php'
         <div class="ourprocesssectiontwo">
             <div class="discover">
                 <div class="headingggggg"><span style="font-size: 45px; font-weight: 900;">01</span>Consultation</div>
-                <p>We begin by sitting down with you to understand your business, your goals, and your target audience before web development. This forms the foundation for the rest of the development process.</p>
+                <p>Our web development company begin by sitting down with you to understand your business, your goals, and your target audience before web development. This forms the foundation for the rest of the development process.</p>
             </div>
             <div class="discover">
                 <div class="headingggggg"><span style="font-size: 45px; font-weight: 900;">02</span>Design</div>
@@ -1236,7 +1267,6 @@ include 'include/portfolioSlider.php'
         </script>
     
 
-    <?php include 'blogSectionHome.php' ?>
 
 
     <?php include("include/footer.php"); ?>
@@ -1245,35 +1275,35 @@ include 'include/portfolioSlider.php'
     <!-- back-to-top -->
     <!-- <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div> -->
+    </div> --> 
     <!-- back-to-top End -->
     <!--================ Jquery =================-->
     <!-- Jquery  -->
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
     <!-- popper  -->
-    <script src="js/popper.min.js"></script>
+    <!-- <script src="js/popper.min.js"></script> -->
     <!--  bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <!-- Google captcha code Js -->
-    <script src='../../../../www.google.com/recaptcha/api.js'></script>
+    <!-- <script src='../../../../www.google.com/recaptcha/api.js'></script> -->
     <!-- Mega Menu -->
-    <script src="js/mega-menu/mega_menu.js"></script>
+    <!-- <script src="js/mega-menu/mega_menu.js"></script> -->
     <!-- Main -->
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
 
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
     <!-- price_range_script -->
-    <script src="js/price_range_script.js"></script>
+    <!-- <script src="js/price_range_script.js"></script> -->
     <!-- modernizr.custom -->
-    <script src="js/modernizr.custom.js"></script>
+    <!-- <script src="js/modernizr.custom.js"></script> -->
     <!-- jquerypp.custom -->
-    <script src="js/jquerypp.custom.js"></script>
+    <!-- <script src="js/jquerypp.custom.js"></script> -->
     <!-- bookblock -->
-    <script src="js/jquery.bookblock.js"></script>
+    <!-- <script src="js/jquery.bookblock.js"></script> -->
     <!-- style-customizer-->
-    <script src="js/style-customizer.js"></script>
+    <!-- <script src="js/style-customizer.js"></script> -->
     <!-- Custom -->
-    <script src="js/custom.js"></script>
+    <!-- <script src="js/custom.js"></script> -->
     <!-- WhatsHelp.io widget -->
     <!--<script src="js/notcopyable.js"></script>-->
     <script>
@@ -1306,160 +1336,5 @@ include 'include/portfolioSlider.php'
             x.parentNode.insertBefore(s, x);
         })();
     </script>
-    <!-- /WhatsHelp.io widget -->
-    <!--Login -->
-    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog  modal-md">
-            <div class="modal-content text-center">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Request a quote</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form class="form-horizontal add_mainarea_form" action="sendmail.php" method="post">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="fname">Full Name</label>
-                                    <input type="text" class="form-control" name="fname" id="fname" aria-describedby="emailHelp" placeholder="Enter full name">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email1">Email address</label>
-                                    <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">Your information is safe with
-                                        us.</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="mobile">Contact Number</label>
-                                    <input type="text" class="form-control" name="mobile" id="mobile" max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="services">Requested Service</label>
-                                    <input name="service" id="services" list="service"> <datalist id="service">
-                                        <option>Website Development</option>
-                                        <option>Digital Marketing</option>
-                                        <option>Bulk SMS</option>
-                                        <option>Graphic Design</option>
-                                    </datalist>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="service">Adittional Words</label>
-                                    <textarea class="form-control" rows="5" id="words" name="addwords"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer border-top-0 d-flex justify-content-center">
-                            <button type="submit" name="quote_submit" class="btn btn-success">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-    <script>
-        $(function() {
-            var myform = $(".add_mainarea_form");
-            var completed = '0%';
-            $(myform).ajaxForm({
-
-                complete: function() {
-                    $('#largeModal').modal('hide')
-                    setTimeout(
-                        $('.bd-example-modal-sm').modal('show'), 3000);
-                }
-            });
-
-
-        });
-        $(document).ready(function() {
-
-            $('body').bind('cut copy paste', function(e) {
-                e.preventDefault();
-            });
-
-            function doAnimation() {
-                $("#buttonbounce").effect("bounce", {
-                    times: 3
-                }, 1000, doAnimation);
-            }
-
-            doAnimation();
-
-        });
-    </script>
-    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm text-center">
-            <div class="modal-content text-center">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title" id="myModalLabel">SAGAR TECH</h4>
-                </div>
-                <div class="modal-body tex-center">
-                    <h5>Request submitted</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade iq-login-from" tabindex="-1" role="dialog" id="form" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title iq-tw-5">Login</h4>
-                    <a class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times; </span>
-                    </a>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="recipient-name" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="recipient-password" placeholder="Password">
-                        </div>
-                        <a class="button iq-mtb-10" href="#">Login</a>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input">Remember Me</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 text-right">
-                                <a href="#">Forgot Password</a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer text-center">
-                    <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
-                    <ul class="iq-media-blog iq-mt-20">
-                        <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="# "><i class="fa fa-github "></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
 </body>
-
-<!-- Mirrored from iqonicthemes.com/themes/qwilo/qwilo/about-us-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Oct 2019 14:24:12 GMT -->
-
-
 </html>

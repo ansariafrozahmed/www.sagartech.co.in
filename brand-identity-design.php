@@ -631,7 +631,7 @@
             <li>Brand Identity & Designing</li>
         </ul>
         <p class="herosectionpara">
-            In a world where first impressions matter, your brand identity is the visual language of your company. Sagartech Technical Solution proudly presents its specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and improve the core values of your brand. With a commitment to creativity, innovation, and strategic design, Sagar Tech is your trusted partner in crafting a visual identity that connects with your target audience and leaves a lasting impression in the competitive market.
+            In a world where first impressions matter, your brand identity is the visual language of your company. <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> proudly presents its specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and improve the core values of your brand. With a commitment to creativity, innovation, and strategic design, Sagar Tech Technical Solutions is your trusted partner in crafting a visual identity & <a class="interlink" href="graphic-design-services">Graphic Designing Services</a> that connects with your target audience and leaves a lasting impression in the competitive market.
         </p>
         <div class="herobuttonsnew">
             <a href="our-portfolio" class="button">View Portfolio</a>
@@ -657,7 +657,7 @@
             </div>
         </div>
         <div class="brand-right">
-            <img src="brand-identity/sagartech.webp" alt="">
+            <img src="brand-identity/sagartech.webp" alt="brand identity design">
         </div>
     </div>
 
@@ -669,38 +669,38 @@
         <div class="brand-card-div">
             <div class="brand-card">
                 <div class="brand-card-top">
-                    <img src="./icons/graphic-designer.webp" alt="">
+                    <img src="./icons/graphic-designer.webp" alt="brand identity design">
                     <h3>Logo Design Services</h3>
                 </div>
                 <p>In today's competitive business world, your logo is the face of your brand—the first thing people notice and remember. Sagar Tech Technical Solution is excited to provide logo design services that go beyond design. We believe in understanding your brand, target audience, and the story you want to tell. Our team of creative minds ensures that your logo not only attracts attention but also speaks about your brand in a unique and memorable manner.</p>
-                <a href="logo-design-service">View Now</a>
+                <a href="logo-design-services">View Now</a>
             </div>
             <!-- ----------- -->
             <div class="brand-card">
                 <div class="brand-card-top">
-                    <img src="./icons/brochure.webp" alt="">
+                    <img src="./icons/brochure.webp" alt="brand identity design">
                     <h3>Brochure and Promotional Material</h3>
                 </div>
                 <p>In a world dominated by screens, there's something magical about the touch and feel of a well-designed brochure or promotional material.Sagartech Technical Solution is here to make that magic happen for your brand. Our team is all about blending creativity, strategic thinking, and attention to detail to bring your brand to life through visually appealing and memorable materials.</p>
-                <a href="brochure-designing">View Now</a>
+                <a href="brochure-design-services">View Now</a>
             </div>
             <!-- ----------- -->
             <div class="brand-card">
                 <div class="brand-card-top">
-                    <img src="./icons/stationery.webp" alt="">
+                    <img src="./icons/stationery.webp" alt="brand identity design">
                     <h3>Post Design Services</h3>
                 </div>
                 <p>Your brand as a storyteller in the massive world of social media, where each post serves as a new chapter in your story, Social Media Post Design Services act as the artists, bringing your stories to life with captivating visuals. Let's explore why these services are essential for your brand's success in the digital realm.</p>
-                <a href="post-design">View Now</a>
+                <a href="social-media-post-design">View Now</a>
             </div>
             <!-- ----------- -->
             <div class="brand-card">
                 <div class="brand-card-top">
-                    <img src="./icons/graphic-designer.webp" alt="">
+                    <img src="./icons/graphic-designer.webp" alt="brand identity design">
                     <h3>Banner Design Services</h3>
                 </div>
                 <p>In the ever-evolving digital and physical marketing, the significance of professional banner design services cannot be overstated. Here's a comprehensive overview of why engaging expert designers is essential for the success of your brand. Banners serve as the initial visual encounter with your brand. Professionally designed banners make an indelible first impression, setting the stage for a memorable and impactful brand experience.</p>
-                <a href="banner-design-company">View Now</a>
+                <a href="banner-design-services">View Now</a>
             </div>
             <!-- ----------- -->
         </div>
@@ -715,10 +715,10 @@
         <h2>See Our Portfolio</h2>
         <div class="fourth-card-div">
             <div class="fourth-card">
-                <img src="brand-identity/sagartech.webp" alt="">
+                <img src="brand-identity/sagartech.webp" alt="brand identity design">
             </div>
             <div class="fourth-card">
-                <img src="brand-identity/oasis.webp" alt="">
+                <img src="brand-identity/oasis.webp" alt="brand identity design">
             </div>
         </div>
         <div class="portfolio-button">

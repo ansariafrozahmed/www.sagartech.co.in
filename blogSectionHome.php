@@ -210,13 +210,13 @@ if ($response) {
         <?php foreach ($limited_data as $item) {
         ?>
             <div class="blogcard">
-                <a href="https://sagartech.co.in/blog-article/<?php echo $item['slug']; ?>/<?php echo $item['id'] ?>">
+                <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                     <div class="blogimg">
                         <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>" alt="">
                     </div>
                 </a>
                 <div class=" blogcardtext">
-                    <a href="https://sagartech.co.in/blog-article/<?php echo $item['slug']; ?>/<?php echo $item['id'] ?>">
+                    <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                         <h5>
                             <?php echo $item['title']['rendered'] ?>
                         </h5>
@@ -224,7 +224,7 @@ if ($response) {
                         <?php echo $item['excerpt']['rendered'] ?>
                         <!-- </p> -->
                     </a>
-                    <a href="https://sagartech.co.in/blog-article/<?php echo $item['slug']; ?>/<?php echo $item['id'] ?>">
+                    <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                         <span class="readmore">Read more....</span>
                     </a>
                 </div>

@@ -40,58 +40,79 @@
         </script>
     </head>
     <style>
-        .herosectionnew {
-            position: relative;
-            padding: 70px 60px;
-            overflow: hidden;
-            background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-            background-position: left;
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
+    .herosectionnew {
+        position: relative;
+        padding: 70px 60px;
+        overflow: hidden;
+        background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        /* Add overlay */
+        position: relative;
+        }
+
+        .herosectionnew::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+        z-index: 1; /* Adjust z-index to position the overlay */
         }
 
         .herosectionnew h1 {
-            font-size: 30px;
-            width: 50%;
-            line-height:normal;
-            color: white;
-            font-weight: 600;
+        font-size: 30px;
+        color: white;
+        line-height:normal;
+        width: 56%;
+        font-weight: 600;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .herobreadrumb {
-            display: flex;
-            font-weight: 600;
-            gap: 5px;
-            margin: 5px 0px;
-            align-items: center;
+        display: flex;
+        font-weight: 600;
+        gap: 5px;
+        margin: 5px 0px;
+        align-items: center;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .herosectionpara {
-            width: 50%;
-            color: white;
-            margin-top: 10px;
+        width: 55%;
+        color: white;
+        margin-top: 10px;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .herobuttonsnew {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            justify-content: start;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: start;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .button {
-            background-color: red;
-            color: white;
-            padding: 8px 30px;
-            border-radius: 10px;
-            border: 1px solid red;
+        background-color: red;
+        color: white;
+        padding: 8px 30px;
+        border-radius: 10px;
+        border: 1px solid red;
         }
 
         .button:hover {
-            background-color: white;
-            color: red !important;
-            border: 1px solid red;
+        background-color: white;
+        color: red !important;
+        border: 1px solid red;
         }
 
         @media only screen and (max-width: 767px) {
@@ -998,7 +1019,7 @@
             </div>
 
             <div class="ecom-right">
-                <img src="./portfolio-images/ecommerce Image copy.webp" alt="Dynamic Website">
+                <img src="portfolio-mockups/catalogue/redsailexports.webp" alt="Dynamic Website">
             </div>
         </div>
 
@@ -1009,7 +1030,7 @@
                 Sagar Tech Technical Solution offers dynamic website development services to help you take your online presence to the next level.
             </span>
             <div class="fourth-buttons">
-                <a href="our-portfolio">Our Portfolio</a>
+                <a href="portfolio/website">Our Portfolio</a>
             </div>
         </div>
 
@@ -1074,6 +1095,10 @@
             </div>
             <?php include 'ecommerce-info.php' ?>
         </div>
+
+        <?php 
+    include 'include/ourClients.php'
+    ?>
 
 
 
@@ -1931,9 +1956,7 @@ Footer -->
             });
             $(document).ready(function() {
 
-                $('body').bind('cut copy paste', function(e) {
-                    e.preventDefault();
-                });
+                
 
                 function doAnimation() {
                     $("#buttonbounce").effect("bounce", {

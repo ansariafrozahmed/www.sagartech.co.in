@@ -114,12 +114,12 @@
 
       foreach ($imageUrls as $imageUrl) {
         echo '<div class="image-div">';
-        echo '<img src="' . $imageUrl . '" alt="Client Logo">';
+        echo '<img src="' . $imageUrl . '" alt="Client Logo"> loading="lazy"';
         echo '</div>';
       }
     ?>
   </div> -->
    <div style="display: flex; align-items: center; justify-content: center; width: 100%;">
-                <img src="./images/techstack.png" style="width: 100%;" alt="">
+                <img src="./images/techstack.png" style="width: 100%;" alt="" loading="lazy">
             </div>
 </div>

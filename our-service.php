@@ -133,7 +133,7 @@
             <a href="web-development-company">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./portfolio-mockups/business/yogeshprashna.webp" alt="">
+                        <img src="./image/homepage/yogeshprashna.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Web Development & Designing</h2>
@@ -146,7 +146,7 @@
             <a href="digital-marketing-company">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./portfolio-mockups/social-media.webp" alt="">
+                        <img src="./image/homepage/social-media.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Digital Marketing</h2>
@@ -160,7 +160,7 @@
             <a href="mobile-app-development-company">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./portfolio-mockups/app.webp" alt="">
+                        <img src="./image/homepage/app.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">App Development</h2>
@@ -174,7 +174,7 @@
             <a href="graphic-design-services">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./brochure/3.webp" alt="">
+                        <img src="./image/homepage/3.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Graphic Designing</h2>
@@ -187,7 +187,7 @@
             <a href="bulk-sms-service-provider">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./portfolio-mockups/bulk-sms.webp" alt="">
+                        <img src="./image/homepage/bulk-sms.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Bulk SMS Service</h2>

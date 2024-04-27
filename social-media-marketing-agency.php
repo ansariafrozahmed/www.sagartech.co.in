@@ -68,7 +68,7 @@
     }
 
     .herosectionpara {
-        width: 40%;
+        width: 50%;
         color: white;
         margin-top: 10px;
     }
@@ -650,7 +650,7 @@ s0.parentNode.insertBefore(s1,s0);
             <li>Social Media Marketing Agency</li>
         </ul>
         <p class="herosectionpara">
-            Sagar Tech Technical Solution is an Award Winning Digital Marketing Company in Mumbai. We provide result oriented social media services Our social media marketing agency of skilled social media optimization and marketing experts is experienced in managing social media platforms such as Instagram, Facebook, Twitter, Google+, LinkedIn, and Pinterest. Together, we increase your social media presence and generate more leads.
+            Sagar Tech Technical Solution is an Award Winning 🏆 <a class="interlink" href="digital-marketing-company">Digital Marketing Company in Mumbai</a>. We provide result oriented social media services Our social media marketing agency of skilled social media optimization and marketing experts is experienced in managing social media platforms such as Instagram, Facebook, Twitter, Google+, LinkedIn, and Pinterest. Together, we increase your social media presence and generate more leads.
         </p>
         <div class="herobuttonsnew">
             <a href="our-portfolio" class="button">View Portfolio</a>
@@ -670,7 +670,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
         </div>
         <div class="smm-right">
-            <img src="./images/social-media-marketing-for-mobile-apps.webp" alt="">
+            <img src="./images/social-media-marketing-for-mobile-apps.webp" alt="social media marketing agency">
         </div>
     </div>
 
@@ -679,7 +679,7 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- --------------------------- -->
         <div class="addons-card">
             <div class="card-head">
-                <img src="icons/brand-asset-management.webp" alt="">
+                <img src="icons/brand-asset-management.webp" alt="social media marketing agency">
                 <h2>Increased Brand Awareness</h2>
             </div>
             <p>Social media platforms provide businesses with an expansive and accessible audience. By consistently sharing valuable content, businesses can enhance their visibility, making it more likely for users to recognize and remember their brand.</p>
@@ -687,7 +687,7 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- --------------------------- -->
         <div class="addons-card">
             <div class="card-head">
-                <img src="icons/target-smm.webp" alt="">
+                <img src="icons/target-smm.webp" alt="social media marketing agency">
                 <h2>Targeted Advertising</h2>
             </div>
             <p>Social media platforms offer detailed targeting options, allowing businesses to create customised ads for specific demographics, interests, and behaviours. This precision ensures that marketing messages are delivered to the most relevant audience, increasing the likelihood of engagement.</p>
@@ -695,7 +695,7 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- --------------------------- -->
         <div class="addons-card">
             <div class="card-head">
-                <img src="icons/profit.webp" alt="">
+                <img src="icons/profit.webp" alt="social media marketing agency">
                 <h2>Cost-Effective Marketing</h2>
             </div>
             <p>Compared to traditional advertising channels, social media marketing often requires lower financial investment. Businesses can allocate budgets based on their goals and reach a substantial audience through targeted ads, making it a cost-effective option for various budget sizes.</p>
@@ -703,7 +703,7 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- --------------------------- -->
         <div class="addons-card">
             <div class="card-head">
-                <img src="icons/progress.webp" alt="">
+                <img src="icons/progress.webp" alt="social media marketing agency">
                 <h2>Improved Website Traffic</h2>
             </div>
             <p>Social media serves as a powerful referral source for website traffic. Businesses can strategically share links to their website content, blog posts, or product pages, driving users from social platforms to their websites for further engagement.</p>
@@ -711,7 +711,7 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- --------------------------- -->
         <div class="addons-card">
             <div class="card-head">
-                <img src="icons/lead.webp" alt="">
+                <img src="icons/lead.webp" alt="social media marketing agency">
                 <h2>Lead Generation Opportunities</h2>
             </div>
             <p>Social media provides opportunities to capture leads directly on the platform. By using lead generation forms or encouraging users to click through to a landing page, businesses can gather valuable contact information and nurture potential customers.</p>
@@ -719,7 +719,7 @@ s0.parentNode.insertBefore(s1,s0);
         <!-- --------------------------- -->
         <div class="addons-card">
             <div class="card-head">
-                <img src="icons/community.webp" alt="">
+                <img src="icons/community.webp" alt="social media marketing agency">
                 <h2>Community Building</h2>
             </div>
             <p>Social media platforms facilitate the formation of communities centred around shared interests or brand affinity. Businesses can foster a sense of belonging within these communities, encouraging users to engage with each other and the brand itself.</p>
@@ -730,12 +730,12 @@ s0.parentNode.insertBefore(s1,s0);
 
     <div class="third-smm-sec">
         <h2>Social Media Marketing Services We Offer To Business</h2>
-        <p>In the vast world of social media, Sagar Tech Technical Solution is your dedicated partner for your social media marketing. We specialise in managing popular platforms like Facebook, Instagram, YouTube, and LinkedIn. We are the go-to social media marketing agency. For your business With a strategic approach and a creative flair, we're here to help businesses like yours enhance their online presence, connect with their audience, and achieve tangible results.</p>
+        <p>In the vast world of social media, <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is your dedicated partner for your social media marketing. We specialise in managing popular platforms like Facebook, Instagram, YouTube, and LinkedIn. We are the go-to social media marketing agency. For your business With a strategic approach and a creative flair, we're here to help businesses like yours enhance their online presence, connect with their audience, and achieve tangible results.</p>
         <div class="smm-service">
             <!-- ------------------- -->
             <div class="smm-card">
                 <div class="smm-card-top">
-                    <img src="./icons/facebook.webp" alt="">
+                    <img src="./icons/facebook.webp" alt="social media marketing agency">
                     <h3>Facebook Marketing</h3>
                 </div>
                 <p>In a vast universe of social media, Facebook continues to be a powerhouse for connecting with audiences around the world. Sagartech Technical Solution brings an exclusive blend of creativity and strategy to the table, making us your go-to partner for Facebook marketing. As a specialised social media marketing agency, we understand the challenges of managing your Facebook marketing. We manage Facebook ads for you, including video ads, lead ads, engagement ads, carousel ads, and boosted posts. We also specialise in smart remarketing, demographic and behavioural targeting, and performance monitoring via Facebook Pixel.</p>
@@ -743,7 +743,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------- -->
             <div class="smm-card">
                 <div class="smm-card-top">
-                    <img src="./icons/instagram.webp" alt="">
+                    <img src="./icons/instagram.webp" alt="social media marketing agency">
                     <h3>Instagram Marketing</h3>
                 </div>
                 <p>In the ever-changing world of social media, Instagram is more than just a platform; it's a visual journey where brands can truly shine. Enter Sagar Tech Technical Solution, your dedicated partner and expert in social media marketing agency We deliver broad Instagram management solutions that will help you build your brand's image and manage all of your organic and paid campaigns on the platform. Join us to take your brand's Instagram presence to new heights through our specialised Instagram marketing services.</p>
@@ -751,7 +751,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------- -->
             <div class="smm-card">
                 <div class="smm-card-top">
-                    <img src="./icons/youtube.webp" alt="">
+                    <img src="./icons/youtube.webp" alt="social media marketing agency">
                     <h3>YouTube Marketing</h3>
                 </div>
                 <p>YouTube is not just about creating videos; it's about creating a meaningful connection with your audience through engaging content. Sagar Tech brings a unique blend of creativity and strategy to ensure your brand not only gets noticed but also resonates with viewers. We offer top-notch video creation and advancement services that focus on providing viewers with your brand's main unique selling points and ideas. From product launch videos to special offer videos and more, our team of marketing professionals will analyse your brand, services, and needs to produce high-quality videos and a marketing strategy that simply works! Our YouTube marketing campaigns aim to increase your subscriber count, enhance views.</p>
@@ -759,7 +759,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ------------------- -->
             <div class="smm-card">
                 <div class="smm-card-top">
-                    <img src="./icons/linkedin.webp" alt="">
+                    <img src="./icons/linkedin.webp" alt="social media marketing agency">
                     <h3>LinkedIn Marketing</h3>
                 </div>
                 <p>Increase your visibility in professional networks, improve your connections, and generate more leads using LinkedIn. We provide advanced services that help your business grow by making use of the power of LinkedIn marketing. Let us look at how Sagartech can be your go-to partner for conquering the world of professional networking and increasing your brand's visibility. Our LinkedIn marketing services are designed to create a strong brand image and achieve amazing results.</p>
@@ -776,7 +776,7 @@ s0.parentNode.insertBefore(s1,s0);
         <h2>Award Winning 🏆 Social Media Marketing Agency In Mumbai</h2>
         <p>As a top-notch social media marketing agency, we take a results-driven approach. From analysing your business's nature and competitors to figuring out the target audience, content creation,and publishing on the respective platforms, we inspect each campaign while offering you with a detailed monthly report.</p>
         <div class="smm-img-div">
-            <img src="./images/smm-main.webp" alt="">
+            <img src="./images/smm-main.webp" alt="social media marketing agency">
         </div>
     </div>
 
@@ -880,9 +880,9 @@ s0.parentNode.insertBefore(s1,s0);
 
     <!-- Footer -->
     <!-- back-to-top -->
-    <!-- <div id="back-to-top">
+    <!-- <!-- <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div> -->
+    </div> --> -->
     <!-- back-to-top End -->
     <!--================ Jquery =================-->
     <!-- Jquery  -->

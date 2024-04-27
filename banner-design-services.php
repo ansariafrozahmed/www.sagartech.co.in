@@ -764,7 +764,7 @@ MAIN CONTENT -->
             <li>Banner Designing</li>
         </ul>
         <p class="herosectionpara">
-            Looking for expert banner design services in the bustling city of Mumbai? Sagar Tech Technical Solutions is your go-to destination. Here's why choosing us is the key to unlocking visually stunning and impactful banners: we understand the dynamic market. We blend local insights with global design standards to create banners that resonate with the vibrant spirit of the city while adhering to international design excellence.
+            Looking for expert banner design services in the bustling city of Mumbai? <a class="interlink" href="https://sagartech.co.in/">Sagar Tech - Technical Solutions</a> is your go-to destination. Here's why choosing us is the key to unlocking visually stunning and impactful banners: we understand the dynamic market. We blend local insights with global design standards to create banners that resonate with the vibrant spirit of the city while adhering to international design excellence.
         </p>
         <div class="herobuttonsnew">
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -778,7 +778,7 @@ MAIN CONTENT -->
     <div class="secondsection">
         <div class="left">
             <h2>Why You Need Professional Banner Design Services</h2>
-            <h3 style="text-align: left;">To Increase the Visual Impact</h3>
+            <!-- <h3 style="text-align: left;">To Increase the Visual Impact</h3> -->
             <p>In the ever-evolving digital and physical marketing, the significance of professional banner design services cannot be overstated. Here's a comprehensive overview of why engaging expert designers is essential for the success of your brand. Banners serve as the initial visual encounter with your brand. Professionally designed banners make an indelible first impression, setting the stage for a memorable and impactful brand experience.</p>
             <div class="herobuttonsnew">
                 <a href="portfolio_old" class="buttonsss">Our Packages</a>
@@ -793,7 +793,7 @@ MAIN CONTENT -->
 
     <div class="bestbrochure">
         <h2>We Provide the best Banner Design For Various Business Need</h2>
-        <p>Where first impressions matter most, Sagar Tech Technical Solutions emerges as the beacon of top-tier banner design services. Here's why we stand as the provider of the absolute best in the industry. The design industry evolves swiftly, and staying abreast of dynamic trends is imperative. Professional designers are not only skilled but also adept at incorporating the latest design trends, ensuring your banners remain visually contemporary and captivating.</p>
+        <p>Where first impressions matter most, Sagar Tech Technical Solutions emerges as the beacon of top-tier banner design services. Here's why we stand as the provider of the absolute best in the industry. The design industry evolves swiftly, and staying abreast of dynamic trends is imperative. Professional <a class="interlink" href="https://sagartech.co.in/graphic-design-services">graphic designers</a> are not only skilled but also adept at incorporating the latest design trends, ensuring your banners remain visually contemporary and captivating.</p>
         <!-- -------------- -->
         <section class="bestsection">
             <div class="bestcard">
@@ -848,7 +848,7 @@ MAIN CONTENT -->
 
 
     <div class="fifthsection">
-        <h2>Samples of Our Brochure & Flyer Design</h2>
+        <h2>Samples of Our Brochure <span style="color:#ff0808;">& Flyer Design</span></h2>
         <div class="logosec">
             <div class="imgdiv">
                 <img src="./banner-mockups/1.webp" alt="">
@@ -868,34 +868,8 @@ MAIN CONTENT -->
             <div class="imgdiv">
                 <img src="./banner-mockups/6.webp" alt="">
             </div>
-            <div class="imgdiv">
-                <img src="./banner-mockups/8.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./banner-mockups/9.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./banner-mockups/10.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./banner-mockups/11.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./banner-mockups/12.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./banner-mockups/13.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./banner-mockups/14.webp" alt="">
-            </div>
-            <!-- <div class="imgdiv">
-                <img src="./banner-mockups/15.webp" alt="">
-            </div> -->
-            <div class="imgdiv">
-                <img src="./banner-mockups/16.webp" alt="">
-            </div>
         </div>
+        <a href="portfolio/banner" class="button-62" role="button">View All</a>
     </div>
 
 
@@ -1051,9 +1025,9 @@ Footer -->
 
     <!-- Footer -->
     <!-- back-to-top -->
-    <div id="back-to-top">
+    <!-- <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
+    </div> -->
     <!-- back-to-top End -->
     <!--================ Jquery =================-->
     <!-- Jquery  -->

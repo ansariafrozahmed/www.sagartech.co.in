@@ -209,7 +209,7 @@ ul {
 	<div class="footer-bottom">
 			<h2>Copyright 
 			<span id="copyright">
-                <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script data-cfasync="false" src="../../../ email-decode.min.js"></script>
                 <script>
                 	document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
                 </script>

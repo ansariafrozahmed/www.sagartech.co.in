@@ -67,53 +67,14 @@
     <h1>Web Development and Digital Marketing Agency In Mumbai</h1>
     <div>
       <p>
-        Sagar Tech Technical Solution Is Award Winning 🏆
-        <a class="linkkkkk" target="_blank" href="web-development-company"
-          >Web Development</a
-        >
-        and
-        <a class="linkkkkk" target="_blank" href="digital-marketing-company"
-          >Digital Marketing Agency</a
-        >
-        In Mumbai Our team of web developers specialises in developing websites
-        that quickly generate leads. We offer effective design, innovative web
-        development,
-        <a class="linkkkkk" target="_blank" href="mobile-app-development-company"
-          >Mobile App Development</a
-        >, and ROI-focused marketing to help your brand reach its full
-        potential. We offer
-        <a
-          class="linkkkkk"
-          target="_blank"
-          href="ecommerce-website-development"
-          >Ecommerce Website</a
-        >, business website, one page website, custom website.
+        Sagar Tech Technical Solution Is Award Winning 🏆 Web Development and Digital Marketing Agency In Mumbai Our team of web developers specialises in developing websites that quickly generate leads. We offer effective design, innovative web development, Mobile App Development, and ROI-focused marketing to help your brand reach its full potential. We offer Ecommerce Website, business website, one page website, custom website.
       </p>
       <p>
-        As a leading
-        <a class="linkkkkk" target="_blank" href="digital-marketing-company"
-          >Digital Marketing Agency</a
-        >, we are dedicated to assisting businesses in the ever-changing digital
-        market . With a combination of creativity, expertise, and modern
-        techniques, we help brands reach their full potential and achieve
-        outstanding results in their business in Digital Marketing We Provide
-        Services like
-        <a class="linkkkkk" target="_blank" href="google-ads-services"
-          >Google Ads</a
-        >, <a class="linkkkkk" target="_blank" href="seo-company-in-mumbai">SEO</a>,
-        <a class="linkkkkk" target="_blank" href="local-seo-services"
-          >Local SEO</a
-        >,
-        <a
-          class="linkkkkk"
-          target="_blank"
-          href="social-media-marketing-agency"
-          >Social Media Marketing</a
-        >, Content Marketing.
+        As a leading Digital Marketing Agency, we are dedicated to assisting businesses in the ever-changing digital market. With a combination of creativity, expertise, modern techniques, we help brands reach their full potential and achieve outstanding results in their business in Digital Marketing We Provide Services like Google Ads, SEO Local SEO, Social Media Marketing, Content Marketing.
       </p>
     </div>
   </div>
   <div class="intro-right">
-    <img src="portfolio-mockups/WebDesigners.webp" alt="" />
+    <img src="image/homepage/WebDesigners.webp" alt="" />
   </div>
 </div>

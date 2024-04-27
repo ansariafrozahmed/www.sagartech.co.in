@@ -33,57 +33,78 @@
         }
 
         .herosectionnew {
-            position: relative;
-            padding: 70px 60px;
-            overflow: hidden;
-            background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-            background-position: left;
-            background-repeat: no-repeat;
-            background-size: cover;
-            color: white;
+        position: relative;
+        padding: 70px 60px;
+        overflow: hidden;
+        background-image: url("https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        /* Add overlay */
+        position: relative;
+        }
+
+        .herosectionnew::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+        z-index: 1; /* Adjust z-index to position the overlay */
         }
 
         .herosectionnew h1 {
-            font-size: 30px;
-            line-height:normal;
-            width: 50%;
-            color: white;
-            font-weight: 600;
+        font-size: 30px;
+        color: white;
+        line-height:normal;
+        width: 56%;
+        font-weight: 600;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .herobreadrumb {
-            display: flex;
-            font-weight: 600;
-            gap: 5px;
-            margin: 5px 0px;
-            align-items: center;
+        display: flex;
+        font-weight: 600;
+        gap: 5px;
+        margin: 5px 0px;
+        align-items: center;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .herosectionpara {
-            width: 50%;
-            color: white;
-            margin-top: 10px;
+        width: 55%;
+        color: white;
+        margin-top: 10px;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .herobuttonsnew {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            justify-content: start;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: start;
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
         }
 
         .button {
-            background-color: red;
-            color: white;
-            padding: 8px 30px;
-            border-radius: 10px;
-            border: 1px solid red;
+        background-color: red;
+        color: white;
+        padding: 8px 30px;
+        border-radius: 10px;
+        border: 1px solid red;
         }
 
         .button:hover {
-            background-color: white;
-            color: red !important;
-            border: 1px solid red;
+        background-color: white;
+        color: red !important;
+        border: 1px solid red;
         }
 
         @media only screen and (max-width: 767px) {
@@ -443,7 +464,7 @@
                 A strong online presence is essential for businesses and individuals in today's digital age. A domain name is a must for your online presence as it provides your unique internet address. Domain registration secures an address for your website, providing a professional online presence.Sagar Tech Technical Solutions understands the value of a strong online presence, which is why we provide complete domain registration services and become best domain registrar India.
             </p>
             <div class="herobuttonsnew">
-                <a href="our-portfolio" class="button">View Portfolio</a>
+                <a href="contact" class="button">Contact Now!</a>
                 <!-- <a href="#" class="button">Quick Enquiry</a> -->
                 <?php
                 // include 'include/quote-modal.php'
@@ -604,9 +625,9 @@
 
     <!-- Footer -->
     <!-- back-to-top -->
-    <div id="back-to-top">
+    <!-- <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
+    </div> -->
     <!-- back-to-top End -->
     <!--================ Jquery =================-->
     <!-- Jquery  -->

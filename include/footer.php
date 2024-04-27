@@ -115,8 +115,8 @@ ul {
 }
 .footer-bottom h2 {
 	text-align:center;
-	font-size:15px;
-	font-weight:600;
+	font-size:14px;
+	font-weight:500;
 	color:#2b2a2a;
 	line-height:normal;
 }
@@ -222,10 +222,10 @@ ul {
 	<div class="footer-bottom">
 			<h2>Copyright 
 			<span id="copyright">
-                <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script data-cfasync="false" src="../../../ email-decode.min.js"></script>
                 <script>
                 	document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
                 </script>
 			</span>	
-			<a class="interlink" href="https://sagartech.co.in/">Sagar Tech - Technical Solutions</a> All Rights Reserved</h2>
+			<a class="interlink" href="https://sagartech.co.in/">Sagar Tech - Technical Solutions</a> - Web Development & Web Design Company in Mumbai | All Rights Reserved</h2>
 	</div>

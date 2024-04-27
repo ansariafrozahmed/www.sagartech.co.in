@@ -1,57 +1,69 @@
-
 <?php
-include('config.php');
+include ('config.php');
 ?>
+
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
   .container {
     max-width: 1200px;
     margin: auto;
   }
+
   .interlink {
-    color:#FF0808;
-    font-weight:600;
+    color: #FF0808;
+    font-weight: 600;
   }
+
   .row {
     display: flex;
     flex-wrap: wrap;
   }
+
   .v-center {
     align-items: center;
   }
+
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
+
   a {
     text-decoration: none;
   }
+
   /* header */
   .header {
     display: block;
     width: 100%;
     position: sticky;
-    top:0px;
+    top: 0px;
     z-index: 99;
-    background:#fff;
+    background: #fff;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
+
   .header .item-left {
     flex: 0 0 17%;
   }
+
   .header .logo img {
     height: 40px;
   }
+
   .header .item-center {
     flex: 0 0 66%;
   }
+
   .header .item-right {
     flex: 0 0 17%;
     display: flex;
     justify-content: flex-end;
   }
+
   .header .item-right a {
     text-decoration: none;
     font-size: 16px;
@@ -60,12 +72,14 @@ include('config.php');
     margin-left: 10px;
     transition: color 0.3s ease;
   }
-  .header .menu > ul > li {
+
+  .header .menu>ul>li {
     display: inline-block;
     line-height: 50px;
     margin-left: 25px;
   }
-  .header .menu > ul > li > a {
+
+  .header .menu>ul>li>a {
     font-size: 15px;
     font-weight: 500;
     color: #000000;
@@ -73,28 +87,34 @@ include('config.php');
     text-transform: capitalize;
     transition: color 0.3s ease;
   }
-  .header .menu > ul > li .sub-menu {
+
+  .header .menu>ul>li .sub-menu {
     position: absolute;
     z-index: 500;
     background-color: #ffffff;
     box-shadow: -2px 2px 70px -25px rgba(0, 0, 0, 0.3);
-    padding: 20px 30px;
+    padding: 15px 20px;
+    border-radius: 10px;
     transition: all 0.5s ease;
     margin-top: 25px;
     opacity: 0;
     visibility: hidden;
   }
+
   @media (min-width: 992px) {
-    .header .menu > ul > li.menu-item-has-children:hover .sub-menu {
+    .header .menu>ul>li.menu-item-has-children:hover .sub-menu {
       margin-top: 0;
       visibility: visible;
       opacity: 1;
     }
   }
-  .header .menu > ul > li .sub-menu > ul > li {
-    line-height: 1;
+
+  .header .menu>ul>li .sub-menu>ul>li {
+    font-weight: 600;
+    line-height: 1.5;
   }
-  .header .menu > ul > li .sub-menu > ul > li > a {
+
+  .header .menu>ul>li .sub-menu>ul>li>a {
     display: inline-block;
     padding: 10px 0;
     font-size: 15px;
@@ -103,11 +123,13 @@ include('config.php');
     text-decoration: none;
     text-transform: capitalize;
   }
-  .header .menu > ul > li .single-column-menu {
+
+  .header .menu>ul>li .single-column-menu {
     min-width: 280px;
     max-width: 350px;
   }
-  .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li {
+
+  .header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li {
     line-height: 0;
     display: block;
     /* background-color: rgb(237, 237, 237); */
@@ -115,25 +137,28 @@ include('config.php');
     padding: 2px 10px;
     border-radius: 10px;
   }
-  .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li:hover {
+
+  .header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li:hover {
     background-color: rgb(243, 243, 243);
     margin: 5px 0px;
     padding: 2px 10px;
     border-radius: 10px;
   }
-  .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a {
+
+  .header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a {
     padding: 10px 0;
     display: inline-block;
     font-size: 15px;
     color: #555555;
     transition: color 0.3s ease;
   }
-  .header .menu > ul > li .sub-menu.mega-menu {
+
+  .header .menu>ul>li .sub-menu.mega-menu {
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .header .menu > ul > li .sub-menu.mega-menu-column-4 {
+  .header .menu>ul>li .sub-menu.mega-menu-column-4 {
     max-width: 1100px;
     width: 100%;
     display: flex;
@@ -141,38 +166,38 @@ include('config.php');
     padding: 20px 15px;
     border-radius: 5px;
   }
-  .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item {
+
+  .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item {
     flex: 0 0 25%;
     padding: 0 15px;
   }
-  .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item a {
+
+  .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item a {
     font-size: 18px;
     color: #ff0808;
     font-weight: 600;
     line-height: 1;
     padding: 10px 0;
   }
-  .header
-    .menu
-    > ul
-    > li
-    .sub-menu.mega-menu-column-4
-    > .list-item.text-center
-    .titlee {
+
+  .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item.text-center .titlee {
     text-align: center;
   }
-  .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item img {
+
+  .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item img {
     max-width: 100%;
     width: 100%;
     vertical-align: middle;
     margin-top: 10px;
   }
-  .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a:hover,
-  .header .menu > ul > li .sub-menu > ul > li > a:hover,
+
+  .header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a:hover,
+  .header .menu>ul>li .sub-menu>ul>li>a:hover,
   .header .item-right a:hover,
-  .header .menu > ul > li:hover > a {
+  .header .menu>ul>li:hover>a {
     color: #ea4636;
   }
+
   /* banner section */
   .banner-section {
     background-image: url("../img/banner.jpg");
@@ -182,6 +207,7 @@ include('config.php');
     width: 100%;
     display: block;
   }
+
   .mobile-menu-head,
   .mobile-menu-trigger {
     display: none;
@@ -193,13 +219,16 @@ include('config.php');
       order: 3;
       flex: 0 0 100%;
     }
+
     .header .item-left,
     .header .item-right {
       flex: 0 0 auto;
     }
+
     .v-center {
       justify-content: space-between;
     }
+
     .header .mobile-menu-trigger {
       display: flex;
       height: 30px;
@@ -209,6 +238,7 @@ include('config.php');
       align-items: center;
       justify-content: center;
     }
+
     .header .mobile-menu-trigger span {
       display: block;
       height: 2px;
@@ -216,6 +246,7 @@ include('config.php');
       width: 24px;
       position: relative;
     }
+
     .header .mobile-menu-trigger span:before,
     .header .mobile-menu-trigger span:after {
       content: "";
@@ -225,12 +256,15 @@ include('config.php');
       height: 100%;
       background-color: #333333;
     }
+
     .header .mobile-menu-trigger span:before {
       top: -6px;
     }
+
     .header .mobile-menu-trigger span:after {
       top: 6px;
     }
+
     .header .item-right {
       align-items: center;
     }
@@ -247,22 +281,26 @@ include('config.php');
       transition: all 0.5s ease;
       z-index: 1099;
     }
+
     .header .menu.active {
       transform: translate(0%);
     }
-    .header .menu > ul > li {
+
+    .header .menu>ul>li {
       line-height: 1;
       margin: 0;
       display: block;
     }
-    .header .menu > ul > li > a {
+
+    .header .menu>ul>li>a {
       line-height: 50px;
       height: 50px;
       padding: 0 50px 0 15px;
       display: block;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
-    .header .menu > ul > li > a i {
+
+    .header .menu>ul>li>a i {
       position: absolute;
       height: 50px;
       width: 50px;
@@ -272,6 +310,7 @@ include('config.php');
       line-height: 50px;
       transform: rotate(-90deg);
     }
+
     .header .menu .mobile-menu-head {
       display: flex;
       height: 50px;
@@ -284,6 +323,7 @@ include('config.php');
       background-color: #ffffff;
       top: 0;
     }
+
     .header .menu .mobile-menu-head .go-back {
       height: 50px;
       width: 50px;
@@ -295,14 +335,17 @@ include('config.php');
       font-size: 16px;
       display: none;
     }
+
     .header .menu .mobile-menu-head.active .go-back {
       display: block;
     }
+
     .header .menu .mobile-menu-head .current-menu-title {
       font-size: 15px;
       font-weight: 500;
       color: #000000;
     }
+
     .header .menu .mobile-menu-head .mobile-menu-close {
       height: 50px;
       width: 50px;
@@ -313,13 +356,15 @@ include('config.php');
       color: #000000;
       font-size: 25px;
     }
+
     .header .menu .menu-main {
       height: 100%;
       overflow-x: hidden;
       overflow-y: auto;
     }
-    .header .menu > ul > li .sub-menu.mega-menu,
-    .header .menu > ul > li .sub-menu {
+
+    .header .menu>ul>li .sub-menu.mega-menu,
+    .header .menu>ul>li .sub-menu {
       visibility: visible;
       opacity: 1;
       position: absolute;
@@ -337,61 +382,61 @@ include('config.php');
       transform: translateX(0%);
       overflow-y: auto;
     }
-    .header .menu > ul > li .sub-menu.active {
+
+    .header .menu>ul>li .sub-menu.active {
       display: block;
     }
+
     @keyframes slideLeft {
       0% {
         opacity: 0;
         transform: translateX(100%);
       }
+
       100% {
         opacity: 1;
         transform: translateX(0%);
       }
     }
+
     @keyframes slideRight {
       0% {
         opacity: 1;
         transform: translateX(0%);
       }
+
       100% {
         opacity: 0;
         transform: translateX(100%);
       }
     }
-    .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item img {
+
+    .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item img {
       margin-top: 0;
     }
-    .header
-      .menu
-      > ul
-      > li
-      .sub-menu.mega-menu-column-4
-      > .list-item.text-center
-      .titlee {
+
+    .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item.text-center .titlee {
       margin-bottom: 20px;
     }
-    .header
-      .menu
-      > ul
-      > li
-      .sub-menu.mega-menu-column-4
-      > .list-item.text-center:last-child
-      .titlee {
+
+    .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item.text-center:last-child .titlee {
       margin-bottom: 0px;
     }
-    .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item {
+
+    .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item {
       flex: 0 0 100%;
       padding: 0px;
     }
-    .header .menu > ul > li .sub-menu > ul > li > a,
-    .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li > a {
+
+    .header .menu>ul>li .sub-menu>ul>li>a,
+    .header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a {
       display: block;
     }
-    .header .menu > ul > li .sub-menu.mega-menu > .list-item > ul {
+
+    .header .menu>ul>li .sub-menu.mega-menu>.list-item>ul {
       margin-bottom: 15px;
     }
+
     .menu-overlay {
       position: fixed;
       background-color: rgba(0, 0, 0, 0.5);
@@ -404,11 +449,13 @@ include('config.php');
       opacity: 0;
       transition: all 0.5s ease;
     }
+
     .menu-overlay.active {
       visibility: visible;
       opacity: 1;
     }
   }
+
   .quote-button {
     background-color: #ff0808;
     padding: 8px 15px;
@@ -420,15 +467,18 @@ include('config.php');
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
   @media (max-width: 767px) {
     header {
       position: relative;
       background: #fff;
     }
+
     .logo img {
       height: 30px;
     }
   }
+
   .titlee {
     display: flex;
     align-items: center;
@@ -437,12 +487,83 @@ include('config.php');
     /* margin-bottom: 5px; */
     padding: 2px 10px;
   }
+
   .titlee:hover {
     border-radius: 15px;
     background-color: rgb(243, 243, 243);
   }
+
   .titlee img {
     width: 10px;
+  }
+
+  .multi-level-dropdown {
+    display: none;
+    position: absolute;
+    margin-left: 10px;
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    z-index: 100;
+    top: 80%;
+    left: 70%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  .multi-level-dropdown ul li {
+    padding: 5px 0px;
+    font-size: 15px;
+  }
+
+  .multi-level-dropdown ul li a:hover {
+    color: #ff0808;
+  }
+
+  .portfolio-dropdown:hover .multi-level-dropdown,
+  .multi-level-dropdown:hover {
+    display: block;
+  }
+
+  @media (max-width: 991px) {
+    .multi-level-dropdown {
+      display: none;
+      position: relative;
+      margin: 0px;
+      background: white;
+      padding: 0px;
+      width: 100%;
+      border-radius: 10px;
+      z-index: 100;
+      top: 0;
+      left: 0;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .multi-level-dropdown ul {
+      padding: 15px;
+    }
+
+    .multi-level-dropdown ul li {
+      /* padding:10px; */
+      font-size: 15px;
+    }
+
+    .multi-level-dropdown ul li a:hover {
+      color: #ff0808;
+    }
+
+    .portfolio-dropdown:hover .multi-level-dropdown,
+    .multi-level-dropdown:hover {
+      display: block;
+    }
+  }
+
+  .dkuywW {
+    position: relative;
+    width: 64px;
+    margin: auto;
+    display: none;
   }
 </style>
 <header class="header">
@@ -468,52 +589,17 @@ include('config.php');
             <li>
               <a href="<?= WEB_URL ?>">Home</a>
             </li>
-            <!-- <li class="menu-item-has-children">
-                  <a href="#">New <i class="fa fa-angle-down"></i></a>
-                  <div class="sub-menu mega-menu mega-menu-column-4">
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p1.jpg" alt="new Product" />
-                        <h4 class="titlee">Product 1</h4>
-                      </a>
-                    </div>
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p2.jpg" alt="new Product" />
-                        <h4 class="titlee">Product 2</h4>
-                      </a>
-                    </div>
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p3.jpg" alt="new Product" />
-                        <h4 class="titlee">Product 3</h4>
-                      </a>
-                    </div>
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p4.jpg" alt="new Product" />
-                        <h4 class="titlee">Product 4</h4>
-                      </a>
-                    </div>
-                  </div>
-                </li> -->
             <li class="menu-item-has-children">
               <a href="#">Services <i class="fa fa-angle-down"></i></a>
               <div class="sub-menu mega-menu mega-menu-column-4">
                 <div class="list-item">
                   <div class="titlee">
-                    <img
-                      src="<?= WEB_URL ?>icons/web-development.png"
-                      style="width: 30px"
-                      alt=""
-                    />
+                    <img src="<?= WEB_URL ?>icons/web-development.png" style="width: 30px" alt="" />
                     <a href="<?= WEB_URL ?>web-development-company">Web Development</a>
                   </div>
                   <ul>
                     <li>
-                      <a href="<?= WEB_URL ?>ecommerce-website-development"
-                        >Ecommerce Website</a
-                      >
+                      <a href="<?= WEB_URL ?>ecommerce-website-development">Ecommerce Website</a>
                     </li>
                     <li>
                       <a href="<?= WEB_URL ?>dynamic-website-development">Dynamic Website</a>
@@ -537,24 +623,16 @@ include('config.php');
                     </li>
                     <li><a href="<?= WEB_URL ?>local-seo-services">Local SEO</a></li>
                     <li>
-                      <a href="<?= WEB_URL ?>social-media-marketing-agency"
-                        >Social Media Marketing</a
-                      >
+                      <a href="<?= WEB_URL ?>social-media-marketing-agency">Social Media Marketing</a>
                     </li>
                     <li>
-                      <a href="<?= WEB_URL ?>social-media-optimization"
-                        >Social Media Optimization</a
-                      >
+                      <a href="<?= WEB_URL ?>social-media-optimization">Social Media Optimization</a>
                     </li>
                   </ul>
                 </div>
                 <div class="list-item">
                   <div class="titlee">
-                    <img
-                      src="<?= WEB_URL ?>icons/graphic-designer.png"
-                      style="width: 30px"
-                      alt=""
-                    />
+                    <img src="<?= WEB_URL ?>icons/graphic-designer.png" style="width: 30px" alt="" />
                     <a href="<?= WEB_URL ?>graphic-design-services">Graphic Designing</a>
                   </div>
                   <ul>
@@ -571,58 +649,36 @@ include('config.php');
                 </div>
                 <div class="list-item">
                   <div class="titlee">
-                    <img
-                      src="<?= WEB_URL ?>icons/text-message.png"
-                      style="width: 30px"
-                      alt=""
-                    />
+                    <img src="<?= WEB_URL ?>icons/text-message.png" style="width: 30px" alt="" />
                     <a href="<?= WEB_URL ?>bulk-sms-service-provider">Bulk SMS</a>
                   </div>
                   <div class="titlee">
-                    <img
-                      src="<?= WEB_URL ?>icons/app-development.png"
-                      style="width: 30px"
-                      alt=""
-                    />
+                    <img src="<?= WEB_URL ?>icons/app-development.png" style="width: 30px" alt="" />
                     <a href="<?= WEB_URL ?>mobile-app-development-company">App Development</a>
                   </div>
-                  <!-- <div class="titlee">
-                    <img
-                      src="<?= WEB_URL ?>icons/iso-symbol.png"
-                      style="width: 30px"
-                      alt=""
-                    />
-                    <a href="iso-consulting">ISO Consulting</a>
-                  </div> -->
                 </div>
               </div>
             </li>
-            <!-- <li class="menu-item-has-children">
-                  <a href="#">Blog <i class="fas fa-angle-down"></i></a>
-                  <div class="sub-menu single-column-menu">
-                    <ul>
-                      <li><a href="#">Standard Layout</a></li>
-                      <li><a href="#">Grid Layout</a></li>
-                      <li><a href="#">single Post Layout</a></li>
-                    </ul>
-                  </div>
-                </li> -->
-            <!-- <li class="menu-item-has-children">
-                  <a href="#">Pages <i class="fas fa-angle-down"></i></a>
-                  <div class="sub-menu single-column-menu">
-                    <ul>
-                      <li><a href="#">Login</a></li>
-                      <li><a href="#">Register</a></li>
-                      <li><a href="#">Faq</a></li>
-                      <li><a href="#">404 Page</a></li>
-                    </ul>
-                  </div>
-                </li> -->
-            <!-- <li>
-              <a href="digital-marketing-agency-mumbai-packages">Packages</a>
-            </li> -->
-            <li>
-              <a href="<?= WEB_URL ?>our-portfolio">Portfolio</a>
+            <li class="menu-item-has-children">
+              <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <li><a href="<?= WEB_URL ?>portfolio/website">Web Development Portfolio</a></li>
+                  <li><a href="<?= WEB_URL ?>portfolio/search-engine-optimization">SEO Portfolio</a></li>
+                  <li><a href="<?= WEB_URL ?>portfolio/logo">Logo Design Portfolio</a></li>
+                  <li><a href="<?= WEB_URL ?>portfolio/banner">Banner Design Portfolio</a></li>
+                  <li><a href="<?= WEB_URL ?>portfolio/brochure">Brochure Design Portfolio</a></li>
+                  <!-- <li><a href="<?= WEB_URL ?>portfolio/social-media-post">Social Media Post Portfolio</a></li> -->
+                  <!-- <li class="portfolio-dropdown"><a href="#">Social Media Portfolio <i class="fas fa-angle-right"></i></a>
+                          <div class="multi-level-dropdown">
+                            <ul>
+                              <li><a href="<?= WEB_URL ?>portfolio/facebook-insights">Facebook Insights Portfolio</a></li>
+                              <li><a href="<?= WEB_URL ?>portfolio/instagram-insights">Instagram Insights Portfolio</a></li>
+                            </ul>
+                          </div>
+                      </li> -->
+                </ul>
+              </div>
             </li>
             <li>
               <a href="<?= WEB_URL ?>about">About Us</a>
@@ -631,7 +687,7 @@ include('config.php');
               <a href="<?= WEB_URL ?>contact">Contact Us</a>
             </li>
             <li>
-              <a href="<?= WEB_URL ?>blog">Blogs</a>
+              <a href="<?= WEB_URL ?>allblog">Blogs</a>
             </li>
           </ul>
         </nav>
@@ -641,7 +697,7 @@ include('config.php');
         <!-- <a href="#"><i class="fas fa-search"></i></a>
             <a href="#"><i class="far fa-heart"></i></a>
             <a href="#"><i class="fas fa-shopping-cart"></i></a> -->
-        <?php include 'include/quote.php' ?>
+        <?php include 'quote.php' ?>
         <!-- mobile menu trigger -->
         <div class="mobile-menu-trigger">
           <span></span>

@@ -625,48 +625,8 @@
             <img src="images/logoonly.jpg" alt="loder">
         </div>
     </div>
-    <!--Start of Tawk.to Script-->
-    <!-- <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5def76bd43be710e1d216625/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
-    <!--End of Tawk.to Script-->
-    <!-- loading End -->
-    <!-- HEADER  -->
-
-    <!-- search -->
-    <!-- <div class="search">
-<button id="btn-search-close" class="btn btn--search-close" aria-label="Close search form">
-<i class="fa fa-close" aria-hidden="true"></i>
-</button>
-<form class="search__form">
-<input class="search__input" name="search" type="search" placeholder="Qwilo Search" autocomplete="off" autocapitalize="off" spellcheck="false">
-<span class="search__info">Hit enter to search or ESC to close</span>
-</form>
-<div class="search__related">
-<div class="search__suggestion iq-font-white">
-<h3 class="iq-font-white iq-tw-6">May We Suggest?</h3>
-<p>#drone #funny #catgif #broken #lost #hilarious #good #red #blue #nono #why #yes #yesyes #aliens #green</p>
-</div>
-<div class="search__suggestion iq-font-white">
-<h3 class="iq-font-white iq-tw-6">Is It This?</h3>
-<p>#good #red #hilarious #blue #nono #why #yes #yesyes #aliens #green #drone #funny #catgif #broken #lost</p>
-</div>
-<div class="search__suggestion iq-font-white">
-<h3 class="iq-font-white iq-tw-6">Where Art Thou?</h3>
-<p>#broken #lost #good #red #funny #hilarious #catgif #blue #nono #why #yes #yesyes #aliens #green #drone</p>
-</div>
-</div>
-</div>
- --><!-- /search END -->
-    <!-- HEADER  -->
+    
+    
     <?php
     $page = 'services';
     include("include/newHeader.php");
@@ -685,11 +645,11 @@ s0.parentNode.insertBefore(s1,s0);
             <li>Brochure Designing</li>
         </ul>
         <p class="herosectionpara">
-            Ever wondered how a beautifully designed brochure could transform your brand's story? Transform Your Brand with Sagar Tech's brochure design expertise! 🚀, we're all about creating brochures that not only look good but also tell your story in a way that captivates your audience. Our commitment extends beyond aesthetics; we aim to craft brochures that serve effective brand communication.
+            Ever wondered how a beautifully designed brochure could transform your brand's story? Transform Your Brand with <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a> brochure design expertise! 🚀, we're all about creating brochures that not only look good but also tell your story in a way that captivates your audience. Our commitment extends beyond aesthetics we aim to craft brochures & <a class="interlink" href="graphic-design-services">Graphic Designing Services</a> that serve effective brand communication.
         </p>
         <div class="herobuttonsnew">
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <a href="our-portfolio" class="buttonsss">View Portfolio</a>
+            <a href="portfolio/brochure" class="buttonsss">View Portfolio</a>
             <?php include 'include/quote.php' ?>
         </div>
     </div>
@@ -700,14 +660,14 @@ s0.parentNode.insertBefore(s1,s0);
     <div class="secondsection">
         <div class="left">
             <h2>Lets Created Something Extra Ordinary</h2>
-            <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3>
+            <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
             <p>Brochures allow you to present detailed information about your products, services, and brand in a structured and visually appealing manner. They serve as comprehensive informational resources that your audience can refer to at their convenience. Brochures can be used across various marketing channels. Whether handed out at trade shows, sent in direct mail campaigns, or displayed in waiting areas, their versatility makes them an effective and adaptable marketing tool.</p>
             <div class="herobuttonsnew">
-                <a href="portfolio_old" class="buttonsss">Our Packages</a>
+                <a href="contact" class="buttonsss">Let's Discuss</a>
             </div>
         </div>
         <div class="right">
-            <img src="./brochure/3.webp" alt="">
+            <img src="./brochure/sagartech-brochure.webp" alt="brochure design">
         </div>
     </div>
 
@@ -720,7 +680,7 @@ s0.parentNode.insertBefore(s1,s0);
         <section class="bestsection">
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Company Brochure Design</h2>
                 </div>
                 <div class="besttwo">
@@ -730,7 +690,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- -------------- -->
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Product Catalog Design</h2>
                 </div>
                 <div class="besttwo">
@@ -740,7 +700,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ---------------- -->
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Sales Brochure Design</h2>
                 </div>
                 <div class="besttwo">
@@ -749,7 +709,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Bi-Fold Brochures</h2>
                 </div>
                 <div class="besttwo">
@@ -759,7 +719,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- -------------- -->
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Tri-Fold Brochures</h2>
                 </div>
                 <div class="besttwo">
@@ -769,7 +729,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ---------------- -->
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Gate Fold Brochures</h2>
                 </div>
                 <div class="besttwo">
@@ -778,7 +738,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Z-Fold Brochure</h2>
                 </div>
                 <div class="besttwo">
@@ -788,7 +748,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- -------------- -->
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Four panel Roll Fold</h2>
                 </div>
                 <div class="besttwo">
@@ -798,7 +758,7 @@ s0.parentNode.insertBefore(s1,s0);
             <!-- ---------------- -->
             <div class="bestcard">
                 <div class="bestone">
-                    <img src="./icons/brochure.png" alt="">
+                    <img src="./icons/brochure.png" alt="brochure design">
                     <h2>Insert and Folder Brochures</h2>
                 </div>
                 <div class="besttwo">
@@ -821,39 +781,25 @@ s0.parentNode.insertBefore(s1,s0);
         <h2>Samples of Our Brochure <span style="color:#FF0808;">& Flyer Design</span></h2>
         <div class="logosec">
             <div class="imgdiv">
-                <img src="./brochure/1.webp" alt="">
+                <img src="./brochure/1.webp" alt="brochure design">
             </div>
             <div class="imgdiv">
-                <img src="./brochure/2.webp" alt="">
+                <img src="./brochure/2.webp" alt="brochure design">
             </div>
             <div class="imgdiv">
-                <img src="./brochure/3.webp" alt="">
+                <img src="./brochure/3.webp" alt="brochure design">
             </div>
             <div class="imgdiv">
-                <img src="./brochure/5.webp" alt="">
+                <img src="./brochure/5.webp" alt="brochure design">
             </div>
             <div class="imgdiv">
-                <img src="./brochure/6.webp" alt="">
+                <img src="./brochure/6.webp" alt="brochure design">
             </div>
             <div class="imgdiv">
-                <img src="./brochure/7.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./brochure/8.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./brochure/9.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./brochure/10.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./brochure/11.webp" alt="">
-            </div>
-            <div class="imgdiv">
-                <img src="./brochure/12.webp" alt="">
+                <img src="./brochure/7.webp" alt="brochure design">
             </div>
         </div>
+        <a href="portfolio/brochure" class="button-62" role="button">View All</a>
     </div>
 
 
@@ -1176,7 +1122,7 @@ Footer -->
         <div class="container">
             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container wow fadeInUp" style="margin-bottom: 30px;">
                 <div class="col-md-12 text-center pb-4">
-                    <h3 class="abel"><i><img src="images/faq.png" alt="faq" class="img-fluid fimg"></i>&nbsp;&nbsp;&nbsp;Frequently Asked Questions</h3>
+                    <h3 class="abel"><i><img src="images/faq.png" alt="brochure designfaq" class="img-fluid fimg"></i>&nbsp;&nbsp;&nbsp;Frequently Asked Questions</h3>
                 </div>
                 <button class="accordion w3-animate-bottom">What are the elements of a brochure design?</button>
                 <div class="panel">

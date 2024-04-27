@@ -1,4 +1,5 @@
 <?php
+/*
 // Load PHPMailer Autoloader
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
@@ -16,15 +17,16 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'smtp.gmail.com';                 //Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'info@sagartech.co.in';                 //SMTP username
-    $mail->Password   = 'Sagartech@0569';                                     //SMTP password
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 587;                                      //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        $mail->Host = 'smtp-relay.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'info@sagartech.co.in';
+        $mail->Password = 'arzsumqvxpkalxlj'; // Use the actual email account password
+        $mail->SMTPSecure = 'tls'; // Enable TLS encryption, [ICODE]ssl[/ICODE] also accepted
+        $mail->Port = 587; // TCP port to connect to
+        // Sender info
+        $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
+        // $mail->addAddress('info@sagartech.co.in');
 
-    //Recipients
-    $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
     $mail->addAddress('patiladiti240@gmail.com', 'Sagar Tech'); //Add a recipient
 
     //Content
@@ -38,3 +40,4 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+*/

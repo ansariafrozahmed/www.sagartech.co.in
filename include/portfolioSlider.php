@@ -1,45 +1,44 @@
 
 <?php
-// Sample data array containing information for each slide
 $slides = array(
+  array(
+    'type' => 'Ecommerce Website',
+    'image' => './image/homepage/BSAuto.webp',
+    'web_title' => 'BS Auto Accessories',
+    'desc' => "When it comes to e-commerce website its user interface is a big challenge we have some best Wordpress Developers who can make your websites user friendly, easy to navigate product for customers with the help of latest technology no matter how many products are listed on your website it won't create a bad user experience."
+),
     array(
         'type' => 'Business Website',
-        'image' => 'portfolio-mockups/MithiyajMockup.webp',
+        'image' => './image/homepage/MithiyajMockup.webp',
         'web_title' => 'Mithiyaj',
         'desc' => 'At Mithiyaj, we understand the universal craving for the finer things in life. With an unwavering commitment to quality, creativity, and affordability, we have curated a menu that spans a spectrum of delectable treats. From sumptuous cakes and pastries to timeless Indian sweets, delicate Baklavas, and luxurious gift hampers, we are here to transform your moments of indulgence into everlasting memories.'
     ),
     array(
         'type' => 'Catalogue Website',
-        'image' => 'portfolio-mockups/ASAudio.webp',
+        'image' => './image/homepage/ASAudio.webp',
         'web_title' => 'AS Audio',
         'desc' => 'Amaze Sound Audio Private Limited is a professional large-scale importer/manufacturer of Power Amplifiers, Professional Speakers, HF, Live Mixers, DJ Mixers, Microphones, Digital Processors, Manual Processors and Speaker Cabinets. AS Audio is driven by our Dedication to quality and most important Reliability.'
     ),
     array(
         'type' => 'Builders Website',
-        'image' => 'portfolio-mockups/folksco.webp',
+        'image' => './image/homepage/folksco.webp',
         'web_title' => 'Folksco',
         'desc' => 'At Folksco, our team works with you to create spaces for Best Interior Designer in Mumbai that are truly special. Our team is the pillars of our projects; they run our studio with passion, vision, and energy. As a team, we have made Eye for Detail, Value Engineering,'
     ),
-    array(
-        'type' => 'Ecommerce Website',
-        'image' => 'portfolio-mockups/BSAuto.webp',
-        'web_title' => 'BS Auto Accessories',
-        'desc' => 'When it comes to serving long- serving and quality-approved Backrest, Leg Guard, Baseplate, Saddle Stay, Mudflap, Foot Rest, Side Stand Extender, Visor, Slider Crush Guard, Handle Baar, Fog Lighter Holder, there’s no company better than BS Auto Accessories.'
-    ),
+    
     array(
         'type' => 'Logistics Website',
-        'image' => 'portfolio-mockups/amarClearing.webp',
+        'image' => './image/homepage/amarClearing.webp',
         'web_title' => 'Amar Clearing',
         'desc' => 'We are a Servicing Enterprise that handles varied activities in the sphere of Imports and Exports. Currently we are one of the leading Customs House Agents and Freight Forwarding Companies, rapidly moving towards the goal of emerging as one of the largest company dealing with Custom clearance, freight forwarding and logistics management.'
     ),
     array(
         'type' => 'Restaurant Website',
-        'image' => 'portfolio-mockups/alnizami.webp',
+        'image' => './image/homepage/alnizami.webp',
         'web_title' => 'Al Nizami Darbar',
         'desc' => 'NIZAM, which in Arabic means an order or arrangement, was the title bestowed upon the ruler of Hyderabad. The NIZAMS of Hyderabad were of Turkish and Hadrahmi Arab descent. DARBAR, an audience hall, was the majestic court of a native prince that originated in Persia.'
     ),
 );
-
 ?>
   <style>
     .main-div-portfolio {
@@ -116,7 +115,7 @@ $slides = array(
     }
 
     @media only screen and (max-width: 800px) {
-swiper-container {
+    swiper-container {
       width: 100%;
       height: auto;
       padding:10px 0px;
@@ -179,11 +178,11 @@ swiper-container {
     }
     }
     /* CSS */
-.button-62 {
+  .button-62 {
   background: linear-gradient(to bottom right, #FF0808, #fc6262);
   border: 0;
   border-radius: 12px;
-text-align:center;
+  text-align:center;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
@@ -200,16 +199,16 @@ text-align:center;
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-}
+  }
 
-.button-62:not([disabled]):focus {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-}
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
 
-.button-62:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-  color:white;
-}
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+    color:white;
+  }
 .botttoonnn {
   text-align:center;
 }
@@ -238,7 +237,7 @@ text-align:center;
         <?php endforeach; ?>
   </swiper-container>
  <div class="botttoonnn">
-   <a href="our-portfolio" class="button-62" role="button">View All</a>
+   <a href="portfolio/website" class="button-62" role="button">View All</a>
  </div>
 </div>
 

@@ -177,7 +177,7 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
   .client-image-main-div {
     padding: 30px 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
   }
   .client-image-main-div .image-div {
@@ -246,6 +246,38 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
       object-fit: contain;
     }
   }
+
+  .button-62 {
+  background: linear-gradient(to bottom right, #FF0808, #fc6262);
+  border: 0;
+  border-radius: 12px;
+
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  color:white;
+}
 </style>
 
 <body>
@@ -272,7 +304,7 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
             <li>our clients</li>
         </ul>
         <p class="herosectionpara">
-            Welcome to Sagar Tech Technical Solution, your leading Indian partner for innovative web development and digital marketing services. With an established track record of achievement,  With a team of highly skilled professionals, web developers we have successfully delivered outstanding results for a variety of international clients. Our expertise is in creating customized websites that not only look stunning but also provide outstanding user experiences. In addition to web development, we specialize in digital marketing, helping our clients in reaching their target audiences and achieving their business objectives.
+            Welcome to <a class="interlink" href="https://sagartech.co.in/">Sagar Tech - Technical Solution</a>, your leading Indian partner for innovative web development and digital marketing services. With an established track record of achievement,  With a team of highly skilled professionals, web developers we have successfully delivered outstanding results for a variety of international clients. Our expertise is in creating customized websites that not only look stunning but also provide outstanding user experiences. In addition to web development, we specialize in digital marketing, helping our clients in reaching their target audiences and achieving their business objectives.
         </p>
         <div class="herobuttonsnew">
             <a href="our-portfolio" class="button">View Portfolio</a>
@@ -282,47 +314,142 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
 
 
 
+    
+
+
+
     <div class="our-client-main-div">
-        <h2>Top Brnads <span style="color: #ff0808">We Work For</span></h2>
-        <div class="client-image-main-div">
-    <?php
-      $imageUrls = [
+    <h2>Top Brands <span style="color: #ff0808">We Work For</span></h2>
+    <div class="client-image-main-div" id="client-images-container">
+        <!-- Images will be dynamically loaded here -->
+    </div>
+    <button id="load-more-button" class="button-62">Load More</button>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const imageUrls = [
         "client-logos/rbi.png",
         "client-logos/armaf.png",
         "client-logos/bsauto.png",
-        "client-logos/OasisConsulting.webp",
-        // "client-logos/ngmp.webp",
+        "client-logos/Baby world Inu logo.webp",
+        "client-logos/05 Eperts4Expats.webp",
+        "client-logos/07 M4 Group.webp",
+        "client-logos/08 Boalamo.webp",
+        "client-logos/15 Oasis Consulting.webp",
+        "client-logos/14 ZZ Consultants.webp",
+        "client-logos/18 Zoheb Lala.webp",
+        "client-logos/20 Rapid Transport.webp",
+        "client-logos/21 Alhamd Group.webp",
+        "client-logos/24 AS Audio.webp",
+        "client-logos/29 Padmavati Chains.webp",
+        "client-logos/30 Soot Boot Wala.webp",
+        "client-logos/31 Tasavvur.webp",
+        "client-logos/Aadhik Logistics logo.webp",
+        "client-logos/Ahlid Perfumes logo.webp",
+        "client-logos/Al husaini Travels logo.webp",
         "client-logos/AlhamdGroup.webp",
-        "client-logos/Alhid.webp",
-        "client-logos/ASAudio.webp",
-        "client-logos/ZZConsultants.webp",
-        "client-logos/Eperts4Expats.webp",
-        // "client-logos/Trillionaire.webp",
-        "client-logos/Tasavvur.webp",
-        "client-logos/PadmavatiChains.webp",
-        "client-logos/M4Group.webp",
-        "client-logos/ArajTourCorporation.webp",
-        "client-logos/Boalamo.webp",
-        "client-logos/HadiInternational.webp",
+        "client-logos/Al-marjaan-logo.webp",
+        "client-logos/al-noor-minar-logo-min.webp",
+        "client-logos/Annex Overseas.webp",
+        "client-logos/Araj Tour Corporation.webp",
+        "client-logos/ARCHIC Green space-logo.webp",
+        "client-logos/Asreh Exports logo.webp",
+        "client-logos/Atlas World.webp",
+        "client-logos/Bareziya Architects.webp",
+        "client-logos/BARKAT AL DUHA logo.webp",
+        "client-logos/Beys Logo.webp",
+        "client-logos/Bovinos Logo.webp",
+        "client-logos/Capdiw.webp",
+        "client-logos/CLASSIC TOURS AND TRAVELS logo.webp",
+        "client-logos/creative Pneumatic Valves logo .webp",
+        "client-logos/Creative valve Manufacturing logo.webp",
+        "client-logos/Eastman Infra.webp",
+        "client-logos/fashion Jalsa logo.webp",
+        "client-logos/First Help Charitable Trust Logo.webp",
+        "client-logos/Folksco logo.webp",
+        "client-logos/Gallops Logo.webp",
+        "client-logos/GLOBEX-LOGO.webp",
+        "client-logos/Great India T Agency logo.webp",
+        "client-logos/Hadi International.webp",
+        "client-logos/highway_logo_web.webp",
+        "client-logos/Horizon Design Associates.webp",
+        "client-logos/ilios solar logo.webp",
+        "client-logos/iNDESIGN logo.webp",
+        "client-logos/Index Transport Logo.webp",
         "client-logos/Kheradia.webp",
+        "client-logos/Kolsa Mohalla Memon Jamat logo.webp",
+        "client-logos/Mars Air ocean logo-white.webp",
+        "client-logos/mistleblue_logo-1-min-300x167.webp",
+        "client-logos/Mithiyaj Logo.webp",
+        "client-logos/monter store logo.webp",
+        "client-logos/nadwa-Logo.webp",
+        "client-logos/New-Quality-Hardware-Co-Logo.webp",
         "client-logos/Perfumistic Logo.webp",
-        "client-logos/RapidTransport.webp",
+        "client-logos/Pioneer Group.webp",
+        "client-logos/PM Decor logo.webp",
+        "client-logos/Puresaff logo.webp",
         "client-logos/Rayyan International.webp",
+        "client-logos/redsail-Logo.webp",
+        "client-logos/Romego Sea Foods.webp",
+        "client-logos/Romego Watch.webp",
+        "client-logos/Rubaru Global logo.webp",
         "client-logos/Sara Enterprises.webp",
-        "client-logos/Shais Enterprises.webp",
-        "client-logos/SootBootWala.webp",
-        "client-logos/ZohebLala.webp",
+        "client-logos/Sealexcel-Logo-header.webp",
+        "client-logos/Shais Enterprises logo .webp",
+        "client-logos/shoppers market.webp",
+        "client-logos/Sigdi Logo 2.webp",
+        "client-logos/skewer logo.webp",
+        "client-logos/Stoneart Logo.webp",
+        "client-logos/swisscross_logo-2.webp",
+        "client-logos/syrocs logo.webp",
+        "client-logos/Tasavvur Logo.webp",
+        "client-logos/Tele growth bpo 2.webp",
+        "client-logos/Telegrowth BPO logo.webp",
+        "client-logos/The Grand Trunk.webp",
+        "client-logos/varela-american logo.webp",
+        "client-logos/yovant_recruitment_logo.webp",
+        "client-logos/HR-Logos8-1536x375.webp",
+        "client-logos/faiza Royal Wrist Logo.webp",
+        "client-logos/processindia.webp"
       ];
 
-      foreach ($imageUrls as $imageUrl) {
-        echo '<div class="image-div">';
-        echo '<img src="' . $imageUrl . '" alt="Client Logo">';
-        echo '</div>';
-      }
-    ?>
-        </div>
-    </div>
-    </div>
+        const container = document.getElementById('client-images-container');
+        const loadMoreButton = document.getElementById('load-more-button');
+
+        let currentIndex = 0;
+        const imagesPerLoad = 12;
+
+        function loadImages() {
+            const endIndex = Math.min(currentIndex + imagesPerLoad, imageUrls.length);
+            for (let i = currentIndex; i < endIndex; i++) {
+                const imageUrl = imageUrls[i];
+                const imageDiv = document.createElement('div');
+                imageDiv.className = 'image-div';
+                const img = document.createElement('img');
+                img.src = imageUrl;
+                img.alt = 'Client Logo';
+                img.loading = 'lazy'; // Set lazy loading attribute
+                imageDiv.appendChild(img);
+                container.appendChild(imageDiv);
+            }
+            currentIndex = endIndex;
+            if (currentIndex >= imageUrls.length) {
+                loadMoreButton.style.display = 'none'; // Hide button when all images are loaded
+            }
+        }
+
+        loadImages(); // Initial load
+
+        loadMoreButton.addEventListener('click', loadImages);
+    });
+</script>
+
+
+
+    
+
+
 
   <?php include 'include/footer.php' ?>
 

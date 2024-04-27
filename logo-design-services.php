@@ -1,3 +1,6 @@
+<?php
+include 'include/config.php';
+?>
 <!doctype html>
 <html lang="en">
 
@@ -313,8 +316,8 @@
     }
 
     .fifthsection h2 {
-        font-size: 35px;
-        font-weight: 600;
+        font-size: 38px;
+        font-weight: 700;
     }
 
     .logosec {
@@ -630,6 +633,38 @@
             -webkit-box-orient: vertical;
             -webkit-line-clamp: 6;
     }
+
+    .button-62 {
+  background: linear-gradient(to bottom right, #FF0808, #fc6262);
+  border: 0;
+  margin-top:20px;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  color:white;
+}
 </style>
 
 <body>
@@ -652,14 +687,14 @@
         <ul class="herobreadrumb">
             <li>Home</li>
             <li>/</li>
-            <li>Logo Designing</li>
+            <li>Logo Designing Services</li>
         </ul>
         <p class="herosectionpara">
-            Sagar Tech Technical Solution is proud to be a leading provider of logo design services.. Your Logo is the Face Of Your Brand. Our expert designers work with you to create memorable logos that reflect your brand identity and values Our logo design journey begins by getting to know your brand inside out—its values, vision, and unique characteristics.
+            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is proud to be a leading provider of logo design services. Your Logo is the Face Of Your Brand. Our expert designers work with you to create memorable logos that reflect your brand identity and values Our logo design journey begins by getting to know your brand inside out its values, vision, and unique characteristics.
         </p>
         <div class="herobuttonsnew">
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <a href="our-portfolio" class="buttonsss">View Portfolio</a>
+            <a href="portfolio/logo" class="buttonsss">View Portfolio</a>
             <?php
             // require('include/quote-modal.php')
             ?>
@@ -672,7 +707,7 @@
         <div class="left">
             <h2>Logo Design Services For Business</h2>
             <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
-            <p>A logo is a visual representation that expresses a lot about your company and is more than just a simple graphic element. Your logo is often the first visual interaction with the customer. A well-designed logo ensures instant recognition, making your brand more memorable. Understanding the importance of logo design is essential for making an unforgettable impression on your target audience, regardless of the size of your business.</p>
+            <There>A logo is a visual representation that expresses a lot about your company and is more than just a simple graphic element. Your logo is often the first visual interaction with the customer. A well-designed logo ensures instant recognition, making your brand more memorable. Understanding the importance of logo design is essential for making an unforgettable impression on your target audience, regardless of the size of your business. There we come Sagar Tech Technical Solutions leading <a class="interlink" href="graphic-design-services">Graphic Designing Service</a> provider.</p>
             <div class="herobuttonsnew">
                 <a href="contact" class="buttonsss">Let's Discuss Your Requirement</a>
             </div>
@@ -714,11 +749,46 @@
             <!-- </a> -->
         </div>
         <div class="herobuttonssssnew" style="margin-top: 10px; padding: 10px;">
-            <a href="Capdiw-Logo-Designing-process.pdf" target="_blank" class="buttonsss">Our Logo Designing Method</a>
+            <!-- <a href="Capdiw-Logo-Designing-process.pdf" target="_blank" class="buttonsss">Our Logo Designing Method</a> -->
         </div>
     </div>
 
     
+
+
+
+    <div class="fifthsection">
+        <h2 style="text-transform:uppercase;">Our Logo <span style="color:#FF0808;">Design Portfolio</span></h2>
+        <div class="logosec">
+            <?php
+      $imageUrls = [
+        "client-logos/Ahlid Perfumes logo.webp",
+        "client-logos/Capdiw.webp",
+        "client-logos/GLOBEX-LOGO.webp",
+        "client-logos/Eperts4Expats.webp",
+        "client-logos/Stoneart Logo.webp",
+        "client-logos/OasisConsulting.webp",
+        "client-logos/neugenz.png",
+        "client-logos/Eurocorp Logo.webp",
+        "client-logos/MetalTech portable cabin MTPC.webp",
+        "client-logos/Fosher_blacktxt_logo.png",
+      ];
+
+      foreach ($imageUrls as $imageUrl) {
+        echo '<div class="imgdiv">';
+        echo '<img src="' . $imageUrl . '" alt="Client Logo">';
+        echo '</div>';
+      }
+    ?>
+        </div>
+
+        <div>
+            <a href="<?= WEB_URL ?>portfolio/logo">
+                <button class="button-62">VIEW ALL</button>
+            </a>
+        </div>
+    </div>
+
 
 
     <div class="fourthsection">
@@ -729,36 +799,6 @@
          include 'include/quote.php' 
         ?>
     </div>
-
-
-    <div class="fifthsection">
-        <h2 style="text-transform:uppercase;">Our Logo <span style="color:#FF0808;">Design Portfolio</span></h2>
-        <div class="logosec">
-            <?php
-      $imageUrls = [
-        "client-logos/OasisConsulting.webp",
-        "client-logos/ngmp.webp",
-        "client-logos/Alhid.webp",
-        "client-logos/ZZConsultants.webp",
-        "client-logos/Eperts4Expats.webp",
-        "client-logos/Trillionaire.webp",
-        "client-logos/M4Group.webp",
-        "client-logos/Perfumistic Logo.webp",
-        "client-logos/RapidTransport.webp",
-        "client-logos/SootBootWala.webp",
-        "client-logos/ZohebLala.webp",
-      ];
-
-      foreach ($imageUrls as $imageUrl) {
-        echo '<div class="imgdiv">';
-        echo '<img src="' . $imageUrl . '" alt="Client Logo">';
-        echo '</div>';
-      }
-    ?>
-        </div>
-    </div>
-
-
 
 
 

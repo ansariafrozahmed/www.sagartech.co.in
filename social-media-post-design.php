@@ -731,48 +731,8 @@
             <img src="images/logoonly.jpg" alt="loder">
         </div>
     </div>
-    <!--Start of Tawk.to Script-->
-    <!-- <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5def76bd43be710e1d216625/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
-    <!--End of Tawk.to Script-->
-    <!-- loading End -->
-    <!-- HEADER  -->
-
-    <!-- search -->
-    <!-- <div class="search">
-<button id="btn-search-close" class="btn btn--search-close" aria-label="Close search form">
-<i class="fa fa-close" aria-hidden="true"></i>
-</button>
-<form class="search__form">
-<input class="search__input" name="search" type="search" placeholder="Qwilo Search" autocomplete="off" autocapitalize="off" spellcheck="false">
-<span class="search__info">Hit enter to search or ESC to close</span>
-</form>
-<div class="search__related">
-<div class="search__suggestion iq-font-white">
-<h3 class="iq-font-white iq-tw-6">May We Suggest?</h3>
-<p>#drone #funny #catgif #broken #lost #hilarious #good #red #blue #nono #why #yes #yesyes #aliens #green</p>
-</div>
-<div class="search__suggestion iq-font-white">
-<h3 class="iq-font-white iq-tw-6">Is It This?</h3>
-<p>#good #red #hilarious #blue #nono #why #yes #yesyes #aliens #green #drone #funny #catgif #broken #lost</p>
-</div>
-<div class="search__suggestion iq-font-white">
-<h3 class="iq-font-white iq-tw-6">Where Art Thou?</h3>
-<p>#broken #lost #good #red #funny #hilarious #catgif #blue #nono #why #yes #yesyes #aliens #green #drone</p>
-</div>
-</div>
-</div>
- --><!-- /search END -->
-    <!-- HEADER  -->
+    
+    
     <?php
     $page = 'services';
     include("include/newHeader.php");
@@ -787,7 +747,7 @@ s0.parentNode.insertBefore(s1,s0);
             <li>Social Media Post Design</li>
         </ul>
         <p class="herosectionpara">
-            Sagartech Technical Solution stands as the leading provider of Social media post design services in Mumbai, offering a blend of creativity and strategic design to elevate your brand's online presence. It is crucial for engaging your audience. Our focus is on bringing creativity and strategic design to the forefront, ensuring your brand stands out in the growing world of social media
+            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands as the leading provider of Social media post design services in Mumbai, offering a blend of creativity and strategic <a class="interlink" href="graphic-design-services">Graphic Design</a> to elevate your brand's online presence. It is crucial for engaging your audience. Our focus is on bringing creativity and strategic design to the forefront, ensuring your brand stands out in the growing world of social media
         </p>
         <div class="herobuttonsnew">
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -1001,9 +961,9 @@ Footer -->
 
     <!-- Footer -->
     <!-- back-to-top -->
-    <div id="back-to-top">
+    <!-- <div id="back-to-top">
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
-    </div>
+    </div> -->
     <!-- back-to-top End -->
     <!--================ Jquery =================-->
     <!-- Jquery  -->

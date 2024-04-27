@@ -50,50 +50,71 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
-    }
+        /* Add overlay */
+        position: relative;
+        }
 
-    .herosectionnew h1 {
+        .herosectionnew::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+        z-index: 1; /* Adjust z-index to position the overlay */
+        }
+
+        .herosectionnew h1 {
         font-size: 30px;
         color: white;
-        width:60%;
         line-height:normal;
+        width: 60%;
         font-weight: 600;
-    }
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-    .herobreadrumb {
+        .herobreadrumb {
         display: flex;
         font-weight: 600;
         gap: 5px;
         margin: 5px 0px;
         align-items: center;
-    }
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-    .herosectionpara {
-        width: 50%;
+        .herosectionpara {
+        width: 60%;
         color: white;
         margin-top: 10px;
-    }
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-    .herobuttonsnew {
+        .herobuttonsnew {
         display: flex;
         gap: 10px;
         align-items: center;
         justify-content: start;
-    }
+        position: relative; /* Ensure text appears above overlay */
+        z-index: 2; /* Ensure text appears above overlay */
+        }
 
-    .button {
+        .button {
         background-color: red;
         color: white;
         padding: 8px 30px;
         border-radius: 10px;
         border: 1px solid red;
-    }
+        }
 
-    .button:hover {
+        .button:hover {
         background-color: white;
         color: red !important;
         border: 1px solid red;
-    }
+        }
 
     @media only screen and (max-width: 767px) {
         .herosectionnew {
@@ -579,7 +600,7 @@
         <p class="herosectionpara">
              Google Ads provides several benefits that can have a significant impact on a company's online presence and marketing strategies. A major benefit is its highly targeted advertising capabilities. Google Ads allows businesses to target their ads to specific geographic locations, languages, and even demographics, to make sure their message reaches the most relevant audience. This level of targeting allows businesses to maximise their advertising budget by focusing on potential customers who are more likely to convert. Google Ads (Google Adwords ) also helps businesses achieve measurable results. The platform provides detailed analytics and reporting tools, allowing businesses to track the performance of their advertisements in real time.</p>
         <div class="herobuttonsnew">
-            <a href="our-portfolio" class="button">View Portfolio</a>
+            <a href="contact" class="button">Contact Us</a>
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
         </div>
     </div>
@@ -597,7 +618,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="https://digitalandmedia.com/wp-content/uploads/2023/02/google-ads-services.jpg" alt="google ads">
+            <img src="images/google-ads.webp" alt="google ads">
         </div>
     </div>
 
