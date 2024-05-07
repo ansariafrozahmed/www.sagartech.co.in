@@ -606,6 +606,9 @@ include("../include/config.php");
         "../social-media-mockup/4.webp",
         "../social-media-mockup/5.webp",
         "../social-media-mockup/6.webp",
+        "../social-media-mockup/7.webp",
+        "../social-media-mockup/8.webp",
+        "../social-media-mockup/9.webp",
       ];
 
       foreach ($imageUrls as $imageUrl) {
