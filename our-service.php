@@ -56,7 +56,7 @@
     }
 
     .our-service-img-div img {
-        /* height: 100%; */
+        height: 100%;
         width: 100%;
         object-fit: contain;
         transition: all ease-in-out .2s;
@@ -137,7 +137,12 @@
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Web Development & Designing</h2>
-                        <span class="our-service-content">Sagartech Technical Solution stands out as an award-winning ecommerce website development services provider in Mumbai. Having a track record of providing innovative solutions We take pride in our ability to develop e-commerce websites that not only matches your business needs but also exceed the needs of businesses looking for an efficient and eye-catching online presence. we work using latest technology React, Next.js, Node.js,etc.</span>
+                        <span class="our-service-content">Sagartech Technical Solution stands out as an award-winning
+                            ecommerce website development services provider in Mumbai. Having a track record of
+                            providing innovative solutions We take pride in our ability to develop e-commerce websites
+                            that not only matches your business needs but also exceed the needs of businesses looking
+                            for an efficient and eye-catching online presence. we work using latest technology React,
+                            Next.js, Node.js,etc.</span>
                     </div>
                 </div>
             </a>
@@ -150,7 +155,10 @@
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Digital Marketing</h2>
-                        <span class="our-service-content">Sagar Tech Technical Solution is an award-winning Digital marketing Company right here in the heart of Mumbai. We help To Drive Sales on Your Website By Providing Expert Digital Marketing Solutions. We Provide Services Like Google Ads, Search Engine Optimization, Social Media Ads, and more.</span>
+                        <span class="our-service-content">Sagar Tech Technical Solution is an award-winning Digital
+                            marketing Company right here in the heart of Mumbai. We help To Drive Sales on Your Website
+                            By Providing Expert Digital Marketing Solutions. We Provide Services Like Google Ads, Search
+                            Engine Optimization, Social Media Ads, and more.</span>
                     </div>
                 </div>
             </a>
@@ -164,7 +172,11 @@
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">App Development</h2>
-                        <span class="our-service-content">Sagar Tech's commitment to innovation and excellence has positioned it as a reliable partner for businesses looking to leverage the vast potential of online commerce. With a team of seasoned professionals, Sagartech combines cutting-edge technology, user-centric design, and industry expertise to deliver tailored e-commerce solutions that cater to the unique needs of each client.</span>
+                        <span class="our-service-content">Sagar Tech's commitment to innovation and excellence has
+                            positioned it as a reliable partner for businesses looking to leverage the vast potential of
+                            online commerce. With a team of seasoned professionals, Sagartech combines cutting-edge
+                            technology, user-centric design, and industry expertise to deliver tailored e-commerce
+                            solutions that cater to the unique needs of each client.</span>
                     </div>
                 </div>
             </a>
@@ -178,7 +190,11 @@
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Graphic Designing</h2>
-                        <span class="our-service-content">Sagar Tech Technical Solution is on of the best Graphic design services provider in Mumbai our team of expert is specilised to turn your imagination into to reality. Beyond just creating visually appealing images, graphic design plays a pivotal role in conveying messages, establishing brand identity, and influencing the overall user experience.</span>
+                        <span class="our-service-content">Sagar Tech Technical Solution is on of the best Graphic design
+                            services provider in Mumbai our team of expert is specilised to turn your imagination into
+                            to reality. Beyond just creating visually appealing images, graphic design plays a pivotal
+                            role in conveying messages, establishing brand identity, and influencing the overall user
+                            experience.</span>
                     </div>
                 </div>
             </a>
@@ -191,29 +207,32 @@
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Bulk SMS Service</h2>
-                        <span class="our-service-content">In today's fast-paced digital world, effective communication is more critical than ever. At Sagar Tech, we take pride in being your ultimate partner for state-of-the-art communication solutions. Whether you're seeking the expertise of a Bulk SMS Service Provider or in need of a reliable WhatsApp Bulk Message service, rest assured, we've got your back.</span>
+                        <span class="our-service-content">In today's fast-paced digital world, effective communication
+                            is more critical than ever. At Sagar Tech, we take pride in being your ultimate partner for
+                            state-of-the-art communication solutions. Whether you're seeking the expertise of a Bulk SMS
+                            Service Provider or in need of a reliable WhatsApp Bulk Message service, rest assured, we've
+                            got your back.</span>
                     </div>
                 </div>
             </a>
 
 
-            
-
-
-            
-
-
-            <!-- <a href="iso-consulting">
+            <a href="seo-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./portfolio-mockups/iso.webp" alt="">
+                        <img src="./seo-mockups/SEO_BS_Auto_45.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
-                        <h2 class="our-service-heading">ISO Consulting</h2>
-                        <span class="our-service-content">ISO consulting offers a roadmap to streamlining operations, boosting efficiency, and gaining a competitive edge. We as ISO Consultants help businesses navigate the ISO landscape, identifying the right standards for their industry and goals. We partner with teams to tailor implementation processes, empower employees, build robust systems, and ensure changes stick for long-term growth. Benefits include reduced costs, happier customers, and a reputation for excellence.</span>
+                        <h2 class="our-service-heading">SEO Service</h2>
+                        <span class="our-service-content">Improve your online visibility and drive organic traffic to
+                            your website with our comprehensive SEO services. At Sagar Tech - Technical Solutions, we
+                            specialize in optimizing your web presence to rank higher in search engine results. Our SEO
+                            experts utilize advanced strategies tailored to your business goals. From keyword research
+                            and on-page optimization to link building and content creation, we enhance your website's
+                            authority and relevance for targeted search queries.</span>
                     </div>
                 </div>
-            </a> -->
+            </a>
 
         </section>
     </div>

@@ -1,6 +1,6 @@
 <?php
 
-include('include/config.php');
+include ('include/config.php');
 // error_reporting(error_reporting() & ~E_WARNING);
 // ini_set('display_errors', 1);
 // ini_set('error_reporting', E_ALL);
@@ -16,9 +16,11 @@ include('include/config.php');
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        <meta name="description"
+            content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
 
-        <meta name="keywords" content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
+        <meta name="keywords"
+            content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
 
@@ -36,16 +38,17 @@ include('include/config.php');
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
-        <meta property="og:description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        <meta property="og:description"
+            content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
         <meta property="og:url" content="https://sagartech.co.in/">
         <meta property="og:site_name" content="Sagartech - Technical Solution">
         <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
         <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
         <!-- Meta Pixel Code -->
         <script>
-            ! function(f, b, e, v, n, t, s) {
+            ! function (f, b, e, v, n, t, s) {
                 if (f.fbq) return;
-                n = f.fbq = function() {
+                n = f.fbq = function () {
                     n.callMethod ?
                         n.callMethod.apply(n, arguments) : n.queue.push(arguments)
                 };
@@ -64,7 +67,8 @@ include('include/config.php');
             fbq('init', '1473706306814871');
             fbq('track', 'PageView');
         </script>
-        <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" /></noscript>
+        <noscript><img height="1" width="1" style="display:none"
+                src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" /></noscript>
         <!-- End Meta Pixel Code -->
 
         <link rel="canonical" href="https://www.sagartech.co.in/">
@@ -145,7 +149,6 @@ include('include/config.php');
         <link rel="stylesheet" href="css/index.css">
     </head>
     <Style>
-
         /*-------------Accordian-----------------*/
 
         .faqs-heading {
@@ -395,7 +398,7 @@ include('include/config.php');
             //  console.log(id);
             var id = 1;
             $('#demo-modal').load('modal-data.php?modal=' + id,
-                function() {
+                function () {
                     $('#bootstrap-modal').modal({
                         show: true
                     });
@@ -411,184 +414,199 @@ include('include/config.php');
         </div>
     </div>
     <?php
-        $page = 'home';
-        include ('include/newHeader.php');
+    $page = 'home';
+    include ('include/newHeader.php');
     ?>
 
 
     <div class="main-content">
 
-    <style>
-        .homeBanner {
-            height : auto;
-            width: 100%;
-        }
-        .homeBanner img {
-            height:auto;
-            width:100%;
-        }
-    </style>
-    <div class="homeBanner" >
-        <img src="./image/homepage/homepageBannerNew.webp" alt="" srcset="">
-    </div>
+        <style>
+            .homeBanner {
+                height: auto;
+                width: 100%;
+            }
+
+            .homeBanner img {
+                height: auto;
+                width: 100%;
+            }
+        </style>
+        <div class="homeBanner">
+            <img src="./image/homepage/homepageBannerNew.webp" alt="" srcset="">
+        </div>
 
         <?php
         include 'include/intro.php'
-        ?>
+            ?>
         <?php
         include 'our-service.php'
-        ?>
+            ?>
 
-    <script>
-        ! function(o, i) {
-            window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
-                dq: [],
-                display: function() {
-                    this.dq.push(arguments)
+        <script>
+            ! function (o, i) {
+                window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
+                    dq: [],
+                    display: function () {
+                        this.dq.push(arguments)
+                    }
+                }, o._provesrcAsyncInit = function () {
+                    provesrc.init({
+                        apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
+                        v: "0.0.4"
+                    })
+                };
+                var r = i.createElement("script");
+                r.type = "text/javascript", r.async = !0, r["ch" + "ar" + "set"] = "UTF-8", r.src = "https://cdn.provesrc.com/provesrc.js";
+                var e = i.getElementsByTagName("script")[0];
+                e.parentNode.insertBefore(r, e)
+            }(window, document);
+        </script>
+
+
+
+
+
+        <hr>
+        <?php
+        include 'include/ourClients.php'
+            ?>
+
+
+        <?php
+        include 'include/portfolioSlider.php'
+            ?>
+        <hr>
+        <?php
+        include 'include/techStack.php'
+            ?>
+
+
+        <style>
+            .stats-class {
+                padding: 50px 100px;
+            }
+
+            .stats-class h6 {
+                font-size: 40px;
+                font-weight: 700;
+                text-align: center;
+                color: #2b2a2a;
+                text-transform: uppercase;
+            }
+
+            .card-divvvv {
+                padding: 30px 0px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                gap: 20px;
+            }
+
+            .stats-cards {
+                border-radius: 10px;
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            }
+
+            .stats-cards img {
+                height: 70px;
+            }
+
+            .stats-card-detail {
+                text-align: center;
+            }
+
+            .stats-card-detail h5 {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .stats-card-detail span {
+                font-size: 15px;
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                .stats-class {
+                    padding: 50px;
                 }
-            }, o._provesrcAsyncInit = function() {
-                provesrc.init({
-                    apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
-                    v: "0.0.4"
-                })
-            };
-            var r = i.createElement("script");
-            r.type = "text/javascript", r.async = !0, r["ch" + "ar" + "set"] = "UTF-8", r.src = "https://cdn.provesrc.com/provesrc.js";
-            var e = i.getElementsByTagName("script")[0];
-            e.parentNode.insertBefore(r, e)
-        }(window, document);
-    </script>
-    
 
+                .stats-class h6 {
+                    font-size: 40px;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #2b2a2a;
+                    text-transform: uppercase;
+                }
 
+                .card-divvvv {
+                    padding: 30px 0px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    gap: 15px;
+                }
+            }
 
-    
-<hr>
-    <?php
-    include 'include/ourClients.php'
-    ?>
+            @media only screen and (max-width: 767px) {
+                .stats-class {
+                    padding: 40px 20px;
+                }
 
+                .stats-class h6 {
+                    font-size: 40px;
+                    font-weight: 700;
+                    text-align: center;
+                    color: #2b2a2a;
+                    text-transform: uppercase;
+                }
 
-<?php
-include 'include/portfolioSlider.php'
-?>
-<hr>
-<?php
-    include 'include/techStack.php'
-    ?>
-
-
-<style>
-  .stats-class {
-    padding: 50px 100px;
-  }
-  .stats-class h6 {
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    color: #2b2a2a;
-    text-transform: uppercase;
-  }
-  .card-divvvv {
-    padding: 30px 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-  }
-  .stats-cards {
-    border-radius: 10px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  }
-  .stats-cards img {
-    height: 70px;
-  }
-  .stats-card-detail {
-    text-align: center;
-  }
-  .stats-card-detail h5 {
-    font-size: 30px;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .stats-card-detail span {
-    font-size: 15px;
-  }
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .stats-class {
-      padding: 50px;
-    }
-    .stats-class h6 {
-      font-size: 40px;
-      font-weight: 700;
-      text-align: center;
-      color: #2b2a2a;
-      text-transform: uppercase;
-    }
-    .card-divvvv {
-      padding: 30px 0px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 15px;
-    }
-  }
-  @media only screen and (max-width: 767px) {
-    .stats-class {
-      padding: 40px 20px;
-    }
-    .stats-class h6 {
-      font-size: 40px;
-      font-weight: 700;
-      text-align: center;
-      color: #2b2a2a;
-      text-transform: uppercase;
-    }
-    .card-divvvv {
-      padding: 30px 0px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 15px;
-    }
-  }
-</style>
-<div class="stats-class">
-  <h6>Our <span style="color: #ff0808">Statistics</span></h6>
-  <div class="card-divvvv">
-    <div class="stats-cards">
-      <img src="images/counter/like1.png" alt="" loading="lazy"/>
-      <div class="stats-card-detail">
-        <h5 style="color:green">500+</h5>
-        <span>Projects Done</span>
-      </div>
-    </div>
-    <div class="stats-cards">
-      <img src="images/counter/client2.png" alt="" loading="lazy" />
-      <div class="stats-card-detail">
-        <h5 style="color:green">200+</h5>
-        <span>Satisfied Clients</span>
-      </div>
-    </div>
-    <div class="stats-cards">
-      <img src="https://cdn-icons-png.flaticon.com/512/2163/2163245.png" alt="" loading="lazy"/>
-      <div class="stats-card-detail">
-        <h5 style="color:green">1</h5>
-        <span>Awards</span>
-      </div>
-    </div>
-    <div class="stats-cards">
-      <img src="https://gurcooresidency.com/wp-content/uploads/2021/09/Google-Review-Icon.jpg" alt="" loading="lazy"/>
-      <div class="stats-card-detail">
-        <h5 style="color:green">5</h5>
-        <span>Rating</span>
-      </div>
-    </div>
-  </div>
-</div>
+                .card-divvvv {
+                    padding: 30px 0px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 15px;
+                }
+            }
+        </style>
+        <div class="stats-class">
+            <h6>Our <span style="color: #ff0808">Statistics</span></h6>
+            <div class="card-divvvv">
+                <div class="stats-cards">
+                    <img src="images/counter/like1.png" alt="" loading="lazy" />
+                    <div class="stats-card-detail">
+                        <h5 style="color:green">500+</h5>
+                        <span>Projects Done</span>
+                    </div>
+                </div>
+                <div class="stats-cards">
+                    <img src="images/counter/client2.png" alt="" loading="lazy" />
+                    <div class="stats-card-detail">
+                        <h5 style="color:green">200+</h5>
+                        <span>Satisfied Clients</span>
+                    </div>
+                </div>
+                <div class="stats-cards">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2163/2163245.png" alt="" loading="lazy" />
+                    <div class="stats-card-detail">
+                        <h5 style="color:green">1</h5>
+                        <span>Awards</span>
+                    </div>
+                </div>
+                <div class="stats-cards">
+                    <img src="https://gurcooresidency.com/wp-content/uploads/2021/09/Google-Review-Icon.jpg" alt=""
+                        loading="lazy" />
+                    <div class="stats-card-detail">
+                        <h5 style="color:green">5</h5>
+                        <span>Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -596,184 +614,214 @@ include 'include/portfolioSlider.php'
 
 
 
-    <style>
-        .index-testimonial {
-            padding:50px 100px;
-            text-align:center;
-            background:#f2f2f2;
-        }
-        .index-testimonial h2 {
-            font-size:35px;
-            font-weight:600;
-            line-height:normal;
-        }
-        .inner-testimonial {
-            display:flex;
-            width: 100%;
-            gap:40px;
-            padding:40px 0px;
-        }
-        .inner-testimonial .inner-left {
-            width: 60%;
-            height:320px;
-            position: relative;
-            overflow:hidden;
-        }
-        .inner-left .thumbnail {
-            height: 100%;
-            width: 100%;
-            z-index: 1;
-            object-fit:cover;
-        }
-        .inner-left .icon {
-            position: absolute;
-            height: 40px;
-            top:50%;
-            left:50%;
-            transform: translate(-50%,-50%) scale(1);
-            z-index: 2;
-        }
-        .inner-testimonial .inner-right {
-            width: 40%;
-            margin:auto 0px;
-        }
-        .inner-right h2 {
-            font-size:23px;
-            font-weight:600;
-            text-align:left;
-        }
-        .inner-right span {
-            margin-bottom:10px;
-            font-size:18px;
-            font-weight:600;
-            color:#ff0808;
-        }
-        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        <style>
             .index-testimonial {
-            padding:50px;
-            text-align:center;
-            background:#f2f2f2;
-        }
-        .index-testimonial h2 {
-            font-size:25px;
-            font-weight:600;
-            line-height:normal;
-        }
-        .inner-testimonial {
-            display:flex;
-            flex-direction:column;
-            width: 100%;
-            gap:40px;
-            padding-top:20px;
-        }
-        .inner-testimonial .inner-left {
-            width: 100%;
-            height:auto;
-            overflow:hidden;
-        }
-        .inner-left .thumbnail {
-            width: 100%;
-        }
-        .inner-testimonial .inner-right {
-            width: 100%;
-            margin:auto 0px;
-        }
-        .inner-right h2 {
-            font-size:23px;
-            font-weight:600;
-            text-align:left;
-        }
-        .inner-right span {
-            margin-bottom:10px;
-            font-size:18px;
-            font-weight:600;
-            color:#ff0808;
-        }
-        }
+                padding: 50px 100px;
+                text-align: center;
+                background: #f2f2f2;
+            }
 
-        @media only screen and (max-width: 767px){
-            .index-testimonial {
-            padding:50px 20px;
-            text-align:center;
-            background:#f2f2f2;
-        }
-        .index-testimonial h2 {
-            font-size:22px;
-            font-weight:600;
-            line-height:normal;
-        }
-        .inner-testimonial {
-            display:flex;
-            flex-direction:column;
-            width: 100%;
-            gap:40px;
-            padding-top:20px;
-        }
-        .inner-testimonial .inner-left {
-            width: 100%;
-            height:auto;
-            background:white;
-        }
-        .inner-left .thumbnail {
-            width: 100%;
-        }
+            .index-testimonial h2 {
+                font-size: 35px;
+                font-weight: 600;
+                line-height: normal;
+            }
 
-        .inner-testimonial .inner-right {
-            width: 100%;
-            margin:auto 0px;
-        }
-        .inner-right h2 {
-            font-size:23px;
-            font-weight:600;
-            text-align:left;
-        }
-        .inner-right span {
-            margin-bottom:10px;
-            font-size:18px;
-            font-weight:600;
-            color:#ff0808;
-        }
-        }
-    </style>
-    <div class="index-testimonial">
-        <h2>Testimonial From Our <span style="color:#ff0808;">Valuable Clients</span></h2>
-        <div class="inner-testimonial">
-            <div class="inner-left">
-                <a href="https://www.youtube.com/watch?v=MPSiwugCZZw" target="_blank">
-                <img class="thumbnail" src="./image/homepage/thumbnail2.webp" alt="" srcset="">
-                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903" alt="" srcset="">
-                </a>
+            .inner-testimonial {
+                display: flex;
+                width: 100%;
+                gap: 40px;
+                padding: 40px 0px;
+            }
+
+            .inner-testimonial .inner-left {
+                width: 60%;
+                height: 320px;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .inner-left .thumbnail {
+                height: 100%;
+                width: 100%;
+                z-index: 1;
+                object-fit: cover;
+            }
+
+            .inner-left .icon {
+                position: absolute;
+                height: 40px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(1);
+                z-index: 2;
+            }
+
+            .inner-testimonial .inner-right {
+                width: 40%;
+                margin: auto 0px;
+            }
+
+            .inner-right h2 {
+                font-size: 23px;
+                font-weight: 600;
+                text-align: left;
+            }
+
+            .inner-right span {
+                margin-bottom: 10px;
+                font-size: 18px;
+                font-weight: 600;
+                color: #ff0808;
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                .index-testimonial {
+                    padding: 50px;
+                    text-align: center;
+                    background: #f2f2f2;
+                }
+
+                .index-testimonial h2 {
+                    font-size: 25px;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .inner-testimonial {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 40px;
+                    padding-top: 20px;
+                }
+
+                .inner-testimonial .inner-left {
+                    width: 100%;
+                    height: auto;
+                    overflow: hidden;
+                }
+
+                .inner-left .thumbnail {
+                    width: 100%;
+                }
+
+                .inner-testimonial .inner-right {
+                    width: 100%;
+                    margin: auto 0px;
+                }
+
+                .inner-right h2 {
+                    font-size: 23px;
+                    font-weight: 600;
+                    text-align: left;
+                }
+
+                .inner-right span {
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #ff0808;
+                }
+            }
+
+            @media only screen and (max-width: 767px) {
+                .index-testimonial {
+                    padding: 50px 20px;
+                    text-align: center;
+                    background: #f2f2f2;
+                }
+
+                .index-testimonial h2 {
+                    font-size: 22px;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .inner-testimonial {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 40px;
+                    padding-top: 20px;
+                }
+
+                .inner-testimonial .inner-left {
+                    width: 100%;
+                    height: auto;
+                    background: white;
+                }
+
+                .inner-left .thumbnail {
+                    width: 100%;
+                }
+
+                .inner-testimonial .inner-right {
+                    width: 100%;
+                    margin: auto 0px;
+                }
+
+                .inner-right h2 {
+                    font-size: 23px;
+                    font-weight: 600;
+                    text-align: left;
+                }
+
+                .inner-right span {
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: #ff0808;
+                }
+            }
+        </style>
+        <div class="index-testimonial">
+            <h2>Testimonial From Our <span style="color:#ff0808;">Valuable Clients</span></h2>
+            <div class="inner-testimonial">
+                <div class="inner-left">
+                    <a href="https://www.youtube.com/watch?v=MPSiwugCZZw" target="_blank">
+                        <img class="thumbnail" src="./image/homepage/thumbnail2.webp" alt="" srcset="">
+                        <img class="icon"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"
+                            alt="" srcset="">
+                    </a>
+                </div>
+                <div class="inner-right">
+                    <h2>SAQUIB AGBOATWALA <span style="color:#ff0808; font-size:18px;">(CEO)</span></h2>
+                    <span>OASIS CONSULTING</span>
+                    <p>
+                        It is a distinct pleasure for me to recommend Sagar Tech to one and all.They offer a wide
+                        variety of services to all kinds of businesses to help them scale. They are Professional,
+                        Patient, diligent and detail oriented in their work.
+                        <br>
+                        Overall it was a 10/10 experience choosing Sagar Tech and I highly recommend everyone to give
+                        them a chance. 👍🏻
+                    </p>
+                </div>
             </div>
-            <div class="inner-right">
-                <h2>SAQUIB AGBOATWALA <span style="color:#ff0808; font-size:18px;">(CEO)</span></h2>
-                <span>OASIS CONSULTING</span>
-                <p>
-                    It is a distinct pleasure for me to recommend Sagar Tech to one and all.They offer a wide variety of services to all kinds of businesses to help them scale. They are Professional, Patient, diligent and detail oriented in their work.
-                    <br>
-                    Overall it was a 10/10 experience choosing Sagar Tech and I highly recommend everyone to give them a chance. 👍🏻
-                </p>
+            <hr>
+            <div class="inner-testimonial">
+                <div class="inner-left">
+                    <a href="https://www.youtube.com/watch?v=YNW7g-z2am4" target="_blank">
+                        <img class="thumbnail" src="./image/homepage/thumbnail.webp" alt="" srcset="">
+                        <img class="icon"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"
+                            alt="" srcset="">
+
+                    </a>
+                </div>
+                <div class="inner-right">
+                    <h2>MUKESH RANKA <span style="color:#ff0808; font-size:18px;">(FOUNDER)</span></h2>
+                    <span>BS AUTO ACCESSORIES</span>
+                    <p>
+                        I'm a regular customer of Sagar Tech..The services are very best and on time with a very
+                        cooperative manners.
+                        <br>
+                        I recommend to all go with them for business growing and digital marketing..
+                    </p>
+                </div>
             </div>
         </div>
-<hr>
-        <div class="inner-testimonial">
-            <div class="inner-left">
-                <a href="https://www.youtube.com/watch?v=YNW7g-z2am4" target="_blank">
-                <img class="thumbnail" src="./image/homepage/thumbnail.webp" alt="" srcset="">
-                <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903" alt="" srcset="">
-                
-                </a>
-        </div>
-            <div class="inner-right">
-                <h2>MUKESH RANKA <span style="color:#ff0808; font-size:18px;">(FOUNDER)</span></h2>
-                <span>BS AUTO ACCESSORIES</span>
-                <p>
-                    I'm a regular customer of Sagar Tech..The services are very best and on time with a very cooperative manners.
-                    <br>
-                    I recommend to all go with them for business growing and digital marketing..
-                </p>
-            </div>
-        </div>
-    </div>
 
 
 
@@ -783,64 +831,84 @@ include 'include/portfolioSlider.php'
 
 
 
-    <h3 class="faqs-heading">FAQs</h3>
+        <h3 class="faqs-heading">FAQs</h3>
         <div class="accordion">
             <div class="accordion-item">
                 <h2>What services does Sagar Tech Technical Solution offer?</h2>
                 <div class="accordion-content">
                     <p>
-          Sagar Tech Technical Solution is an award-winning company that provides a comprehensive range of services, including:
-          <br><br>
-          <b>Web Development:</b> We specialise in web development, software development, and customised solutions that meet your specific requirements.
-          <br>
-          <b>Digital Marketing:</b> Our team offers strategic digital marketing services such as Google Ads, SEO, social media marketing, and email marketing to help you increase your online presence and achieve results.
-          <br>
-          <b>App Development:</b> We create innovative and user-friendly mobile applications for the iOS and Android platforms to assist businesses in effectively engaging their target audiences.
-          <br>
-          <b>Graphic Design:</b> Our skilled designers create visually appealing graphics, logos, branding materials, and user interfaces to enhance your brand's identity and communication.
-        </p>
+                        Sagar Tech Technical Solution is an award-winning company that provides a comprehensive range of
+                        services, including:
+                        <br><br>
+                        <b>Web Development:</b> We specialise in web development, software development, and customised
+                        solutions that meet your specific requirements.
+                        <br>
+                        <b>Digital Marketing:</b> Our team offers strategic digital marketing services such as Google
+                        Ads, SEO, social media marketing, and email marketing to help you increase your online presence
+                        and achieve results.
+                        <br>
+                        <b>App Development:</b> We create innovative and user-friendly mobile applications for the iOS
+                        and Android platforms to assist businesses in effectively engaging their target audiences.
+                        <br>
+                        <b>Graphic Design:</b> Our skilled designers create visually appealing graphics, logos, branding
+                        materials, and user interfaces to enhance your brand's identity and communication.
+                    </p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>How can I request a quote for services?</h2>
                 <div class="accordion-content">
-                    <p>To request a quote, simply visit our website and fill out the contact form with details about your project requirements. Our team will get back to you promptly with a customised quote tailored to your needs.</p>
+                    <p>To request a quote, simply visit our website and fill out the contact form with details about
+                        your project requirements. Our team will get back to you promptly with a customised quote
+                        tailored to your needs.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>What industries does Sagar Tech Technical Solution work with?</h2>
                 <div class="accordion-content">
-                    <p>We have worked with clients in a variety of industries, including e-commerce, healthcare, education, finance, Real Estate, Interior Design,  Perfume Industry . Our adaptable approach allows us to meet the unique needs of each business.</p>
+                    <p>We have worked with clients in a variety of industries, including e-commerce, healthcare,
+                        education, finance, Real Estate, Interior Design, Perfume Industry . Our adaptable approach
+                        allows us to meet the unique needs of each business.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>Is Sagar Tech Technical Solution capable of handling large-scale projects?</h2>
                 <div class="accordion-content">
-                    <p>Absolutely yes! We have a proven track record of successfully delivering large-scale projects for enterprise clients.Our team has the expertise and resources to handle projects of any size and complexity.</p>
+                    <p>Absolutely yes! We have a proven track record of successfully delivering large-scale projects for
+                        enterprise clients.Our team has the expertise and resources to handle projects of any size and
+                        complexity.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>How long does it typically take to complete a project?</h2>
                 <div class="accordion-content">
-                    <p>The timeline for each project varies according to its scope, complexity, and specific requirements. We work together closely with our clients to establish realistic timelines and achievements, ensuring timely delivery without affecting quality.</p>
+                    <p>The timeline for each project varies according to its scope, complexity, and specific
+                        requirements. We work together closely with our clients to establish realistic timelines and
+                        achievements, ensuring timely delivery without affecting quality.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>What digital marketing services does Sagar Tech Technical Solution offer?</h2>
                 <div class="accordion-content">
-                    <p>Sagar Tech Technical Solution offers a variety of digital marketing services to help businesses improve their online presence and meet marketing objectives. Our services include Google Ads,, SEO, SEM, SMM, email marketing, content marketing, and others.</p>
+                    <p>Sagar Tech Technical Solution offers a variety of digital marketing services to help businesses
+                        improve their online presence and meet marketing objectives. Our services include Google Ads,,
+                        SEO, SEM, SMM, email marketing, content marketing, and others.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>How can digital marketing services benefit my business?</h2>
                 <div class="accordion-content">
-                    <p>Digital marketing services are critical for businesses seeking to increase visibility, attract targeted traffic, generate leads, and increase conversions. Businesses can reach their target audience more effectively by leveraging various digital channels and strategies, engaging with them on relevant platforms, and driving meaningful interactions that lead to business growth and success.</p>
+                    <p>Digital marketing services are critical for businesses seeking to increase visibility, attract
+                        targeted traffic, generate leads, and increase conversions. Businesses can reach their target
+                        audience more effectively by leveraging various digital channels and strategies, engaging with
+                        them on relevant platforms, and driving meaningful interactions that lead to business growth and
+                        success.</p>
                 </div>
             </div>
 
@@ -865,11 +933,11 @@ include 'include/portfolioSlider.php'
 
     </div>
     <?php
-    include("include/footer.php");
+    include ("include/footer.php");
     ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -885,7 +953,7 @@ include 'include/portfolioSlider.php'
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -895,8 +963,3 @@ include 'include/portfolioSlider.php'
 </body>
 
 </html>
-
-
-
-
-
