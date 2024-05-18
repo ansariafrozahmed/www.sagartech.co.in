@@ -8,15 +8,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Best mobile app development company in Mumbai, we have a high level of proficiency in iOS & Android app development. Are you looking to digitally grow your business?">
+    <meta name="description"
+        content="Best mobile app development company in Mumbai, we have a high level of proficiency in iOS & Android app development. Are you looking to digitally grow your business?">
     <meta name="keywords" content="Mobile App Development">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Mobile App Development Company in Mumbai For Android and IOS">
     <meta property="og:url" content="https://sagartech.co.in/app-development">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaweb.png">
-    <meta property="og:description" content="Best mobile app development company in Mumbai, we have a high level of proficiency in iOS & Android app development. Are you looking to digitally grow your business?">
+    <meta property="og:description"
+        content="Best mobile app development company in Mumbai, we have a high level of proficiency in iOS & Android app development. Are you looking to digitally grow your business?">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/app-development" />
+    <link rel="canonical" href="https://sagartech.co.in/mobile-app-development-company-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <!-- bootstrap -->
@@ -924,116 +926,127 @@
     }
 
     .ourprocesssection {
-  padding: 60px;
-}
+        padding: 60px;
+    }
 
-.ourprocesssection h2 {
-  font-size: 40px;
-  font-weight: 600;
-}
+    .ourprocesssection h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
 
-.ourprocesssectiontwo {
-  padding: 20px 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 60px;
-}
+    .ourprocesssectiontwo {
+        padding: 20px 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
+    }
 
-.discover {
-  max-width: 480px;
-  padding: 1em 0;
-  margin-right: auto;
-  margin-left: auto;
-  transition: opacity 0.25s;
-}
-.discover .headingggg {
-  font-size: 20px;
-  font-weight: 600;
-}
-.discover .headingggg span {
-  font-size: 45px;
-  font-weight: 900;
-  /* margin-right: 5px; */
-}
-.discover .headingggg::after {
-  width: 100px;
-  height: 3px;
-  margin: 0.25em 0px;
-  display: block;
-  content: "";
-  background: red;
-}
+    .discover {
+        max-width: 480px;
+        padding: 1em 0;
+        margin-right: auto;
+        margin-left: auto;
+        transition: opacity 0.25s;
+    }
 
-@media only screen and (max-width: 767px) {
-  .ourprocesssection {
-    padding: 20px;
-  }
+    .discover .headingggg {
+        font-size: 20px;
+        font-weight: 600;
+    }
 
-  .ourprocesssection h2 {
-    font-size: 30px;
-    font-weight: 600;
-  }
+    .discover .headingggg span {
+        font-size: 45px;
+        font-weight: 900;
+        /* margin-right: 5px; */
+    }
 
-  .ourprocesssectiontwo {
-    padding: 20px 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0px;
-  }
+    .discover .headingggg::after {
+        width: 100px;
+        height: 3px;
+        margin: 0.25em 0px;
+        display: block;
+        content: "";
+        background: red;
+    }
 
-  .discover {
-    max-width: 480px;
-    padding: 1em 0;
-    margin-right: auto;
-    margin-left: auto;
-    transition: opacity 0.25s;
-  }
-  .discover .headingggg::after {
-    width: 60px;
-    height: 4px;
-    margin-top: 0.25em;
-    display: block;
-    content: "";
-    background: #50b1aa;
-  }
-}
-.checklistsection {
-  padding: 60px;
-}
-.checklistsection h2 {
-  font-size: 35px;
-  font-weight: 600;
-}
-.checkcontain {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 20px 0px;
-}
-.check {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
+    @media only screen and (max-width: 767px) {
+        .ourprocesssection {
+            padding: 20px;
+        }
 
-@media only screen and (max-width: 767px) {
-  .checklistsection {
-    padding: 20px;
-  }
-  .checklistsection h2 {
-    font-size: 30px;
-    font-weight: 600;
-  }
-  .checkcontain {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 20px 0px;
-  }
-  .check {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
-}
+        .ourprocesssection h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .ourprocesssectiontwo {
+            padding: 20px 0px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0px;
+        }
+
+        .discover {
+            max-width: 480px;
+            padding: 1em 0;
+            margin-right: auto;
+            margin-left: auto;
+            transition: opacity 0.25s;
+        }
+
+        .discover .headingggg::after {
+            width: 60px;
+            height: 4px;
+            margin-top: 0.25em;
+            display: block;
+            content: "";
+            background: #50b1aa;
+        }
+    }
+
+    .checklistsection {
+        padding: 60px;
+    }
+
+    .checklistsection h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .checkcontain {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px 0px;
+    }
+
+    .check {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .checklistsection {
+            padding: 20px;
+        }
+
+        .checklistsection h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .checkcontain {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 20px 0px;
+        }
+
+        .check {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+    }
 </style>
 
 <body>
@@ -1048,7 +1061,7 @@
     <?php
     $page = 'services';
     // include("include/trialh.php");
-    include('include/newHeader.php');
+    include ('include/newHeader.php');
     ?>
 
 
@@ -1060,7 +1073,10 @@
             <li>Mobile App Development</li>
         </ul>
         <p class="herosectionpara">
-            Welcome To <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>. We understand the important role that mobile app development plays in enhancing user engagement and driving business growth. Our mobile app development services are tailored to cater to the unique needs of businesses looking to make a lasting impact on the mobile globe. We work using the latest technologies.
+            Welcome To <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>. We
+            understand the important role that mobile app development plays in enhancing user engagement and driving
+            business growth. Our mobile app development services are tailored to cater to the unique needs of businesses
+            looking to make a lasting impact on the mobile globe. We work using the latest technologies.
         </p>
         <div class="herobuttonsnew">
             <a href="contact" class="button">Contact Now !</a>
@@ -1073,8 +1089,12 @@
     <div class="second-ecommerce-section">
         <h2>Why Mobile App Development is Important For Your Business ?</h2>
         <!-- <h3>An experienced team of eCommerce developers to deliver your dream online store.</h3> -->
-        <p>Mobile app development has become increasingly important  for businesses across various industries.  With a mobile app you connect with more people across the globe mobile app, your business is open 24/7. People can reach you wherever they are, free. This makes things super convenient for them.Your app's icon on their phones helps people remember you. It's like a little billboard for your brand that they carry around.</p>
-        <h3 style="font-weight:500; font-size:25px; line-height:normal;">Why Mobile App Development is Important For Your Business ?</h3>
+        <p>Mobile app development has become increasingly important for businesses across various industries. With a
+            mobile app you connect with more people across the globe mobile app, your business is open 24/7. People can
+            reach you wherever they are, free. This makes things super convenient for them.Your app's icon on their
+            phones helps people remember you. It's like a little billboard for your brand that they carry around.</p>
+        <h3 style="font-weight:500; font-size:25px; line-height:normal;">Why Mobile App Development is Important For
+            Your Business ?</h3>
     </div>
 
 
@@ -1088,7 +1108,9 @@
                         <img src="icons/strategy-development.webp" alt="Mobile App Development">
                         <h2>Expertise and experience</h2>
                     </div>
-                    <p>Sagar Tech boasts a team of seasoned professionals with extensive experience in mobile app development. Their expertise spans various industries, ensuring that your app will be crafted with a deep understanding of your business domain.</p>
+                    <p>Sagar Tech boasts a team of seasoned professionals with extensive experience in mobile app
+                        development. Their expertise spans various industries, ensuring that your app will be crafted
+                        with a deep understanding of your business domain.</p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
@@ -1096,7 +1118,9 @@
                         <img src="icons/responsive-design.webp" alt="Mobile App Development">
                         <h2>Customised Solutions</h2>
                     </div>
-                    <p>Sagar Tech understands that one size doesn't fit all. They tailor their mobile app development solutions to meet the unique requirements of your business, ensuring a personalised and effective outcome.</p>
+                    <p>Sagar Tech understands that one size doesn't fit all. They tailor their mobile app development
+                        solutions to meet the unique requirements of your business, ensuring a personalised and
+                        effective outcome.</p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
@@ -1104,7 +1128,9 @@
                         <img src="icons/control-center.webp" alt="Mobile App Development">
                         <h2>Cutting-Edge Technologies</h2>
                     </div>
-                    <p>Keeping up with the latest trends and technologies, Sagar Tech ensures that your mobile app is developed using cutting-edge tools and frameworks. This commitment to innovation positions your app for success in a rapidly evolving tech landscape.</p>
+                    <p>Keeping up with the latest trends and technologies, Sagar Tech ensures that your mobile app is
+                        developed using cutting-edge tools and frameworks. This commitment to innovation positions your
+                        app for success in a rapidly evolving tech landscape.</p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
@@ -1112,7 +1138,9 @@
                         <img src="icons/cyber-security.webp" alt="Mobile App Development">
                         <h2>Cross-Platform Capabilities</h2>
                     </div>
-                    <p>Sagar Tech excels in creating mobile apps that work seamlessly across different platforms, be it iOS, Android, or both. This approach ensures a wider reach for your app, reaching a diverse audience.</p>
+                    <p>Sagar Tech excels in creating mobile apps that work seamlessly across different platforms, be it
+                        iOS, Android, or both. This approach ensures a wider reach for your app, reaching a diverse
+                        audience.</p>
                 </div>
                 <!-- -------------------- -->
                 <!-- <div class="ecom-left-card">
@@ -1141,7 +1169,10 @@
 
     <div class="fourth-ecom-sec">
         <span class="texttt">
-            We offer continuous support and maintenance services to keep your <a class="interlink" href="ecommerce-website-development">E-Commerce website</a> up-to-date, secure, and running seamlessly. This ensures a positive experience for both you and your customers.
+            We offer continuous support and maintenance services to keep your <a class="interlink"
+                href="ecommerce-website-development-company-in-mumbai">E-Commerce website</a> up-to-date, secure, and
+            running seamlessly.
+            This ensures a positive experience for both you and your customers.
         </span>
         <div class="fourth-buttons">
             <a href="contact">Let's Discuss</a>
@@ -1155,27 +1186,41 @@
         <div class="ourprocesssectiontwo">
             <div class="discover">
                 <div class="headingggg">Consultation</div>
-                <p>Our journey begins with a thorough discovery phase. We engage in consultations with the client to understand their business objectives, target audience, and the unique features they envision for their app. This phase is crucial for laying the foundation for a successful app development journey.</p>
+                <p>Our journey begins with a thorough discovery phase. We engage in consultations with the client to
+                    understand their business objectives, target audience, and the unique features they envision for
+                    their app. This phase is crucial for laying the foundation for a successful app development journey.
+                </p>
             </div>
             <div class="discover">
                 <div class="headingggg">Requirements Gathering</div>
-                <p>We delve deep into the client's requirements, capturing both functional and non-functional aspects of the desired app. This includes feature specifications, user experience preferences, technical requirements, and any specific industry standards or regulations that need to be considered.</p>
+                <p>We delve deep into the client's requirements, capturing both functional and non-functional aspects of
+                    the desired app. This includes feature specifications, user experience preferences, technical
+                    requirements, and any specific industry standards or regulations that need to be considered.</p>
             </div>
             <div class="discover">
                 <div class="headingggg">Project Scope Definition</div>
-                <p>Based on the gathered requirements, we define the project scope. This involves outlining the features, functionalities, and deliverables of the app. Clear scope definition is essential for setting expectations, timelines, and project milestones.</p>
+                <p>Based on the gathered requirements, we define the project scope. This involves outlining the
+                    features, functionalities, and deliverables of the app. Clear scope definition is essential for
+                    setting expectations, timelines, and project milestones.</p>
             </div>
             <div class="discover">
                 <div class="headingggg">Design Kickoff</div>
-                <p>With the project officially initiated, our design team takes the lead. We commence the design phase, creating wireframes, prototypes, and visual designs that align with the client's brand identity and user experience goals. Client feedback is actively sought and incorporated during this iterative design process.</p>
+                <p>With the project officially initiated, our design team takes the lead. We commence the design phase,
+                    creating wireframes, prototypes, and visual designs that align with the client's brand identity and
+                    user experience goals. Client feedback is actively sought and incorporated during this iterative
+                    design process.</p>
             </div>
             <div class="discover">
                 <div class="headingggg">Development Sprint Planning</div>
-                <p>Simultaneously, our development team begins planning for sprints. We break down the project into manageable development cycles, ensuring that each sprint delivers tangible progress. Agile methodologies are embraced to foster flexibility and responsiveness to evolving requirements.</p>
+                <p>Simultaneously, our development team begins planning for sprints. We break down the project into
+                    manageable development cycles, ensuring that each sprint delivers tangible progress. Agile
+                    methodologies are embraced to foster flexibility and responsiveness to evolving requirements.</p>
             </div>
             <div class="discover">
                 <div class="headingggg">Development and Testing</div>
-                <p>The development phase kicks off with coding based on the approved designs. Continuous testing is integrated into the development process to identify and rectify any issues promptly. Regular client updates and demonstrations are conducted to maintain transparency and gather feedback.</p>
+                <p>The development phase kicks off with coding based on the approved designs. Continuous testing is
+                    integrated into the development process to identify and rectify any issues promptly. Regular client
+                    updates and demonstrations are conducted to maintain transparency and gather feedback.</p>
             </div>
         </div>
     </div>
@@ -1201,7 +1246,12 @@
         <div class="sixth-right">
             <h2>Sahibaan</h2>
             <h3>Restaurant Application</h3>
-            <p>The project presents several challenges, including a complex menu system, ensuring smooth online ordering, and securing a secure payment gateway. Our team adopted an inclusive strategy to overcome these challenges, working closely with the Sahibaan Restaurant team to understand their needs and preferences. We created a user-friendly interface that allows customers to easily browse the menu, place orders, and make secure payments. In addition, we ensured that the application was optimized for Android and iOS devices,</p>
+            <p>The project presents several challenges, including a complex menu system, ensuring smooth online
+                ordering, and securing a secure payment gateway. Our team adopted an inclusive strategy to overcome
+                these challenges, working closely with the Sahibaan Restaurant team to understand their needs and
+                preferences. We created a user-friendly interface that allows customers to easily browse the menu, place
+                orders, and make secure payments. In addition, we ensured that the application was optimized for Android
+                and iOS devices,</p>
             <div class="fourth-buttons">
                 <a href="contact">Let's Create Your App</a>
             </div>
@@ -1217,9 +1267,15 @@
         <div class="seventh-right">
             <h2>Market Place</h2>
             <h3>Multi Vendor Application</h3>
-            <p>At Sagar Tech Technical Solution, we developed a mobile application for Market Place, an international marketplace based in Somalia. The project presented several challenges, including time zone differences, language barriers, and cultural differences. 
-                We executed an effective communication strategy to address these issues and ensure effective communication with our client in Somalia. This included regular video conferences, emails, and phone calls to keep the client up to date on the project's progress and to resolve any issues as soon as possible. 
-                No matter the geographical and cultural disparities, our team successfully delivered a high-quality mobile application for Market Place.</p>
+            <p>At Sagar Tech Technical Solution, we developed a mobile application for Market Place, an international
+                marketplace based in Somalia. The project presented several challenges, including time zone differences,
+                language barriers, and cultural differences.
+                We executed an effective communication strategy to address these issues and ensure effective
+                communication with our client in Somalia. This included regular video conferences, emails, and phone
+                calls to keep the client up to date on the project's progress and to resolve any issues as soon as
+                possible.
+                No matter the geographical and cultural disparities, our team successfully delivered a high-quality
+                mobile application for Market Place.</p>
             <div class="fourth-buttons">
                 <a href="contact">Let's Create Your App</a>
             </div>
@@ -1234,55 +1290,70 @@
         <div class="sixth-right">
             <h2>Bebegiro</h2>
             <h3>Ecommerce Application</h3>
-            <p>Our eCommerce apps and website solutions are designed for flexibility. They can be customized easily for clients' specific business needs with changes in branding and themes. Create your own online store with our ready-to-deploy solutions, packed with features like products with variants, wishlist, advanced search filters, e-cart, and online payment checkout. The native Android and iOS apps provide a seamless user experience. Its robust backend is either custom-built using MEAN, MERN, or LAMP stack or using a leading CMS like OpenCart 4.</p>
+            <p>Our eCommerce apps and website solutions are designed for flexibility. They can be customized easily for
+                clients' specific business needs with changes in branding and themes. Create your own online store with
+                our ready-to-deploy solutions, packed with features like products with variants, wishlist, advanced
+                search filters, e-cart, and online payment checkout. The native Android and iOS apps provide a seamless
+                user experience. Its robust backend is either custom-built using MEAN, MERN, or LAMP stack or using a
+                leading CMS like OpenCart 4.</p>
             <div class="fourth-buttons">
                 <a href="contact">Let's Create Your App</a>
             </div>
         </div>
     </div>
 
-    
-<div class="checklistsection">
+
+    <div class="checklistsection">
         <h2>Checklist <span style="color:#FF0808;">we follow</span></h2>
         <div class="checkcontain">
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Mobile App should be User Friendly</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Fast Speed</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Unique Content</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Quality graphic</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Modern UI</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Licensed Images</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Continuous Learning and Development</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Quality Assurance</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Legal and Compliance</p>
             </span>
             <span class="check">
-                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" /></p>
+                <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                        alt="checkmark--v1" /></p>
                 <p>Client Retention and Growth</p>
             </span>
         </div>
@@ -1377,56 +1448,74 @@
         <div class="accordion-item">
             <h2>What is the process for developing an app with Sagar Tech Technical Solution?</h2>
             <div class="accordion-content">
-                <p>Our app development process typically consists of the following steps: Initial consultation to discuss your needs and goals. Planning and design phases to create a blueprint for your app. Our team creates your app during the development phase, followed by testing to ensure smooth functionality and no bugs. Launching your app in the relevant app stores Post-launch support and maintenance to keep your app updated and running smoothly.Your Google Ads balance has been exhausted; please recharge it as soon as possible.</p>
+                <p>Our app development process typically consists of the following steps: Initial consultation to
+                    discuss your needs and goals. Planning and design phases to create a blueprint for your app. Our
+                    team creates your app during the development phase, followed by testing to ensure smooth
+                    functionality and no bugs. Launching your app in the relevant app stores Post-launch support and
+                    maintenance to keep your app updated and running smoothly.Your Google Ads balance has been
+                    exhausted; please recharge it as soon as possible.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What sets Sagar Tech Technical Solution apart from other app development companies?</h2>
             <div class="accordion-content">
-                <p>An experienced team of app developers Personalized app development solutions customized for your needs. Focus on innovation and creativity. Transparent communication during the development process. Post-launch support and maintenance make sure your app is up to date and effective.</p>
+                <p>An experienced team of app developers Personalized app development solutions customized for your
+                    needs. Focus on innovation and creativity. Transparent communication during the development process.
+                    Post-launch support and maintenance make sure your app is up to date and effective.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How can I get started with Sagar Tech Technical Solution for my app development needs?</h2>
             <div class="accordion-content">
-                <p>To get started, simply contact us through our website or email us at info@sagrtech.co.in  We will schedule an initial consultation to discuss your project requirements and provide you with a customized app development proposal.</p>
+                <p>To get started, simply contact us through our website or email us at info@sagrtech.co.in We will
+                    schedule an initial consultation to discuss your project requirements and provide you with a
+                    customized app development proposal.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can Sagar Tech Technical Solution help with app development for both Android and iOS platforms?</h2>
             <div class="accordion-content">
-                <p>Yes, we specialize in developing apps for both Android and iOS platforms. Whether you need an app for one platform or both, our team can create a seamless and integrated experience for your users.</p>
+                <p>Yes, we specialize in developing apps for both Android and iOS platforms. Whether you need an app for
+                    one platform or both, our team can create a seamless and integrated experience for your users.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Does Sagar Tech Technical Solution provide post-launch support and maintenance for apps?</h2>
             <div class="accordion-content">
-                <p>Yes, we provide post-launch support and maintenance services to keep your app up to date and running smoothly. Our team will be available to address any issues that may arise, as well as to update or improve your app as necessary.</p>
+                <p>Yes, we provide post-launch support and maintenance services to keep your app up to date and running
+                    smoothly. Our team will be available to address any issues that may arise, as well as to update or
+                    improve your app as necessary.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How does Sagar Tech Technical Solution ensure the security of app data?</h2>
             <div class="accordion-content">
-               <p>We take app data security very seriously and follow best practices to protect user data. This includes implementing secure encryption protocols, conducting regular security audits, and following to data protection regulations.</p>
+                <p>We take app data security very seriously and follow best practices to protect user data. This
+                    includes implementing secure encryption protocols, conducting regular security audits, and following
+                    to data protection regulations.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What is the cost of app development with Sagar Tech Technical Solution?</h2>
             <div class="accordion-content">
-                <p>The cost of app development is different according to the complexity of the project and your specific needs. We will provide you with a detailed cost estimate based on the scope of your project during the initial consultation.</p>
+                <p>The cost of app development is different according to the complexity of the project and your specific
+                    needs. We will provide you with a detailed cost estimate based on the scope of your project during
+                    the initial consultation.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Does Sagar Tech Technical Solution offer app redesign and enhancement services for existing apps?</h2>
             <div class="accordion-content">
-                <p>Yes, we can assist with redeveloping and improving existing apps to improve functionality, user experience, and overall performance. Whether you need to add new features, update the design, or improve performance, our team can help.</p>
+                <p>Yes, we can assist with redeveloping and improving existing apps to improve functionality, user
+                    experience, and overall performance. Whether you need to add new features, update the design, or
+                    improve performance, our team can help.</p>
             </div>
         </div>
     </div>
@@ -1449,15 +1538,15 @@
     </script>
 
 
-    <?php 
+    <?php
     // include('blogSectionHome.php')
     ?>
 
-    <?php include("include/footer.php"); ?>
+    <?php include ("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1473,7 +1562,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -1481,4 +1570,5 @@
         })();
     </script>
 </body>
+
 </html>

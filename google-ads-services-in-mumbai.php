@@ -6,7 +6,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We provide a wide range of google ads (google AdWord) management services like Google search ads, Google video ads, Google display ads, Google shopping ads and more.">
+    <meta name="description"
+        content="We provide a wide range of google ads (google AdWord) management services like Google search ads, Google video ads, Google display ads, Google shopping ads and more.">
     <meta name="keywords" content="google ads">
 
 
@@ -14,9 +15,10 @@
     <meta property="og:title" content="Google Ads (Google Adword) Services In Mumbai ">
     <meta property="og:url" content="https://sagartech.co.in/seo-service-india">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaseo.png">
-    <meta property="og:description" content="We provide a wide range of google ads (google AdWord) management services like Google search ads, Google video ads, Google display ads, Google shopping ads and more.">
+    <meta property="og:description"
+        content="We provide a wide range of google ads (google AdWord) management services like Google search ads, Google video ads, Google display ads, Google shopping ads and more.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/seo-service-india" />
+    <link rel="canonical" href="https://sagartech.co.in/google-ads-services-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -52,69 +54,79 @@
         color: white;
         /* Add overlay */
         position: relative;
-        }
+    }
 
-        .herosectionnew::before {
+    .herosectionnew::before {
         content: "";
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
-        z-index: 1; /* Adjust z-index to position the overlay */
-        }
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Adjust transparency as needed */
+        z-index: 1;
+        /* Adjust z-index to position the overlay */
+    }
 
-        .herosectionnew h1 {
+    .herosectionnew h1 {
         font-size: 30px;
         color: white;
-        line-height:normal;
+        line-height: normal;
         width: 60%;
         font-weight: 600;
-        position: relative; /* Ensure text appears above overlay */
-        z-index: 2; /* Ensure text appears above overlay */
-        }
+        position: relative;
+        /* Ensure text appears above overlay */
+        z-index: 2;
+        /* Ensure text appears above overlay */
+    }
 
-        .herobreadrumb {
+    .herobreadrumb {
         display: flex;
         font-weight: 600;
         gap: 5px;
         margin: 5px 0px;
         align-items: center;
-        position: relative; /* Ensure text appears above overlay */
-        z-index: 2; /* Ensure text appears above overlay */
-        }
+        position: relative;
+        /* Ensure text appears above overlay */
+        z-index: 2;
+        /* Ensure text appears above overlay */
+    }
 
-        .herosectionpara {
+    .herosectionpara {
         width: 60%;
         color: white;
         margin-top: 10px;
-        position: relative; /* Ensure text appears above overlay */
-        z-index: 2; /* Ensure text appears above overlay */
-        }
+        position: relative;
+        /* Ensure text appears above overlay */
+        z-index: 2;
+        /* Ensure text appears above overlay */
+    }
 
-        .herobuttonsnew {
+    .herobuttonsnew {
         display: flex;
         gap: 10px;
         align-items: center;
         justify-content: start;
-        position: relative; /* Ensure text appears above overlay */
-        z-index: 2; /* Ensure text appears above overlay */
-        }
+        position: relative;
+        /* Ensure text appears above overlay */
+        z-index: 2;
+        /* Ensure text appears above overlay */
+    }
 
-        .button {
+    .button {
         background-color: red;
         color: white;
         padding: 8px 30px;
         border-radius: 10px;
         border: 1px solid red;
-        }
+    }
 
-        .button:hover {
+    .button:hover {
         background-color: white;
         color: red !important;
         border: 1px solid red;
-        }
+    }
 
     @media only screen and (max-width: 767px) {
         .herosectionnew {
@@ -179,7 +191,7 @@
     .secondsection .left {
         width: 60%;
         padding: 20px 10px;
-        margin:auto 0px;
+        margin: auto 0px;
     }
 
     .left h2 {
@@ -580,7 +592,7 @@
             <img src="images/logoonly.jpg" alt="loder">
         </div>
     </div>
-    
+
     <?php
     $page = 'services';
     include 'include/newHeader.php';
@@ -598,7 +610,13 @@
             <li>Google Adwords Service</li>
         </ul>
         <p class="herosectionpara">
-             Google Ads provides several benefits that can have a significant impact on a company's online presence and marketing strategies. A major benefit is its highly targeted advertising capabilities. Google Ads allows businesses to target their ads to specific geographic locations, languages, and even demographics, to make sure their message reaches the most relevant audience. This level of targeting allows businesses to maximise their advertising budget by focusing on potential customers who are more likely to convert. Google Ads (Google Adwords ) also helps businesses achieve measurable results. The platform provides detailed analytics and reporting tools, allowing businesses to track the performance of their advertisements in real time.</p>
+            Google Ads provides several benefits that can have a significant impact on a company's online presence and
+            marketing strategies. A major benefit is its highly targeted advertising capabilities. Google Ads allows
+            businesses to target their ads to specific geographic locations, languages, and even demographics, to make
+            sure their message reaches the most relevant audience. This level of targeting allows businesses to maximise
+            their advertising budget by focusing on potential customers who are more likely to convert. Google Ads
+            (Google Adwords ) also helps businesses achieve measurable results. The platform provides detailed analytics
+            and reporting tools, allowing businesses to track the performance of their advertisements in real time.</p>
         <div class="herobuttonsnew">
             <a href="contact" class="button">Contact Us</a>
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -612,7 +630,11 @@
         <div class="left">
             <h2>Why Choose Sagar Tech Technical Solution for Google Ads Services</h2>
             <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
-            <p>When it comes to advertising your business online, Google Ads can be a game changer. Our team is aware about Google Ads inside and out. we are dong google ads management services for years, so you can trust us to create campaigns that produce results to your business  Look no further than <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a>, your premier Google Ads service provider. Here's why you should choose us for all your Google Ads management services needs.</p>
+            <p>When it comes to advertising your business online, Google Ads can be a game changer. Our team is aware
+                about Google Ads inside and out. we are dong google ads management services for years, so you can trust
+                us to create campaigns that produce results to your business Look no further than <a class="interlink"
+                    href="https://sagartech.co.in/">Sagar Tech Technical Solution</a>, your premier Google Ads service
+                provider. Here's why you should choose us for all your Google Ads management services needs.</p>
             <div class="herobuttonsnew">
                 <a href="contact" class="buttonsss">Let's Discuss</a>
             </div>
@@ -627,7 +649,13 @@
 
     <div class="third-seo-sec">
         <h2>Types Of Google Ads Services We Provide</h2>
-        <p>Sagar Tech Technical Solution is your one-stop shop for all your <a class="interlink" href="digital-marketing-company">Digital Marketing</a> requirements. We provide a full range of Google Ads services, such as Google Search Ads, Google Display Ads, Google Video Ads, and Google Shopping Ads. As an award-winning Google Ads service provider In India, we are committed to improving your online visibility and driving targeted traffic to your website. Here is a closer look at the different Google Ads services we provide:</p>
+        <p>Sagar Tech Technical Solution is your one-stop shop for all your <a class="interlink"
+                href="digital-marketing-company-in-mumbai">Digital Marketing</a> requirements. We provide a full range
+            of Google
+            Ads services, such as Google Search Ads, Google Display Ads, Google Video Ads, and Google Shopping Ads. As
+            an award-winning Google Ads service provider In India, we are committed to improving your online visibility
+            and driving targeted traffic to your website. Here is a closer look at the different Google Ads services we
+            provide:</p>
         <div class="third-seo-div">
             <!-- ------------------ -->
             <div class="third-card">
@@ -635,7 +663,9 @@
                     <img src="icons/search.png" alt="google ads">
                     <h3>Google Search Ads</h3>
                 </div>
-                <p>We create attractive text ads that appear at the top of Google search results when users look up relevant keywords. These ads are highly targeted, allowing you to reach customers who are actively looking for products or services similar to yours.</p>
+                <p>We create attractive text ads that appear at the top of Google search results when users look up
+                    relevant keywords. These ads are highly targeted, allowing you to reach customers who are actively
+                    looking for products or services similar to yours.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -643,7 +673,11 @@
                     <img src="icons/ads.png" alt="google ads">
                     <h3>Google Display Ads</h3>
                 </div>
-                <p>Video has become an increasingly popular form of advertising, Video is becoming an increasingly popular form of advertising, and Google Video Ads allow you to profit on this trend. These advertisements appear on YouTube and throughout the Google Display Network and can be skippable or non-skippable video ads, bumper ads, or sponsored cards. Google Video Ads are an excellent way to interact with your audience and tell your brand story in an engaging way.</p>
+                <p>Video has become an increasingly popular form of advertising, Video is becoming an increasingly
+                    popular form of advertising, and Google Video Ads allow you to profit on this trend. These
+                    advertisements appear on YouTube and throughout the Google Display Network and can be skippable or
+                    non-skippable video ads, bumper ads, or sponsored cards. Google Video Ads are an excellent way to
+                    interact with your audience and tell your brand story in an engaging way.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -651,7 +685,10 @@
                     <img src="icons/advertising.png" alt="google ads">
                     <h3>Google Video Ads</h3>
                 </div>
-                <p>Video has become an increasingly popular form of advertising, These advertisements appear on YouTube and throughout the Google Display Network and can take the form of skippable or non-skippable video ads, bumper ads, or sponsored cards. Google Video Ads are an excellent way to connect with your audience and tell your brand story in an engaging way.</p>
+                <p>Video has become an increasingly popular form of advertising, These advertisements appear on YouTube
+                    and throughout the Google Display Network and can take the form of skippable or non-skippable video
+                    ads, bumper ads, or sponsored cards. Google Video Ads are an excellent way to connect with your
+                    audience and tell your brand story in an engaging way.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -659,7 +696,10 @@
                     <img src="icons/promotion.png" alt="google ads">
                     <h3>Google Shopping Ads</h3>
                 </div>
-                <p>If you own an e-commerce site, Google Shopping Ads can help you promote your products directly in Google search results. These advertisements include product images, prices, and other relevant details, making it easier for customers to find and purchase your products online. Google Shopping Ads are extremely effective at driving traffic to your website and increasing sales.</p>
+                <p>If you own an e-commerce site, Google Shopping Ads can help you promote your products directly in
+                    Google search results. These advertisements include product images, prices, and other relevant
+                    details, making it easier for customers to find and purchase your products online. Google Shopping
+                    Ads are extremely effective at driving traffic to your website and increasing sales.</p>
             </div>
             <!-- ------------------ -->
         </div>
@@ -670,65 +710,74 @@
 
 
     <?php
-        include 'include/ourClients.php';
+    include 'include/ourClients.php';
     ?>
 
 
-<h3 class="faqs-heading">FAQs</h3>
+    <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
             <h2>What are Google Ads?</h2>
             <div class="accordion-content">
-                <p> Google Ads is an online advertising platform developed by Google, where advertisers pay to display brief advertisements, service offerings, product listings, or videos to web users.</p>
+                <p> Google Ads is an online advertising platform developed by Google, where advertisers pay to display
+                    brief advertisements, service offerings, product listings, or videos to web users.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Why should I use Google Ads for my business?</h2>
             <div class="accordion-content">
-                <p>Google Ads allows you to reach potential customers at the exact moment they are searching for products or services like yours. It can help increase your website traffic, leads, and sales.</p>
+                <p>Google Ads allows you to reach potential customers at the exact moment they are searching for
+                    products or services like yours. It can help increase your website traffic, leads, and sales.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What Google Ads services do you offer?</h2>
             <div class="accordion-content">
-                <p>We offer a range of Google Ads services, including Google Search Ads, Google Display Ads, Google Shopping Ads, Google Video Ads, and Google Ads management services.</p>
+                <p>We offer a range of Google Ads services, including Google Search Ads, Google Display Ads, Google
+                    Shopping Ads, Google Video Ads, and Google Ads management services.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What are Google Search Ads?</h2>
             <div class="accordion-content">
-                <p>Google Search Ads are text ads that appear on the Google search results page when users go into specific keywords related to your company.</p>
+                <p>Google Search Ads are text ads that appear on the Google search results page when users go into
+                    specific keywords related to your company.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What are Google Display Ads?</h2>
             <div class="accordion-content">
-                <p>Google Display Ads are visual advertisements that appear on websites, apps, and videos in the Google Display Network, targeting users based on their interests and browsing history.</p>
+                <p>Google Display Ads are visual advertisements that appear on websites, apps, and videos in the Google
+                    Display Network, targeting users based on their interests and browsing history.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What are Google Shopping Ads?</h2>
             <div class="accordion-content">
-                <p>Google Shopping Ads are advertisements that appear when users search for specific products on Google. They include product images, prices, and store information.</p>
+                <p>Google Shopping Ads are advertisements that appear when users search for specific products on Google.
+                    They include product images, prices, and store information.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What is Google Ads management services?</h2>
             <div class="accordion-content">
-                <p>Google Ads management services include setting up, optimizing, and monitoring your Google Ads campaigns to ensure they are effective and generate a high return on investment.</p>
+                <p>Google Ads management services include setting up, optimizing, and monitoring your Google Ads
+                    campaigns to ensure they are effective and generate a high return on investment.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Why should I choose Sagar Tech Technical Solution as my Google Ads service provider?</h2>
             <div class="accordion-content">
-                <p>We have a team of experienced Google Ads professionals who are committed to achieving results for your company. We provide customized Google Ads solutions that are customized to your specific needs and objectives.</p>
+                <p>We have a team of experienced Google Ads professionals who are committed to achieving results for
+                    your company. We provide customized Google Ads solutions that are customized to your specific needs
+                    and objectives.</p>
             </div>
         </div>
     </div>
@@ -763,10 +812,10 @@
     // include('blogSectionHome.php');
     ?>
 
-    <?php include("include/footer.php"); ?>
+    <?php include ("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -782,7 +831,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -790,4 +839,5 @@
         })();
     </script>
 </body>
+
 </html>

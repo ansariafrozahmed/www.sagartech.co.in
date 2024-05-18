@@ -130,7 +130,7 @@
         <section class="our-service-section">
 
 
-            <a href="web-development-company">
+            <a href="web-development-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
                         <img src="./image/homepage/yogeshprashna.webp" alt="">
@@ -148,7 +148,7 @@
             </a>
 
 
-            <a href="digital-marketing-company">
+            <a href="digital-marketing-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
                         <img src="./image/homepage/social-media.webp" alt="">
@@ -165,7 +165,7 @@
 
 
 
-            <a href="mobile-app-development-company">
+            <a href="mobile-app-development-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
                         <img src="./image/homepage/app.webp" alt="">
@@ -183,7 +183,7 @@
 
 
 
-            <a href="graphic-design-services">
+            <a href="graphic-design-services-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
                         <img src="./image/homepage/3.webp" alt="">
@@ -200,7 +200,7 @@
             </a>
 
 
-            <a href="bulk-sms-service-provider">
+            <a href="bulk-sms-service-provider-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
                         <img src="./image/homepage/bulk-sms.webp" alt="">

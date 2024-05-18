@@ -711,66 +711,66 @@ include ('config.php');
                 <div class="list-item">
                   <div class="titlee">
                     <img src="<?= WEB_URL ?>icons/web-development.png" style="width: 30px" alt="" />
-                    <a href="<?= WEB_URL ?>web-development-company">Web Development</a>
+                    <a href="<?= WEB_URL ?>web-development-company-in-mumbai">Web Development</a>
                   </div>
                   <ul>
                     <li>
-                      <a href="<?= WEB_URL ?>ecommerce-website-development">Ecommerce Website</a>
+                      <a href="<?= WEB_URL ?>ecommerce-website-development-company-in-mumbai">Ecommerce Website</a>
                     </li>
                     <li>
-                      <a href="<?= WEB_URL ?>dynamic-website-development">Dynamic Website</a>
+                      <a href="<?= WEB_URL ?>dynamic-website-development-company-in-mumbai">Dynamic Website</a>
                     </li>
-                    <li><a href="<?= WEB_URL ?>blogging-website-development">Blog Website</a></li>
-                    <li><a href="<?= WEB_URL ?>web-hosting-services">Web Hosting</a></li>
+                    <li><a href="<?= WEB_URL ?>blogging-website-development-in-mumbai">Blog Website</a></li>
+                    <li><a href="<?= WEB_URL ?>web-hosting-services-in-mumbai">Web Hosting</a></li>
                     <li>
-                      <a href="<?= WEB_URL ?>domain-service-provider">Domain Registration</a>
+                      <a href="<?= WEB_URL ?>domain-service-provider-in-mumbai">Domain Registration</a>
                     </li>
                   </ul>
                 </div>
                 <div class="list-item">
                   <div class="titlee">
                     <img src="<?= WEB_URL ?>icons/bullhorn.png" style="width: 30px" alt="" />
-                    <a href="<?= WEB_URL ?>digital-marketing-company">Digital Marketing</a>
+                    <a href="<?= WEB_URL ?>digital-marketing-company-in-mumbai">Digital Marketing</a>
                   </div>
                   <ul>
-                    <li><a href="<?= WEB_URL ?>google-ads-services">Google Adwords</a></li>
+                    <li><a href="<?= WEB_URL ?>google-ads-services-in-mumbai">Google Adwords</a></li>
                     <li>
                       <a href="<?= WEB_URL ?>seo-company-in-mumbai">Search Engine Optimization</a>
                     </li>
-                    <li><a href="<?= WEB_URL ?>local-seo-services">Local SEO</a></li>
+                    <li><a href="<?= WEB_URL ?>local-seo-services-in-mumbai">Local SEO</a></li>
                     <li>
-                      <a href="<?= WEB_URL ?>social-media-marketing-agency">Social Media Marketing</a>
+                      <a href="<?= WEB_URL ?>social-media-marketing-agency-in-mumbai">Social Media Marketing</a>
                     </li>
                     <li>
-                      <a href="<?= WEB_URL ?>social-media-optimization">Social Media Optimization</a>
+                      <a href="<?= WEB_URL ?>social-media-optimization-agency-in-mumbai">Social Media Optimization</a>
                     </li>
                   </ul>
                 </div>
                 <div class="list-item">
                   <div class="titlee">
                     <img src="<?= WEB_URL ?>icons/graphic-designer.png" style="width: 30px" alt="" />
-                    <a href="<?= WEB_URL ?>graphic-design-services">Graphic Designing</a>
+                    <a href="<?= WEB_URL ?>graphic-design-services-in-mumbai">Graphic Designing</a>
                   </div>
                   <ul>
                     <li>
-                      <a href="<?= WEB_URL ?>brand-identity-design">Brand Identity</a>
+                      <a href="<?= WEB_URL ?>brand-identity-design-in-mumbai">Brand Identity</a>
                     </li>
-                    <li><a href="<?= WEB_URL ?>logo-design-services">Logo Designing</a></li>
-                    <li><a href="<?= WEB_URL ?>brochure-design-services">Brochure Designing</a></li>
-                    <li><a href="<?= WEB_URL ?>social-media-post-design">Post Designing</a></li>
+                    <li><a href="<?= WEB_URL ?>logo-design-services-in-mumbai">Logo Designing</a></li>
+                    <li><a href="<?= WEB_URL ?>brochure-design-services-in-mumbai">Brochure Designing</a></li>
+                    <li><a href="<?= WEB_URL ?>social-media-post-design-in-mumbai">Post Designing</a></li>
                     <li>
-                      <a href="<?= WEB_URL ?>banner-design-services">Banner Designing</a>
+                      <a href="<?= WEB_URL ?>banner-design-services-in-mumbai">Banner Designing</a>
                     </li>
                   </ul>
                 </div>
                 <div class="list-item">
                   <div class="titlee">
                     <img src="<?= WEB_URL ?>icons/text-message.png" style="width: 30px" alt="" />
-                    <a href="<?= WEB_URL ?>bulk-sms-service-provider">Bulk SMS</a>
+                    <a href="<?= WEB_URL ?>bulk-sms-service-provider-in-mumbai">Bulk SMS</a>
                   </div>
                   <div class="titlee">
                     <img src="<?= WEB_URL ?>icons/app-development.png" style="width: 30px" alt="" />
-                    <a href="<?= WEB_URL ?>mobile-app-development-company">App Development</a>
+                    <a href="<?= WEB_URL ?>mobile-app-development-company-in-mumbai">App Development</a>
                   </div>
                 </div>
               </div>

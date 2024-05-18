@@ -6,7 +6,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We are the best social media post design service provider in Mumbai. We design social media posts for Multiply brands. Our social media post design is unique and creative.">
+    <meta name="description"
+        content="We are the best social media post design service provider in Mumbai. We design social media posts for Multiply brands. Our social media post design is unique and creative.">
     <meta name="keywords" content="social media post design">
 
 
@@ -14,8 +15,10 @@
     <meta property="og:title" content="Social Media Post Design Services in India | Build Your Brand">
     <meta property="og:url" content="https://sagartech.co.in/post-design">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/post-logo.png">
-    <meta property="og:description" content="We are the best social media post design service provider in Mumbai. We design social media posts for Multiply brands. Our social media post design is unique and creative.">
+    <meta property="og:description"
+        content="We are the best social media post design service provider in Mumbai. We design social media posts for Multiply brands. Our social media post design is unique and creative.">
     <!-- Favicon -->
+    <link rel="canonical" href="https://sagartech.co.in/social-media-post-design-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <!-- bootstrap -->
@@ -471,7 +474,7 @@
     .typesofcard {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap:15px;
+        gap: 15px;
     }
 
     @media only screen and (max-width: 999px) {
@@ -681,47 +684,47 @@
     }
 
     .carddd {
-  width: 100%;
-  /* border: 1px solid gray; */
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  border-radius: 20px;
-  padding: 30px;
-  gap: 10px;
-  border: 1px solid #e6e6e6;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-}
+        width: 100%;
+        /* border: 1px solid gray; */
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 20px;
+        padding: 30px;
+        gap: 10px;
+        border: 1px solid #e6e6e6;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+    }
 
-.carddd:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-}
+    .carddd:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
 
-.carddd > .image {
-  width: 70px;
-  height: 70px;
-  transition: all 0.1s ease-in-out;
-}
+    .carddd>.image {
+        width: 70px;
+        height: 70px;
+        transition: all 0.1s ease-in-out;
+    }
 
-.carddd > .h1 {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-}
+    .carddd>.h1 {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
 
-.carddd > .p {
-  color: #9e9da1;
-  font-size: 14px;
-  text-align: justify;
-  overflow: hidden;
+    .carddd>.p {
+        color: #9e9da1;
+        font-size: 14px;
+        text-align: justify;
+        overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 6;
-}
+    }
 </style>
 
 <body>
@@ -731,11 +734,11 @@
             <img src="images/logoonly.jpg" alt="loder">
         </div>
     </div>
-    
-    
+
+
     <?php
     $page = 'services';
-    include("include/newHeader.php");
+    include ("include/newHeader.php");
     //include('include/header1.php');
     ?>
     <!-- /HEADER END -->
@@ -747,7 +750,11 @@
             <li>Social Media Post Design</li>
         </ul>
         <p class="herosectionpara">
-            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands as the leading provider of Social media post design services in Mumbai, offering a blend of creativity and strategic <a class="interlink" href="graphic-design-services">Graphic Design</a> to elevate your brand's online presence. It is crucial for engaging your audience. Our focus is on bringing creativity and strategic design to the forefront, ensuring your brand stands out in the growing world of social media
+            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands as the leading
+            provider of Social media post design services in Mumbai, offering a blend of creativity and strategic <a
+                class="interlink" href="graphic-design-services">Graphic Design</a> to elevate your brand's online
+            presence. It is crucial for engaging your audience. Our focus is on bringing creativity and strategic design
+            to the forefront, ensuring your brand stands out in the growing world of social media
         </p>
         <div class="herobuttonsnew">
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -761,7 +768,10 @@
         <div class="left">
             <h2>Social Media Post Design</h2>
             <h3 style="text-align: left;">Why It is Important For Your Brand</h3>
-            <p>Your brand as a storyteller in the massive world of social media, where each post serves as a new chapter in your story, Social Media Post Design Services act as the artists, bringing your stories to life with captivating visuals. Let's explore why these services are essential for your brand's success in the digital realm.</p>
+            <p>Your brand as a storyteller in the massive world of social media, where each post serves as a new chapter
+                in your story, Social Media Post Design Services act as the artists, bringing your stories to life with
+                captivating visuals. Let's explore why these services are essential for your brand's success in the
+                digital realm.</p>
             <div class="herobuttonsnew">
                 <a href="contact" class="buttonsss">Contact Now!</a>
             </div>
@@ -776,38 +786,49 @@
     <div class="typesofsection">
         <h2>Why choose Sagar Tech for social media Post Design?</h2>
         <!-- <h3>subtitle</h3> -->
-        <p>Think of social media as a crowded street. Well-designed posts are like flashy signs that make people stop and take notice amidst the constant scrolling. Consistency is key. Well-designed posts maintain a consistent look and feel, reinforcing your brand's image. It's like dressing your brand in a sharp suit, leaving a lasting impression.</p>
+        <p>Think of social media as a crowded street. Well-designed posts are like flashy signs that make people stop
+            and take notice amidst the constant scrolling. Consistency is key. Well-designed posts maintain a consistent
+            look and feel, reinforcing your brand's image. It's like dressing your brand in a sharp suit, leaving a
+            lasting impression.</p>
         <div class="typesofcard">
             <!-- <a href="ecommerce-website-design-service"> -->
-                <div class="carddd">
+            <div class="carddd">
                 <img src="icons/abilities.png" height="70px" alt="">
                 <!-- <p class="number-h1">01</p> -->
                 <p class="h1">Creativity</p>
-                <p class="p">Our team of skilled designers at Sagar Tech Technical Solutions understands the art of capturing attention. We bring creativity to every design so that your social media updates are unique.</p>
+                <p class="p">Our team of skilled designers at Sagar Tech Technical Solutions understands the art of
+                    capturing attention. We bring creativity to every design so that your social media updates are
+                    unique.</p>
             </div>
             <!-- </a>
             <a href="blog-website-development"> -->
-                <div class="carddd">
-                <img src="icons/scale.webp" height="70px"  alt="">
+            <div class="carddd">
+                <img src="icons/scale.webp" height="70px" alt="">
                 <!-- <p class="number-h1">01</p> -->
                 <p class="h1">Fast Turnaround Without Sacrificing Quality</p>
-                <p class="p">We know social media moves quickly, and we're up for the challenge. Our team is committed to delivering high-quality designs within tight deadlines. This way, you can stay relevant and timely in your social media interactions without compromising on quality.</p>
+                <p class="p">We know social media moves quickly, and we're up for the challenge. Our team is committed
+                    to delivering high-quality designs within tight deadlines. This way, you can stay relevant and
+                    timely in your social media interactions without compromising on quality.</p>
             </div>
             <!-- </a>
             <a href="web-development-company-mumbai"> -->
-                <div class="carddd">
-                <img src="icons/budget.webp" height="70px"  alt="">
+            <div class="carddd">
+                <img src="icons/budget.webp" height="70px" alt="">
                 <!-- <p class="number-h1">01</p> -->
                 <p class="h1">Affordable Excellence</p>
-                <p class="p">Quality design shouldn't be a luxury. Sagar Tech offers budget-friendly packages tailored to your specific social media post design needs. We believe in making professional and impactful design accessible to businesses of all sizes.</p>
+                <p class="p">Quality design shouldn't be a luxury. Sagar Tech offers budget-friendly packages tailored
+                    to your specific social media post design needs. We believe in making professional and impactful
+                    design accessible to businesses of all sizes.</p>
             </div>
             <!-- </a>
             <a href="dynamic-website-development"> -->
-                <div class="carddd">
-                <img src="icons/eye-care.webp" height="70px"  alt="">
+            <div class="carddd">
+                <img src="icons/eye-care.webp" height="70px" alt="">
                 <!-- <p class="number-h1">01</p> -->
                 <p class="h1">Eye-Catching Designs That Speak Volumes</p>
-                <p class="p">Our design team is not just about making things look good; we're about creating posts that tell your brand's story. We want your social media presence to be more than just aesthetically pleasing; we want it to resonate with your audience and leave a lasting impression.</p>
+                <p class="p">Our design team is not just about making things look good; we're about creating posts that
+                    tell your brand's story. We want your social media presence to be more than just aesthetically
+                    pleasing; we want it to resonate with your audience and leave a lasting impression.</p>
             </div>
             <!-- </a> -->
         </div>
@@ -874,7 +895,8 @@
             <h2>What is social media post design?</h2>
             <div class="accordion-content">
                 <p>
-                    Social media post design is the process of creating visually appealing graphics and images for use on social media platforms in order attract users and promote brands or products.
+                    Social media post design is the process of creating visually appealing graphics and images for use
+                    on social media platforms in order attract users and promote brands or products.
                 </p>
             </div>
         </div>
@@ -883,7 +905,8 @@
             <h2>Why is social media post design important for my business?</h2>
             <div class="accordion-content">
                 <p>
-                    Social media post design allows your brand to stand out on social media, interact with your audience, and drive traffic to your website or products.
+                    Social media post design allows your brand to stand out on social media, interact with your
+                    audience, and drive traffic to your website or products.
                 </p>
             </div>
         </div>
@@ -892,7 +915,8 @@
             <h2>What services are included in social media post design at Sagar Tech Technical Solution?</h2>
             <div class="accordion-content">
                 <p>
-                    Our social media post design services include custom graphic design, content creation, brand integrating, and platform optimization.
+                    Our social media post design services include custom graphic design, content creation, brand
+                    integrating, and platform optimization.
                 </p>
             </div>
         </div>
@@ -900,18 +924,22 @@
         <div class="accordion-item">
             <h2>How does Sagar Tech Technical Solution approach social media post design?</h2>
             <div class="accordion-content">
-                    <p>
-                        We begin by analyzing your brand identity, target audience, and social media objectives. We then create custom designs that appeal to your target audience and are consistent with your brand's messaging.
-                    </p>
+                <p>
+                    We begin by analyzing your brand identity, target audience, and social media objectives. We then
+                    create custom designs that appeal to your target audience and are consistent with your brand's
+                    messaging.
+                </p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can you design social media posts for different platforms, such as Facebook, Instagram, Twitter, and LinkedIn?</h2>
+            <h2>Can you design social media posts for different platforms, such as Facebook, Instagram, Twitter, and
+                LinkedIn?</h2>
             <div class="accordion-content">
-               <p>
-                    Yes, we can create social media posts for a variety of platforms, ensuring that your content is customized to each platform's specifications and requirements.
-               </p>
+                <p>
+                    Yes, we can create social media posts for a variety of platforms, ensuring that your content is
+                    customized to each platform's specifications and requirements.
+                </p>
             </div>
         </div>
 
@@ -919,7 +947,8 @@
             <h2>Do you offer custom social media post design services?</h2>
             <div class="accordion-content">
                 <p>
-                   Yes, we provide customized social media post design services based on your brand's specific needs and preferences, ensuring that your posts stand out and drive engagement.
+                    Yes, we provide customized social media post design services based on your brand's specific needs
+                    and preferences, ensuring that your posts stand out and drive engagement.
                 </p>
             </div>
         </div>
@@ -943,14 +972,14 @@
     </script>
 
 
-    <?php 
+    <?php
     // include 'blogSectionHome.php' 
     ?>
-    <?php include("include/footer.php"); ?>
+    <?php include ("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -966,7 +995,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -974,4 +1003,5 @@
         })();
     </script>
 </body>
+
 </html>

@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>SEO Company in Mumbai To Rank Your Website 1st  On Google</title>
+    <title>SEO Company in Mumbai To Rank Your Website 1st On Google</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We are an award winning SEO company in Mumbai. We provide SEO services to many Indian and International companies. Our seo agency in mumbai is most affordable  for SEO">
+    <meta name="description"
+        content="We are an award winning SEO company in Mumbai. We provide SEO services to many Indian and International companies. Our seo agency in mumbai is most affordable  for SEO">
     <meta name="keywords" content="SEO Company in Mumbai">
 
 
@@ -14,9 +15,10 @@
     <meta property="og:title" content="SEO Company in Mumbai To Rank Your Website 1st  On Google ">
     <meta property="og:url" content="https://sagartech.co.in/seo-service-india">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaseo.png">
-    <meta property="og:description" content="We are an award winning SEO company in Mumbai. We provide SEO services to many Indian and International companies. Our seo agency in mumbai is most affordable  for SEO">
+    <meta property="og:description"
+        content="We are an award winning SEO company in Mumbai. We provide SEO services to many Indian and International companies. Our seo agency in mumbai is most affordable  for SEO">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/seo-service-india" />
+    <link rel="canonical" href="https://sagartech.co.in/seo-company-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -55,8 +57,8 @@
     .herosectionnew h1 {
         font-size: 30px;
         color: white;
-        width:60%;
-        line-height:normal;
+        width: 60%;
+        line-height: normal;
         font-weight: 600;
     }
 
@@ -149,7 +151,7 @@
 
     .secondsection {
         display: flex;
-        align-items:center;
+        align-items: center;
         padding: 50px 100px;
         width: 100%;
         gap: 20px;
@@ -172,9 +174,9 @@
 
     .secondsection .right {
         width: 40%;
-        display:flex;
-        align-items:center;
-        justify-content:center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .secondsection .right img {
@@ -575,7 +577,12 @@
             <li>Search Engine Optimization</li>
         </ul>
         <p class="herosectionpara">
-             With more than 8.5 billion searches made every day, Your company cannot afford to remain hidden. When it comes to enhancing your online presence and skyrocketing your business to the top of search engine rankings, trust the expertise of <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a> - an award-winning SEO company in Mumbai. If you want to connect with as many potential customers organically as possible, this is the best way. This is where we come. Our SEO services are customised to your needs based on the latest algorithms.</p>
+            With more than 8.5 billion searches made every day, Your company cannot afford to remain hidden. When it
+            comes to enhancing your online presence and skyrocketing your business to the top of search engine rankings,
+            trust the expertise of <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical
+                Solutions</a> - an award-winning SEO company in Mumbai. If you want to connect with as many potential
+            customers organically as possible, this is the best way. This is where we come. Our SEO services are
+            customised to your needs based on the latest algorithms.</p>
         <div class="herobuttonsnew">
             <a href="portfolio/search-engine-optimization" class="button">View Portfolio</a>
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -589,7 +596,12 @@
         <div class="left">
             <h2>Why Choose Sagar Tech Technical Solution For Seo Services</h2>
             <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
-            <p>Choosing Sagar Tech Technical Solutions for your SEO services offers benefits that set us apart in the competitive <a class="interlink" href="digital-marketing-company">Digital Marketing Wolrd</a>. We are a leading SEO company in Mumbai that helps multiple brands to get 1st  rank on Google. we work on latest google algorithm, which help our clients get the maximum number of organic traffic on there website Because of this, we received the seo agency in mumbai award</p>
+            <p>Choosing Sagar Tech Technical Solutions for your SEO services offers benefits that set us apart in the
+                competitive <a class="interlink" href="digital-marketing-company-in-mumbai">Digital Marketing Wolrd</a>.
+                We are a
+                leading SEO company in Mumbai that helps multiple brands to get 1st rank on Google. we work on latest
+                google algorithm, which help our clients get the maximum number of organic traffic on there website
+                Because of this, we received the seo agency in mumbai award</p>
             <div class="herobuttonsnew">
                 <a href="contact" class="buttonsss">Let's Discuss</a>
             </div>
@@ -604,7 +616,10 @@
 
     <div class="third-seo-sec">
         <h2>Our Approach to Search Engine Optimization Strategies</h2>
-        <p>As  we work on the latest google algorithm,  We gather, examine, and understand data before creating our action plan. We create high-quality content according to your business As a result, you will see an increase in rank, CTR (click-through rate), and conversions. Over the last five years, we have provided complete SEO services to companies in India and abroad.</p>
+        <p>As we work on the latest google algorithm, We gather, examine, and understand data before creating our action
+            plan. We create high-quality content according to your business As a result, you will see an increase in
+            rank, CTR (click-through rate), and conversions. Over the last five years, we have provided complete SEO
+            services to companies in India and abroad.</p>
         <div class="third-seo-div">
             <!-- ------------------ -->
             <div class="third-card">
@@ -612,7 +627,9 @@
                     <img src="icons/audit.webp" alt="SEO Company in Mumbai">
                     <h3>Client Consultation</h3>
                 </div>
-                <p>We begin by engaging in a detailed consultation with the client to understand their business goals, target audience, and key performance indicators. This initial discussion helps us tailor our approach to align with the unique needs and objectives of the client.</p>
+                <p>We begin by engaging in a detailed consultation with the client to understand their business goals,
+                    target audience, and key performance indicators. This initial discussion helps us tailor our
+                    approach to align with the unique needs and objectives of the client.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -620,7 +637,11 @@
                     <img src="icons/research.webp" alt="SEO Company in Mumbai">
                     <h3>SEO Audit</h3>
                 </div>
-                <p>We begin with a thorough analysis of your website. Crawlability, essential web vitals, markup, and internal linking are all factors that influence SEO results.  We use Google Search Console, Google Analytics, and other reputable SEO audit tools to identify and address issues that may be affecting your website.  Our analysis includes keyword competition, unique content , and a thorough backlink audit.</p>
+                <p>We begin with a thorough analysis of your website. Crawlability, essential web vitals, markup, and
+                    internal linking are all factors that influence SEO results. We use Google Search Console, Google
+                    Analytics, and other reputable SEO audit tools to identify and address issues that may be affecting
+                    your website. Our analysis includes keyword competition, unique content , and a thorough backlink
+                    audit.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -628,7 +649,9 @@
                     <img src="icons/keyword.webp" alt="SEO Company in Mumbai">
                     <h3>Competitor Analysis</h3>
                 </div>
-                <p>Understanding your competitors' strategies allows us to identify new opportunities for your business.  By analysing competitors' website traffic, we identify growth opportunities for your website. We use top SEO tools to figure out keyword and backlink gaps.</p>
+                <p>Understanding your competitors' strategies allows us to identify new opportunities for your business.
+                    By analysing competitors' website traffic, we identify growth opportunities for your website. We use
+                    top SEO tools to figure out keyword and backlink gaps.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -636,7 +659,9 @@
                     <img src="icons/seo.webp" alt="SEO Company in Mumbai">
                     <h3>Keyword research</h3>
                 </div>
-                <p>The most important aspect of our SEO audit is rich keyword research. We identify keywords and phrases that are relevant to the client's  business, products, or services This informs our content strategy and makes sure the website is optimised for relevant search terms.</p>
+                <p>The most important aspect of our SEO audit is rich keyword research. We identify keywords and phrases
+                    that are relevant to the client's business, products, or services This informs our content strategy
+                    and makes sure the website is optimised for relevant search terms.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -644,7 +669,11 @@
                     <img src="icons/audit.webp" alt="SEO Company in Mumbai">
                     <h3>On-Page SEO</h3>
                 </div>
-                <p>After a complete competitor and keyword research, we proceed to optimise the website's content and SEO technical aspects  Our activities include optimising the title and header tags, fine-tuning the URL Slugs, updating content with appropriate keywords, headings, and bullets, implementing Schema Markup, and more We also carefully configured the internal links to ensure that search engines and visitors can easily access the important pages.</p>
+                <p>After a complete competitor and keyword research, we proceed to optimise the website's content and
+                    SEO technical aspects Our activities include optimising the title and header tags, fine-tuning the
+                    URL Slugs, updating content with appropriate keywords, headings, and bullets, implementing Schema
+                    Markup, and more We also carefully configured the internal links to ensure that search engines and
+                    visitors can easily access the important pages.</p>
             </div>
             <!-- ------------------ -->
             <div class="third-card">
@@ -652,14 +681,20 @@
                     <img src="icons/link-building.webp" alt="SEO Company in Mumbai">
                     <h3>Link Building</h3>
                 </div>
-                <p>Our link-building process enhances the authority and trust of your website. We take great care to ensure that the links are natural, add value, and come from high-authority domains Most of our backlinks come from authoritative content, article submissions, Web 2.0, infographics, case studies, whitepapers, and niche-specific statistical data. We also analyse competitors' backlinks and obtain references as needed.</p>
+                <p>Our link-building process enhances the authority and trust of your website. We take great care to
+                    ensure that the links are natural, add value, and come from high-authority domains Most of our
+                    backlinks come from authoritative content, article submissions, Web 2.0, infographics, case studies,
+                    whitepapers, and niche-specific statistical data. We also analyse competitors' backlinks and obtain
+                    references as needed.</p>
             </div>
             <div class="third-card">
                 <div class="third-card-head">
                     <img src="icons/keyword.webp" alt="SEO Company in Mumbai">
                     <h3>SEO Analytics</h3>
                 </div>
-                <p>SEO analytics is an important aspect of our search engine optimization work. Click-through rates (CTR), average rank position, crawl status,  domain authority, bounce rates, and user acquisition are some of the important metrics we monitor on a regular basis.</p>
+                <p>SEO analytics is an important aspect of our search engine optimization work. Click-through rates
+                    (CTR), average rank position, crawl status, domain authority, bounce rates, and user acquisition are
+                    some of the important metrics we monitor on a regular basis.</p>
             </div>
         </div>
         <div class="third-button">
@@ -669,72 +704,92 @@
 
 
     <?php
-        include 'include/ourClients.php';
+    include 'include/ourClients.php';
     ?>
 
 
-<h3 class="faqs-heading">FAQs</h3>
+    <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
             <h2>How can SEO services benefit my business?</h2>
             <div class="accordion-content">
-                <p>SEO services can help your business by increasing the visibility of your website in search engines, driving more organic traffic to it, and increasing your chances of attracting qualified leads. SEO can assist you in reaching a larger audience and improving the overall quality of your website.</p>
+                <p>SEO services can help your business by increasing the visibility of your website in search engines,
+                    driving more organic traffic to it, and increasing your chances of attracting qualified leads. SEO
+                    can assist you in reaching a larger audience and improving the overall quality of your website.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Why choose Sagar Tech Technical Solution as your SEO agency in Mumbai</h2>
             <div class="accordion-content">
-                <p>Sagar Tech Technical Solution has a track record of providing effective SEO services to clients in Mumbai and beyond. Our SEO experts have extensive knowledge of the most recent SEO trends and best practices, ensuring that your website stays ahead of the competition.</p>
+                <p>Sagar Tech Technical Solution has a track record of providing effective SEO services to clients in
+                    Mumbai and beyond. Our SEO experts have extensive knowledge of the most recent SEO trends and best
+                    practices, ensuring that your website stays ahead of the competition.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How does Sagar Tech Technical Solution approach keyword research?</h2>
             <div class="accordion-content">
-                <p>Keyword research is a critical component of our SEO strategy. We conduct extensive research to find relevant keywords with a high search volume and low competition. By targeting the appropriate keywords, we can help your website rank higher in search results and attract more qualified visitors.</p>
+                <p>Keyword research is a critical component of our SEO strategy. We conduct extensive research to find
+                    relevant keywords with a high search volume and low competition. By targeting the appropriate
+                    keywords, we can help your website rank higher in search results and attract more qualified
+                    visitors.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What is on-page optimization, and how does Sagar Tech Technical Solution implement it?</h2>
             <div class="accordion-content">
-                <p>At Sagar Tech Technical Solution, we optimize your website's meta tags, headings, and content to make it more search engine friendly and improve its ranking potential. On-page optimization is the process of improving your website's visibility in search results by enhancing its content and HTML code.</p>
+                <p>At Sagar Tech Technical Solution, we optimize your website's meta tags, headings, and content to make
+                    it more search engine friendly and improve its ranking potential. On-page optimization is the
+                    process of improving your website's visibility in search results by enhancing its content and HTML
+                    code.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How does Sagar Tech Technical Solution approach off-page optimization?</h2>
             <div class="accordion-content">
-                <p>Off-page optimization involves getting backlinks to your website from other reputable websites. We use a variety of strategies, including guest blogging, social media marketing, and influencer outreach, to create high-quality backlinks that boost your website's authority and ranking.</p>
+                <p>Off-page optimization involves getting backlinks to your website from other reputable websites. We
+                    use a variety of strategies, including guest blogging, social media marketing, and influencer
+                    outreach, to create high-quality backlinks that boost your website's authority and ranking.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Does Sagar Tech Technical Solution offer local SEO services?</h2>
             <div class="accordion-content">
-                <p>Yes, we do provide local SEO services to help businesses improve their visibility in local search results. Our local SEO services include optimizing your Google My Business listing, creating local citations, and optimizing your website for local search terms.</p>
+                <p>Yes, we do provide local SEO services to help businesses improve their visibility in local search
+                    results. Our local SEO services include optimizing your Google My Business listing, creating local
+                    citations, and optimizing your website for local search terms.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How does Sagar Tech Technical Solution approach technical SEO?</h2>
             <div class="accordion-content">
-                <p>Technical SEO involves improving your website's technical elements, such as page speed, mobile friendliness, and structure. We thoroughly audit your website to identify and resolve any technical issues that may be affecting its performance in search results.</p>
+                <p>Technical SEO involves improving your website's technical elements, such as page speed, mobile
+                    friendliness, and structure. We thoroughly audit your website to identify and resolve any technical
+                    issues that may be affecting its performance in search results.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can Sagar Tech Technical Solution provide case studies or examples of successful SEO campaigns?</h2>
             <div class="accordion-content">
-                <p>Yes, we have a portfolio of successful SEO campaigns completed for clients in Mumbai and beyond. These case studies highlight our ability to deliver tangible results through strategic SEO strategies.</p>
+                <p>Yes, we have a portfolio of successful SEO campaigns completed for clients in Mumbai and beyond.
+                    These case studies highlight our ability to deliver tangible results through strategic SEO
+                    strategies.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How can I get started with Sagar Tech Technical Solution's SEO services in Mumbai?</h2>
             <div class="accordion-content">
-               <p>Getting started with our SEO services is simple. Simply send us an email at info@sagartech.co.in or complete the contact form on our website. Our team will schedule a consultation to discuss your SEO requirements and create a personalized strategy for your company.</p>
+                <p>Getting started with our SEO services is simple. Simply send us an email at info@sagartech.co.in or
+                    complete the contact form on our website. Our team will schedule a consultation to discuss your SEO
+                    requirements and create a personalized strategy for your company.</p>
             </div>
         </div>
     </div>
@@ -769,10 +824,10 @@
     // include('blogSectionHome.php');
     ?>
 
-    <?php include("include/footer.php"); ?>
+    <?php include ("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -788,7 +843,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -796,4 +851,5 @@
         })();
     </script>
 </body>
+
 </html>

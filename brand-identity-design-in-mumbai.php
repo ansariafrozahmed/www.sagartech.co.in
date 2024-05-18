@@ -8,14 +8,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We provide full brand identity design for your business, which helps you stand above the competition in logo design, corporate branding, and corporate presentation services">
+    <meta name="description"
+        content="We provide full brand identity design for your business, which helps you stand above the competition in logo design, corporate branding, and corporate presentation services">
     <meta name="keywords" content="brand identity design">
     <meta property="og:type" content="website">
     <meta property="og:title" content="No. 1 Brand Identity Design Services In Mumbai">
     <meta property="og:url" content="https://sagartech.co.in/Ecommerce-Website-Design-Service">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaecommerce.png">
-    <meta property="og:description" content="We provide full brand identity design for your business, which helps you stand above the competition in logo design, corporate branding, and corporate presentation services">
+    <meta property="og:description"
+        content="We provide full brand identity design for your business, which helps you stand above the competition in logo design, corporate branding, and corporate presentation services">
     <!-- Favicon -->
+    <link rel="canonical" href="https://sagartech.co.in/brand-identity-design-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <!-- bootstrap -->
@@ -149,8 +152,8 @@
     .second-brand-sec {
         padding: 50px 100px;
         display: flex;
-        align-items:center;
-        justify-content:center;
+        align-items: center;
+        justify-content: center;
         gap: 50px;
     }
 
@@ -160,14 +163,16 @@
     }
 
     .brand-right {
-        margin:0px auto;
+        margin: 0px auto;
         width: 45%;
     }
+
     .brand-right img {
         height: 100%;
         width: 100%;
-        object-fit:contain;
+        object-fit: contain;
     }
+
     .brand-left h2 {
         font-size: 30px;
         font-weight: 600;
@@ -615,7 +620,7 @@
     <!-- HEADER  -->
     <?php
     $page = 'services';
-    include("include/newHeader.php");
+    include ("include/newHeader.php");
     //include('include/header1.php');
     ?>
     <?php
@@ -631,7 +636,13 @@
             <li>Brand Identity & Designing</li>
         </ul>
         <p class="herosectionpara">
-            In a world where first impressions matter, your brand identity is the visual language of your company. <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> proudly presents its specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and improve the core values of your brand. With a commitment to creativity, innovation, and strategic design, Sagar Tech Technical Solutions is your trusted partner in crafting a visual identity & <a class="interlink" href="graphic-design-services">Graphic Designing Services</a> that connects with your target audience and leaves a lasting impression in the competitive market.
+            In a world where first impressions matter, your brand identity is the visual language of your company. <a
+                class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> proudly presents its
+            specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and
+            improve the core values of your brand. With a commitment to creativity, innovation, and strategic design,
+            Sagar Tech Technical Solutions is your trusted partner in crafting a visual identity & <a class="interlink"
+                href="graphic-design-services">Graphic Designing Services</a> that connects with your target audience
+            and leaves a lasting impression in the competitive market.
         </p>
         <div class="herobuttonsnew">
             <a href="contact" class="button">Quick Enquiry</a>
@@ -650,7 +661,10 @@
         <div class="brand-left">
             <h2>Corporate Brand Identity Design Services</h2>
             <h3 style="color:#ff0808;">Create a visual that inspires others.</h3>
-            <p>Every brand has some unique characteristics that must be defined by the proper use of design, themes, colours, and more.  At Sagar Tech Technical Solution, we make sure your business develops a unique personality and stands out from the competition. We have a talented group of graphic designers, project managers, and video animators dedicated to serving you with the best quality services.</p>
+            <p>Every brand has some unique characteristics that must be defined by the proper use of design, themes,
+                colours, and more. At Sagar Tech Technical Solution, we make sure your business develops a unique
+                personality and stands out from the competition. We have a talented group of graphic designers, project
+                managers, and video animators dedicated to serving you with the best quality services.</p>
             <div class="brand-button">
                 <a href="contact">Contact Now!</a>
                 <!-- <a href="our-portfolio">Request A Quote</a> -->
@@ -665,14 +679,21 @@
 
     <div class="third-brand-sec">
         <h2>Our Brand Identity Design Services</h2>
-        <p>Sagar Tech Technical Solution is a reputed and Award winning company providing outstanding brand identity design services. We offer excellent solutions for creating a unique identity for your company. Whether you need to create a stunning logo, corporate presentations, brochures, or business cards, we are the perfect destination for all types of corporate identity design services.</p>
+        <p>Sagar Tech Technical Solution is a reputed and Award winning company providing outstanding brand identity
+            design services. We offer excellent solutions for creating a unique identity for your company. Whether you
+            need to create a stunning logo, corporate presentations, brochures, or business cards, we are the perfect
+            destination for all types of corporate identity design services.</p>
         <div class="brand-card-div">
             <div class="brand-card">
                 <div class="brand-card-top">
                     <img src="./icons/graphic-designer.webp" alt="brand identity design">
                     <h3>Logo Design Services</h3>
                 </div>
-                <p>In today's competitive business world, your logo is the face of your brand—the first thing people notice and remember. Sagar Tech Technical Solution is excited to provide logo design services that go beyond design. We believe in understanding your brand, target audience, and the story you want to tell. Our team of creative minds ensures that your logo not only attracts attention but also speaks about your brand in a unique and memorable manner.</p>
+                <p>In today's competitive business world, your logo is the face of your brand—the first thing people
+                    notice and remember. Sagar Tech Technical Solution is excited to provide logo design services that
+                    go beyond design. We believe in understanding your brand, target audience, and the story you want to
+                    tell. Our team of creative minds ensures that your logo not only attracts attention but also speaks
+                    about your brand in a unique and memorable manner.</p>
                 <a href="logo-design-services">View Now</a>
             </div>
             <!-- ----------- -->
@@ -681,7 +702,11 @@
                     <img src="./icons/brochure.webp" alt="brand identity design">
                     <h3>Brochure and Promotional Material</h3>
                 </div>
-                <p>In a world dominated by screens, there's something magical about the touch and feel of a well-designed brochure or promotional material.Sagartech Technical Solution is here to make that magic happen for your brand. Our team is all about blending creativity, strategic thinking, and attention to detail to bring your brand to life through visually appealing and memorable materials.</p>
+                <p>In a world dominated by screens, there's something magical about the touch and feel of a
+                    well-designed brochure or promotional material.Sagartech Technical Solution is here to make that
+                    magic happen for your brand. Our team is all about blending creativity, strategic thinking, and
+                    attention to detail to bring your brand to life through visually appealing and memorable materials.
+                </p>
                 <a href="brochure-design-services">View Now</a>
             </div>
             <!-- ----------- -->
@@ -690,7 +715,10 @@
                     <img src="./icons/stationery.webp" alt="brand identity design">
                     <h3>Post Design Services</h3>
                 </div>
-                <p>Your brand as a storyteller in the massive world of social media, where each post serves as a new chapter in your story, Social Media Post Design Services act as the artists, bringing your stories to life with captivating visuals. Let's explore why these services are essential for your brand's success in the digital realm.</p>
+                <p>Your brand as a storyteller in the massive world of social media, where each post serves as a new
+                    chapter in your story, Social Media Post Design Services act as the artists, bringing your stories
+                    to life with captivating visuals. Let's explore why these services are essential for your brand's
+                    success in the digital realm.</p>
                 <a href="social-media-post-design">View Now</a>
             </div>
             <!-- ----------- -->
@@ -699,7 +727,11 @@
                     <img src="./icons/graphic-designer.webp" alt="brand identity design">
                     <h3>Banner Design Services</h3>
                 </div>
-                <p>In the ever-evolving digital and physical marketing, the significance of professional banner design services cannot be overstated. Here's a comprehensive overview of why engaging expert designers is essential for the success of your brand. Banners serve as the initial visual encounter with your brand. Professionally designed banners make an indelible first impression, setting the stage for a memorable and impactful brand experience.</p>
+                <p>In the ever-evolving digital and physical marketing, the significance of professional banner design
+                    services cannot be overstated. Here's a comprehensive overview of why engaging expert designers is
+                    essential for the success of your brand. Banners serve as the initial visual encounter with your
+                    brand. Professionally designed banners make an indelible first impression, setting the stage for a
+                    memorable and impactful brand experience.</p>
                 <a href="banner-design-services">View Now</a>
             </div>
             <!-- ----------- -->
@@ -735,7 +767,9 @@
             <h2>What is brand identity design?</h2>
             <div class="accordion-content">
                 <p>
-                    Brand identity design is the process of developing a visual and ideas identity that represents a company's values, personality, and mission. It includes logos, color schemes, typography, and brand guidelines.
+                    Brand identity design is the process of developing a visual and ideas identity that represents a
+                    company's values, personality, and mission. It includes logos, color schemes, typography, and brand
+                    guidelines.
                 </p>
             </div>
         </div>
@@ -744,7 +778,8 @@
             <h2>Why is brand identity design important for my business?</h2>
             <div class="accordion-content">
                 <p>
-                    Brand identity design distinguishes your brand from competitors, increases brand recognition, and encourages customer trust and loyalty.
+                    Brand identity design distinguishes your brand from competitors, increases brand recognition, and
+                    encourages customer trust and loyalty.
                 </p>
             </div>
         </div>
@@ -753,7 +788,8 @@
             <h2>What services are included in brand identity design at Sagar Tech Technical Solution?</h2>
             <div class="accordion-content">
                 <p>
-                    Our brand identity design services include logo design, color palette selection, typography selection, brand messaging development, and brand guidelines creation.
+                    Our brand identity design services include logo design, color palette selection, typography
+                    selection, brand messaging development, and brand guidelines creation.
                 </p>
             </div>
         </div>
@@ -761,18 +797,20 @@
         <div class="accordion-item">
             <h2>How does Sagar Tech Technical Solution approach brand identity design?</h2>
             <div class="accordion-content">
-                    <p>
-                        We begin by understanding your brand's values, target audience, and competitors. We then create a distinct brand identity that speaks to your target audience and reflects your brand's personality.
-                    </p>
+                <p>
+                    We begin by understanding your brand's values, target audience, and competitors. We then create a
+                    distinct brand identity that speaks to your target audience and reflects your brand's personality.
+                </p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can you help me develop a brand identity from scratch?</h2>
             <div class="accordion-content">
-               <p>
-                    Yes, we can help you create a brand identity from scratch, from defining your brand's values and personality to creating a visual identity that is consistent with your brand.
-               </p>
+                <p>
+                    Yes, we can help you create a brand identity from scratch, from defining your brand's values and
+                    personality to creating a visual identity that is consistent with your brand.
+                </p>
             </div>
         </div>
 
@@ -780,7 +818,8 @@
             <h2>Do you offer brand identity design services for specific industries or niches?</h2>
             <div class="accordion-content">
                 <p>
-                    Yes, we have experience designing brand identities for a variety of industries and can customize our services to meet your specific needs or niche.
+                    Yes, we have experience designing brand identities for a variety of industries and can customize our
+                    services to meet your specific needs or niche.
                 </p>
             </div>
         </div>
@@ -788,9 +827,10 @@
         <div class="accordion-item">
             <h2>Can you provide examples of successful brand identity design projects you have completed?</h2>
             <div class="accordion-content">
-               <p>
-                    Yes, we can provide you with case studies and examples from previous brand identity design projects that show our expertise and skills.
-               </p>
+                <p>
+                    Yes, we can provide you with case studies and examples from previous brand identity design projects
+                    that show our expertise and skills.
+                </p>
             </div>
         </div>
 
@@ -798,7 +838,8 @@
             <h2>Do you offer any additional services along with brand identity design?</h2>
             <div class="accordion-content">
                 <p>
-                    Yes, we offer a range of additional services, including website design, marketing collateral design, and digital marketing services, to help you build a strong and cohesive brand presence.
+                    Yes, we offer a range of additional services, including website design, marketing collateral design,
+                    and digital marketing services, to help you build a strong and cohesive brand presence.
                 </p>
             </div>
         </div>
@@ -807,7 +848,8 @@
             <h2>How can I get started with brand identity design services at Sagar Tech Technical Solution?</h2>
             <div class="accordion-content">
                 <p>
-                    To get started, just contact us through our website or by phone. We will schedule a consultation to discuss your brand identity design requirements and provide you with a quote based on them.
+                    To get started, just contact us through our website or by phone. We will schedule a consultation to
+                    discuss your brand identity design requirements and provide you with a quote based on them.
                 </p>
             </div>
         </div>
@@ -838,11 +880,11 @@
     ?>
 
 
-    <?php include("include/footer.php"); ?>
+    <?php include ("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -858,7 +900,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -866,4 +908,5 @@
         })();
     </script>
 </body>
+
 </html>

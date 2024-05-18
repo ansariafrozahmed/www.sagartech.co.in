@@ -12,15 +12,18 @@ include "include/config.php";
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="As the best bulk SMS service provider in India, we also provide WhatsApp bulk messages, which help businesses gain new clients and communicate with existing clients.">
+    <meta name="description"
+        content="As the best bulk SMS service provider in India, we also provide WhatsApp bulk messages, which help businesses gain new clients and communicate with existing clients.">
     <meta name="keywords" content="bulk sms service provider">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="India’s No. 1 Bulk SMS Service Provider and WhatsApp Bulk Message Provider">
     <meta property="og:url" content="https://sagartech.co.in/bulk-sms-service">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/bulk-sms-logo.png">
-    <meta property="og:description" content="As the best bulk SMS service provider in India, we also provide WhatsApp bulk messages, which help businesses gain new clients and communicate with existing clients.">
+    <meta property="og:description"
+        content="As the best bulk SMS service provider in India, we also provide WhatsApp bulk messages, which help businesses gain new clients and communicate with existing clients.">
     <!-- Favicon -->
+    <link rel="canonical" href="https://sagartech.co.in/bulk-sms-service-provider-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -517,10 +520,11 @@ include "include/config.php";
             border-bottom: 1px solid red;
         }
     }
+
     .faq-headinggg {
-        font-size:40px;
-        font-weight:600;
-        padding:15px 0px;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 15px 0px;
     }
 </style>
 
@@ -550,7 +554,11 @@ include "include/config.php";
             <li>Web design company in mumbai</li>
         </ul>
         <p class="herosectionpara">
-            In today's fast-paced digital world, effective communication is more critical than ever. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Techincal Solutions</a>, we take pride in being your ultimate partner for state-of-the-art communication solutions. Whether you're seeking the expertise of a Bulk SMS Service Provider or in need of a reliable WhatsApp Bulk Message service, rest assured, we've got your back.
+            In today's fast-paced digital world, effective communication is more critical than ever. At <a
+                class="interlink" href="https://sagartech.co.in/">Sagar Tech Techincal Solutions</a>, we take pride in
+            being your ultimate partner for state-of-the-art communication solutions. Whether you're seeking the
+            expertise of a Bulk SMS Service Provider or in need of a reliable WhatsApp Bulk Message service, rest
+            assured, we've got your back.
         </p>
         <div class="herobuttonsnew">
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -565,25 +573,39 @@ include "include/config.php";
             <div class="left-content">
                 <h2>Empowering Your Communication Strategy</h2>
                 <h4>1. Bulk SMS Service Provider:</h4>
-                <p>Imagine the power of reaching your audience instantly with a simple text message. Sagar Tech, your trusted Bulk SMS Service Provider, turns this into reality. Whether you're running promotions, sending important updates, or actively engaging with your clients, our services ensure that your messages are not only delivered promptly but also make a lasting impact.</p>
+                <p>Imagine the power of reaching your audience instantly with a simple text message. Sagar Tech, your
+                    trusted Bulk SMS Service Provider, turns this into reality. Whether you're running promotions,
+                    sending important updates, or actively engaging with your clients, our services ensure that your
+                    messages are not only delivered promptly but also make a lasting impact.</p>
                 <h4>Why Choose Sagar Tech for Bulk SMS:</h4>
                 <ul>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Instant Delivery: Reach your audience in a matter of seconds.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Customizable Sender IDs: Add a personal touch to your messages.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Detailed Analytics: Effortlessly monitor delivery and engagement.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Two-Way Messaging: Foster real-time, interactive communication.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Instant Delivery: Reach your audience in a matter of seconds.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Customizable Sender IDs: Add a personal touch to your messages.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Detailed Analytics: Effortlessly monitor delivery and engagement.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Two-Way Messaging: Foster real-time, interactive communication.</li>
                 </ul>
             </div>
             <hr>
             <div class="left-content">
                 <h4>2. WhatsApp Bulk Message:</h4>
-                <p>Engaging with your audience on a personal level has never been this straightforward. As your dedicated WhatsApp Bulk Message provider, Sagar Tech offers a user-friendly interface, personalized messaging options, scheduling capabilities, and real-time analytics. Connect with your customers where they are most active – on WhatsApp.</p>
+                <p>Engaging with your audience on a personal level has never been this straightforward. As your
+                    dedicated WhatsApp Bulk Message provider, Sagar Tech offers a user-friendly interface, personalized
+                    messaging options, scheduling capabilities, and real-time analytics. Connect with your customers
+                    where they are most active – on WhatsApp.</p>
                 <h4>Why Choose Sagar Tech for WhatsApp Bulk Message:</h4>
                 <ul>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Instant Delivery: Reach your audience in a matter of seconds.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Customizable Sender IDs: Add a personal touch to your messages.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Detailed Analytics: Effortlessly monitor delivery and engagement.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />Two-Way Messaging: Foster real-time, interactive communication.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Instant Delivery: Reach your audience in a matter of seconds.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Customizable Sender IDs: Add a personal touch to your messages.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Detailed Analytics: Effortlessly monitor delivery and engagement.</li>
+                    <li><img width="25" height="25" src="https://img.icons8.com/fluency/48/checkmark--v1.png"
+                            alt="checkmark--v1" />Two-Way Messaging: Foster real-time, interactive communication.</li>
                 </ul>
             </div>
         </div>
@@ -593,25 +615,33 @@ include "include/config.php";
                 <div class="linkkss">
                     <ul>
                         <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-chevron-right">
                                 <path d="m9 18 6-6-6-6" />
                             </svg>
-                            <a href="web-development-company">Web Development</a>
+                            <a href="web-development-company-in-mumbai">Web Development</a>
                         </li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-chevron-right">
                                 <path d="m9 18 6-6-6-6" />
                             </svg>
                             <a href="mobile-app-development-company">App Development</a>
                         </li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-chevron-right">
                                 <path d="m9 18 6-6-6-6" />
                             </svg>
                             <a href="graphic-design-services">Graphic Designing</a>
                         </li>
-                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                        <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-chevron-right">
                                 <path d="m9 18 6-6-6-6" />
                             </svg>
-                            <a href="digital-marketing-company">Digital Marketing</a>
+                            <a href="digital-marketing-company-in-mumbai">Digital Marketing</a>
                         </li>
                     </ul>
                 </div>
@@ -623,7 +653,12 @@ include "include/config.php";
 
     <div class="why-content">
         <h2>Why Sagar Tech for Bulk Message?</h2>
-        <P class="pp">Transform your communication strategy with Sagar Tech's bulk SMS and WhatsApp bulk message services. Experience the power of effective, reliable, and scalable communication solutions. We are leading <a class="interlink" href="web-development-company">Web Development</a> & <a class="interlink" href="digital-marketing-company">Digital Marketing</a> Company in Mumbai. Get in touch with us today, and let's elevate your messaging strategy together!
+        <P class="pp">Transform your communication strategy with Sagar Tech's bulk SMS and WhatsApp bulk message
+            services. Experience the power of effective, reliable, and scalable communication solutions. We are leading
+            <a class="interlink" href="web-development-company-in-mumbai">Web Development</a> & <a class="interlink"
+                href="digital-marketing-company-in-mumbai">Digital Marketing</a> Company in Mumbai. Get in touch with us
+            today,
+            and let's elevate your messaging strategy together!
         </P>
         <div class="why-list">
             <div class="listt">
@@ -645,21 +680,24 @@ include "include/config.php";
                     <img src="./images/develop.png" height="50" alt="bulk sms service provider">
                     <h4>Customer-Centric Approach</h4>
                 </span>
-                <p>Your satisfaction is our top priority. Our dedicated customer support team is here to assist you at every step.</p>
+                <p>Your satisfaction is our top priority. Our dedicated customer support team is here to assist you at
+                    every step.</p>
             </div>
             <div class="listt">
                 <span>
                     <img src="./images/shield.png" height="50" alt="bulk sms service provider">
                     <h4>Security and Compliance</h4>
                 </span>
-                <p>Your data's security is paramount to us. We adhere to strict security measures and industry regulations to protect your information.</p>
+                <p>Your data's security is paramount to us. We adhere to strict security measures and industry
+                    regulations to protect your information.</p>
             </div>
             <div class="listt">
                 <span>
                     <img src="./images/scalable.png" height="50" alt="bulk sms service provider">
                     <h4>Scalability</h4>
                 </span>
-                <p>Whether you're a startup or an enterprise, our services scale to meet your growing communication needs.</p>
+                <p>Whether you're a startup or an enterprise, our services scale to meet your growing communication
+                    needs.</p>
             </div>
         </div>
     </div>
@@ -669,63 +707,78 @@ include "include/config.php";
         <div class="accordion-item">
             <h2>What makes Sagar Tech's WhatsApp bulk message sender service unique?</h2>
             <div class="accordion-content">
-                <p>Sagar Tech's WhatsApp bulk message sender service stands out for its user-friendly interface, personalized messaging features, and real-time analytics. It provides businesses with a comprehensive solution for effective communication on the widely used WhatsApp platform.
+                <p>Sagar Tech's WhatsApp bulk message sender service stands out for its user-friendly interface,
+                    personalized messaging features, and real-time analytics. It provides businesses with a
+                    comprehensive solution for effective communication on the widely used WhatsApp platform.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How does Sagar Tech distinguish itself as a bulk SMS service provider?</h2>
             <div class="accordion-content">
-                <p>As a bulk SMS service provider, Sagar Tech stands out with its commitment to reliability, scalability, and innovative solutions. Our user-friendly platform and personalized messaging options make us a preferred choice for businesses of all sizes.
+                <p>As a bulk SMS service provider, Sagar Tech stands out with its commitment to reliability,
+                    scalability, and innovative solutions. Our user-friendly platform and personalized messaging options
+                    make us a preferred choice for businesses of all sizes.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can you elaborate on the term "bulk message services ?</h2>
             <div class="accordion-content">
-                <p>Bulk message services" refer to the capability of sending a large volume of messages simultaneously. Sagar Tech's bulk message services cater to various messaging formats, ensuring efficient communication for promotional campaigns, updates, and announcements
+                <p>Bulk message services" refer to the capability of sending a large volume of messages simultaneously.
+                    Sagar Tech's bulk message services cater to various messaging formats, ensuring efficient
+                    communication for promotional campaigns, updates, and announcements
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How do Sagar Tech's bulk message services benefit businesses</h2>
             <div class="accordion-content">
-                <p>Sagar Tech's bulk message services benefit businesses by offering a cost-effective solution for efficient communication. Whether for marketing promotions, transactional updates, or personalized interactions, our services ensure impactful and timely messaging.
+                <p>Sagar Tech's bulk message services benefit businesses by offering a cost-effective solution for
+                    efficient communication. Whether for marketing promotions, transactional updates, or personalized
+                    interactions, our services ensure impactful and timely messaging.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can Sagar Tech's bulk SMS service be personalized for individual users?</h2>
             <div class="accordion-content">
-                <p>Absolutely. Sagar Tech's bulk SMS service supports personalized messaging, allowing businesses to customize messages for more engaging and meaningful communication with their audience.
+                <p>Absolutely. Sagar Tech's bulk SMS service supports personalized messaging, allowing businesses to
+                    customize messages for more engaging and meaningful communication with their audience.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How does Sagar Tech's WhatsApp bulk message sender service contribute to effective marketing?</h2>
             <div class="accordion-content">
-                <p>Sagar Tech's WhatsApp bulk message sender service contributes to effective marketing by enabling businesses to engage with their audience on a widely-used platform directly. With personalized messaging and real-time analytics, it becomes a powerful tool for impactful marketing campaigns.
+                <p>Sagar Tech's WhatsApp bulk message sender service contributes to effective marketing by enabling
+                    businesses to engage with their audience on a widely-used platform directly. With personalized
+                    messaging and real-time analytics, it becomes a powerful tool for impactful marketing campaigns.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>. How can businesses get started with Sagar Tech's bulk SMS and WhatsApp bulk message services?</h2>
             <div class="accordion-content">
-                <p>Initiating services with Sagar Tech is simple. Businesses can reach out to our team, and we will guide them through the process, helping them choose the right service for their needs and providing any necessary assistance to set up effective campaigns.
+                <p>Initiating services with Sagar Tech is simple. Businesses can reach out to our team, and we will
+                    guide them through the process, helping them choose the right service for their needs and providing
+                    any necessary assistance to set up effective campaigns.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Do you provide ongoing website analytics and performance tracking?</h2>
             <div class="accordion-content">
-                <p>We can integrate analytics tools such as Google Analytics to track website performance, user behavior, and other key metrics, providing insights for continuous improvement.
+                <p>We can integrate analytics tools such as Google Analytics to track website performance, user
+                    behavior, and other key metrics, providing insights for continuous improvement.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can you assist with domain registration and hosting services?</h2>
             <div class="accordion-content">
-                <p>While our primary focus is on web development, we can provide guidance on domain registration and recommend reliable hosting services to suit your needs.
+                <p>While our primary focus is on web development, we can provide guidance on domain registration and
+                    recommend reliable hosting services to suit your needs.
             </div>
         </div>
     </div>
@@ -752,11 +805,11 @@ include "include/config.php";
     // include('blogSectionHome.php')
     ?>
 
-    <?php include("include/footer.php"); ?>
+    <?php include ("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -772,7 +825,7 @@ include "include/config.php";
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -780,4 +833,5 @@ include "include/config.php";
         })();
     </script>
 </body>
+
 </html>
