@@ -10,8 +10,8 @@
 // define('DB_PASS', '');
 // define('DB_NAME', 'sagartech');
 
-define('WEB_URL', "http://localhost/sagartech.co.in/");
-// define('WEB_URL', "https://sagartech.co.in/");
+// define('WEB_URL', "http://localhost/sagartech.co.in/");
+define('WEB_URL', "https://sagartech.co.in/");
 
 // error_reporting(error_reporting() & ~E_WARNING);
 
@@ -22,4 +22,3 @@ define('WEB_URL', "http://localhost/sagartech.co.in/");
 // 	http_response_code(400);
 // 	echo "Failed to connect to MySQL: " . mysqli_connect_error();
 // }
-?>

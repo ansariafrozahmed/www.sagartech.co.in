@@ -779,7 +779,8 @@ include ('include/config.php');
             <h2>Testimonial From Our <span style="color:#ff0808;">Valuable Clients</span></h2>
             <div class="inner-testimonial">
                 <div class="inner-left">
-                    <a href="https://www.youtube.com/watch?v=MPSiwugCZZw" target="_blank">
+                    <a href="https://www.youtube.com/watch?v=YNW7g-z2am4" target="_blank">
+
                         <img class="thumbnail" src="./image/homepage/thumbnail2.webp" alt="" srcset="">
                         <img class="icon"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"
@@ -802,7 +803,8 @@ include ('include/config.php');
             <hr>
             <div class="inner-testimonial">
                 <div class="inner-left">
-                    <a href="https://www.youtube.com/watch?v=YNW7g-z2am4" target="_blank">
+                    <a href="https://www.youtube.com/watch?v=MPSiwugCZZw" target="_blank">
+
                         <img class="thumbnail" src="./image/homepage/thumbnail.webp" alt="" srcset="">
                         <img class="icon"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"

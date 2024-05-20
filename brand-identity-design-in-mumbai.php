@@ -641,7 +641,8 @@
             specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and
             improve the core values of your brand. With a commitment to creativity, innovation, and strategic design,
             Sagar Tech Technical Solutions is your trusted partner in crafting a visual identity & <a class="interlink"
-                href="graphic-design-services">Graphic Designing Services</a> that connects with your target audience
+                href="graphic-design-services-in-mumbai">Graphic Designing Services</a> that connects with your target
+            audience
             and leaves a lasting impression in the competitive market.
         </p>
         <div class="herobuttonsnew">
@@ -694,7 +695,7 @@
                     go beyond design. We believe in understanding your brand, target audience, and the story you want to
                     tell. Our team of creative minds ensures that your logo not only attracts attention but also speaks
                     about your brand in a unique and memorable manner.</p>
-                <a href="logo-design-services">View Now</a>
+                <a href="logo-design-services-in-mumbai">View Now</a>
             </div>
             <!-- ----------- -->
             <div class="brand-card">
@@ -707,7 +708,7 @@
                     magic happen for your brand. Our team is all about blending creativity, strategic thinking, and
                     attention to detail to bring your brand to life through visually appealing and memorable materials.
                 </p>
-                <a href="brochure-design-services">View Now</a>
+                <a href="brochure-design-services-in-mumbai">View Now</a>
             </div>
             <!-- ----------- -->
             <div class="brand-card">
@@ -719,7 +720,7 @@
                     chapter in your story, Social Media Post Design Services act as the artists, bringing your stories
                     to life with captivating visuals. Let's explore why these services are essential for your brand's
                     success in the digital realm.</p>
-                <a href="social-media-post-design">View Now</a>
+                <a href="social-media-post-design-in-mumbai">View Now</a>
             </div>
             <!-- ----------- -->
             <div class="brand-card">
@@ -732,7 +733,7 @@
                     essential for the success of your brand. Banners serve as the initial visual encounter with your
                     brand. Professionally designed banners make an indelible first impression, setting the stage for a
                     memorable and impactful brand experience.</p>
-                <a href="banner-design-services">View Now</a>
+                <a href="banner-design-services-in-mumbai">View Now</a>
             </div>
             <!-- ----------- -->
         </div>

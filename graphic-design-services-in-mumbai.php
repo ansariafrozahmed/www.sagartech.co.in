@@ -838,7 +838,7 @@
       embracing a commitment to excellence, creativity, and a personalized approach that transforms your brand into a
       visual masterpiece.</p>
     <div class="typesofcard">
-      <a href="logo-design-services">
+      <a href="logo-design-services-in-mumbai">
         <div class="carddd">
           <img src="https://cdn-icons-png.flaticon.com/512/3419/3419271.png" height="70px"
             alt="graphic design services">
@@ -849,7 +849,7 @@
             go beyond just looking good; they're crafted to tell your brand's story and leave a lasting impression.</p>
         </div>
       </a>
-      <a href="brochure-design-services">
+      <a href="brochure-design-services-in-mumbai">
         <div class="carddd">
           <img src="https://cdn-icons-png.flaticon.com/512/6679/6679083.png" height="70px"
             alt="graphic design services">
@@ -861,7 +861,7 @@
             and impactful marketing collateral.</p>
         </div>
       </a>
-      <a href="social-media-post-design">
+      <a href="social-media-post-design-in-mumbai">
         <div class="carddd">
           <img src="https://cdn-icons-png.flaticon.com/512/3391/3391272.png" height="70px"
             alt="graphic design services">
@@ -873,7 +873,7 @@
             visuals that not only look good but also resonate with your audience.</p>
         </div>
       </a>
-      <a href="banner-design-services">
+      <a href="banner-design-services-in-mumbai">
         <div class="carddd">
           <img src="https://www.pngitem.com/pimgs/m/182-1827419_website-banner-icon-png-transparent-png.png"
             height="70px" alt="graphic design services">

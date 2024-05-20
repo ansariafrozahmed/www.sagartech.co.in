@@ -18,7 +18,7 @@ include "include/config.php";
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="India’s No. 1 Bulk SMS Service Provider and WhatsApp Bulk Message Provider">
-    <meta property="og:url" content="https://sagartech.co.in/bulk-sms-service">
+    <meta property="og:url" content="https://sagartech.co.in/bulk-sms-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/bulk-sms-logo.png">
     <meta property="og:description"
         content="As the best bulk SMS service provider in India, we also provide WhatsApp bulk messages, which help businesses gain new clients and communicate with existing clients.">
@@ -627,14 +627,14 @@ include "include/config.php";
                                 class="lucide lucide-chevron-right">
                                 <path d="m9 18 6-6-6-6" />
                             </svg>
-                            <a href="mobile-app-development-company">App Development</a>
+                            <a href="mobile-app-development-company-in-mumbai">App Development</a>
                         </li>
                         <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 class="lucide lucide-chevron-right">
                                 <path d="m9 18 6-6-6-6" />
                             </svg>
-                            <a href="graphic-design-services">Graphic Designing</a>
+                            <a href="graphic-design-services-in-mumbai">Graphic Designing</a>
                         </li>
                         <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                                 fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"

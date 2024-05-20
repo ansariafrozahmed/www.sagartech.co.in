@@ -12,7 +12,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Local SEO Services To Grow Your Business in Your Local Area">
-    <meta property="og:url" content="https://sagartech.co.in/local-seo-service-india">
+    <meta property="og:url" content="https://sagartech.co.in/local-seo-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metalseo.png">
     <meta property="og:description"
         content="SagarTech Technical Solution is an award winning SEO company in Mumbai. We provide professional local SEO services at affordable prices.">

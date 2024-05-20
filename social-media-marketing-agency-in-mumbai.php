@@ -12,7 +12,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Best Social Media Marketing Agency in Mumbai | Best SMM Services">
-    <meta property="og:url" content="https://sagartech.co.in/google-ads-service">
+    <meta property="og:url" content="https://sagartech.co.in/google-ads-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metasmm.png">
     <meta property="og:description"
         content="We are a leading social media marketing agency in Mumbai, offering various services on social media. With the help of our SMM service, you can grow your business.">

@@ -15,7 +15,7 @@ include 'include/config.php';
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Top notch Logo Design Services In Mumbai Let’s  Create the Master Piece">
-    <meta property="og:url" content="https://sagartech.co.in/logo-design-service">
+    <meta property="og:url" content="https://sagartech.co.in/logo-design-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/logo-page-logo.png">
     <meta property="og:description"
         content="We are leading logo design services provider in Mumbai. We are experts in turning your visionary dream into reality but providing the best logo services">
@@ -720,7 +720,8 @@ include 'include/config.php';
                 well-designed logo ensures instant recognition, making your brand more memorable. Understanding the
                 importance of logo design is essential for making an unforgettable impression on your target audience,
                 regardless of the size of your business. There we come Sagar Tech Technical Solutions leading <a
-                    class="interlink" href="graphic-design-services">Graphic Designing Service</a> provider.</p>
+                    class="interlink" href="graphic-design-services-in-mumbai">Graphic Designing Service</a> provider.
+                </p>
                 <div class="herobuttonsnew">
                     <a href="contact" class="buttonsss">Let's Discuss Your Requirement</a>
                 </div>

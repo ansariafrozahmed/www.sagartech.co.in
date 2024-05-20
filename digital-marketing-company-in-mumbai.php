@@ -894,7 +894,8 @@ s0.parentNode.insertBefore(s1,s0);
       <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is an award-winning 🏆
       Digital marketing Company right here in the heart of Mumbai. We help To Drive Sales on Your Website By Providing
       Expert Digital Marketing Solutions. We Provide Services Like <a class="interlink"
-        href="google-ads-services">Google Ads</a>, <a class="interlink" href="seo-company-in-mumbai">Search Engine
+        href="google-ads-services-in-mumbai">Google Ads</a>, <a class="interlink" href="seo-company-in-mumbai">Search
+        Engine
         Optimization</a>, <a class="interlink" href="social-media-marketing-agency">Social Media Ads</a>, and more.
     </p>
     <div class="herobuttonsnew">
@@ -987,7 +988,7 @@ s0.parentNode.insertBefore(s1,s0);
       Business to Grow and get Maximum maximum number of sales Our Digital Marketing Company First understand your
       Business then deliver top- notch solutions</p>
     <div class="typesofcard">
-      <a href="google-ads-services">
+      <a href="google-ads-services-in-mumbai">
         <div class="carddd">
           <img src="https://static-00.iconduck.com/assets.00/google-ads-icon-2048x1837-4vbvpswm.png" height="70px"
             alt="Digital Marketing Company">
@@ -1023,7 +1024,7 @@ s0.parentNode.insertBefore(s1,s0);
             Tech Techinal is one of the best social media agency in mumbai.</p>
         </div>
       </a>
-      <a href="social-media-optimization">
+      <a href="social-media-optimization-agency-in-mumbai">
         <div class="carddd">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTXcUfhrOYNCbTYm7CL2-UxOVdVtxWzotM1A&usqp=CAU"
             height="70px" alt="Digital Marketing Company">

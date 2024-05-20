@@ -172,10 +172,10 @@ include ('config.php');
 			<h4>Quick Links</h4>
 			<ul>
 				<li><a href="<?= WEB_URL ?>web-development-company-in-mumbai">Web Development</a></li>
-				<li><a href="<?= WEB_URL ?>mobile-app-development-company">App Development</a></li>
+				<li><a href="<?= WEB_URL ?>mobile-app-development-company-in-mumbai">App Development</a></li>
 				<li><a href="<?= WEB_URL ?>digital-marketing-company-in-mumbai">Digital Marketing</a></li>
-				<li><a href="<?= WEB_URL ?>graphic-design-services">Graphic Designing</a></li>
-				<li><a href="<?= WEB_URL ?>bulk-sms-service-provider">Bulk SMS</a></li>
+				<li><a href="<?= WEB_URL ?>graphic-design-services-in-mumbai">Graphic Designing</a></li>
+				<li><a href="<?= WEB_URL ?>bulk-sms-service-provider-in-mumbai">Bulk SMS</a></li>
 			</ul>
 		</div>
 		<div class="footer-col">
