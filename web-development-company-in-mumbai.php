@@ -185,9 +185,9 @@
   /* Second Section */
 
   .newsecondsection {
-    padding: 20px 60px;
+    padding: 50px 60px;
     display: flex;
-    gap: 20px;
+    gap: 50px;
     align-items: center;
     justify-content: start;
   }
@@ -978,7 +978,11 @@
       </div>
     </div>
     <div class="right">
-      <img src="./banner/business.webp" alt="Web Development">
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- <img src="./banner/business.webp" alt="Web Development"> -->
     </div>
   </div>
 

@@ -847,7 +847,91 @@
     }
   }
 
-  */
+  .newvideo {
+    display: flex;
+    align-items: center;
+    gap: 20px 60px;
+    width: 100%;
+    padding: 50px;
+    background-color: #F2F2F2;
+  }
+
+  .newvideoinner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .newvideoinner h2 {
+    font-weight: 600;
+  }
+
+  .newvideovideo {
+    width: 50%;
+
+  }
+
+  .newvideobutton {
+    background-color: #ff0808;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ff0808;
+    display: inline-block;
+  }
+
+  .newvideovideo iframe {
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  @media (max-width: 767px) {
+    .newvideo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      width: 100%;
+      padding: 30px 20px;
+    }
+
+    .newvideoinner {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: start;
+      justify-content: start;
+    }
+
+    .newvideoinner h2 {
+      font-weight: 600;
+    }
+
+    .newvideovideo {
+      width: 100%;
+    }
+
+    .newvideobutton {
+      background-color: #ff0808;
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: 1px solid #ff0808;
+      display: inline-block;
+    }
+
+    .newvideovideo iframe {
+      width: 100%;
+      height: 200px;
+    }
+  }
 </style>
 
 <body>
@@ -972,6 +1056,27 @@ s0.parentNode.insertBefore(s1,s0);
     </div>
   </div>
 
+
+  <div class="newvideo">
+    <div class="newvideoinner">
+      <h2>What can we do for you?</h2>
+      <span class="newvideotext">
+        We offer continuous support and maintenance services to keep your E-Commerce website up-to-date, secure,
+        and
+        running seamlessly. This ensures a positive experience for both you and your customers.
+      </span>
+      <span>We would be happy to discuss the project with you in person</span>
+      <div class="newvideobutton">
+        <a href="contact">Lets Connect</a>
+      </div>
+    </div>
+    <div class="newvideovideo">
+      <iframe src="https://www.youtube.com/embed/_pwbc9jbHaY?si=G9X2-2E4Igz8gSKb" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
 
 
   <?php
