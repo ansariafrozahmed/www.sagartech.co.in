@@ -1,5 +1,5 @@
 <?php
-include("../include/config.php");
+include ("../include/config.php");
 ?>
 <!doctype html>
 <html lang="en">
@@ -10,7 +10,8 @@ include("../include/config.php");
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
+    <meta name="description"
+        content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
     <!-- bootstrap -->
@@ -44,8 +45,6 @@ include("../include/config.php");
     </script>
 </head>
 <style>
-
-
     .welcometo {
         padding: 50px;
         text-align: center;
@@ -463,18 +462,18 @@ include("../include/config.php");
     }
 
     .fifthsection {
-        line-height:normal;
+        line-height: normal;
         padding: 50px;
         background-color: #f2f2f2;
         text-align: center;
     }
-    
+
 
     .fifthsection h2 {
         font-size: 38px;
         font-weight: 700;
     }
-    
+
 
     .logosec {
         padding: 30px;
@@ -513,8 +512,6 @@ include("../include/config.php");
             gap: 15px;
         }
     }
-    
-
 </style>
 
 <body>
@@ -527,14 +524,18 @@ include("../include/config.php");
 
     <?php
     $page = 'portfolio';
-    include("../include/newHeader.php");
+    include ("../include/newHeader.php");
     ?>
 
-    <section style="background-image: url('../portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;" class="banner-content">
+    <section
+        style="background-image: url('../portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;"
+        class="banner-content">
         <h2>Post Portfolio</h2>
         <ul class="breadcrumbdiv">
             <li><a href="https://sagartech.co.in/">Home</a></li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
             <li style="color: white;">Social Media Post</li>
@@ -599,43 +600,46 @@ include("../include/config.php");
         <h2 style="text-transform:uppercase;">Our Designed <span style="color:#FF0808;">Social Media Posts</span></h2>
         <div class="logosec">
             <?php
-      $imageUrls = [
-        "../social-media-mockup/1.webp",
-        "../social-media-mockup/2.webp",
-        "../social-media-mockup/3.webp",
-        "../social-media-mockup/4.webp",
-        "../social-media-mockup/5.webp",
-        "../social-media-mockup/6.webp",
-        "../social-media-mockup/7.webp",
-        "../social-media-mockup/8.webp",
-        "../social-media-mockup/9.webp",
-      ];
+            $imageUrls = [
+                "../social-media-mockup/1.webp",
+                "../social-media-mockup/2.webp",
+                "../social-media-mockup/3.webp",
+                "../social-media-mockup/4.webp",
+                "../social-media-mockup/5.webp",
+                "../social-media-mockup/6.webp",
+                "../social-media-mockup/7.webp",
+                "../social-media-mockup/8.webp",
+                "../social-media-mockup/9.webp",
+                "../social-media-mockup/10.webp",
+                "../social-media-mockup/11.webp",
+                "../social-media-mockup/12.webp",
+            ];
 
-      foreach ($imageUrls as $imageUrl) {
-        echo '<div class="imgdiv">';
-        echo '<img src="' . $imageUrl . '" alt="Social Media Mockup">';
-        echo '</div>';
-      }
-        ?>
+            foreach ($imageUrls as $imageUrl) {
+                echo '<div class="imgdiv">';
+                echo '<img src="' . $imageUrl . '" alt="Social Media Mockup">';
+                echo '</div>';
+            }
+            ?>
         </div>
     </div>
 
-    
 
 
-    
+
+
 
     <?php
-    include("../include/footer.php");
+    include ("../include/footer.php");
     ?>
-    
+
 
 
     <script src="../js/jquery.min.js"></script>
-    
+
     <script src="../js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -651,7 +655,7 @@ include("../include/config.php");
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
