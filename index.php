@@ -44,6 +44,7 @@ include ('include/config.php');
         <meta property="og:site_name" content="Sagartech - Technical Solution">
         <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
         <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
+        <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
         <!-- Meta Pixel Code -->
         <script>
             ! function (f, b, e, v, n, t, s) {

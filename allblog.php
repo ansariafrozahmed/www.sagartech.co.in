@@ -3,7 +3,7 @@
 <?php
 
 // API endpoint URL
-$api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/posts?per_page=8';
+$api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/posts?per_page=100';
 
 // Initialize cURL session
 $ch = curl_init($api_url);
@@ -44,9 +44,11 @@ if ($response) {
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta name="description"
+        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
 
-    <meta name="keywords" content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
+    <meta name="keywords"
+        content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
 Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
 Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
 
@@ -64,7 +66,8 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
-    <meta property="og:description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta property="og:description"
+        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
     <meta property="og:url" content="https://sagartech.co.in/">
     <meta property="og:site_name" content="Sagartech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
@@ -97,7 +100,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         padding: 40px;
         display: grid;
         width: 100%;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 30px;
     }
 
@@ -239,6 +242,77 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
             font-weight: 600;
         }
     }
+
+    .card {
+        width: 100%;
+        height: auto;
+        background: #fff;
+        border-radius: 1.5rem;
+        padding: 1.2rem;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .card-img-holder {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .card-img-holder img {
+        width: 100%;
+        height: 11rem;
+        max-height: 11rem;
+        object-fit: cover;
+        border-radius: 1.5rem;
+    }
+
+    .blog-title {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        color: #22215B;
+        line-height: normal;
+        font-size: 1.4rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .description {
+        color: #22215B80;
+        font-size: 1rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .blog-time {
+        font-size: .8rem;
+        color: #22215B;
+    }
+
+    .options {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+
+    .options span {
+        font-weight: 600;
+        color: #22215B;
+    }
+
+    .btn {
+        font-size: 1rem;
+        border-radius: .5rem;
+        font-weight: 400;
+        background: #EEF7FE;
+        color: #22215B;
+        cursor: pointer;
+    }
 </style>
 
 <body>
@@ -246,7 +320,8 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     <?php $page = 'blogs';
     include 'include/newHeader.php' ?>
 
-    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?w=996&t=st=1703225602~exp=1703226202~hmac=f67e8bbd5179b67cddcc5d59140a8ef5d7e9086acd3e1d5e231fd78bf0050762'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
+        style="background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?w=996&t=st=1703225602~exp=1703226202~hmac=f67e8bbd5179b67cddcc5d59140a8ef5d7e9086acd3e1d5e231fd78bf0050762'); background-position: center; background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-12">
@@ -265,40 +340,47 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
     <!-- Main Section -->
     <section class="main">
         <?php foreach ($data as $item) {
-        ?>
-            <div class="blogcard">
-                <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
-                    <div class="blogimg">
-                        <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>" alt="">
-                    </div>
-                </a>
-                <div class=" blogcardtext">
-                    <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
-                        <h5>
-                            <?php echo $item['title']['rendered'] ?>
-                        </h5>
-                        <!-- <p> -->
-                        <?php echo $item['excerpt']['rendered'] ?>
-                        <!-- </p> -->
-                    </a>
-                    <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
-                        <span class="readmore">Read more....</span>
-                    </a>
+            ?>
+            <div class="card">
+                <div class="card-img-holder">
+                    <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
+                        alt="Blog image">
                 </div>
-                <div class="blogdate">
-                    <p>
-                        <?php
+                <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
+                    <h3 class="blog-title"><?php echo $item['title']['rendered'] ?></h3>
+                </a>
+                <span class="blog-time">
+                    <?php
 
-                        // Convert the numeric date to a string in the desired format
-                        $stringDate = date('F j, Y', strtotime($item['date']));
+                    // Convert the numeric date to a string in the desired format
+                    $stringDate = date('F j, Y', strtotime($item['date']));
 
-                        // Output the result
-                        echo $stringDate;
-                        ?>
-                    </p>
+                    // Output the result
+                    echo $stringDate;
+                    ?>
+                </span>
+                <p class="description">
+                    <?php echo $item['excerpt']['rendered'] ?>
+                </p>
+                <div class="options">
+                    <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
+                        <span>
+                            Read Full Blog
+                        </span>
+                    </a>
                 </div>
             </div>
         <?php } ?>
@@ -306,7 +388,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
 
     <?php
     // include("include/faqaccordian.html");
-    include("include/footer.php");
+    include ("include/footer.php");
     ?>
 
 </body>
