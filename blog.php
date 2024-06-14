@@ -334,8 +334,8 @@ if (curl_errno($ch)) {
                     ?>
                 </span>
 
-                <img src="<?php echo $item['fimg_data']['url'] ? $item['fimg_data']['url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
-                    alt="<?php echo $item['fimg_data']['alt'] ? $item['fimg_data']['alt'] : 'Blog Featured Image'; ?>">
+                <img src="<?php echo $data['fimg_data']['url'] ? $data['fimg_data']['url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
+                    alt="<?php echo $data['fimg_data']['alt'] ? $data['fimg_data']['alt'] : 'Blog Featured Image'; ?>">
 
                 <!-- Introduction -->
                 <?php echo $data['content']['rendered'] ?>
