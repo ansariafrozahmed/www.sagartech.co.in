@@ -356,8 +356,8 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
             ?>
             <div class="card">
                 <div class="card-img-holder">
-                    <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
-                        alt="Blog image">
+                    <img src="<?php echo $item['fimg_data']['url'] ? $item['fimg_data']['url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
+                        alt="<?php echo $item['fimg_data']['alt'] ? $item['fimg_data']['alt'] : 'Blog Featured Image'; ?>">
                 </div>
                 <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                     <h3 class="blog-title"><?php echo $item['title']['rendered'] ?></h3>

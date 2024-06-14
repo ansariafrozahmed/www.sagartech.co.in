@@ -58,7 +58,8 @@ if (curl_errno($ch)) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="<?php echo htmlentities($data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
 
-    <meta name="keywords" content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
+    <meta name="keywords"
+        content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
 
@@ -76,7 +77,8 @@ if (curl_errno($ch)) {
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?php echo $data['title']['rendered']; ?>">
-    <meta property="og:description" content="<?php echo htmlentities($data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:description"
+        content="<?php echo htmlentities($data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:url" content="https://sagartech.co.in/">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="<?php echo $data['fimg_url']; ?>">
@@ -105,6 +107,7 @@ if (curl_errno($ch)) {
     .wp-block-video video {
         width: 100%;
     }
+
     .main {
         padding: 40px 120px;
         display: flex;
@@ -182,8 +185,9 @@ if (curl_errno($ch)) {
         padding: 10px;
         overflow: hidden;
         margin-bottom: 10px;
-        
+
     }
+
     .latestimgdiv {
         aspect-ratio: 4 / 2;
     }
@@ -317,7 +321,7 @@ if (curl_errno($ch)) {
                         ],
                     ];
                     // echo '<span>Share on :</span>&nbsp;';
-
+                    
 
                     foreach ($platforms as $name => $platform) {
                         $shareurl = $platform['share_url'] . urlencode($surl) . '&title=' . urlencode($stitle);
@@ -329,7 +333,9 @@ if (curl_errno($ch)) {
                     }
                     ?>
                 </span>
-                <img src="<?php echo $data['fimg_url'] ? $data['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>" alt="">
+
+                <img src="<?php echo $item['fimg_data']['url'] ? $item['fimg_data']['url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
+                    alt="<?php echo $item['fimg_data']['alt'] ? $item['fimg_data']['alt'] : 'Blog Featured Image'; ?>">
 
                 <!-- Introduction -->
                 <?php echo $data['content']['rendered'] ?>
@@ -364,7 +370,7 @@ if (curl_errno($ch)) {
 
             // Set cURL options
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string instead of echoing it
-
+            
             // Execute cURL session and store the response
             $response = curl_exec($ch);
 
@@ -396,11 +402,12 @@ if (curl_errno($ch)) {
             <h2>Latest Posts</h2>
             <ul class="sidebarul">
                 <?php foreach ($limited_data as $item) {
-                ?>
+                    ?>
                     <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                         <div class="latestblog">
                             <div class="latestimgdiv">
-                            <img src="<?php echo $item['fimg_url'] ? $item['fimg_url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>" alt="">
+                                <img src="<?php echo $item['fimg_data']['url'] ? $item['fimg_data']['url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
+                                    alt="<?php echo $item['fimg_data']['alt'] ? $item['fimg_data']['alt'] : 'Blog Featured Image'; ?>">
                             </div>
                             <!-- <img src="https://sagartech.co.in/blogs/wp-content/uploads/2023/12/Digital-Marketing-1.png" alt=""> -->
                             <span class="latesttitle"><?php echo $item['title']['rendered'] ?></span>
@@ -425,7 +432,7 @@ if (curl_errno($ch)) {
     <!-- --------------------------- -->
     <?php
     // include("include/faqaccordian.html");
-    include("include/footer.php");
+    include ("include/footer.php");
     ?>
 </body>
 
