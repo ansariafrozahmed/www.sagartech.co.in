@@ -177,7 +177,7 @@ include ('config.php');
 			<h4>company</h4>
 			<ul>
 				<li><a href="<?= WEB_URL ?>about">About Us</a></li>
-				<li><a href="<?= WEB_URL ?>contacct">Contact Us</a></li>
+				<li><a href="<?= WEB_URL ?>contact">Contact Us</a></li>
 				<!-- <li><a href="#">Team</a></li> -->
 				<li><a href="<?= WEB_URL ?>blog">Blogs</a></li>
 				<li><a href="<?= WEB_URL ?>our-portfolio">Portfolio</a></li>
