@@ -434,7 +434,7 @@ include ('include/config.php');
             }
         </style>
         <div class="homeBanner">
-            <img src="./image/homepage/homepageBannerNew.webp" alt="" srcset="">
+            <img src="./image/homepage/homeBanner.webp" alt="" srcset="">
         </div>
 
         <?php
