@@ -79,11 +79,13 @@ if (curl_errno($ch)) {
     <meta property="og:title" content="<?php echo $data['title']['rendered']; ?>">
     <meta property="og:description"
         content="<?php echo htmlentities($data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
-    <meta property="og:url" content="https://sagartech.co.in/">
+    <meta property="og:url"
+        content="https://sagartech.co.in/blog/<?php echo htmlentities($data['slug'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="<?php echo $data['fimg_url']; ?>">
     <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
-    <link rel="canonical" href="https://www.sagartech.co.in/">
+    <link rel="canonical"
+        href="https://sagartech.co.in/blog/<?php echo htmlentities($data['slug'], ENT_QUOTES, 'UTF-8'); ?>">
     <!-- Favicon -->
     <link rel="shortcut icon" href="/images/logoonly.jpg" />
     <!-- bootstrap -->
