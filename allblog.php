@@ -1,16 +1,13 @@
 <?php include "include/config.php"; ?>
 
 <?php
+$current_page = isset($_GET['page']) ? intval($_GET['page']) : 1;
+$posts_per_page = 9;
+$api_url = "https://sagartech.co.in/blogs/wp-json/custom/v1/posts?page=$current_page&per_page=$posts_per_page";
 
-// API endpoint URL
-$api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/posts?per_page=100';
-
-// Initialize cURL session
+// Initialize cURL session for posts
 $ch = curl_init($api_url);
-
-// Set cURL options
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string instead of echoing it
-// You can add more options like headers, authentication, etc.
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 // Execute cURL session and store the response
 $response = curl_exec($ch);
@@ -25,14 +22,13 @@ curl_close($ch);
 
 // Process the response
 if ($response) {
-    // Decode the JSON response if the API returns JSON
     $data = json_decode($response, true);
-
-    // Process the data as neededa
-    // echo '<pre>';
-    // print_r($data);
+    $posts = $data['posts'];
+    $total_pages = $data['total_pages'];
 } else {
     echo 'No response from the API';
+    $posts = [];
+    $total_pages = 0;
 }
 ?>
 <!DOCTYPE html>
@@ -72,7 +68,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     <meta property="og:site_name" content="Sagartech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
     <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
-    <link rel="canonical" href="https://sagartech.co.in/allblog">
+    <link rel="canonical" href="https://www.sagartech.co.in/allblog">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- bootstrap -->
@@ -313,6 +309,47 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         color: #22215B;
         cursor: pointer;
     }
+
+    #pagination {
+        margin: 0;
+        padding: 20px 0px;
+        text-align: center
+    }
+
+    #pagination li {
+        display: inline
+    }
+
+    a.nextBlog {
+        font-size: 20px;
+    }
+
+    a.prevBlog {
+        font-size: 20px;
+    }
+
+    #pagination li a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 5px 10px;
+        color: #000
+    }
+
+    /* Active and Hoverable Pagination */
+    #pagination li a {
+        border-radius: 5px;
+        -webkit-transition: background-color 0.3s;
+        transition: background-color 0.3s
+    }
+
+    #pagination li a.active {
+        background-color: #ff0808;
+        color: #fff
+    }
+
+    #pagination li a:hover:not(.active) {
+        background-color: #ddd;
+    }
 </style>
 
 <body>
@@ -352,39 +389,48 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
 
     <!-- Main Section -->
     <section class="main">
-        <?php foreach ($data as $item) {
-            ?>
+        <?php foreach ($posts as $item) { ?>
             <div class="card">
                 <div class="card-img-holder">
-                    <img src="<?php echo $item['fimg_data']['url'] ? $item['fimg_data']['url'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
-                        alt="<?php echo $item['fimg_data']['alt'] ? $item['fimg_data']['alt'] : 'Blog Featured Image'; ?>">
+                    <img src="<?php echo $item['featured_image'] ? $item['featured_image'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
+                        alt="Blog Featured Image">
                 </div>
                 <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
-                    <h3 class="blog-title"><?php echo $item['title']['rendered'] ?></h3>
+                    <h3 class="blog-title"><?php echo $item['title'] ?></h3>
                 </a>
                 <span class="blog-time">
-                    <?php
-
-                    // Convert the numeric date to a string in the desired format
-                    $stringDate = date('F j, Y', strtotime($item['date']));
-
-                    // Output the result
-                    echo $stringDate;
-                    ?>
+                    <?php echo date('F j, Y', strtotime($item['date'])); ?>
                 </span>
                 <p class="description">
-                    <?php echo $item['excerpt']['rendered'] ?>
+                    <?php echo $item['excerpt'] ?>
                 </p>
                 <div class="options">
                     <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
-                        <span>
-                            Read Full Blog
-                        </span>
+                        <span>Read Full Blog</span>
                     </a>
                 </div>
             </div>
         <?php } ?>
     </section>
+
+    <ul id="pagination">
+        <?php if ($current_page > 1) { ?>
+            <li><a href="?page=<?php echo $current_page - 1; ?>" class="prevBlog">«</a></li>
+        <?php } else { ?>
+            <li><a class="disabled prevBlog">«</a></li>
+        <?php } ?>
+
+        <?php for ($i = 1; $i <= $total_pages; $i++) { ?>
+            <li><a href="?page=<?php echo $i; ?>"
+                    class="<?php echo $i == $current_page ? 'active' : ''; ?>"><?php echo $i; ?></a></li>
+        <?php } ?>
+
+        <?php if ($current_page < $total_pages) { ?>
+            <li><a href="?page=<?php echo $current_page + 1; ?>" class="nextBlog">»</a></li>
+        <?php } else { ?>
+            <li><a class="disabled nextBlog">»</a></li>
+        <?php } ?>
+    </ul>
 
     <?php
     // include("include/faqaccordian.html");
