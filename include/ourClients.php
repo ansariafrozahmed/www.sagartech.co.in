@@ -124,16 +124,16 @@
         "client-logos/armaf.webp",
         "client-logos/bsauto.webp",
         "client-logos/OasisConsulting.webp",
+        "client-logos/chief-parfums-final.webp",
+        "client-logos/axxio-laboratory.webp",
+        "client-logos/acharya-shiv.webp",
         // "client-logos/ngmp.webp",
         "client-logos/AlhamdGroup.webp",
-        "client-logos/Alhid.webp",
         "client-logos/ASAudio.webp",
         "client-logos/ZZConsultants.webp",
-        "client-logos/Eperts4Expats.webp",
         // "client-logos/Trillionaire.webp",
         "client-logos/Tasavvur.webp",
         "client-logos/PadmavatiChains.webp",
-        "client-logos/M4Group.webp",
       ];
 
       foreach ($imageUrls as $imageUrl) {
