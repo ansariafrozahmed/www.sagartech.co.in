@@ -97,8 +97,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         display: grid;
         width: 100%;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        /* gap: 30px; */
-        gap:20px;
+        gap: 30px;
     }
 
     .blogcard {
@@ -173,20 +172,6 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         font-weight: 700;
     }
 
-    .card-content-holder {
-    position: relative;
-    margin-top: -40px;
-    background: white;
-    margin-right: 25px;
-    margin-left: 25px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
-    }
-
-    .publisher-info{
-        margin-bottom:0px;
-    }
-
     @media (max-width: 767px) {
         .heading {
             padding: 0 25px;
@@ -252,32 +237,16 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
             color: red;
             font-weight: 600;
         }
-
-        .card {
-        width: 100%;
-        /* height: auto; */
-        height:350px !important;
-        background: #fff;
-        /* border-radius: 1.5rem; */
-        /* padding: 1.2rem; */
-        padding:0px;
-        overflow: hidden;
-        position: relative;
-        border:none;
-    }
     }
 
     .card {
         width: 100%;
-        /* height: auto; */
-        height:330px;
+        height: auto;
         background: #fff;
-        /* border-radius: 1.5rem; */
-        /* padding: 1.2rem; */
-        padding:0px;
+        border-radius: 1.5rem;
+        padding: 1.2rem;
         overflow: hidden;
         position: relative;
-        border:none;
     }
 
     .card-img-holder {
@@ -286,31 +255,20 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         position: relative;
     }
 
-    .card-content-holder{
-    position: relative;
-    margin-top: -40px;
-    background: white;
-    margin-right: 15px;
-    margin-left: 15px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
-    }
-
     .card-img-holder img {
         width: 100%;
         height: 11rem;
         max-height: 11rem;
         object-fit: cover;
-        /* border-radius: 1.5rem; */
+        border-radius: 1.5rem;
     }
 
     .blog-title {
-        /* margin-top: 15px; */
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 5px;
         color: #22215B;
         line-height: normal;
-        /* font-size: 1.4rem; */
-        font-size:1.3rem;
+        font-size: 1.4rem;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -319,19 +277,16 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
 
     .description {
         color: #22215B80;
-        /* font-size: 1rem; */
-        font-size:15px;
+        font-size: 1rem;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
-        line-height:20px;
     }
 
     .blog-time {
         font-size: .8rem;
-        /* color: #22215B; */
-        color:#FF0808;
+        color: #22215B;
     }
 
     .options {
@@ -437,27 +392,22 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         <?php foreach ($posts as $item) { ?>
             <div class="card">
                 <div class="card-img-holder">
-                <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                     <img src="<?php echo $item['featured_image'] ? $item['featured_image'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
-                        alt="<?php echo $item['title'] ?>">
-        </a>
+                        alt="Blog Featured Image">
                 </div>
-                <div class="card-content-holder">
                 <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                     <h3 class="blog-title"><?php echo $item['title'] ?></h3>
                 </a>
+                <span class="blog-time">
+                    <?php echo date('F j, Y', strtotime($item['date'])); ?>
+                </span>
                 <p class="description">
                     <?php echo $item['excerpt'] ?>
                 </p>
-                <p class="publisher-info">Published By <a href="https://sagartech.co.in/"><span class="blog-time"> Sagar Tech</span></a> | On <span class="blog-time">
-                    <?php echo date('F j, Y', strtotime($item['date'])); ?>
-                </span>
-                </p>
-                <!-- <div class="options">
+                <div class="options">
                     <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                         <span>Read Full Blog</span>
                     </a>
-                </div> -->
                 </div>
             </div>
         <?php } ?>
