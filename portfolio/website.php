@@ -800,10 +800,10 @@ include("../include/config.php");
         <div class="maincontent">
             <div class="maincontent-inner">
                 <div class="imgdiv">
-                    <img src="../portfolio-mockups/ecommerce/almarjaan.webp" alt="">
+                    <img src="../portfolio-mockups/ecommerce/chief parfums.webp" alt="">
                 </div>
                 <div class="content-text">
-                    <h2>Al Marjaan</h2>
+                    <h2>Chief Parfums</h2>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>

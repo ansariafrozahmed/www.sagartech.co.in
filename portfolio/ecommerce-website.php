@@ -170,8 +170,8 @@ include("../include/config.php");
     // Define an array of ecommerce data
     $ecommerceData = array(
         array(
-            "name" => "Alhid",
-            "imgSrc" => "../portfolio-mockups/ecommerce/alhid.webp",
+            "name" => "Chief Parfums",
+            "imgSrc" => "../portfolio-mockups/ecommerce/chief parfums.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
         ),
         array(
