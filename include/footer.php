@@ -161,6 +161,7 @@ include ('config.php');
 
 <head>
 	<script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <footer class="footer">
 	<div class="footer-upper">
@@ -224,10 +225,10 @@ include ('config.php');
 				referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<div class="social-links">
 				<a href="https://www.facebook.com/sagartechwebdevelopersmumbai"><i
-						class="fa-brands fa-facebook-f"></i></a>
-				<a href="https://www.instagram.com/sagartechsolutions/"><i class="fa-brands fa-instagram"></i></a>
+						class="fa-brands fa-facebook-f" style="color:#f80805;"></i></a>
+				<a href="https://www.instagram.com/sagartechsolutions/"><i class="fa-brands fa-instagram" style="color:#f80805;"></i></a>
 				<a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/"><i
-						class="fa-brands fa-linkedin-in"></i></a>
+						class="fa-brands fa-linkedin-in" style="color:#f80805;"></i></a>
 			</div>
 
 		</div>

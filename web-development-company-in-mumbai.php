@@ -947,10 +947,7 @@
       <li>Web design company in mumbai</li>
     </ul>
     <p class="herosectionpara">
-      In the dynamic world, <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>
-      Technology provides web development services that help build your online presence and grow your business.
-      Sagartech has experience in developing websites by using technologies like React.js, Next.js , Wordpress , Shopify
-      and Node.js.
+      Your first choice for a web development company in India is <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>. We create beautiful websites that increase your online visibility and increase business expansion. We specialize in building dynamic websites with Node.js, WordPress, Next.js, React.js, and Shopify. Together, let's create something incredible!
     </p>
     <div class="herobuttonsnew">
       <!-- <a href="#" class="button">Quick Enquiry</a> -->
@@ -964,13 +961,9 @@
 
   <div class="newsecondsection">
     <div class="left">
-      <h2>Why web development is important</h2>
+      <h2>Why is web development important for your business?</h2>
       <!-- <h3>Subtitle</h3> -->
-      <p>Welcome to Sagar Tech Technical Solutions, where innovation meets excellence in the world of web development.
-        We take great pride in having some of best web developer in mumbai. In an era where digital presence is
-        non-negotiable, we are your partners in crafting websites that not only meet but exceed your expectations. Our
-        team of seasoned developers is committed to transforming your vision into a captivating and functional online
-        experience.That makes us No.1 Website Development Company in India.</p>
+      <p>Sagar Tech Technical Solutions Is A Place Where Innovation Meets Excellence. In The World Of Web Development. We Are Really Proud To Have Some Really Best Web Developers In Mumbai. We Are Your Partners In Creating Websites That Not Only Meet Our Expectations But Also Exceeds Your Expectations. In A Time When Having A Digital Presence Is Required. Our Skilled Development Team Is Dedicated To Turning Your Idea Into An Engaging And Useful Online Presence. That Makes Us No.1 Web Development Company in India.</p>
       <br>
       <div class="herobuttonsnew">
         <!-- <a href="#">Quick Enquiry</a> -->
@@ -1155,57 +1148,57 @@
     <h2>Checklist we follow</h2>
     <div class="checkcontain">
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Website should be user friendly</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>SEO friendly</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Mobile Responsive</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Quality graphics</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Unique content</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>No broken links</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Tab responsive</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Fast speed</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Modern UI</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Optimized images</p>
       </span>
       <span class="check">
-        <p><img width="30" height="30" src="https://img.icons8.com/fluency/48/checkmark--v1.png" alt="checkmark--v1" />
+        <p><img width="30" height="30" src="./images/CheckListIcon/checkmark--v1.png" alt="checkmark--v1" />
         </p>
         <p>Licensed images</p>
       </span>
