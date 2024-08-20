@@ -129,11 +129,12 @@
         "client-logos/acharya-shiv.webp",
         // "client-logos/ngmp.webp",
         "client-logos/AlhamdGroup.webp",
+        "client-logos/cotton-culture.webp",
         "client-logos/ASAudio.webp",
         "client-logos/ZZConsultants.webp",
         // "client-logos/Trillionaire.webp",
         "client-logos/Tasavvur.webp",
-        "client-logos/PadmavatiChains.webp",
+        //"client-logos/PadmavatiChains.webp",
       ];
 
       foreach ($imageUrls as $imageUrl) {
