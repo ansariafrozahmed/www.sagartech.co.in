@@ -175,6 +175,11 @@ include("../include/config.php");
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
         ),
         array(
+            "name" => "Cotton Culture",
+            "imgSrc" => "../portfolio-mockups/ecommerce/cotton-culture.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+        ),
+        array(
             "name" => "Al Marjaan",
             "imgSrc" => "../portfolio-mockups/ecommerce/almarjaan.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."

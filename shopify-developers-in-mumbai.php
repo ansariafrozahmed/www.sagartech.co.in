@@ -281,6 +281,10 @@
         object-fit: contain;
     }
 
+    .third-ecom-sec .ecom-right img:hover {
+        transform: scale(1.05);
+    }
+
     @media only screen and (max-width: 767px) {
         .third-ecom-sec {
             padding: 00px 20px;
@@ -308,6 +312,10 @@
             width: 100%;
             object-fit: contain;
         }
+
+        .third-ecom-sec .ecom-right img:hover {
+        transform: scale(1.05);
+    }
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -363,6 +371,10 @@
             width: 100%;
             object-fit: contain;
         }
+
+        .third-ecom-sec .ecom-right img:hover {
+        transform: scale(1.05);
+    }
     }
 
 
@@ -947,11 +959,18 @@
         align-items: center;
         gap: 50px;
         width: 100%;
-        padding: 50px;
+        /* padding: 50px; */
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background: #F2F2F2;
+        margin-top:50px;
+        margin-bottom:30px;
     }
 
     .newvideoinner {
-        width: 50%;
+        width: 70%;
         display: flex;
         flex-direction: column;
         gap: 15px;
@@ -959,12 +978,24 @@
         justify-content: start;
     }
 
+    .newvideoinner p{
+        margin-top:-20px;
+        font-size: 18px;
+    }
+
     .newvideoinner h2 {
         font-weight: 600;
+        line-height:0px;
+    }
+
+    .newvideoinner h3 {
+        font-weight: 300;
+        line-height:47px;
+        font-size: 22px;
     }
 
     .newvideovideo {
-        width: 50%;
+        width: 30%;
 
     }
 
@@ -989,7 +1020,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 50px;
+            gap: 20px;
             width: 100%;
             padding: 30px 20px;
         }
@@ -1005,7 +1036,19 @@
 
         .newvideoinner h2 {
             font-weight: 600;
+            line-height:30px;
         }
+
+        .newvideoinner h3 {
+        font-weight: 300;
+        line-height:10px;
+        font-size: 25px;
+    }
+
+    .newvideoinner p{
+        margin-top:5px;
+        font-size: 18px;
+    }
 
         .newvideovideo {
             width: 100%;
@@ -1026,6 +1069,219 @@
             height: 200px;
         }
     }
+
+    .fourth-brand-sec {
+        /*background-color: #f2f2f2;*/
+        padding: 50px 100px;
+    }
+
+    .fourth-brand-sec h2 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+
+    .fourth-card-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        gap: 50px;
+    }
+
+    .fourth-card {
+        border: 5px solid white;
+        /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+        aspect-ratio: 4/3;
+    }
+
+    .fourth-card img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .fourth-card img:hover{
+        transform: scale(1.05);
+    }
+
+    .portfolio-button {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .portfolio-button a {
+        background-color: transparent;
+        color: #ff0808;
+        border: 1px solid #ff0808;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .portfolio-button a:hover {
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #000;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .fourth-brand-sec {
+            /*background-color: #f2f2f2;*/
+            padding: 60px;
+        }
+
+        .fourth-brand-sec h2 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 500;
+            padding-bottom: 20px;
+        }
+
+        .fourth-card-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .fourth-brand-sec {
+            /*background-color: #f2f2f2;*/
+            padding: 20px;
+        }
+
+        .fourth-brand-sec h2 {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500;
+            padding-bottom: 20px;
+        }
+
+        .fourth-card-div {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+    }
+
+    .design-lifecycle-section {
+    text-align: center;
+    background: url('background-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.design-lifecycle-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.lifecycle-steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.step {
+    position: relative;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #E31F14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.icon img {
+    width: 50%;
+    height: auto;
+}
+
+.step p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.arrow {
+    font-size: 30px;
+    /* color: #fff; */
+    color:black;
+    margin: 0 15px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .lifecycle-steps {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .step {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .arrow {
+        display: none; /* Hide arrows on mobile for vertical layout */
+    }
+
+    .step p {
+        font-size: 12px;
+    }
+
+    .design-lifecycle-section {
+        padding: 30px 20px;
+    }
+
+    .design-lifecycle-section h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .step {
+        width: 100%;
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .step p {
+        font-size: 11px;
+    }
+
+    .design-lifecycle-section h2 {
+        font-size: 20px;
+    }
+}
+
+.newvideovideo img{
+    width:230px;
+}
+
 </style>
 
 <body>
@@ -1125,7 +1381,7 @@
         </div>
 
         <div class="ecom-right">
-            <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="ecommerce website">
+            <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="shopify website development company" title="shopify website development company">
         </div>
     </div>
 
@@ -1224,8 +1480,63 @@
 
 
     <?php
-    include 'include/ourClients.php'
+    //include 'include/ourClients.php'
         ?>
+
+
+<!-- <div class="design-lifecycle-section">
+    <h2>The Shopify Website Design Lifecycle</h2>
+    <div class="lifecycle-steps">
+        <div class="step">
+            <div class="icon">
+                <img src="./icons/maintenance.webp" alt="Competitor Research And Market Analysis">
+            </div>
+            <div class="content">
+                <span>hello</span>
+            </div>
+            <p>Competitor Research And Market Analysis</p>
+        </div>
+        <div class="arrow">&rarr;</div> <!-- Arrow connecting the steps
+    </div>
+</div> -->
+
+<div class="newvideo">
+        <div class="newvideoinner">
+            <h3>Do you want to develop a</h3>
+            <h2>Shopify eCommerce Website</h2>
+            <h3>for your business</h3>
+            <!-- <span class="newvideotext">
+            [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
+            </span> -->
+            <p>
+            [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
+            </p>
+            <div class="newvideobutton">
+                <a href="contact">Request A Quote</a>
+            </div>
+        </div>
+        <div class="newvideovideo">
+        <img src="./images/shopify-development-company-in-india.png" alt="shopify website development company" title="shopify website development company">
+        </div>
+    </div>
+
+
+
+<div class="fourth-brand-sec">
+        <h2>Our Shopify Websites</h2>
+        <div class="fourth-card-div">
+            <div class="fourth-card">
+                <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="shopify website development company" title="shopify website development company">
+            </div>
+            <div class="fourth-card">
+            <img src="./portfolio-mockups/ecommerce/cotton-culture.webp" alt="shopify website development company" title="shopify website development company">
+            </div>
+        </div>
+        <!-- <div class="portfolio-button">
+            <a href="our-portfolio">See Our Work</a>
+        </div> -->
+    </div>
+
 
 
 
