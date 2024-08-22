@@ -1349,12 +1349,12 @@
             <div class="ecom-left-div">
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
-                    <h2>250+ Successful Shopify Projects</h2>
+                    <h2>2+ Successful Shopify Projects</h2>
                     <p>Over 250 successful Shopify projects delivered with precision and expertise. Elevate your e-commerce experience with proven results.</p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
-                    <h2>10+ Years of Shopify Expertise</h2>
+                    <h2>1+ Years of Shopify Expertise</h2>
                     <p>Leverage over 10 years of Shopify expertise to build and scale your online store. Trusted solutions for lasting success.</p>
                 </div>
                 <!-- -------------------- -->
@@ -1512,7 +1512,7 @@
             [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
             </p>
             <div class="newvideobutton">
-                <a href="contact">Request A Quote</a>
+                <a href="#open-modal">Request A Quote</a>
             </div>
         </div>
         <div class="newvideovideo">
@@ -1523,7 +1523,7 @@
 
 
 <div class="fourth-brand-sec">
-        <h2>Our Shopify Websites</h2>
+        <h2>Our Shopify Ecommerce Websites</h2>
         <div class="fourth-card-div">
             <div class="fourth-card">
                 <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="shopify website development company" title="shopify website development company">

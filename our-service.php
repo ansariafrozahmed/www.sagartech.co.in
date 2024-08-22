@@ -49,7 +49,7 @@
         justify-content: center;
         overflow: hidden;
         /* background-color: green; */
-        padding: 10px 20px;
+        /* padding: 10px 20px; */
         background-color: #f2f2f2;
         /* border: 1px solid #dbdbdb; */
         border-radius: 10px;
@@ -87,6 +87,7 @@
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
+        /* -webkit-line-clamp: 5; */
         -webkit-line-clamp: 5;
         /* text-align: justify; */
     }
@@ -133,7 +134,7 @@
             <a href="web-development-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./image/homepage/yogeshprashna.webp" alt="">
+                        <img src="./image/homepage/new home page mockups/web development & design.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Web Development & Designing</h2>
@@ -151,7 +152,7 @@
             <a href="digital-marketing-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./image/homepage/social-media.webp" alt="">
+                        <img src="./image/homepage/new home page mockups/digital marketing.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Digital Marketing</h2>
@@ -168,7 +169,7 @@
             <a href="mobile-app-development-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./image/homepage/app.webp" alt="">
+                        <img src="./image/homepage/new home page mockups/app development & design.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">App Development</h2>
@@ -186,7 +187,7 @@
             <a href="graphic-design-services-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./image/homepage/3.webp" alt="">
+                        <img src="./image/homepage/new home page mockups/graphic designing.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Graphic Designing</h2>
@@ -203,7 +204,7 @@
             <a href="bulk-sms-service-provider-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./image/homepage/bulk-sms.webp" alt="">
+                        <img src="./image/homepage/new home page mockups/bulk sms services.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Bulk SMS Service</h2>
@@ -220,7 +221,7 @@
             <a href="seo-company-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./seo-mockups/SEO_BS_Auto_45.webp" alt="">
+                        <img src="./image/homepage/new home page mockups/seo.webp" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">SEO Service</h2>
