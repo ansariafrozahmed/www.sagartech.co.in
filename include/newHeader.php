@@ -699,7 +699,8 @@ include ('config.php');
       <div class="header-item item-left">
         <div class="logo">
           <a href="<?= WEB_URL ?>">
-            <img src="<?= WEB_URL ?>images/sagartech.png" alt="" />
+            <!-- <img src="<?= WEB_URL ?>images/sagartech.png" alt="" /> -->
+            <img src="<?= WEB_URL ?>images/sagartech1.png" alt="sagartech logo" />
           </a>
         </div>
       </div>
@@ -735,6 +736,9 @@ include ('config.php');
                     <li><a href="<?= WEB_URL ?>web-hosting-services-in-mumbai">Web Hosting</a></li>
                     <li>
                       <a href="<?= WEB_URL ?>domain-service-provider-in-mumbai">Domain Registration</a>
+                    </li>
+                    <li>
+                      <a href="<?= WEB_URL ?>wordpress-developers-in-mumbai">Wordpress Development</a>
                     </li>
                     <li>
                       <a href="<?= WEB_URL ?>shopify-developers-in-mumbai">Ecommerce Using Shopify</a>

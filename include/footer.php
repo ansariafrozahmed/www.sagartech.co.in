@@ -165,7 +165,8 @@ include ('config.php');
 </head>
 <footer class="footer">
 	<div class="footer-upper">
-		<img src="<?= WEB_URL ?>images/sagartech.png" alt="sagartech logo">
+		<!-- <img src="<?= WEB_URL ?>images/sagartech.png" alt="sagartech logo"> -->
+		<img src="<?= WEB_URL ?>images/sagatech1.png" alt="sagartech logo">
 		<p>
 			Sagar Tech was founded in 2018 by young entrepreneurs with a customer & employee centric mind. Having
 			contributed many services in the IT industry serving clients with services like web development, application
