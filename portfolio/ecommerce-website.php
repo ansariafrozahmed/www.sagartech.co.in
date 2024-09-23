@@ -112,6 +112,19 @@ include("../include/config.php");
         content: "-";
     }
 
+    .maincontent-inner{
+        margin-bottom:30px;
+    }
+    
+    .maincontent-inner:hover .content-text h2{
+        color:#ff0808;
+    }
+
+    .content-text h2:hover{
+        text-decoration:underline;
+        color:#ff0808;
+    }
+
     /* For mobile screens */
     @media (max-width: 767px) {
         .accordion {
@@ -156,8 +169,11 @@ include("../include/config.php");
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li><a href="our-portfolio" style="color: white;">portfolio</a></li>
-        </ul>
+            <li><a href="/portfolio/website">Portfolio</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                <path d="m9 18 6-6-6-6" />
+            </svg>
+            <li><a style="color: white;">Ecommerce Website Portfolio</a></li>        </ul>
     </section>
 
 
@@ -172,52 +188,62 @@ include("../include/config.php");
         array(
             "name" => "Chief Parfums",
             "imgSrc" => "../portfolio-mockups/ecommerce/chief parfums.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://chiefparfums.com/"
         ),
         array(
             "name" => "Cotton Culture",
             "imgSrc" => "../portfolio-mockups/ecommerce/cotton-culture.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://www.cottonculture.co.in/"
         ),
         array(
             "name" => "Al Marjaan",
             "imgSrc" => "../portfolio-mockups/ecommerce/almarjaan.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://almarjaandates.com/"
         ),
         array(
             "name" => "Arabian Tea",
             "imgSrc" => "../portfolio-mockups/ecommerce/arabiantea.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://arabiantea.in/"
         ),
         array(
             "name" => "BS Auto",
             "imgSrc" => "../portfolio-mockups/ecommerce/bsauto.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://bsautoaccessories.com/"
         ),
         array(
-            "name" => "Grand Trunck",
+            "name" => "Grand Trunk",
             "imgSrc" => "../portfolio-mockups/ecommerce/grandtruck.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "http://thegrandtrunk.in/"
         ),
         array(
             "name" => "Mistle Blue",
             "imgSrc" => "../portfolio-mockups/ecommerce/mistleblue.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://mistleblue.com/"
         ),
         array(
             "name" => "Monter",
             "imgSrc" => "../portfolio-mockups/ecommerce/monter.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://monterstore.com/"
         ),
         array(
             "name" => "New Quality Ware",
             "imgSrc" => "../portfolio-mockups/ecommerce/newqualityware.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://newqualityware.com/"
         ),
         array(
             "name" => "Perfumistic",
             "imgSrc" => "../portfolio-mockups/ecommerce/perfumistic.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://perfumistic.com/"
         )
     );
 
@@ -225,10 +251,10 @@ include("../include/config.php");
     foreach ($ecommerceData as $item) {
         echo '<div class="maincontent-inner">';
         echo '<div class="imgdiv">';
-        echo '<img src="' . $item["imgSrc"] . '" alt="' . $item["name"] . '">';
+        echo '<a href="' .$item["link"]. '" target="_blank"><img src="' . $item["imgSrc"] . '" alt="' . $item["name"] . '"></a>';
         echo '</div>';
         echo '<div class="content-text">';
-        echo '<h2>' . $item["name"] . '</h2>';
+        echo '<a href="' .$item["link"]. '" target="_blank"><h2>' . $item["name"] . '</h2></a>';
         // echo '<p>' . $item["description"] . '</p>';
         echo '</div>';
         echo '</div>';

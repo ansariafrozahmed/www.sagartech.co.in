@@ -112,6 +112,19 @@ include("../include/config.php");
         content: "-";
     }
 
+    .maincontent-inner{
+        margin-bottom:30px;
+    }
+    
+    .maincontent-inner:hover .content-text h2{
+        color:#ff0808;
+    }
+
+    .content-text h2:hover{
+        text-decoration:underline;
+        color:#ff0808;
+    }
+
     /* For mobile screens */
     @media (max-width: 767px) {
         .accordion {
@@ -156,7 +169,11 @@ include("../include/config.php");
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li><a href="our-portfolio" style="color: white;">portfolio</a></li>
+            <li><a href="/portfolio/website">Portfolio</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                <path d="m9 18 6-6-6-6" />
+            </svg>
+            <li><a style="color: white;">Builders Website Portfolio</a></li>        
         </ul>
     </section>
 
@@ -170,32 +187,38 @@ include("../include/config.php");
         array(
             "title" => "Archic Green Scape",
             "imgSrc" => "../portfolio-mockups/builders/archicgreenscape.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://archicgreenscape.com/"
         ),
         array(
             "title" => "Cementric",
             "imgSrc" => "../portfolio-mockups/builders/cementric.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "http://cementric.com/"
         ),
         array(
             "title" => "Folksco",
             "imgSrc" => "../portfolio-mockups/builders/folksco.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://folksco.in/"
         ),
         array(
             "title" => "PM Decor",
             "imgSrc" => "../portfolio-mockups/builders/pmdecor.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://pmdecor.in/"
         ),
         array(
             "title" => "South Field",
             "imgSrc" => "../portfolio-mockups/builders/southfield.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://southfield.co.in/"
         ),
         array(
             "title" => "ZZ Consultants",
             "imgSrc" => "../portfolio-mockups/builders/zzconsultant.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://zzconsultants.com/"
         )
     );
 
@@ -204,10 +227,14 @@ include("../include/config.php");
     ?>
         <div class="maincontent-inner">
             <div class="imgdiv">
-                <img src="<?php echo $card['imgSrc']; ?>" alt="">
+                <a href="<?php echo $card['link']; ?>">
+                    <img src="<?php echo $card['imgSrc']; ?>" alt="">
+                </a>
             </div>
             <div class="content-text">
+            <a href="<?php echo $card['link']; ?>">
                 <h2><?php echo $card['title']; ?></h2>
+            </a>
                 <p>
                     <?php
                     //  echo $card['description'];

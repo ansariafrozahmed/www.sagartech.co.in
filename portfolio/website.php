@@ -101,6 +101,15 @@ include("../include/config.php");
         border-bottom: 1px solid red;
     }
 
+    .maincontent-inner:hover .content-text h2{
+        color:#ff0808;
+    }
+
+    .content-text h2:hover{
+        text-decoration:underline;
+        color:#ff0808;
+    }
+
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
         .welcometo {
             padding: 50px;
@@ -500,7 +509,7 @@ include("../include/config.php");
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li style="color: white;">portfolio</li>
+            <li style="color: white;">Portfolio</li>
         </ul>
     </section>
 
@@ -635,29 +644,41 @@ include("../include/config.php");
         <!-- <h2>Our Business Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="../portfolio-mockups/business/babyworld.webp" alt="">
-                </div>
+                <a href="https://babyworldinu.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-mockups/business/babyworld.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
+                <a href="https://babyworldinu.com/" target="_blank">
                     <h2>Baby Wolrd</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://www.yogueshprashna.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/business/yogeshprashna.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://www.yogueshprashna.com/" target="_blank">
                     <h2>Yogesh Prashna</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://www.puresaff.in/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/business/puresaff.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://www.puresaff.in/" target="_blank">    
                     <h2>Pure Saff</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -675,29 +696,41 @@ include("../include/config.php");
         <!-- <h2>Our Builders Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+            <a href="https://zzconsultants.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/builders/zzconsultant.webp" alt="">
                 </div>
+                </a>    
                 <div class="content-text">
+                <a href="https://zzconsultants.com/" target="_blank">
                     <h2>ZZ Consultants</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://pmdecor.in/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/builders/pmdecor.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
-                    <h2>Pm Decor</h2>
+                <a href="https://pmdecor.in/" target="_blank">
+                    <h2>PM Decor</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://folksco.in/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/builders/folksco.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://folksco.in/" target="_blank">
                     <h2>Folksco</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -716,29 +749,41 @@ include("../include/config.php");
         <!-- <h2>Our Catalogue Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+            <a href="https://asaudio.in/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/catalogue/asaudio.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://asaudio.in/" target="_blank">
                     <h2>AS Audio</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://globalhardwarekw.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/catalogue/globalhardware.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://globalhardwarekw.com/" target="_blank">
                     <h2>Global Hardware</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://padmavatichains.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/catalogue/padmavatichains.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://padmavatichains.com/" target="_blank">
                     <h2>Padmavati Chains</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -759,29 +804,41 @@ include("../include/config.php");
         <!-- <h2>Our Logistics Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+            <a href="https://aadhiklogistics.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/logistics/adhiklogistics.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://aadhiklogistics.com/" target="_blank">
                     <h2>Adhik Logistics</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://amarclearing.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/logistics/amarclearing.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://amarclearing.com/" target="_blank">
                     <h2>Amar Clearing</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://marsairocean.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/logistics/marsairocean.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://marsairocean.com/" target="_blank">
                     <h2>Mars Air Ocean</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -799,29 +856,41 @@ include("../include/config.php");
         <!-- <h2>Our Ecommerce Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+            <a href="https://chiefparfums.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/ecommerce/chief parfums.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://chiefparfums.com/" target="_blank">
                     <h2>Chief Parfums</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+                <a href="https://bsautoaccessories.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/ecommerce/bsauto.webp" alt="">
                 </div>
+                </a>
                 <div class="content-text">
+                    <a href="https://bsautoaccessories.com/" target="_blank">
                     <h2>BS Auto</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+                <a href="https://newqualityware.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/ecommerce/newqualityware.webp" alt="">
                 </div>
+                </a>
                 <div class="content-text">
+                    <a href="https://newqualityware.com/" target="_blank">
                     <h2>New Quality Ware</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -837,20 +906,28 @@ include("../include/config.php");
         <!-- <h2>Our Education Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+            <a href="https://capdiw.in/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/education/capdiw.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://capdiw.in/" target="_blank">
                     <h2>Capdiw</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+            <a href="https://xperts4expats.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/education/expert4expat.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                <a href="https://xperts4expats.com/" target="_blank">
                     <h2>Expert 4 Expat</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -875,20 +952,28 @@ include("../include/config.php");
         <!-- <h2>Our Restaurents Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+                <a href="https://alnizamidarbar.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/restaurants/alnizami.webp" alt="">
                 </div>
+                </a>
                 <div class="content-text">
+                    <a href="https://alnizamidarbar.com/" target="_blank">
                     <h2>AL Nizami</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+                <a href="https://skewer.co.in/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/restaurants/skewer.webp" alt="">
                 </div>
+                </a>
                 <div class="content-text">
+                    <a href="https://skewer.co.in/" target="_blank">
                     <h2>Skewer</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -913,29 +998,41 @@ include("../include/config.php");
         <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+                <a href="https://wecarecharitable.org/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/trust-properties/wecare.webp" alt="">
                 </div>
+                </a>
                 <div class="content-text">
+                    <a href="https://wecarecharitable.org/" target="_blank">
                     <h2>We Care</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+                <a href="https://kolsamohallamemonjamat.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/trust-properties/kolsamohalla.webp" alt="">
                 </div>
+                </a>
                 <div class="content-text">
+                    <a href="https://kolsamohallamemonjamat.com/" target="_blank">
                     <h2>Kolsa Mohalla</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+                <a href="https://behumanfoundation.org/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/trust-properties/behuman.webp" alt="">
                 </div>
+                </a>
                 <div class="content-text">
+                    <a href="https://behumanfoundation.org/" target="_blank">
                     <h2>Be Human</h2>
+                </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -951,29 +1048,41 @@ include("../include/config.php");
         <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+                <a href="https://alhusainitravels.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/travel/alhusaini.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                    <a href="https://alhusainitravels.com/" target="_blank">
                     <h2>Al Husaini</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+                <a href="https://www.riyazinternational.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/travel/riyazint.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                    <a href="https://www.riyazinternational.com/" target="_blank">
                     <h2>Riyazint</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
+                <a href="https://zubairtravels.com/" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/travel/zubair.webp" alt="">
                 </div>
+            </a>
                 <div class="content-text">
+                    <a href="https://zubairtravels.com/" target="_blank">
                     <h2>Zubair</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>

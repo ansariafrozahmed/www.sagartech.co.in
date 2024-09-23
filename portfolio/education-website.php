@@ -112,6 +112,19 @@ include("../include/config.php");
         content: "-";
     }
 
+    .maincontent-inner{
+        margin-bottom:30px;
+    }
+    
+    .maincontent-inner:hover .content-text h2{
+        color:#ff0808;
+    }
+
+    .content-text h2:hover{
+        text-decoration:underline;
+        color:#ff0808;
+    }
+
     /* For mobile screens */
     @media (max-width: 767px) {
         .accordion {
@@ -156,8 +169,11 @@ include("../include/config.php");
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li><a href="our-portfolio" style="color: white;">portfolio</a></li>
-        </ul>
+            <li><a href="/portfolio/website">Portfolio</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                <path d="m9 18 6-6-6-6" />
+            </svg>
+            <li><a style="color: white;">Education Website Portfolio</a></li>        </ul>
     </section>
 
     <div class="content-div">
@@ -170,12 +186,14 @@ include("../include/config.php");
         array(
             "name" => "Capdiw",
             "imgSrc" => "../portfolio-mockups/education/capdiw.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://capdiw.in/"
         ),
         array(
             "name" => "Expert 4 Expat",
             "imgSrc" => "../portfolio-mockups/education/expert4expat.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet."
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://xperts4expats.com/"
         )
     );
 
@@ -183,10 +201,10 @@ include("../include/config.php");
     foreach ($educationData as $item) {
         echo '<div class="maincontent-inner">';
         echo '<div class="imgdiv">';
-        echo '<img src="' . $item["imgSrc"] . '" alt="' . $item["name"] . '">';
+        echo '<a href="' .$item["link"]. '" target="_blank"><img src="' . $item["imgSrc"] . '" alt="' . $item["name"] . '"></a>';
         echo '</div>';
         echo '<div class="content-text">';
-        echo '<h2>' . $item["name"] . '</h2>';
+        echo '<a href="' .$item["link"]. '" target="_blank"><h2>' . $item["name"] . '</h2></a>';
         // echo '<p>' . $item["description"] . '</p>';
         echo '</div>';
         echo '</div>';

@@ -112,6 +112,19 @@ include("../include/config.php");
         content: "-";
     }
 
+    .maincontent-inner{
+        margin-bottom:30px;
+    }
+    
+    .maincontent-inner:hover .content-text h2{
+        color:#ff0808;
+    }
+
+    .content-text h2:hover{
+        text-decoration:underline;
+        color:#ff0808;
+    }
+
     /* For mobile screens */
     @media (max-width: 767px) {
         .accordion {
@@ -156,8 +169,11 @@ include("../include/config.php");
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li><a href="our-portfolio" style="color: white;">portfolio</a></li>
-        </ul>
+            <li><a href="/portfolio/website">Portfolio</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                <path d="m9 18 6-6-6-6" />
+            </svg>
+            <li><a style="color: white;">Logistics Website Portfolio</a></li>        </ul>
     </section>
 
     <div class="content-div">
@@ -169,39 +185,45 @@ include("../include/config.php");
     $details = [
         [
             'imgSrc' => '../portfolio-mockups/logistics/adhiklogistics.webp',
-            'alt' => 'Adhik Logistics',
-            'title' => 'Adhik Logistics',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.'
+            'alt' => 'Aadhik Logistics',
+            'title' => 'Aadhik Logistics',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://aadhiklogistics.com/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/amarclearing.webp',
             'alt' => 'Amar Clearing',
             'title' => 'Amar Clearing',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.'
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://amarclearing.com/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/amclogistics.webp',
-            'alt' => 'Amca Logistics',
-            'title' => 'Amca Logistics',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.'
+            'alt' => 'AMCA Logistics',
+            'title' => 'AMCA Logistics',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://www.amclogistic.com/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/index.webp',
-            'alt' => 'Index',
-            'title' => 'Index',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.'
+            'alt' => 'Index Transport',
+            'title' => 'Index Transport',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://indextransport.com/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/marsairocean.webp',
             'alt' => 'Mars Air Ocean',
             'title' => 'Mars Air Ocean',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.'
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://marsairocean.com/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/pacematters.webp',
             'alt' => 'Pace matter',
             'title' => 'Pace matter',
-            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.'
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://pacematters.in/"
         ],
     ];
 
@@ -209,10 +231,10 @@ include("../include/config.php");
     foreach ($details as $detail) {
         echo '<div class="maincontent-inner">';
         echo '<div class="imgdiv">';
-        echo '<img src="' . $detail['imgSrc'] . '" alt="' . $detail['alt'] . '">';
+        echo '<a href="' .$detail["link"]. '" target="_blank"><img src="' . $detail['imgSrc'] . '" alt="' . $detail['alt'] . '"></a>';
         echo '</div>';
         echo '<div class="content-text">';
-        echo '<h2>' . $detail['title'] . '</h2>';
+        echo '<a href="' .$detail["link"]. '" target="_blank"><h2>' . $detail['title'] . '</h2></a>';
         // echo '<p>' . $detail['description'] . '</p>';
         echo '</div>';
         echo '</div>';
