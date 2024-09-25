@@ -194,7 +194,7 @@ include("../include/config.php");
             "name" => "Skewer",
             "imgSrc" => "../portfolio-mockups/restaurants/skewer.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-             "link" => "https://skewer.co.in/"
+             "link" => "#"
         )
     );
 

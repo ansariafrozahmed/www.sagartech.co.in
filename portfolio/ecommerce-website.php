@@ -228,12 +228,6 @@ include("../include/config.php");
             "link" => "https://mistleblue.com/"
         ),
         array(
-            "name" => "Monter",
-            "imgSrc" => "../portfolio-mockups/ecommerce/monter.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://monterstore.com/"
-        ),
-        array(
             "name" => "New Quality Ware",
             "imgSrc" => "../portfolio-mockups/ecommerce/newqualityware.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
@@ -243,7 +237,13 @@ include("../include/config.php");
             "name" => "Perfumistic",
             "imgSrc" => "../portfolio-mockups/ecommerce/perfumistic.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://perfumistic.com/"
+            "link" => "#"
+        ),
+        array(
+            "name" => "Monter Store",
+            "imgSrc" => "../portfolio-mockups/ecommerce/monter.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "#"
         )
     );
 

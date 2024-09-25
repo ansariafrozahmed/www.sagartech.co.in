@@ -304,7 +304,7 @@ include("../include/config.php");
 
     .content-text h2 {
         font-size: 22px;
-        text-align: left;
+        text-align: center;
         color: #212121;
         font-weight: 600;
     }
@@ -644,14 +644,14 @@ include("../include/config.php");
         <!-- <h2>Our Business Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <a href="https://babyworldinu.com/" target="_blank">
+                <a href="https://mithiyaj.com/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/business/babyworld.webp" alt="">
+                        <img src="../portfolio-mockups/business/mithiyaj.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                <a href="https://babyworldinu.com/" target="_blank">
-                    <h2>Baby Wolrd</h2>
+                <a href="https://mithiyaj.com/" target="_blank">
+                    <h2>Mithiyaj</h2>
                 </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -709,14 +709,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-            <a href="https://pmdecor.in/" target="_blank">
+            <a href="https://archicgreenscape.com/" target="_blank">
                 <div class="imgdiv">
-                    <img src="../portfolio-mockups/builders/pmdecor.webp" alt="">
+                    <img src="../portfolio-mockups/builders/archicgreenscape.webp" alt="">
                 </div>
             </a>
                 <div class="content-text">
-                <a href="https://pmdecor.in/" target="_blank">
-                    <h2>PM Decor</h2>
+                <a href="https://archicgreenscape.com/" target="_blank">
+                    <h2>Archic Green Scape</h2>
                 </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -775,14 +775,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-            <a href="https://padmavatichains.com/" target="_blank">
+            <a href="https://alnoorminar.com/" target="_blank">
                 <div class="imgdiv">
-                    <img src="../portfolio-mockups/catalogue/padmavatichains.webp" alt="">
+                    <img src="../portfolio-mockups/catalogue/alnoorminar.webp" alt="">
                 </div>
             </a>
                 <div class="content-text">
-                <a href="https://padmavatichains.com/" target="_blank">
-                    <h2>Padmavati Chains</h2>
+                <a href="https://alnoorminar.com/" target="_blank">
+                    <h2>Alnoor Minar</h2>
                 </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -811,7 +811,7 @@ include("../include/config.php");
             </a>
                 <div class="content-text">
                 <a href="https://aadhiklogistics.com/" target="_blank">
-                    <h2>Adhik Logistics</h2>
+                    <h2>Aadhik Logistics</h2>
                 </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -926,7 +926,7 @@ include("../include/config.php");
             </a>
                 <div class="content-text">
                 <a href="https://xperts4expats.com/" target="_blank">
-                    <h2>Expert 4 Expat</h2>
+                    <h2>Xperts 4 Expats</h2>
                 </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -965,13 +965,13 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://skewer.co.in/" target="_blank">
+                <a href="#" target="_blank">
                 <div class="imgdiv">
                     <img src="../portfolio-mockups/restaurants/skewer.webp" alt="">
                 </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://skewer.co.in/" target="_blank">
+                    <a href="#" target="_blank">
                     <h2>Skewer</h2>
                 </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
@@ -1068,7 +1068,7 @@ include("../include/config.php");
             </a>
                 <div class="content-text">
                     <a href="https://www.riyazinternational.com/" target="_blank">
-                    <h2>Riyazint</h2>
+                    <h2>Riyaz International</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>

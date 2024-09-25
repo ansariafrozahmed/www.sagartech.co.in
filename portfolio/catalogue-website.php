@@ -214,22 +214,22 @@ include("../include/config.php");
             "link" => "https://mirzaagrofoods.com/"
         ),
         array(
+            "name" => "Redsail Exports",
+            "imgSrc" => "../portfolio-mockups/catalogue/redsailexports.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://redsailexports.com/"
+        ),
+        array(
             "name" => "Padmavati Chains",
             "imgSrc" => "../portfolio-mockups/catalogue/padmavatichains.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://padmavatichains.com/"
+            "link" => "#"
         ),
         array(
             "name" => "Zoheb Lala",
             "imgSrc" => "../portfolio-mockups/catalogue/zoheblala.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://zoheblala.com/demo/"
-        ),
-        array(
-            "name" => "Redsail Exports",
-            "imgSrc" => "../portfolio-mockups/catalogue/redsailexports.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://redsailexports.com/"
+            "link" => "#"
         )
     );
 

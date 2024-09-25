@@ -190,7 +190,7 @@ include("../include/config.php");
             "link" => "https://capdiw.in/"
         ),
         array(
-            "name" => "Expert 4 Expat",
+            "name" => "Xperts 4 Expats",
             "imgSrc" => "../portfolio-mockups/education/expert4expat.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://xperts4expats.com/"

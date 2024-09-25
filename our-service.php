@@ -204,7 +204,7 @@
             <a href="bulk-sms-service-provider-in-mumbai">
                 <div class="our-service-card">
                     <div class="our-service-img-div">
-                        <img src="./image/homepage/new home page mockups/bulk sms services.webp" alt="">
+                        <img src="./image/homepage/new home page mockups/bulk sms services1.png" alt="">
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Bulk SMS Service</h2>

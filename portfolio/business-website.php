@@ -216,18 +216,6 @@ include("../include/config.php");
             "link" => "https://annexoverseas.com/"
         ),
         array(
-            "name" => "Ayesha Makeup Academy",
-            "imgSrc" => "../portfolio-mockups/business/ayesha.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://ayeshasmakeupacademy.com/"
-        ),
-        array(
-            "name" => "Baby World",
-            "imgSrc" => "../portfolio-mockups/business/babyworld.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://babyworldinu.com/"
-        ),
-        array(
             "name" => "DPC Saudi",
             "imgSrc" => "../portfolio-mockups/business/dpcsaudi.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
@@ -270,16 +258,28 @@ include("../include/config.php");
             "link" => "https://saudiwells.com/"
         ),
         array(
-            "name" => "Scan 2 Plan",
-            "imgSrc" => "../portfolio-mockups/business/scan2plan.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://scan2plan.in/"
-        ),
-        array(
             "name" => "SK Cool World",
             "imgSrc" => "../portfolio-mockups/business/skcoolworld.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://skcoolworld.com/"
+        ),
+        array(
+            "name" => "Ayesha Makeup Academy",
+            "imgSrc" => "../portfolio-mockups/business/ayesha.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "#"
+        ),
+        array(
+            "name" => "Baby World",
+            "imgSrc" => "../portfolio-mockups/business/babyworld.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "#"
+        ),
+        array(
+            "name" => "Scan 2 Plan",
+            "imgSrc" => "../portfolio-mockups/business/scan2plan.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "#"
         )
     );
 
