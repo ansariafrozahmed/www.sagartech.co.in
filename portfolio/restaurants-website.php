@@ -189,13 +189,13 @@ include("../include/config.php");
             "imgSrc" => "../portfolio-mockups/restaurants/alnizami.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
              "link" => "https://alnizamidarbar.com/"
-        ),
-        array(
-            "name" => "Skewer",
-            "imgSrc" => "../portfolio-mockups/restaurants/skewer.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-             "link" => "#"
         )
+        // array(
+        //     "name" => "Skewer",
+        //     "imgSrc" => "../portfolio-mockups/restaurants/skewer.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //      "link" => "#"
+        // )
     );
 
     // Loop through the restaurants data and generate HTML for each item

@@ -196,12 +196,12 @@ include("../include/config.php");
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "http://cementric.com/"
         ),
-        array(
-            "title" => "Folksco",
-            "imgSrc" => "../portfolio-mockups/builders/folksco.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://folksco.in/"
-        ),
+        // array(
+        //     "title" => "Folksco",
+        //     "imgSrc" => "../portfolio-mockups/builders/folksco.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://folksco.in/"
+        // ),
         array(
             "title" => "South Field",
             "imgSrc" => "../portfolio-mockups/builders/southfield.webp",
@@ -215,11 +215,17 @@ include("../include/config.php");
             "link" => "https://zzconsultants.com/"
         ),
         array(
-            "title" => "PM Decor",
-            "imgSrc" => "../portfolio-mockups/builders/pmdecor.webp",
+            "title" => "East Man Infra",
+            "imgSrc" => "../portfolio-mockups/builders/eastman_infra.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "#"
+            "link" => "https://eastmaninfra.com/"
         )
+        // array(
+        //     "title" => "PM Decor",
+        //     "imgSrc" => "../portfolio-mockups/builders/pmdecor.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "#"
+        // )
     );
 
     // Loop through the card data array and generate HTML for each card

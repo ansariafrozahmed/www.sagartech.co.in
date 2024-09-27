@@ -6,7 +6,7 @@ include("../include/config.php");
 
 
 <head>
-    <title>Our Ecommerce Portfolio - Sagar Tech Technical Solutions</title>
+    <title>Our Interior Designer Portfolio - Sagar Tech Technical Solutions</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -163,7 +163,7 @@ include("../include/config.php");
     ?>
 
     <section style="background-image: url('../portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;" class="banner-content">
-        <h2>Ecommerce</h2>
+        <h2>Interior Designer</h2>
         <ul class="breadcrumbdiv">
             <li><a href="https://sagartech.co.in/">Home</a></li>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
@@ -173,94 +173,33 @@ include("../include/config.php");
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li><a style="color: white;">Ecommerce Website Portfolio</a></li>        </ul>
+            <li><a style="color: white;">Interior Designer Website Portfolio</a></li>
+        </ul>
     </section>
 
-
-    <div class="content-div">
-        <h2 style="text-align: center; font-weight: 600; padding: 10px; font-size: 30px;">Our Ecommerce Website portfolio</h2>
+    <div id="Builders" class="content-div">
+        <h2 style="text-align: center; font-weight: 600; padding: 10px; font-size: 30px;">Our Interior Designer Website portfolio</h2>
         <hr>
-        
         <div class="maincontent">
     <?php
-    // Define an array of ecommerce data
-    $ecommerceData = array(
+    // Define an array of interior data
+    $InteriorData = array(
         array(
-            "name" => "Chief Parfums",
-            "imgSrc" => "../portfolio-mockups/ecommerce/chief parfums.webp",
+            "name" => "Folksco",
+            "imgSrc" => "../portfolio-mockups/interior/folksco.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://chiefparfums.com/"
+             "link" => "https://folksco.in/"
         ),
         array(
-            "name" => "Trillionaire",
-            "imgSrc" => "../portfolio-mockups/ecommerce/trillionair.webp",
+            "name" => "Bareziya Architects",
+            "imgSrc" => "../portfolio-mockups/interior/bareziya_arch.png",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://trillionaireautoparts.com/"
-        ),
-        array(
-            "name" => "Cotton Culture",
-            "imgSrc" => "../portfolio-mockups/ecommerce/cotton-culture.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://www.cottonculture.co.in/"
-        ),
-        array(
-            "name" => "Al Marjaan",
-            "imgSrc" => "../portfolio-mockups/ecommerce/almarjaan.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://almarjaandates.com/"
-        ),
-        array(
-            "name" => "Arabian Tea",
-            "imgSrc" => "../portfolio-mockups/ecommerce/arabiantea.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://arabiantea.in/"
-        ),
-        array(
-            "name" => "BS Auto",
-            "imgSrc" => "../portfolio-mockups/ecommerce/bsauto.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://bsautoaccessories.com/"
-        ),
-        array(
-            "name" => "Grand Trunk",
-            "imgSrc" => "../portfolio-mockups/ecommerce/grandtruck.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "http://thegrandtrunk.in/"
-        ),
-        array(
-            "name" => "Mistle Blue",
-            "imgSrc" => "../portfolio-mockups/ecommerce/mistleblue.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://mistleblue.com/"
-        ),
-        array(
-            "name" => "New Quality Ware",
-            "imgSrc" => "../portfolio-mockups/ecommerce/newqualityware.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://newqualityware.com/"
-        ),
-        array(
-            "name" => "Soot Boot Wala Dhobi",
-            "imgSrc" => "../portfolio-mockups/ecommerce/e commerce_sootbootwala.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://sootbootwaladhobi.com/"
+             "link" => "https://bareziyaarchitects.com/"
         )
-        // array(
-        //     "name" => "Perfumistic",
-        //     "imgSrc" => "../portfolio-mockups/ecommerce/perfumistic.webp",
-        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-        //     "link" => "#"
-        // ),
-        // array(
-        //     "name" => "Monter Store",
-        //     "imgSrc" => "../portfolio-mockups/ecommerce/monter.webp",
-        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-        //     "link" => "#"
-        // )
     );
 
-    // Loop through the ecommerce data and generate HTML for each item
-    foreach ($ecommerceData as $item) {
+    // Loop through the interior data and generate HTML for each item
+    foreach ($InteriorData as $item) {
         echo '<div class="maincontent-inner">';
         echo '<div class="imgdiv">';
         echo '<a href="' .$item["link"]. '" target="_blank"><img src="' . $item["imgSrc"] . '" alt="' . $item["name"] . '"></a>';
@@ -275,6 +214,7 @@ include("../include/config.php");
 </div>
 
     </div>
+
 
 
 

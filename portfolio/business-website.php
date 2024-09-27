@@ -262,25 +262,25 @@ include("../include/config.php");
             "imgSrc" => "../portfolio-mockups/business/skcoolworld.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://skcoolworld.com/"
-        ),
-        array(
-            "name" => "Ayesha Makeup Academy",
-            "imgSrc" => "../portfolio-mockups/business/ayesha.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "#"
-        ),
-        array(
-            "name" => "Baby World",
-            "imgSrc" => "../portfolio-mockups/business/babyworld.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "#"
-        ),
-        array(
-            "name" => "Scan 2 Plan",
-            "imgSrc" => "../portfolio-mockups/business/scan2plan.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "#"
         )
+        // array(
+        //     "name" => "Ayesha Makeup Academy",
+        //     "imgSrc" => "../portfolio-mockups/business/ayesha.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "#"
+        // ),
+        // array(
+        //     "name" => "Baby World",
+        //     "imgSrc" => "../portfolio-mockups/business/babyworld.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "#"
+        // ),
+        // array(
+        //     "name" => "Scan 2 Plan",
+        //     "imgSrc" => "../portfolio-mockups/business/scan2plan.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "#"
+        // )
     );
 
     // Loop through the business data and generate HTML for each item

@@ -220,17 +220,23 @@ include("../include/config.php");
             "link" => "https://redsailexports.com/"
         ),
         array(
-            "name" => "Padmavati Chains",
-            "imgSrc" => "../portfolio-mockups/catalogue/padmavatichains.webp",
+            "name" => "Trigger Exim",
+            "imgSrc" => "../portfolio-mockups/catalogue/trigger exam_barber.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "#"
-        ),
-        array(
-            "name" => "Zoheb Lala",
-            "imgSrc" => "../portfolio-mockups/catalogue/zoheblala.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "#"
+            "link" => "https://triggerexim.com/"
         )
+        // array(
+        //     "name" => "Padmavati Chains",
+        //     "imgSrc" => "../portfolio-mockups/catalogue/padmavatichains.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "#"
+        // ),
+        // array(
+        //     "name" => "Zoheb Lala",
+        //     "imgSrc" => "../portfolio-mockups/catalogue/zoheblala.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "#"
+        // )
     );
 
     // Loop through the catalogue data and generate HTML for each item
