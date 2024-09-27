@@ -222,6 +222,53 @@ include ('include/config.php');
             content: "-";
         }
 
+        .video-container {
+            max-width: 100%;
+            overflow: hidden; /* Prevent x overflow*/
+            position: relative;
+        } 
+
+        .video {
+            width: 100%; /* Make video scale to container width */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+        } 
+
+
+        /* Style for the video container to make it responsive */
+        /* .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (56.25% = 9/16 * 100) 
+            height: 0;
+            overflow: hidden;
+        } */
+
+        /* Ensure the video fits within the container */
+        /* .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the video covers the entire container 
+            display: block;
+        } */
+
+        /* Optional media queries to further control layout on small devices */
+        @media (max-width: 768px) {
+            /* .video-container {
+                padding-bottom: 75%; /* Adjust to 4:3 aspect ratio for smaller screens if needed 
+            } */
+        }
+
+        @media (max-width: 480px) {
+            /* .video-container {
+                padding-bottom: 100%; /* Square aspect ratio for very small screens 
+            } */
+        }
+
+
         /* For mobile screens */
         @media (max-width: 767px) {
             .accordion {
@@ -433,9 +480,17 @@ include ('include/config.php');
                 width: 100%;
             }
         </style>
-        <div class="homeBanner">
+        <!-- <div class="homeBanner">
             <img src="./image/homepage/homeBanner.webp" alt="" srcset="">
+        </div> -->
+        <div class="video-container">
+            <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
+                <source src="./video/sagartech banner 10.mp4" type="video/mp4">
+            </video>
         </div>
+        
+        
+        
 
         <?php
         include 'include/intro.php'
