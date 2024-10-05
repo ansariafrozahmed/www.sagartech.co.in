@@ -1,6 +1,6 @@
 <?php
 
-include ('include/config.php');
+include('include/config.php');
 // error_reporting(error_reporting() & ~E_WARNING);
 // ini_set('display_errors', 1);
 // ini_set('error_reporting', E_ALL);
@@ -222,36 +222,39 @@ include ('include/config.php');
             content: "-";
         }
 
-        .video-container {
+        /* .video-container {
             max-width: 100%;
             overflow: hidden; /* Prevent x overflow*/
-            position: relative;
-            /* padding: 60px; */
-            padding: 0px 65px;
-            padding-bottom: 70px;
-            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        /* position: relative; */
+        /* padding: 60px; */
+        /* padding: 0px 65px; */
+        /* padding-bottom: 70px; */
+        /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
         }
 
-        @media only screen and (max-width: 999px)
+        */
+        /* @media only screen and (max-width: 999px)
         {
             .video-container {
                 max-width: 100%;
                 overflow: hidden;
                 position: relative;
                 /* padding: 60px; */
-                padding: 0px 20px;
-                padding-bottom: 30px;
-                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        /* padding: 0px 20px; */
+        /* padding-bottom: 30px; */
+        /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
         }
         }
 
-        .video {
+        */
+        /* .video {
             width: 100%; /* Make video scale to container width */
-            height: auto; /* Maintain aspect ratio */
-            display: block;
-        } 
+        /* height: auto;  */
+        /* Maintain aspect ratio */
+        /* display: block; */
+        }
 
-
+        */
         /* Style for the video container to make it responsive */
         /* .video-container {
             position: relative;
@@ -473,14 +476,14 @@ include ('include/config.php');
 
 <body>
     <!-- loading -->
-    <!-- <div id="loading">
+    <div id="loading">
         <div id="loading-center">
             <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo">
         </div>
-    </div> -->
+    </div>
     <?php
     $page = 'home';
-    include ('include/newHeader.php');
+    include('include/newHeader.php');
     ?>
 
 
@@ -505,22 +508,22 @@ include ('include/config.php');
                 <source src="./video/sagartech banner 10.mp4" type="video/mp4">
             </video>
         </div> -->
-        
-        
-        
+
+
+
 
         <?php
         include 'include/newintro.php'
             ?>
-            
-            <div class="video-container">
+
+        <!-- <div class="video-container">
             <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
                 <source src="./video/sagartech banner 10.mp4" type="video/mp4">
             </video>
-        </div>
+        </div> -->
 
         <?php
-        include 'ourservice.php'
+        //include 'ourservice.php'
             ?>
 
         <script>
@@ -549,16 +552,16 @@ include ('include/config.php');
 
         <hr>
         <?php
-        include 'include/ourClients.php'
+        //include 'include/ourClients.php'
             ?>
 
 
         <?php
-        include 'include/portfolioSlider.php'
+        //include 'include/portfolioSlider.php'
             ?>
         <hr>
         <?php
-        include 'include/techStack.php'
+        //include 'include/techStack.php'
             ?>
 
 
@@ -653,7 +656,7 @@ include ('include/config.php');
                 }
             }
         </style>
-        <div class="stats-class">
+        <!-- <div class="stats-class">
             <h6>Our <span style="color: #ff0808">Statistics</span></h6>
             <div class="card-divvvv">
                 <div class="stats-cards">
@@ -686,7 +689,7 @@ include ('include/config.php');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -855,7 +858,7 @@ include ('include/config.php');
                 }
             }
         </style>
-        <div class="index-testimonial">
+        <!-- <div class="index-testimonial">
             <h2>Testimonial From Our <span style="color:#ff0808;">Valuable Clients</span></h2>
             <div class="inner-testimonial">
                 <div class="inner-left">
@@ -903,7 +906,7 @@ include ('include/config.php');
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
 
@@ -913,8 +916,8 @@ include ('include/config.php');
 
 
 
-        <h3 class="faqs-heading">FAQs</h3>
-        <div class="accordion">
+        <!-- <h3 class="faqs-heading">FAQs</h3> -->
+        <!-- <div class="accordion">
             <div class="accordion-item">
                 <h2>What services does Sagar Tech Technical Solution offer?</h2>
                 <div class="accordion-content">
@@ -994,7 +997,7 @@ include ('include/config.php');
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <script>
             document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
                 accordionToggle.addEventListener('click', () => {
@@ -1015,7 +1018,7 @@ include ('include/config.php');
 
     </div>
     <?php
-    include ("include/footer.php");
+    include("include/footer.php");
     ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
