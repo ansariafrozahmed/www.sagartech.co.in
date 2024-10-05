@@ -493,14 +493,14 @@
       </div>
     </div>
     <div class="stats-cards">
-      <img src="https://cdn-icons-png.flaticon.com/512/2163/2163245.png" alt="" />
+      <img src="./images/counter/awards.png" alt="" />
       <div class="stats-card-detail">
         <h5 style="color:green">1</h5>
         <span>Awards</span>
       </div>
     </div>
     <div class="stats-cards">
-      <img src="https://gurcooresidency.com/wp-content/uploads/2021/09/Google-Review-Icon.jpg" alt="" />
+      <img src="./images/counter/star-rating.png" alt="" />
       <div class="stats-card-detail">
         <h5 style="color:green">5</h5>
         <span>Rating</span>
