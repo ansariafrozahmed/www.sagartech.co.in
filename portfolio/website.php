@@ -585,7 +585,7 @@ include("../include/config.php");
     <button class="buttons" onclick="openCity('Trust')" id="tabTrust">Trust & Properties</button>
     <button class="buttons" onclick="openCity('Travels')" id="tabTravels">Travels</button>
     <button class="buttons" onclick="openCity('Interior')" id="tabTravels">Interior Designer</button>
-    <button class="buttons" onclick="openCity('Static')" id="tabTravels">Static Websites</button>
+    <!-- <button class="buttons" onclick="openCity('Static')" id="tabTravels">Static Websites</button> -->
 </div>
 
     <script>
@@ -1134,8 +1134,8 @@ include("../include/config.php");
     </div>
 
 
-    <div id="Static" class="content-div" style="display:none">
-        <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
+    <!-- <div id="Static" class="content-div" style="display:none">
+        <h2>Our Trust & Properties Website portfolio</h2>
         <div class="maincontent">
             <div class="maincontent-inner">
                 <a href="https://aadhiklogistics.com/" target="_blank">
@@ -1173,7 +1173,7 @@ include("../include/config.php");
                     <a href="https://behumanfoundation.org/" target="_blank">
                     <h2>Be Human</h2>
                 </a>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
                 </div>
             </div>
         </div>
@@ -1184,7 +1184,7 @@ include("../include/config.php");
                         d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
                 </svg></button>
         </div>
-    </div>
+    </div> -->
 
 
 
