@@ -732,6 +732,9 @@ include ('config.php');
                     <li>
                       <a href="<?= WEB_URL ?>dynamic-website-development-company-in-mumbai">Dynamic Website</a>
                     </li>
+                    <li>
+                      <a href="<?= WEB_URL ?>static-website-development-company-in-mumbai">Static Website</a>
+                    </li>
                     <li><a href="<?= WEB_URL ?>blogging-website-development-in-mumbai">Blog Website</a></li>
                     <li><a href="<?= WEB_URL ?>web-hosting-services-in-mumbai">Web Hosting</a></li>
                     <li>
