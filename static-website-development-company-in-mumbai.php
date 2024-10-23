@@ -564,7 +564,7 @@
 
     .card-head img {
         height: 50px;
-        width: 50px;
+        /* width: 100px; */
     }
 
     .card-head h2 {
@@ -603,7 +603,7 @@
 
         .card-head img {
             height: 50px;
-            width: 50px;
+            /* width: 100px; */
         }
 
         .card-head h2 {
@@ -643,7 +643,7 @@
 
         .card-head img {
             height: 50px;
-            width: 50px;
+            /* width: 100px; */
         }
 
         .card-head h2 {
@@ -963,21 +963,22 @@
 
 
     <div class="herosectionnew">
-        <h1>No.1 Static Website Developer & Designing Company In Mumbai</h1>
+        <h1>Static Website Developers In Mumbai</h1>
         <ul class="herobreadrumb">
             <li>Home</li>
             <li>/</li>
             <li>Static Website Service</li>
         </ul>
-        <p class="herosectionpara">
-            In today's digital world, having a static website is a strategic decision that can greatly benefit your
-            company. Unlike dynamic websites that require constant updates and database management, static websites are
-            simple, fast, and highly secure. Static websites are built with fixed content, making them lightweight and
-            quick to load, ensuring a seamless user experience. One of the main advantages of static websites is their
-            ease of maintenance, with minimal resources required for hosting and updates. They are also ideal for
-            delivering stable and reliable information while being cost-effective and highly scalable.</p>
+        <p class="herosectionpara">Having a static website is really an intentional approach for your business in the
+            digital world now. Static sites are simple, fast, and highly secure vs. a dynamic website with constantly
+            changing content that is needing software updates and database management. As fixed content is used to build
+            static websites, these are quite lightweight and fast loading, which can provide a better overall user
+            experience. But the best thing about static websites is that they are very easy to update and need not much
+            hosting resources. These are also perfect for providing data that is reliable and predictable in appearance,
+            and they can provide it at a low cost, available over a wide range of platforms.
+        </p>
         <div class="herobuttonsnew">
-            <a href="our-portfolio" class="button">View Portfolio</a>
+            <a href="our-portfolio" class="button">Our Static Websites</a>
             <!-- <a href="#" class="button">Quick Enquiry</a> -->
             <?php
             // include 'include/quote-modal.php'
@@ -991,15 +992,13 @@
 
 
     <div class="second-Dynamic-section">
-        <h2>Why Your Business Need Static Website Development</h2>
+        <h2>Why Static Website Development Is Necessary for Your Company</h2>
         <!-- <h3>An experienced team of Dynamic developers to deliver your dream online store.</h3> -->
-        <p>In the digital age, a static website is no longer a choice: it is a requirement for businesses seeking to
-            establish a strong online presence and stay ahead of the competition. At <a class="interlink"
-                href="https://sagartech.co.in/">Sagar Tech Technical Solution</a>, we recognize the value of static <a
-                class="interlink" href="web-development-company-in-mumbai">website development</a> in driving business
-            growth and
-            increasing customer engagement. Here are some strong reasons why your business should have a static
-            website.</p>
+        <p>A static website is now a necessity for companies looking to have a strong online presence and stay ahead of
+            the competition in the digital age. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech
+                Technical Solution</a>, we understand how important static website development is for expanding client
+            interaction and corporate growth. Here are some powerful reasons in favour of a static website for your
+            company.</p>
     </div>
 
 
@@ -1010,39 +1009,45 @@
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
                     <h2>Enhanced User Experience</h2>
-                    <p>Static sites provide a more interactive and engaging user experience. With enhanced features you
-                        can give visitors a smooth and enjoyable browsing experience.</p>
+                    <p>The user experience is more expressive and captivating on static websites. You may provide
+                        visitors with a seamless and pleasurable browsing experience by implementing new features.
+                    </p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
                     <h2>Improved SEO Performance</h2>
-                    <p>Static websites are naturally more SEO-friendly than static websites. They allow you to create
-                        SEO-friendly URLs and static content and easily integrate meta tags.</p>
+                    <p>Static websites are automatically better for search engine optimisation. They make it simple to
+                        incorporate meta tags and enable you to produce static content and URLs that are optimised for
+                        search engines.
+                    </p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
                     <h2>Increased Sales</h2>
-                    <p>The online marketplace is static and ever-expanding. An E-commerce website opens up new avenues
-                        for sales.
+                    <p>The online market is both stable and constantly growing. New sales channels are made possible by
+                        an e-commerce website.
                     </p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
                     <h2>Scalability</h2>
-                    <p>Static websites are highly scalable and can quickly expand and change as your company grows.
-                        Whether you need to add new products, expand your services.</p>
+                    <p>Because of its amazing growth, static websites may easily grow and adapt to your business's
+                        needs. Expand your services or add additional goods as needed.
+                    </p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
                     <h2>Cost-Effectiveness</h2>
-                    <p>While static website development may require a more initial investment than static website
-                        development.</p>
+                    <p>However, compared to static website development, static website development could demand larger
+                        initial payments.
+                    </p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
                     <h2>Improved Conversion Rates</h2>
-                    <p>Static websites aim to turn visitors into customers. With features like personalised content and
-                        targeted calls to action.</p>
+                    <p>The goal of static websites is to convert visitors into buyers. with attributes like specific
+                        calls to action and customised content.
+                    </p>
                 </div>
             </div>
         </div>
@@ -1082,41 +1087,43 @@
         <div class="sixth-card-div">
             <div class="sixth-card">
                 <div class="card-head">
-                    <img src="./icons/node.webp" alt="Static Website">
-                    <h2>Node.js Custom Development</h2>
+                    <img src="./icons/nextjs.png" alt="Static Website">
+                    <h2>Next JS</h2>
                 </div>
-                <span>
-                    Node.js is a powerful runtime framework that enables us to create scalable, high-performance static
-                    Websites . Node.js allows us to use JavaScript for both front-end and back-end development,
-                    optimising the development process and making codebase maintenance easier. Node.js also has a robust
-                    ecosystem of libraries and packages, allowing us to rapidly add new features and functionalities to
-                    your static website.
+                <span>Next.js is a powerful React-based framework that simplifies the development of static websites
+                    with features like server-side rendering (SSR) and static site generation (SSG). It provides optimal
+                    performance by pre-rendering content and handling dynamic routes effortlessly. With Next.js, you can
+                    build fast, scalable static websites that are optimized for SEO and deliver seamless user
+                    experiences.
+
                 </span>
             </div>
             <!-- ------------------ -->
             <div class="sixth-card">
                 <div class="card-head">
-                    <img src="./icons/wordpress.webp" alt="Static Website">
-                    <h2>Wordpress</h2>
+                    <img src="./icons/html_css_js.webp" alt="Static Website">
+                    <h2>HTML, CSS, JS</h2>
                 </div>
-                <span>
-                    WordPress is a popular CMS that we frequently use for static website development, particularly for
-                    clients who need a user-friendly interface for managing content. While traditionally known for
-                    dynamic sites, WordPress can be adapted for static sites by generating pre-rendered pages, offering
-                    the best of both worlds.
+                <span>HTML, CSS, and JavaScript are the core building blocks of any website. HTML structures your static
+                    website’s content, CSS ensures it’s styled with responsive, visually appealing designs, and
+                    JavaScript adds dynamic functionality. Together, they form the foundation of modern web development,
+                    allowing for the creation of efficient, fast-loading static websites that are easy to maintain and
+                    customize.
+
                 </span>
             </div>
             <!-- ------------------ -->
             <div class="sixth-card">
                 <div class="card-head">
-                    <img src="./icons/cms.webp" alt="Static Website">
-                    <h2>Headless CMS (Content Management System)</h2>
+                    <img src="./icons/bootstrap.png" alt="Static Website">
+                    <h2>Bootstrap</h2>
                 </div>
-                <span>
-                    Headless CMS platforms, such as Strapi, Contentful, and Sanity, provide a flexible and scalable way
-                    to manage content for static websites. Unlike traditional CMS platforms, which tightly couple the
-                    content management and presentation layers, headless CMS platforms separate these layers, allowing
-                    us to deliver content to any device or platform via APIs.
+                <span>Bootstrap is a popular front-end framework that accelerates static website development with its
+                    pre-built components, responsive grid system, and extensive library of styles. It allows developers
+                    to create sleek, mobile-first websites quickly and efficiently. By using Bootstrap, static websites
+                    gain a modern, professional look while maintaining compatibility across various devices and screen
+                    sizes.
+
                 </span>
             </div>
             <!-- ------------------ -->
@@ -1137,19 +1144,20 @@
     </div>
 
     <?php
-    include 'include/ourClients.php'
+    include 'include/staticOurClients.php'
         ?>
 
 
 
     <div class="eight-ecom-sec">
         <div class="eight-head">
-            <h2>Core Features of Our Static Website Design Services</h2>
-            <span>An Static website's ability to rank well depends on the features and functionalities it delivers. As
-                an award winning Static website development company in India, we provide every feature required for
-                managing a profitable online store. Our Static web developers handle everything, from a rich user
-                interface to easy access on mobile, tablet, desktop, and laptop devices. we are expert to scale your
-                business by provide Static website.</span>
+            <h2>Our Static Website Design Services Important Features</h2>
+            <span>The features and functionality that a static website offers define how well it ranks. We offer every
+                element needed to run a successful online store as an award-winning static website development company
+                in India. From a rich user experience to convenient access on desktop, laptop, tablet, and mobile
+                devices, our static web developers take care of everything. We are skilled at providing static websites
+                to help you grow your business.
+            </span>
         </div>
         <div class="eight-bottom">
             <div class="eight-card">
@@ -1217,33 +1225,31 @@
 
 
     <div class="ninth-ecom-sec">
-        <h2>Why Choose Sagar Tech Technical Solution For Static Website Development</h2>
+        <h2>Why Pick Sagar Tech Technical Solution for Developing Static Websites?</h2>
         <span>When looking for a static website company, it is important to consider this factors</span>
         <div class="ninth-inner-div">
             <div class="ninth-card">
                 <img src="./icons/customer-review.webp" alt="Static Website">
-                <h2>Knowledge and skill:</h2>
-                <span>Look for a business that shows expertise and competence in a range of technologies.</span>
+                <h2>Knowledge and Skill:</h2>
+                <span>Check out a company that demonstrates mastery in a variety of technologies.</span>
             </div>
             <!-- -------------- -->
             <div class="ninth-card">
                 <img src="./icons/high-quality.webp" alt="Static Website">
-                <h2>High-quality Portfolio:</h2>
-                <span>Take the time to review their portfolio and the quality of their work to ensure it meets your
-                    expectations.</span>
+                <h2>High Quality Portfolio:</h2>
+                <span>Make sure their work fits your standards by taking the time to look over their portfolio.</span>
             </div>
             <!-- -------------- -->
             <div class="ninth-card">
                 <img src="./icons/budget.webp" alt="Static Website">
-                <h2>Cost and budget:</h2>
-                <span>Getting an accurate estimate that suits your budget and offers a cost breakdown is also crucial,
-                    but you should be aware of any hidden expenses.</span>
+                <h2>Cost and Budget:</h2>
+                <span>It's also important to find an accurate proposal that fits your budget and provides a cost breakdown, but you should be careful of any additional costs.</span>
             </div>
             <!-- -------------- -->
             <div class="ninth-card">
                 <img src="./icons/help-desk.webp" alt="Static Website">
                 <h2>Assistance and Service:</h2>
-                <span>Long-term success depends on continuous feature enhancement and post-deployment support.</span>
+                <span>After the launch, support and ongoing development of features are required for long-term success.</span>
             </div>
             <!-- -------------- -->
         </div>
