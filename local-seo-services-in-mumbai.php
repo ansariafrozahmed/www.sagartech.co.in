@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="SagarTech Technical Solution is an award winning SEO company in Mumbai. We provide professional local SEO services at affordable prices.">
+        content="Sagar Tech Technical Solution is an award winning SEO company in Mumbai. We provide professional local SEO services at affordable prices.">
     <meta name="keywords" content="Local SEO Service">
 
     <meta property="og:type" content="website">
@@ -15,7 +15,7 @@
     <meta property="og:url" content="https://sagartech.co.in/local-seo-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metalseo.png">
     <meta property="og:description"
-        content="SagarTech Technical Solution is an award winning SEO company in Mumbai. We provide professional local SEO services at affordable prices.">
+        content="Sagar Tech Technical Solution is an award winning SEO company in Mumbai. We provide professional local SEO services at affordable prices.">
     <!-- Favicon -->
     <link rel="canonical" href="https://sagartech.co.in/local-seo-services-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />

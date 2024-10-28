@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>Our Clients - SagarTech Technical Solutions</title>
+    <title>Our Clients - Sagar Tech Technical Solutions</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Best mobile app development company in Mumbai, we have a high level of proficiency in IOS &  android app development. are you looking to digitally grow business?">
     <meta name="keywords" content="Mobile App Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Our CLients - SagarTech Technical Solutions">
+    <meta property="og:title" content="Our CLients - Sagar Tech Technical Solutions">
     <meta property="og:url" content="https://sagartech.co.in/app-development">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaweb.png">
     <meta property="og:description" content="Best mobile app development company in Mumbai, we have a high level of proficiency in IOS &  android app development. are you looking to digitally grow business?">

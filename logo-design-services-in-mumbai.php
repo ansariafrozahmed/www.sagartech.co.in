@@ -735,7 +735,7 @@ include 'include/config.php';
     <div class="typesofsection">
         <h2>Why Choose Sagar Tech Technical Solution For Logo Design Services</h2>
         <!-- <h3>subtitle</h3> -->
-        <p>When it comes to crafting the face of your brand, Sagartech Technical Solution emerges as the ideal choice,
+        <p>When it comes to crafting the face of your brand, Sagar Tech Technical Solution emerges as the ideal choice,
             bringing a blend of creativity, expertise, and client-focused collaboration to the forefront. We stand out
             as the perfect partner for logo design. Here's why choosing us is a decision that goes beyond just getting a
             logo</p>
@@ -745,7 +745,7 @@ include 'include/config.php';
                 <img src="icons/abilities.png" height="70px" alt="">
                 <!-- <p class="number-h1">01</p> -->
                 <p class="h1">Skilled Designers</p>
-                <p class="p">Experience matters when designing logos. We at Sagartech are proud to have a group of
+                <p class="p">Experience matters when designing logos. We at Sagar Tech are proud to have a group of
                     accomplished designers because of their vast knowledge. They can expertly handle the complexities of
                     design, guaranteeing that your logo is not only visually appealing but also carefully thought out
                     for optimal impact. Therefore, we are leading logo design services provider in mumbai.</p>
@@ -767,7 +767,7 @@ include 'include/config.php';
                 <img src="icons/budget.webp" height="70px" alt="">
                 <!-- <p class="number-h1">01</p> -->
                 <p class="h1">Reasonably Priced Packages</p>
-                <p class="p">High-quality logo design shouldn't be too costly. Packages from Sagartech Technical
+                <p class="p">High-quality logo design shouldn't be too costly. Packages from Sagar Tech Technical
                     Solution are reasonably priced and designed to accommodate companies of all sizes. Our dedication to
                     offering affordable solutions guarantees that you will receive Five Star design services without
                     going over budget.</p>

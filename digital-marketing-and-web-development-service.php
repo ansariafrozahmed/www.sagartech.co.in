@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Sagartech provide website development, digital marketing, App development and bulk SMS services with affordable price. Contact us now and get your qoute.">
+        content="Sagar Tech provide website development, digital marketing, App development and bulk SMS services with affordable price. Contact us now and get your qoute.">
     <meta name="keywords" content="Website Development and Digital Marketing">
     <meta name="author" content="Ubaid saudagar">
     <meta property="og:type" content="website">
@@ -16,7 +16,7 @@
     <meta property="og:url" content="https://sagartech.co.in/digital-marketing-and-web-development-service">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaservice.png">
     <meta property="og:description"
-        content="Sagartech provide website development, digital marketing, App development and bulk SMS services with affordable price.">
+        content="Sagar Tech provide website development, digital marketing, App development and bulk SMS services with affordable price.">
     <!-- Favicon -->
     <link rel="canonical" href="https://sagartech.co.in/digital-marketing-and-web-development-service" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
@@ -508,7 +508,7 @@ MAIN CONTENT -->
                 <div class="modal-dialog modal-sm text-center">
                     <div class="modal-content text-center">
                         <div class="modal-header text-center">
-                            <h4 class="modal-title" id="myModalLabel">SagarTech Services</h4>
+                            <h4 class="modal-title" id="myModalLabel">Sagar Tech Services</h4>
                         </div>
                         <div class="modal-body tex-center">
                             <h5>Kinldy Contact Us.</h5>

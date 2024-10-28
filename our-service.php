@@ -175,7 +175,7 @@
                     </div>
                     <div class="our-service-content-div">
                         <h2 class="our-service-heading">Web Development & Designing</h2>
-                        <span class="our-service-content">Sagartech Technical Solution stands out as an award-winning
+                        <span class="our-service-content">Sagar Tech Technical Solution stands out as an award-winning
                             ecommerce website development services provider in Mumbai. Having a track record of
                             providing innovative solutions We take pride in our ability to develop e-commerce websites
                             that not only matches your business needs but also exceed the needs of businesses looking
@@ -225,7 +225,7 @@
                         <h2 class="our-service-heading">App Development</h2>
                         <span class="our-service-content">Sagar Tech's commitment to innovation and excellence has
                             positioned it as a reliable partner for businesses looking to leverage the vast potential of
-                            online commerce. With a team of seasoned professionals, Sagartech combines cutting-edge
+                            online commerce. With a team of seasoned professionals, Sagar Tech combines cutting-edge
                             technology, user-centric design, and industry expertise to deliver tailored e-commerce
                             solutions that cater to the unique needs of each client.</span>
                     </div>

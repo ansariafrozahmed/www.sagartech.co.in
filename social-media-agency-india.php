@@ -6,14 +6,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sagartech - Social media agency in india. We provide social media optimization service at best prices. Aware your business on social media with Us.">
+    <meta name="description" content="Sagar Tech - Social media agency in india. We provide social media optimization service at best prices. Aware your business on social media with Us.">
     <meta name="keywords" content="Social Media Agency">
     
     <meta property="og:type" content="website">
     <meta property="og:title" content="Social Media Agency in india | Social Media Service">
     <meta property="og:url" content="https://sagartech.co.in/social-media-agency-india">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metasmo.png">
-    <meta property="og:description" content="Sagartech - Social media agency in india. We provide social media optimization service at best prices. Aware your business on social media with Us.">
+    <meta property="og:description" content="Sagar Tech - Social media agency in india. We provide social media optimization service at best prices. Aware your business on social media with Us.">
     <!-- Favicon -->
     <link rel="canonical" href="https://sagartech.co.in/social-media-agency-india" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />

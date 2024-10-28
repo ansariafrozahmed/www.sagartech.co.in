@@ -769,7 +769,7 @@ s0.parentNode.insertBefore(s1,s0);
                     <h3>Facebook Marketing</h3>
                 </div>
                 <p>In a vast universe of social media, Facebook continues to be a powerhouse for connecting with
-                    audiences around the world. Sagartech Technical Solution brings an exclusive blend of creativity and
+                    audiences around the world. Sagar Tech Technical Solution brings an exclusive blend of creativity and
                     strategy to the table, making us your go-to partner for Facebook marketing. As a specialised social
                     media marketing agency, we understand the challenges of managing your Facebook marketing. We manage
                     Facebook ads for you, including video ads, lead ads, engagement ads, carousel ads, and boosted
@@ -812,7 +812,7 @@ s0.parentNode.insertBefore(s1,s0);
                 </div>
                 <p>Increase your visibility in professional networks, improve your connections, and generate more leads
                     using LinkedIn. We provide advanced services that help your business grow by making use of the power
-                    of LinkedIn marketing. Let us look at how Sagartech can be your go-to partner for conquering the
+                    of LinkedIn marketing. Let us look at how Sagar Tech can be your go-to partner for conquering the
                     world of professional networking and increasing your brand's visibility. Our LinkedIn marketing
                     services are designed to create a strong brand image and achieve amazing results.</p>
             </div>

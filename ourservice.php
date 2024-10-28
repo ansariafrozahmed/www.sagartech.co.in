@@ -269,7 +269,7 @@ $services = [
         'imageSrc' => './image/homepage/services-icons/web-dev.webp',
         'imageAlt' => 'Web Development & Designing',
         'heading' => 'Web Development & Designing',
-        'description' => 'Sagartech Technical Solution stands out as an award-winning
+                'description' => 'Sagar Tech Technical Solution stands out as an award-winning
                             ecommerce website development services provider in Mumbai. Having a track record of
                             providing innovative solutions We take pride in our ability to develop e-commerce websites
                             that not only matches your business needs but also exceed the needs of businesses looking
@@ -296,7 +296,7 @@ $services = [
         'heading' => 'App Development',
         'description' => "Sagar Tech's commitment to innovation and excellence has
                             positioned it as a reliable partner for businesses looking to leverage the vast potential of
-                            online commerce. With a team of seasoned professionals, Sagartech combines cutting-edge
+                            online commerce. With a team of seasoned professionals, Sagar Tech combines cutting-edge
                             technology, user-centric design, and industry expertise to deliver tailored e-commerce
                             solutions that cater to the unique needs of each client.",
         'link' => 'mobile-app-development-company-in-mumbai',

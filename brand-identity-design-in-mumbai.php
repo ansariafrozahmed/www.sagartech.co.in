@@ -704,7 +704,7 @@
                     <h3>Brochure and Promotional Material</h3>
                 </div>
                 <p>In a world dominated by screens, there's something magical about the touch and feel of a
-                    well-designed brochure or promotional material.Sagartech Technical Solution is here to make that
+                    well-designed brochure or promotional material.Sagar Tech Technical Solution is here to make that
                     magic happen for your brand. Our team is all about blending creativity, strategic thinking, and
                     attention to detail to bring your brand to life through visually appealing and memorable materials.
                 </p>

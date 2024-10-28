@@ -790,7 +790,7 @@
     <div class="ourprocesssectiontwo">
       <div class="discover">
         <div class="headinggg">Creativity at its core</div>
-        <p>Sagartech Technical Solution prides itself on a team of creative minds that are passionate about turning
+        <p>Sagar Tech Technical Solution prides itself on a team of creative minds that are passionate about turning
           concepts into visually compelling designs. Our graphic designers blend artistic flair with strategic thinking,
           ensuring your brand's visuals stand out in a crowded market.</p>
       </div>
@@ -816,12 +816,12 @@
       <div class="discover">
         <div class="headinggg">Comprehensive Design Services</div>
         <p>From captivating logos and impactful marketing collateral to website graphics and social media visuals,
-          Sagartech Technical Solution provides a comprehensive suite of graphic design services. Our expertise extends
+          Sagar Tech Technical Solution provides a comprehensive suite of graphic design services. Our expertise extends
           across various platforms, ensuring a cohesive visual identity for your brand.</p>
       </div>
       <div class="discover">
         <div class="headinggg">Proven Track Record</div>
-        <p>Our portfolio speaks for itself. Sagartech Technical Solution has a proven track record of delivering
+        <p>Our portfolio speaks for itself. Sagar Tech Technical Solution has a proven track record of delivering
           outstanding graphic design solutions for businesses across various industries. Our satisfied clients attest to
           the transformative power of our designs.
         </p>
@@ -834,7 +834,7 @@
   <div class="typesofsection">
     <h2>Types of Graphic Design Services</h2>
     <!-- <h3>subtitle</h3> -->
-    <p>Sagartech Technical Solution stands out as a trusted partner for graphic design services. Choosing us means
+    <p>Sagar Tech Technical Solution stands out as a trusted partner for graphic design services. Choosing us means
       embracing a commitment to excellence, creativity, and a personalized approach that transforms your brand into a
       visual masterpiece.</p>
     <div class="typesofcard">
