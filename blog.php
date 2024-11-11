@@ -51,17 +51,19 @@ if (curl_errno($ch)) {
 <html lang="en">
 
 <head>
-    <title><?php echo $data['title']['rendered'] ?></title>
+    <title><?php echo $data['meta']['meta_title'] ?></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="<?php echo htmlentities($data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="description" content="<?php echo htmlentities($data['meta']['meta_description'], ENT_QUOTES, 'UTF-8'); ?>">
 
-    <meta name="keywords"
+    <!-- <meta name="keywords"
         content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
-    Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
+    Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai"> -->
+
+    <meta name="keywords" content="<?php echo htmlentities($data['meta']['meta_keywords'], ENT_QUOTES, 'UTF-8'); ?>">
 
     <meta name="author" content="Ubaid saudagar">
     <meta name="designer" content="Ubaid Saudagar">
@@ -76,9 +78,9 @@ if (curl_errno($ch)) {
     <meta name="language" content="english">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="<?php echo $data['title']['rendered']; ?>">
+    <meta property="og:title" content="<?php echo $data['meta']['meta_title']; ?>">
     <meta property="og:description"
-        content="<?php echo htmlentities($data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
+        content="<?php echo htmlentities($data['meta']['meta_description'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:url"
         content="https://sagartech.co.in/blog/<?php echo htmlentities($data['slug'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
