@@ -171,6 +171,18 @@
                                                 href="mailto:info@sagartech.ae">info@sagartech.ae</a></p>
                                     </div>
                                 </div>
+                                <div class="iq-contact-box media" style="margin-top:15px;">
+                                    <div class="iq-icon left">
+                                        <i aria-hidden="true" class="ion-ios-location-outline"></i>
+                                    </div>
+
+                                    <div class="contact-box right media-body">
+                                        <h5 class="iq-tw-6">Canada Address</h5>
+                                        <p>33461 Franklin Ave, Abbotsford, BC Canada</p>
+                                        <p style="margin-top:-10px; color:#ff0808;"><a
+                                                href="mailto:info@sagartech.ca">info@sagartech.ca</a></p>
+                                    </div>
+                                </div>
                                 <div class=".iq-contact-box right media iq-mt-40">
                                     <div class="iq-icon left">
                                         <i aria-hidden="true" class="ion-ios-telephone-outline"

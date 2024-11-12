@@ -212,6 +212,13 @@ include ('config.php');
 				<br>
 				<span class="mail"><a href="mailto:info@sagartech.ae">info@sagartech.ae</a></span>
 			</div>
+			<div class="address-wrap">
+				<span class="country">CANADA</span>
+				<br>
+				<span class="add">33461 Franklin Ave, Abbotsford, BC Canada</span>
+				<br>
+				<span class="mail"><a href="mailto:info@sagartech.ca">info@sagartech.ca</a></span>
+			</div>
 		</div>
 		<div class="footer-col">
 			<h4>Contact Number</h4>
