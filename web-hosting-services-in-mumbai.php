@@ -12,7 +12,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Hosting Services Provider In Mumbai For Your Website">
-    <meta property="og:url" content="https://sagartech.co.in/domain-registration">
+    <meta property="og:url" content="https://sagartech.co.in/web-hosting-services-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/domain-logo.png">
     <meta property="og:description"
         content="We are web hosting services provider In mumbai for all kind of websites, weather they are e commerce website, business website, custom website, or blogging website">

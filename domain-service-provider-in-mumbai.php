@@ -12,7 +12,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Best Domain Registrar in India To Buy Domain For Website">
-    <meta property="og:url" content="https://sagartech.co.in/domain-registration">
+    <meta property="og:url" content="https://sagartech.co.in/domain-service-provider-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/domain-logo.png">
     <meta property="og:description"
         content="We are  best domain registrar in india allowing your business to buy unique domains on internet We are not only domain service provider we offer wide range of website development services">

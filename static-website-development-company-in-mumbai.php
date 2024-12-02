@@ -11,7 +11,7 @@
     <meta name="keywords" content="Static Website">
     <meta property="og:type" content="website">
     <meta property="og:title" content="No. 1 Static Website Developer & Designing Company In Mumbai">
-    <meta property="og:url" content="https://sagartech.co.in/Static-Website-Design-Service">
+    <meta property="og:url" content="https://sagartech.co.in/static-website-development-company-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaDynamic.png">
     <meta property="og:description"
         content="Best static website development and design company in Mumbai creates pages in real time,adapting to static features like screen size and device.">

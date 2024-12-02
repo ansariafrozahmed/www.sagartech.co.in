@@ -13,7 +13,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Google Ads (Google Adword) Services In Mumbai ">
-    <meta property="og:url" content="https://sagartech.co.in/seo-service-india">
+    <meta property="og:url" content="https://sagartech.co.in/google-ads-services-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaseo.png">
     <meta property="og:description"
         content="We provide a wide range of google ads (google AdWord) management services like Google search ads, Google video ads, Google display ads, Google shopping ads and more.">

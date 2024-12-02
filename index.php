@@ -27,7 +27,7 @@ include ('include/config.php');
         <meta name="author" content="Ubaid saudagar">
         <meta name="designer" content="Ubaid Saudagar">
         <meta name="publisher" content="Ubaid Saudagar">
-        <meta name="copyright" content="https://www.sagartech.co.in">
+        <meta name="copyright" content="https://sagartech.co.in/">
         <meta name="distribution" content="Global">
         <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
         <meta name="document-type" content="Public">
@@ -72,7 +72,7 @@ include ('include/config.php');
                 src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" /></noscript>
         <!-- End Meta Pixel Code -->
 
-        <link rel="canonical" href="https://www.sagartech.co.in/">
+        <link rel="canonical" href="https://sagartech.co.in/">
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/logoonly.jpg" />
         <!-- bootstrap -->

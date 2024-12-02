@@ -13,7 +13,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="SEO Company in Mumbai To Rank Your Website 1st  On Google ">
-    <meta property="og:url" content="https://sagartech.co.in/seo-service-india">
+    <meta property="og:url" content="https://sagartech.co.in/seo-company-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/metaseo.png">
     <meta property="og:description"
         content="We are an award winning SEO company in Mumbai. We provide SEO services to many Indian and International companies. Our seo agency in mumbai is most affordable  for SEO">
