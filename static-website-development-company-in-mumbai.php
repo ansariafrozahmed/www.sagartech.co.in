@@ -1265,66 +1265,59 @@
         <div class="accordion-item">
             <h2>What is static website development?</h2>
             <div class="accordion-content">
-                <p>Static website development entails creating websites with content that can be easily updated and
-                    changed, usually through a content management system (CMS). This allows static content to be
-                    personalized for each user and updated regularly.</p>
+                <p>Static website development involves creating websites with fixed content that is delivered as-is to users. These sites are usually coded in HTML, CSS, and JavaScript, and are ideal for businesses with content that doesn’t change frequently.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Why choose Sagar Tech Technical Solution for static website development?</h2>
             <div class="accordion-content">
-                <p>Sagar Tech Technical Solution provides skilled, static web development services customized to your
-                    requirements. We have years of experience designing emotional, engaging, user-friendly, and visually
-                    appealing websites.</p>
+                <p>Sagar Tech offers expert developers who provide customized, cost-effective static websites that are tailored to meet your business needs. We ensure fast loading times, high-quality design, and an optimized user experience.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What are the benefits of a static website?</h2>
             <div class="accordion-content">
-                <p>Static websites provide several advantages, including easier content management, more personalized
-                    user experiences, improved SEO, and the ability to integrate with other systems and platforms.</p>
+                <p>Cost-Effective: Static websites are cheaper and faster to develop compared to dynamic websites.<br>
+Quick Load Time: With minimal server resources required, static websites load faster.<br>
+High Security: Static websites are less prone to security breaches since they don’t have databases or server-side processing.<br>
+Easy to Host: Static websites require less server space, making them easy and affordable to host.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Will my static website be mobile-friendly?</h2>
             <div class="accordion-content">
-                <p>Yes, all websites created by Sagar Tech Technical Solution are optimized for mobile devices, ensuring
-                    that users have an effortless experience across all devices.</p>
+                <p>Yes, we ensure that all static websites are responsive, meaning they will work smoothly across desktops, tablets, and mobile devices.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can you provide ongoing support and maintenance for my static website?</h2>
             <div class="accordion-content">
-                <p>We provide ongoing support and maintenance services to keep your static website secure, up-to-date,
-                    and running smoothly.</p>
+                <p>Yes, we offer ongoing support and maintenance services, including updates, improvements, and troubleshooting to ensure your website stays functional and up to date.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How much does static website development cost?</h2>
             <div class="accordion-content">
-                <p>The cost of developing a static website varies according to the project's complexity and required
-                    features. We can provide a thorough estimate after discussing your specific requirements.</p>
+                <p>The cost of developing a static website depends on factors such as design complexity, the number of pages, and any additional features required. We offer competitive pricing and customized quotes based on your requirements.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Do you offer website hosting services for static websites?</h2>
             <div class="accordion-content">
-                <p>We provide website hosting services designed for static websites, ensuring fast loading times and
-                    consistent performance.</p>
+                <p>Yes, we provide hosting services for static websites, ensuring they are securely hosted with optimal performance and reliability.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How can I get started with static website development services?</h2>
             <div class="accordion-content">
-                <p>To get started, simply contact us with your requirements, and we'll work with you to create a static
-                    website that meets your needs and exceeds your expectations.</p>
+                <p>To get started, simply contact us with your project requirements, and our team will provide a personalized consultation to guide you through the development process. You can also request a free quote through our website.</p>
             </div>
         </div>
     </div>
