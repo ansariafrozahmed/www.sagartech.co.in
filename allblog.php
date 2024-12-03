@@ -51,7 +51,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     <meta name="author" content="Ubaid saudagar">
     <meta name="designer" content="Ubaid Saudagar">
     <meta name="publisher" content="Ubaid Saudagar">
-    <meta name="copyright" content="https://www.sagartech.co.in">
+    <meta name="copyright" content="https://sagartech.co.in/">
     <meta name="distribution" content="Global">
     <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
     <meta name="document-type" content="Public">
@@ -68,7 +68,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
     <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
-    <link rel="canonical" href="https://www.sagartech.co.in/allblog">
+    <link rel="canonical" href="https://sagartech.co.in/allblog">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- bootstrap -->

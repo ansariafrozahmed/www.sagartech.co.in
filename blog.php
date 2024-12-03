@@ -72,7 +72,7 @@ if (curl_errno($ch)) {
     <meta name="author" content="Ubaid saudagar">
     <meta name="designer" content="Ubaid Saudagar">
     <meta name="publisher" content="Ubaid Saudagar">
-    <meta name="copyright" content="https://www.sagartech.co.in">
+    <meta name="copyright" content="https://sagartech.co.in/">
     <meta name="distribution" content="Global">
     <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
     <meta name="document-type" content="Public">

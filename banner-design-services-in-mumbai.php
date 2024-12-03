@@ -13,7 +13,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Professional Banner Design Services Provider In Mumbai">
-    <meta property="og:url" content="https://sagartech.co.in/banner-design-company">
+    <meta property="og:url" content="https://sagartech.co.in/banner-design-services-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/banner-logo.png">
     <meta property="og:description"
         content="Are you looking for proffesional banner design Services for your business lets increses the visual impact of your brand with us we are the top notch Banner Design Services">

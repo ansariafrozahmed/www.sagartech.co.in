@@ -18,7 +18,7 @@ include "include/config.php";
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="India’s No. 1 Bulk SMS Service Provider and WhatsApp Bulk Message Provider">
-    <meta property="og:url" content="https://sagartech.co.in/bulk-sms-service-in-mumbai">
+    <meta property="og:url" content="https://sagartech.co.in/bulk-sms-service-provider-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/bulk-sms-logo.png">
     <meta property="og:description"
         content="As the best bulk SMS service provider in India, we also provide WhatsApp bulk messages, which help businesses gain new clients and communicate with existing clients.">

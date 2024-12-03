@@ -35,6 +35,7 @@ include ('include/config.php');
         <meta name="Googlebot" content="Index, Follow">
         <meta name="rating" content="Safe for Kids">
         <meta name="language" content="english">
+        <link rel="canonical" href="https://sagartech.co.in/">
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
@@ -72,7 +73,6 @@ include ('include/config.php');
                 src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" /></noscript>
         <!-- End Meta Pixel Code -->
 
-        <link rel="canonical" href="https://sagartech.co.in/">
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/logoonly.jpg" />
         <!-- bootstrap -->

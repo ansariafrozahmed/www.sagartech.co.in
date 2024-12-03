@@ -11,6 +11,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
+    <link rel="canonical" href="https://sagartech.co.in/about">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
+    <meta property="og:description"
+        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta property="og:url" content="https://sagartech.co.in/about">
+    <meta property="og:site_name" content="Sagar Tech - Technical Solution">
+    <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- main style -->

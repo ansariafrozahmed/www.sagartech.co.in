@@ -13,7 +13,7 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Social Media Post Design Services in India | Build Your Brand">
-    <meta property="og:url" content="https://sagartech.co.in/post-design">
+    <meta property="og:url" content="https://sagartech.co.in/social-media-post-design-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/post-logo.png">
     <meta property="og:description"
         content="We are the best social media post design service provider in Mumbai. We design social media posts for Multiply brands. Our social media post design is unique and creative.">
