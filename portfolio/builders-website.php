@@ -235,6 +235,12 @@ include("../include/config.php");
                     "imgSrc" => "../portfolio-mockups/builders/eastman_infra.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://eastmaninfra.com/"
+                ),
+                array(
+                    "title" => "Bareziya Architects",
+                    "imgSrc" => "../portfolio-mockups/interior/bareziya_arch.png",
+                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                    "link" => "https://bareziyaarchitects.com/"
                 )
                 // array(
                 //     "title" => "PM Decor",
