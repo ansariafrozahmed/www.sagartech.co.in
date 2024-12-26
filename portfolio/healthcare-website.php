@@ -6,19 +6,19 @@ include("../include/config.php");
 
 
 <head>
-    <title>Our Business Portfolio - Sagar Tech Technical Solutions</title>
+    <title>Our Health Care Websites Portfolio - Sagar Tech Technical Solutions</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= WEB_URL ?>images/logoonly.jpg" />
-    <link rel="canonical" href="https://sagartech.co.in/portfolio/business-website">
+    <link rel="canonical" href="https://sagartech.co.in/portfolio/healthcare-website">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
     <meta property="og:description"
         content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
-    <meta property="og:url" content="https://sagartech.co.in/portfolio/business-website">
+    <meta property="og:url" content="https://sagartech.co.in/portfolio/healthcare-website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
     <!-- bootstrap -->
@@ -174,7 +174,7 @@ include("../include/config.php");
     <section
         style="background-image: url('../portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;"
         class="banner-content">
-        <h2>Business</h2>
+        <h2>Health Care Websites</h2>
         <ul class="breadcrumbdiv">
             <li><a href="https://sagartech.co.in/">Home</a></li>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -188,132 +188,47 @@ include("../include/config.php");
                 class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li><a style="color: white;">Business Website Portfolio</a></li>
+            <li><a style="color: white;">Health Care Websites Portfolio</a></li>
         </ul>
     </section>
 
-
-    <div class="content-div">
-        <h2 style="text-align: center; font-weight: 600; padding: 10px; font-size: 30px;">Our Business Website portfolio
-        </h2>
+    <div id="Builders" class="content-div">
+        <h2 style="text-align: center; font-weight: 600; padding: 10px; font-size: 30px;">Our Health Care Websites
+            Portfolio</h2>
         <hr>
         <div class="maincontent">
             <?php
-            // Define an array of business data
-            $businessData = array(
+            // Define an array of interior data
+            $HealthcareData = array(
                 array(
-                    "name" => "Noor Al Salama",
-                    "imgSrc" => "../portfolio-mockups/business/alsalama.webp",
+                    "name" => "Axxio Laboratory",
+                    "imgSrc" => "../portfolio-mockups/healthcare/AXXIO.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://www.alsalamaacc.com/"
+                    "link" => "https://www.axxio-laboratory.com/"
                 ),
                 array(
-                    "name" => "Yogesh Prashna",
-                    "imgSrc" => "../portfolio-mockups/business/yogeshprashna.webp",
+                    "name" => "Syrocs",
+                    "imgSrc" => "../portfolio-mockups/healthcare/syrocs.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://www.yogueshprashna.com/"
+                    "link" => "https://syrocs.com/"
                 ),
                 array(
-                    "name" => "Abyaz",
-                    "imgSrc" => "../portfolio-mockups/business/abyaz.webp",
+                    "name" => "VCare Diagnostics",
+                    "imgSrc" => "../portfolio-mockups/healthcare/vcare.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://abyaztextiles.com/"
-                ),
-                array(
-                    "name" => "Ahad Marine",
-                    "imgSrc" => "../portfolio-mockups/business/ahadmarine.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://ahadmarine.com/"
-                ),
-                array(
-                    "name" => "Al Husaini",
-                    "imgSrc" => "../portfolio-mockups/business/alhusaini.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://alhusainitravels.com/"
-                ),
-                array(
-                    "name" => "Annex",
-                    "imgSrc" => "../portfolio-mockups/business/annex.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://annexoverseas.com/"
-                ),
-                array(
-                    "name" => "DPC Saudi",
-                    "imgSrc" => "../portfolio-mockups/business/dpcsaudi.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://dpcsaudi.com/"
-                ),
-                array(
-                    "name" => "Golden Diamond",
-                    "imgSrc" => "../portfolio-mockups/business/goldendiamond.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://goldendiamondei.ae/"
-                ),
-                array(
-                    "name" => "Metal Tech Port",
-                    "imgSrc" => "../portfolio-mockups/business/metaltechport.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://metaltechportablecabin.com/"
-                ),
-                array(
-                    "name" => "Mithiyaj",
-                    "imgSrc" => "../portfolio-mockups/business/mithiyaj.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://mithiyaj.com/"
-                ),
-                array(
-                    "name" => "Oasis Consulting",
-                    "imgSrc" => "../portfolio-mockups/business/oasisconsulting.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://oasisconsultinguae.in/"
-                ),
-                array(
-                    "name" => "Pure Saff",
-                    "imgSrc" => "../portfolio-mockups/business/puresaff.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://www.puresaff.in/"
-                ),
-                array(
-                    "name" => "Saudi Wells",
-                    "imgSrc" => "../portfolio-mockups/business/saudiwells.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://saudiwells.com/"
-                ),
-                array(
-                    "name" => "SK Cool World",
-                    "imgSrc" => "../portfolio-mockups/business/skcoolworld.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://skcoolworld.com/"
+                    "link" => "https://vcarediagnostic.center/"
                 )
-                // array(
-                //     "name" => "Ayesha Makeup Academy",
-                //     "imgSrc" => "../portfolio-mockups/business/ayesha.webp",
-                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                //     "link" => "#"
-                // ),
-                // array(
-                //     "name" => "Baby World",
-                //     "imgSrc" => "../portfolio-mockups/business/babyworld.webp",
-                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                //     "link" => "#"
-                // ),
-                // array(
-                //     "name" => "Scan 2 Plan",
-                //     "imgSrc" => "../portfolio-mockups/business/scan2plan.webp",
-                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                //     "link" => "#"
-                // )
             );
 
-            // Loop through the business data and generate HTML for each item
-            foreach ($businessData as $business) {
+            // Loop through the interior data and generate HTML for each item
+            foreach ($HealthcareData as $item) {
                 echo '<div class="maincontent-inner">';
                 echo '<div class="imgdiv">';
-                echo '<a href="' . $business["link"] . '" target="_blank"><img src="' . $business["imgSrc"] . '" alt="' . $business["name"] . '"></a>';
+                echo '<a href="' . $item["link"] . '" target="_blank"><img src="' . $item["imgSrc"] . '" alt="' . $item["name"] . '"></a>';
                 echo '</div>';
                 echo '<div class="content-text">';
-                echo '<a href="' . $business["link"] . '" target="_blank"><h2>' . $business["name"] . '</h2></a>';
-                // echo '<p>' . $business["description"] . '</p>';
+                echo '<a href="' . $item["link"] . '" target="_blank"><h2>' . $item["name"] . '</h2></a>';
+                // echo '<p>' . $item["description"] . '</p>';
                 echo '</div>';
                 echo '</div>';
             }
@@ -426,6 +341,7 @@ include("../include/config.php");
     <?php
     include("../include/footer.php");
     ?>
+
     <script src="../js/jquery.min.js"></script>
     <script src="../js/custom.js"></script>
 
