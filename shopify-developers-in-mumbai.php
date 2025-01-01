@@ -1282,6 +1282,73 @@
     width:230px;
 }
 
+/* Second Section */
+
+  .newsecondsection {
+    padding: 50px 60px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .newsecondsection .left {
+    width: 50%;
+  }
+
+  .newsecondsection .left h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .newsecondsection .left h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .newsecondsection .right {
+    width: 50%;
+  }
+
+  .newsecondsection .right img {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .newsecondsection {
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 20px;
+      align-items: center;
+      justify-content: start;
+    }
+
+    .newsecondsection .left {
+      width: 100%;
+    }
+
+    .newsecondsection .left h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .newsecondsection .left h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .newsecondsection .right {
+      width: 100%;
+    }
+
+    .newsecondsection .right img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
 </style>
 
 <body>
@@ -1334,6 +1401,30 @@
     <?php
     // include('quote-modal.php')
     ?>
+
+    <div class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;">Why Is a Shopify Website Important for Your Business?</h2>
+      <!-- <h3>Subtitle</h3> -->
+      <p>At Sagar Tech Technical Solutions, we understand the pivotal role a Shopify website plays in driving eCommerce success. As one of Mumbai’s leading Shopify development companies, we blend creativity with technical expertise to deliver exceptional Shopify development services.
+
+In today’s digital era, a Shopify website is essential for establishing a strong eCommerce presence, attracting customers, and increasing revenue. Our talented team of designers and developers specializes in creating robust, visually appealing, and conversion-focused Shopify websites that accurately reflect your brand and cater to your business needs.
+With our expertise as a top Shopify development company in India, we bring your eCommerce vision to life, helping your business achieve its full potential.
+</p>
+      <br>
+      <div class="herobuttonsnew">
+        <!-- <a href="#">Quick Enquiry</a> -->
+        <a href="about" class="button">About Us</a>
+      </div>
+    </div>
+    <div class="right">
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/AxjMQNyE9Rg"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- <img src="./banner/business.webp" alt="Web Development"> -->
+    </div>
+  </div>
 
 
     <div class="second-ecommerce-section">
