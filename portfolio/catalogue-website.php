@@ -193,6 +193,12 @@ include("../include/config.php");
     // Define an array of catalogue data
     $catalogueData = array(
         array(
+            "name" => "Powerplay",
+            "imgSrc" => "../portfolio-mockups/catalogue/powerplay.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://powerplay.ae/"
+        ),
+        array(
             "name" => "Alnoor Minar",
             "imgSrc" => "../portfolio-mockups/catalogue/alnoorminar.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",

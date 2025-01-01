@@ -202,6 +202,18 @@ include("../include/config.php");
             // Define an array of business data
             $businessData = array(
                 array(
+                    "name" => "Verify8",
+                    "imgSrc" => "../portfolio-mockups/business/verify8.webp",
+                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                    "link" => "https://verify8.com/"
+                ),
+                array(
+                    "name" => "Don't Quit Ventures",
+                    "imgSrc" => "../portfolio-mockups/business/dontquit.webp",
+                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                    "link" => "https://dont.quit.ventures/"
+                ),
+                array(
                     "name" => "Noor Al Salama",
                     "imgSrc" => "../portfolio-mockups/business/alsalama.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",

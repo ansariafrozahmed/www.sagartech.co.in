@@ -193,6 +193,12 @@ include("../include/config.php");
     // Define an array of education-related data
     $educationData = array(
         array(
+            "name" => "Educ4te",
+            "imgSrc" => "../portfolio-mockups/education/educate.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://educ4te.com/"
+        ),
+        array(
             "name" => "Capdiw",
             "imgSrc" => "../portfolio-mockups/education/capdiw.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",

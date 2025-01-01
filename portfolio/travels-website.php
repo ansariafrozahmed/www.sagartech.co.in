@@ -195,6 +195,12 @@ include("../include/config.php");
     // Define an array of travel data
     $travelData = array(
         array(
+            "name" => "Go Classic Tour",
+            "imgSrc" => "../portfolio-mockups/travel/classic.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://goclassictour.com/"
+        ),
+        array(
             "name" => "Al Husaini",
             "imgSrc" => "../portfolio-mockups/travel/alhusaini.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",

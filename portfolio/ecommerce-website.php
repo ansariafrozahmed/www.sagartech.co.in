@@ -195,6 +195,12 @@ include("../include/config.php");
     // Define an array of ecommerce data
     $ecommerceData = array(
         array(
+            "name" => "Thaiger Nutraceuticals",
+            "imgSrc" => "../portfolio-mockups/ecommerce/thaigerpharma.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://thaigernutraceuticals.com/"
+        ),
+        array(
             "name" => "Chief Parfums",
             "imgSrc" => "../portfolio-mockups/ecommerce/chief parfums.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
