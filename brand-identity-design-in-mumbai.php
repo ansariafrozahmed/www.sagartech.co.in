@@ -608,6 +608,73 @@
             line-height: normal;
         }
     }
+
+     /* Second Section */
+
+  .newsecondsection {
+    padding: 50px 60px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .newsecondsection .left {
+    width: 50%;
+  }
+
+  .newsecondsection .left h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .newsecondsection .left h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .newsecondsection .right {
+    width: 50%;
+  }
+
+  .newsecondsection .right img {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .newsecondsection {
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 20px;
+      align-items: center;
+      justify-content: start;
+    }
+
+    .newsecondsection .left {
+      width: 100%;
+    }
+
+    .newsecondsection .left h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .newsecondsection .left h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .newsecondsection .right {
+      width: 100%;
+    }
+
+    .newsecondsection .right img {
+      height: 100%;
+      width: 100%;
+    }
+  }
 </style>
 
 <body>
@@ -628,33 +695,53 @@
     ?>
 
 
-    <div class="herosectionnew">
-        <h1>Brand Identity Design Services In Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Brand Identity & Designing</li>
-        </ul>
-        <p class="herosectionpara">
-            In a world where first impressions matter, your brand identity is the visual language of your company. <a
-                class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> proudly presents its
-            specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and
-            improve the core values of your brand. With a commitment to creativity, innovation, and strategic design,
-            Sagar Tech Technical Solutions is your trusted partner in crafting a visual identity & <a class="interlink"
-                href="graphic-design-services-in-mumbai">Graphic Designing Services</a> that connects with your target
-            audience
-            and leaves a lasting impression in the competitive market.
-        </p>
-        <div class="herobuttonsnew">
-            <a href="contact" class="button">Quick Enquiry</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
+
+<div class="herosectionnew">
+    <h1>Brand Identity Design Services In Mumbai</h1>
+    <ul class="herobreadrumb">
+        <li>Home</li>
+        <li>/</li>
+        <li>Brand Identity & Designing</li>
+    </ul>
+    <p class="herosectionpara">
+        In a world where first impressions matter, your brand identity is the visual language of your company. <a
+        class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> proudly presents its
+        specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and
+        improve the core values of your brand. With a commitment to creativity, innovation, and strategic design,
+        Sagar Tech Technical Solutions is your trusted partner in crafting a visual identity & <a class="interlink"
+        href="graphic-design-services-in-mumbai">Graphic Designing Services</a> that connects with your target
+        audience
+        and leaves a lasting impression in the competitive market.
+    </p>
+    <div class="herobuttonsnew">
+        <a href="contact" class="button">Quick Enquiry</a>
+        <!-- <a href="#" class="button">Quick Enquiry</a> -->
+        <?php
             // include 'include/quote-modal.php'
             ?>
         </div>
     </div>
-
-
+    
+    
+    <div class="newsecondsection">
+    <div class="left">
+     <h2 style="line-height:40px;">Our Approach to Helping Businesses Define Their Brand Identity</h2>
+     <!-- <h3>Subtitle</h3> -->
+     <p>At Sagar Tech Technical Solutions, we specialize in creating powerful digital experiences that help businesses establish and amplify their brand identity. By merging brilliance and creativity, we go beyond traditional web development to craft solutions that reflect the core values and unique personality of your brand. As one of Mumbai's leading web development companies, we pride ourselves on a talented team of web designers and developers who understand the importance of delivering more than just a website. Our goal is to design platforms that not only provide a distinctive online presence but also resonate with your target audience, reinforcing your brand’s credibility and value in the marketplace.As a top web design company in India, we ensure that every project we deliver embodies your vision, helping your business stand out and build a memorable brand identity.</p>
+     <br>
+     <div class="herobuttonsnew">
+       <!-- <a href="#">Quick Enquiry</a> -->
+       <a href="about" class="button">About Us</a>
+     </div>
+    </div>
+    <div class="right">
+     <iframe width="100%" height="300" src="https://www.youtube.com/embed/rfoI_HFKdUY?si=Ig_r51qIcgi_bLBC"
+       title="YouTube video player" frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <!-- <img src="./banner/business.webp" alt="Web Development"> -->
+    </div>
+    </div>
 
 
 
