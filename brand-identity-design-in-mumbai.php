@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="No. 1 Brand Identity Design Services In Mumbai">
     <meta property="og:url" content="https://sagartech.co.in/brand-identity-design-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaecommerce.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/bg/brand-image.png">
     <meta property="og:description"
         content="We provide full brand identity design for your business, which helps you stand above the competition in logo design, corporate branding, and corporate presentation services">
     <!-- Favicon -->
