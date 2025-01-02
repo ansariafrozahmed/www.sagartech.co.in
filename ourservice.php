@@ -369,7 +369,7 @@ foreach ($services as $service) {
     echo '<div class="our-service-card">';
     echo '  <div class="afreen">';
     echo '      <div class="our-service-img-div">';
-    echo '          <img src="' . $service['imageSrc'] . '" alt="' . $service['imageAlt'] . '">';
+            echo '          <img src="' . $service['imageSrc'] . '" alt="' . $service['imageAlt'] . '" title="' . $service['imageAlt'] . '">';
     echo '      </div>';
     echo '      <div class="our-service-content-div">';
     echo '          <h2 class="our-service-heading">' . $service['heading'] . '</h2>'; // Removed nested <a>

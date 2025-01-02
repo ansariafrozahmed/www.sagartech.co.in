@@ -225,7 +225,8 @@ $slides = array(
             <swiper-slide>
                 <div class="slide-inner-div">
                     <div class="inner-left">
-                        <img src=<?php echo $slide['image']; ?> alt="">
+                        <img src="<?php echo $slide['image']; ?>" alt="<?php echo $slide['web_title']; ?>"
+                          title="<?php echo $slide['web_title']; ?>">
                     </div>
                     <div class="inner-right">
                         <span class="type"><?php echo $slide['type']; ?></span>

@@ -75,6 +75,6 @@
     </div>
   </div>
   <div class="intro-right">
-    <img src="image/homepage/WebDesigners.webp" alt="" />
+    <img src="image/homepage/WebDesigners.webp" alt="Web Development and Digital Marketing Agency In Mumbai" title="Web Development and Digital Marketing Agency In Mumbai" />
   </div>
 </div>

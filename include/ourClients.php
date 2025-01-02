@@ -139,7 +139,7 @@
 
       foreach ($imageUrls as $imageUrl) {
         echo '<div class="image-div">';
-        echo '<img src="' . $imageUrl . '" alt="Client Logo">';
+      echo '<img src="' . $imageUrl . '" alt="Client Logos" title="Client Logos">';
         echo '</div>';
       }
     ?>

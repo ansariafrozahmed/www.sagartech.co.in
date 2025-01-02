@@ -120,6 +120,7 @@
     ?>
   </div> -->
    <div style="display: flex; align-items: center; justify-content: center; width: 100%;">
-                <img src="./images/techstack.png" style="width: 100%;" alt="" loading="lazy">
+                <img src="./images/techstack.png" style="width: 100%;" alt="Tech Stack We Use
+" loading="lazy" title="Tech Stack We Use">
             </div>
 </div>

@@ -633,28 +633,28 @@ include ('include/config.php');
             <h6>Our <span style="color: #ff0808">Statistics</span></h6>
             <div class="card-divvvv">
                 <div class="stats-cards">
-                    <img src="images/counter/like1.png" alt="" loading="lazy" />
+                    <img src="images/counter/like1.png" alt="Projects Done" title="Projects Done" loading="lazy" />
                     <div class="stats-card-detail">
                         <h5 style="color:green">500+</h5>
                         <span>Projects Done</span>
                     </div>
                 </div>
                 <div class="stats-cards">
-                    <img src="images/counter/client2.png" alt="" loading="lazy" />
+                    <img src="images/counter/client2.png" alt="Satisfied Clients" title="Satisfied Clients" loading="lazy" />
                     <div class="stats-card-detail">
                         <h5 style="color:green">200+</h5>
                         <span>Satisfied Clients</span>
                     </div>
                 </div>
                 <div class="stats-cards">
-                    <img src="./images/counter/awards.png" alt="" loading="lazy" />
+                    <img src="./images/counter/awards.png" alt="Awards" title="Awards" loading="lazy" />
                     <div class="stats-card-detail">
                         <h5 style="color:green">1</h5>
                         <span>Awards</span>
                     </div>
                 </div>
                 <div class="stats-cards">
-                    <img src="./images/counter/star-rating.png" alt=""
+                    <img src="./images/counter/star-rating.png" alt="Rating" title="Rating"
                         loading="lazy" />
                     <div class="stats-card-detail">
                         <h5 style="color:green">5</h5>
@@ -837,7 +837,9 @@ include ('include/config.php');
                 <div class="inner-left">
                     <a href="https://www.youtube.com/watch?v=YNW7g-z2am4" target="_blank">
 
-                        <img class="thumbnail" src="./image/homepage/thumbnail2.webp" alt="" srcset="">
+                        <img class="thumbnail" src="./image/homepage/thumbnail2.webp" alt="Testimonial From SAQUIB AGBOATWALA (CEO)
+OASIS CONSULTING" title="Testimonial From SAQUIB AGBOATWALA (CEO)
+OASIS CONSULTING" srcset="">
                         <img class="icon"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"
                             alt="" srcset="">
@@ -861,7 +863,9 @@ include ('include/config.php');
                 <div class="inner-left">
                     <a href="https://www.youtube.com/watch?v=MPSiwugCZZw" target="_blank">
 
-                        <img class="thumbnail" src="./image/homepage/thumbnail.webp" alt="" srcset="">
+                        <img class="thumbnail" src="./image/homepage/thumbnail.webp" alt="Testimonial From MUKESH RANKA (FOUNDER)
+BS AUTO ACCESSORIES" title="Testimonial From MUKESH RANKA (FOUNDER)
+BS AUTO ACCESSORIES" srcset="">
                         <img class="icon"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"
                             alt="" srcset="">
