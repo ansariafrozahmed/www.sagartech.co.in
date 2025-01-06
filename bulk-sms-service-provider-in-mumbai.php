@@ -526,6 +526,74 @@ include "include/config.php";
         font-weight: 600;
         padding: 15px 0px;
     }
+
+    /* Second Section */
+
+  .newsecondsection {
+    padding: 50px 60px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 0px;
+  }
+
+  .newsecondsection .left {
+    width: 50%;
+  }
+
+  .newsecondsection .left h2 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .newsecondsection .left h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .newsecondsection .right {
+    width: 50%;
+  }
+
+  .newsecondsection .right img {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .newsecondsection {
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 20px;
+      align-items: center;
+      justify-content: start;
+    }
+
+    .newsecondsection .left {
+      width: 100%;
+    }
+
+    .newsecondsection .left h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .newsecondsection .left h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .newsecondsection .right {
+      width: 100%;
+    }
+
+    .newsecondsection .right img {
+      height: 100%;
+      width: 100%;
+    }
+  }
 </style>
 
 <body>
@@ -566,6 +634,26 @@ include "include/config.php";
             <!-- <a href="portfolio_old" class="button">View Portfolio</a> -->
         </div>
     </div>
+
+    <div class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;">Why Are Bulk SMS Services Important for Your Business?</h2>
+      <!-- <h3>Subtitle</h3> -->
+      <p>At Sagar Tech Technical Solutions, we deliver cutting-edge bulk SMS services designed to enhance your business communication. As a leading service provider in Mumbai, we help you connect with your audience instantly and effectively. Our reliable, cost-efficient, and customizable solutions ensure your messages reach the right people at the right time, driving better engagement and results. Whether it's promotional campaigns, transactional alerts, or reminders, our services are tailored to meet your needs. With robust API integration and multilingual support, we empower you to communicate seamlessly. Our real-time reporting tools help you track performance, ensuring maximum ROI. Choose us to experience unmatched reliability and round-the-clock support for all your bulk SMS needs.</p>
+      <br>
+      <div class="herobuttonsnew">
+        <!-- <a href="#">Quick Enquiry</a> -->
+        <a href="about" class="button">About Us</a>
+      </div>
+    </div>
+    <div class="right">
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/Ve9DnA63ayk?si=911bbfp1QVkcpL7n"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- <img src="./banner/business.webp" alt="Web Development"> -->
+    </div>
+  </div>
 
 
     <div class="main-content">
