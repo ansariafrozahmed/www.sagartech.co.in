@@ -673,6 +673,93 @@
       line-height: normal;
     }
   }
+
+   .newvideo {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        padding: 50px;
+        padding-bottom: 100px;
+    }
+
+    .newvideoinner {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .newvideoinner h2 {
+        font-weight: 600;
+    }
+
+    .newvideovideo {
+        width: 50%;
+
+    }
+
+    .newvideobutton {
+        background-color: #ff0808;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #ff0808;
+        display: inline-block;
+    }
+
+    .newvideovideo iframe {
+        width: 100%;
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    @media (max-width: 767px) {
+        .newvideo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+            padding: 30px 20px;
+            padding-bottom: 50px;
+        }
+
+        .newvideoinner {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: start;
+            justify-content: start;
+        }
+
+        .newvideoinner h2 {
+            font-weight: 600;
+        }
+
+        .newvideovideo {
+            width: 100%;
+        }
+
+        .newvideobutton {
+            background-color: #ff0808;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #ff0808;
+            display: inline-block;
+        }
+
+        .newvideovideo iframe {
+            width: 100%;
+            height: 200px;
+        }
+    }
 </style>
 
 <body>
@@ -736,7 +823,6 @@
       <img src="./brochure/sagartech-brochure.webp" alt="brochure design">
     </div>
   </div>
-
 
 
   <div class="bestbrochure">
@@ -849,11 +935,24 @@
     </div>
   </div>
 
-
-
-
-
-
+  <div class="newvideo">
+        <div class="newvideoinner">
+            <h2>What can we do for you?</h2>
+            <span class="newvideotext">
+                We specialize in creating visually stunning and professionally crafted brochures that effectively communicate your brand's message. Our designs are tailored to captivate your audience, leaving a lasting impression and helping you achieve your marketing goals.
+            </span>
+            <span>We would be happy to discuss the project with you in person</span>
+            <div class="newvideobutton">
+                <a href="contact">Lets Connect</a>
+            </div>
+        </div>
+        <div class="newvideovideo">
+            <iframe src="https://www.youtube.com/embed/CMs1d7ss5UY?si=igl9ZsHwh0Jrql42" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
 
   <div class="fifthsection">
     <h2>Samples of Our Brochure <span style="color:#FF0808;">& Flyer Design</span></h2>
