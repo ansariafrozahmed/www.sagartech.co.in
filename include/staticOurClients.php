@@ -134,21 +134,18 @@
     <div class="client-image-main-div">
         <?php
         $imageUrls = [
-            "client-logos/rbi.webp",
-            "client-logos/armaf.webp",
-            "client-logos/bsauto.webp",
-            "client-logos/OasisConsulting.webp",
-            "client-logos/chief-parfums-final.webp",
+            "client-logos/Thaiger.png",
+            "client-logos/educ4ate.webp",
+            "client-logos/dontquit.png",
+            "client-logos/verify8-1.png",
+            "client-logos/syrocs logo.webp",
             "client-logos/axxio-laboratory.webp",
-            "client-logos/acharya-shiv.webp",
-            // "client-logos/ngmp.webp",
-            "client-logos/AlhamdGroup.webp",
-            "client-logos/cotton-culture.webp",
-            "client-logos/ASAudio.webp",
-            "client-logos/ZZConsultants.webp",
-            // "client-logos/Trillionaire.webp",
-            "client-logos/Tasavvur.webp",
-            //"client-logos/PadmavatiChains.webp",
+            "client-logos/yovant_recruitment_logo.webp",
+            "client-logos/varela-american logo.webp",
+            "client-logos/processindia.webp",
+            "client-logos/saudiwells.png",
+            "client-logos/BARKAT AL DUHA logo.webp",
+            "client-logos/alsalama.png",
         ];
 
         foreach ($imageUrls as $imageUrl) {
