@@ -698,11 +698,14 @@ include ('include/config.php');
             }
 
             .inner-left .thumbnail {
-                height: 100%;
-                width: 100%;
+                /* height: 100%; */
+                height: 315px;
+                /* width: 100%; */
+                width: 560px;
                 z-index: 1;
                 object-fit: cover;
                 box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+                padding: 0px;
             }
 
             .inner-left .icon {
@@ -712,6 +715,7 @@ include ('include/config.php');
                 left: 50%;
                 transform: translate(-50%, -50%) scale(1);
                 z-index: 2;
+                display: none;
             }
 
             .inner-testimonial .inner-right {
@@ -761,6 +765,7 @@ include ('include/config.php');
 
                 .inner-left .thumbnail {
                     width: 100%;
+                    height: 100%;
                 }
 
                 .inner-testimonial .inner-right {
@@ -811,6 +816,7 @@ include ('include/config.php');
 
                 .inner-left .thumbnail {
                     width: 100%;
+                    height: 100%;
                 }
 
                 .inner-testimonial .inner-right {
