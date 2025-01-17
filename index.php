@@ -702,6 +702,7 @@ include ('include/config.php');
                 width: 100%;
                 z-index: 1;
                 object-fit: cover;
+                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
             }
 
             .inner-left .icon {
@@ -837,7 +838,7 @@ include ('include/config.php');
                 <div class="inner-left">
                     <a href="https://www.youtube.com/watch?v=YNW7g-z2am4" target="_blank">
 
-                        <img class="thumbnail" src="./image/homepage/thumbnail2.webp" alt="Testimonial From SAQUIB AGBOATWALA (CEO)
+                        <img class="thumbnail" src="./image/homepage/Saquib-Agboatwala-thumbnail.webp" alt="Testimonial From SAQUIB AGBOATWALA (CEO)
 OASIS CONSULTING" title="Testimonial From SAQUIB AGBOATWALA (CEO)
 OASIS CONSULTING" srcset="">
                         <img class="icon"
@@ -863,7 +864,7 @@ OASIS CONSULTING" srcset="">
                 <div class="inner-left">
                     <a href="https://www.youtube.com/watch?v=MPSiwugCZZw" target="_blank">
 
-                        <img class="thumbnail" src="./image/homepage/thumbnail.webp" alt="Testimonial From MUKESH RANKA (FOUNDER)
+                        <img class="thumbnail" src="./image/homepage/mukesh-ranka-thumbnail.webp" alt="Testimonial From MUKESH RANKA (FOUNDER)
 BS AUTO ACCESSORIES" title="Testimonial From MUKESH RANKA (FOUNDER)
 BS AUTO ACCESSORIES" srcset="">
                         <img class="icon"
