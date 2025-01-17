@@ -423,7 +423,7 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
         "client-logos/Telegrowth BPO logo.webp",
         "client-logos/The Grand Trunk.webp",
         "client-logos/HR-Logos8-1536x375.webp",
-        "client-logos/faiza Royal Wrist Logo.webp",
+        "client-logos/faiza Royal Wrist Logo.webp"
       ];
 
         const container = document.getElementById('client-images-container');
