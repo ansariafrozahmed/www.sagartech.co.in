@@ -698,14 +698,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://www.alsalamaacc.com/" target="_blank">
+                <a href="https://binfinit.co/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/business/alsalama.webp" alt="">
+                        <img src="../portfolio-mockups/business/binfinit.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://www.alsalamaacc.com/" target="_blank">
-                        <h2>Noor Al Salama</h2>
+                    <a href="https://binfinit.co/" target="_blank">
+                        <h2>Binfinit</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -820,6 +820,32 @@ include("../include/config.php");
         <!-- <h2>Our Catalogue Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
+                <a href="https://thaigernutraceuticals.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-mockups/ecommerce/thaigerpharma.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://thaigernutraceuticals.com/" target="_blank">
+                        <h2>Thaiger Nutraceuticals</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://kostevo.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-mockups/catalogue/kostevo.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://kostevo.com/" target="_blank">
+                        <h2>Kostevo</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
                 <a href="https://powerplay.ae/" target="_blank">
                     <div class="imgdiv">
                         <img src="../portfolio-mockups/catalogue/powerplay.webp" alt="">
@@ -828,45 +854,6 @@ include("../include/config.php");
                 <div class="content-text">
                     <a href="https://powerplay.ae/" target="_blank">
                         <h2>Powerplay</h2>
-                    </a>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <!-- <div class="maincontent-inner">
-                <a href="https://asaudio.in/" target="_blank">
-                    <div class="imgdiv">
-                        <img src="../portfolio-mockups/catalogue/asaudio.webp" alt="">
-                    </div>
-                </a>
-                <div class="content-text">
-                    <a href="https://asaudio.in/" target="_blank">
-                        <h2>AS Audio</h2>
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
-                </div>
-            </div> -->
-            <div class="maincontent-inner">
-                <a href="https://globalhardwarekw.com/" target="_blank">
-                    <div class="imgdiv">
-                        <img src="../portfolio-mockups/catalogue/globalhardware.webp" alt="">
-                    </div>
-                </a>
-                <div class="content-text">
-                    <a href="https://globalhardwarekw.com/" target="_blank">
-                        <h2>Global Hardware</h2>
-                    </a>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <a href="https://alnoorminar.com/" target="_blank">
-                    <div class="imgdiv">
-                        <img src="../portfolio-mockups/catalogue/alnoorminar.webp" alt="">
-                    </div>
-                </a>
-                <div class="content-text">
-                    <a href="https://alnoorminar.com/" target="_blank">
-                        <h2>Alnoor Minar</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -890,14 +877,14 @@ include("../include/config.php");
         <!-- <h2>Our Logistics Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <a href="https://aadhiklogistics.com/" target="_blank">
+                <a href="https://bml.demo-web.live/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/logistics/adhiklogistics.webp" alt="">
+                        <img src="../portfolio-mockups/logistics/bml.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://aadhiklogistics.com/" target="_blank">
-                        <h2>Aadhik Logistics</h2>
+                    <a href="https://bml.demo-web.live/" target="_blank">
+                        <h2>BML Logistics</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -916,14 +903,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://marsairocean.com/" target="_blank">
+                <a href="https://aadhiklogistics.com/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/logistics/marsairocean.webp" alt="">
+                        <img src="../portfolio-mockups/logistics/adhiklogistics.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://marsairocean.com/" target="_blank">
-                        <h2>Mars Air Ocean</h2>
+                    <a href="https://aadhiklogistics.com/" target="_blank">
+                        <h2>Aadhik Logistics</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -943,7 +930,7 @@ include("../include/config.php");
     <div id="Ecommerce" class="content-div" style="display:none">
         <!-- <h2>Our Ecommerce Website portfolio</h2> -->
         <div class="maincontent">
-            <div class="maincontent-inner">
+            <!-- <div class="maincontent-inner">
                 <a href="https://thaigernutraceuticals.com/" target="_blank">
                     <div class="imgdiv">
                         <img src="../portfolio-mockups/ecommerce/thaigerpharma.webp" alt="">
@@ -953,9 +940,9 @@ include("../include/config.php");
                     <a href="https://thaigernutraceuticals.com/" target="_blank">
                         <h2>Thaiger Nutraceuticals</h2>
                     </a>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
                 </div>
-            </div>
+            </div> -->
             <div class="maincontent-inner">
                 <a href="https://chiefparfums.com/" target="_blank">
                     <div class="imgdiv">
@@ -970,31 +957,31 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://bsautoaccessories.com/" target="_blank">
+                <a href="https://trillionaireautoparts.com/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/ecommerce/bsauto.webp" alt="">
+                        <img src="../portfolio-mockups/ecommerce/trillionair.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://bsautoaccessories.com/" target="_blank">
-                        <h2>BS Auto</h2>
+                    <a href="https://trillionaireautoparts.com/" target="_blank">
+                        <h2>Trillionaire</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
-            <!-- <div class="maincontent-inner">
-                <a href="https://newqualityware.com/" target="_blank">
+            <div class="maincontent-inner">
+                <a href="https://www.cottonculture.co.in/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/ecommerce/newqualityware.webp" alt="">
+                        <img src="../portfolio-mockups/ecommerce/cotton-culture.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://newqualityware.com/" target="_blank">
-                        <h2>New Quality Ware</h2>
+                    <a href="https://www.cottonculture.co.in/" target="_blank">
+                        <h2>Cotton Culture</h2>
                     </a>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
-            </div> -->
+            </div>
         </div>
         <div class="viewmore">
             <button class="buttons"><a href="<?= WEB_URL ?>portfolio/ecommerce-website" target="_blank">View
@@ -1035,14 +1022,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://xperts4expats.com/" target="_blank">
+                <a href="https://euradiclenew.demo-web.live/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/education/expert4expat.webp" alt="">
+                        <img src="../portfolio-mockups/education/euradicle.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://xperts4expats.com/" target="_blank">
-                        <h2>Xperts 4 Expats</h2>
+                    <a href="https://euradiclenew.demo-web.live/" target="_blank">
+                        <h2>Euradicle</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>

@@ -205,11 +205,17 @@ include("../include/config.php");
             "link" => "https://capdiw.in/"
         ),
         array(
-            "name" => "Xperts 4 Expats",
-            "imgSrc" => "../portfolio-mockups/education/expert4expat.webp",
+            "name" => "Euradicle",
+            "imgSrc" => "../portfolio-mockups/education/euradicle.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://xperts4expats.com/"
+            "link" => "https://euradiclenew.demo-web.live/"
         )
+        // array(
+        //     "name" => "Xperts 4 Expats",
+        //     "imgSrc" => "../portfolio-mockups/education/expert4expat.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://xperts4expats.com/"
+        // )
     );
 
     // Loop through the education data and generate HTML for each item

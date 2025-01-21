@@ -6,7 +6,7 @@ include("../include/config.php");
 
 
 <head>
-    <title>Our Business Portfolio - Sagar Tech Technical Solutions</title>
+    <title>Our Catalogue Portfolio - Sagar Tech Technical Solutions</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -193,6 +193,18 @@ include("../include/config.php");
     // Define an array of catalogue data
     $catalogueData = array(
         array(
+            "name" => "Thaiger Nutraceuticals",
+            "imgSrc" => "../portfolio-mockups/ecommerce/thaigerpharma.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://thaigernutraceuticals.com/"
+        ),
+        array(
+            "name" => "Kostevo",
+            "imgSrc" => "../portfolio-mockups/catalogue/kostevo.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://kostevo.com/"
+        ),
+        array(
             "name" => "Powerplay",
             "imgSrc" => "../portfolio-mockups/catalogue/powerplay.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
@@ -222,12 +234,12 @@ include("../include/config.php");
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://globalhardwarekw.com/"
         ),
-        array(
-            "name" => "Mirza Agro Foods",
-            "imgSrc" => "../portfolio-mockups/catalogue/mirzaagrofoods.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://mirzaagrofoods.com/"
-        ),
+        // array(
+        //     "name" => "Mirza Agro Foods",
+        //     "imgSrc" => "../portfolio-mockups/catalogue/mirzaagrofoods.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://mirzaagrofoods.com/"
+        // ),
         array(
             "name" => "Redsail Exports",
             "imgSrc" => "../portfolio-mockups/catalogue/redsailexports.webp",

@@ -194,12 +194,12 @@ include("../include/config.php");
     <?php
     // Define an array of ecommerce data
     $ecommerceData = array(
-        array(
-            "name" => "Thaiger Nutraceuticals",
-            "imgSrc" => "../portfolio-mockups/ecommerce/thaigerpharma.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://thaigernutraceuticals.com/"
-        ),
+        // array(
+        //     "name" => "Thaiger Nutraceuticals",
+        //     "imgSrc" => "../portfolio-mockups/ecommerce/thaigerpharma.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://thaigernutraceuticals.com/"
+        // ),
         array(
             "name" => "Chief Parfums",
             "imgSrc" => "../portfolio-mockups/ecommerce/chief parfums.webp",
@@ -218,12 +218,12 @@ include("../include/config.php");
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://www.cottonculture.co.in/"
         ),
-        array(
-            "name" => "Al Marjaan",
-            "imgSrc" => "../portfolio-mockups/ecommerce/almarjaan.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://almarjaandates.com/"
-        ),
+        // array(
+        //     "name" => "Al Marjaan",
+        //     "imgSrc" => "../portfolio-mockups/ecommerce/almarjaan.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://almarjaandates.com/"
+        // ),
         array(
             "name" => "Arabian Tea",
             "imgSrc" => "../portfolio-mockups/ecommerce/arabiantea.webp",

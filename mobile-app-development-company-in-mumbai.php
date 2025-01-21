@@ -214,12 +214,13 @@
     .third-ecom-sec {
         padding: 0px 100px;
         display: flex;
-        gap: 50px;
+        /* gap: 50px; */
+        gap: 10px;
         margin: 30px 0px;
     }
 
     .third-ecom-sec .ecom-left {
-        width: 70%;
+        width: 60%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -257,7 +258,7 @@
     }
 
     .third-ecom-sec .ecom-right {
-        width: 30%;
+        width: 40%;
     }
 
     .third-ecom-sec .ecom-right img {
@@ -1162,7 +1163,7 @@
         </div>
 
         <div class="ecom-right">
-            <img src="./app-mockup/sahibaan.webp" alt="mobile app development">
+            <img src="./app-mockup/all-mockup.webp" alt="mobile app development">
         </div>
     </div>
 
@@ -1237,11 +1238,9 @@
         </div>
     </div> -->
 
-
-
     <div class="sixth-app-sec">
         <div class="sixth-left">
-            <img src="app-mockup/sahibaan.webp" alt="Mobile App Development">
+            <img src="app-mockup/sahiba.webp" alt="Mobile App Development">
         </div>
         <div class="sixth-right">
             <h2>Sahibaan</h2>
@@ -1262,7 +1261,7 @@
 
     <div class="seventh-app-sec">
         <div class="seventh-left">
-            <img src="app-mockup/ngmp.webp" alt="Mobile App Development">
+            <img src="app-mockup/nile.webp" alt="Mobile App Development">
         </div>
         <div class="seventh-right">
             <h2>Market Place</h2>
@@ -1285,7 +1284,7 @@
 
     <div class="sixth-app-sec">
         <div class="sixth-left">
-            <img src="app-mockup/bebgiro.webp" alt="Mobile App Development">
+            <img src="app-mockup/bebigiro.webp" alt="Mobile App Development">
         </div>
         <div class="sixth-right">
             <h2>Bebegiro</h2>
@@ -1296,6 +1295,21 @@
                 search filters, e-cart, and online payment checkout. The native Android and iOS apps provide a seamless
                 user experience. Its robust backend is either custom-built using MEAN, MERN, or LAMP stack or using a
                 leading CMS like OpenCart 4.</p>
+            <div class="fourth-buttons">
+                <a href="contact">Let's Create Your App</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="seventh-app-sec">
+        <div class="seventh-left">
+            <img src="app-mockup/cotton culture.webp" alt="Mobile App Development">
+        </div>
+        <div class="seventh-right">
+            <h2>Cotton Culture</h2>
+            <h3>Ecommerce Application</h3>
+            <p>
+At Sagar Tech Technical Solutions, we developed an e-commerce mobile application for Cotton Culture, a global platform specializing in premium cotton products. The project came with unique challenges, including time zone differences, language barriers, and cultural nuances. To address these, we implemented a robust communication strategy, which involved regular video conferences, emails, and phone calls to ensure seamless collaboration and keep the client updated on the project's progress. By maintaining transparent and proactive communication, we successfully navigated geographical and cultural differences to deliver a high-quality e-commerce application tailored to Cotton Culture's business needs.</p>
             <div class="fourth-buttons">
                 <a href="contact">Let's Create Your App</a>
             </div>

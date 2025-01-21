@@ -193,11 +193,11 @@ include("../include/config.php");
     // Define array of details
     $details = [
         [
-            'imgSrc' => '../portfolio-mockups/logistics/adhiklogistics.webp',
-            'alt' => 'Aadhik Logistics',
-            'title' => 'Aadhik Logistics',
+            'imgSrc' => '../portfolio-mockups/logistics/bml.webp',
+            'alt' => 'BML Logistics',
+            'title' => 'BML Logistics',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
-            "link" => "https://aadhiklogistics.com/"
+            "link" => "https://bml.demo-web.live/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/amarclearing.webp',
@@ -205,6 +205,13 @@ include("../include/config.php");
             'title' => 'Amar Clearing',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
             "link" => "https://amarclearing.com/"
+        ],
+        [
+            'imgSrc' => '../portfolio-mockups/logistics/adhiklogistics.webp',
+            'alt' => 'Aadhik Logistics',
+            'title' => 'Aadhik Logistics',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://aadhiklogistics.com/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/amclogistics.webp',

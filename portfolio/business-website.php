@@ -214,10 +214,22 @@ include("../include/config.php");
                     "link" => "https://dont.quit.ventures/"
                 ),
                 array(
+                    "name" => "Binfinit",
+                    "imgSrc" => "../portfolio-mockups/business/binfinit.webp",
+                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                    "link" => "https://binfinit.co/"
+                ),
+                array(
                     "name" => "Noor Al Salama",
                     "imgSrc" => "../portfolio-mockups/business/alsalama.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://www.alsalamaacc.com/"
+                ),
+                array(
+                    "name" => "Eva Skin",
+                    "imgSrc" => "../portfolio-mockups/business/eva.webp",
+                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                    "link" => "https://eva-skin.com/"
                 ),
                 array(
                     "name" => "Yogesh Prashna",
@@ -279,12 +291,12 @@ include("../include/config.php");
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://oasisconsultinguae.in/"
                 ),
-                array(
-                    "name" => "Pure Saff",
-                    "imgSrc" => "../portfolio-mockups/business/puresaff.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://www.puresaff.in/"
-                ),
+                // array(
+                //     "name" => "Pure Saff",
+                //     "imgSrc" => "../portfolio-mockups/business/puresaff.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://www.puresaff.in/"
+                // ),
                 array(
                     "name" => "Saudi Wells",
                     "imgSrc" => "../portfolio-mockups/business/saudiwells.webp",
