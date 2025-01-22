@@ -210,12 +210,12 @@
                                 <ul class="info-share list-inline">
                                     <li class="list-inline-item"><a
                                             href="https://www.facebook.com/sagartechwebdevelopersmumbai"
-                                            target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                            target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://www.instagram.com/sagartechsolutions/"
+                                                    target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                                     <li class="list-inline-item"><a
                                             href="https://www.linkedin.com/company/sagar-tech-technical-solutions/"
-                                            target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.instagram.com/sagartechsolutions/"
-                                            target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                            target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                         </div>
