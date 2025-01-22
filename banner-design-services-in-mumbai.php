@@ -671,6 +671,92 @@
             line-height: normal;
         }
     }
+
+    .newvideo {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        /* padding: 50px; */
+        padding: 100px 50px;
+    }
+
+    .newvideoinner {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .newvideoinner h2 {
+        font-weight: 600;
+    }
+
+    .newvideovideo {
+        width: 50%;
+
+    }
+
+    .newvideobutton {
+        background-color: #ff0808;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #ff0808;
+        display: inline-block;
+    }
+
+    .newvideovideo iframe {
+        width: 100%;
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    @media (max-width: 767px) {
+        .newvideo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .newvideoinner {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: start;
+            justify-content: start;
+        }
+
+        .newvideoinner h2 {
+            font-weight: 600;
+        }
+
+        .newvideovideo {
+            width: 100%;
+        }
+
+        .newvideobutton {
+            background-color: #ff0808;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #ff0808;
+            display: inline-block;
+        }
+
+        .newvideovideo iframe {
+            width: 100%;
+            height: 200px;
+        }
+    }
 </style>
 
 <body>
@@ -797,11 +883,6 @@
     </div>
 
 
-
-
-
-
-
     <div class="fifthsection">
         <h2>Samples of Our Brochure <span style="color:#ff0808;">& Flyer Design</span></h2>
         <div class="logosec">
@@ -825,6 +906,25 @@
             </div>
         </div>
         <a href="portfolio/banner" class="button-62" role="button">View All</a>
+    </div>
+
+    <div class="newvideo">
+        <div class="newvideoinner">
+            <h2>How can we help you?</h2>
+            <span class="newvideotext">
+                We create eye-catching banner designs that capture attention, convey your message effectively, and elevate your brand's visual appeal. Let’s discuss your project and bring your vision to life!
+            </span>
+            <span>We would be happy to hear your requirements.</span>
+            <div class="newvideobutton">
+                <a href="contact">Lets Connect</a>
+            </div>
+        </div>
+        <div class="newvideovideo">
+            <iframe src="https://www.youtube.com/embed/UPY0gSJkBJs?si=cMd-CseID9SZ2piQ" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
 
 
