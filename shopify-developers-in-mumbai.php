@@ -242,7 +242,7 @@
     .third-ecom-sec {
         padding: 0px 100px;
         display: flex;
-        gap: 50px;
+        /* gap: 50px; */
     }
 
     .third-ecom-sec .ecom-left {
@@ -290,7 +290,8 @@
             padding: 00px 20px;
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            /* gap: 50px; */
+            gap: 30px;
         }
 
         .third-ecom-sec .ecom-left {
@@ -1402,30 +1403,6 @@
     // include('quote-modal.php')
     ?>
 
-    <div class="newsecondsection">
-    <div class="left">
-      <h2 style="line-height:40px;">Why Is a Shopify Website Important for Your Business?</h2>
-      <!-- <h3>Subtitle</h3> -->
-      <p>At Sagar Tech Technical Solutions, we understand the pivotal role a Shopify website plays in driving eCommerce success. As one of Mumbai’s leading Shopify development companies, we blend creativity with technical expertise to deliver exceptional Shopify development services.
-
-In today’s digital era, a Shopify website is essential for establishing a strong eCommerce presence, attracting customers, and increasing revenue. Our talented team of designers and developers specializes in creating robust, visually appealing, and conversion-focused Shopify websites that accurately reflect your brand and cater to your business needs.
-With our expertise as a top Shopify development company in India, we bring your eCommerce vision to life, helping your business achieve its full potential.
-</p>
-      <br>
-      <div class="herobuttonsnew">
-        <!-- <a href="#">Quick Enquiry</a> -->
-        <a href="about" class="button">About Us</a>
-      </div>
-    </div>
-    <div class="right">
-      <iframe width="100%" height="300" src="https://www.youtube.com/embed/AxjMQNyE9Rg"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <!-- <img src="./banner/business.webp" alt="Web Development"> -->
-    </div>
-  </div>
-
 
     <div class="second-ecommerce-section">
         <h2>Why Choose Sagar Tech for Shopify Development Services?</h2>
@@ -1472,7 +1449,8 @@ With our expertise as a top Shopify development company in India, we bring your 
         </div>
 
         <div class="ecom-right">
-            <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="shopify website development company" title="shopify website development company">
+            <!-- <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="shopify website development company" title="shopify website development company"> -->
+            <img src="portfolio-images/shopify-website.webp" alt="shopify website development company" title="shopify website development company">
         </div>
     </div>
 
@@ -1617,16 +1595,40 @@ With our expertise as a top Shopify development company in India, we bring your 
         <h2>Our Shopify Ecommerce Websites</h2>
         <div class="fourth-card-div">
             <div class="fourth-card">
-                <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="shopify website development company" title="shopify website development company">
+                <img src="portfolio-images/chief-parfum1.webp" alt="shopify website development company" title="Cotton Culture">
             </div>
             <div class="fourth-card">
-            <img src="./portfolio-mockups/ecommerce/cotton-culture.webp" alt="shopify website development company" title="shopify website development company">
+            <img src="portfolio-images/cotton-culture1.webp" alt="shopify website development company" title="Chief Parfum">
             </div>
         </div>
         <!-- <div class="portfolio-button">
             <a href="our-portfolio">See Our Work</a>
         </div> -->
     </div>
+
+    <div class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;">Why Is a Shopify Website Important for Your Business?</h2>
+      <!-- <h3>Subtitle</h3> -->
+      <p>At Sagar Tech Technical Solutions, we understand the pivotal role a Shopify website plays in driving eCommerce success. As one of Mumbai’s leading Shopify development companies, we blend creativity with technical expertise to deliver exceptional Shopify development services.
+
+In today’s digital era, a Shopify website is essential for establishing a strong eCommerce presence, attracting customers, and increasing revenue. Our talented team of designers and developers specializes in creating robust, visually appealing, and conversion-focused Shopify websites that accurately reflect your brand and cater to your business needs.
+With our expertise as a top Shopify development company in India, we bring your eCommerce vision to life, helping your business achieve its full potential.
+</p>
+      <br>
+      <div class="herobuttonsnew">
+        <!-- <a href="#">Quick Enquiry</a> -->
+        <a href="about" class="button">About Us</a>
+      </div>
+    </div>
+    <div class="right">
+      <iframe width="100%" height="300" src="https://www.youtube.com/embed/AxjMQNyE9Rg"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- <img src="./banner/business.webp" alt="Web Development"> -->
+    </div>
+  </div>
 
 
 

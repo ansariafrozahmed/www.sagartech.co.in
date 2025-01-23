@@ -137,6 +137,7 @@
             font-size: 25px;
             line-height: normal;
             font-weight: 600;
+            width:100% !important;
         }
 
         .herobreadrumb {
@@ -244,11 +245,13 @@
     .third-ecom-sec {
         padding: 0px 100px;
         display: flex;
-        gap: 50px;
+        /* gap: 50px; */
+        gap: 15px;
     }
 
     .third-ecom-sec .ecom-left {
-        width: 65%;
+        width: 60%;
+        /* width: 65%; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -274,7 +277,8 @@
     }
 
     .third-ecom-sec .ecom-right {
-        width: 35%;
+        /* width: 35%; */
+        width: 40%;
     }
 
     .third-ecom-sec .ecom-right img {
@@ -288,7 +292,7 @@
             padding: 00px 20px;
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: 0px;
         }
 
         .third-ecom-sec .ecom-left {
@@ -1048,7 +1052,7 @@
         </div>
 
         <div class="ecom-right">
-            <img src="portfolio-mockups/catalogue/redsailexports.webp" alt="Dynamic Website">
+            <img src="portfolio-images/dynamic-websit1.webp" alt="Dynamic Website">
         </div>
     </div>
 

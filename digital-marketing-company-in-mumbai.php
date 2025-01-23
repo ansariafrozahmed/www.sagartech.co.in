@@ -138,6 +138,7 @@
       font-size: 25px;
       line-height: normal;
       font-weight: 600;
+      width:100% !important;
     }
 
     .herobreadrumb {
@@ -181,6 +182,7 @@
     gap: 20px;
     align-items: center;
     justify-content: start;
+    padding-top: 50px;
   }
 
   .newsecondsection .left {
@@ -1007,7 +1009,7 @@ s0.parentNode.insertBefore(s1,s0);
       </div>
     </div>
     <div class="right">
-      <img src="./portfolio-mockups/social-media-mockup.webp" alt="Digital Marketing Company">
+      <img src="portfolio-images/social-media-marketing.webp" alt="Digital Marketing Company">
     </div>
   </div>
 

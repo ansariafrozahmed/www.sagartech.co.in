@@ -247,7 +247,7 @@
     .third-ecom-sec {
         padding: 0px 100px;
         display: flex;
-        gap: 50px;
+        /* gap: 50px; */
     }
 
     .third-ecom-sec .ecom-left {
@@ -295,7 +295,7 @@
             padding: 00px 20px;
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: 0px;
         }
 
         .third-ecom-sec .ecom-left {
@@ -1465,7 +1465,7 @@
         </div>
 
         <div class="ecom-right">
-            <img src="./portfolio-mockups/catalogue/globalhardware.webp" alt="wordpress website development company" title="wordpress website development company">
+            <img src="portfolio-images/wordpress-mockup.webp" alt="wordpress website development company" title="wordpress website development company">
         </div>
     </div>
 

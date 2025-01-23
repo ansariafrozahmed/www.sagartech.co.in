@@ -640,7 +640,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="images/google-ads.webp" alt="google ads">
+            <img src="portfolio-images/google-ads.webp" alt="google ads">
         </div>
     </div>
 

@@ -106,6 +106,7 @@
             font-size: 25px;
             line-height: normal;
             font-weight: 600;
+            width:100% !important;
         }
 
         .herobreadrumb {
@@ -158,7 +159,8 @@
     }
 
     .secondsection .left {
-        width: 60%;
+        /* width: 60%; */
+        width: 55%;
         padding: 20px 10px;
     }
 
@@ -173,7 +175,8 @@
     }
 
     .secondsection .right {
-        width: 40%;
+        width: 45%;
+        /* width: 40%; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -607,7 +610,8 @@
             </div>
         </div>
         <div class="right">
-            <img src="./images/seo.webp" alt="SEO Company in Mumbai">
+            <!-- <img src="./images/seo.webp" alt="SEO Company in Mumbai"> -->
+            <img src="portfolio-images/seo-service3.webp" alt="SEO Company in Mumbai">
         </div>
     </div>
 

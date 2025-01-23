@@ -499,7 +499,8 @@
             </div>
         </div>
         <div class="right">
-            <img src="./images/web-hosting.svg" alt="web hosting services">
+            <!-- <img src="./images/web-hosting.svg" alt="web hosting services"> -->
+            <img src="portfolio-images\web-hosting.webp" alt="web hosting services">
         </div>
     </div>
 

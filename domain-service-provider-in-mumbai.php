@@ -510,7 +510,8 @@
             </div>
         </div>
         <div class="right">
-            <img src="./images/domain-name.svg" alt="Best Domain Registrar India">
+            <!-- <img src="./images/domain-name.svg" alt="Best Domain Registrar India"> -->
+            <img src="portfolio-images/domain-mocku1.webp" alt="Best Domain Registrar India">
         </div>
     </div>
 
