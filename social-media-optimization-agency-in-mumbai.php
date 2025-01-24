@@ -582,7 +582,7 @@
         <p class="herosectionpara">
             With more than 4.95 billion people using social media globally This indicates that 61% of people use social
             media worldwide. Social media has become an important part of our daily lives, offering businesses a unique
-            platform to connect with their audience and promote their brand. Social media optimization (SMO) is a
+            platform to connect with their audience and promote their brand. <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-optimization-service.html#2854486991573" target="_blank" class="interlink">Social media optimization (SMO)</a> is a
             strategy used to enhance a brand's presence on social media platforms by optimising profiles, content, and
             interactions with your audience. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech
                 Technical Solution</a>, we specialise in providing expert <a class="interlink"

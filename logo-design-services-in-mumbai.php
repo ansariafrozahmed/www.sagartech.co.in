@@ -703,7 +703,7 @@ include 'include/config.php';
         </ul>
         <p class="herosectionpara">
             <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is proud to be a
-            leading provider of logo design services. Your Logo is the Face Of Your Brand. Our expert designers work
+            leading provider of <a href="https://www.indiamart.com/sagartech-technicalsolutions/logo-design-service.html#2854487254697" target="_blank" class="interlink">logo design services.</a> Your Logo is the Face Of Your Brand. Our expert designers work
             with you to create memorable logos that reflect your brand identity and values Our logo design journey
             begins by getting to know your brand inside out its values, vision, and unique characteristics.
         </p>

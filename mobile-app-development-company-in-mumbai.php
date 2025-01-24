@@ -1075,7 +1075,7 @@
         </ul>
         <p class="herosectionpara">
             Welcome To <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>. We
-            understand the important role that mobile app development plays in enhancing user engagement and driving
+            understand the important role that <a href="https://www.indiamart.com/sagartech-technicalsolutions/application-development-services.html#2855127299833" target="_blank" class="interlink">mobile app development</a> plays in enhancing user engagement and driving
             business growth. Our mobile app development services are tailored to cater to the unique needs of businesses
             looking to make a lasting impact on the mobile globe. We work using the latest technologies.
         </p>
@@ -1090,7 +1090,7 @@
     <div class="second-ecommerce-section">
         <h2>Why Mobile App Development is Important For Your Business ?</h2>
         <!-- <h3>An experienced team of eCommerce developers to deliver your dream online store.</h3> -->
-        <p>Mobile app development has become increasingly important for businesses across various industries. With a
+        <p><a href="https://www.indiamart.com/proddetail/e-commerce-application-development-2854563933373.html" target="_blank" class="interlink">Mobile app development</a> has become increasingly important for businesses across various industries. With a
             mobile app you connect with more people across the globe mobile app, your business is open 24/7. People can
             reach you wherever they are, free. This makes things super convenient for them.Your app's icon on their
             phones helps people remember you. It's like a little billboard for your brand that they carry around.</p>

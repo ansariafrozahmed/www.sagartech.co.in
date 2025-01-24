@@ -630,7 +630,7 @@
         <div class="left">
             <h2>Why Choose Sagar Tech Technical Solution for Google Ads Services</h2>
             <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
-            <p>When it comes to advertising your business online, Google Ads can be a game changer. Our team is aware
+            <p>When it comes to advertising your business online, <a href="https://www.indiamart.com/sagartech-technicalsolutions/google-ads-marketing-service.html#2854486975562" target="_blank" class="interlink">Google Ads</a> can be a game changer. Our team is aware
                 about Google Ads inside and out. we are dong google ads management services for years, so you can trust
                 us to create campaigns that produce results to your business Look no further than <a class="interlink"
                     href="https://sagartech.co.in/">Sagar Tech Technical Solution</a>, your premier Google Ads service

@@ -998,7 +998,7 @@
     <div class="second-ecommerce-section">
         <h2>Why You Need Blogging Website</h2>
         <!-- <h3>An experienced team of eCommerce developers to deliver your dream online store.</h3> -->
-        <p>In the digital world of today, having a blogging website has become a necessity rather than an option.
+        <p>In the digital world of today, having a <a href="https://www.indiamart.com/sagartech-technicalsolutions/blog-website-design-service.html#2854486930833" target="_blank" class="interlink">blogging website</a> has become a necessity rather than an option.
             Whether you're an individual looking to share your ideas and thoughts with the world or a business looking
             to expand your online presence, a blogging website offers multiple benefits. At Sagar Tech Technical
             Solution, we understand the power of <a class="interlink" href="web-development-company-in-mumbai">Website

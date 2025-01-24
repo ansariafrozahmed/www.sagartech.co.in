@@ -997,7 +997,7 @@
     <div class="second-Dynamic-section">
         <h2>Why Static Website Development Is Necessary for Your Company</h2>
         <!-- <h3>An experienced team of Dynamic developers to deliver your dream online store.</h3> -->
-        <p>A static website is now a necessity for companies looking to have a strong online presence and stay ahead of
+        <p>A <a href="https://www.indiamart.com/proddetail/static-website-designing-services-2854563934412.html" target="_blank" class="interlink">static website</a> is now a necessity for companies looking to have a strong online presence and stay ahead of
             the competition in the digital age. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech
                 Technical Solution</a>, we understand how important static website development is for expanding client
             interaction and corporate growth. Here are some powerful reasons in favour of a static website for your

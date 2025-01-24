@@ -655,7 +655,7 @@ s0.parentNode.insertBefore(s1,s0);
             Sagar Tech Technical Solution is an Award Winning 🏆 <a class="interlink"
                 href="digital-marketing-company-in-mumbai">Digital Marketing Company in Mumbai</a>. We provide result
             oriented
-            social media services Our social media marketing agency of skilled social media optimization and marketing
+            social media services Our <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-marketing-service.html" target="_blank" class="interlink">social media marketing agency</a> of skilled social media optimization and marketing
             experts is experienced in managing social media platforms such as Instagram, Facebook, Twitter, Google+,
             LinkedIn, and Pinterest. Together, we increase your social media presence and generate more leads.
         </p>
