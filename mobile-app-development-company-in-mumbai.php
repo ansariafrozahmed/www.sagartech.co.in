@@ -1088,7 +1088,7 @@
 
 
     <div class="second-ecommerce-section">
-        <h2>Why <a href="https://www.indiamart.com/sagartech-technicalsolutions/iphone-application-development-service.html" target="_blank" class="interlink">Mobile App Development</a> is Important For Your Business ?</h2>
+        <h2>Why Mobile App Development is Important For Your Business ?</h2>
         <!-- <h3>An experienced team of eCommerce developers to deliver your dream online store.</h3> -->
         <p><a href="https://www.indiamart.com/proddetail/e-commerce-application-development-2854563933373.html" target="_blank" class="interlink">Mobile app development</a> has become increasingly important for businesses across various industries. With a
             mobile app you connect with more people across the globe mobile app, your business is open 24/7. People can
@@ -1109,8 +1109,8 @@
                         <img src="icons/strategy-development.webp" alt="Mobile App Development">
                         <h2>Expertise and experience</h2>
                     </div>
-                    <p>Sagar Tech boasts a team of seasoned professionals with extensive experience in mobile app
-                        development. Their expertise spans various industries, ensuring that your app will be crafted
+                    <p>Sagar Tech boasts a team of seasoned professionals with extensive experience in <a href="https://www.indiamart.com/sagartech-technicalsolutions/iphone-application-development-service.html" target="_blank" class="interlink">mobile app
+                        development.</a> Their expertise spans various industries, ensuring that your app will be crafted
                         with a deep understanding of your business domain.</p>
                 </div>
                 <!-- -------------------- -->

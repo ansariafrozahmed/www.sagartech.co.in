@@ -547,7 +547,7 @@
             Sagar Tech Technical Solution is Award Winning 🏆 in <a class="interlink"
                 href="digital-marketing-company-in-mumbai">Digital Marketing company in Mumbai</a> with 5 Years of
             experience.
-            Local SEO (Search Engine Optimization) plays a crucial role in the success of businesses that serve specific
+            <a href="https://www.indiamart.com/proddetail/local-seo-service-2854574842230.html" target="_blank" class="interlink">Local SEO (Search Engine Optimization)</a> plays a crucial role in the success of businesses that serve specific
             geographic areas. Google is focusing on delivering local results that provide customers with immediate
             solutions. Local SEO ensures that your business ranks highly in local search results. Customers who are
             interested look for products or services nearby.
@@ -572,7 +572,7 @@
 
 
     <div class="third-lseo-sec">
-        <h2>Advantages of <a href="https://www.indiamart.com/proddetail/local-seo-service-2854574842230.html" target="_blank" class="interlink">Local SEO Services For Your Business</a></h2>
+        <h2>Advantages of Local SEO Services For Your Business</h2>
         <p>Local SEO <a class="interlink" href="seo-company-in-mumbai">(Search Engine Optimization)</a> services offer
             numerous advantages for businesses looking to increase their online visibility and attract customers within
             their geographic area. Here are some of the key advantages</p>
