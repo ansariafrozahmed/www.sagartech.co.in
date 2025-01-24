@@ -603,8 +603,8 @@
             <h2>Why Choose Sagar Tech Technical Solution for Your Social Media Optimization Services</h2>
             <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
             <p>When it comes to enhancing your brand's presence on social media, choosing the right agency can make all
-                the difference. Sagar Tech Technical Solution is your trusted partner for top-notch social media
-                optimization (SMO) services.</p>
+                the difference. Sagar Tech Technical Solution is your trusted partner for top-notch <a href="https://www.indiamart.com/sagartech-technicalsolutions/performance-marketing-service.html" target="_blank" class="interlink">social media
+                optimization (SMO)</a> services.</p>
             <div class="herobuttonsnew">
                 <a href="contact" class="buttonsss">Our Packages</a>
             </div>

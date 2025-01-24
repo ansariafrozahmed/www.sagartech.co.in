@@ -829,7 +829,7 @@
     <h2>We Provide the best Brochure Design For Various Business Need</h2>
     <p>We have mastered the art of producing eye-catching brochures in a variety of styles, including bi-fold and
       tri-fold brochures, business presentation brochures, flyers, and leaflets, thanks to our years of experience and
-      expertise in designing company brochure designs. Whether it's for a sales brochure or a promotional brochure, the
+      expertise in designing company <a href="https://www.indiamart.com/sagartech-technicalsolutions/company-brochure-design-service.html" target="_blank" class="interlink">brochure designs.</a> Whether it's for a sales brochure or a promotional brochure, the
       professionals at Sagar Tech Technical Solution can provide you with appealing designs to project the best image of
       your company.</p>
     <!-- -------------- -->

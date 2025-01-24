@@ -706,7 +706,7 @@
     <p class="herosectionpara">
         In a world where first impressions matter, your brand identity is the visual language of your company. <a
         class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> proudly presents its
-        specialised Brand Identity Design Services, a comprehensive solution designed to establish, modify, and
+        specialised <a href="https://www.indiamart.com/sagartech-technicalsolutions/brand-identity-design-service.html" target="_blank" class="interlink">Brand Identity Design</a> Services, a comprehensive solution designed to establish, modify, and
         improve the core values of your brand. With a commitment to creativity, innovation, and strategic design,
         Sagar Tech Technical Solutions is your trusted partner in crafting a visual identity & <a class="interlink"
         href="graphic-design-services-in-mumbai">Graphic Designing Services</a> that connects with your target

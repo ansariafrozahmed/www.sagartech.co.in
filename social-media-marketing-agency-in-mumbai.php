@@ -758,8 +758,8 @@ s0.parentNode.insertBefore(s1,s0);
         <h2>Social Media Marketing Services We Offer To Business</h2>
         <p>In the vast world of social media, <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical
                 Solution</a> is your dedicated partner for your social media marketing. We specialise in managing
-            popular platforms like Facebook, Instagram, YouTube, and LinkedIn. We are the go-to social media marketing
-            agency. For your business With a strategic approach and a creative flair, we're here to help businesses like
+            popular platforms like Facebook, Instagram, YouTube, and LinkedIn. We are the go-to <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-post-designing-service.html" target="_blank" class="interlink">social media marketing
+            agency.</a> For your business With a strategic approach and a creative flair, we're here to help businesses like
             yours enhance their online presence, connect with their audience, and achieve tangible results.</p>
         <div class="smm-service">
             <!-- ------------------- -->

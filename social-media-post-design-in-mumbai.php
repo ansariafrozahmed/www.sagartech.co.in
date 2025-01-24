@@ -751,7 +751,7 @@
         </ul>
         <p class="herosectionpara">
             <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands as the leading
-            provider of Social media post design services in Mumbai, offering a blend of creativity and strategic <a
+            provider of <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-post-designing-service.html" target="_blank" class="interlink">Social media post design</a> services in Mumbai, offering a blend of creativity and strategic <a
                 class="interlink" href="graphic-design-services-in-mumbai">Graphic Design</a> to elevate your brand's
             online
             presence. It is crucial for engaging your audience. Our focus is on bringing creativity and strategic design

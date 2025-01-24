@@ -478,7 +478,7 @@
             is a must for your online presence as it provides your unique internet address. Domain registration secures
             an address for your website, providing a professional online presence.Sagar Tech Technical Solutions
             understands the value of a strong online presence, which is why we provide complete domain registration
-            services and become best domain registrar India.
+            services and become <a href="https://www.indiamart.com/sagartech-technicalsolutions/domain-name-registration-service.html" target="_blank" class="interlink">best domain registrar India.</a>
         </p>
         <div class="herobuttonsnew">
             <a href="contact" class="button">Contact Now!</a>

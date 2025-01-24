@@ -625,7 +625,7 @@ include "include/config.php";
             In today's fast-paced digital world, effective communication is more critical than ever. At <a
                 class="interlink" href="https://sagartech.co.in/">Sagar Tech Techincal Solutions</a>, we take pride in
             being your ultimate partner for state-of-the-art communication solutions. Whether you're seeking the
-            expertise of a Bulk SMS Service Provider or in need of a reliable WhatsApp Bulk Message service, rest
+            expertise of a <a href="https://www.indiamart.com/sagartech-technicalsolutions/bulk-mobile-sms-service.html" target="_blank" class="interlink">Bulk SMS Service Provider</a> or in need of a reliable WhatsApp Bulk Message service, rest
             assured, we've got your back.
         </p>
         <div class="herobuttonsnew">
