@@ -134,8 +134,12 @@ include 'include/config.php';
     }
 
     .secondsection {
-        display: flex;
+        /* display: flex;
         padding: 50px;
+        width: 100%;
+        gap: 20px;*/
+        display: flex;
+        padding: 0px 50px;
         width: 100%;
         gap: 20px;
     }
@@ -164,6 +168,7 @@ include 'include/config.php';
         height: 100%;
         width: 100%;
         object-fit: contain;
+        padding:30px;
     }
 
     @media only screen and (max-width: 999px) {
@@ -199,6 +204,7 @@ include 'include/config.php';
             height: 100%;
             width: 100%;
             object-fit: contain;
+            padding: 0px !important;
         }
     }
 
@@ -487,7 +493,8 @@ include 'include/config.php';
 
     @media only screen and (max-width: 767px) {
         .typesofsection {
-            padding: 60px 20px;
+            /* padding: 60px 20px; */
+            padding: 30px 20px 60px 20px;
         }
 
         .typesofsection h2 {
@@ -683,7 +690,7 @@ include 'include/config.php';
 
     <?php
     $page = 'services';
-    include ("include/newHeader.php");
+    include("include/newHeader.php");
     //include('include/header1.php');
     ?>
     <!-- /HEADER END -->
@@ -727,7 +734,8 @@ include 'include/config.php';
                 </div>
         </div>
         <div class="right">
-            <img src="./client-logos/logo-mockupp.webp" alt="">
+            <!-- <img src="./client-logos/logo-mockupp.webp" alt=""> -->
+            <img src="portfolio-images/logo-design-mockup.webp" alt="Logo Design Services">
         </div>
     </div>
 
@@ -937,7 +945,7 @@ include 'include/config.php';
     <?php
     // include 'blogSectionHome.php' 
     ?>
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">

@@ -106,7 +106,7 @@
             font-size: 25px;
             line-height: normal;
             font-weight: 600;
-            width:100% !important;
+            width: 100% !important;
         }
 
         .herobreadrumb {
@@ -177,15 +177,19 @@
     .secondsection .right {
         width: 45%;
         /* width: 40%; */
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
     }
 
     .secondsection .right img {
-        height: 70%;
+        /* height: 70%;
         width: 70%;
+        object-fit: contain; */
+        height: 100%;
+        width: 100%;
         object-fit: contain;
+        padding: 25px;
     }
 
     .herobuttonsnew a {
@@ -828,7 +832,7 @@
     // include('blogSectionHome.php');
     ?>
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
         (function () {
