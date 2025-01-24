@@ -613,6 +613,92 @@
             line-height: normal;
         }
     }
+
+    .newvideo {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        padding: 50px;
+        background: #f2f2f2;
+    }
+
+    .newvideoinner {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .newvideoinner h2 {
+        font-weight: 600;
+    }
+
+    .newvideovideo {
+        width: 50%;
+
+    }
+
+    .newvideobutton {
+        background-color: #ff0808;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #ff0808;
+        display: inline-block;
+    }
+
+    .newvideovideo iframe {
+        width: 100%;
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    @media (max-width: 767px) {
+        .newvideo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .newvideoinner {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: start;
+            justify-content: start;
+        }
+
+        .newvideoinner h2 {
+            font-weight: 600;
+        }
+
+        .newvideovideo {
+            width: 100%;
+        }
+
+        .newvideobutton {
+            background-color: #ff0808;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #ff0808;
+            display: inline-block;
+        }
+
+        .newvideovideo iframe {
+            width: 100%;
+            height: 200px;
+        }
+    }
 </style>
 
 <body>
@@ -831,6 +917,25 @@ s0.parentNode.insertBefore(s1,s0);
             the respective platforms, we inspect each campaign while offering you with a detailed monthly report.</p>
         <div class="smm-img-div">
             <img src="./images/smm-main.webp" alt="social media marketing agency">
+        </div>
+    </div>
+
+    <div class="newvideo">
+        <div class="newvideoinner">
+            <h2>What can we do for you?</h2>
+            <span class="newvideotext">
+               We provide ongoing support and maintenance for your social media marketing efforts, ensuring your platforms stay up-to-date, secure, and perform seamlessly. Our goal is to deliver a positive and engaging experience for both your brand and your audience.
+            </span>
+            <span>Let’s connect and discuss how we can elevate your social media presence!</span>
+            <div class="newvideobutton">
+                <a href="contact">Lets Connect</a>
+            </div>
+        </div>
+        <div class="newvideovideo">
+            <iframe src="https://www.youtube.com/embed/bJiAqKkw-fs?si=Bv2o-eYP48BRZci7" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
 
