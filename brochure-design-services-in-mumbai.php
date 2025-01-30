@@ -135,13 +135,15 @@
   .secondsection {
     display: flex;
     align-items: center;
-    padding: 50px;
+    /* padding: 50px; */
+    padding: 0px 50px;
     width: 100%;
     gap: 20px;
   }
 
   .secondsection .left {
-    width: 60%;
+    /* width: 60%; */
+    width: 55%;
     padding: 20px 10px;
   }
 
@@ -156,13 +158,15 @@
   }
 
   .secondsection .right {
-    width: 40%;
+    /* width: 40%; */
+    width: 45%;
   }
 
   .secondsection .right img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    padding: 20px;
   }
 
   @media only screen and (max-width: 800px) {
@@ -198,6 +202,7 @@
       height: 100%;
       width: 100%;
       object-fit: contain;
+      padding: 0px !important;
     }
   }
 
@@ -386,7 +391,8 @@
   }
 
   .bestbrochure {
-    padding: 50px;
+    /* padding: 50px; */
+    padding: 0px 50px;;
   }
 
   .bestbrochure h2 {
@@ -820,7 +826,8 @@
       </div>
     </div>
     <div class="right">
-      <img src="./brochure/sagartech-brochure.webp" alt="brochure design">
+      <!-- <img src="./brochure/sagartech-brochure.webp" alt="brochure design"> -->
+      <img src="portfolio-images/brochure-mockup1.webp" alt="brochure design">
     </div>
   </div>
 
