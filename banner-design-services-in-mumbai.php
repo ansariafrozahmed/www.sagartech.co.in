@@ -884,7 +884,8 @@
 
 
     <div class="fifthsection">
-        <h2>Samples of Our Brochure <span style="color:#ff0808;">& Flyer Design</span></h2>
+        <!-- <h2>Samples of Our Brochure <span style="color:#ff0808;">& Flyer Design</span></h2> -->
+        <h2>Samples of Our Banners <span style="color:#ff0808;">& Flyer Design</span></h2>
         <div class="logosec">
             <div class="imgdiv">
                 <img src="./banner-mockups/1.webp" alt="">
