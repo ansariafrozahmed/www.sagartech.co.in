@@ -77,11 +77,17 @@ $slides = array(
     'web_title' => 'Noor Al Salama',
     'desc' => 'Al Salama Accident Repair Center is your trusted partner in restoring vehicles to their pristine condition. With state-of-the-art facilities and a team of highly skilled professionals, we specialize in providing top-quality accident repair services that prioritize safety and excellence. From minor scratches to major repairs, our commitment to precision, efficiency, and customer satisfaction ensures your vehicle gets the care it deserves. Trust Al Salama to get you back on the road with confidence.'
     ),
+  // array(
+  //   'type' => 'Ecommerce Website',
+  //   'image' => './image/homepage/newqualityware-v1.webp',
+  //   'web_title' => 'New Quality Ware',
+  //   'desc' => "New Quality Ware is dedicated to delivering premium-quality kitchenware and home essentials designed to elevate your lifestyle. Our products combine innovation, durability, and style to meet the needs of modern living. Whether you're upgrading your kitchen tools or enhancing your home spaces, our thoughtfully curated collection ensures functionality and elegance in every detail. Explore New Quality Ware and discover the perfect balance of quality and practicality for your home."
+  // ),
     array(
     'type' => 'Ecommerce Website',
-    'image' => './image/homepage/newqualityware-v1.webp',
-    'web_title' => 'New Quality Ware',
-    'desc' => "New Quality Ware is dedicated to delivering premium-quality kitchenware and home essentials designed to elevate your lifestyle. Our products combine innovation, durability, and style to meet the needs of modern living. Whether you're upgrading your kitchen tools or enhancing your home spaces, our thoughtfully curated collection ensures functionality and elegance in every detail. Explore New Quality Ware and discover the perfect balance of quality and practicality for your home."
+    'image' => './image/homepage/trillionair-mockup.webp',
+    'web_title' => 'Trillionaire',
+    'desc' => "Trillionaire Auto Parts is committed to providing premium-quality automotive parts and accessories designed to enhance your vehicle’s performance and style. Our products blend innovation, durability, and precision to meet the demands of modern vehicles. Whether you're upgrading your car’s functionality or enhancing its aesthetics, our carefully curated selection ensures top-tier quality and reliability in every detail. Explore Trillionaire Auto Parts and experience the perfect combination of performance and excellence for your vehicle."
     ),
 );
 ?>
