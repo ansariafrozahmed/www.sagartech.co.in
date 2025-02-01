@@ -10,7 +10,8 @@ include("../include/config.php");
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
+    <meta name="description"
+        content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/brochure">
@@ -489,18 +490,18 @@ include("../include/config.php");
     }
 
     .fifthsection {
-        line-height:normal;
+        line-height: normal;
         padding: 50px;
         background-color: #f2f2f2;
         text-align: center;
     }
-    
+
 
     .fifthsection h2 {
         font-size: 38px;
         font-weight: 700;
     }
-    
+
 
     .logosec {
         padding: 30px;
@@ -519,6 +520,7 @@ include("../include/config.php");
         height: 100%;
         width: 100%;
         object-fit: contain;
+        padding:5px;
     }
 
     @media only screen and (max-width: 999px) {
@@ -539,8 +541,6 @@ include("../include/config.php");
             gap: 15px;
         }
     }
-    
-
 </style>
 
 <body>
@@ -556,11 +556,15 @@ include("../include/config.php");
     include("../include/newHeader.php");
     ?>
 
-    <section style="background-image: url('../portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;" class="banner-content">
+    <section
+        style="background-image: url('../portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;"
+        class="banner-content">
         <h2>Brochure Portfolio</h2>
         <ul class="breadcrumbdiv">
             <li><a href="https://sagartech.co.in/">Home</a></li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
             <li style="color: white;">Brochure Designing</li>
@@ -625,44 +629,64 @@ include("../include/config.php");
         <h2 style="text-transform:uppercase;">Our Designed <span style="color:#FF0808;">Brochures</span></h2>
         <div class="logosec">
             <?php
-      $imageUrls = [
-          "../brochure/sagartech-brochure.webp",
-        "../brochure/3.webp",
-        "../brochure/1.webp",
-        "../brochure/2.webp",
-        "../brochure/5.webp",
-        "../brochure/6.webp",
-        "../brochure/7.webp",
-        "../brochure/8.webp",
-        "../brochure/9.webp",
-        "../brochure/10.webp",
-        "../brochure/11.webp",
-        "../brochure/12.webp",
-      ];
+            //   $imageUrls = [
+            //       "../brochure/sagartech-brochure.webp",
+            //     "../brochure/3.webp",
+            //     "../brochure/1.webp",
+            //     "../brochure/2.webp",
+            //     "../brochure/5.webp",
+            //     "../brochure/6.webp",
+            //     "../brochure/7.webp",
+            //     "../brochure/8.webp",
+            //     "../brochure/9.webp",
+            //     "../brochure/10.webp",
+            //     "../brochure/11.webp",
+            //     "../brochure/12.webp",
+            //   ];
+            $imageUrls = [
+                "../brochure/Sagar Tech.webp",
+                "../brochure/AS Audio.webp",
+                "../brochure/Bareziya Architects.webp",
+                "../brochure/Binfinit.webp",
+                "../brochure/Indian Handicraft.webp",
+                "../brochure/kostevo.webp",
+                "../brochure/Nhamo Toys.webp",
+                "../brochure/yovant.webp",
+                "../brochure/Orion.webp",
+                "../brochure/Globex.webp",
+                "../brochure/1.webp",
+                "../brochure/2.webp",
+                "../brochure/5.webp",
+                "../brochure/6.webp",
+                "../brochure/7.webp",
+                "../brochure/8.webp",
+                "../brochure/11.webp",
+                "../brochure/12.webp",
+            ];
 
-      foreach ($imageUrls as $imageUrl) {
-        echo '<div class="imgdiv">';
-        echo '<img src="' . $imageUrl . '" alt="Brochure">';
-        echo '</div>';
-      }
-        ?>
+            foreach ($imageUrls as $imageUrl) {
+                echo '<div class="imgdiv">';
+                echo '<img src="' . $imageUrl . '" alt="Brochure">';
+                echo '</div>';
+            }
+            ?>
         </div>
     </div>
 
-    
 
 
-    
+
+
 
     <?php
     include("../include/footer.php");
     ?>
-    
+
     <script src="../js/jquery.min.js"></script>
     <script src="../js/custom.js"></script>
 
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -678,7 +702,7 @@ include("../include/config.php");
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
