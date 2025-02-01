@@ -1049,7 +1049,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Armaf</h4>
                             <h2 class="keyword">best deo</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Best Deo</strong> With a robust search volume of <strong style='color:#ff0808;'>1600</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>25</strong>, this keyword epitomizes our expertise in navigating competitive landscapes. Currently securing the coveted <strong style='color:#ff0808;'>2nd</strong> position. Trust us to elevate your online presence and achieve similar success stories. Let's propel your brand to the top ranks together!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Best Deo</strong> With a robust search volume of <strong style='color:#ff0808;'>1600</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>48</strong>, this keyword epitomizes our expertise in navigating competitive landscapes. Currently securing the coveted <strong style='color:#ff0808;'>2nd</strong> position. Trust us to elevate your online presence and achieve similar success stories. Let's propel your brand to the top ranks together!</p>
             </div>
             </div>
             </div>
@@ -1061,7 +1061,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Armaf</h4>
                             <h2 class="keyword">deo for women</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Deo for Women</strong> With an impressive search volume of <strong style='color:#ff0808;'>8100</strong> and a comfortable keyword difficulty score of <strong style='color:#ff0808;'>20</strong>, this keyword exemplifies our prowess in navigating competitive terrains. Currently occupying the prestigious <strong style='color:#ff0808;'>4th</strong> position. Join us in elevating your brand's online presence and achieving similar success stories. Let's propel your business to the top ranks together!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Deo for Women</strong> With an impressive search volume of <strong style='color:#ff0808;'>9900</strong> and a comfortable keyword difficulty score of <strong style='color:#ff0808;'>45</strong>, this keyword exemplifies our prowess in navigating competitive terrains. Currently occupying the prestigious <strong style='color:#ff0808;'>4th</strong> position. Join us in elevating your brand's online presence and achieving similar success stories. Let's propel your business to the top ranks together!</p>
             </div>
             </div>
             </div>
@@ -1073,7 +1073,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Armaf</h4>
                             <h2 class="keyword">best deodrant for women in india</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Best Deodorant for Women in India</strong> With a robust search volume of <strong style='color:#ff0808;'>880</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>21</strong>, this keyword exemplifies our proficiency in competitive landscapes. Currently holding a strong <strong style='color:#ff0808;'>3rd</strong> position. Join us in elevating your brand's online presence and achieving similar triumphs. Let's ascend together towards greater success in the digital arena!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Best Deodorant for Women in India</strong> With a robust search volume of <strong style='color:#ff0808;'>590</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>31</strong>, this keyword exemplifies our proficiency in competitive landscapes. Currently holding a strong <strong style='color:#ff0808;'>3rd</strong> position. Join us in elevating your brand's online presence and achieving similar triumphs. Let's ascend together towards greater success in the digital arena!</p>
             </div>
             </div>
             </div>
@@ -1091,7 +1091,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">BS Auto</h4>
                             <h2 class="keyword">burgman accessories</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Burgman Accessories</strong> Boasting a substantial search volume of <strong style='color:#ff0808;'>2900</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>21</strong>, this keyword underscores our adeptness in tackling competitive landscapes. Currently seated at an impressive <strong style='color:#ff0808;'>3rd</strong> position. Join us in driving your brand's online presence to new heights and achieving similar triumphs. Let's ascend the ranks together!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Burgman Accessories</strong> Boasting a substantial search volume of <strong style='color:#ff0808;'>4400</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>49</strong>, this keyword underscores our adeptness in tackling competitive landscapes. Currently seated at an impressive <strong style='color:#ff0808;'>3rd</strong> position. Join us in driving your brand's online presence to new heights and achieving similar triumphs. Let's ascend the ranks together!</p>
             </div>
             </div>
             </div>
@@ -1103,7 +1103,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">BS Auto</h4>
                             <h2 class="keyword">burgman backrest</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Burgman Backrest</strong> Boasting a substantial search volume of <strong style='color:#ff0808;'>2900</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>21</strong>, this keyword underscores our adeptness in tackling competitive landscapes. Currently seated at an impressive <strong style='color:#ff0808;'>1st</strong> position. Join us in driving your brand's online presence to new heights and achieving similar triumphs. Let's ascend the ranks together!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Burgman Backrest</strong> Boasting a substantial search volume of <strong style='color:#ff0808;'>260</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>25</strong>, this keyword underscores our adeptness in tackling competitive landscapes. Currently seated at an impressive <strong style='color:#ff0808;'>1st</strong> position. Join us in driving your brand's online presence to new heights and achieving similar triumphs. Let's ascend the ranks together!</p>
             </div>
             </div>
             </div>
@@ -1115,7 +1115,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">BS Auto</h4>
                             <h2 class="keyword">suzuki burgman accessories</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Suzuki Burgman Accessories</strong> With a respectable search volume of <strong style='color:#ff0808;'>1300</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>17</strong>, this keyword highlights our proficiency in navigating competitive landscapes. Currently holding the coveted <strong style='color:#ff0808;'>3rd</strong> position. Join us in propelling your brand's online presence to greater heights and achieving similar triumphs. Let's advance together and secure top rankings!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Suzuki Burgman Accessories</strong> With a respectable search volume of <strong style='color:#ff0808;'>1600</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>42</strong>, this keyword highlights our proficiency in navigating competitive landscapes. Currently holding the coveted <strong style='color:#ff0808;'>3rd</strong> position. Join us in propelling your brand's online presence to greater heights and achieving similar triumphs. Let's advance together and secure top rankings!</p>
             </div>
             </div>
             </div>
@@ -1127,7 +1127,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">BS Auto</h4>
                             <h2 class="keyword">ntorq crash guard</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Ntorq Crash Guard</strong> With a solid search volume of <strong style='color:#ff0808;'>720</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>25</strong>, this keyword showcases our expertise in competitive terrain. Currently leading from the front at the <strong style='color:#ff0808;'>1st</strong> position. Join us in elevating your brand's online presence and achieving similar milestones. Let's steer towards success together!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Ntorq Crash Guard</strong> With a solid search volume of <strong style='color:#ff0808;'>1600</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>20</strong>, this keyword showcases our expertise in competitive terrain. Currently leading from the front at the <strong style='color:#ff0808;'>1st</strong> position. Join us in elevating your brand's online presence and achieving similar milestones. Let's steer towards success together!</p>
             </div>
             </div>
             </div>
@@ -1145,7 +1145,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Seal Excel</h4>
                             <h2 class="keyword">hydraulic fittings manufacturers in india</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Hydraulic Fittings Manufacturer in India</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>1st</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Hydraulic Fittings Manufacturer in India</strong> With a focused search volume of <strong style='color:#ff0808;'>110</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>13</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>3rd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
             </div>
             </div>
             </div>
@@ -1157,7 +1157,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Seal Excel</h4>
                             <h2 class="keyword">pneumatic fittings names</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Pneumatic Fittings Names</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Pneumatic Fittings Names</strong> With a focused search volume of <strong style='color:#ff0808;'>260</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>20</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
             </div>
             </div>
             </div>
@@ -1219,7 +1219,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Go Classic Tour</h4>
                             <h2 class="keyword">hajj and umrah agency</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Hajj And Umrah Agency</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Hajj And Umrah Agency</strong> With a focused search volume of <strong style='color:#ff0808;'>210</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>10</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
             </div>
             </div>
             </div>
@@ -1231,7 +1231,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Go Classic Tour</h4>
                             <h2 class="keyword">hajj and umrah tours and travels</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Hajj And Umrah Tours And Travels</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Hajj And Umrah Tours And Travels</strong> With a focused search volume of <strong style='color:#ff0808;'>260</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>8</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
             </div>
             </div>
             </div>
@@ -1249,7 +1249,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Cotton Culture</h4>
                             <h2 class="keyword">cotton palazzo pants</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Cotton Palazzo Pants</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Cotton Palazzo Pants</strong> With a focused search volume of <strong style='color:#ff0808;'>4400</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>45</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
             </div>
             </div>
             </div>
@@ -1261,7 +1261,7 @@ include("../include/config.php");
                         <div class="inner-right">
                             <h4 class="client">Cotton Culture</h4>
                             <h2 class="keyword">kurta co ord set women</h2>
-                <p class="desc"><strong style='color:#ff0808;'>Kurta Co ord Set Women</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+                <p class="desc"><strong style='color:#ff0808;'>Kurta Co ord Set Women</strong> With a focused search volume of <strong style='color:#ff0808;'>480</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>36</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
             </div>
             </div>
             </div>
