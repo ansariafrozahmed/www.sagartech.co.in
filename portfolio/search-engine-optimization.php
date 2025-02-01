@@ -490,7 +490,8 @@ include("../include/config.php");
 
     
     .seo-result-main-content {
-        padding:50px 60px;
+        /* padding:50px 60px; */
+        padding:15px 15px;
 
     }
     .seo-result-main-content .seo-result-inner {
@@ -577,7 +578,8 @@ include("../include/config.php");
 
     @media only screen and (max-width: 767px) {
         .seo-result-main-content {
-        padding:30px 15px;
+        /* padding:30px 15px; */
+        padding:20px 15px;
 
     }
     .seo-result-main-content .seo-result-inner {
@@ -619,6 +621,176 @@ include("../include/config.php");
         font-size:15px;
     }
     }
+
+    /* SEO Portfolio Tab bar */
+        .tabbar {
+        padding: 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .buttons {
+        background-color: white;
+        border-style: none;
+        box-sizing: border-box;
+        color: #000;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+            sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        margin: 0;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    .buttons:hover,
+    .buttons:focus {
+        border-bottom: 2px solid red;
+    }
+
+    .content-div {
+        width: 100%;
+        padding: 20px 50px;
+    }
+
+    .maincontent {
+        margin-top: 20px;
+        widows: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    .maincontent-inner {
+        background-color: white;
+    }
+
+    .content-text {
+        margin-top: 10px;
+    }
+
+    .content-text h2 {
+        font-size: 22px;
+        text-align: center;
+        color: #212121;
+        font-weight: 600;
+    }
+
+    .content-text p {
+        line-height: normal;
+    }
+
+    .maincontent-inner .imgdiv {
+        aspect-ratio: 4/2.5;
+        overflow: hidden;
+    }
+
+    .maincontent-inner .imgdiv img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: all ease-in-out;
+        transition-duration: 0.3s;
+    }
+
+    .maincontent-inner .imgdiv img:hover {
+        transform: scale(1.05);
+    }
+
+    .viewmore {
+        margin-top: 20px;
+        widows: 100%;
+        text-align: center;
+    }
+
+    .viewmore button {
+        border-bottom: 2px solid gray;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .content-div {
+            width: 100%;
+            padding: 20px;
+        }
+
+        .maincontent {
+            margin-top: 20px;
+            widows: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .content-text p {
+            line-height: normal;
+        }
+        
+        .seo-portfolio{
+            padding: 15px 0px !important;
+        }
+    }
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /*Links and buttons*/
+
+    a {
+        color: #000;
+    }
+
+    a:hover {
+        color: orange;
+        transition: 0.2s ease-out;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        color: #000;
+        transition: 0.3s ease-in-out;
+        margin-bottom: 1em;
+    }
+
+    .btn:hover {
+        background-color: #000;
+        color: #fff;
+    }
+
+    .buttons.active {
+            background-color: #ff0808;
+            color: #fff;
+        }
+
+    .seo-portfolio{
+        padding: 50px 0px;
+    }
+
+
 </style>
 
 <body>
@@ -727,7 +899,7 @@ include("../include/config.php");
     </div> -->
 
 
-    <div class="seo-result-main-content">
+    <!-- <div class="seo-result-main-content"> -->
 
 
     <?php
@@ -779,23 +951,335 @@ include("../include/config.php");
 
     foreach ($data as $card) {
     ?>
-        <div class="seo-result-inner">
+        <!-- <div class="seo-result-inner">
             <div class="inner-left">
-                <img src="<?php echo $card['imgSrc']; ?>" alt="seo mockups">
+                <img src="<?php //echo $card['imgSrc']; ?>" alt="seo mockups">
             </div>
             <div class="inner-right">
-                <h4 class="client"><?php echo $card['client']; ?></h4>
-                <h2 class="keyword"><?php echo $card['keyword']; ?></h2>
-                <p class="desc"><?php echo $card['description']; ?></p>
+                <h4 class="client"><?php //echo $card['client']; ?>
+                </h4>
+                <h2 class="keyword">
+                    <?php //echo $card['keyword']; ?>
+                </h2>
+                <p class="desc">
+                    <?php //echo $card['description']; ?>
+                </p>
             </div>
-        </div>
+        </div> -->
+    <div>
     <?php
     }
     ?>
 
+    <!-- </div> -->
+     <div class="seo-portfolio">
+        <div class="tabbar">
+        <button class="buttons" onclick="openCity('Armaf')" id="tabArmaf">Armaf</button>
+        <button class="buttons active" onclick="openCity('BSAuto')" id="tabBSAuto">BS Auto</button>
+        <button class="buttons" onclick="openCity('SealExcel')" id="tabSealExcel">Seal Excel</button>
+        <button class="buttons" onclick="openCity('Alsalama')" id="tabAlsalama">Noor Al Salama</button>
+        <button class="buttons" onclick="openCity('Classic')" id="tabClassic">Go Classic Tour</button>
+        <button class="buttons" onclick="openCity('Cotton')" id="tabCotton">Cotton Culture</button>
+        <!-- <button class="buttons" onclick="openCity('Static')" id="tabTravels">Static Websites</button> -->
+    </div>
+     <!-- </div> -->
+
+    <script>
+        // Function to open the city (placeholder)
+        function openCity(cityName) {
+            // Your implementation to open the city
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Retrieve the active tab from localStorage
+            var activeTab = localStorage.getItem('activeTab');
+
+            // Check if an active tab is stored in localStorage
+            if (activeTab) {
+                // Remove the 'active' class from all tabs
+                document.querySelectorAll('.buttons').forEach(function (button) {
+                    button.classList.remove('active');
+                });
+
+                // Add the 'active' class to the stored active tab
+                document.getElementById('tab' + activeTab).classList.add('active');
+            } else {
+                // If no active tab is stored, set the default tab as "Armaf"
+                document.getElementById('tabArmaf').classList.add('active');
+                localStorage.setItem('activeTab', 'Armaf');
+            }
+        });
+
+        // Event listener to store the active tab in localStorage when clicked
+        document.querySelectorAll('.buttons').forEach(function (button) {
+            button.addEventListener('click', function () {
+                // Remove the 'active' class from all tabs
+                document.querySelectorAll('.buttons').forEach(function (btn) {
+                    btn.classList.remove('active');
+                });
+
+                // Add the 'active' class to the clicked tab
+                this.classList.add('active');
+
+                // Store the active tab in localStorage
+                var tabName = this.textContent.trim();
+                localStorage.setItem('activeTab', tabName);
+            });
+        });
+
+        // Clear localStorage and set active tab to "Armaf" on reload
+        window.addEventListener('beforeunload', function () {
+            localStorage.removeItem('activeTab');
+            localStorage.setItem('activeTab', 'Armaf');
+        });
+    </script>
+
+
+
+    <hr>
+
+    <div id="Armaf" class="content-div">
+        <!-- <h2>Our Business Website portfolio</h2> -->
+        <!-- <div class="maincontent"> -->
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/SEO_Armaf_Mockup.webp" alt="Armaf">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Armaf</h4>
+                            <h2 class="keyword">best deo</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Best Deo</strong> With a robust search volume of <strong style='color:#ff0808;'>1600</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>25</strong>, this keyword epitomizes our expertise in navigating competitive landscapes. Currently securing the coveted <strong style='color:#ff0808;'>2nd</strong> position. Trust us to elevate your online presence and achieve similar success stories. Let's propel your brand to the top ranks together!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/SEO_Armaf_Mockup2.webp" alt="Armaf">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Armaf</h4>
+                            <h2 class="keyword">deo for women</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Deo for Women</strong> With an impressive search volume of <strong style='color:#ff0808;'>8100</strong> and a comfortable keyword difficulty score of <strong style='color:#ff0808;'>20</strong>, this keyword exemplifies our prowess in navigating competitive terrains. Currently occupying the prestigious <strong style='color:#ff0808;'>4th</strong> position. Join us in elevating your brand's online presence and achieving similar success stories. Let's propel your business to the top ranks together!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/SEO_Armaf_45.webp" alt="Armaf">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Armaf</h4>
+                            <h2 class="keyword">best deodrant for women in india</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Best Deodorant for Women in India</strong> With a robust search volume of <strong style='color:#ff0808;'>880</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>21</strong>, this keyword exemplifies our proficiency in competitive landscapes. Currently holding a strong <strong style='color:#ff0808;'>3rd</strong> position. Join us in elevating your brand's online presence and achieving similar triumphs. Let's ascend together towards greater success in the digital arena!</p>
+            </div>
+            </div>
+            </div>
+        <!-- </div> -->
     </div>
 
+    <div id="BSAuto" class="content-div" style="display:none">
+        <!-- <h2>Our Business Website portfolio</h2> -->
+        <!-- <div class="maincontent"> -->
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/BS Auto1.webp" alt="BS Auto">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">BS Auto</h4>
+                            <h2 class="keyword">burgman accessories</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Burgman Accessories</strong> Boasting a substantial search volume of <strong style='color:#ff0808;'>2900</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>21</strong>, this keyword underscores our adeptness in tackling competitive landscapes. Currently seated at an impressive <strong style='color:#ff0808;'>3rd</strong> position. Join us in driving your brand's online presence to new heights and achieving similar triumphs. Let's ascend the ranks together!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/BS Auto.webp" alt="BS Auto">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">BS Auto</h4>
+                            <h2 class="keyword">burgman backrest</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Burgman Backrest</strong> Boasting a substantial search volume of <strong style='color:#ff0808;'>2900</strong> and a manageable keyword difficulty score of <strong style='color:#ff0808;'>21</strong>, this keyword underscores our adeptness in tackling competitive landscapes. Currently seated at an impressive <strong style='color:#ff0808;'>1st</strong> position. Join us in driving your brand's online presence to new heights and achieving similar triumphs. Let's ascend the ranks together!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/SEO_BS_Auto_Mockup2.webp" alt="BS Auto">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">BS Auto</h4>
+                            <h2 class="keyword">suzuki burgman accessories</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Suzuki Burgman Accessories</strong> With a respectable search volume of <strong style='color:#ff0808;'>1300</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>17</strong>, this keyword highlights our proficiency in navigating competitive landscapes. Currently holding the coveted <strong style='color:#ff0808;'>3rd</strong> position. Join us in propelling your brand's online presence to greater heights and achieving similar triumphs. Let's advance together and secure top rankings!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/BS Auto2.webp" alt="BS Auto">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">BS Auto</h4>
+                            <h2 class="keyword">ntorq crash guard</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Ntorq Crash Guard</strong> With a solid search volume of <strong style='color:#ff0808;'>720</strong> and a manageable keyword difficulty of <strong style='color:#ff0808;'>25</strong>, this keyword showcases our expertise in competitive terrain. Currently leading from the front at the <strong style='color:#ff0808;'>1st</strong> position. Join us in elevating your brand's online presence and achieving similar milestones. Let's steer towards success together!</p>
+            </div>
+            </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <div id="SealExcel" class="content-div" style="display:none">
+        <!-- <h2>Our Business Website portfolio</h2> -->
+        <!-- <div class="maincontent"> -->
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/sealexcel1.webp" alt="Seal Excel">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Seal Excel</h4>
+                            <h2 class="keyword">hydraulic fittings manufacturers in india</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Hydraulic Fittings Manufacturer in India</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>1st</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/sealexcel.webp" alt="Seal Excel">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Seal Excel</h4>
+                            <h2 class="keyword">pneumatic fittings names</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Pneumatic Fittings Names</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <div id="Alsalama" class="content-div" style="display:none">
+        <!-- <h2>Our Business Website portfolio</h2> -->
+        <!-- <div class="maincontent"> -->
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/Alsalama.webp" alt="Noor Al Salama">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Noor Al Salama</h4>
+                            <h2 class="keyword">car brake service in dammam</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Car Brake Service In Dammam</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>1st</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/Alsalama1.webp" alt="Noor Al Salama">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Noor Al Salama</h4>
+                            <h2 class="keyword">car denting service in dammam</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Car Denting Service In Dammam</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>1st</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/Alsalama2.webp" alt="Noor Al Salama">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Noor Al Salama</h4>
+                            <h2 class="keyword">car painting service in dammam</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Car Painting Service In Dammam</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>1st</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <div id="Classic" class="content-div" style="display:none">
+        <!-- <h2>Our Business Website portfolio</h2> -->
+        <!-- <div class="maincontent"> -->
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/classictour.webp" alt="Go Classic Tour">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Go Classic Tour</h4>
+                            <h2 class="keyword">hajj and umrah agency</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Hajj And Umrah Agency</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/classictour1.webp" alt="Go Classic Tour">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Go Classic Tour</h4>
+                            <h2 class="keyword">hajj and umrah tours and travels</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Hajj And Umrah Tours And Travels</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <div id="Cotton" class="content-div" style="display:none">
+        <!-- <h2>Our Business Website portfolio</h2> -->
+        <!-- <div class="maincontent"> -->
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/cotton culture.webp" alt="Cotton Culture">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Cotton Culture</h4>
+                            <h2 class="keyword">cotton palazzo pants</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Cotton Palazzo Pants</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+            <div class="seo-result-main-content">
+            <div class="seo-result-inner">
+            <div class="inner-left">
+                <img src="../seo-mockups/cotton culture1.webp" alt="Cotton Culture">
+                        </div>
+                        <div class="inner-right">
+                            <h4 class="client">Cotton Culture</h4>
+                            <h2 class="keyword">kurta co ord set women</h2>
+                <p class="desc"><strong style='color:#ff0808;'>Kurta Co ord Set Women</strong> With a focused search volume of <strong style='color:#ff0808;'>140</strong> and a comfortably low keyword difficulty of <strong style='color:#ff0808;'>5</strong>, this keyword highlights our adeptness in competitive arenas. Currently securing the esteemed <strong style='color:#ff0808;'>2nd</strong> position. Join us in propelling your brand's online presence to new heights and achieving similar victories. Let's lead the way together towards greater success!</p>
+            </div>
+            </div>
+            </div>
+        <!-- </div> -->
+    </div>
+</div>
+    </div>
     
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("content-div");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }
+    </script>
 
 
     
