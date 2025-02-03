@@ -609,7 +609,31 @@ include ("../include/config.php");
         <h2 style="text-transform:uppercase;">Our Designed <span style="color:#FF0808;">Social Media Posts</span></h2>
         <div class="logosec">
             <?php
+            // $imageUrls = [
+            //     "../social-media-mockup/1.webp",
+            //     "../social-media-mockup/2.webp",
+            //     "../social-media-mockup/3.webp",
+            //     "../social-media-mockup/4.webp",
+            //     "../social-media-mockup/5.webp",
+            //     "../social-media-mockup/6.webp",
+            //     "../social-media-mockup/7.webp",
+            //     "../social-media-mockup/8.webp",
+            //     "../social-media-mockup/9.webp",
+            //     "../social-media-mockup/10.webp",
+            //     "../social-media-mockup/11.webp",
+            //     "../social-media-mockup/12.webp",
+            // ];
             $imageUrls = [
+                "../social-media-mockup/Social Media Post Design 1 - Armaf.webp",
+                "../social-media-mockup/Social Media Post Design 2 - Alsalama.webp",
+                "../social-media-mockup/Social Media Post Design 2 - Bareziya Architects.webp",
+                "../social-media-mockup/Social Media Post Design 2 - BlueMed.webp",
+                "../social-media-mockup/Social Media Post Design 2 - BS Auto.webp",
+                "../social-media-mockup/Social Media Post Design 2 - Cotton Culture.webp",
+                "../social-media-mockup/Social Media Post Design 2 - Folkso.webp",
+                "../social-media-mockup/Social Media Post Design 2 - MCM Phoenix.webp",
+                "../social-media-mockup/Social Media Post Design 2 - Royal Wrists.webp",
+                "../social-media-mockup/Social Media Post Design 2 - trillionaire.webp",
                 "../social-media-mockup/1.webp",
                 "../social-media-mockup/2.webp",
                 "../social-media-mockup/3.webp",
