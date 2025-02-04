@@ -583,6 +583,94 @@
             line-height: normal;
         }
     }
+
+    /* youtube video section  */
+    .newvideo {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        padding: 50px;
+        background: #f2f2f2;
+        margin-top: 50px;
+    }
+
+    .newvideoinner {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .newvideoinner h2 {
+        font-weight: 600;
+    }
+
+    .newvideovideo {
+        width: 50%;
+
+    }
+
+    .newvideobutton {
+        background-color: #ff0808;
+        color: white;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #ff0808;
+        display: inline-block;
+    }
+
+    .newvideovideo iframe {
+        width: 100%;
+        height: 300px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    @media (max-width: 767px) {
+        .newvideo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .newvideoinner {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: start;
+            justify-content: start;
+        }
+
+        .newvideoinner h2 {
+            font-weight: 600;
+        }
+
+        .newvideovideo {
+            width: 100%;
+        }
+
+        .newvideobutton {
+            background-color: #ff0808;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 1px solid #ff0808;
+            display: inline-block;
+        }
+
+        .newvideovideo iframe {
+            width: 100%;
+            height: 200px;
+        }
+    }
 </style>
 
 <body>
@@ -705,6 +793,26 @@
         </div>
         <div class="third-button">
             <a href="contact">Let's Discuss</a>
+        </div>
+    </div>
+
+
+    <div class="newvideo">
+        <div class="newvideoinner">
+            <h2>What can we do for you?</h2>
+            <span class="newvideotext">
+             We provide ongoing support and optimization for your Google Ads campaigns, ensuring they are continuously refined, up-to-date, and delivering optimal performance. Our goal is to maximize your ad visibility, improve conversions, and drive high-quality traffic to your business.
+            </span>
+            <span>Let’s connect and explore how we can optimize your Google Ads strategy for maximum ROI!</span>
+            <div class="newvideobutton">
+                <a href="contact">Lets Connect</a>
+            </div>
+        </div>
+        <div class="newvideovideo">
+            <iframe src="https://www.youtube.com/embed/ymXiTOeZm8c?si=5nJtc5fXcli11mqj" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
 
