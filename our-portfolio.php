@@ -10,7 +10,8 @@ include("include/config.php");
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
+    <meta name="description"
+        content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- bootstrap -->
@@ -478,6 +479,11 @@ include("include/config.php");
             line-height: normal;
         }
     }
+
+    .buttons.active {
+        background-color: #ff0808;
+        color: #fff;
+    }
 </style>
 
 <body>
@@ -493,11 +499,15 @@ include("include/config.php");
     include("include/newHeader.php");
     ?>
 
-    <section style="background-image: url('./portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;" class="banner-content">
+    <section
+        style="background-image: url('./portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;"
+        class="banner-content">
         <h2>Our Portfolio</h2>
         <ul class="breadcrumbdiv">
             <li>Home</li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
             <li><a href="our-portfolio" style="color: white;">portfolio</a></li>
@@ -514,250 +524,391 @@ include("include/config.php");
 
     <div class="welcometo">
         <h1>Welcome to Sagar Tech Technical Solution</h1>
-        <P class="pp">We are an award-winning web development and digital marketing company with a team of skilled developers that are experienced in building appealing websites that can significantly improve your business by driving up revenue.Our journey has been marked by creativity, dedication, and a passion for delivering top-notch technical solutions that help businesses Grow
+        <P class="pp">We are an award-winning web development and digital marketing company with a team of skilled
+            developers that are experienced in building appealing websites that can significantly improve your business
+            by driving up revenue.Our journey has been marked by creativity, dedication, and a passion for delivering
+            top-notch technical solutions that help businesses Grow
         </P>
         <div class="why-list">
             <div class="listt">
                 <span>
-                    <img src="./images/coding.png" height="50" alt="">
-                    <h4>Web Development</h4>
+                    <a href="https://sagartech.co.in/web-development-company-in-mumbai" target="_blank">
+                        <img src="./images/coding.png" height="50" alt="">
+                        <h4>Web Development</h4>
+                    </a>
                 </span>
-                <p>From creating captivating e-commerce platforms to designing streamlined one-page websites, we specialize in crafting digital experiences that leave a lasting impression.</p>
+                <p>From creating captivating e-commerce platforms to designing streamlined one-page websites, we
+                    specialize in crafting digital experiences that leave a lasting impression.</p>
             </div>
             <div class="listt">
                 <span>
-                    <img src="./images/social-media.png" height="50" alt="">
-                    <h4>Digital Marketing</h4>
+                    <a href="https://sagartech.co.in/digital-marketing-company-in-mumbai" target="_blank">
+                        <img src="./images/social-media.png" height="50" alt="">
+                        <h4>Digital Marketing</h4>
+                    </a>
                 </span>
-                <p>Boost your online visibility with our comprehensive digital marketing services. From SEO to social media management and targeted campaigns, we've got your back.</p>
+                <p>Boost your online visibility with our comprehensive digital marketing services. From SEO to social
+                    media management and targeted campaigns, we've got your back.</p>
             </div>
             <div class="listt">
                 <span>
-                    <img src="./images/graphic-designer.png" height="50" alt="">
-                    <h4>Graphic Designing</h4>
+                    <a href="https://sagartech.co.in/graphic-design-services-in-mumbai" target="_blank">
+                        <img src="./images/graphic-designer.png" height="50" alt="">
+                        <h4>Graphic Designing</h4>
+                    </a>
                 </span>
-                <p>Our graphic design services are tailored to meet the unique needs of businesses, ensuring that your brand stands out in a crowded digital landscape.</p>
+                <p>Our graphic design services are tailored to meet the unique needs of businesses, ensuring that your
+                    brand stands out in a crowded digital landscape.</p>
             </div>
             <div class="listt">
                 <span>
-                    <img src="./images/development.png" height="50" alt="">
-                    <h4>App Development</h4>
+                    <a href="https://sagartech.co.in/mobile-app-development-company-in-mumbai" target="_blank">
+                        <img src="./images/development.png" height="50" alt="">
+                        <h4>App Development</h4>
+                    </a>
                 </span>
-                <p>We take pride in delivering high-quality app development services tailored to meet your specific requirements.</p>
+                <p>We take pride in delivering high-quality app development services tailored to meet your specific
+                    requirements.</p>
             </div>
             <div class="listt">
                 <span>
-                    <img src="./images/bulksms.png" height="50" alt="">
-                    <h4>Bulk SMS Services</h4>
+                    <a href="https://sagartech.co.in/bulk-sms-service-provider-in-mumbai" target="_blank">
+                        <img src="./images/bulksms.png" height="50" alt="">
+                        <h4>Bulk SMS Services</h4>
+                    </a>
                 </span>
-                <p>We specialize in providing top-notch bulk SMS services and bulk whatsaap message services to elevate your communication strategies</p>
+                <p>We specialize in providing top-notch bulk SMS services and bulk whatsaap message services to elevate
+                    your communication strategies</p>
             </div>
         </div>
-        <P class="ppp">Ready to take your digital presence to the next level? Join us at Sagar Tech. Explore our portfolio, check out our award-winning projects, and see how our web development and digital marketing solutions can redefine your online presence. Your success story begins right here with Sagar Tech.Technical Soultion
+        <P class="ppp">Ready to take your digital presence to the next level? Join us at Sagar Tech. Explore our
+            portfolio, check out our award-winning projects, and see how our web development and digital marketing
+            solutions can redefine your online presence. Your success story begins right here with Sagar Tech.Technical
+            Soultion
         </P>
     </div>
 
 
     <div class="tabbar">
-        <button class="buttons" onclick="openCity('Business')">Business</button>
-        <button class="buttons" onclick="openCity('Builders')">Builders</button>
-        <button class="buttons" onclick="openCity('Catalogue')">Catalogue</button>
-        <button class="buttons" onclick="openCity('Logistics')">Logistics</button>
-        <button class="buttons" onclick="openCity('Ecommerce')">Ecommerce</button>
-        <button class="buttons" onclick="openCity('Education')">Education</button>
-        <button class="buttons" onclick="openCity('Restaurants')">Restaurants</button>
-        <button class="buttons" onclick="openCity('Trust')">Trust & Properties</button>
-        <button class="buttons" onclick="openCity('Travels')">Travels</button>
+        <button class="buttons" onclick="openCity('Business')" id="tabBusiness">Business</button>
+        <button class="buttons active" onclick="openCity('Builders')" id="tabBuilders">Builders</button>
+        <button class="buttons" onclick="openCity('Catalogue')" id="tabCatalogue">Catalogue</button>
+        <button class="buttons" onclick="openCity('Logistics')" id="tabLogistics">Logistics</button>
+        <button class="buttons" onclick="openCity('Ecommerce')" id="tabEcommerce">Ecommerce</button>
+        <button class="buttons" onclick="openCity('Education')" id="tabEducation">Education</button>
+        <button class="buttons" onclick="openCity('Restaurants')" id="tabRestaurants">Restaurants</button>
+        <button class="buttons" onclick="openCity('Trust')" id="tabTrust">Trust & Properties</button>
+        <button class="buttons" onclick="openCity('Travels')" id="tabTravels">Travels</button>
+        <button class="buttons" onclick="openCity('Interior')" id="tabInterior">Interior Designer</button>
+        <button class="buttons" onclick="openCity('Health')" id="tabHealth">Health Care</button>
+        <!-- <button class="buttons" onclick="openCity('Static')" id="tabTravels">Static Websites</button> -->
     </div>
+
+    <script>
+        // Function to open the city (placeholder)
+        function openCity(cityName) {
+            // Your implementation to open the city
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Retrieve the active tab from localStorage
+            var activeTab = localStorage.getItem('activeTab');
+
+            // Check if an active tab is stored in localStorage
+            if (activeTab) {
+                // Remove the 'active' class from all tabs
+                document.querySelectorAll('.buttons').forEach(function (button) {
+                    button.classList.remove('active');
+                });
+
+                // Add the 'active' class to the stored active tab
+                document.getElementById('tab' + activeTab).classList.add('active');
+            } else {
+                // If no active tab is stored, set the default tab as "Builders"
+                document.getElementById('tabBusiness').classList.add('active');
+                localStorage.setItem('activeTab', 'Business');
+            }
+        });
+
+        // Event listener to store the active tab in localStorage when clicked
+        document.querySelectorAll('.buttons').forEach(function (button) {
+            button.addEventListener('click', function () {
+                // Remove the 'active' class from all tabs
+                document.querySelectorAll('.buttons').forEach(function (btn) {
+                    btn.classList.remove('active');
+                });
+
+                // Add the 'active' class to the clicked tab
+                this.classList.add('active');
+
+                // Store the active tab in localStorage
+                var tabName = this.textContent.trim();
+                localStorage.setItem('activeTab', tabName);
+            });
+        });
+
+        // Clear localStorage and set active tab to "Business" on reload
+        window.addEventListener('beforeunload', function () {
+            localStorage.removeItem('activeTab');
+            localStorage.setItem('activeTab', 'Business');
+        });
+    </script>
 
     <hr>
-
-    <div id="Builders" class="content-div" style="display:none">
-        <!-- <h2>Our Builders Website portfolio</h2> -->
-        <div class="maincontent">
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/builders/zzconsultant.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>ZZ Consultants</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/builders/pmdecor.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Pm Decor</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/builders/folksco.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Folksco</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-        </div>
-        <div class="viewmore">
-            <button class="buttons"><a href="builders-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                </svg></button>
-        </div>
-    </div>
-
-    <div id="Catalogue" class="content-div" style="display:none">
-        <!-- <h2>Our Catalogue Website portfolio</h2> -->
-        <div class="maincontent">
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/catalogue/asaudio.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>AS Audio</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/catalogue/globalhardware.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Global Hardware</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/catalogue/padmavatichains.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Padmavati Chains</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-        </div>
-        <div class="viewmore">
-            <button class="buttons"><a href="catalogue-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                </svg></button>
-        </div>
-    </div>
-
-    <div id="Logistics" class="content-div" style="display:none">
-        <!-- <h2>Our Logistics Website portfolio</h2> -->
-        <div class="maincontent">
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/logistics/adhiklogistics.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Adhik Logistics</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/logistics/amarclearing.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Amar Clearing</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/logistics/marsairocean.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Mars Air Ocean</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-        </div>
-        <div class="viewmore">
-            <button class="buttons"><a href="logistics-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                </svg></button>
-        </div>
-    </div>
 
     <div id="Business" class="content-div">
         <!-- <h2>Our Business Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/business/babyworld.webp" alt="">
-                </div>
+                <a href="https://verify8.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/business/verify8.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Baby Wolrd</h2>
+                    <a href="https://verify8.com/" target="_blank">
+                        <h2>Verify8</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://dont.quit.ventures/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/business/dontquit.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://dont.quit.ventures/" target="_blank">
+                        <h2>Don't Quit Ventures</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://binfinit.co/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/business/binfinit.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://binfinit.co/" target="_blank">
+                        <h2>Binfinit</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="viewmore">
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/business-website" target="_blank">View More</a><svg
+                    xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                </svg></button>
+        </div>
+    </div>
+    <div id="Builders" class="content-div" style="display:none">
+        <!-- <h2>Our Builders Website portfolio</h2> -->
+        <div class="maincontent">
+            <div class="maincontent-inner">
+                <a href="https://zzconsultants.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/builders/zzconsultant.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://zzconsultants.com/" target="_blank">
+                        <h2>ZZ Consultants</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://archicgreenscape.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/builders/archicgreenscape.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://archicgreenscape.com/" target="_blank">
+                        <h2>Archic Green Scape</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://folksco.in/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/builders/folksco.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://folksco.in/" target="_blank">
+                        <h2>Folksco</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="viewmore">
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/builders-website" target="_blank">View More</a><svg
+                    xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                </svg></button>
+        </div>
+    </div>
+
+
+    <div id="Catalogue" class="content-div" style="display:none">
+        <!-- <h2>Our Catalogue Website portfolio</h2> -->
+        <div class="maincontent">
+            <div class="maincontent-inner">
+                <a href="https://thaigernutraceuticals.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/ecommerce/thaigerpharma.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://thaigernutraceuticals.com/" target="_blank">
+                        <h2>Thaiger Nutraceuticals</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/business/yogeshprashna.webp" alt="">
-                </div>
+                <a href="https://kostevo.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/catalogue/kostevo.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Yogesh Prashna</h2>
+                    <a href="https://kostevo.com/" target="_blank">
+                        <h2>Kostevo</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/business/puresaff.webp" alt="">
-                </div>
+                <a href="https://powerplay.ae/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/catalogue/powerplay.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Pure Saff</h2>
+                    <a href="https://powerplay.ae/" target="_blank">
+                        <h2>Powerplay</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
         </div>
         <div class="viewmore">
-            <button class="buttons"><a href="business-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/catalogue-website" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
                 </svg></button>
         </div>
     </div>
+
+
+    <div id="Logistics" class="content-div" style="display:none">
+        <!-- <h2>Our Logistics Website portfolio</h2> -->
+        <div class="maincontent">
+            <div class="maincontent-inner">
+                <a href="https://bml.demo-web.live/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/logistics/bml.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://bml.demo-web.live/" target="_blank">
+                        <h2>BML Logistics</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://amarclearing.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/logistics/amarclearing.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://amarclearing.com/" target="_blank">
+                        <h2>Amar Clearing</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://aadhiklogistics.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/logistics/adhiklogistics.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://aadhiklogistics.com/" target="_blank">
+                        <h2>Aadhik Logistics</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="viewmore">
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/logistics-website" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                </svg></button>
+        </div>
+    </div>
+
+
 
     <div id="Ecommerce" class="content-div" style="display:none">
         <!-- <h2>Our Ecommerce Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/ecommerce/almarjaan.webp" alt="">
-                </div>
+                <a href="https://chiefparfums.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/ecommerce/chief parfums.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Al Marjaan</h2>
+                    <a href="https://chiefparfums.com/" target="_blank">
+                        <h2>Chief Parfums</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/ecommerce/bsauto.webp" alt="">
-                </div>
+                <a href="https://trillionaireautoparts.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/ecommerce/trillionair.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>BS Auto</h2>
+                    <a href="https://trillionaireautoparts.com/" target="_blank">
+                        <h2>Trillionaire</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/ecommerce/newqualityware.webp" alt="">
-                </div>
+                <a href="https://www.cottonculture.co.in/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/ecommerce/cotton-culture.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>New Quality Ware</h2>
+                    <a href="https://www.cottonculture.co.in/" target="_blank">
+                        <h2>Cotton Culture</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
         </div>
         <div class="viewmore">
-            <button class="buttons"><a href="ecommerce-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/ecommerce-website" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
                 </svg></button>
         </div>
     </div>
@@ -766,36 +917,47 @@ include("include/config.php");
         <!-- <h2>Our Education Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/education/capdiw.webp" alt="">
-                </div>
+                <a href="https://educ4te.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/education/educate.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Capdiw</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                    <a href="https://educ4te.com/" target="_blank">
+                        <h2>Educ4te</h2>
+                    </a>
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/education/expert4expat.webp" alt="">
-                </div>
+                <a href="https://capdiw.in/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/education/capdiw.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Expert 4 Expat</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                    <a href="https://capdiw.in/" target="_blank">
+                        <h2>Capdiw</h2>
+                    </a>
                 </div>
             </div>
-            <!-- <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-images/Builders.png" alt="">
-                </div>
+            <div class="maincontent-inner">
+                <a href="https://euradiclenew.demo-web.live/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/education/euradicle.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Website Name</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
+                    <a href="https://euradiclenew.demo-web.live/" target="_blank">
+                        <h2>Euradicle</h2>
+                    </a>
                 </div>
-            </div> -->
+            </div>
         </div>
         <div class="viewmore">
-            <button class="buttons"><a href="education-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/education-website" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
                 </svg></button>
         </div>
     </div>
@@ -804,36 +966,45 @@ include("include/config.php");
         <!-- <h2>Our Restaurents Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/restaurants/alnizami.webp" alt="">
-                </div>
+                <a href="https://alnizamidarbar.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/restaurants/alnizami.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>AL Nizami</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/restaurants/skewer.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Skewer</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                    <a href="https://alnizamidarbar.com/" target="_blank">
+                        <h2>AL Nizami</h2>
+                    </a>
                 </div>
             </div>
             <!-- <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-images/Builders.png" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Website Name</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
-                </div>
-            </div> -->
+                    <a href="#" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-mockups/restaurants/skewer.webp" alt="">
+                    </div>
+                    </a>
+                    <div class="content-text">
+                        <a href="#" target="_blank">
+                        <h2>Skewer</h2>
+                    </a>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> 
+                    </div>
+                </div> -->
+            <!-- <div class="maincontent-inner">
+                    <div class="imgdiv">
+                        <img src="./portfolio-images/Builders.png" alt="">
+                    </div>
+                    <div class="content-text">
+                        <h2>Website Name</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
+                    </div>
+                </div> -->
         </div>
         <div class="viewmore">
-            <button class="buttons"><a href="restaurants-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/restaurants-website" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
                 </svg></button>
         </div>
     </div>
@@ -842,36 +1013,50 @@ include("include/config.php");
         <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/trust-properties/wecare.webp" alt="">
-                </div>
+                <a href="https://wecarecharitable.org/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/trust-properties/wecare.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>We Care</h2>
+                    <a href="https://wecarecharitable.org/" target="_blank">
+                        <h2>We Care</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/trust-properties/kolsamohalla.webp" alt="">
-                </div>
+                <a href="https://kolsamohallamemonjamat.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/trust-properties/kolsamohalla.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Kolsa Mohalla</h2>
+                    <a href="https://kolsamohallamemonjamat.com/" target="_blank">
+                        <h2>Kolsa Mohalla</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/trust-properties/behuman.webp" alt="">
-                </div>
+                <a href="https://behumanfoundation.org/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/trust-properties/behuman.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Be Human</h2>
+                    <a href="https://behumanfoundation.org/" target="_blank">
+                        <h2>Be Human</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
         </div>
         <div class="viewmore">
-            <button class="buttons"><a href="trust-and-properties-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/trust-and-properties-website" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
                 </svg></button>
         </div>
     </div>
@@ -880,36 +1065,153 @@ include("include/config.php");
         <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/travel/alhusaini.webp" alt="">
-                </div>
+                <a href="https://goclassictour.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/travel/classic.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Al Husaini</h2>
+                    <a href="https://goclassictour.com/" target="_blank">
+                        <h2>Go Classic Tour</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <!-- <div class="maincontent-inner">
+                    <a href="https://alhusainitravels.com/" target="_blank">
+                        <div class="imgdiv">
+                            <img src="../portfolio-mockups/travel/alhusaini.webp" alt="">
+                        </div>
+                    </a>
+                    <div class="content-text">
+                        <a href="https://alhusainitravels.com/" target="_blank">
+                            <h2>Al Husaini</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p>
+                    </div>
+                </div> -->
+            <div class="maincontent-inner">
+                <a href="https://www.riyazinternational.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/travel/riyazint.webp" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://www.riyazinternational.com/" target="_blank">
+                        <h2>Riyaz International</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/travel/riyazint.webp" alt="">
-                </div>
+                <a href="https://zubairtravels.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/travel/zubair.webp" alt="">
+                    </div>
+                </a>
                 <div class="content-text">
-                    <h2>Riyazint</h2>
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                </div>
-            </div>
-            <div class="maincontent-inner">
-                <div class="imgdiv">
-                    <img src="./portfolio-mockups/travel/zubair.webp" alt="">
-                </div>
-                <div class="content-text">
-                    <h2>Zubair</h2>
+                    <a href="https://zubairtravels.com/" target="_blank">
+                        <h2>Zubair</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
         </div>
         <div class="viewmore">
-            <button class="buttons"><a href="travels-portfolio" target="_blank">View More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                    <path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/travels-website" target="_blank">View More</a><svg
+                                xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                                <path
+                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                            </svg></button>
+                    </div>
+                    </div>
+                    
+                    <div id="Interior" class="content-div" style="display:none">
+                        <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
+                        <div class="maincontent">
+                            <div class="maincontent-inner">
+                                <a href="https://folksco.in/" target="_blank">
+                                    <div class="imgdiv">
+                                        <img src="./portfolio-mockups/interior/folksco.webp" alt="">
+                                    </div>
+                                </a>
+                                <div class="content-text">
+                                    <a href="https://folksco.in/" target="_blank">
+                                        <h2>Folksco</h2>
+                                    </a>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                                </div>
+                            </div>
+                            <div class="maincontent-inner">
+                                <a href="https://bareziyaarchitects.com/" target="_blank">
+                                    <div class="imgdiv">
+                                        <img src="./portfolio-mockups/interior/bareziya_arch.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="content-text">
+                                    <a href="https://bareziyaarchitects.com/" target="_blank">
+                                        <h2>Bareziya Architects</h2>
+                                    </a>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="viewmore">
+                            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/interior-designer" target="_blank">View
+                                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div id="Health" class="content-div" style="display:none">
+                        <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
+                        <div class="maincontent">
+                            <div class="maincontent-inner">
+                                <a href="https://www.axxio-laboratory.com/" target="_blank">
+                                    <div class="imgdiv">
+                                        <img src="./portfolio-mockups/healthcare/AXXIO.webp" alt="Axxio">
+                                    </div>
+                                </a>
+                                <div class="content-text">
+                                    <a href="https://www.axxio-laboratory.com/" target="_blank">
+                                        <h2>Axxio Laboratory</h2>
+                                    </a>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                                </div>
+                            </div>
+                            <div class="maincontent-inner">
+                                <a href="https://syrocs.com/" target="_blank">
+                                    <div class="imgdiv">
+                                        <img src="./portfolio-mockups/healthcare/syrocs.webp" alt="Syrocs">
+                                    </div>
+                                </a>
+                                <div class="content-text">
+                                    <a href="https://syrocs.com/" target="_blank">
+                                        <h2>Syrocs</h2>
+                                    </a>
+                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                                </div>
+                            </div>
+                            <div class="maincontent-inner">
+                                <a href="https://vcarediagnostic.center/" target="_blank">
+                                    <div class="imgdiv">
+                                        <img src="./portfolio-mockups/healthcare/vcare.webp" alt="VCare">
+                                    </div>
+                                </a>
+                                <div class="content-text">
+                                    <a href="https://vcarediagnostic.center/" target="_blank">
+                                        <h2>VCare Diagnostics</h2>
+                                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="viewmore">
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/healthcare-website" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
                 </svg></button>
         </div>
     </div>
@@ -921,63 +1223,76 @@ include("include/config.php");
         <div class="accordion-item">
             <h2>Why do I need professional web development services?</h2>
             <div class="accordion-content">
-                <p>Professional web development services ensure that your website is created with the latest technologies, adheres to industry standards, and provides a seamless user experience. This can enhance your online presence and business credibility.
+                <p>Professional web development services ensure that your website is created with the latest
+                    technologies, adheres to industry standards, and provides a seamless user experience. This can
+                    enhance your online presence and business credibility.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What technologies do you use for web development?</h2>
             <div class="accordion-content">
-                <p>We utilize a variety of technologies, including HTML, CSS, JavaScript, PHP, Python, Ruby on Rails, and various content management systems (CMS) like WordPress, Drupal, and Joomla, depending on the project requirements.
+                <p>We utilize a variety of technologies, including HTML, CSS, JavaScript, PHP, Python, Ruby on Rails,
+                    and various content management systems (CMS) like WordPress, Drupal, and Joomla, depending on the
+                    project requirements.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Do you provide e-commerce development services?</h2>
             <div class="accordion-content">
-                <p>Yes, we specialize in e-commerce development, creating secure and user-friendly online stores. Our solutions include payment gateway integration, product management, and order processing features.
+                <p>Yes, we specialize in e-commerce development, creating secure and user-friendly online stores. Our
+                    solutions include payment gateway integration, product management, and order processing features.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How long does it take to develop a website?</h2>
             <div class="accordion-content">
-                <p>The timeline for web development varies depending on the complexity and scope of the project. Simple websites may take a few weeks, while more complex projects, such as e-commerce platforms, can take several months.
+                <p>The timeline for web development varies depending on the complexity and scope of the project. Simple
+                    websites may take a few weeks, while more complex projects, such as e-commerce platforms, can take
+                    several months.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How can i get started with your web development services?</h2>
             <div class="accordion-content">
-                <p>To get started, simply contact us through our website or by email. We'll schedule a consultation to discuss your project requirements, goals, and any specific features you want to include in your website or web application.
+                <p>To get started, simply contact us through our website or by email. We'll schedule a consultation to
+                    discuss your project requirements, goals, and any specific features you want to include in your
+                    website or web application.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can you create custom web applications tailored to my business needs?</h2>
             <div class="accordion-content">
-                <p>Yes, we specialize in developing custom web applications designed to meet specific business requirements, providing unique solutions for your industry or niche.
+                <p>Yes, we specialize in developing custom web applications designed to meet specific business
+                    requirements, providing unique solutions for your industry or niche.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can you integrate a payment gateway for e-commerce functionality?</h2>
             <div class="accordion-content">
-                <p>Yes, we specialize in integrating secure payment gateways such as PayPal, Stripe, and others to facilitate online transactions for e-commerce websites.
+                <p>Yes, we specialize in integrating secure payment gateways such as PayPal, Stripe, and others to
+                    facilitate online transactions for e-commerce websites.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Do you provide ongoing website analytics and performance tracking?</h2>
             <div class="accordion-content">
-                <p>We can integrate analytics tools such as Google Analytics to track website performance, user behavior, and other key metrics, providing insights for continuous improvement.
+                <p>We can integrate analytics tools such as Google Analytics to track website performance, user
+                    behavior, and other key metrics, providing insights for continuous improvement.
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can you assist with domain registration and hosting services?</h2>
             <div class="accordion-content">
-                <p>While our primary focus is on web development, we can provide guidance on domain registration and recommend reliable hosting services to suit your needs.
+                <p>While our primary focus is on web development, we can provide guidance on domain registration and
+                    recommend reliable hosting services to suit your needs.
             </div>
         </div>
     </div>
@@ -1056,7 +1371,7 @@ include("include/config.php");
 
     <!-- WhatsHelp.io widget -->
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in",
@@ -1070,7 +1385,7 @@ include("include/config.php");
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -1094,13 +1409,15 @@ include("include/config.php");
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="fname">Full Name</label>
-                                    <input type="text" class="form-control" name="fname" id="fname" aria-describedby="emailHelp" placeholder="Enter full name">
+                                    <input type="text" class="form-control" name="fname" id="fname"
+                                        aria-describedby="emailHelp" placeholder="Enter full name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email1">Email address</label>
-                                    <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <input type="email" class="form-control" id="email1" name="email1"
+                                        aria-describedby="emailHelp" placeholder="Enter email">
                                     <small id="emailHelp" class="form-text text-muted">Your information is safe with
                                         us.</small>
                                 </div>
@@ -1110,7 +1427,8 @@ include("include/config.php");
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="mobile">Contact Number</label>
-                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number">
+                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10"
+                                        aria-describedby="emailHelp" placeholder="Enter Contact Number">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -1143,12 +1461,12 @@ include("include/config.php");
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
     <script>
-        $(function() {
+        $(function () {
             var myform = $(".add_mainarea_form");
             var completed = '0%';
             $(myform).ajaxForm({
 
-                complete: function() {
+                complete: function () {
                     $('#largeModal').modal('hide')
                     setTimeout(
                         $('.bd-example-modal-sm').modal('show'), 3000);
@@ -1157,9 +1475,9 @@ include("include/config.php");
 
 
         });
-        $(document).ready(function() {
+        $(document).ready(function () {
 
-            $('body').bind('cut copy paste', function(e) {
+            $('body').bind('cut copy paste', function (e) {
                 e.preventDefault();
             });
 
@@ -1173,7 +1491,8 @@ include("include/config.php");
 
         });
     </script>
-    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog"
+        aria-labelledby="mySmallModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm text-center">
             <div class="modal-content text-center">
                 <div class="modal-header text-center">
@@ -1220,8 +1539,10 @@ include("include/config.php");
                     <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
                     <ul class="iq-media-blog iq-mt-20">
                         <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i
+                                    class="fa fa-facebook "></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i
+                                    class="fa fa-linkedin"></i></a></li>
                         <li><a href="# "><i class="fa fa-github "></i></a></li>
                     </ul>
                 </div>
