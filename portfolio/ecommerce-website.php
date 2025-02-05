@@ -200,12 +200,12 @@ include("../include/config.php");
         //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
         //     "link" => "https://thaigernutraceuticals.com/"
         // ),
-        array(
-            "name" => "Chief Parfums",
-            "imgSrc" => "../portfolio-mockups/ecommerce/chief parfums.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://chiefparfums.com/"
-        ),
+        // array(
+        //     "name" => "Chief Parfums",
+        //     "imgSrc" => "../portfolio-mockups/ecommerce/chief parfums.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://chiefparfums.com/"
+        // ),
         array(
             "name" => "Trillionaire",
             "imgSrc" => "../portfolio-mockups/ecommerce/trillionair.webp",
@@ -254,12 +254,12 @@ include("../include/config.php");
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://newqualityware.com/"
         ),
-        array(
-            "name" => "Soot Boot Wala Dhobi",
-            "imgSrc" => "../portfolio-mockups/ecommerce/e commerce_sootbootwala.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://sootbootwaladhobi.com/"
-        )
+        // array(
+        //     "name" => "Soot Boot Wala Dhobi",
+        //     "imgSrc" => "../portfolio-mockups/ecommerce/e commerce_sootbootwala.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://sootbootwaladhobi.com/"
+        // )
         // array(
         //     "name" => "Perfumistic",
         //     "imgSrc" => "../portfolio-mockups/ecommerce/perfumistic.webp",

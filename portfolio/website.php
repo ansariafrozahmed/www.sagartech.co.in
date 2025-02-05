@@ -944,14 +944,14 @@ include("../include/config.php");
                 </div>
             </div> -->
             <div class="maincontent-inner">
-                <a href="https://chiefparfums.com/" target="_blank">
+                <a href="https://bsautoaccessories.com/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/ecommerce/chief parfums.webp" alt="">
+                        <img src="../portfolio-mockups/ecommerce/bsauto.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://chiefparfums.com/" target="_blank">
-                        <h2>Chief Parfums</h2>
+                    <a href="https://bsautoaccessories.com/" target="_blank">
+                        <h2>BS Auto</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
