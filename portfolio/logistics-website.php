@@ -222,8 +222,8 @@ include("../include/config.php");
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/amclogistics.webp',
-            'alt' => 'AMCA Logistics',
-            'title' => 'AMCA Logistics',
+            'alt' => 'AMC Logistics',
+            'title' => 'AMC Logistics',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
             "link" => "https://www.amclogistic.com/"
         ],

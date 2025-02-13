@@ -497,7 +497,7 @@
     <div class="stats-cards">
       <img src="images/counter/client2.png" alt="" />
       <div class="stats-card-detail">
-        <h5 style="color:green">200+</h5>
+        <h5 style="color:green">300+</h5>
         <span>Satisfied Clients</span>
       </div>
     </div>
