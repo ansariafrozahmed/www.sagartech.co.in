@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="No. 1 Dynamic Website Developer & Designing Company In Mumbai">
     <meta property="og:url" content="https://sagartech.co.in/dynamic-website-development-company-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaDynamic.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/dynamic.png">
     <meta property="og:description"
         content="Best dynamic website development and design company in Mumbai creates pages in real time,adapting to dynamic features like screen size and device.">
     <!-- Favicon -->
