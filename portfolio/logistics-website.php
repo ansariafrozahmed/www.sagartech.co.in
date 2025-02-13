@@ -197,14 +197,14 @@ include("../include/config.php");
             'alt' => 'BML Logistics',
             'title' => 'BML Logistics',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
-            "link" => "https://bml.demo-web.live/"
+            "link" => "https://bookmylogistic.com/"
         ],
         [
-            'imgSrc' => '../portfolio-mockups/logistics/amarclearing.webp',
-            'alt' => 'Amar Clearing',
-            'title' => 'Amar Clearing',
+            'imgSrc' => '../portfolio-mockups/business/binfinit.webp',
+            'alt' => 'Binfinit',
+            'title' => 'Binfinit',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
-            "link" => "https://amarclearing.com/"
+            "link" => "https://binfinit.co/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/adhiklogistics.webp',
@@ -212,6 +212,13 @@ include("../include/config.php");
             'title' => 'Aadhik Logistics',
             'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
             "link" => "https://aadhiklogistics.com/"
+        ],
+        [
+            'imgSrc' => '../portfolio-mockups/logistics/amarclearing.webp',
+            'alt' => 'Amar Clearing',
+            'title' => 'Amar Clearing',
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.',
+            "link" => "https://amarclearing.com/"
         ],
         [
             'imgSrc' => '../portfolio-mockups/logistics/amclogistics.webp',

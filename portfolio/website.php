@@ -698,14 +698,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://binfinit.co/" target="_blank">
+                <a href="https://www.alsalamaacc.com/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/business/binfinit.webp" alt="">
+                        <img src="../portfolio-mockups/business/alsalama.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://binfinit.co/" target="_blank">
-                        <h2>Binfinit</h2>
+                    <a href="https://www.alsalamaacc.com/" target="_blank">
+                        <h2>Noor Al Salama</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -877,27 +877,27 @@ include("../include/config.php");
         <!-- <h2>Our Logistics Website portfolio</h2> -->
         <div class="maincontent">
             <div class="maincontent-inner">
-                <a href="https://bml.demo-web.live/" target="_blank">
+                <a href="https://bookmylogistic.com/" target="_blank">
                     <div class="imgdiv">
                         <img src="../portfolio-mockups/logistics/bml.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://bml.demo-web.live/" target="_blank">
+                    <a href="https://bookmylogistic.com/" target="_blank">
                         <h2>BML Logistics</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://amarclearing.com/" target="_blank">
+                <a href="https://binfinit.co/" target="_blank">
                     <div class="imgdiv">
-                        <img src="../portfolio-mockups/logistics/amarclearing.webp" alt="">
+                        <img src="../portfolio-mockups/business/binfinit.webp" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://amarclearing.com/" target="_blank">
-                        <h2>Amar Clearing</h2>
+                    <a href="https://binfinit.co/" target="_blank">
+                        <h2>Binfinit</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>

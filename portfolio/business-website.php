@@ -213,12 +213,12 @@ include("../include/config.php");
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://dont.quit.ventures/"
                 ),
-                array(
-                    "name" => "Binfinit",
-                    "imgSrc" => "../portfolio-mockups/business/binfinit.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://binfinit.co/"
-                ),
+                // array(
+                //     "name" => "Binfinit",
+                //     "imgSrc" => "../portfolio-mockups/business/binfinit.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://binfinit.co/"
+                // ),
                 array(
                     "name" => "Noor Al Salama",
                     "imgSrc" => "../portfolio-mockups/business/alsalama.webp",
