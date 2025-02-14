@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Best WordPress Website Development Services In Mumbai | India">
     <meta property="og:url" content="https://sagartech.co.in/wordpress-developers-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaecommerce.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/wordpress.png">
     <meta property="og:description"
         content="WordPress website development: Easily create eye-catching, expert websites. For you, our professionals create unique WordPress websites optimized for search engines.">
     <!-- Favicon -->

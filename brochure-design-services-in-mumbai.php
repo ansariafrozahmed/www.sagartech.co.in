@@ -15,7 +15,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Brochure Design Services In Mumbai Lets Create Something Special">
   <meta property="og:url" content="https://sagartech.co.in/brochure-design-services-in-mumbai">
-  <meta property="og:image" content="https://sagartech.co.in/images/bg/brochure-logo.png">
+  <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/brochure.png">
   <meta property="og:description"
     content="Brochure design services  we create professionals. brochure Connect at us today to design your company's sales brochure.">
   <!-- Favicon -->

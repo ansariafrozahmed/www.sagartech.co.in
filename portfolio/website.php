@@ -6,23 +6,24 @@ include("../include/config.php");
 
 
 <head>
-    <title>Sagar Tech Technical Solution Portfolio on 500 Satisfied Client ⭐</title>
+    <title>Stunning Website Design Portfolio - Sagar Tech</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
+        content="Check out our website design portfolio, which features innovative and practical online solutions. Get ideas for your next project by looking at our finest work!">
+    <meta name="keywords" content="Website Design Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/website">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
+    <meta property="og:title" content="Stunning Website Design Portfolio - Sagar Tech">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="Check out our website design portfolio, which features innovative and practical online solutions. Get ideas for your next project by looking at our finest work!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
     <!-- bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

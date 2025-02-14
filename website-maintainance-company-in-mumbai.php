@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Best Website maintainance company in Mumbai">
     <meta property="og:url" content="https://sagartech.co.in/website-maintainance-company-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaweb.png">
+    <meta property="og:image" content="https://sagartech.co.in/images\OG-Images\maintainance.png">
     <meta property="og:description"
         content="Are you trying to find website maintainance? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <!-- Favicon -->

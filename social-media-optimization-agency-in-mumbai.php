@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Best Social Media Optimization Agency in Mumbai (SMO) ">
     <meta property="og:url" content="https://sagartech.co.in/social-media-optimization-agency-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaseo.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/social-media-optimization.png">
     <meta property="og:description"
         content="Social media optimization services helps your business grow on social media and create brand awareness, that helps to  increase Visitors on your profile">
     <!-- Favicon -->

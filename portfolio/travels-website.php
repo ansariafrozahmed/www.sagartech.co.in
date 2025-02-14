@@ -6,21 +6,24 @@ include("../include/config.php");
 
 
 <head>
-    <title>Our Travels Portfolio - Sagar Tech Technical Solutions</title>
+    <title>Travel Website Portfolio | Beautiful Designs for Travel and Tourism</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="View our Travel Website Portfolio, which includes attractive designs for travel and tourist websites. Ideal for promoting your work and drawing in new customers. View more!
+">
+    <meta name="keywords" content="Travels Website Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= WEB_URL ?>images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/travels-website">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
+    <meta property="og:title" content="Travel Website Portfolio | Beautiful Designs for Travel and Tourism">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="View our Travel Website Portfolio, which includes attractive designs for travel and tourist websites. Ideal for promoting your work and drawing in new customers. View more!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/travels-website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
     <!-- bootstrap -->
     <link href="<?= WEB_URL ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

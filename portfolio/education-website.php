@@ -6,21 +6,24 @@ include("../include/config.php");
 
 
 <head>
-    <title>Our Education Portfolio - Sagar Tech Technical Solutions</title>
+    <title>Education Website Design Portfolio | Inspiring Learning Platforms</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="See all our educational website design portfolio, which includes modern and attractive learning environments. Ideal for presenting your skills in educational web design.
+">
+    <meta name="keywords" content="Education Website Design Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= WEB_URL ?>images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/education-website">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
+    <meta property="og:title" content="Education Website Design Portfolio | Inspiring Learning Platforms">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="See all our educational website design portfolio, which includes modern and attractive learning environments. Ideal for presenting your skills in educational web design.">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/education-website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
     <!-- bootstrap -->
     <link href="<?= WEB_URL ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

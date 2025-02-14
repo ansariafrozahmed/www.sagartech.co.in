@@ -16,7 +16,7 @@ include 'include/config.php';
     <meta property="og:type" content="website">
     <meta property="og:title" content="Top notch Logo Design Services In Mumbai Let’s  Create the Master Piece">
     <meta property="og:url" content="https://sagartech.co.in/logo-design-services-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/logo-page-logo.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/logo.png">
     <meta property="og:description"
         content="We are leading logo design services provider in Mumbai. We are experts in turning your visionary dream into reality but providing the best logo services">
     <!-- Favicon -->

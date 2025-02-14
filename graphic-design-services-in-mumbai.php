@@ -14,7 +14,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Graphic Design Services & Design Related Services In Mumbai">
   <meta property="og:url" content="https://sagartech.co.in/graphic-design-services-in-mumbai">
-  <meta property="og:image" content="https://sagartech.co.in/images/bg/graphic-logo.png">
+  <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/graphic-designing.png">
   <meta property="og:description"
     content="We are leading graphic design services provider in mumbai we also provide services like logo brochure and banner  designing.">
   <!-- Favicon -->

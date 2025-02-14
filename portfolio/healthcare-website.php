@@ -6,21 +6,24 @@ include("../include/config.php");
 
 
 <head>
-    <title>Our Health Care Websites Portfolio - Sagar Tech Technical Solutions</title>
+    <title>Healthcare Website Design Portfolio | Modern Medical Websites</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="View our healthcare website design portfolio, which includes modern and well-designed medical websites. ideal for bringing patients and displaying your work. View more!
+">
+    <meta name="keywords" content="Healthcare Website Design Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= WEB_URL ?>images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/healthcare-website">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
+    <meta property="og:title" content="Healthcare Website Design Portfolio | Modern Medical Websites">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="View our healthcare website design portfolio, which includes modern and well-designed medical websites. ideal for bringing patients and displaying your work. View more!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/healthcare-website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
     <!-- bootstrap -->
     <link href="<?= WEB_URL ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->
@@ -217,6 +220,12 @@ include("../include/config.php");
                     "imgSrc" => "../portfolio-mockups/healthcare/vcare.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://vcarediagnostic.center/"
+                ),
+                array(
+                    "name" => "Dr. Arpit Bansal",
+                    "imgSrc" => "../portfolio-mockups/healthcare/DR,ARPIT.webp",
+                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                    "link" => "https://drarpitbansal.in/"
                 )
             );
 

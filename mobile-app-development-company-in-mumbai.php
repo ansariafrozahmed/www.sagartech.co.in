@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Mobile App Development Company in Mumbai For Android and IOS">
     <meta property="og:url" content="https://sagartech.co.in/mobile-app-development-company-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaweb.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/mobile-app.png">
     <meta property="og:description"
         content="Best mobile app development company in Mumbai, we have a high level of proficiency in iOS & Android app development. Are you looking to digitally grow your business?">
     <!-- Favicon -->

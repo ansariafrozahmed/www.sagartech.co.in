@@ -6,21 +6,24 @@ include("../include/config.php");
 
 
 <head>
-    <title>Our Trust & Properties Portfolio - Sagar Tech Technical Solutions</title>
+    <title>Trust & Properties Website Portfolio - Sagar Tech</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="View our expert real estate designs on our Trust & Properties website portfolio. Ideal for bringing in clients and exhibiting your work. Find out more!
+">
+    <meta name="keywords" content="Trust and Properties Website Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="<?= WEB_URL ?>images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/trust-and-properties-website">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing in Mumbai - Sagar Tech">
+    <meta property="og:title" content="Trust & Properties Website Portfolio - Sagar Tech">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="View our expert real estate designs on our Trust & Properties website portfolio. Ideal for bringing in clients and exhibiting your work. Find out more!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/trust-and-properties-website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/square_Logo_st.jpg">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
     <!-- bootstrap -->
     <link href="<?= WEB_URL ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

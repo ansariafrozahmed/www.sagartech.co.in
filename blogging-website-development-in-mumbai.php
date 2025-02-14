@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Blogging Website Development and Design Services in Mumbai">
     <meta property="og:url" content="https://sagartech.co.in/blogging-website-development-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaecommerce.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/blogging.png">
     <meta property="og:description"
         content="We are leading blogging website development company in mumbai which provides wide range of website development services">
     <!-- Favicon -->

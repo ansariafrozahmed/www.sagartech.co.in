@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="India's Best Website Development Services For Businesses">
     <meta property="og:url" content="https://sagartech.co.in/shopify-developers-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/bg/metaecommerce.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/shopify.png">
     <meta property="og:description"
         content="Shopify Website Development Company. Expertly crafted Shopify stores to boost sales. From design to launch, we handle it all. Increase your online revenue today.">
     <!-- Favicon -->
