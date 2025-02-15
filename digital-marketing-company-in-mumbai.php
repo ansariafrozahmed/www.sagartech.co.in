@@ -13,7 +13,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Best Digital Marketing Company in Mumbai to Provide Digital solutions">
   <meta property="og:url" content="https://sagartech.co.in/digital-marketing-company-in-mumbai">
-  <meta property="og:image" content="https://sagartech.co.in/images/bg/metadm.png">
+  <meta property="og:image" content="https://sagartech.co.in/portfolio-images/social-media-marketing.webp">
   <meta property="og:description"
     content="We are award winning Digital market company in mumbai our digital marketing agency help 500 + business to get maximum number of sales through world wide.">
   <meta property="business:contact_data:postal_code" content="400009">
