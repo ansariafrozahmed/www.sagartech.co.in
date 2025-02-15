@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description"
     content="We are award winning digital marketing company in mumbai our digital marketing agency help 500 + business to get maximum number of sales through world wide">
-  <meta name="keywords" content="Digital Marketing Company">
+  <meta name="keywords" content="Digital Marketing Agency in Mumbai, Digital Marketing Company, Digital Marketing Agency, Digital Marketing Company in Mumbai, and Best Digital Marketing Agency in Mumbai
+">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Best Digital Marketing Company in Mumbai to Provide Digital solutions">
   <meta property="og:url" content="https://sagartech.co.in/digital-marketing-company-in-mumbai">
@@ -934,6 +935,101 @@
       height: 200px;
     }
   }
+
+  /*-------------Accordian-----------------*/
+
+  .faqs-heading {
+    text-align: center;
+    margin: 1em 0;
+    font-weight: 700;
+    font-size: 50px;
+    color: #212121;
+  }
+
+  .accordion {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .accordion-item {
+    border-top: 1px solid #c5c5c5;
+    color: #333;
+  }
+
+  .accordion-item h2 {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .accordion-content {
+    max-height: 0;
+    /* Set a default max-height, but don't display it */
+    overflow: hidden;
+    /* Hide the content */
+    transition: max-height 0.4s ease-out;
+    /* Add a transition effect when sliding down (and up) the content */
+    padding: 0 1em;
+  }
+
+  .accordion-content p {
+    padding: 1em 0;
+    font-size: 16px;
+    color: gray;
+    margin: 0;
+  }
+
+  /* Add this class to .accordion-content when the accordion item is active/open */
+  .accordion-content.active {
+    max-height: auto;
+    /* Adjust as needed */
+  }
+
+  /*adding the + and - signs*/
+  .accordion-item h2 {
+    position: relative;
+    padding-right: 30px;
+    /* Adjust as needed */
+  }
+
+  .accordion-item h2::before {
+    content: "+";
+    color: #8f060f;
+    position: absolute;
+    right: 10px;
+    /* Adjust as needed */
+  }
+
+  .accordion-item.active h2::before {
+    content: "-";
+  }
+
+  /* For mobile screens */
+  @media (max-width: 767px) {
+    .accordion {
+      max-width: 100vw;
+      margin: 0 auto;
+    }
+
+    .accordion-item h2 {
+      padding: 20px;
+      font-size: 16px;
+      line-height: normal;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    .accordion-content p {
+      padding: 1em 0;
+      font-size: 15px;
+      margin: 0;
+      line-height: normal;
+    }
+  }
 </style>
 
 <body>
@@ -970,20 +1066,14 @@ s0.parentNode.insertBefore(s1,s0);
 
 
   <div class="herosectionnew">
-    <h1>No. 1 Digital Marketing Company In Mumbai</h1>
+    <h1>No. 1 Digital Marketing Agency In Mumbai</h1>
     <ul class="herobreadrumb">
       <li>Home</li>
       <li>/</li>
       <li>Web design company in mumbai</li>
     </ul>
-    <p class="herosectionpara">
-      <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is an award-winning 🏆
-      Digital marketing Company right here in the heart of Mumbai. We help To Drive Sales on Your Website By Providing
-      Expert Digital Marketing Solutions. We Provide Services Like <a class="interlink"
-        href="google-ads-services-in-mumbai">Google Ads</a>, <a class="interlink" href="seo-company-in-mumbai">Search
-        Engine
-        Optimization</a>, <a class="interlink" href="social-media-marketing-agency">Social Media Ads</a>, and more.
-    </p>
+    <p class="herosectionpara">Located in the heart of Mumbai, <a href="https://sagartech.co.in/" class="interlink">Sagar Tech Technical Solution</a> is a digital marketing company that has won multiple 🏆 awards. We assist with growing website sales by providing expert digital marketing services. <a href="https://sagartech.co.in/seo-company-in-mumbai" class="interlink">Search engine optimisation,</a> <a href="https://sagartech.co.in/google-ads-services-in-mumbai" class="interlink">Google advertisements,</a> and <a href="https://sagartech.co.in/social-media-marketing-agency-in-mumbai" class="interlink">social media advertisements</a> are some of the services we provide.
+</p>
     <div class="herobuttonsnew">
       <a href="contact" class="button">Contact Now!</a>
     </div>
@@ -993,11 +1083,10 @@ s0.parentNode.insertBefore(s1,s0);
 
   <div class="newsecondsection">
     <div class="left">
-      <h2>Why Digital Marketing is Important For Your business?</h2>
+      <h2>Why Is Digital Marketing Services Required for Your Company?</h2>
       <!-- <h3>Subtitle</h3> -->
-      <p>In this fast-paced and interconnected world, digital marketing for your business cannot be overstated. Whether
-        you're a startup, a small business, or an established enterprise, embracing digital marketing strategies is key
-        to unlocking growth, reaching your audience, and staying competitive.</p>
+      <p>It is impossible to undervalue the importance of digital marketing for your company in today connected and quick environment. Adopting digital marketing tactics is essential for every organisation, whether it is a startup, small business, or existing corporation, in order to reach your audience, unleash growth, and maintain competitiveness.
+</p>
       <ul class="secondul">
         <li><img src="./images/planet-earth.png" alt="">Global Reach, Local Impact</li>
         <li><img src="./images/stock.png" alt="">Cost-Effective Marketing</li>
@@ -1016,44 +1105,37 @@ s0.parentNode.insertBefore(s1,s0);
 
 
   <div class="ourprocesssection">
-    <h2>Why Choose us For Digital Marketing?</h2>
+    <h2>Why Choose Us for Digital Marketing?</h2>
     <div class="ourprocesssectiontwo">
       <div class="discover">
         <div class="headingg">Results-Driven Approach</div>
-        <p>We understand that results matter. Sagar Tech employs a results-driven approach to every digital marketing
-          campaign. Our focus is on metrics that directly impact your business growth, ensuring a positive return on
-          investment and measurable success</p>
+        <p>We understand that results matter. Sagar Tech employs a results-driven approach to every digital marketing campaign. Our focus is on metrics that directly impact your business growth, ensuring a positive return on investment and measurable success
+</p>
       </div>
       <div class="discover">
-        <div class="headingg">Proven Expertise</div>
-        <p>Sagar Tech is not just another digital marketing agency; we are industry leaders with a proven track record.
-          Our team comprises seasoned professionals with a deep understanding of the digital landscape, ensuring your
-          business benefits from the best in the field.</p>
+        <div class="headingg">Verified Expertise</div>
+        <p>Sagar Tech is a leader in the field with a solid track record; we are more than just digital marketing company. Our staff is made up of seasoned experts that have an extensive knowledge of the digital environment, guaranteeing that your company gains from the top talent in the industry.
+</p>
       </div>
       <div class="discover">
         <div class="headingg">Local Understanding, Global Impact</div>
-        <p>Being based in Mumbai, Sagar Tech possesses a unique understanding of the local market dynamics. This local
-          insight allows us to create strategies that resonate with your Mumbai audience while ensuring a global impact
-          for businesses aiming to expand beyond borders.
-        </p>
+        <p>Being based in Mumbai, Sagar Tech possesses a unique understanding of the local market dynamics. This local insight allows us to create strategies that resonate with your Mumbai audience while ensuring a global impact for businesses aiming to expand beyond borders.
+</p>
       </div>
       <div class="discover">
-        <div class="headingg">Cutting-Edge Technology</div>
-        <p>Staying ahead in the digital realm requires leveraging the latest technologies. Sagar Tech is committed to
-          staying at the forefront of industry trends, ensuring that your business benefits from innovative and
-          cutting-edge digital marketing solutions.</p>
+        <div class="headingg">Innovative Technology</div>
+        <p>Using the newest technology is important for staying ahead in the digital world. Sagar Tech is dedicated to remaining on top of market developments so that your company may take advantage of creative and modern digital marketing services.
+</p>
       </div>
       <div class="discover">
         <div class="headingg">Transparent Communication</div>
-        <p>Communication is at the core of our client relationships. Sagar Tech values transparency and keeps you
-          informed every step of the way. Whether it's about campaign progress, analytics, or adjustments needed, you'll
-          always be in the loop.</p>
+        <p>Communication is at the core of our client relationships. Sagar Tech values transparency and keeps you informed every step of the way. Whether it's about campaign progress, analytics, or adjustments needed, you'll always be in the loop.
+</p>
       </div>
       <div class="discover">
         <div class="headingg">Holistic Digital Presence</div>
-        <p>Sagar Tech doesn't just optimise one aspect of your online presence; we create a holistic digital strategy.
-          From enhancing search engine visibility to crafting engaging social media campaigns, we ensure that every
-          facet of your digital presence contributes to your overall success.</p>
+        <p>Sagar Tech develops a full digital plan instead of just optimising one element of your internet presence. From increasing the search engine visibility of your site to developing engaging social media advertisements, we make sure that each part of your online presence contributes to a positive outcome.
+</p>
       </div>
     </div>
   </div>
@@ -1061,13 +1143,10 @@ s0.parentNode.insertBefore(s1,s0);
 
   <div class="newvideo">
     <div class="newvideoinner">
-      <h2>What can we do for you?</h2>
-      <span class="newvideotext">
-        We offer continuous support and maintenance services to keep your E-Commerce website up-to-date, secure,
-        and
-        running seamlessly. This ensures a positive experience for both you and your customers.
-      </span>
-      <span>We would be happy to discuss the project with you in person</span>
+      <h2>In what way can we assist you?</h2>
+      <span class="newvideotext">Continued maintenance and assistance services are what we offer to keep your e-commerce website safe, up to date, and operating. It means you and the customer will have a positive experience
+</span>
+      <!-- <span>We would be happy to discuss the project with you in person</span> -->
       <div class="newvideobutton">
         <a href="contact">Lets Connect</a>
       </div>
@@ -1090,10 +1169,8 @@ s0.parentNode.insertBefore(s1,s0);
   <div class="typesofsection">
     <h2>Types of Digital Marketing Services</h2>
     <!-- <h3>subtitle</h3> -->
-    <p>Sagar Tech Technical Solution is an award-winning 🏆 Digital marketing Company in Mumbai we Prodive Google Ads,
-      SEO, Social Media Ads { Facebook & Instagram } Social Media Optimization by Providing this services we help your
-      Business to Grow and get Maximum maximum number of sales Our Digital Marketing Company First understand your
-      Business then deliver top- notch solutions</p>
+    <p>Sagar Tech Technical Solution is an award-winning 🏆 Digital marketing Company in Mumbai we Prodive Google Ads, SEO, Social Media Ads { Facebook & Instagram } Social Media Optimization by Providing this services we help your Business to Grow and get Maximum maximum number of sales Our Digital Marketing Company First understand your Business then deliver top- notch solutions
+</p>
     <div class="typesofcard">
       <a href="google-ads-services-in-mumbai">
         <div class="carddd">
@@ -1293,6 +1370,114 @@ s0.parentNode.insertBefore(s1,s0);
       </span>
     </div>
   </div>
+
+  <h3 class="faqs-heading">FAQs</h3>
+  <div class="accordion">
+    <div class="accordion-item">
+      <h2>Which services do you provide for digital marketing?</h2>
+      <div class="accordion-content">
+        <p style="padding:0px 0px 3px 0px !important;">We offer many different areas of digital marketing services, including the following:
+          <ul style="list-style-type: disc !important; padding-left: 20px; margin: 0;">
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Search Engine Optimization (SEO)</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Pay-Per-Click (PPC) Advertising</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Social Media Marketing (SMM)</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Content Marketing</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Email Marketing</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Web Design and Development</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Analytics and Reporting</li>
+</ul>
+</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>How can digital marketing help my business?</h2>
+      <div class="accordion-content">
+        <p style="padding:0px 0px 3px 0px !important;">Digital marketing can help your business by:
+          <ul style="list-style-type: disc !important; padding-left: 20px; margin: 0;">
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Increasing brand awareness and internet visibility</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Bringing in targeted visitors to your website</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Generating leads and sales</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Increasing client attraction and participation</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Delivering reliable results and ROI</li>
+</ul>
+</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>How long does it take for digital marketing to start producing results?</h2>
+      <div class="accordion-content">
+        <p style="padding:0px 0px 3px 0px !important;">The strategies applied define how long it will take to see results.
+          <ul style="list-style-type: disc !important; padding-left: 20px; margin: 0;">
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">SEO: 3–6 months for noticeable improvements</li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">PPC: Immediate traffic, but optimization takes time/li>
+    <li style="color:gray; font-size: 16px; padding:2px 0px; display: list-item !important; list-style: disc !important;">Social Media: 1–3 months for engagement growth</li>
+</ul><p style="padding:0px 0px 3px 0px !important;">To keep you updated, we send you progress reports on periodically.</p> 
+</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>Do you provide specialised digital marketing plans?</h2>
+      <div class="accordion-content">
+        <p>Yes, we design customised plans according to your market, budget, target audience, and company objectives. Since no two companies are similar, we make sure that our solutions fit perfectly to your particular requirements.
+</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>In which industries are you an expert?</h2>
+      <div class="accordion-content">
+        <p>Among the many industries we have worked with include e-commerce, healthcare, real estate, education, technology, and more. Our ideas can be used in any sector.
+</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>Have you worked with any local companies?</h2>
+      <div class="accordion-content">
+        <p>Yes, we specialise in geo-targeted ads and local SEO to help local companies bring in local clients. We develop location-specific methods and optimise for local search results.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>Can I manage my campaigns alongside your team?</h2>
+      <div class="accordion-content">
+        <p>Absolutely! In order to guarantee matching with your company objectives, we can interact directly with your team and promote collaboration. Campaign dashboards with frequent updates will be available to you.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>Is there a free consultation available?</h2>
+      <div class="accordion-content">
+        <p>Yes, in order to talk about your needs and give suggestions, we provide a free, no-obligation consultation. Which helps in our knowledge of your company and helps us provide the finest solutions.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>How can I start utilising your digital marketing services?</h2>
+      <div class="accordion-content">
+        <p>It's simple to begin! For a free consultation, please get in touch with us. We'll talk about your objectives, examine your present web presence, and provide a customised strategy to support the growth of your company.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2>Do you provide continuing maintenance and help?</h2>
+      <div class="accordion-content">
+        <p>Yes, we provide ongoing assistance in maximising the success of your efforts. This means monitoring performance, making changes as needed, and remaining ahead of market trends.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
+      accordionToggle.addEventListener('click', () => {
+        const accordionItem = accordionToggle.parentNode;
+        const accordionContent = accordionToggle.nextElementSibling;
+
+        // If this accordion item is already open, close it.
+        if (accordionContent.style.maxHeight) {
+          accordionContent.style.maxHeight = null;
+          accordionItem.classList.remove('active');
+        } else {
+          accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+          accordionItem.classList.add('active');
+        }
+      });
+    });
+  </script>
 
 
   <?php
