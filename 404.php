@@ -43,12 +43,14 @@ header("Access-Control-Allow-Origin: *");
             font-weight: bold;
             border-radius: 5px;
         }
-        @media screen and (min-width: 768px) and (max-width: 991px){
+
+        @media screen and (min-width: 768px) and (max-width: 991px) {
             a.\34 04ckjd {
                 padding: 12px 30px;
             }
         }
-        @media screen and (min-width: 0px) and (max-width: 767px){
+
+        @media screen and (min-width: 0px) and (max-width: 767px) {
             a.\34 04ckjd {
                 padding: 8px 15px;
                 font-size: 13px;
@@ -71,8 +73,11 @@ header("Access-Control-Allow-Origin: *");
     $page = 'home';
     include('include/newHeader.php');
     ?>
-   
-    <?php include "include/404.php" ?>
+
+    <img src="/images/404.jpeg" width="100%" alt="">
+    <div class="col-lg-12 text-center" style="margin-bottom: 50px;">
+        <a class="404ckjd" href="https://sagartech.co.in/">Go Home</a>
+    </div>
     <!-- /HEADER END -->
 
     <!-- Footer -->
@@ -112,10 +117,10 @@ header("Access-Control-Allow-Origin: *");
     <script src="/js/custom.js"></script>
     <!-- WhatsHelp.io widget -->
     <script src="/js/notcopyable.js"></script>
-   
+
 
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 //whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in",
@@ -129,7 +134,7 @@ header("Access-Control-Allow-Origin: *");
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -138,15 +143,15 @@ header("Access-Control-Allow-Origin: *");
     </script>
     <!-- /WhatsHelp.io widget -->
     <!--Login-->
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
     <script>
-        $(function() {
+        $(function () {
             var myform = $(".add_mainarea_form");
             var completed = '0%';
             $(myform).ajaxForm({
 
-                complete: function() {
+                complete: function () {
                     $('#largeModal').modal('hide')
                     setTimeout(
                         $('.bd-example-modal-sm').modal('show'), 3000);
@@ -155,9 +160,9 @@ header("Access-Control-Allow-Origin: *");
 
 
         });
-        $(document).ready(function() {
+        $(document).ready(function () {
 
-            $('body').bind('cut copy paste', function(e) {
+            $('body').bind('cut copy paste', function (e) {
                 e.preventDefault();
             });
 
@@ -171,8 +176,8 @@ header("Access-Control-Allow-Origin: *");
 
         });
     </script>
-   
-   
+
+
 </body>
 
 </html>
