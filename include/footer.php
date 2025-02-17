@@ -200,8 +200,7 @@ include ('config.php');
 			<div class="address-wrap">
 				<span class="country">INDIA</span>
 				<br>
-				<span class="add">501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai -
-					400009</span>
+				<span class="add">Dhudwala Complex, D/1304, Bellasis Rd, RBI Staff Colony, Mumbai Central, Mumbai, Maharashtra 400008</span>
 				<br>
 				<span class="mail"><a href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></span>
 			</div>

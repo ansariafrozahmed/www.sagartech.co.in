@@ -154,8 +154,7 @@
 
                                     <div class="contact-box right media-body">
                                         <h5 class="iq-tw-6">India Address</h5>
-                                        <p>501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai
-                                            - 400009</p>
+                                        <p>Dhudwala Complex, D/1304, Bellasis Rd, RBI Staff Colony, Mumbai Central, Mumbai, Maharashtra 400008</p>
                                         <p style="margin-top:-10px; color:#ff0808;"><a
                                                 href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></p>
                                     </div>
