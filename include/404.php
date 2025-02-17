@@ -132,7 +132,6 @@
             display: flex;
             flex-direction: column;
             align-content: center;
-            line-height: 160px;
         }
 
         html,
