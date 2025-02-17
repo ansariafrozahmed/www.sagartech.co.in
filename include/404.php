@@ -132,6 +132,7 @@
             display: flex;
             flex-direction: column;
             align-content: center;
+            line-height: 160px;
         }
 
         html,
@@ -169,7 +170,7 @@
             color: #fff;
             display: inline-block;
             margin-right: 5px;
-            margin-bottom: 5px;
+            margin-bottom: 70px;
             line-height: 1.5;
             text-decoration: none;
             margin-top: 50px;
