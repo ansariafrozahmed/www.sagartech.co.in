@@ -2,8 +2,11 @@
 
 <?php
 
+// $id = $_GET['id'];
 $slug = $_GET['slug'];
 
+
+// $api_endpoint = "https://sagartech.co.in/blogs/wp-json/wp/v2/posts/$id";
 $api_endpoint = "https://sagartech.co.in/blogs/wp-json/wp/v2/posts?slug=$slug";
 
 // Create cURL session
@@ -19,24 +22,28 @@ $response = curl_exec($ch);
 // Check for cURL errors
 if (curl_errno($ch)) {
     echo 'Curl error: ' . curl_error($ch);
+    // Handle the error appropriately
 } else {
     // Close cURL session
     curl_close($ch);
 
     // Decode the JSON response
     $res = json_decode($response, true);
-
-    // Check if the response is empty
-    if (empty($res)) {
-        // Redirect to a custom 404 page or include a 404 template
-        http_response_code(404);
-        include "404.php"; // Make sure you have a 404.php file
-        exit;
-    }
-
-    // Extract the first post data
     $data = $res[0];
+
+    // print_r($data);
+
+    // Filter the data based on the desired ID
+    // $filtered_data = array_filter($data, function ($item) use ($id_to_fetch) {
+    //     return $item['id'] == $id_to_fetch;
+    // });
+
+    // Print the filtered data
+    // echo '<pre>';
+    // print_r($filtered_data);
+    // die;
 }
+
 ?>
 
 
@@ -53,14 +60,16 @@ if (curl_errno($ch)) {
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
-    <meta name="description" content="<?php echo htmlentities(!empty($data['meta']['meta_description']) ? $data['meta']['meta_description'] : $data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="description"
+        content="<?php echo htmlentities(!empty($data['meta']['meta_description']) ? $data['meta']['meta_description'] : $data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- <meta name="keywords"
         content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai"> -->
 
-    <meta name="keywords" content="<?php echo htmlentities(!empty($data['meta']['meta_keywords']) ? $data['meta']['meta_keywords'] : 'Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai', ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="keywords"
+        content="<?php echo htmlentities(!empty($data['meta']['meta_keywords']) ? $data['meta']['meta_keywords'] : 'Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai', ENT_QUOTES, 'UTF-8'); ?>">
 
     <meta name="author" content="Ubaid saudagar">
     <meta name="designer" content="Ubaid Saudagar">
@@ -75,7 +84,8 @@ if (curl_errno($ch)) {
     <meta name="language" content="english">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="<?php echo !empty($data['meta']['meta_title']) ? $data['meta']['meta_title'] : $data['title']['rendered']; ?>">
+    <meta property="og:title"
+        content="<?php echo !empty($data['meta']['meta_title']) ? $data['meta']['meta_title'] : $data['title']['rendered']; ?>">
     <meta property="og:description"
         content="<?php echo htmlentities(!empty($data['meta']['meta_description']) ? $data['meta']['meta_description'] : $data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:url"
@@ -434,7 +444,7 @@ if (curl_errno($ch)) {
     <!-- --------------------------- -->
     <?php
     // include("include/faqaccordian.html");
-    include ("include/footer.php");
+    include("include/footer.php");
     ?>
 </body>
 
