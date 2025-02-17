@@ -69,7 +69,7 @@ header("Access-Control-Allow-Origin: *");
     <!-- HEADER  -->
     <?php
     $page = 'home';
-    include('/include/newHeader.php');
+    include('include/newHeader.php');
     ?>
    
     <img src="/images/404.jpeg" width="100%" alt="">
@@ -79,7 +79,7 @@ header("Access-Control-Allow-Origin: *");
     <!-- /HEADER END -->
 
     <!-- Footer -->
-    <?php include("/include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <!-- back-to-top -->
     <div id="back-to-top">
