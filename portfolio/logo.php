@@ -6,19 +6,20 @@ include("../include/config.php");
 
 
 <head>
-    <title>Sagar Tech Technical Solution Portfolio on 500 Satisfied Client ⭐</title>
+    <title>Logo Design Portfolio | Stunning Brand Identity Creations</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
+    <meta name="description" content="View our logo design portfolio, which features original and imaginative brand identities. Ideal for providing ideas for your upcoming project. Explore our work now!">
+    <meta name="keywords" content="Logo Design Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/logo">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing Agency in Mumbai - Sagar Tech">
+    <meta property="og:title" content="Logo Design Portfolio | Stunning Brand Identity Creations">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="View our logo design portfolio, which features original and imaginative brand identities. Ideal for providing ideas for your upcoming project. Explore our work now!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/logo">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">

@@ -6,20 +6,21 @@ include("../include/config.php");
 
 
 <head>
-    <title>Sagar Tech Technical Solution Portfolio on 500 Satisfied Client ⭐</title>
+    <title>Brochure Design Portfolio | Bold, Creative & Memorable Designs</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
+        content="Explore our brochure design portfolio, which consists of eye-catching and memorable layouts created to enhance the impact and narrative of your company.">
+    <meta name="keywords" content="Brochure Design Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/portfolio/brochure">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing Agency in Mumbai - Sagar Tech">
+    <meta property="og:title" content="Brochure Design Portfolio | Bold, Creative & Memorable Designs">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="Explore our brochure design portfolio, which consists of eye-catching and memorable layouts created to enhance the impact and narrative of your company.">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/brochure">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
@@ -520,7 +521,7 @@ include("../include/config.php");
         height: 100%;
         width: 100%;
         object-fit: contain;
-        padding:5px;
+        padding: 5px;
     }
 
     @media only screen and (max-width: 999px) {

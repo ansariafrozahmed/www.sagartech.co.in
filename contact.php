@@ -3,12 +3,14 @@
 
 
 <head>
-    <title>Sagar Tech - Contact us for website design services and Digital Marketing Services in Mumbai, India</title>
+    <title>Contact Us for Website Design Services and SEO in Mumbai</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="description" content="We can help you with designing your brand website. 
     Please get in touch with me for a quote for website design or just fill an equiry form.">
+    <meta name="keywords"
+        content="Website design services Mumbai, SEO services Mumbai, web development Mumbai, professional website design, digital marketing Mumbai, search engine optimization, responsive web design, eCommerce website development, local SEO experts, business website solutions.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
 
@@ -96,13 +98,13 @@
             <img src="images/logoonly.jpg" alt="loder">
         </div>
     </div>
-   
+
     <?php
     $page = 'contact';
     // include("include/trialh.php");
     include 'include/newHeader.php';
     ?>
-    
+
     <div class="main-content iq-contact2">
         <!-- Contact Us 2 -->
 
@@ -154,6 +156,10 @@
 
                                     <div class="contact-box right media-body">
                                         <h5 class="iq-tw-6">India Address</h5>
+                                        <p class="interlink" style="margin-bottom:0px; margin-top:5px;">Office Address</p>
+                                        <p>501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai
+                                            - 400009</p>
+                                        <p class="interlink" style="margin-bottom:0px;">Registered Address</p>
                                         <p>Dhudwala Complex, D/1304, Bellasis Rd, RBI Staff Colony, Mumbai Central, Mumbai, Maharashtra 400008</p>
                                         <p style="margin-top:-10px; color:#ff0808;"><a
                                                 href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></p>
@@ -211,8 +217,8 @@
                                     <li class="list-inline-item"><a
                                             href="https://www.facebook.com/sagartechwebdevelopersmumbai"
                                             target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                            <li class="list-inline-item"><a href="https://www.instagram.com/sagartechsolutions/"
-                                                    target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/sagartechsolutions/"
+                                            target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                                     <li class="list-inline-item"><a
                                             href="https://www.linkedin.com/company/sagar-tech-technical-solutions/"
                                             target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -223,33 +229,34 @@
                 </div>
             </div>
         </section>
-       
-        <?php include ("include/footer.php"); ?>
-        
+
+        <?php include("include/footer.php"); ?>
+
         <script src="js/custom.js"></script>
-    <script type="text/javascript">
-        (function() {
-            var options = {
-                whatsapp: "+919820133303", // WhatsApp number
-                email: "info@sagartech.co.in", // Email
-                call_to_action: "Contact Us", // Call to action
-                button_color: "#FF0808", // Color of button
-                position: "left", // Position may be 'right' or 'left'
-                order: "whatsapp,email", // Order of buttons
-            };
-            var proto = document.location.protocol,
-                host = "getbutton.io",
-                url = proto + "//static." + host;
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
-                WhWidgetSendButton.init(host, proto, options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-        })();
-    </script>
+        <script type="text/javascript">
+            (function () {
+                var options = {
+                    whatsapp: "+919820133303", // WhatsApp number
+                    email: "info@sagartech.co.in", // Email
+                    call_to_action: "Contact Us", // Call to action
+                    button_color: "#FF0808", // Color of button
+                    position: "left", // Position may be 'right' or 'left'
+                    order: "whatsapp,email", // Order of buttons
+                };
+                var proto = document.location.protocol,
+                    host = "getbutton.io",
+                    url = proto + "//static." + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () {
+                    WhWidgetSendButton.init(host, proto, options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            })();
+        </script>
 </body>
+
 </html>

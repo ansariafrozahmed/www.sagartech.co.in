@@ -1,5 +1,5 @@
 <?php
-include ('config.php');
+include('config.php');
 ?>
 <style>
 	.footer {
@@ -200,7 +200,8 @@ include ('config.php');
 			<div class="address-wrap">
 				<span class="country">INDIA</span>
 				<br>
-				<span class="add">Dhudwala Complex, D/1304, Bellasis Rd, RBI Staff Colony, Mumbai Central, Mumbai, Maharashtra 400008</span>
+				<span class="add">501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai
+					- 400009</span>
 				<br>
 				<span class="mail"><a href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></span>
 			</div>
@@ -231,9 +232,10 @@ include ('config.php');
 				width="100%" height="120" style="border:0;" allowfullscreen="" loading="lazy"
 				referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<div class="social-links">
-				<a href="https://www.facebook.com/sagartechwebdevelopersmumbai"><i
-						class="fa-brands fa-facebook-f" style="color:#f80805;"></i></a>
-				<a href="https://www.instagram.com/sagartechsolutions/"><i class="fa-brands fa-instagram" style="color:#f80805;"></i></a>
+				<a href="https://www.facebook.com/sagartechwebdevelopersmumbai"><i class="fa-brands fa-facebook-f"
+						style="color:#f80805;"></i></a>
+				<a href="https://www.instagram.com/sagartechsolutions/"><i class="fa-brands fa-instagram"
+						style="color:#f80805;"></i></a>
 				<a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/"><i
 						class="fa-brands fa-linkedin-in" style="color:#f80805;"></i></a>
 			</div>

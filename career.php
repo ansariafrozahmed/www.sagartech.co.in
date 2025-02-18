@@ -5,18 +5,21 @@ include "include/config.php";
 <html lang="en">
 
 <head>
-    <title>Sagar Tech</title>
+    <title>IT Career Options | Top IT Jobs in Mumbai | Get Started</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Find the best IT jobs in Mumbai and fascinating IT career options. Find the perfect chance to launch or grow your tech career right now!
+">
+    <meta name="keywords" content="IT Career Options , IT Jobs Mumbai">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/career">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Web Development and Digital Marketing Agency in Mumbai - Sagar Tech">
+    <meta property="og:title" content="IT Career Options | Top IT Jobs in Mumbai | Get Started">
     <meta property="og:description"
-        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+        content="Find the best IT jobs in Mumbai and fascinating IT career options. Find the perfect chance to launch or grow your tech career right now!">
     <meta property="og:url" content="https://sagartech.co.in/career">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
