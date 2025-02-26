@@ -304,7 +304,8 @@
   }
   .image-card {
     background:white;
-    padding:10px;
+    /* padding:10px; */
+    padding:25px;
     /* aspect-ratio:4/4; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
@@ -321,7 +322,8 @@
   }
   .image-card .card-text {
     padding-top:10px;
-    font-size:18px;
+    /* font-size:18px; */
+    font-size:23px;
     font-weight:600;
   }
 
@@ -402,6 +404,10 @@
   color:white;
   }
 
+  .image-card p{
+    margin-top: 5px;
+  }
+
   
 </style>
 
@@ -458,24 +464,27 @@
         <p>In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.</p>
         <div class="workspace-img-div">
             <div class="image-card">
-                <div class="image-div">
+                <!-- <div class="image-div">
                     <img src="sagartech-team/Dev Team Photo - 3.webp" alt="">
-                </div>
+                </div> -->
                 <h5 class="card-text">Development Team</h5>
+                <p>Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.</p>
             </div>
             <!-- ------------------------ -->
             <div class="image-card">
-                <div class="image-div">
+                <!-- <div class="image-div">
                     <img src="sagartech-team/Social_Media_Team_Photo_-_1_35.webp" alt="">
-                </div>
+                </div> -->
                 <h5 class="card-text">Social Media Team</h5>
+                <p>Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.</p>
             </div>
             <!-- ------------------------ -->
             <div class="image-card">
-                <div class="image-div">
+                <!-- <div class="image-div">
                     <img src="sagartech-team/SEO_Team_Photo_-_4_35.webp" alt="">
-                </div>
+                </div> -->
                 <h5 class="card-text">SEO Team</h5>
+                <p>Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
             </div>
             <!-- ------------------------ -->
         </div>
