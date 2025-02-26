@@ -41,6 +41,12 @@
 // );
 $slides = array(
   array(
+    'type' => 'Human Resource Website',
+    'image' => './image/homepage/yovant-homepage.webp',
+    'web_title' => 'Yovant Recruitment',
+    'desc' => "Yovant Recruitment is a premier manpower and overseas recruitment agency specializing in sourcing skilled and unskilled workers for various industries across the Middle East. They have their own recruitment agencies in India, Nepal, Bangladesh, Pakistan, and Africa, ensuring a seamless hiring process. With a strong network and expertise, they cater to the staffing needs of construction, hospitality, healthcare, and other sectors. Their end-to-end recruitment solutions include screening, documentation, and deployment of workers. Yovant Recruitment is committed to providing reliable, efficient, and cost-effective hiring services for businesses worldwide."
+  ),
+  array(
     'type' => 'Catalogue Website',
     'image' => './image/homepage/thaiger-v1.webp',
     'web_title' => 'Thaiger Nutraceuticals',
