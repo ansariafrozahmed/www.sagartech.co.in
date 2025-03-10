@@ -7,6 +7,19 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
+function sendPostRequest($url, $data)
+{
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json'
+    ]);
+    $response = curl_exec($ch);
+    curl_close($ch);
+    return $response;
+}
 
 if (isset($_POST['msg_submit'])) {
     $email = $_POST['email'];
@@ -27,7 +40,7 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('neverlossme275@gmail.com');
         // $mail->addAddress('patiladiti240@gmail.com');
 
         // Content
@@ -36,8 +49,20 @@ if (isset($_POST['msg_submit'])) {
 
         $mail->Body = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
 
-        $mail->send();
-        echo '1';
+        if ($mail->send()) {
+            // Make POST request to API
+            $apiUrl = "https://sagartech.co.in/blogs/wp-json/contact-form/v1/submit";
+            $postData = [
+                "name" => $name,
+                "email" => $email,
+                "phone" => $phone,
+                "message" => $message
+            ];
+            $apiResponse = sendPostRequest($apiUrl, $postData);
+            echo '1';
+        } else {
+            echo '0';
+        }
     } catch (Exception $e) {
       echo '0';
 
@@ -133,7 +158,7 @@ else if (isset($_POST['quote_submit'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('neverlossme275@gmail.com');
         // $mail->addAddress('patiladiti240@gmail.com');
 
         // Content
