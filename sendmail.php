@@ -8,7 +8,7 @@ require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
 
-if (isset($_POST['contact_send'])) {
+if (isset($_POST['msg_submit'])) {
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $message = $_POST['msg'];
@@ -27,8 +27,7 @@ if (isset($_POST['contact_send'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        // $mail->addAddress('info@sagartech.co.in');
-        $mail->addAddress('neverlossme275@gmail.com');
+        $mail->addAddress('info@sagartech.co.in');
         // $mail->addAddress('patiladiti240@gmail.com');
 
         // Content
@@ -133,8 +132,7 @@ if (isset($_POST['contact_send'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        // $mail->addAddress('info@sagartech.co.in');
-        $mail->addAddress('neverlossme275@gmail.com');
+        $mail->addAddress('info@sagartech.co.in');
         // $mail->addAddress('patiladiti240@gmail.com');
 
         // Content
