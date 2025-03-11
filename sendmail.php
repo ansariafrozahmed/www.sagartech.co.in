@@ -8,7 +8,7 @@ require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
 
-if (isset($_POST['msg_submit'])) {
+if (isset($_POST['contact_send'])) {
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $message = $_POST['msg'];
