@@ -27,7 +27,8 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        // $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('neverlossme275@gmail.com');
         // $mail->addAddress('patiladiti240@gmail.com');
 
         // Content
@@ -132,7 +133,8 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        // $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('neverlossme275@gmail.com');
         // $mail->addAddress('patiladiti240@gmail.com');
 
         // Content
