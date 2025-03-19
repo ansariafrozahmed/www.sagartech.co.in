@@ -1230,7 +1230,38 @@
             <!-- <img src="./banner/business.webp" alt="Web Development"> -->
         </div>
     </div>
+    <div style="border-top: #f2f2f2 solid 2px; border-bottom: #f2f2f2 solid 2px;padding: 12px 0" class="overflow-hidden relative bg-gray-100 py-3">
+        <div class="flex space-x-8 animate-marquee">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+        </div>
+    </div>
+    <style>
+        @keyframes marquee {
+            from {
+                transform: translateX(-50%);
+            }
 
+            to {
+                transform: translateX(-150%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 10s linear infinite;
+            display: flex;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
     <div class="ninth-ecom-sec">
         <h6>Importance of the service</h6>
         <h2>Why does website maintainance matters?</h2>

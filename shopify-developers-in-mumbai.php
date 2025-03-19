@@ -315,8 +315,8 @@
         }
 
         .third-ecom-sec .ecom-right img:hover {
-        transform: scale(1.05);
-    }
+            transform: scale(1.05);
+        }
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -374,8 +374,8 @@
         }
 
         .third-ecom-sec .ecom-right img:hover {
-        transform: scale(1.05);
-    }
+            transform: scale(1.05);
+        }
     }
 
 
@@ -966,8 +966,8 @@
         padding-left: 100px;
         padding-right: 100px;
         background: #F2F2F2;
-        margin-top:50px;
-        margin-bottom:30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
     }
 
     .newvideoinner {
@@ -979,19 +979,19 @@
         justify-content: start;
     }
 
-    .newvideoinner p{
-        margin-top:-20px;
+    .newvideoinner p {
+        margin-top: -20px;
         font-size: 18px;
     }
 
     .newvideoinner h2 {
         font-weight: 600;
-        line-height:0px;
+        line-height: 0px;
     }
 
     .newvideoinner h3 {
         font-weight: 300;
-        line-height:47px;
+        line-height: 47px;
         font-size: 22px;
     }
 
@@ -1037,19 +1037,19 @@
 
         .newvideoinner h2 {
             font-weight: 600;
-            line-height:30px;
+            line-height: 30px;
         }
 
         .newvideoinner h3 {
-        font-weight: 300;
-        line-height:10px;
-        font-size: 25px;
-    }
+            font-weight: 300;
+            line-height: 10px;
+            font-size: 25px;
+        }
 
-    .newvideoinner p{
-        margin-top:5px;
-        font-size: 18px;
-    }
+        .newvideoinner p {
+            margin-top: 5px;
+            font-size: 18px;
+        }
 
         .newvideovideo {
             width: 100%;
@@ -1102,7 +1102,7 @@
         object-fit: cover;
     }
 
-    .fourth-card img:hover{
+    .fourth-card img:hover {
         transform: scale(1.05);
     }
 
@@ -1170,186 +1170,186 @@
     }
 
     .design-lifecycle-section {
-    text-align: center;
-    background: url('background-image.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 50px 0;
-    color: #fff;
-}
+        text-align: center;
+        background: url('background-image.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 50px 0;
+        color: #fff;
+    }
 
-.design-lifecycle-section h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-}
+    .design-lifecycle-section h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
 
-.lifecycle-steps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.step {
-    position: relative;
-    text-align: center;
-    width: 150px;
-    margin: 20px;
-}
-
-.icon {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #E31F14;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 15px;
-}
-
-.icon img {
-    width: 50%;
-    height: auto;
-}
-
-.step p {
-    font-size: 14px;
-    margin-top: 10px;
-    color: #fff;
-}
-
-.arrow {
-    font-size: 30px;
-    /* color: #fff; */
-    color:black;
-    margin: 0 15px;
-}
-
-/* Mobile Responsive Styles */
-@media (max-width: 768px) {
     .lifecycle-steps {
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .step {
-        width: 100%;
-        margin: 20px 0;
+        position: relative;
+        text-align: center;
+        width: 150px;
+        margin: 20px;
     }
 
     .icon {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #E31F14;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 15px;
+    }
+
+    .icon img {
+        width: 50%;
+        height: auto;
+    }
+
+    .step p {
+        font-size: 14px;
+        margin-top: 10px;
+        color: #fff;
     }
 
     .arrow {
-        display: none; /* Hide arrows on mobile for vertical layout */
+        font-size: 30px;
+        /* color: #fff; */
+        color: black;
+        margin: 0 15px;
     }
 
-    .step p {
-        font-size: 12px;
+    /* Mobile Responsive Styles */
+    @media (max-width: 768px) {
+        .lifecycle-steps {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .step {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+        }
+
+        .arrow {
+            display: none;
+            /* Hide arrows on mobile for vertical layout */
+        }
+
+        .step p {
+            font-size: 12px;
+        }
+
+        .design-lifecycle-section {
+            padding: 30px 20px;
+        }
+
+        .design-lifecycle-section h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
     }
 
-    .design-lifecycle-section {
-        padding: 30px 20px;
+    @media (max-width: 480px) {
+        .step {
+            width: 100%;
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+        }
+
+        .step p {
+            font-size: 11px;
+        }
+
+        .design-lifecycle-section h2 {
+            font-size: 20px;
+        }
     }
 
-    .design-lifecycle-section h2 {
-        font-size: 24px;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .step {
-        width: 100%;
+    .newvideovideo img {
+        width: 230px;
     }
 
-    .icon {
-        width: 60px;
-        height: 60px;
-    }
+    /* Second Section */
 
-    .step p {
-        font-size: 11px;
-    }
-
-    .design-lifecycle-section h2 {
-        font-size: 20px;
-    }
-}
-
-.newvideovideo img{
-    width:230px;
-}
-
-/* Second Section */
-
-  .newsecondsection {
-    padding: 50px 60px;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: start;
-  }
-
-  .newsecondsection .left {
-    width: 50%;
-  }
-
-  .newsecondsection .left h2 {
-    font-size: 30px;
-    font-weight: 600;
-  }
-
-  .newsecondsection .left h3 {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  .newsecondsection .right {
-    width: 50%;
-  }
-
-  .newsecondsection .right img {
-    height: 100%;
-    width: 100%;
-  }
-
-  @media only screen and (max-width: 767px) {
     .newsecondsection {
-      padding: 50px 20px;
-      display: flex;
-      flex-direction: column-reverse;
-      gap: 20px;
-      align-items: center;
-      justify-content: start;
+        padding: 50px 60px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: start;
     }
 
     .newsecondsection .left {
-      width: 100%;
+        width: 50%;
     }
 
     .newsecondsection .left h2 {
-      font-size: 30px;
-      font-weight: 600;
+        font-size: 30px;
+        font-weight: 600;
     }
 
     .newsecondsection .left h3 {
-      font-size: 20px;
-      font-weight: 500;
+        font-size: 20px;
+        font-weight: 500;
     }
 
     .newsecondsection .right {
-      width: 100%;
+        width: 50%;
     }
 
     .newsecondsection .right img {
-      height: 100%;
-      width: 100%;
+        height: 100%;
+        width: 100%;
     }
-  }
 
+    @media only screen and (max-width: 767px) {
+        .newsecondsection {
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 20px;
+            align-items: center;
+            justify-content: start;
+        }
+
+        .newsecondsection .left {
+            width: 100%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 100%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+    }
 </style>
 
 <body>
@@ -1365,7 +1365,7 @@
 
     <?php
     $page = 'services';
-    include ("include/newHeader.php");
+    include("include/newHeader.php");
     //include('include/header1.php');
     ?>
     <?php
@@ -1521,8 +1521,8 @@
                 </span> 
         </div>
         <?php
-       // include 'ecommerce-info.php'
-            ?>
+        // include 'ecommerce-info.php'
+        ?>
     </div> -->
 
 
@@ -1550,10 +1550,10 @@
 
     <?php
     //include 'include/ourClients.php'
-        ?>
+    ?>
 
 
-<!-- <div class="design-lifecycle-section">
+    <!-- <div class="design-lifecycle-section">
     <h2>The Shopify Website Design Lifecycle</h2>
     <div class="lifecycle-steps">
         <div class="step">
@@ -1568,8 +1568,39 @@
         <div class="arrow">&rarr;</div> <!-- Arrow connecting the steps
     </div>
 </div> -->
+    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
+        <div class="flex space-x-8 animate-marquee">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+        </div>
+    </div>
+    <style>
+        @keyframes marquee {
+            from {
+                transform: translateX(-50%);
+            }
 
-<div class="newvideo">
+            to {
+                transform: translateX(-150%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 10s linear infinite;
+            display: flex;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+    <div class="newvideo mt-0">
         <div class="newvideoinner">
             <h3>Do you want to develop a</h3>
             <h2>Shopify eCommerce Website</h2>
@@ -1578,27 +1609,27 @@
             [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
             </span> -->
             <p>
-            [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
+                [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
             </p>
             <div class="newvideobutton">
                 <a href="#open-modal">Request A Quote</a>
             </div>
         </div>
         <div class="newvideovideo">
-        <img src="./images/shopify-development-company-in-india.png" alt="shopify website development company" title="shopify website development company">
+            <img src="./images/shopify-development-company-in-india.png" alt="shopify website development company" title="shopify website development company">
         </div>
     </div>
 
 
 
-<div class="fourth-brand-sec">
+    <div class="fourth-brand-sec">
         <h2>Our Shopify Ecommerce Websites</h2>
         <div class="fourth-card-div">
             <div class="fourth-card">
                 <img src="portfolio-images/chief-parfum1.webp" alt="shopify website development company" title="Cotton Culture">
             </div>
             <div class="fourth-card">
-            <img src="portfolio-images/cotton-culture1.webp" alt="shopify website development company" title="Chief Parfum">
+                <img src="portfolio-images/cotton-culture1.webp" alt="shopify website development company" title="Chief Parfum">
             </div>
         </div>
         <!-- <div class="portfolio-button">
@@ -1607,28 +1638,28 @@
     </div>
 
     <div class="newsecondsection">
-    <div class="left">
-      <h2 style="line-height:40px;">Why Is a Shopify Website Important for Your Business?</h2>
-      <!-- <h3>Subtitle</h3> -->
-      <p>At Sagar Tech Technical Solutions, we understand the pivotal role a Shopify website plays in driving eCommerce success. As one of Mumbai’s leading Shopify development companies, we blend creativity with technical expertise to deliver exceptional Shopify development services.
+        <div class="left">
+            <h2 style="line-height:40px;">Why Is a Shopify Website Important for Your Business?</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p>At Sagar Tech Technical Solutions, we understand the pivotal role a Shopify website plays in driving eCommerce success. As one of Mumbai’s leading Shopify development companies, we blend creativity with technical expertise to deliver exceptional Shopify development services.
 
-In today’s digital era, a Shopify website is essential for establishing a strong eCommerce presence, attracting customers, and increasing revenue. Our talented team of designers and developers specializes in creating robust, visually appealing, and conversion-focused Shopify websites that accurately reflect your brand and cater to your business needs.
-With our expertise as a top Shopify development company in India, we bring your eCommerce vision to life, helping your business achieve its full potential.
-</p>
-      <br>
-      <div class="herobuttonsnew">
-        <!-- <a href="#">Quick Enquiry</a> -->
-        <a href="about" class="button">About Us</a>
-      </div>
+                In today’s digital era, a Shopify website is essential for establishing a strong eCommerce presence, attracting customers, and increasing revenue. Our talented team of designers and developers specializes in creating robust, visually appealing, and conversion-focused Shopify websites that accurately reflect your brand and cater to your business needs.
+                With our expertise as a top Shopify development company in India, we bring your eCommerce vision to life, helping your business achieve its full potential.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="about" class="button">About Us</a>
+            </div>
+        </div>
+        <div class="right">
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/AxjMQNyE9Rg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <img src="./banner/business.webp" alt="Web Development"> -->
+        </div>
     </div>
-    <div class="right">
-      <iframe width="100%" height="300" src="https://www.youtube.com/embed/AxjMQNyE9Rg"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <!-- <img src="./banner/business.webp" alt="Web Development"> -->
-    </div>
-  </div>
 
 
 
@@ -1757,7 +1788,7 @@ With our expertise as a top Shopify development company in India, we bring your 
         <div class="accordion-item">
             <h2>Can Shopify developers in Mumbai help with migrating my existing store to Shopify?</h2>
             <div class="accordion-content">
-            <p>Yes, they can manage data transfer, redesign, and ensure a smooth transition from other platforms.</p>
+                <p>Yes, they can manage data transfer, redesign, and ensure a smooth transition from other platforms.</p>
             </div>
         </div>
 
@@ -1765,22 +1796,22 @@ With our expertise as a top Shopify development company in India, we bring your 
             <h2>How long does it take to build a Shopify store with a developer in Mumbai?
             </h2>
             <div class="accordion-content">
-            <p>The timeline varies from a few weeks to a couple of months, depending on the complexity of the project.</p>
+                <p>The timeline varies from a few weeks to a couple of months, depending on the complexity of the project.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What types of customizations can Shopify developers in Mumbai handle?</h2>
             <div class="accordion-content">
-            <p>They can handle custom themes, app integrations, unique functionalities, and tailored solutions to meet specific business needs.</p>
+                <p>They can handle custom themes, app integrations, unique functionalities, and tailored solutions to meet specific business needs.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Do Shopify developers in Mumbai provide ongoing support and maintenance?
-</h2>
+            </h2>
             <div class="accordion-content">
-            <p>Yes, many offer packages for regular updates, troubleshooting, and maintenance to keep your store running smoothly.</p>
+                <p>Yes, many offer packages for regular updates, troubleshooting, and maintenance to keep your store running smoothly.</p>
             </div>
         </div>
 
@@ -1841,11 +1872,11 @@ With our expertise as a top Shopify development company in India, we bring your 
     ?>
 
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1861,7 +1892,7 @@ With our expertise as a top Shopify development company in India, we bring your 
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

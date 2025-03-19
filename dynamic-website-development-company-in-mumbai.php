@@ -137,7 +137,7 @@
             font-size: 25px;
             line-height: normal;
             font-weight: 600;
-            width:100% !important;
+            width: 100% !important;
         }
 
         .herobreadrumb {
@@ -962,7 +962,7 @@
 
     <?php
     $page = 'services';
-    include ("include/newHeader.php");
+    include("include/newHeader.php");
     ?>
 
 
@@ -1003,7 +1003,7 @@
                 class="interlink" href="web-development-company-in-mumbai">website development</a> in driving business
             growth and
             increasing customer engagement. Here are some strong reasons why your business should have a <a href="https://www.indiamart.com/proddetail/dynamic-web-designing-services-2854563934112.html" target="_blank" class="interlink">dynamic
-            website.</a></p>
+                website.</a></p>
     </div>
 
 
@@ -1068,7 +1068,38 @@
         </div>
     </div>
 
+    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
+        <div class="flex space-x-8 animate-marquee">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+        </div>
+    </div>
+    <style>
+        @keyframes marquee {
+            from {
+                transform: translateX(-50%);
+            }
 
+            to {
+                transform: translateX(-150%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 10s linear infinite;
+            display: flex;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
 
     <div class="fifth-ecom-sec">
         <h2>What can we do for you?</h2>
@@ -1142,7 +1173,7 @@
 
     <?php
     include 'include/ourClients.php'
-        ?>
+    ?>
 
 
 
@@ -1357,10 +1388,10 @@
     <?php
     // include 'blogSectionHome.php'
     ?>
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 call_to_action: "Message us", // Call to action
@@ -1373,7 +1404,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

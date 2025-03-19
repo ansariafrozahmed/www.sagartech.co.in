@@ -1,6 +1,6 @@
 <?php
 
-include ('include/config.php');
+include('include/config.php');
 // error_reporting(error_reporting() & ~E_WARNING);
 // ini_set('display_errors', 1);
 // ini_set('error_reporting', E_ALL);
@@ -48,9 +48,9 @@ include ('include/config.php');
         <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
         <!-- Meta Pixel Code -->
         <script>
-            ! function (f, b, e, v, n, t, s) {
+            ! function(f, b, e, v, n, t, s) {
                 if (f.fbq) return;
-                n = f.fbq = function () {
+                n = f.fbq = function() {
                     n.callMethod ?
                         n.callMethod.apply(n, arguments) : n.queue.push(arguments)
                 };
@@ -224,15 +224,18 @@ include ('include/config.php');
 
         .video-container {
             max-width: 100%;
-            overflow: hidden; /* Prevent x overflow*/
+            overflow: hidden;
+            /* Prevent x overflow*/
             position: relative;
-        } 
+        }
 
         .video {
-            width: 100%; /* Make video scale to container width */
-            height: auto; /* Maintain aspect ratio */
+            width: 100%;
+            /* Make video scale to container width */
+            height: auto;
+            /* Maintain aspect ratio */
             display: block;
-        } 
+        }
 
 
         /* Style for the video container to make it responsive */
@@ -446,7 +449,7 @@ include ('include/config.php');
             //  console.log(id);
             var id = 1;
             $('#demo-modal').load('modal-data.php?modal=' + id,
-                function () {
+                function() {
                     $('#bootstrap-modal').modal({
                         show: true
                     });
@@ -463,7 +466,7 @@ include ('include/config.php');
     </div>
     <?php
     $page = 'home';
-    include ('include/newHeader.php');
+    include('include/newHeader.php');
     ?>
 
 
@@ -483,30 +486,34 @@ include ('include/config.php');
         <!-- <div class="homeBanner">
             <img src="./image/homepage/homeBanner.webp" alt="" srcset="">
         </div> -->
-        <div class="video-container">
+        <div class="video-container mobile-view">
+            <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
+                <source src="./video/sagartechmobilebanner.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="video-container desktop-view">
             <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
                 <source src="./video/sagartech banner 10.mp4" type="video/mp4">
             </video>
         </div>
-        
-        
-        
+
 
         <?php
         include 'include/intro.php'
-            ?>
+        ?>
         <?php
         include 'ourservice.php'
-            ?>
+        ?>
 
         <script>
-            ! function (o, i) {
+            ! function(o, i) {
                 window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
                     dq: [],
-                    display: function () {
+                    display: function() {
                         this.dq.push(arguments)
                     }
-                }, o._provesrcAsyncInit = function () {
+                }, o._provesrcAsyncInit = function() {
                     provesrc.init({
                         apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
                         v: "0.0.4"
@@ -526,16 +533,16 @@ include ('include/config.php');
         <hr>
         <?php
         include 'include/ourClients.php'
-            ?>
+        ?>
 
 
         <?php
         include 'include/portfolioSlider.php'
-            ?>
+        ?>
         <hr>
         <?php
         include 'include/techStack.php'
-            ?>
+        ?>
 
 
         <style>
@@ -626,6 +633,16 @@ include ('include/config.php');
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     gap: 15px;
+                }
+
+                .video-container.desktop-view {
+                    display: none;
+                }
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 999999px) {
+                .video-container.mobile-view {
+                    display: none;
                 }
             }
         </style>
@@ -1002,11 +1019,11 @@ BS AUTO ACCESSORIES" srcset="">
 
     </div>
     <?php
-    include ("include/footer.php");
+    include("include/footer.php");
     ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1022,7 +1039,7 @@ BS AUTO ACCESSORIES" srcset="">
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

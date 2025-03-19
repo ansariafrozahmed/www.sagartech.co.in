@@ -1583,8 +1583,39 @@
         <div class="arrow">&rarr;</div> <!-- Arrow connecting the steps
     </div>
 </div> -->
+<div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
+        <div class="flex space-x-8 animate-marquee">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+        </div>
+    </div>
+    <style>
+        @keyframes marquee {
+            from {
+                transform: translateX(-50%);
+            }
 
-<div class="newvideo">
+            to {
+                transform: translateX(-150%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 10s linear infinite;
+            display: flex;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+<div class="newvideo mt-0">
         <div class="newvideoinner">
             <h3>Do you want to develop a</h3>
             <h2>Wordpress Website</h2>

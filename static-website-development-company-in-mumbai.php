@@ -137,7 +137,7 @@
             font-size: 25px;
             line-height: normal;
             font-weight: 600;
-            width:100% !important;
+            width: 100% !important;
         }
 
         .herobreadrumb {
@@ -1072,7 +1072,38 @@
         </div>
     </div>
 
+    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
+        <div class="flex space-x-8 animate-marquee">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+            <img height="60px" src="./video/technologies.jpg" alt="">
+        </div>
+    </div>
+    <style>
+        @keyframes marquee {
+            from {
+                transform: translateX(-50%);
+            }
 
+            to {
+                transform: translateX(-150%);
+            }
+        }
+
+        .animate-marquee {
+            animation: marquee 10s linear infinite;
+            display: flex;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
 
     <div class="fifth-ecom-sec">
         <h2>What can we do for you?</h2>
@@ -1148,7 +1179,7 @@
 
     <?php
     include 'include/staticOurClients.php'
-        ?>
+    ?>
 
 
 
@@ -1283,9 +1314,9 @@
             <h2>What are the benefits of a static website?</h2>
             <div class="accordion-content">
                 <p>Cost-Effective: Static websites are cheaper and faster to develop compared to dynamic websites.<br>
-Quick Load Time: With minimal server resources required, static websites load faster.<br>
-High Security: Static websites are less prone to security breaches since they don’t have databases or server-side processing.<br>
-Easy to Host: Static websites require less server space, making them easy and affordable to host.</p>
+                    Quick Load Time: With minimal server resources required, static websites load faster.<br>
+                    High Security: Static websites are less prone to security breaches since they don’t have databases or server-side processing.<br>
+                    Easy to Host: Static websites require less server space, making them easy and affordable to host.</p>
             </div>
         </div>
 
@@ -1350,7 +1381,7 @@ Easy to Host: Static websites require less server space, making them easy and af
     <?php include("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 call_to_action: "Message us", // Call to action
@@ -1363,7 +1394,7 @@ Easy to Host: Static websites require less server space, making them easy and af
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
