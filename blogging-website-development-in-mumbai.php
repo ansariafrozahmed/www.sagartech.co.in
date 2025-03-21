@@ -1068,37 +1068,97 @@
     </div>
 
     <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
-        <div class="flex space-x-8 animate-marquee">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-        </div>
+        <article class="logoWall-wrapper bg-white overflow-hidden relative"
+            style="--size: clamp(8rem, 1rem + 20vmin, 25rem); --duration: 120s; --color-text: #ffffff; --color-bg: #fff; --color-bg-accent: #fff;">
+
+            <div class="marquee">
+                <div class="marquee__inner">
+                    <div class="marquee__group">
+                        <img alt="" src="./video/technologies/express.png">
+                        <img alt="" src="./video/technologies/flutter.png">
+                        <img alt="" src="./video/technologies/html.png">
+                        <img alt="" src="./video/technologies/JavaScript-Logo.png">
+                        <img alt="" src="./video/technologies/laravel.webp">
+                        <img alt="" src="./video/technologies/mongo.png">
+                        <img alt="" src="./video/technologies/bootstrap.png">
+                        <img alt="" src="./video/technologies/css.png">
+                        <img alt="" src="./video/technologies/next.png">
+                        <img alt="" src="./video/technologies/mysql.png">
+                        <img alt="" src="./video/technologies/shopify.webp">
+                        <img alt="" src="./video/technologies/nodejs.png">
+                        <img alt="" src="./video/technologies/php.png">
+                        <img alt="" src="./video/technologies/postgres.png">
+                        <img alt="" src="./video/technologies/react.png">
+                        <img alt="" src="./video/technologies/typescript.png">
+                        <img alt="" src="./video/technologies/woedpress.png">
+                        <img alt="" src="./video/technologies/tailwind.png">
+                    </div>
+                    <div class="marquee__group">
+                        <!-- Duplicate images for smooth looping -->
+                        <img alt="" src="./video/technologies/express.png">
+                        <img alt="" src="./video/technologies/flutter.png">
+                        <img alt="" src="./video/technologies/html.png">
+                        <img alt="" src="./video/technologies/JavaScript-Logo.png">
+                        <img alt="" src="./video/technologies/laravel.webp">
+                        <img alt="" src="./video/technologies/mongo.png">
+                        <img alt="" src="./video/technologies/bootstrap.png">
+                        <img alt="" src="./video/technologies/css.png">
+                        <img alt="" src="./video/technologies/next.png">
+                        <img alt="" src="./video/technologies/mysql.png">
+                        <img alt="" src="./video/technologies/shopify.webp">
+                        <img alt="" src="./video/technologies/nodejs.png">
+                        <img alt="" src="./video/technologies/php.png">
+                        <img alt="" src="./video/technologies/postgres.png">
+                        <img alt="" src="./video/technologies/react.png">
+                        <img alt="" src="./video/technologies/typescript.png">
+                        <img alt="" src="./video/technologies/wordpress.png">
+                        <img alt="" src="./video/technologies/tailwind.png">
+                    </div>
+                </div>
+            </div>
+        </article>
     </div>
+
     <style>
         @keyframes marquee {
             from {
-                transform: translateX(-50%);
+                transform: translateX(0);
             }
 
             to {
-                transform: translateX(-150%);
+                transform: translateX(-100%);
             }
         }
 
-        .animate-marquee {
-            animation: marquee 10s linear infinite;
-            display: flex;
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
             position: relative;
-            left: 50%;
-            transform: translateX(-50%);
+            width: 100%;
+            background: var(--color-bg);
+        }
+
+        .marquee__inner {
+            display: flex;
+            width: max-content;
+            animation: marquee var(--duration) linear infinite;
+        }
+
+        .marquee__group {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .marquee__group img {
+            width: var(--size);
+            background: var(--color-bg-accent);
+            padding: calc(var(--size) / 10);
+            border-radius: 10px;
+            aspect-ratio: 16 / 9;
+            object-fit: contain;
         }
     </style>
+
 
     <div class="fifth-ecom-sec">
         <h2>What can we do for you?</h2>

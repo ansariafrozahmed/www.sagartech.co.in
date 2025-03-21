@@ -1156,7 +1156,7 @@
         <h3>We would be happy to discuss the project with you in person</h3>
         <a href="tel:+919820133303" class="aa">Let's Discuss</a>
     </div> -->
-    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
+    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-1">
         <article class="logoWall-wrapper bg-white overflow-hidden relative"
             style="--size: clamp(8rem, 1rem + 20vmin, 25rem); --duration: 120s; --color-text: #ffffff; --color-bg: #fff; --color-bg-accent: #fff;">
 

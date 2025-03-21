@@ -126,7 +126,7 @@
         border: 1px solid red;
     }
 
-    .view-all{
+    .view-all {
         display: flex;
         justify-content: center;
     }
@@ -319,8 +319,8 @@
         }
 
         .third-ecom-sec .ecom-right img:hover {
-        transform: scale(1.05);
-    }
+            transform: scale(1.05);
+        }
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -378,8 +378,8 @@
         }
 
         .third-ecom-sec .ecom-right img:hover {
-        transform: scale(1.05);
-    }
+            transform: scale(1.05);
+        }
     }
 
 
@@ -970,8 +970,8 @@
         padding-left: 100px;
         padding-right: 100px;
         background: #F2F2F2;
-        margin-top:50px;
-        margin-bottom:30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
     }
 
     .newvideoinner {
@@ -983,19 +983,19 @@
         justify-content: start;
     }
 
-    .newvideoinner p{
-        margin-top:-20px;
+    .newvideoinner p {
+        margin-top: -20px;
         font-size: 18px;
     }
 
     .newvideoinner h2 {
         font-weight: 600;
-        line-height:0px;
+        line-height: 0px;
     }
 
     .newvideoinner h3 {
         font-weight: 300;
-        line-height:47px;
+        line-height: 47px;
         font-size: 22px;
     }
 
@@ -1041,19 +1041,19 @@
 
         .newvideoinner h2 {
             font-weight: 600;
-            line-height:30px;
+            line-height: 30px;
         }
 
         .newvideoinner h3 {
-        font-weight: 300;
-        line-height:10px;
-        font-size: 25px;
-    }
+            font-weight: 300;
+            line-height: 10px;
+            font-size: 25px;
+        }
 
-    .newvideoinner p{
-        margin-top:5px;
-        font-size: 18px;
-    }
+        .newvideoinner p {
+            margin-top: 5px;
+            font-size: 18px;
+        }
 
         .newvideovideo {
             width: 100%;
@@ -1106,7 +1106,7 @@
         object-fit: cover;
     }
 
-    .fourth-card img:hover{
+    .fourth-card img:hover {
         transform: scale(1.05);
     }
 
@@ -1174,198 +1174,198 @@
     }
 
     .design-lifecycle-section {
-    text-align: center;
-    background: url('background-image.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 50px 0;
-    color: #fff;
-}
+        text-align: center;
+        background: url('background-image.jpg') no-repeat center center;
+        background-size: cover;
+        padding: 50px 0;
+        color: #fff;
+    }
 
-.design-lifecycle-section h2 {
-    font-size: 32px;
-    margin-bottom: 40px;
-}
+    .design-lifecycle-section h2 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
 
-.lifecycle-steps {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.step {
-    position: relative;
-    text-align: center;
-    width: 150px;
-    margin: 20px;
-}
-
-.icon {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #E31F14;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 15px;
-}
-
-.icon img {
-    width: 50%;
-    height: auto;
-}
-
-.step p {
-    font-size: 14px;
-    margin-top: 10px;
-    color: #fff;
-}
-
-.arrow {
-    font-size: 30px;
-    /* color: #fff; */
-    color:black;
-    margin: 0 15px;
-}
-
-/* Mobile Responsive Styles */
-@media (max-width: 768px) {
     .lifecycle-steps {
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .step {
-        width: 100%;
-        margin: 20px 0;
+        position: relative;
+        text-align: center;
+        width: 150px;
+        margin: 20px;
     }
 
     .icon {
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #E31F14;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 15px;
+    }
+
+    .icon img {
+        width: 50%;
+        height: auto;
+    }
+
+    .step p {
+        font-size: 14px;
+        margin-top: 10px;
+        color: #fff;
     }
 
     .arrow {
-        display: none; /* Hide arrows on mobile for vertical layout */
+        font-size: 30px;
+        /* color: #fff; */
+        color: black;
+        margin: 0 15px;
     }
 
-    .step p {
-        font-size: 12px;
+    /* Mobile Responsive Styles */
+    @media (max-width: 768px) {
+        .lifecycle-steps {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .step {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+        }
+
+        .arrow {
+            display: none;
+            /* Hide arrows on mobile for vertical layout */
+        }
+
+        .step p {
+            font-size: 12px;
+        }
+
+        .design-lifecycle-section {
+            padding: 30px 20px;
+        }
+
+        .design-lifecycle-section h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
     }
 
-    .design-lifecycle-section {
-        padding: 30px 20px;
+    @media (max-width: 480px) {
+        .step {
+            width: 100%;
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+        }
+
+        .step p {
+            font-size: 11px;
+        }
+
+        .design-lifecycle-section h2 {
+            font-size: 20px;
+        }
     }
 
-    .design-lifecycle-section h2 {
-        font-size: 24px;
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .step {
-        width: 100%;
+    .newvideovideo img {
+        /* width:230px; */
+        width: 205px;
     }
 
-    .icon {
-        width: 60px;
-        height: 60px;
-    }
-
-    .step p {
-        font-size: 11px;
-    }
-
-    .design-lifecycle-section h2 {
-        font-size: 20px;
-    }
-}
-
-.newvideovideo img{
-    /* width:230px; */
-    width: 205px;
-}
-
-.ourprocesssection {
-    padding: 60px;
-  }
-
-  .ourprocesssection h2 {
-    font-size: 40px;
-    font-weight: 600;
-  }
-
-  .ourprocesssectiontwo {
-    padding: 20px 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 60px;
-  }
-
-  .discover {
-    max-width: 480px;
-    padding: 1em 0;
-    margin-right: auto;
-    margin-left: auto;
-    transition: opacity 0.25s;
-  }
-
-  .discover .headingggggg {
-    font-size: 22px;
-  }
-
-  .discover .headingggggg span {
-    font-size: 45px;
-    font-weight: 900;
-    /* margin-right: 5px; */
-  }
-
-  .discover .headingggggg::after {
-    width: 100px;
-    height: 3px;
-    margin: 0.25em 0px;
-    display: block;
-    content: "";
-    background: red;
-  }
-
-  @media only screen and (max-width: 767px) {
     .ourprocesssection {
-      padding: 20px;
+        padding: 60px;
     }
 
     .ourprocesssection h2 {
-      font-size: 30px;
-      font-weight: 600;
+        font-size: 40px;
+        font-weight: 600;
     }
 
     .ourprocesssectiontwo {
-      padding: 20px 0px;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0px;
+        padding: 20px 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
     }
 
     .discover {
-      max-width: 480px;
-      padding: 1em 0;
-      margin-right: auto;
-      margin-left: auto;
-      transition: opacity 0.25s;
+        max-width: 480px;
+        padding: 1em 0;
+        margin-right: auto;
+        margin-left: auto;
+        transition: opacity 0.25s;
+    }
+
+    .discover .headingggggg {
+        font-size: 22px;
+    }
+
+    .discover .headingggggg span {
+        font-size: 45px;
+        font-weight: 900;
+        /* margin-right: 5px; */
     }
 
     .discover .headingggggg::after {
-      width: 60px;
-      height: 4px;
-      margin-top: 0.25em;
-      display: block;
-      content: "";
-      background: #50b1aa;
+        width: 100px;
+        height: 3px;
+        margin: 0.25em 0px;
+        display: block;
+        content: "";
+        background: red;
     }
-}
 
+    @media only screen and (max-width: 767px) {
+        .ourprocesssection {
+            padding: 20px;
+        }
+
+        .ourprocesssection h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .ourprocesssectiontwo {
+            padding: 20px 0px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0px;
+        }
+
+        .discover {
+            max-width: 480px;
+            padding: 1em 0;
+            margin-right: auto;
+            margin-left: auto;
+            transition: opacity 0.25s;
+        }
+
+        .discover .headingggggg::after {
+            width: 60px;
+            height: 4px;
+            margin-top: 0.25em;
+            display: block;
+            content: "";
+            background: #50b1aa;
+        }
+    }
 </style>
 
 <body>
@@ -1381,7 +1381,7 @@
 
     <?php
     $page = 'services';
-    include ("include/newHeader.php");
+    include("include/newHeader.php");
     //include('include/header1.php');
     ?>
     <?php
@@ -1536,8 +1536,8 @@
                 </span> 
         </div>
         <?php
-       // include 'ecommerce-info.php'
-            ?>
+        // include 'ecommerce-info.php'
+        ?>
     </div> -->
 
 
@@ -1565,10 +1565,10 @@
 
     <?php
     //include 'include/ourClients.php'
-        ?>
+    ?>
 
 
-<!-- <div class="design-lifecycle-section">
+    <!-- <div class="design-lifecycle-section">
     <h2>The Shopify Website Design Lifecycle</h2>
     <div class="lifecycle-steps">
         <div class="step">
@@ -1583,39 +1583,99 @@
         <div class="arrow">&rarr;</div> <!-- Arrow connecting the steps
     </div>
 </div> -->
-<div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
-        <div class="flex space-x-8 animate-marquee">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-            <img height="60px" src="./video/technologies.jpg" alt="">
-        </div>
+    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
+        <article class="logoWall-wrapper bg-white overflow-hidden relative"
+            style="--size: clamp(8rem, 1rem + 20vmin, 25rem); --duration: 120s; --color-text: #ffffff; --color-bg: #fff; --color-bg-accent: #fff;">
+
+            <div class="marquee">
+                <div class="marquee__inner">
+                    <div class="marquee__group">
+                        <img alt="" src="./video/technologies/express.png">
+                        <img alt="" src="./video/technologies/flutter.png">
+                        <img alt="" src="./video/technologies/html.png">
+                        <img alt="" src="./video/technologies/JavaScript-Logo.png">
+                        <img alt="" src="./video/technologies/laravel.webp">
+                        <img alt="" src="./video/technologies/mongo.png">
+                        <img alt="" src="./video/technologies/bootstrap.png">
+                        <img alt="" src="./video/technologies/css.png">
+                        <img alt="" src="./video/technologies/next.png">
+                        <img alt="" src="./video/technologies/mysql.png">
+                        <img alt="" src="./video/technologies/shopify.webp">
+                        <img alt="" src="./video/technologies/nodejs.png">
+                        <img alt="" src="./video/technologies/php.png">
+                        <img alt="" src="./video/technologies/postgres.png">
+                        <img alt="" src="./video/technologies/react.png">
+                        <img alt="" src="./video/technologies/typescript.png">
+                        <img alt="" src="./video/technologies/woedpress.png">
+                        <img alt="" src="./video/technologies/tailwind.png">
+                    </div>
+                    <div class="marquee__group">
+                        <!-- Duplicate images for smooth looping -->
+                        <img alt="" src="./video/technologies/express.png">
+                        <img alt="" src="./video/technologies/flutter.png">
+                        <img alt="" src="./video/technologies/html.png">
+                        <img alt="" src="./video/technologies/JavaScript-Logo.png">
+                        <img alt="" src="./video/technologies/laravel.webp">
+                        <img alt="" src="./video/technologies/mongo.png">
+                        <img alt="" src="./video/technologies/bootstrap.png">
+                        <img alt="" src="./video/technologies/css.png">
+                        <img alt="" src="./video/technologies/next.png">
+                        <img alt="" src="./video/technologies/mysql.png">
+                        <img alt="" src="./video/technologies/shopify.webp">
+                        <img alt="" src="./video/technologies/nodejs.png">
+                        <img alt="" src="./video/technologies/php.png">
+                        <img alt="" src="./video/technologies/postgres.png">
+                        <img alt="" src="./video/technologies/react.png">
+                        <img alt="" src="./video/technologies/typescript.png">
+                        <img alt="" src="./video/technologies/wordpress.png">
+                        <img alt="" src="./video/technologies/tailwind.png">
+                    </div>
+                </div>
+            </div>
+        </article>
     </div>
+
     <style>
         @keyframes marquee {
             from {
-                transform: translateX(-50%);
+                transform: translateX(0);
             }
 
             to {
-                transform: translateX(-150%);
+                transform: translateX(-100%);
             }
         }
 
-        .animate-marquee {
-            animation: marquee 10s linear infinite;
-            display: flex;
+        .marquee {
+            overflow: hidden;
+            white-space: nowrap;
             position: relative;
-            left: 50%;
-            transform: translateX(-50%);
+            width: 100%;
+            background: var(--color-bg);
+        }
+
+        .marquee__inner {
+            display: flex;
+            width: max-content;
+            animation: marquee var(--duration) linear infinite;
+        }
+
+        .marquee__group {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .marquee__group img {
+            width: var(--size);
+            background: var(--color-bg-accent);
+            padding: calc(var(--size) / 10);
+            border-radius: 10px;
+            aspect-ratio: 16 / 9;
+            object-fit: contain;
         }
     </style>
-<div class="newvideo mt-0">
+
+    <div class="newvideo mt-0">
         <div class="newvideoinner">
             <h3>Do you want to develop a</h3>
             <h2>Wordpress Website</h2>
@@ -1624,43 +1684,43 @@
             [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
             </span> -->
             <p>
-            [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
+                [Talk to us and share your requirements. We will craft the perfect solution for your online store. ]
             </p>
             <div class="newvideobutton">
                 <a href="#open-modal">Request A Quote</a>
             </div>
         </div>
         <div class="newvideovideo">
-        <img src="./images/wordpress.png" alt="wordpress website development company" title="wordpress website development company">
+            <img src="./images/wordpress.png" alt="wordpress website development company" title="wordpress website development company">
         </div>
     </div>
 
 
 
-<div class="fourth-brand-sec">
+    <div class="fourth-brand-sec">
         <h2>Our Worpress Websites</h2>
         <div class="fourth-card-div">
             <div class="fourth-card">
                 <img src="./portfolio-mockups/education/capdiw.webp" alt="wordpress website development company" title="wordpress website development company">
             </div>
             <div class="fourth-card">
-            <img src="./portfolio-mockups/ecommerce/mistleblue.webp" alt="wordpress website development company" title="wordpress website development company">
+                <img src="./portfolio-mockups/ecommerce/mistleblue.webp" alt="wordpress website development company" title="wordpress website development company">
             </div>
             <div class="fourth-card">
-            <img src="./portfolio-mockups/ecommerce/bsauto.webp" alt="wordpress website development company" title="wordpress website development company">
+                <img src="./portfolio-mockups/ecommerce/bsauto.webp" alt="wordpress website development company" title="wordpress website development company">
             </div>
             <div class="fourth-card">
-            <img src="./portfolio-mockups/ecommerce/almarjaan.webp" alt="wordpress website development company" title="wordpress website development company">
+                <img src="./portfolio-mockups/ecommerce/almarjaan.webp" alt="wordpress website development company" title="wordpress website development company">
             </div>
             <div class="fourth-card">
-            <img src="./portfolio-mockups/catalogue/asrehexports.webp" alt="wordpress website development company" title="wordpress website development company">
+                <img src="./portfolio-mockups/catalogue/asrehexports.webp" alt="wordpress website development company" title="wordpress website development company">
             </div>
             <div class="fourth-card">
-            <img src="./portfolio-mockups/catalogue/asaudio.webp" alt="wordpress website development company" title="wordpress website development company">
+                <img src="./portfolio-mockups/catalogue/asaudio.webp" alt="wordpress website development company" title="wordpress website development company">
             </div>
         </div>\
         <div class="view-all">
-        <a href="./portfolio/website" class="button-62" role="button">View All</a>
+            <a href="./portfolio/website" class="button-62" role="button">View All</a>
         </div>
         <!-- <div class="portfolio-button">
             <a href="our-portfolio">See Our Work</a>
@@ -1670,34 +1730,34 @@
 
 
     <div class="ourprocesssection">
-    <h2>Key Benefits of WordPress Website Development</h2>
-    <div class="ourprocesssectiontwo">
-      <div class="discover">
-        <div class="headingggggg">Cost-Effective</div>
-        <p>WordPress is an open-source platform, which means there are no licensing fees involved.</p>
-      </div>
-      <div class="discover">
-        <div class="headingggggg">Scalability</div>
-        <p>As your business grows, your WordPress website can easily scale to accommodate increased traffic and features.</p>
-      </div>
-      <div class="discover">
-        <div class="headingggggg">Community Support</div>
-        <p>WordPress has a large and active community, providing ample resources and support.</p>
-      </div>
-      <div class="discover">
-        <div class="headingggggg">Search Engine Optimization</div>
-        <p>WordPress websites are inherently SEO-friendly, making it easier for search engines to index and rank your content.</p>
-      </div>
-      <div class="discover">
-        <div class="headingggggg">Customizability</div>
-        <p>With countless themes and plugins available, you can create a website that truly reflects your brand.</p>
-      </div>
-      <div class="discover">
-        <div class="headingggggg">Mobile Friendly</div>
-        <p>Wordpress websites made to adapt for all different types of mobile devices.</p>
-      </div>
+        <h2>Key Benefits of WordPress Website Development</h2>
+        <div class="ourprocesssectiontwo">
+            <div class="discover">
+                <div class="headingggggg">Cost-Effective</div>
+                <p>WordPress is an open-source platform, which means there are no licensing fees involved.</p>
+            </div>
+            <div class="discover">
+                <div class="headingggggg">Scalability</div>
+                <p>As your business grows, your WordPress website can easily scale to accommodate increased traffic and features.</p>
+            </div>
+            <div class="discover">
+                <div class="headingggggg">Community Support</div>
+                <p>WordPress has a large and active community, providing ample resources and support.</p>
+            </div>
+            <div class="discover">
+                <div class="headingggggg">Search Engine Optimization</div>
+                <p>WordPress websites are inherently SEO-friendly, making it easier for search engines to index and rank your content.</p>
+            </div>
+            <div class="discover">
+                <div class="headingggggg">Customizability</div>
+                <p>With countless themes and plugins available, you can create a website that truly reflects your brand.</p>
+            </div>
+            <div class="discover">
+                <div class="headingggggg">Mobile Friendly</div>
+                <p>Wordpress websites made to adapt for all different types of mobile devices.</p>
+            </div>
+        </div>
     </div>
-  </div>
 
 
 
@@ -1826,28 +1886,28 @@
         <div class="accordion-item">
             <h2>Do WordPress developers in Mumbai provide ongoing support and maintenance?</h2>
             <div class="accordion-content">
-            <p>WordPress developers offer ongoing support and maintenance services. This can include regular updates, security monitoring, troubleshooting, and performance optimization to ensure your website runs smoothly over time.</p>
+                <p>WordPress developers offer ongoing support and maintenance services. This can include regular updates, security monitoring, troubleshooting, and performance optimization to ensure your website runs smoothly over time.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What should I look for when hiring a WordPress developer?</h2>
             <div class="accordion-content">
-            <p>When hiring a WordPress developer, consider their experience, portfolio, client testimonials, and expertise in relevant technologies. It's also important to discuss your specific needs and ensure they have a clear understanding of your project.</p>
+                <p>When hiring a WordPress developer, consider their experience, portfolio, client testimonials, and expertise in relevant technologies. It's also important to discuss your specific needs and ensure they have a clear understanding of your project.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Can WordPress developers in Mumbai help with SEO and digital marketing?</h2>
             <div class="accordion-content">
-            <p>Yes, many WordPress developers also have expertise in SEO and digital marketing. They can optimize your website for search engines and help with strategies to improve your online presence.</p>
+                <p>Yes, many WordPress developers also have expertise in SEO and digital marketing. They can optimize your website for search engines and help with strategies to improve your online presence.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How long does it take to develop a WordPress website?</h2>
             <div class="accordion-content">
-            <p>The time required to develop a WordPress website depends on its complexity. A simple website can take a few days, while more complex projects may take several weeks to months. It’s best to discuss timelines with the developer based on your specific needs.</p>
+                <p>The time required to develop a WordPress website depends on its complexity. A simple website can take a few days, while more complex projects may take several weeks to months. It’s best to discuss timelines with the developer based on your specific needs.</p>
             </div>
         </div>
 
@@ -1908,11 +1968,11 @@
     ?>
 
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1928,7 +1988,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
