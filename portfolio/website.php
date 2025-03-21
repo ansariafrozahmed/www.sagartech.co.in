@@ -275,7 +275,7 @@ include("../include/config.php");
         line-height: 20px;
         list-style: none;
         margin: 0;
-        outline: none;
+        /* outline: none !important; */
         padding: 10px 16px;
         position: relative;
         text-align: center;

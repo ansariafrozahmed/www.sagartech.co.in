@@ -170,11 +170,43 @@
       "./image/techStack/16.png",
       "./image/techStack/17.png",
       "./image/techStack/18.png",
+      "./image/techStack/19.png",
+      "./image/techStack/20.png",
+      "./image/techStack/21.png",
+      "./image/techStack/22.png",
+      "./image/techStack/23.png",
+      "./image/techStack/24.png",
     ];
 
-    foreach ($imageUrls as $imageUrl) {
+    $techNames = [
+      "Nodejs",
+      "Reactjs",
+      "Nextjs",
+      "PostgreSQL",
+      "MySQL",
+      "WordPress",
+      "Bootstrap",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Shopify",
+      "MongoDB",
+      "TypeScript",
+      "Flutter",
+      "PHP",
+      "Laravel",
+      "Expressjs",
+      "Firebase",
+      "Remix",
+      "Expo",
+      "React Native",
+      "Cloudflare",
+      "JWT"
+    ];
+    foreach ($imageUrls as $index => $imageUrl) {
       echo '<div class="image-div">';
-      echo '<img src="' . $imageUrl . '" alt="Client Logos" title="Client Logos">';
+      echo '<img src="' . $imageUrl . '" alt="' . $techNames[$index] . '" title="' . $techNames[$index] . '">';
       echo '</div>';
     }
     ?>
