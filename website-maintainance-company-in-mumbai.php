@@ -1253,7 +1253,7 @@
                         <img alt="" src="./video/technologies/postgres.png">
                         <img alt="" src="./video/technologies/react.png">
                         <img alt="" src="./video/technologies/typescript.png">
-                        <img alt="" src="./video/technologies/woedpress.png">
+                        <img alt="" src="./video/technologies/wordpress.png">
                         <img alt="" src="./video/technologies/tailwind.png">
                     </div>
                     <div class="marquee__group">
