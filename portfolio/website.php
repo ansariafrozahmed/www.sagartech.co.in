@@ -536,14 +536,14 @@ include("../include/config.php");
         </p>
     </div> -->
 
-    <div class="welcometo">
+    <!-- <div class="welcometo">
         <h1>Welcome to Sagar Tech Technical Solution</h1>
         <P class="pp">We are an award-winning web development and digital marketing company with a team of skilled
             developers that are experienced in building appealing websites that can significantly improve your business
             by driving up revenue.Our journey has been marked by creativity, dedication, and a passion for delivering
             top-notch technical solutions that help businesses Grow
         </P>
-        <!-- <div class="why-list">
+        <div class="why-list">
             <div class="listt">
                 <span>
                     <img src="../images/coding.png" height="50" alt="">
@@ -589,8 +589,8 @@ include("../include/config.php");
             portfolio, check out our award-winning projects, and see how our web development and digital marketing
             solutions can redefine your online presence. Your success story begins right here with Sagar Tech.Technical
             Soultion
-        </P> -->
-    </div>
+        </P>
+    </div> -->
 
 
     <style>
@@ -622,14 +622,14 @@ include("../include/config.php");
             // Your implementation to open the city
         }
 
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             // Retrieve the active tab from localStorage
             var activeTab = localStorage.getItem('activeTab');
 
             // Check if an active tab is stored in localStorage
             if (activeTab) {
                 // Remove the 'active' class from all tabs
-                document.querySelectorAll('.buttons').forEach(function(button) {
+                document.querySelectorAll('.buttons').forEach(function (button) {
                     button.classList.remove('active');
                 });
 
@@ -643,10 +643,10 @@ include("../include/config.php");
         });
 
         // Event listener to store the active tab in localStorage when clicked
-        document.querySelectorAll('.buttons').forEach(function(button) {
-            button.addEventListener('click', function() {
+        document.querySelectorAll('.buttons').forEach(function (button) {
+            button.addEventListener('click', function () {
                 // Remove the 'active' class from all tabs
-                document.querySelectorAll('.buttons').forEach(function(btn) {
+                document.querySelectorAll('.buttons').forEach(function (btn) {
                     btn.classList.remove('active');
                 });
 
@@ -660,7 +660,7 @@ include("../include/config.php");
         });
 
         // Clear localStorage and set active tab to "Business" on reload
-        window.addEventListener('beforeunload', function() {
+        window.addEventListener('beforeunload', function () {
             localStorage.removeItem('activeTab');
             localStorage.setItem('activeTab', 'Business');
         });
@@ -1411,7 +1411,7 @@ include("../include/config.php");
     <script src="../js/custom.js"></script>
 
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1427,7 +1427,7 @@ include("../include/config.php");
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
