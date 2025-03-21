@@ -1568,7 +1568,7 @@
         <div class="arrow">&rarr;</div> <!-- Arrow connecting the steps
     </div>
 </div> -->
-    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-3">
+    <div style="border-top: #f2f2f2 solid 2px;" class="overflow-hidden relative bg-gray-100 py-1">
         <article class="logoWall-wrapper bg-white overflow-hidden relative"
             style="--size: clamp(8rem, 1rem + 20vmin, 25rem); --duration: 120s; --color-text: #ffffff; --color-bg: #fff; --color-bg-accent: #fff;">
 
