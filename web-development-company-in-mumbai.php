@@ -959,8 +959,8 @@
         <?php //include 'include/quote.php' 
         ?>
 
-        <a href="#open-modal" class="quote-button" style="color:white">Get Quote</a>
-        <a href="portfolio/website" class="quote-button" style="color:white">Quick Enquiry</a>
+        <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+        <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
       </div>
     </div>
     <div class="right">
@@ -1101,32 +1101,10 @@
         <h2>Few of our project showcased</h2>
     </div> -->
 
-
-  <div class="techstack">
-    <h2>Our Tech Stack</h2>
-    <!-- <div class="texhstackimg">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-        </div> -->
-    <div style="display: flex; align-items: center; justify-content: center; width: 100%;">
-      <img src="./images/techstack.png" style="width: 100%;" alt="Web Development">
-    </div>
-  </div>
-
+  <hr>
+  <?php
+  include 'include/techStack.php'
+  ?>
 
 
   <div class="ourprocesssection">
