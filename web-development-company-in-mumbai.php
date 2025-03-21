@@ -58,7 +58,8 @@
     position: relative;
     padding: 70px 60px;
     overflow: hidden;
-    background-image: url("./banner/banner.webp");
+    /* background: radial-gradient(ellipse at center, #ff2828 0%, #000000 130%); */
+    background: radial-gradient(ellipse at center, #ff2828 30%, #000000 100%);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -939,8 +940,35 @@
   <!-- /HEADER END -->
 
 
-  <div class="herosectionnew">
-    <h1>No. 1 Web Development Company in Mumbai</h1>
+  <!-- <div class="herosectionnew"> -->
+  <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;color:white">No. 1 Web Development Company in Mumbai
+      </h2>
+      <ul style="color:white" class="herobreadrumb">
+        <li>Home</li>
+        <li>/</li>
+        <li>Web design company in mumbai</li>
+      </ul>
+      <!-- <h3>Subtitle</h3> -->
+      <p style="color:white">Our specialty is creating beautiful, functional websites that increase your online visibility. We use modern technologies like Node.js, WordPress, Next.js, React.js, and Shopify as a top web design company. Our talented team of web designers creates outstanding outcomes that are customized to meet your company's objectives. Together, let's create a growth-oriented website. Reach out to us right now!
+      </p>
+      <br>
+      <div class="herobuttonsnew">
+
+        <?php //include 'include/quote.php' 
+        ?>
+
+        <a href="#open-modal" class="quote-button" style="color:white">Get Quote</a>
+        <a href="portfolio/website" class="quote-button" style="color:white">Quick Enquiry</a>
+      </div>
+    </div>
+    <div class="right">
+
+      <img src="./image/homepage/web%20dev%20&digital%20marketing%20mockup%20(home%20page)%20(1).webp" alt="Web Development">
+    </div>
+
+    <!-- <h1>No. 1 Web Development Company in Mumbai</h1>
     <ul class="herobreadrumb">
       <li>Home</li>
       <li>/</li>
@@ -948,10 +976,12 @@
     </ul>
     <p class="herosectionpara">Our specialty is creating beautiful, functional websites that increase your online visibility. We use modern technologies like Node.js, WordPress, Next.js, React.js, and Shopify as a top web design company. Our talented team of web designers creates outstanding outcomes that are customized to meet your company's objectives. Together, let's create a growth-oriented website. Reach out to us right now!</p>
     <div class="herobuttonsnew">
-      <!-- <a href="#" class="button">Quick Enquiry</a> -->
+     <a href="#" class="button">Quick Enquiry</a> 
       <?php include 'include/quote.php' ?>
-      <a href="portfolio/website" class="quote-button" style="color:white">View Portfolio</a>
-    </div>
+   
+      <a href="#open-modal" class="quote-button" style="color:white">Get Quote</a>
+     website" class="quote-button" style="color:white">View Portfolio</a>
+    </div> -->
   </div>
 
 
@@ -1345,6 +1375,104 @@
   </script>
 
 
+
+
+
+  <style>
+    .newsecondsection {
+      padding: 50px 60px;
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      justify-content: start;
+    }
+
+    .newsecondsection .left {
+      width: 50%;
+    }
+
+    .newsecondsection .left h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .newsecondsection .left h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .newsecondsection .right {
+      width: 50%;
+    }
+
+    .newsecondsection .right img {
+      height: 100%;
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .dsanjkdhw0qp {
+        height: auto !important;
+      }
+
+      .newsecondsection {
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        justify-content: start;
+      }
+
+      .newsecondsection .left {
+        width: 100%;
+      }
+
+      .newsecondsection .left h2 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .newsecondsection .left h3 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .newsecondsection .right {
+        width: 100%;
+      }
+
+      .newsecondsection .right img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  </style>
+
+  <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;color:white;margin-bottom:15px">Redesign Your Website by Working with a Skilled Web Design Agency
+      </h2>
+      <!-- <h3>Subtitle</h3> -->
+      <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...
+
+      </p>
+      <br>
+      <div class="herobuttonsnew">
+        <!-- <a href="#">Quick Enquiry</a> -->
+        <a href="https://sagartech.co.in/blog/redesign-your-website-by-working-with-a-skilled-web-design-agency" class="button">READ BLOG POST</a>
+      </div>
+    </div>
+    <div class="right">
+      <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+      <div class="dsanjkdhw0qp" style="height:400px">
+        <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2025/03/Web-design-agency-feature-image.jpg" alt="Web Development">
+      </div>
+    </div>
+  </div>
 
 
   <?php include("include/footer.php"); ?>
