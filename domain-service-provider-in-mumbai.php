@@ -540,7 +540,7 @@
         }
 
         .animate-marquee {
-            animation: marquee 10s linear infinite;
+            animation: marquee 9999999999999999999999999999999999999999999999999999999s linear infinite;
             display: flex;
             position: relative;
             left: 50%;
