@@ -933,7 +933,7 @@
   <?php
   $page = 'services';
   // include("include/trialh.php");
-  include ("include/newHeader.php");
+  include("include/newHeader.php");
   //include('include/header1.php');
   ?>
   <!-- /HEADER END -->
@@ -1010,7 +1010,7 @@
 
   <?php
   include 'include/ourClients.php'
-    ?>
+  ?>
 
 
 
@@ -1066,7 +1066,7 @@
 
   <?php
   include 'include/portfolioSlider.php'
-    ?>
+  ?>
   <!-- <div class="portfoliocar">
         <h2>Few of our project showcased</h2>
     </div> -->
@@ -1347,10 +1347,10 @@
 
 
 
-  <?php include ("include/footer.php"); ?>
+  <?php include("include/footer.php"); ?>
   <script src="js/custom.js"></script>
   <script type="text/javascript">
-    (function () {
+    (function() {
       var options = {
         whatsapp: "+919820133303", // WhatsApp number
         email: "info@sagartech.co.in", // Email
@@ -1366,7 +1366,7 @@
       s.type = 'text/javascript';
       s.async = true;
       s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function () {
+      s.onload = function() {
         WhWidgetSendButton.init(host, proto, options);
       };
       var x = document.getElementsByTagName('script')[0];
