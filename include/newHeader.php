@@ -1,5 +1,5 @@
 <?php
-include ('config.php');
+include('config.php');
 ?>
 
 <style>
@@ -623,6 +623,7 @@ include ('config.php');
     }
   }
 </style>
+<link rel="shortcut icon" href="images/logoonly.jpg" />
 <div class="headerAnnouncement">
   <div class="announcementLeft">
     <ul>
@@ -742,8 +743,8 @@ include ('config.php');
                     </li>
                     <li>
                       <a href="<?= WEB_URL ?>website-maintainance-company-in-mumbai">Website Maintainance</a>
-                      </li>
-                      <li>
+                    </li>
+                    <li>
                       <a href="<?= WEB_URL ?>wordpress-developers-in-mumbai">Wordpress Development</a>
                     </li>
                     <li>
@@ -877,10 +878,12 @@ include ('config.php');
   document.querySelector(".menu-overlay").addEventListener("click", () => {
     toggleMenu();
   });
+
   function toggleMenu() {
     menu.classList.toggle("active");
     document.querySelector(".menu-overlay").classList.toggle("active");
   }
+
   function showSubMenu(hasChildren) {
     subMenu = hasChildren.querySelector(".sub-menu");
     subMenu.classList.add("active");
@@ -900,7 +903,7 @@ include ('config.php');
     menu.querySelector(".mobile-menu-head").classList.remove("active");
   }
 
-  window.onresize = function () {
+  window.onresize = function() {
     if (this.innerWidth > 991) {
       if (menu.classList.contains("active")) {
         toggleMenu();

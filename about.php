@@ -70,8 +70,7 @@
         text-align: justify;
     }
 
-    body {
-    }
+   
 
     ofds {
         font-size: 40px;

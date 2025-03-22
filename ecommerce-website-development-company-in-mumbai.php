@@ -1052,8 +1052,113 @@
     // include 'include/newHeader.html'
     ?>
 
+<style>
+    .newsecondsection {
+      padding: 50px 60px;
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      justify-content: start;
+    }
 
-    <div class="herosectionnew">
+    .newsecondsection .left {
+      width: 50%;
+    }
+
+    .newsecondsection .left h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    .newsecondsection .left h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .newsecondsection .right {
+      width: 50%;
+    }
+
+    .newsecondsection .right img {
+      height: 100%;
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .dsanjkdhw0qp {
+        height: auto !important;
+      }
+
+      .newsecondsection {
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        justify-content: start;
+      }
+
+      .newsecondsection .left {
+        width: 100%;
+      }
+
+      .newsecondsection .left h2 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .newsecondsection .left h3 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .newsecondsection .right {
+        width: 100%;
+      }
+
+      .newsecondsection .right img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Ecommerce Website For Your Business </h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Ecommerce Website</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white"> <a style="color: #000;" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands out as an
+                award-winning 🏆 <a style="color: #000;" href="web-development-company-in-mumbai">Web Development Company</a>
+                which
+                provide <a style="color: #000;" href="https://www.indiamart.com/sagartech-technicalsolutions/e-commerce-website-design.html" target="_blank" class="interlink">ecommerce website</a> development services in Mumbai. Having a track record of providing innovative
+                solutions We take pride in our ability to develop e-commerce websites that not only matches your business
+                needs but also exceed the needs of businesses looking for an efficient and eye-catching online presence. we
+                work using latest technology React, Next.js, Node.js,etc.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
+        </div>
+        <div class="right">
+
+            <img src="./image/homepage/web%20dev%20&digital%20marketing%20mockup%20(home%20page)%20(1).webp" alt="Web Development">
+        </div>
+
+
+    </div>
+
+
+    <!-- <div class="herosectionnew">
         <h1>Ecommerce Website For Your Business</h1>
         <ul class="herobreadrumb">
             <li>Home</li>
@@ -1071,12 +1176,9 @@
         </p>
         <div class="herobuttonsnew">
             <a href="portfolio/ecommerce-website" class="button">View Portfolio</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
-            // include 'include/quote-modal.php'
-            ?>
+          
         </div>
-    </div>
+    </div> -->
 
     <?php
     // include('quote-modal.php')
