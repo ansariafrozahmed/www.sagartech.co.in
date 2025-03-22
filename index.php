@@ -75,6 +75,10 @@ include('include/config.php');
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="images/logoonly.jpg" />
+        <link rel="shortcut icon" href="images/logoonly.jpg" type="image/png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="images/logoonly.png">
+        <link rel="icon" href="images/logoonly.jpg" type="image/x-icon" />
+
         <!-- bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <!-- REVOLUTION STYLE SHEETS -->

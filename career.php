@@ -292,8 +292,6 @@ include "include/config.php";
     </div>
     <style>
         body {
-            font-family: Arial, sans-serif;
-
             margin: 0;
             padding: 0;
         }
@@ -380,35 +378,6 @@ include "include/config.php";
     </section>
 
 
-    <div class="careerthirddiv">
-        <h2>We Are Hiring !</h2>
-        <div class="accordion">
-            <?php
-            $api_url = 'https://sagartech.co.in/blogs/wp-json/wp/v2/career?_fields=meta';
-
-            $response = file_get_contents($api_url);
-
-            $data = json_decode($response);
-
-            if ($data && is_array($data) && !empty($data)) {
-                foreach ($data as $item) {
-            ?>
-                    <div class="accordion-item">
-                        <h2><?php echo $item->meta->job_title; ?></h2>
-                        <div class="accordion-content">
-                            <p><?php echo $item->meta->job_description; ?></p>
-                        </div>
-                    </div>
-            <?php
-                }
-            } else {
-                echo '<p>Currently no vacancy</p>';
-            }
-            ?>
-        </div>
-        <p>Send your CV to <a class="interlink" href="mail:info@sagartech.co.in">info@sagartech.co.in</a>, mentioning
-            the post applied for in the subject line.</p>
-    </div>
 
 
     <?php

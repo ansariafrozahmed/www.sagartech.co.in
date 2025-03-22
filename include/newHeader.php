@@ -623,7 +623,11 @@ include('config.php');
     }
   }
 </style>
-<link rel="shortcut icon" href="images/logoonly.jpg" />
+<link rel="shortcut icon" href="images/logoonly.jpg" type="image/png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="images/logoonly.png">
+<link rel="icon" href="images/logoonly.jpg" type="image/x-icon" />
+
+
 <div class="headerAnnouncement">
   <div class="announcementLeft">
     <ul>
