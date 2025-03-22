@@ -37,6 +37,8 @@ include "include/config.php";
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1">
     </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -57,7 +59,7 @@ include "include/config.php";
 
     .careerbanner {
         padding: 150px 40px;
-        background-image: url('./banner/careerbanner.webp');
+        background-image: url('https://umoja.africa/cdn/shop/files/CATEGORY_WEB_BANNERS_CAREER.jpg?v=1721637156&width=1445');
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -69,7 +71,7 @@ include "include/config.php";
         position: absolute;
         inset: 0;
         background-color: black;
-        opacity: 0.7;
+        opacity: 0.2;
         z-index: 10;
     }
 
@@ -273,30 +275,110 @@ include "include/config.php";
 
     <?php
     $page = 'career';
-    include ("include/newHeader.php");
+    include("include/newHeader.php");
     ?>
 
 
     <div class="careerbanner">
         <div class="careerbanneroverlay"></div>
-        <div class="contentdiv">
+        <!-- <div class="contentdiv">
             <h2>JOBS</h2>
             <p>Pursue your IT career in a growing environment by working alongside a brilliant group of professionals.
             </p>
             <p>Send your CV to <a class="interlink" href="mail:info@sagartech.co.in">info@sagartech.co.in</a>,
                 mentioning
                 the post applied for in the subject line.</p>
-        </div>
+        </div> -->
     </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
 
-    <div class="careerseconddiv">
-        <h2>Jobs At Sagar Tech - Technical Solutions</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error labore id autem et necessitatibus laudantium,
-            minima incidunt magnam numquam vero aut natus impedit modi, vitae placeat eius corrupti, ullam hic. Commodi
-            obcaecati itaque voluptate eos earum natus eaque odio tempora sint iusto alias, asperiores distinctio autem!
-            Porro nobis aperiam expedita alias ipsum minus ut veritatis totam libero doloribus error animi, molestiae
-            modi dolorem! Ipsa veritatis cum voluptate optio nostrum.</p>
-    </div>
+            margin: 0;
+            padding: 0;
+        }
+
+        .career-section {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .career-section h2 {
+            color: #ff2828;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .job-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .job-card {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(255, 40, 40, 0.4);
+            transition: transform 0.3s;
+        }
+
+        .job-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .job-title {
+            font-size: 1.5rem;
+            color: #ff2828;
+            margin-bottom: 10px;
+        }
+
+        .job-description {
+            font-size: 1rem;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        .apply-btn {
+            background: #ff2828;
+            color: white !important;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        .apply-btn:hover {
+            background: #fff !important;
+            color: black
+        }
+    </style>
+    <section class="career-section py-16 px-6 md:px-12 lg:px-24 ">
+        <h2 class="text-4xl font-bold text-center mb-12 text-white">Current Job Openings</h2>
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+            <!-- SEO Executive -->
+            <div class="job-card bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition-all">
+                <h3 class="job-title text-xl md:h-[55px] font-semibold text-white">SEO Executive</h3>
+                <p class="job-description text-gray-300 mt-2">Looking for an SEO expert with at least 1 year of experience.</p>
+                <a href="#" class="apply-btn inline-block mt-4 px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-all">Apply Now</a>
+            </div>
+
+            <!-- Business Development Manager -->
+            <div class="job-card bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition-all">
+                <h3 class="job-title text-xl  md:h-[55px font-semibold text-white">Business Development Manager</h3>
+                <p class="job-description text-gray-300 mt-2">Seeking a BDM with 1+ years of experience in the IT development sector.</p>
+                <a href="#" class="apply-btn inline-block mt-4 px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-all">Apply Now</a>
+            </div>
+
+
+        </div>
+    </section>
+
 
     <div class="careerthirddiv">
         <h2>We Are Hiring !</h2>
@@ -310,14 +392,14 @@ include "include/config.php";
 
             if ($data && is_array($data) && !empty($data)) {
                 foreach ($data as $item) {
-                    ?>
+            ?>
                     <div class="accordion-item">
                         <h2><?php echo $item->meta->job_title; ?></h2>
                         <div class="accordion-content">
                             <p><?php echo $item->meta->job_description; ?></p>
                         </div>
                     </div>
-                    <?php
+            <?php
                 }
             } else {
                 echo '<p>Currently no vacancy</p>';
@@ -330,7 +412,7 @@ include "include/config.php";
 
 
     <?php
-    include ("include/footer.php");
+    include("include/footer.php");
     ?>
     <script>
         document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
@@ -351,7 +433,7 @@ include "include/config.php";
     </script>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -367,7 +449,7 @@ include "include/config.php";
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
