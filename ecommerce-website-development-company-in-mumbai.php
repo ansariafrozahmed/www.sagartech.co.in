@@ -1052,76 +1052,76 @@
     // include 'include/newHeader.html'
     ?>
 
-<style>
-    .newsecondsection {
-      padding: 50px 60px;
-      display: flex;
-      gap: 50px;
-      align-items: center;
-      justify-content: start;
-    }
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    .newsecondsection .left {
-      width: 50%;
-    }
+        .newsecondsection .left {
+            width: 50%;
+        }
 
-    .newsecondsection .left h2 {
-      font-size: 30px;
-      font-weight: 600;
-    }
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
 
-    .newsecondsection .left h3 {
-      font-size: 20px;
-      font-weight: 500;
-    }
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
 
-    .newsecondsection .right {
-      width: 50%;
-    }
+        .newsecondsection .right {
+            width: 50%;
+        }
 
-    .newsecondsection .right img {
-      height: 100%;
-      width: 100%;
-    }
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
 
-    @media only screen and (max-width: 767px) {
-      .dsanjkdhw0qp {
-        height: auto !important;
-      }
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
 
-      .newsecondsection {
-        padding: 50px 20px;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 20px;
-        align-items: center;
-        justify-content: start;
-      }
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
 
-      .newsecondsection .left {
-        width: 100%;
-      }
+            .newsecondsection .left {
+                width: 100%;
+            }
 
-      .newsecondsection .left h2 {
-        font-size: 30px;
-        font-weight: 600;
-      }
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
 
-      .newsecondsection .left h3 {
-        font-size: 20px;
-        font-weight: 500;
-      }
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
 
-      .newsecondsection .right {
-        width: 100%;
-      }
+            .newsecondsection .right {
+                width: 100%;
+            }
 
-      .newsecondsection .right img {
-        height: 100%;
-        width: 100%;
-      }
-    }
-  </style>
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
             <h2 style="line-height:40px;color:white">Ecommerce Website For Your Business </h2>
@@ -1151,7 +1151,7 @@
         </div>
         <div class="right">
 
-            <img src="./image/homepage/web%20dev%20&digital%20marketing%20mockup%20(home%20page)%20(1).webp" alt="Web Development">
+            <img src="./image/homepage/trillionair-mockup.webp" alt="Web Development">
         </div>
 
 
