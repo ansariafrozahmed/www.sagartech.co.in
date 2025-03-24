@@ -625,7 +625,9 @@ include('config.php');
 
   .right img {
     transform: scale(0.5);
-    animation: scaleUp 1s forwards;
+    animation: scaleUp 1s forwards ease-in-out;
+    animation-delay: 0.5s;
+    /* 0.5 second delay */
   }
 
   @keyframes scaleUp {
