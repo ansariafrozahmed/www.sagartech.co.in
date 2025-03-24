@@ -1,4 +1,3 @@
-
 <?php
 // $slides = array(
 //   array(
@@ -58,125 +57,134 @@ $slides = array(
     'web_title' => 'Educ4te',
     'desc' => 'At Educ4te, we are dedicated to revolutionizing online learning by providing comprehensive, engaging, and interactive courses across a wide range of subjects. Our platform is designed to make education accessible and enjoyable for learners of all ages. With user-friendly navigation, cutting-edge technology, and a vast array of expertly crafted content, we empower individuals to achieve their educational goals and unlock their true potential. Join Educ4te and embark on a transformative learning journey tailored just for you!'
   ),
-    array(
+  array(
     'type' => 'Business Website',
     'image' => './image/homepage/verify8-v1.webp',
     'web_title' => 'Verify8',
     'desc' => 'Verify8 is your trusted partner in ensuring accuracy, security, and compliance through cutting-edge verification solutions. Our platform is designed to simplify and streamline verification processes across industries, offering fast, reliable, and efficient services tailored to your needs. With advanced technology and a user-focused interface, Verify8 empowers businesses and individuals to verify identities, documents, and data with confidence. Choose Verify8 for seamless verification that drives trust and success.'
-    ),
-    array(
+  ),
+  array(
     'type' => 'Business Website',
     'image' => './image/homepage/dontquit-v2.webp',
     'web_title' => "Don't Quit Ventures",
     'desc' => "Don't Quit Ventures is more than just a brand; it's a movement dedicated to fueling perseverance, passion, and progress. Our platform is designed to inspire and empower entrepreneurs, creators, and dreamers to push boundaries and achieve their goals. Through innovative solutions, expert guidance, and a vibrant community, we help you navigate challenges and turn ambitions into reality. At Don't Quit Ventures, we believe success starts with resilience—because quitting is never an option."
-    ),
-    
-    array(
+  ),
+
+  array(
     'type' => 'Travel Website',
     'image' => './image/homepage/classic-v1.webp',
     'web_title' => 'Go Classic Tour',
     'desc' => "Go Classic Tour is your gateway to unforgettable travel experiences, offering expertly curated tours that combine luxury, adventure, and cultural immersion. Our user-friendly platform allows you to explore a wide range of destinations and customizable packages tailored to your preferences. Whether you're seeking a serene escape or an exhilarating journey, Go Classic Tour ensures every moment of your trip is seamless and memorable. Discover the world with us and create stories that last a lifetime!"
   ),
-    array(
+  array(
     'type' => 'Business Website',
     'image' => './image/homepage/alsalama-v2.webp',
     'web_title' => 'Noor Al Salama',
     'desc' => 'Al Salama Accident Repair Center is your trusted partner in restoring vehicles to their pristine condition. With state-of-the-art facilities and a team of highly skilled professionals, we specialize in providing top-quality accident repair services that prioritize safety and excellence. From minor scratches to major repairs, our commitment to precision, efficiency, and customer satisfaction ensures your vehicle gets the care it deserves. Trust Al Salama to get you back on the road with confidence.'
-    ),
+  ),
   // array(
   //   'type' => 'Ecommerce Website',
   //   'image' => './image/homepage/newqualityware-v1.webp',
   //   'web_title' => 'New Quality Ware',
   //   'desc' => "New Quality Ware is dedicated to delivering premium-quality kitchenware and home essentials designed to elevate your lifestyle. Our products combine innovation, durability, and style to meet the needs of modern living. Whether you're upgrading your kitchen tools or enhancing your home spaces, our thoughtfully curated collection ensures functionality and elegance in every detail. Explore New Quality Ware and discover the perfect balance of quality and practicality for your home."
   // ),
-    array(
+  array(
     'type' => 'Ecommerce Website',
     'image' => './image/homepage/trillionair-mockup.webp',
     'web_title' => 'Trillionaire',
     'desc' => "Trillionaire Auto Parts is committed to providing premium-quality automotive parts and accessories designed to enhance your vehicle’s performance and style. Our products blend innovation, durability, and precision to meet the demands of modern vehicles. Whether you're upgrading your car’s functionality or enhancing its aesthetics, our carefully curated selection ensures top-tier quality and reliability in every detail. Explore Trillionaire Auto Parts and experience the perfect combination of performance and excellence for your vehicle."
-    ),
+  ),
 );
 ?>
-  <style>
-    .main-div-portfolio {
-      padding:50px 0px
-    }
-    swiper-container {
-      width: 100%;
-      height: 65vh;
-    }
+<style>
+  .main-div-portfolio {
+    padding: 50px 0px
+  }
 
-    swiper-slide {
-      padding: 10px 50px;
-      text-align: center;
-      font-size: 18px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  swiper-container {
+    width: 100%;
+    height: 65vh;
+  }
 
-    swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .slide-inner-div {
-      height: 100%;
-      width: 100%;
-      display:flex;
-      gap:50px;
-    }
-    .inner-left {
-      width: 50%;
-      height: 100%;
-    }
-    .inner-left img {
-      height: 100%;
-      width: 100%;
-      object-fit: contain;
-      padding:25px;
-    }
-    .inner-right {
-      width: 50%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      justify-content: center; 
-      padding: 20px;
-      gap: 5px;
-    }
-    .inner-right .type {
-      font-size: 15px;
-      color: #FF0808;
-      font-weight: 500;
+  swiper-slide {
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    }
-    .inner-right .web_title {
-      font-size: 40px;
-      text-transform:uppercase;
-      font-weight: 600;
-    }
-    .inner-right .desc {
-      margin-top:10px;
-      font-size: 15px;
-      line-height: normal;
-    }
-    .portfolio-heading {
-      font-size: 40px;
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slide-inner-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+  }
+
+  .inner-left {
+    width: 50%;
+    height: 100%;
+  }
+
+  .inner-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 25px;
+  }
+
+  .inner-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+  }
+
+  .inner-right .type {
+    font-size: 15px;
+    color: #FF0808;
+    font-weight: 500;
+
+  }
+
+  .inner-right .web_title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .inner-right .desc {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: normal;
+  }
+
+  .portfolio-heading {
+    font-size: 40px;
     font-weight: 700;
     /* padding:20px 0px; */
-    text-align:center;
+    text-align: center;
     color: #2b2a2a;
     text-transform: uppercase;
-    }
+  }
 
-    @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 800px) {
     swiper-container {
       width: 100%;
       height: auto;
-      padding:10px 0px;
+      padding: 10px 0px;
     }
 
     swiper-slide {
@@ -194,70 +202,78 @@ $slides = array(
       height: 100%;
       object-fit: cover;
     }
+
     .slide-inner-div {
       height: 100%;
       width: 100%;
-      display:flex;
-      flex-direction:column;
-      gap:20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
+
     .inner-left {
       width: 100%;
       height: 100%;
     }
+
     .inner-left img {
       height: 100%;
       width: 100%;
       object-fit: contain;
     }
+
     .inner-right {
       width: 100%;
       height: 100%;
       display: flex;
       flex-direction: column;
       align-items: start;
-      justify-content: center; 
+      justify-content: center;
       padding: 0px;
       gap: 0px;
     }
+
     .inner-right .type {
       font-size: 14px;
       color: #ff0808;
       font-weight: 500;
 
     }
+
     .inner-right .web_title {
       font-size: 25px;
       font-weight: 600;
-      text-align:left;
+      text-align: left;
     }
+
     .inner-right .desc {
       font-size: 14px;
       line-height: normal;
     }
-    }
-    /* CSS */
+  }
+
+  /* CSS */
   .button-62 {
-  background: linear-gradient(to bottom right, #FF0808, #fc6262);
-  border: 0;
-  border-radius: 12px;
-  text-align:center;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 2.5;
-  outline: transparent;
-  padding: 5px 30px;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
+    background: linear-gradient(to bottom right, #FF0808, #fc6262);
+    border: 0;
+    border-radius: 12px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
   }
 
   .button-62:not([disabled]):focus {
@@ -266,39 +282,49 @@ $slides = array(
 
   .button-62:not([disabled]):hover {
     box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-    color:white;
+    color: white;
   }
-.botttoonnn {
-  text-align:center;
-}
-.swiper-button-next svg, .swiper-button-prev svg {
-  color: #FF0808 !important;
-}
-  </style>
+
+  .botttoonnn {
+    text-align: center;
+  }
+
+  .swiper-button-next svg,
+  .swiper-button-prev svg {
+    color: #FF0808 !important;
+  }
+
+  @media (max-width: 767px) {
+    .main-div-portfolio h2 {
+      font-size: 30px !important;
+
+    }
+  }
+</style>
 </head>
 
 <div class="main-div-portfolio">
   <h2 class="portfolio-heading">Our <span style="color: #ff0808">Portfolio</span></h2>
   <swiper-container class="mySwiper" navigation="true">
     <?php foreach ($slides as $slide) : ?>
-            <swiper-slide>
-                <div class="slide-inner-div">
-                    <div class="inner-left">
-                        <img src="<?php echo $slide['image']; ?>" alt="<?php echo $slide['web_title']; ?>"
-                          title="<?php echo $slide['web_title']; ?>">
-                    </div>
-                    <div class="inner-right">
-                        <span class="type"><?php echo $slide['type']; ?></span>
-                        <h5 class="web_title"><?php echo $slide['web_title']; ?></h5>
-                        <p class="desc"><?php echo $slide['desc']; ?></p>
-                    </div>
-                </div>
-            </swiper-slide>
-        <?php endforeach; ?>
+      <swiper-slide>
+        <div class="slide-inner-div">
+          <div class="inner-left">
+            <img src="<?php echo $slide['image']; ?>" alt="<?php echo $slide['web_title']; ?>"
+              title="<?php echo $slide['web_title']; ?>">
+          </div>
+          <div class="inner-right">
+            <span class="type"><?php echo $slide['type']; ?></span>
+            <h5 class="web_title"><?php echo $slide['web_title']; ?></h5>
+            <p class="desc"><?php echo $slide['desc']; ?></p>
+          </div>
+        </div>
+      </swiper-slide>
+    <?php endforeach; ?>
   </swiper-container>
- <div class="botttoonnn">
-   <a href="portfolio/website" class="button-62" role="button">View All</a>
- </div>
+  <div class="botttoonnn">
+    <a href="portfolio/website" class="button-62" role="button">View All</a>
+  </div>
 </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>

@@ -160,7 +160,7 @@ include('include/config.php');
             text-align: center;
             margin: 1em 0;
             font-weight: 700;
-            font-size: 50px;
+            font-size: 40px;
             color: #212121;
         }
 
@@ -264,9 +264,14 @@ include('include/config.php');
 
         /* Optional media queries to further control layout on small devices */
         @media (max-width: 768px) {
+
             /* .video-container {
                 padding-bottom: 75%; /* Adjust to 4:3 aspect ratio for smaller screens if needed 
             } */
+            .faqs-heading {
+                font-weight: 700;
+                font-size: 30px !important;
+            }
         }
 
         @media (max-width: 480px) {
@@ -496,7 +501,7 @@ include('include/config.php');
             </video>
         </div>
 
-        <div class="video-container desktop-view">
+        <div class="video-container desktop-view">.faqs-heading
             <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
                 <source src="./video/sagartech banner 10.mp4" type="video/mp4">
             </video>
@@ -649,9 +654,16 @@ include('include/config.php');
                     display: none;
                 }
             }
+
+            @media (max-width: 767px) {
+                .our-client-main-div h2 {
+                    font-size: 30px !important;
+
+                }
+            }
         </style>
-        <div class="stats-class">
-            <h6>Our <span style="color: #ff0808">Statistics</span></h6>
+        <div class="stats-class our-client-main-div">
+            <h2>Our <span style="color: #ff0808">Statistics</span></h2>
             <div class="card-divvvv">
                 <div class="stats-cards">
                     <img src="images/counter/like1.png" alt="Projects Done" title="Projects Done" loading="lazy" />
@@ -1218,8 +1230,15 @@ BS AUTO ACCESSORIES" srcset="">
                 color: #22215B;
                 cursor: pointer;
             }
+
+            @media (max-width: 767px) {
+                .our-client-main-div h2 {
+                    font-size: 30px !important;
+
+                }
+            }
         </style>
-        <div style="border-bottom: 2px solid #f2f2f2;">
+        <div class="our-client-main-div" style="border-bottom: 2px solid #f2f2f2;">
             <h2 class="portfolio-heading pt-5">Our <span style="color: #ff0808">Blogs</span></h2>
             <section class="main">
                 <?php foreach ($posts as $item) { ?>

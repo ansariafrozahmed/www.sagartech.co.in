@@ -165,104 +165,6 @@ include "include/config.php";
             font-weight: 600;
         }
     }
-
-    .accordion {
-        padding: 15px 0px;
-    }
-
-    .accordion-item {
-        margin: 10px 0px;
-        color: #333;
-    }
-
-    .accordion-item h2 {
-        padding: 15px;
-        font-size: 20px;
-        background-color: #EDEDED;
-        font-weight: 500;
-        line-height: normal;
-        margin: 0;
-        cursor: pointer;
-    }
-
-    .accordion-item h3 {
-        color: #FF0808;
-        font-weight: 500;
-        font-size: 17px;
-    }
-
-    .accordion-item ol {
-        padding: 5px 20px;
-    }
-
-    .accordion-item ol li {
-        list-style-type: square !important;
-    }
-
-    .accordion-content {
-        max-height: 0;
-        /* Set a default max-height, but don't display it */
-        overflow: hidden;
-        /* Hide the content */
-        transition: max-height 0.4s ease-out;
-        /* Add a transition effect when sliding down (and up) the content */
-        padding: 0 1em;
-    }
-
-    .accordion-content p {
-        padding: 1em 0;
-        font-size: 16px;
-        margin: 0;
-
-    }
-
-    /* Add this class to .accordion-content when the accordion item is active/open */
-    .accordion-content.active {
-        max-height: auto;
-        /* Adjust as needed */
-    }
-
-    /*adding the + and - signs*/
-    .accordion-item h2 {
-        position: relative;
-        padding-right: 30px;
-        /* Adjust as needed */
-    }
-
-    .accordion-item h2::before {
-        content: "+";
-        color: #8f060f;
-        position: absolute;
-        right: 10px;
-        /* Adjust as needed */
-    }
-
-    .accordion-item.active h2::before {
-        content: "-";
-    }
-
-    /* For mobile screens */
-    @media (max-width: 767px) {
-        .accordion {
-            max-width: 100vw;
-            margin: 0 auto;
-        }
-
-        .accordion-item h2 {
-            padding: 20px;
-            font-size: 16px;
-            line-height: normal;
-            margin: 0;
-            cursor: pointer;
-        }
-
-        .accordion-content p {
-            padding: 1em 0;
-            font-size: 15px;
-            margin: 0;
-            line-height: normal;
-        }
-    }
 </style>
 
 <body>
@@ -303,11 +205,11 @@ include "include/config.php";
             text-align: center;
         }
 
-        .career-section h2 {
-            color: #ff2828;
+        /* .career-section h2 {
             font-size: 2.5rem;
             margin-bottom: 20px;
-        }
+            text-transform: uppercase;
+        } */
 
         .job-list {
             display: grid;
@@ -316,10 +218,9 @@ include "include/config.php";
         }
 
         .job-card {
-            background: #1a1a1a;
-            padding: 20px;
+            background: #fff;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(255, 40, 40, 0.4);
+            box-shadow: rgba(255, 40, 40, 0.4) 0px 1px 2px 0px, rgba(255, 40, 40, 0.4) 0px 2px 6px 2px;
             transition: transform 0.3s;
         }
 
@@ -335,7 +236,7 @@ include "include/config.php";
 
         .job-description {
             font-size: 1rem;
-            color: #ccc;
+            color: #000;
             margin-bottom: 15px;
         }
 
@@ -351,32 +252,96 @@ include "include/config.php";
         }
 
         .apply-btn:hover {
-            background: #fff !important;
+            background: #000 !important;
             color: black
         }
+
+        .our-client-main-div h2 {
+            font-size: 40px;
+            font-weight: 700;
+            color: #2b2a2a;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        @media (max-width: 767px) {
+            .our-client-main-div h2 {
+                font-size: 30px !important;
+
+            }
+        }
     </style>
-    <section class="career-section py-16 px-6 md:px-12 lg:px-24 ">
-        <h2 class="text-4xl font-bold text-center mb-12 text-white">Current Job Openings</h2>
-        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+    <section class="career-section py-16 px-6 md:px-12 lg:px-24">
+        <div class="our-client-main-div pb-6 lg:pb-10">
+            <h2>Current <span style="color: #ff0808">Job Openings</span></h2>
+        </div>
+        <div class="grid gap-5 lg:gap-8 md:grid-cols-2 lg:grid-cols-2">
 
             <!-- SEO Executive -->
-            <div class="job-card bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition-all">
-                <h3 class="job-title text-xl md:h-[55px] font-semibold text-white">SEO Executive</h3>
+            <div class="job-card bg-white bg-opacity-10 backdrop-blur-lg lg:py-10 p-6 rounded-2xl shadow-lg hover:scale-105 transition-all">
+                <h3 class="job-title text-xl font-semibold text-white">SEO Executive</h3>
                 <p class="job-description text-gray-300 mt-2">Looking for an SEO expert with at least 1 year of experience.</p>
-                <a href="#" class="apply-btn inline-block mt-4 px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-all">Apply Now</a>
+                <button onclick="openModal('SEO Executive')" class="apply-btn inline-block mt-4 px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-all">Apply Now</button>
             </div>
 
             <!-- Business Development Manager -->
-            <div class="job-card bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-2xl shadow-lg hover:scale-105 transition-all">
-                <h3 class="job-title text-xl  md:h-[55px font-semibold text-white">Business Development Manager</h3>
+            <div class="job-card bg-white bg-opacity-10 backdrop-blur-lg lg:py-10 p-6 rounded-2xl shadow-lg hover:scale-105 transition-all">
+                <h3 class="job-title text-xl font-semibold text-white">Business Development Manager</h3>
                 <p class="job-description text-gray-300 mt-2">Seeking a BDM with 1+ years of experience in the IT development sector.</p>
-                <a href="#" class="apply-btn inline-block mt-4 px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-all">Apply Now</a>
+                <button onclick="openModal('Business Development Manager')" class="apply-btn inline-block mt-4 px-6 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-all">Apply Now</button>
             </div>
-
-
         </div>
     </section>
 
+    <!-- Modal -->
+    <div id="resumeModal" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+        <div class="bg-white p-6 rounded-lg w-96 shadow-lg">
+            <h2 class="text-xl font-semibold" id="modalJobTitle"></h2>
+            <p class="text-gray-600 mt-2">Upload your resume to apply.</p>
+            <input type="file" id="resumeInput" class="mt-4 w-full p-2 border rounded-lg" accept=".pdf,.doc,.docx">
+            <div class="mt-4 flex justify-end gap-3">
+                <button onclick="closeModal()" class="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400">Cancel</button>
+                <button onclick="submitApplication()" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedJob = "";
+
+        function openModal(jobTitle) {
+            selectedJob = jobTitle;
+            document.getElementById('modalJobTitle').innerText = `Apply for ${jobTitle}`;
+            document.getElementById('resumeModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('resumeModal').classList.add('hidden');
+        }
+
+        function submitApplication() {
+            const resume = document.getElementById('resumeInput').files[0];
+            if (!resume) {
+                alert("Please upload your resume.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("jobTitle", selectedJob);
+            formData.append("resume", resume);
+
+            fetch("career-email.php", {
+                method: "POST",
+                body: formData
+            }).then(response => response.text()).then(data => {
+                alert("Application submitted successfully.");
+                closeModal();
+            }).catch(error => {
+                console.error("Error:", error);
+                alert("Failed to submit application.");
+            });
+        }
+    </script>
 
 
 

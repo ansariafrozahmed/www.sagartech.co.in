@@ -128,6 +128,13 @@
         box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
         color: white;
     }
+
+    @media (max-width: 767px) {
+        .our-client-main-div h2 {
+            font-size: 30px !important;
+
+        }
+    }
 </style>
 <div class="our-client-main-div">
     <h2>Leading Brands <span style="color: #ff0808">We Serve</span></h2>
