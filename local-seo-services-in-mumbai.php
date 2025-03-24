@@ -534,29 +534,112 @@
     $page = 'services';
     include 'include/newHeader.php';
     ?>
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
+        .newsecondsection .left {
+            width: 50%;
+        }
 
-    <div class="herosectionnew">
-        <h1>Local SEO Services In Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Local Search Engine optimization</li>
-        </ul>
-        <p class="herosectionpara">
-            Sagar Tech Technical Solution is Award Winning 🏆 in <a class="interlink"
-                href="digital-marketing-company-in-mumbai">Digital Marketing company in Mumbai</a> with 5 Years of
-            experience.
-            <a href="https://www.indiamart.com/proddetail/local-seo-service-2854574842230.html" target="_blank" class="interlink">Local SEO (Search Engine Optimization)</a> plays a crucial role in the success of businesses that serve specific
-            geographic areas. Google is focusing on delivering local results that provide customers with immediate
-            solutions. Local SEO ensures that your business ranks highly in local search results. Customers who are
-            interested look for products or services nearby.
-        </p>
-        <div class="herobuttonsnew">
-            <a href="portfolio/search-engine-optimization" class="button">View Portfolio</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Local SEO Services In Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Local Search Engine optimization</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                Sagar Tech Technical Solution is Award Winning 🏆 in <a style="color: #000;"
+                    href="digital-marketing-company-in-mumbai">Digital Marketing company in Mumbai</a> with 5 Years of
+                experience.
+                <a href="https://www.indiamart.com/proddetail/local-seo-service-2854574842230.html" target="_blank" class="interlink">Local SEO (Search Engine Optimization)</a> plays a crucial role in the success of businesses that serve specific
+                geographic areas. Google is focusing on delivering local results that provide customers with immediate
+                solutions. Local SEO ensures that your business ranks highly in local search results. Customers who are
+                interested look for products or services nearby.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+            </div>
         </div>
+        <div class="right">
+            <img src="./images/localseo.png" alt="Web Development">
+        </div>
+
+
     </div>
+
 
 
 
@@ -811,11 +894,11 @@
     ?>
 
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -831,7 +914,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

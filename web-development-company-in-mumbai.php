@@ -1425,6 +1425,7 @@
         width: 100%;
       }
     }
+   
   </style>
 
   <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">

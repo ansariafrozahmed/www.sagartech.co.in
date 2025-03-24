@@ -726,29 +726,125 @@ s0.parentNode.insertBefore(s1,s0);
     <?php
     $page = 'services';
     // include("include/trialh.php");
-    include ('include/newHeader.php');
+    include('include/newHeader.php');
     ?>
     <!-- /HEADER END -->
 
-    <div class="herosectionnew">
-        <h1>Best Social Media Marketing Agency in Mumbai To Grow Your Business</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Social Media Marketing Agency</li>
-        </ul>
-        <p class="herosectionpara">
-            Sagar Tech Technical Solution is an Award Winning 🏆 <a class="interlink"
-                href="digital-marketing-company-in-mumbai">Digital Marketing Company in Mumbai</a>. We provide result
-            oriented
-            social media services Our <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-marketing-service.html" target="_blank" class="interlink">social media marketing agency</a> of skilled social media optimization and marketing
-            experts is experienced in managing social media platforms such as Instagram, Facebook, Twitter, Google+,
-            LinkedIn, and Pinterest. Together, we increase your social media presence and generate more leads.
-        </p>
-        <div class="herobuttonsnew">
-            <a href="portfolio/social-media-post" class="button">View Portfolio</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
+
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
+
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        /* .right img {
+            transform: scale(0.5);
+            animation: scaleUp 1s forwards;
+        }
+
+        @keyframes scaleUp {
+            100% {
+                transform: scale(1);
+            }
+        } */
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Best Social Media Marketing Agency in Mumbai To Grow Your Business</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Social Media Marketing Agency</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                Sagar Tech Technical Solution is an Award Winning 🏆 <a class="interlink"
+                    href="digital-marketing-company-in-mumbai">Digital Marketing Company in Mumbai</a>. We provide result
+                oriented
+                social media services Our <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-marketing-service.html" target="_blank" class="interlink">social media marketing agency</a> of skilled social media optimization and marketing
+                experts is experienced in managing social media platforms such as Instagram, Facebook, Twitter, Google+,
+                LinkedIn, and Pinterest. Together, we increase your social media presence and generate more leads.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+            </div>
         </div>
+        <div class="right">
+            <img src="./images/smma.png" alt="Web Development">
+        </div>
+
+
     </div>
 
 
@@ -845,7 +941,7 @@ s0.parentNode.insertBefore(s1,s0);
         <p>In the vast world of social media, <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical
                 Solution</a> is your dedicated partner for your social media marketing. We specialise in managing
             popular platforms like Facebook, Instagram, YouTube, and LinkedIn. We are the go-to <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-post-designing-service.html" target="_blank" class="interlink">social media marketing
-            agency.</a> For your business With a strategic approach and a creative flair, we're here to help businesses like
+                agency.</a> For your business With a strategic approach and a creative flair, we're here to help businesses like
             yours enhance their online presence, connect with their audience, and achieve tangible results.</p>
         <div class="smm-service">
             <!-- ------------------- -->
@@ -924,7 +1020,7 @@ s0.parentNode.insertBefore(s1,s0);
         <div class="newvideoinner">
             <h2>What can we do for you?</h2>
             <span class="newvideotext">
-               We provide ongoing support and maintenance for your social media marketing efforts, ensuring your platforms stay up-to-date, secure, and perform seamlessly. Our goal is to deliver a positive and engaging experience for both your brand and your audience.
+                We provide ongoing support and maintenance for your social media marketing efforts, ensuring your platforms stay up-to-date, secure, and perform seamlessly. Our goal is to deliver a positive and engaging experience for both your brand and your audience.
             </span>
             <span>Let’s connect and discuss how we can elevate your social media presence!</span>
             <div class="newvideobutton">
@@ -1035,11 +1131,11 @@ s0.parentNode.insertBefore(s1,s0);
     // include('blogSectionHome.php')
     ?>
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1055,7 +1151,7 @@ s0.parentNode.insertBefore(s1,s0);
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

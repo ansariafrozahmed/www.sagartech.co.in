@@ -658,29 +658,115 @@
     ?>
     <!-- /HEADER END -->
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    <div class="herosectionnew">
-        <h1>Enhance Your Social Media Performance With Sagar Tech Technical Solution</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Social Media Optimization</li>
-        </ul>
-        <p class="herosectionpara">
-            With more than 4.95 billion people using social media globally This indicates that 61% of people use social
-            media worldwide. Social media has become an important part of our daily lives, offering businesses a unique
-            platform to connect with their audience and promote their brand. <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-optimization-service.html#2854486991573" target="_blank" class="interlink">Social media optimization (SMO)</a> is a
-            strategy used to enhance a brand's presence on social media platforms by optimising profiles, content, and
-            interactions with your audience. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech
-                Technical Solution</a>, we specialise in providing expert <a class="interlink"
-                href="digital-marketing-company-in-mumbai">Digital Marketing</a> & SMO services to help businesses
-            improve their
-            social media presence and achieve their marketing objectives.</p>
-        <div class="herobuttonsnew">
-            <a href="contact" class="button">Contact Now!</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Enhance Your Social Media Performance With Sagar Tech Technical Solution</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Social Media Optimization</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                With more than 4.95 billion people using social media globally This indicates that 61% of people use social
+                media worldwide. Social media has become an important part of our daily lives, offering businesses a unique
+                platform to connect with their audience and promote their brand. <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-optimization-service.html#2854486991573" target="_blank" class="interlink">Social media optimization (SMO)</a> is a
+                strategy used to enhance a brand's presence on social media platforms by optimising profiles, content, and
+                interactions with your audience. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech
+                    Technical Solution</a>, we specialise in providing expert <a class="interlink"
+                    href="digital-marketing-company-in-mumbai">Digital Marketing</a> & SMO services to help businesses
+                improve their
+                social media presence and achieve their marketing objectives.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+            </div>
         </div>
+        <div class="right">
+            <img src="./images/smo.png" alt="Web Development">
+        </div>
+
+
     </div>
+
+
 
 
 
@@ -691,7 +777,7 @@
             <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
             <p>When it comes to enhancing your brand's presence on social media, choosing the right agency can make all
                 the difference. Sagar Tech Technical Solution is your trusted partner for top-notch <a href="https://www.indiamart.com/sagartech-technicalsolutions/performance-marketing-service.html" target="_blank" class="interlink">social media
-                optimization (SMO)</a> services.</p>
+                    optimization (SMO)</a> services.</p>
             <div class="herobuttonsnew">
                 <a href="contact" class="buttonsss">Our Packages</a>
             </div>
@@ -901,10 +987,10 @@
     <?php
     // include('blogSectionHome.php');
     ?>
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -920,7 +1006,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

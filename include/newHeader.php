@@ -622,8 +622,19 @@ include('config.php');
       display: none;
     }
   }
+
+  .right img {
+    transform: scale(0.5);
+    animation: scaleUp 1s forwards;
+  }
+
+  @keyframes scaleUp {
+    100% {
+      transform: scale(1);
+    }
+  }
 </style>
-<link rel="shortcut icon" href="images/logoonly.jpg" type="image/png"/>
+<link rel="shortcut icon" href="images/logoonly.jpg" type="image/png" />
 <link rel="apple-touch-icon" sizes="180x180" href="images/logoonly.png">
 <link rel="icon" href="images/logoonly.jpg" type="image/x-icon" />
 
