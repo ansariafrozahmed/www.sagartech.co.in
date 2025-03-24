@@ -965,29 +965,110 @@
     include("include/newHeader.php");
     ?>
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    <div class="herosectionnew">
-        <h1>No.1 Dynamic Website Developer & Designing Company In Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Dynamic Website Service</li>
-        </ul>
-        <p class="herosectionpara">
-            In today's digital world, having a dynamic website is more than a trend, it's a strategic decision that can
-            greatly benefit your company. Unlike static websites, which remain unchanged for long periods of time,
-            dynamic websites are designed to be flexible and responsive, allowing you to update content, add new
-            features, and make changes quickly and easily. One of the main advantages of dynamic websites is the ability
-            to provide a personalised and dynamic user experience.
-        </p>
-        <div class="herobuttonsnew">
-            <a href="our-portfolio" class="button">View Portfolio</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
-            // include 'include/quote-modal.php'
-            ?>
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">No.1 Dynamic Website Developer & Designing Company In Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Dynamic Website Service</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                In today's digital world, having a dynamic website is more than a trend, it's a strategic decision that can
+                greatly benefit your company. Unlike static websites, which remain unchanged for long periods of time,
+                dynamic websites are designed to be flexible and responsive, allowing you to update content, add new
+                features, and make changes quickly and easily. One of the main advantages of dynamic websites is the ability
+                to provide a personalised and dynamic user experience.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
         </div>
+        <div class="right">
+
+            <img src="./portfolio-mockups/business/dontquit.webp" alt="Web Development">
+        </div>
+
+
     </div>
+
 
     <?php
     // include('quote-modal.php')

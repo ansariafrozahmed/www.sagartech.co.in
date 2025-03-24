@@ -294,7 +294,7 @@ include "include/config.php";
     </section>
 
     <!-- Modal -->
-    <div id="resumeModal" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50">
+    <div id="resumeModal" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50 z-50">
         <div class="bg-white p-6 rounded-lg w-96 shadow-lg">
             <h2 class="text-xl font-semibold" id="modalJobTitle"></h2>
             <p class="text-gray-600 mt-2">Upload your resume to apply.</p>

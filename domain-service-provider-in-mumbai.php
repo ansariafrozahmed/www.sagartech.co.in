@@ -464,30 +464,110 @@
     //include('include/header1.php');
     ?>
     <!-- /HEADER END -->
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
+        .newsecondsection .left {
+            width: 50%;
+        }
 
-    <div class="herosectionnew">
-        <h1>Best Domain Registrar in India To Buy Domain For Websites</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Domain Registration Service</li>
-        </ul>
-        <p class="herosectionpara">
-            A strong online presence is essential for businesses and individuals in today's digital age. A domain name
-            is a must for your online presence as it provides your unique internet address. Domain registration secures
-            an address for your website, providing a professional online presence.Sagar Tech Technical Solutions
-            understands the value of a strong online presence, which is why we provide complete domain registration
-            services and become <a href="https://www.indiamart.com/sagartech-technicalsolutions/domain-name-registration-service.html" target="_blank" class="interlink">best domain registrar India.</a>
-        </p>
-        <div class="herobuttonsnew">
-            <a href="contact" class="button">Contact Now!</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
-            // include 'include/quote-modal.php'
-            ?>
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Best Domain Registrar in India To Buy Domain For Websites</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Domain Registration Service</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                A strong online presence is essential for businesses and individuals in today's digital age. A domain name
+                is a must for your online presence as it provides your unique internet address. Domain registration secures
+                an address for your website, providing a professional online presence.Sagar Tech Technical Solutions
+                understands the value of a strong online presence, which is why we provide complete domain registration
+                services and become <a style="color: #000000;" href="https://www.indiamart.com/sagartech-technicalsolutions/domain-name-registration-service.html" target="_blank">best domain registrar India.</a>
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
         </div>
+        <div class="right">
+
+            <img src="./images/domain-names.png" alt="Web Development">
+        </div>
+
+
     </div>
+
 
 
 

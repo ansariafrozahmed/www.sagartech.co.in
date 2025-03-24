@@ -966,29 +966,110 @@
     // include 'include/newHeader.html'
     ?>
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    <div class="herosectionnew">
-        <h1>Blogging Website Development and Design Services in Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Bloggin Website Development</li>
-        </ul>
-        <p class="herosectionpara">
-            Blogging websites are dynamic platforms that allow individuals and businesses to connect with their target
-            audience meaningfully. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical
-                Solution</a>, we see blogging as more than just a marketing tool; it's a way to build long-term
-            relationships with your audience. You can establish yourself as an industry authority by creating helpful
-            and engaging content that will gain your readers' trust and loyalty.
-        </p>
-        <div class="herobuttonsnew">
-            <a href="portfolio/website" class="button">View Portfolio</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
-            // include 'include/quote-modal.php'
-            ?>
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Blogging Website Development and Design Services in Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Bloggin Website Development</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                Blogging websites are dynamic platforms that allow individuals and businesses to connect with their target
+                audience meaningfully. At <a style="color: #000;" href="https://sagartech.co.in/">Sagar Tech Technical
+                    Solution</a>, we see blogging as more than just a marketing tool; it's a way to build long-term
+                relationships with your audience. You can establish yourself as an industry authority by creating helpful
+                and engaging content that will gain your readers' trust and loyalty.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
         </div>
+        <div class="right">
+
+            <img src="./portfolio-mockups/education/educate.webp" alt="Web Development">
+        </div>
+
+
     </div>
+
 
     <?php
     // include('quote-modal.php')

@@ -964,30 +964,113 @@
     include("include/newHeader.php");
     ?>
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    <div class="herosectionnew">
-        <h1>Static Website Developers In Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Static Website Service</li>
-        </ul>
-        <p class="herosectionpara">Having a static website is really an intentional approach for your business in the
-            digital world now. Static sites are simple, fast, and highly secure vs. a dynamic website with constantly
-            changing content that is needing software updates and database management. As fixed content is used to build
-            static websites, these are quite lightweight and fast loading, which can provide a better overall user
-            experience. But the best thing about static websites is that they are very easy to update and need not much
-            hosting resources. These are also perfect for providing data that is reliable and predictable in appearance,
-            and they can provide it at a low cost, available over a wide range of platforms.
-        </p>
-        <div class="herobuttonsnew">
-            <a href="our-portfolio" class="button">Our Static Websites</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
-            // include 'include/quote-modal.php'
-            ?>
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Static Website Developers In Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Static Website Service</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                Having a static website is really an intentional approach for your business in the
+                digital world now. Static sites are simple, fast, and highly secure vs. a dynamic website with constantly
+                changing content that is needing software updates and database management. As fixed content is used to build
+                static websites, these are quite lightweight and fast loading, which can provide a better overall user
+                experience. But the best thing about static websites is that they are very easy to update and need not much
+                hosting resources. These are also perfect for providing data that is reliable and predictable in appearance,
+                and they can provide it at a low cost, available over a wide range of platforms.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
         </div>
+        <div class="right">
+
+            <img src="./portfolio-mockups/logistics/bml.webp" alt="Web Development">
+        </div>
+
+
     </div>
+
+
 
     <?php
     // include('quote-modal.php')
