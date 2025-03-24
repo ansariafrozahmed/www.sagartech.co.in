@@ -1371,33 +1371,106 @@
     <?php
     // include 'include/newHeader.html'
     ?>
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
+        .newsecondsection .left {
+            width: 50%;
+        }
 
-    <div class="herosectionnew">
-        <h1>Shopify Website Development Company - Your Online Store Experts</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Shopify Websites</li>
-        </ul>
-        <!-- <p class="herosectionpara">
-            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands out as an
-            award-winning 🏆 <a class="interlink" href="web-development-company-in-mumbai">Web Development Company</a>
-            which
-            provide ecommerce website development services in Mumbai. Having a track record of providing innovative
-            solutions We take pride in our ability to develop e-commerce websites that not only matches your business
-            needs but also exceed the needs of businesses looking for an efficient and eye-catching online presence. we
-            work using latest technology React, Next.js, Node.js,etc.
-        </p> -->
-        <p class="herosectionpara">Sagar Tech Technical Solutions offers Shopify eCommerce development services that help you create online stores that are user-friendly, effective, and powerful. We provide premium services made to build trustworthy scalable eCommerce sites that spur expansion and prosperity. Our skilled team of Shopify developers creates solutions that go above and beyond your expectations while catering to your particular business needs. Sagar Tech can assist you in growing your eCommerce business or improving the online presence of your company. Set up a call with us right now to learn more about our premium branding options, which can propel your company forward.</p>
-        <div class="herobuttonsnew">
-            <a href="portfolio/website" class="button">View Portfolio</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
-            // include 'include/quote-modal.php'
-            ?>
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Shopify Website Development Company - Your Online Store Experts</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Shopify Websites</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                Sagar Tech Technical Solutions offers Shopify eCommerce development services that help you create online stores that are user-friendly, effective, and powerful. We provide premium services made to build trustworthy scalable eCommerce sites that spur expansion and prosperity. Our skilled team of Shopify developers creates solutions that go above and beyond your expectations while catering to your particular business needs. Sagar Tech can assist you in growing your eCommerce business or improving the online presence of your company. Set up a call with us right now to learn more about our premium branding options, which can propel your company forward.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
         </div>
+        <div class="right">
+
+            <img src="./portfolio-images/chief-parfum1.webp" alt="Web Development">
+        </div>
+
+
     </div>
+
 
     <?php
     // include('quote-modal.php')

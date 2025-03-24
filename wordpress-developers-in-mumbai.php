@@ -1388,32 +1388,106 @@
     // include 'include/newHeader.html'
     ?>
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    <div class="herosectionnew">
-        <h1>WordPress Website Design & Development Services</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Wordpress Websites</li>
-        </ul>
-        <!-- <p class="herosectionpara">
-            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands out as an
-            award-winning 🏆 <a class="interlink" href="web-development-company-in-mumbai">Web Development Company</a>
-            which
-            provide ecommerce website development services in Mumbai. Having a track record of providing innovative
-            solutions We take pride in our ability to develop e-commerce websites that not only matches your business
-            needs but also exceed the needs of businesses looking for an efficient and eye-catching online presence. we
-            work using latest technology React, Next.js, Node.js,etc.
-        </p> -->
-        <p class="herosectionpara">At Sagar Tech, we believe that your website is more than just a digital storefront; it's your online identity. That's why we're dedicated to crafting stunning, functional WordPress websites tailored to your unique needs. WordPress is the world's most popular content management system (CMS), and for good reason. It's user-friendly, flexible, and offers a vast array of plugins and themes to customize your website. At Sagar Tech, we leverage the power of WordPress to create websites that are both visually appealing and functionally robust.</p>
-        <div class="herobuttonsnew">
-            <a href="portfolio/website" class="button">View Portfolio</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php
-            // include 'include/quote-modal.php'
-            ?>
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">WordPress Website Design & Development Services</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Wordpress Websites</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                At Sagar Tech, we believe that your website is more than just a digital storefront; it's your online identity. That's why we're dedicated to crafting stunning, functional WordPress websites tailored to your unique needs. WordPress is the world's most popular content management system (CMS), and for good reason. It's user-friendly, flexible, and offers a vast array of plugins and themes to customize your website. At Sagar Tech, we leverage the power of WordPress to create websites that are both visually appealing and functionally robust.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
         </div>
+        <div class="right">
+
+            <img src="./portfolio-mockups/ecommerce/bsauto.webp" alt="Web Development">
+        </div>
+
+
     </div>
+
 
     <?php
     // include('quote-modal.php')

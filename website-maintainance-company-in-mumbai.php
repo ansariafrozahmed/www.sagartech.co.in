@@ -1175,28 +1175,110 @@
     //include('include/header1.php');
     ?>
     <!-- /HEADER END -->
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
+        .newsecondsection .left {
+            width: 50%;
+        }
 
-    <div class="herosectionnew">
-        <h1>No. 1 Website Maintainance Company in Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Website Maintainance company in mumbai</li>
-        </ul>
-        <p class="herosectionpara">As a leading website maintenance company in Mumbai, we ensure your website remains
-            secure, up-to-date, and optimized for peak performance. Our expertise spans modern platforms like Node.js,
-            WordPress, Next.js, React.js, and Shopify. Whether it’s regular updates, bug fixes, or performance
-            enhancements, our skilled team delivers reliable solutions tailored to your business needs.
-            Let us take care of your website so you can focus on growing your business. Contact us today for hassle-free
-            website maintenance!</p>
-        <div class="herobuttonsnew">
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php include 'include/quote.php' ?>
-            <a href="portfolio/website" class="quote-button" style="color:white">View Portfolio</a>
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">No. 1 Website Maintainance Company in Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Website Maintainance company in mumbai</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                As a leading website maintenance company in Mumbai, we ensure your website remains
+                secure, up-to-date, and optimized for peak performance. Our expertise spans modern platforms like Node.js,
+                WordPress, Next.js, React.js, and Shopify. Whether it’s regular updates, bug fixes, or performance
+                enhancements, our skilled team delivers reliable solutions tailored to your business needs.
+                Let us take care of your website so you can focus on growing your business. Contact us today for hassle-free
+                website maintenance!
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a>
+            </div>
         </div>
-    </div>
+        <div class="right">
 
+            <img src="./images/website-maintenance-service-removebg-preview.png" alt="Web Development">
+        </div>
+
+
+    </div>
 
 
 
