@@ -501,7 +501,7 @@ include('include/config.php');
             </video>
         </div>
 
-        <div class="video-container desktop-view">.faqs-heading
+        <div class="video-container desktop-view">
             <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
                 <source src="./video/sagartech banner 10.mp4" type="video/mp4">
             </video>
