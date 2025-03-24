@@ -1063,7 +1063,7 @@
         </div>
         <div class="right">
 
-            <img src="./portfolio-mockups/business/dontquit.webp" alt="Web Development">
+            <img style="width: 80%; margin: auto;display: block;" src="./portfolio-mockups/business/dontquit.webp" alt="Web Development">
         </div>
 
 

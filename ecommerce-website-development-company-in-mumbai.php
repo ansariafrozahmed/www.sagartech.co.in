@@ -1151,7 +1151,7 @@
         </div>
         <div class="right">
 
-            <img src="./image/homepage/trillionair-mockup.webp" alt="Web Development">
+            <img style="width: 80%; margin: auto;display: block;" src="./image/homepage/trillionair-mockup.webp" alt="Web Development">
         </div>
 
 

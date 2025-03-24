@@ -1274,7 +1274,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/website-maintenance-service-removebg-preview.png" alt="Web Development">
+            <img style="width: 80%; margin: auto;display: block;" src="./images/website-maintenance-service-removebg-preview.png" alt="Web Development">
         </div>
 
 

@@ -1064,7 +1064,7 @@
         </div>
         <div class="right">
 
-            <img src="./portfolio-mockups/education/educate.webp" alt="Web Development">
+            <img style="width: 80%; margin: auto;display: block;" src="./portfolio-mockups/education/educate.webp" alt="Web Development">
         </div>
 
 
