@@ -562,7 +562,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/domain-names.png" alt="Web Development">
+            <img style="width: 70%; margin: auto;display: block;" src="./images/domains.png" alt=" Web Development">
         </div>
 
 

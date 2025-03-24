@@ -688,49 +688,112 @@
     // include('include/tabs-dm-seo.html');
     ?>
     <!-- /HEADER END -->
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
+        .newsecondsection .left {
+            width: 50%;
+        }
 
-    <div class="herosectionnew">
-        <h1>Google Ads (Google Adwords) Management Services Company In Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Google Adwords Service</li>
-        </ul>
-        <p class="herosectionpara">
-            Google Ads provides several benefits that can have a significant impact on a company's online presence and
-            marketing strategies. A major benefit is its highly targeted advertising capabilities. Google Ads allows
-            businesses to target their ads to specific geographic locations, languages, and even demographics, to make
-            sure their message reaches the most relevant audience. This level of targeting allows businesses to maximise
-            their advertising budget by focusing on potential customers who are more likely to convert. Google Ads
-            (Google Adwords ) also helps businesses achieve measurable results. The platform provides detailed analytics
-            and reporting tools, allowing businesses to track the performance of their advertisements in real time.</p>
-        <div class="herobuttonsnew">
-            <a href="contact" class="button">Contact Us</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-        </div>
-    </div>
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
 
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
 
+        .newsecondsection .right {
+            width: 50%;
+        }
 
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
 
-    <div class="secondsection">
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2>Why Choose Sagar Tech Technical Solution for Google Ads Services</h2>
-            <!-- <h3 style="text-align: left;">Go beyond the template - inspire a unique vision</h3> -->
-            <p>When it comes to advertising your business online, <a href="https://www.indiamart.com/sagartech-technicalsolutions/google-ads-marketing-service.html#2854486975562" target="_blank" class="interlink">Google Ads</a> can be a game changer. Our team is aware
-                about Google Ads inside and out. we are dong google ads management services for years, so you can trust
-                us to create campaigns that produce results to your business Look no further than <a class="interlink"
-                    href="https://sagartech.co.in/">Sagar Tech Technical Solution</a>, your premier Google Ads service
-                provider. Here's why you should choose us for all your Google Ads management services needs.</p>
+            <h2 style="line-height:40px;color:white">Google Ads (Google Adwords) Management Services Company In Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Google Adwords Service</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                Google Ads provides several benefits that can have a significant impact on a company's online presence and
+                marketing strategies. A major benefit is its highly targeted advertising capabilities. Google Ads allows
+                businesses to target their ads to specific geographic locations, languages, and even demographics, to make
+                sure their message reaches the most relevant audience. This level of targeting allows businesses to maximise
+                their advertising budget by focusing on potential customers who are more likely to convert. Google Ads
+                (Google Adwords ) also helps businesses achieve measurable results. The platform provides detailed analytics
+                and reporting tools, allowing businesses to track the performance of their advertisements in real time.
+            </p>
+            <br>
             <div class="herobuttonsnew">
-                <a href="contact" class="buttonsss">Let's Discuss</a>
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
             </div>
         </div>
         <div class="right">
-            <img src="portfolio-images/google-ads.webp" alt="google ads">
+            <img src="./images/ad_3-removebg.png" alt="Web Development">
         </div>
+
+
     </div>
+
 
 
 
@@ -801,7 +864,7 @@
         <div class="newvideoinner">
             <h2>What can we do for you?</h2>
             <span class="newvideotext">
-             We provide ongoing support and optimization for your Google Ads campaigns, ensuring they are continuously refined, up-to-date, and delivering optimal performance. Our goal is to maximize your ad visibility, improve conversions, and drive high-quality traffic to your business.
+                We provide ongoing support and optimization for your Google Ads campaigns, ensuring they are continuously refined, up-to-date, and delivering optimal performance. Our goal is to maximize your ad visibility, improve conversions, and drive high-quality traffic to your business.
             </span>
             <span>Let’s connect and explore how we can optimize your Google Ads strategy for maximum ROI!</span>
             <div class="newvideobutton">
@@ -920,10 +983,10 @@
     // include('blogSectionHome.php');
     ?>
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -939,7 +1002,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
