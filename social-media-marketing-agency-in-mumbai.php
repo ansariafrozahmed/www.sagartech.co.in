@@ -1006,7 +1006,7 @@ s0.parentNode.insertBefore(s1,s0);
 
 
 
-    <div class="fourth-smm-sec">
+    <!-- <div class="fourth-smm-sec">
         <h2>Award Winning 🏆 Social Media Marketing Agency In Mumbai</h2>
         <p>As a top-notch social media marketing agency, we take a results-driven approach. From analysing your
             business's nature and competitors to figuring out the target audience, content creation,and publishing on
@@ -1014,9 +1014,9 @@ s0.parentNode.insertBefore(s1,s0);
         <div class="smm-img-div">
             <img src="./images/smm-main.webp" alt="social media marketing agency">
         </div>
-    </div>
+    </div> -->
 
-    <div class="newvideo">
+    <div style="background-color: #ffffff;" class="newvideo">
         <div class="newvideoinner">
             <h2>What can we do for you?</h2>
             <span class="newvideotext">

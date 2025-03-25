@@ -6,22 +6,22 @@ include("../include/config.php");
 
 
 <head>
-    <title>Social Media Post Portfolio | Creative & Impactful Visual Content</title>
+    <title>Stunning Website Design Portfolio - Sagar Tech</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Check out our captivating, trend-driven designs for the social media posts portfolio that captivate audiences and increase company visibility. Ideal for your upcoming campaign!">
-    <meta name="keywords" content="Social Media Post Portfolio">
+        content="Check out our website design portfolio, which features innovative and practical online solutions. Get ideas for your next project by looking at our finest work!">
+    <meta name="keywords" content="Website Design Portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
-    <link rel="canonical" href="https://sagartech.co.in/portfolio/social-media-post">
+    <link rel="canonical" href="https://sagartech.co.in/portfolio/website">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Social Media Post Portfolio | Creative & Impactful Visual Content">
+    <meta property="og:title" content="Stunning Website Design Portfolio - Sagar Tech">
     <meta property="og:description"
-        content="Check out our captivating, trend-driven designs for the social media posts portfolio that captivate audiences and increase company visibility. Ideal for your upcoming campaign!">
-    <meta property="og:url" content="https://sagartech.co.in/portfolio/social-media-post">
+        content="Check out our website design portfolio, which features innovative and practical online solutions. Get ideas for your next project by looking at our finest work!">
+    <meta property="og:url" content="https://sagartech.co.in/portfolio/website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
     <!-- bootstrap -->
@@ -55,6 +55,25 @@ include("../include/config.php");
     </script>
 </head>
 <style>
+    /* .maindivv {
+  padding: 50px;
+  text-align: center;
+}
+.maindivv h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.maindivv span {
+  font-size: 20px;
+  color: black;
+}
+.maindivv p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+} */
+
     .welcometo {
         padding: 50px;
         text-align: center;
@@ -79,7 +98,7 @@ include("../include/config.php");
     .why-list {
         padding: 50px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 50px;
     }
 
@@ -91,6 +110,15 @@ include("../include/config.php");
         font-size: 22px;
         font-weight: 600;
         border-bottom: 1px solid red;
+    }
+
+    .maincontent-inner:hover .content-text h2 {
+        color: #ff0808;
+    }
+
+    .content-text h2:hover {
+        text-decoration: underline;
+        color: #ff0808;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -247,7 +275,7 @@ include("../include/config.php");
         line-height: 20px;
         list-style: none;
         margin: 0;
-        outline: none;
+        /* outline: none !important; */
         padding: 10px 16px;
         position: relative;
         text-align: center;
@@ -273,7 +301,7 @@ include("../include/config.php");
         margin-top: 20px;
         widows: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 30px;
     }
 
@@ -287,7 +315,7 @@ include("../include/config.php");
 
     .content-text h2 {
         font-size: 22px;
-        text-align: left;
+        text-align: center;
         color: #212121;
         font-weight: 600;
     }
@@ -297,14 +325,14 @@ include("../include/config.php");
     }
 
     .maincontent-inner .imgdiv {
-        aspect-ratio: 4/2.5;
+        /* aspect-ratio: 4/2.5; */
         overflow: hidden;
     }
 
     .maincontent-inner .imgdiv img {
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
         transition: all ease-in-out;
         transition-duration: 0.3s;
     }
@@ -321,6 +349,16 @@ include("../include/config.php");
 
     .viewmore button {
         border-bottom: 2px solid gray;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .maincontent {
+            margin-top: 20px;
+            widows: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
     }
 
     @media only screen and (max-width: 767px) {
@@ -470,59 +508,6 @@ include("../include/config.php");
             line-height: normal;
         }
     }
-
-    .fifthsection {
-        line-height: normal;
-        padding: 50px;
-        background-color: #ffffff;
-        text-align: center;
-    }
-
-
-    .fifthsection h2 {
-        font-size: 38px;
-        font-weight: 700;
-    }
-
-
-    .logosec {
-        padding: 30px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
-    }
-
-    .imgdiv {
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-        border: 5px solid white;
-        background-color: white;
-        border-radius: 15px;
-    }
-
-    .imgdiv img {
-        height: 100%;
-        width: 100%;
-        object-fit: contain;
-    }
-
-    @media only screen and (max-width: 999px) {
-        .fifthsection {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .fifthsection h2 {
-            font-size: 28px;
-            font-weight: 700;
-        }
-
-        .logosec {
-            padding: 10px;
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 15px;
-        }
-    }
 </style>
 
 <body>
@@ -541,7 +526,7 @@ include("../include/config.php");
     <section
         style="background-image: url('../portfolio-images/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;"
         class="banner-content">
-        <h2>Post Portfolio</h2>
+        <h2>Mobile Portfolio</h2>
         <ul class="breadcrumbdiv">
             <li><a href="https://sagartech.co.in/">Home</a></li>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -549,90 +534,188 @@ include("../include/config.php");
                 class="lucide lucide-chevron-right">
                 <path d="m9 18 6-6-6-6" />
             </svg>
-            <li style="color: white;">Social Media Post</li>
+            <li style="color: white;">Portfolio</li>
         </ul>
     </section>
 
 
+    <!-- <div class="maindivv">
+        <h1>Welcome to Sagar Tech Technical Solution</h1>
+        <span> Award-Winning Destination for Web Development and Digital Marketing Excellence</span>
+        <p>We are an award-winning web development and digital marketing company with a team of skilled developers that are experienced in building appealing websites that can significantly improve your business by driving up revenue.Our journey has been marked by creativity, dedication, and a passion for delivering top-notch technical solutions that help businesses Grow
+        </p>
+    </div> -->
 
-
-    <div class="fifthsection">
-        <h2 style="text-transform:uppercase;">Our Designed <span style="color:#FF0808;">Social Media Posts</span></h2>
-        <div class="logosec">
-            <?php
-
-            $imageUrls = [
-                "../social-media-mockup/Social Media Post Design 1 - Armaf.webp",
-                "../social-media-mockup/Social Media Post Design 2 - Alsalama.webp",
-                "../social-media-mockup/Social Media Post Design 2 - Bareziya Architects.webp",
-                "../social-media-mockup/Social Media Post Design 2 - BlueMed.webp",
-                "../social-media-mockup/Social Media Post Design 2 - BS Auto.webp",
-                "../social-media-mockup/Social Media Post Design 2 - Cotton Culture.webp",
-                "../social-media-mockup/Social Media Post Design 2 - Folkso.webp",
-                "../social-media-mockup/Social Media Post Design 2 - MCM Phoenix.webp",
-                "../social-media-mockup/Social Media Post Design 2 - Royal Wrists.webp",
-                "../social-media-mockup/Social Media Post Design 2 - trillionaire.webp",
-                "../social-media-mockup/1.webp",
-                "../social-media-mockup/2.webp",
-                "../social-media-mockup/3.webp",
-                "../social-media-mockup/4.webp",
-                "../social-media-mockup/5.webp",
-                "../social-media-mockup/6.webp",
-                "../social-media-mockup/7.webp",
-                "../social-media-mockup/8.webp",
-                "../social-media-mockup/9.webp",
-                "../social-media-mockup/10.webp",
-                "../social-media-mockup/11.webp",
-                "../social-media-mockup/12.webp",
-            ];
-
-            foreach ($imageUrls as $imageUrl) {
-                echo '<div class="imgdiv">';
-                echo '<img src="' . $imageUrl . '" alt="Social Media Mockup">';
-                echo '</div>';
-            }
-            ?>
+    <!-- <div class="welcometo">
+        <h1>Welcome to Sagar Tech Technical Solution</h1>
+        <P class="pp">We are an award-winning web development and digital marketing company with a team of skilled
+            developers that are experienced in building appealing websites that can significantly improve your business
+            by driving up revenue.Our journey has been marked by creativity, dedication, and a passion for delivering
+            top-notch technical solutions that help businesses Grow
+        </P>
+        <div class="why-list">
+            <div class="listt">
+                <span>
+                    <img src="../images/coding.png" height="50" alt="">
+                    <h4>Web Development</h4>
+                </span>
+                <p>From creating captivating e-commerce platforms to designing streamlined one-page websites, we
+                    specialize in crafting digital experiences that leave a lasting impression.</p>
+            </div>
+            <div class="listt">
+                <span>
+                    <img src="../images/social-media.png" height="50" alt="">
+                    <h4>Digital Marketing</h4>
+                </span>
+                <p>Boost your online visibility with our comprehensive digital marketing services. From SEO to social
+                    media management and targeted campaigns, we've got your back.</p>
+            </div>
+            <div class="listt">
+                <span>
+                    <img src="../images/graphic-designer.png" height="50" alt="">
+                    <h4>Graphic Designing</h4>
+                </span>
+                <p>Our graphic design services are tailored to meet the unique needs of businesses, ensuring that your
+                    brand stands out in a crowded digital landscape.</p>
+            </div>
+            <div class="listt">
+                <span>
+                    <img src="../images/development.png" height="50" alt="">
+                    <h4>App Development</h4>
+                </span>
+                <p>We take pride in delivering high-quality app development services tailored to meet your specific
+                    requirements.</p>
+            </div>
+            <div class="listt">
+                <span>
+                    <img src="../images/bulksms.png" height="50" alt="">
+                    <h4>Bulk SMS Services</h4>
+                </span>
+                <p>We specialize in providing top-notch bulk SMS services and bulk whatsaap message services to elevate
+                    your communication strategies</p>
+            </div>
         </div>
-    </div>
+        <P class="ppp">Ready to take your digital presence to the next level? Join us at Sagar Tech. Explore our
+            portfolio, check out our award-winning projects, and see how our web development and digital marketing
+            solutions can redefine your online presence. Your success story begins right here with Sagar Tech.Technical
+            Soultion
+        </P>
+    </div> -->
+
+
+    <style>
+        .buttons.active {
+            background-color: #ff0808;
+            color: #fff;
+        }
+    </style>
 
 
 
 
+    <div id="Business">
+        <!-- <h2>Our Business Website portfolio</h2> -->
+        <div style="padding: 50px 0;" class="maincontent">
+            <div class="maincontent-inner">
+                <a href="https://play.google.com/store/apps/details?id=ag.nile.market.app&hl=en_IN" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-app-development/nile.png" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://play.google.com/store/apps/details?id=ag.nile.market.app&hl=en_IN" target="_blank">
+                        <h2>Nile Market Place</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://verify8.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-app-development/bebigiro.png" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://apps.apple.com/us/app/sweet-baby-girl-daycare-2/id894628343" target="_blank">
+                        <h2>Bebigiro</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://play.google.com/store/apps/details?id=in.co.cottoncultureindia&hl=en_IN" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-app-development/cotton culture.png" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://play.google.com/store/apps/details?id=in.co.cottoncultureindia&hl=en_IN" target="_blank">
+                        <h2>Cotton Culture</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://play.google.com/store/apps/datasafety?id=com.gsmash.sahibaan&hl=en_IN" target="_blank">
+                    <div class="imgdiv">
+                        <img src="../portfolio-app-development//sahiba.png" alt="">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://play.google.com/store/apps/datasafety?id=com.gsmash.sahibaan&hl=en_IN" target="_blank">
+                        <h2>Sahibaan                        </h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+
+        </div>
 
 
-    <?php
-    include("../include/footer.php");
-    ?>
 
 
+        <script>
+            function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("content-div");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                document.getElementById(cityName).style.display = "block";
+            }
+        </script>
 
-    <script src="../js/jquery.min.js"></script>
+        <?php
+        include("../include/footer.php");
+        ?>
 
-    <script src="../js/custom.js"></script>
-    <script type="text/javascript">
-        (function() {
-            var options = {
-                whatsapp: "+919820133303", // WhatsApp number
-                email: "info@sagartech.co.in", // Email
-                call_to_action: "Contact Us", // Call to action
-                button_color: "#FF0808", // Color of button
-                position: "left", // Position may be 'right' or 'left'
-                order: "whatsapp,email", // Order of buttons
-            };
-            var proto = document.location.protocol,
-                host = "getbutton.io",
-                url = proto + "//static." + host;
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
-                WhWidgetSendButton.init(host, proto, options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-        })();
-    </script>
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/custom.js"></script>
+
+        <script type="text/javascript">
+            (function() {
+                var options = {
+                    whatsapp: "+919820133303", // WhatsApp number
+                    email: "info@sagartech.co.in", // Email
+                    call_to_action: "Contact Us", // Call to action
+                    button_color: "#FF0808", // Color of button
+                    position: "left", // Position may be 'right' or 'left'
+                    order: "whatsapp,email", // Order of buttons
+                };
+                var proto = document.location.protocol,
+                    host = "getbutton.io",
+                    url = proto + "//static." + host;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function() {
+                    WhWidgetSendButton.init(host, proto, options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            })();
+        </script>
 </body>
 
 </html>
