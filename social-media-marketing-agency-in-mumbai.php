@@ -841,7 +841,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
         </div>
         <div class="right">
-            <img src="./images/fsmm.png" alt="Web Development">
+            <img src="./images/fsmms.png" alt="Web Development">
         </div>
 
 
