@@ -503,6 +503,7 @@ include("../include/config.php");
         height: 100%;
         width: 100%;
         object-fit: contain;
+        border-radius: 12px;
     }
 
     @media only screen and (max-width: 999px) {
