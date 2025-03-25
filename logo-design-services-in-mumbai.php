@@ -168,7 +168,7 @@ include 'include/config.php';
         height: 100%;
         width: 100%;
         object-fit: contain;
-        padding:30px;
+        padding: 30px;
     }
 
     @media only screen and (max-width: 999px) {
@@ -693,29 +693,120 @@ include 'include/config.php';
     include("include/newHeader.php");
     //include('include/header1.php');
     ?>
-    <!-- /HEADER END -->
-    <div class="herosectionnew" style="background-image: url(./banner/background.webp);">
-        <h1>Best Logo Design Services In Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Logo Designing Services</li>
-        </ul>
-        <p class="herosectionpara">
-            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is proud to be a
-            leading provider of <a href="https://www.indiamart.com/sagartech-technicalsolutions/logo-design-service.html#2854487254697" target="_blank" class="interlink">logo design services.</a> Your Logo is the Face Of Your Brand. Our expert designers work
-            with you to create memorable logos that reflect your brand identity and values Our logo design journey
-            begins by getting to know your brand inside out its values, vision, and unique characteristics.
-        </p>
-        <div class="herobuttonsnew">
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <a href="portfolio/logo" class="buttonsss">View Portfolio</a>
-            <?php
-            // require('include/quote-modal.php')
-            ?>
-        </div>
-    </div>
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
+
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        /* .right img {
+            transform: scale(0.5);
+            animation: scaleUp 1s forwards;
+        }
+
+        @keyframes scaleUp {
+            100% {
+                transform: scale(1);
+            }
+        } */
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Best Logo Design Services In Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Logo Designing Services</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                <a style="color: #000;" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> is proud to be a
+                leading provider of <a style="color: #000;" href="https://www.indiamart.com/sagartech-technicalsolutions/logo-design-service.html#2854487254697" target="_blank">logo design services.</a> Your Logo is the Face Of Your Brand. Our expert designers work
+                with you to create memorable logos that reflect your brand identity and values Our logo design journey
+                begins by getting to know your brand inside out its values, vision, and unique characteristics.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+            </div>
+        </div>
+        <div class="right">
+            <img src="./images/logo.png" alt="Web Development">
+        </div>
+
+
+    </div>
 
 
     <div class="secondsection">
@@ -831,7 +922,7 @@ include 'include/config.php';
         <!-- <a href="" class="aa">DROP IN A MESSAGE</a> -->
         <?php
         include 'include/quote.php'
-            ?>
+        ?>
     </div>
 
 
@@ -949,7 +1040,7 @@ include 'include/config.php';
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -965,7 +1056,7 @@ include 'include/config.php';
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

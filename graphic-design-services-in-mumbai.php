@@ -847,7 +847,7 @@
       </div>
     </div>
     <div class="right">
-      <img src="./images/fappdevelopment.png" alt="Web Development">
+      <img src="./images/graphic.png" alt="Web Development">
     </div>
 
 

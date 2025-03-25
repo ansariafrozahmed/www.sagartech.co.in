@@ -392,7 +392,8 @@
 
   .bestbrochure {
     /* padding: 50px; */
-    padding: 0px 50px;;
+    padding: 0px 50px;
+    ;
   }
 
   .bestbrochure h2 {
@@ -680,92 +681,92 @@
     }
   }
 
-   .newvideo {
-        display: flex;
-        align-items: center;
-        gap: 50px;
-        width: 100%;
-        padding: 50px;
-        padding-bottom: 100px;
+  .newvideo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+
+  .newvideoinner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .newvideoinner h2 {
+    font-weight: 600;
+  }
+
+  .newvideovideo {
+    width: 50%;
+
+  }
+
+  .newvideobutton {
+    background-color: #ff0808;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ff0808;
+    display: inline-block;
+  }
+
+  .newvideovideo iframe {
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  @media (max-width: 767px) {
+    .newvideo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      width: 100%;
+      padding: 30px 20px;
+      padding-bottom: 50px;
     }
 
     .newvideoinner {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        align-items: start;
-        justify-content: start;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: start;
+      justify-content: start;
     }
 
     .newvideoinner h2 {
-        font-weight: 600;
+      font-weight: 600;
     }
 
     .newvideovideo {
-        width: 50%;
-
+      width: 100%;
     }
 
     .newvideobutton {
-        background-color: #ff0808;
-        color: white;
-        font-size: 18px;
-        padding: 10px 20px;
-        border-radius: 5px;
-        border: 1px solid #ff0808;
-        display: inline-block;
+      background-color: #ff0808;
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: 1px solid #ff0808;
+      display: inline-block;
     }
 
     .newvideovideo iframe {
-        width: 100%;
-        height: 300px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      width: 100%;
+      height: 200px;
     }
-
-    @media (max-width: 767px) {
-        .newvideo {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 50px;
-            width: 100%;
-            padding: 30px 20px;
-            padding-bottom: 50px;
-        }
-
-        .newvideoinner {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            align-items: start;
-            justify-content: start;
-        }
-
-        .newvideoinner h2 {
-            font-weight: 600;
-        }
-
-        .newvideovideo {
-            width: 100%;
-        }
-
-        .newvideobutton {
-            background-color: #ff0808;
-            color: white;
-            font-size: 18px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            border: 1px solid #ff0808;
-            display: inline-block;
-        }
-
-        .newvideovideo iframe {
-            width: 100%;
-            height: 200px;
-        }
-    }
+  }
 </style>
 
 <body>
@@ -779,36 +780,126 @@
 
   <?php
   $page = 'services';
-  include ("include/newHeader.php");
+  include("include/newHeader.php");
   //include('include/header1.php');
   ?>
   <!-- /HEADER END -->
 
+  <style>
+    .newsecondsection {
+      padding: 50px 60px;
+      display: flex;
+      gap: 50px;
+      align-items: center;
+      justify-content: start;
+    }
 
+    .newsecondsection .left {
+      width: 50%;
+    }
 
+    .newsecondsection .left h2 {
+      font-size: 30px;
+      font-weight: 600;
+    }
 
-  <div class="herosectionnew" style="background-image: url(./banner/background.webp);">
-    <h1>Brochure Design Services In Mumbai</h1>
-    <ul class="herobreadrumb">
-      <li>Home</li>
-      <li>/</li>
-      <li>Brochure Designing</li>
-    </ul>
-    <p class="herosectionpara">
-      Ever wondered how a beautifully designed brochure could transform your brand's story? Transform Your Brand with <a
-        class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a> brochure design expertise!
-      🚀, we're all about creating brochures that not only look good but also tell your story in a way that captivates
-      your audience. Our commitment extends beyond aesthetics we aim to craft brochures & <a class="interlink"
-        href="graphic-design-services-in-mumbai">Graphic Designing Services</a> that serve effective brand
-      communication.
-    </p>
-    <div class="herobuttonsnew">
-      <!-- <a href="#" class="button">Quick Enquiry</a> -->
-      <a href="portfolio/brochure" class="buttonsss">View Portfolio</a>
-      <?php include 'include/quote.php' ?>
+    .newsecondsection .left h3 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .newsecondsection .right {
+      width: 50%;
+    }
+
+    .newsecondsection .right img {
+      height: 100%;
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 767px) {
+      .dsanjkdhw0qp {
+        height: auto !important;
+      }
+
+      .newsecondsection {
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        justify-content: start;
+      }
+
+      .newsecondsection .left {
+        width: 100%;
+      }
+
+      .newsecondsection .left h2 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .newsecondsection .left h3 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .newsecondsection .right {
+        width: 100%;
+      }
+
+      .newsecondsection .right img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    /* .right img {
+            transform: scale(0.5);
+            animation: scaleUp 1s forwards;
+        }
+
+        @keyframes scaleUp {
+            100% {
+                transform: scale(1);
+            }
+        } */
+  </style>
+  <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;color:white">Brochure Design Services In Mumbai</h2>
+      <ul style="color:white" class="herobreadrumb">
+        <li>Home</li>
+        <li>/</li>
+        <li>Brochure Designing</li>
+      </ul>
+      <!-- <h3>Subtitle</h3> -->
+      <p style="color:white">
+        Brand with <a
+          style="color: #000000;" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a> brochure design expertise!
+        🚀, we're all about creating brochures that not only look good but also tell your story in a way that captivates
+        your audience. Our commitment extends beyond aesthetics we aim to craft brochures & <a style="color: #000000;"
+          href="graphic-design-services-in-mumbai">Graphic Designing Services</a> that serve effective brand
+        communication.
+      </p>
+      <br>
+      <div class="herobuttonsnew">
+
+        <?php //include 'include/quote.php' 
+        ?>
+
+        <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+        <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+        <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+      </div>
     </div>
-  </div>
+    <div class="right">
+      <img src="./brochure/6.webp" alt="Web Development">
+    </div>
 
+
+  </div>
 
 
 
@@ -943,23 +1034,23 @@
   </div>
 
   <div class="newvideo">
-        <div class="newvideoinner">
-            <h2>What can we do for you?</h2>
-            <span class="newvideotext">
-                We specialize in creating visually stunning and professionally crafted brochures that effectively communicate your brand's message. Our designs are tailored to captivate your audience, leaving a lasting impression and helping you achieve your marketing goals.
-            </span>
-            <span>We would be happy to discuss the project with you in person</span>
-            <div class="newvideobutton">
-                <a href="contact">Lets Connect</a>
-            </div>
-        </div>
-        <div class="newvideovideo">
-            <iframe src="https://www.youtube.com/embed/CMs1d7ss5UY?si=igl9ZsHwh0Jrql42" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+    <div class="newvideoinner">
+      <h2>What can we do for you?</h2>
+      <span class="newvideotext">
+        We specialize in creating visually stunning and professionally crafted brochures that effectively communicate your brand's message. Our designs are tailored to captivate your audience, leaving a lasting impression and helping you achieve your marketing goals.
+      </span>
+      <span>We would be happy to discuss the project with you in person</span>
+      <div class="newvideobutton">
+        <a href="contact">Lets Connect</a>
+      </div>
     </div>
+    <div class="newvideovideo">
+      <iframe src="https://www.youtube.com/embed/CMs1d7ss5UY?si=igl9ZsHwh0Jrql42" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
 
   <div class="fifthsection">
     <h2>Samples of Our Brochure <span style="color:#FF0808;">& Flyer Design</span></h2>
@@ -1126,11 +1217,11 @@
   <?php
   // include 'blogSectionHome.php' 
   ?>
-  <?php include ("include/footer.php"); ?>
+  <?php include("include/footer.php"); ?>
 
   <script src="js/custom.js"></script>
   <script type="text/javascript">
-    (function () {
+    (function() {
       var options = {
         whatsapp: "+919820133303", // WhatsApp number
         email: "info@sagartech.co.in", // Email
@@ -1146,7 +1237,7 @@
       s.type = 'text/javascript';
       s.async = true;
       s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function () {
+      s.onload = function() {
         WhWidgetSendButton.init(host, proto, options);
       };
       var x = document.getElementsByTagName('script')[0];

@@ -738,29 +738,124 @@
 
     <?php
     $page = 'services';
-    include ("include/newHeader.php");
+    include("include/newHeader.php");
     //include('include/header1.php');
     ?>
-    <!-- /HEADER END -->
-    <div class="herosectionnew" style="background-image: url(./banner/background.webp);">
-        <h1>Social Media Post Design Services in Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Social Media Post Design</li>
-        </ul>
-        <p class="herosectionpara">
-            <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands as the leading
-            provider of <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-post-designing-service.html" target="_blank" class="interlink">Social media post design</a> services in Mumbai, offering a blend of creativity and strategic <a
-                class="interlink" href="graphic-design-services-in-mumbai">Graphic Design</a> to elevate your brand's
-            online
-            presence. It is crucial for engaging your audience. Our focus is on bringing creativity and strategic design
-            to the forefront, ensuring your brand stands out in the growing world of social media
-        </p>
-        <div class="herobuttonsnew">
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <a href="contact" class="buttonsss">Quick Enqiry!</a>
+
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
+
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        /* .right img {
+            transform: scale(0.5);
+            animation: scaleUp 1s forwards;
+        }
+
+        @keyframes scaleUp {
+            100% {
+                transform: scale(1);
+            }
+        } */
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">Social Media Post Design Services in Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Social Media Post Design</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                <a style="color: #000;" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands as the leading
+                provider of <a style="color: #000;" href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-post-designing-service.html" target="_blank" Social media post design</a> services in Mumbai, offering a blend of creativity and strategic <a
+                        style="color: #000;" href="graphic-design-services-in-mumbai">Graphic Design</a> to elevate your brand's
+                    online
+                    presence. It is crucial for engaging your audience. Our focus is on bringing creativity and strategic design
+                    to the forefront, ensuring your brand stands out in the growing world of social media.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+            </div>
         </div>
+        <div class="right">
+            <img src="./images/post.png" alt="Web Development">
+        </div>
+
+
     </div>
 
 
@@ -976,11 +1071,11 @@
     <?php
     // include 'blogSectionHome.php' 
     ?>
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -996,7 +1091,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
