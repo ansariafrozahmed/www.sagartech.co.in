@@ -788,7 +788,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="./images/ad_3-removebg.png" alt="Web Development">
+            <img src="./images/googleads.png" alt="Web Development">
         </div>
 
 
