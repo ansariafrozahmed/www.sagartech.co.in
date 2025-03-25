@@ -98,7 +98,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         width: 100%;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         /* gap: 30px; */
-        gap:20px;
+        gap: 20px;
     }
 
     .blogcard {
@@ -174,17 +174,17 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     }
 
     .card-content-holder {
-    position: relative;
-    margin-top: -40px;
-    background: white;
-    margin-right: 25px;
-    margin-left: 25px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
+        position: relative;
+        margin-top: -40px;
+        background: white;
+        margin-right: 25px;
+        margin-left: 25px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 15px;
     }
 
-    .publisher-info{
-        margin-bottom:0px;
+    .publisher-info {
+        margin-bottom: 0px;
     }
 
     @media (max-width: 767px) {
@@ -254,30 +254,30 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         }
 
         .card {
-        width: 100%;
-        /* height: auto; */
-        height:350px !important;
-        background: #fff;
-        /* border-radius: 1.5rem; */
-        /* padding: 1.2rem; */
-        padding:0px;
-        overflow: hidden;
-        position: relative;
-        border:none;
-    }
+            width: 100%;
+            /* height: auto; */
+            height: 350px !important;
+            background: #fff;
+            /* border-radius: 1.5rem; */
+            /* padding: 1.2rem; */
+            padding: 0px;
+            overflow: hidden;
+            position: relative;
+            border: none;
+        }
     }
 
     .card {
         width: 100%;
         /* height: auto; */
-        height:330px;
+        height: 330px;
         background: #fff;
         /* border-radius: 1.5rem; */
         /* padding: 1.2rem; */
-        padding:0px;
+        padding: 0px;
         overflow: hidden;
         position: relative;
-        border:none;
+        border: none;
     }
 
     .card-img-holder {
@@ -286,14 +286,14 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         position: relative;
     }
 
-    .card-content-holder{
-    position: relative;
-    margin-top: -40px;
-    background: white;
-    margin-right: 15px;
-    margin-left: 15px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    padding: 15px;
+    .card-content-holder {
+        position: relative;
+        margin-top: -40px;
+        background: white;
+        margin-right: 15px;
+        margin-left: 15px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 15px;
     }
 
     .card-img-holder img {
@@ -310,7 +310,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         color: #22215B;
         line-height: normal;
         /* font-size: 1.4rem; */
-        font-size:1.3rem;
+        font-size: 1.3rem;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
@@ -320,18 +320,18 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     .description {
         color: #22215B80;
         /* font-size: 1rem; */
-        font-size:15px;
+        font-size: 15px;
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
-        line-height:20px;
+        line-height: 20px;
     }
 
     .blog-time {
         font-size: .8rem;
         /* color: #22215B; */
-        color:#FF0808;
+        color: #FF0808;
     }
 
     .options {
@@ -402,21 +402,21 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
     <?php $page = 'blogs';
     include 'include/newHeader.php' ?>
 
-    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
-        style="background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?w=996&t=st=1703225602~exp=1703226202~hmac=f67e8bbd5179b67cddcc5d59140a8ef5d7e9086acd3e1d5e231fd78bf0050762'); background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <section class="overview-block-ptb iq-over-black-20 jarallax iq-breadcrumb3 text-left iq-font-white"
+        style="background-image: url('./images/blog.webp'); background-position: left; background-repeat: no-repeat; background-size: cover;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-12">
-                    <div class="iq-mb-0">
+                    <!-- <div class="iq-mb-0">
                         <h2 class="iq-font-white iq-tw-6">Blog</h2>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <nav aria-label="breadcrumb" class="text-right">
-                        <ol class="breadcrumb">
+                        <!-- <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index"><i class="ion-android-home"></i> Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Blog</li>
-                        </ol>
+                        </ol> -->
                     </nav>
                 </div>
             </div>
@@ -437,23 +437,23 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
         <?php foreach ($posts as $item) { ?>
             <div class="card">
                 <div class="card-img-holder">
-                <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
-                    <img src="<?php echo $item['featured_image'] ? $item['featured_image'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
-                        alt="<?php echo $item['title'] ?>">
-        </a>
+                    <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
+                        <img src="<?php echo $item['featured_image'] ? $item['featured_image'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
+                            alt="<?php echo $item['title'] ?>">
+                    </a>
                 </div>
                 <div class="card-content-holder">
-                <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
-                    <h3 class="blog-title"><?php echo $item['title'] ?></h3>
-                </a>
-                <p class="description">
-                    <?php echo $item['excerpt'] ?>
-                </p>
-                <p class="publisher-info">Published By <a href="https://sagartech.co.in/"><span class="blog-time"> Sagar Tech</span></a> | On <span class="blog-time">
-                    <?php echo date('F j, Y', strtotime($item['date'])); ?>
-                </span>
-                </p>
-                <!-- <div class="options">
+                    <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
+                        <h3 class="blog-title"><?php echo $item['title'] ?></h3>
+                    </a>
+                    <p class="description">
+                        <?php echo $item['excerpt'] ?>
+                    </p>
+                    <p class="publisher-info">Published By <a href="https://sagartech.co.in/"><span class="blog-time"> Sagar Tech</span></a> | On <span class="blog-time">
+                            <?php echo date('F j, Y', strtotime($item['date'])); ?>
+                        </span>
+                    </p>
+                    <!-- <div class="options">
                     <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                         <span>Read Full Blog</span>
                     </a>
@@ -484,7 +484,7 @@ Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Deve
 
     <?php
     // include("include/faqaccordian.html");
-    include ("include/footer.php");
+    include("include/footer.php");
     ?>
 
 </body>
