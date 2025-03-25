@@ -658,7 +658,7 @@
                 With more than 8.5 billion searches made every day, your company cannot afford to remain hidden. When it
                 comes to enhancing your online presence and skyrocketing your business to the top of search engine rankings,
                 trust the expertise of <a style="color:#000000" href="https://sagartech.co.in/">Sagar Tech Technical
-                    Solutions</a> - an award-winning <a href="https://www.indiamart.com/sagartech-technicalsolutions/seo-search-engine-optimization-service.html" target="_blank" class="interlink">SEO company in Mumbai.</a> If you want to connect with as many potential
+                    Solutions</a> - an award-winning <a style="color:#000000" href="https://www.indiamart.com/sagartech-technicalsolutions/seo-search-engine-optimization-service.html" target="_blank" class="interlink">SEO company in Mumbai.</a> If you want to connect with as many potential
                 customers organically as possible, this is the best way. This is where we come. Our SEO services in
                 Mumbai are customised to your needs based on the latest algorithms.
             </p>
@@ -674,7 +674,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="./images/seo.png" alt="Web Development">
+            <img src="./images/faseo.png" alt="Web Development">
         </div>
 
 

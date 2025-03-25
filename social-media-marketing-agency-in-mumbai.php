@@ -822,10 +822,10 @@ s0.parentNode.insertBefore(s1,s0);
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                Sagar Tech Technical Solution is an Award Winning 🏆 <a class="interlink"
+                Sagar Tech Technical Solution is an Award Winning 🏆 <a style="color: #000000;"
                     href="digital-marketing-company-in-mumbai">Digital Marketing Company in Mumbai</a>. We provide result
                 oriented
-                social media services Our <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-marketing-service.html" target="_blank" class="interlink">social media marketing agency</a> of skilled social media optimization and marketing
+                social media services Our <a style="color: #000000;" href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-marketing-service.html" target="_blank" class="interlink">social media marketing agency</a> of skilled social media optimization and marketing
                 experts is experienced in managing social media platforms such as Instagram, Facebook, Twitter, Google+,
                 LinkedIn, and Pinterest. Together, we increase your social media presence and generate more leads.
             </p>
@@ -841,7 +841,7 @@ s0.parentNode.insertBefore(s1,s0);
             </div>
         </div>
         <div class="right">
-            <img src="./images/smma.png" alt="Web Development">
+            <img src="./images/fsmm.png" alt="Web Development">
         </div>
 
 

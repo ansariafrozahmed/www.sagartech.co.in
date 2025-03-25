@@ -742,8 +742,8 @@
                 media worldwide. Social media has become an important part of our daily lives, offering businesses a unique
                 platform to connect with their audience and promote their brand. <a href="https://www.indiamart.com/sagartech-technicalsolutions/social-media-optimization-service.html#2854486991573" target="_blank" class="interlink">Social media optimization (SMO)</a> is a
                 strategy used to enhance a brand's presence on social media platforms by optimising profiles, content, and
-                interactions with your audience. At <a class="interlink" href="https://sagartech.co.in/">Sagar Tech
-                    Technical Solution</a>, we specialise in providing expert <a class="interlink"
+                interactions with your audience. At <a style="color: #000000;" href="https://sagartech.co.in/">Sagar Tech
+                    Technical Solution</a>, we specialise in providing expert <a style="color: #000000;"
                     href="digital-marketing-company-in-mumbai">Digital Marketing</a> & SMO services to help businesses
                 improve their
                 social media presence and achieve their marketing objectives.
@@ -760,7 +760,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="./images/smo.png" alt="Web Development">
+            <img src="./images/fsmo.png" alt="Web Development">
         </div>
 
 

@@ -1156,7 +1156,7 @@ s0.parentNode.insertBefore(s1,s0);
       </div>
     </div>
     <div class="right">
-      <img style="width: 60%; margin: auto;display: block;" src="./images/1704475614603-removebg-preview (1).png" alt="Web Development">
+      <img src="./images/dm2.png" alt="Web Development">
     </div>
 
 

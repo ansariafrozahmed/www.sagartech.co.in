@@ -617,7 +617,7 @@
                 Sagar Tech Technical Solution is Award Winning 🏆 in <a style="color: #000;"
                     href="digital-marketing-company-in-mumbai">Digital Marketing company in Mumbai</a> with 5 Years of
                 experience.
-                <a href="https://www.indiamart.com/proddetail/local-seo-service-2854574842230.html" target="_blank" class="interlink">Local SEO (Search Engine Optimization)</a> plays a crucial role in the success of businesses that serve specific
+                <a href="https://www.indiamart.com/proddetail/local-seo-service-2854574842230.html" target="_blank" style="color: #000;">Local SEO (Search Engine Optimization)</a> plays a crucial role in the success of businesses that serve specific
                 geographic areas. Google is focusing on delivering local results that provide customers with immediate
                 solutions. Local SEO ensures that your business ranks highly in local search results. Customers who are
                 interested look for products or services nearby.
@@ -634,7 +634,7 @@
             </div>
         </div>
         <div class="right">
-            <img src="./images/localseo.png" alt="Web Development">
+            <img src="./images/lseo.png" alt="Web Development">
         </div>
 
 
