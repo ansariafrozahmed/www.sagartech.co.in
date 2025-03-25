@@ -1062,29 +1062,122 @@
     <?php
     $page = 'services';
     // include("include/trialh.php");
-    include ('include/newHeader.php');
+    include('include/newHeader.php');
     ?>
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    <div class="herosectionnew">
-        <h1>No.1 Mobile App Development Company In Mumbai</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Mobile App Development</li>
-        </ul>
-        <p class="herosectionpara">
-            Welcome To <a class="interlink" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>. We
-            understand the important role that <a href="https://www.indiamart.com/sagartech-technicalsolutions/application-development-services.html#2855127299833" target="_blank" class="interlink">mobile app development</a> plays in enhancing user engagement and driving
-            business growth. Our mobile app development services are tailored to cater to the unique needs of businesses
-            looking to make a lasting impact on the mobile globe. We work using the latest technologies.
-        </p>
-        <div class="herobuttonsnew">
-            <a href="contact" class="button">Contact Now !</a>
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        /* .right img {
+            transform: scale(0.5);
+            animation: scaleUp 1s forwards;
+        }
+
+        @keyframes scaleUp {
+            100% {
+                transform: scale(1);
+            }
+        } */
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">No.1 Mobile App Development Company In Mumbai</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Mobile App Development</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                Welcome To <a style="color: #000;" href="https://sagartech.co.in/">Sagar Tech Technical Solutions</a>. We
+                understand the important role that <a style="color: #000;" href="https://www.indiamart.com/sagartech-technicalsolutions/application-development-services.html#2855127299833" target="_blank">mobile app development</a> plays in enhancing user engagement and driving
+                business growth. Our mobile app development services are tailored to cater to the unique needs of businesses
+                looking to make a lasting impact on the mobile globe. We work using the latest technologies.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+            </div>
         </div>
-    </div>
+        <div class="right">
+            <img src="./images/fappdevelopment.png" alt="Web Development">
+        </div>
 
+
+    </div>
 
 
     <div class="second-ecommerce-section">
@@ -1110,7 +1203,7 @@
                         <h2>Expertise and experience</h2>
                     </div>
                     <p>Sagar Tech boasts a team of seasoned professionals with extensive experience in <a href="https://www.indiamart.com/sagartech-technicalsolutions/iphone-application-development-service.html" target="_blank" class="interlink">mobile app
-                        development.</a> Their expertise spans various industries, ensuring that your app will be crafted
+                            development.</a> Their expertise spans various industries, ensuring that your app will be crafted
                         with a deep understanding of your business domain.</p>
                 </div>
                 <!-- -------------------- -->
@@ -1309,7 +1402,7 @@
             <h2>Cotton Culture</h2>
             <h3>Ecommerce Application</h3>
             <p>
-At Sagar Tech Technical Solutions, we developed an e-commerce mobile application for Cotton Culture, a global platform specializing in premium cotton products. The project came with unique challenges, including time zone differences, language barriers, and cultural nuances. To address these, we implemented a robust communication strategy, which involved regular video conferences, emails, and phone calls to ensure seamless collaboration and keep the client updated on the project's progress. By maintaining transparent and proactive communication, we successfully navigated geographical and cultural differences to deliver a high-quality e-commerce application tailored to Cotton Culture's business needs.</p>
+                At Sagar Tech Technical Solutions, we developed an e-commerce mobile application for Cotton Culture, a global platform specializing in premium cotton products. The project came with unique challenges, including time zone differences, language barriers, and cultural nuances. To address these, we implemented a robust communication strategy, which involved regular video conferences, emails, and phone calls to ensure seamless collaboration and keep the client updated on the project's progress. By maintaining transparent and proactive communication, we successfully navigated geographical and cultural differences to deliver a high-quality e-commerce application tailored to Cotton Culture's business needs.</p>
             <div class="fourth-buttons">
                 <a href="contact">Let's Create Your App</a>
             </div>
@@ -1556,11 +1649,11 @@ At Sagar Tech Technical Solutions, we developed an e-commerce mobile application
     // include('blogSectionHome.php')
     ?>
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1576,7 +1669,7 @@ At Sagar Tech Technical Solutions, we developed an e-commerce mobile application
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

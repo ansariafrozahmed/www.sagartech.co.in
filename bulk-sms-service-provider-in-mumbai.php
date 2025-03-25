@@ -529,71 +529,71 @@ include "include/config.php";
 
     /* Second Section */
 
-  .newsecondsection {
-    padding: 50px 60px;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    justify-content: start;
-    padding-bottom: 0px;
-  }
-
-  .newsecondsection .left {
-    width: 50%;
-  }
-
-  .newsecondsection .left h2 {
-    font-size: 30px;
-    font-weight: 600;
-  }
-
-  .newsecondsection .left h3 {
-    font-size: 20px;
-    font-weight: 500;
-  }
-
-  .newsecondsection .right {
-    width: 50%;
-  }
-
-  .newsecondsection .right img {
-    height: 100%;
-    width: 100%;
-  }
-
-  @media only screen and (max-width: 767px) {
     .newsecondsection {
-      padding: 50px 20px;
-      display: flex;
-      flex-direction: column-reverse;
-      gap: 20px;
-      align-items: center;
-      justify-content: start;
+        padding: 50px 60px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: start;
+        padding-bottom: 0px;
     }
 
     .newsecondsection .left {
-      width: 100%;
+        width: 50%;
     }
 
     .newsecondsection .left h2 {
-      font-size: 30px;
-      font-weight: 600;
+        font-size: 30px;
+        font-weight: 600;
     }
 
     .newsecondsection .left h3 {
-      font-size: 20px;
-      font-weight: 500;
+        font-size: 20px;
+        font-weight: 500;
     }
 
     .newsecondsection .right {
-      width: 100%;
+        width: 50%;
     }
 
     .newsecondsection .right img {
-      height: 100%;
-      width: 100%;
+        height: 100%;
+        width: 100%;
     }
-  }
+
+    @media only screen and (max-width: 767px) {
+        .newsecondsection {
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 20px;
+            align-items: center;
+            justify-content: start;
+        }
+
+        .newsecondsection .left {
+            width: 100%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 100%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+    }
 </style>
 
 <body>
@@ -613,47 +613,142 @@ include "include/config.php";
     ?>
     <!-- /HEADER END -->
 
+    <style>
+        .newsecondsection {
+            padding: 50px 60px;
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: start;
+        }
 
-    <div class="herosectionnew" style="background-image: url('portfolio-images/bulk-sms-banner.jpg')">
-        <h1>India’s No. 1 Bulk SMS Service Provider and WhatsApp Bulk Message Provider</h1>
-        <ul class="herobreadrumb">
-            <li>Home</li>
-            <li>/</li>
-            <li>Web design company in mumbai</li>
-        </ul>
-        <p class="herosectionpara">
-            In today's fast-paced digital world, effective communication is more critical than ever. At <a
-                class="interlink" href="https://sagartech.co.in/">Sagar Tech Techincal Solutions</a>, we take pride in
-            being your ultimate partner for state-of-the-art communication solutions. Whether you're seeking the
-            expertise of a <a href="https://www.indiamart.com/sagartech-technicalsolutions/bulk-mobile-sms-service.html" target="_blank" class="interlink">Bulk SMS Service Provider</a> or in need of a reliable WhatsApp Bulk Message service, rest
-            assured, we've got your back.
-        </p>
-        <div class="herobuttonsnew">
-            <!-- <a href="#" class="button">Quick Enquiry</a> -->
-            <?php include 'include/quote.php' ?>
-            <!-- <a href="portfolio_old" class="button">View Portfolio</a> -->
+        .newsecondsection .left {
+            width: 50%;
+        }
+
+        .newsecondsection .left h2 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .newsecondsection .left h3 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .newsecondsection .right {
+            width: 50%;
+        }
+
+        .newsecondsection .right img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .dsanjkdhw0qp {
+                height: auto !important;
+            }
+
+            .newsecondsection {
+                padding: 50px 20px;
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 20px;
+                align-items: center;
+                justify-content: start;
+            }
+
+            .newsecondsection .left {
+                width: 100%;
+            }
+
+            .newsecondsection .left h2 {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            .newsecondsection .left h3 {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .newsecondsection .right {
+                width: 100%;
+            }
+
+            .newsecondsection .right img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        /* .right img {
+            transform: scale(0.5);
+            animation: scaleUp 1s forwards;
+        }
+
+        @keyframes scaleUp {
+            100% {
+                transform: scale(1);
+            }
+        } */
+    </style>
+    <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white">India’s No. 1 Bulk SMS Service Provider and WhatsApp Bulk Message Provider</h2>
+            <ul style="color:white" class="herobreadrumb">
+                <li>Home</li>
+                <li>/</li>
+                <li>Bulk SMS Service Provider</li>
+            </ul>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white">
+                In today's fast-paced digital world, effective communication is more critical than ever. At <a
+                    style="color: #000000;" href="https://sagartech.co.in/">Sagar Tech Techincal Solutions</a>, we take pride in
+                being your ultimate partner for state-of-the-art communication solutions. Whether you're seeking the
+                expertise of a <a style="color: #000000;" href="https://www.indiamart.com/sagartech-technicalsolutions/bulk-mobile-sms-service.html" target="_blank">Bulk SMS Service Provider</a> or in need of a reliable WhatsApp Bulk Message service, rest
+                assured, we've got your back.
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+
+                <?php //include 'include/quote.php' 
+                ?>
+
+                <a href="#open-modal" class="quote-button" style="color:white">Quick Enquiry</a>
+                <a href="contact" class="quote-button" style="color:white">Contact Now!</a>
+                <!-- <a href="portfolio/website" class="quote-button" style="color:white">Our Portfolio</a> -->
+            </div>
         </div>
+        <div class="right">
+            <img src="./images/fbulksms.png" alt="Web Development">
+        </div>
+
+
     </div>
+
+
 
     <div class="newsecondsection">
-    <div class="left">
-      <h2 style="line-height:40px;">Why Are Bulk SMS Services Important for Your Business?</h2>
-      <!-- <h3>Subtitle</h3> -->
-      <p>At Sagar Tech Technical Solutions, we deliver cutting-edge bulk SMS services designed to enhance your business communication. As a leading service provider in Mumbai, we help you connect with your audience instantly and effectively. Our reliable, cost-efficient, and customizable solutions ensure your messages reach the right people at the right time, driving better engagement and results. Whether it's promotional campaigns, transactional alerts, or reminders, our services are tailored to meet your needs. With robust API integration and multilingual support, we empower you to communicate seamlessly. Our real-time reporting tools help you track performance, ensuring maximum ROI. Choose us to experience unmatched reliability and round-the-clock support for all your bulk SMS needs.</p>
-      <br>
-      <div class="herobuttonsnew">
-        <!-- <a href="#">Quick Enquiry</a> -->
-        <a href="about" class="button">About Us</a>
-      </div>
+        <div class="left">
+            <h2 style="line-height:40px;">Why Are Bulk SMS Services Important for Your Business?</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p>At Sagar Tech Technical Solutions, we deliver cutting-edge bulk SMS services designed to enhance your business communication. As a leading service provider in Mumbai, we help you connect with your audience instantly and effectively. Our reliable, cost-efficient, and customizable solutions ensure your messages reach the right people at the right time, driving better engagement and results. Whether it's promotional campaigns, transactional alerts, or reminders, our services are tailored to meet your needs. With robust API integration and multilingual support, we empower you to communicate seamlessly. Our real-time reporting tools help you track performance, ensuring maximum ROI. Choose us to experience unmatched reliability and round-the-clock support for all your bulk SMS needs.</p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="about" class="button">About Us</a>
+            </div>
+        </div>
+        <div class="right">
+            <iframe width="100%" height="300" src="https://www.youtube.com/embed/Ve9DnA63ayk?si=911bbfp1QVkcpL7n"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <img src="./banner/business.webp" alt="Web Development"> -->
+        </div>
     </div>
-    <div class="right">
-      <iframe width="100%" height="300" src="https://www.youtube.com/embed/Ve9DnA63ayk?si=911bbfp1QVkcpL7n"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <!-- <img src="./banner/business.webp" alt="Web Development"> -->
-    </div>
-  </div>
 
 
     <div class="main-content">
@@ -893,11 +988,11 @@ include "include/config.php";
     // include('blogSectionHome.php')
     ?>
 
-    <?php include ("include/footer.php"); ?>
+    <?php include("include/footer.php"); ?>
 
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -913,7 +1008,7 @@ include "include/config.php";
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
