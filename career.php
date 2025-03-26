@@ -297,12 +297,24 @@ include "include/config.php";
     <div id="resumeModal" class="fixed inset-0 flex items-center justify-center hidden bg-black bg-opacity-50 z-50">
         <div class="bg-white p-6 rounded-lg w-96 shadow-lg">
             <h2 class="text-xl font-semibold" id="modalJobTitle"></h2>
-            <p class="text-gray-600 mt-2">Upload your resume to apply.</p>
-            <input type="file" id="resumeInput" class="mt-4 w-full p-2 border rounded-lg" accept=".pdf,.doc,.docx">
-            <div class="mt-4 flex justify-end gap-3">
-                <button onclick="closeModal()" class="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400">Cancel</button>
-                <button onclick="submitApplication()" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Submit</button>
-            </div>
+            <p class="text-gray-600 mt-2">Fill your resume to apply.</p>
+            <form action="career-email.php" method="POST" enctype="multipart/form-data">
+                <input class="mt-4 w-full p-2 border rounded-lg" type="text" id="jobPositionInput" name="job_position" placeholder="Job Position" required><br>
+
+                <input class="mt-4 w-full p-2 border rounded-lg" type="text" name="name" placeholder="Your Name" required><br>
+                <input class="mt-4 w-full p-2 border rounded-lg" type="email" name="email" placeholder="Your Email" required><br>
+                <input class="mt-4 w-full p-2 border rounded-lg" type="number" name="email" placeholder="Your Phone" required><br>
+                <div class="pt-2">
+                    <span>Upload Your Resume </span>
+                    <input type="file" name="resume" class="mt-1 w-full p-2 border rounded-lg">
+                </div>
+
+                <textarea class="mt-4 w-full p-2 border rounded-lg" name="message" placeholder="Your Message"></textarea><br>
+                <div class="mt-4 flex justify-end gap-3">
+                    <button onclick="closeModal()" class="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400">Cancel</button>
+                    <button type="submit" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Apply Now</button>
+                </div>
+            </form>
         </div>
     </div>
 
@@ -312,6 +324,7 @@ include "include/config.php";
         function openModal(jobTitle) {
             selectedJob = jobTitle;
             document.getElementById('modalJobTitle').innerText = `Apply for ${jobTitle}`;
+            document.getElementById('jobPositionInput').value = jobTitle;
             document.getElementById('resumeModal').classList.remove('hidden');
         }
 
@@ -329,6 +342,7 @@ include "include/config.php";
             const formData = new FormData();
             formData.append("jobTitle", selectedJob);
             formData.append("resume", resume);
+            console.log(formData, "dhgAHDKGAHK");
 
             fetch("career-email.php", {
                 method: "POST",

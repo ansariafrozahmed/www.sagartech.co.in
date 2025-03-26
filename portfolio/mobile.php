@@ -630,14 +630,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://verify8.com/" target="_blank">
+                <a href="https://play.google.com/store/apps/details?id=com.bebegiro.smash.app&hl=en_IN" target="_blank">
                     <div class="imgdiv">
                         <img src="../portfolio-app-development/bebigiro.png" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://apps.apple.com/us/app/sweet-baby-girl-daycare-2/id894628343" target="_blank">
-                        <h2>Bebigiro</h2>
+                    <a href="https://play.google.com/store/apps/details?id=com.bebegiro.smash.app&hl=en_IN" target="_blank">
+                        <h2>Bebegiro</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
@@ -656,14 +656,14 @@ include("../include/config.php");
                 </div>
             </div>
             <div class="maincontent-inner">
-                <a href="https://play.google.com/store/apps/datasafety?id=com.gsmash.sahibaan&hl=en_IN" target="_blank">
+                <a href="https://play.google.com/store/apps/details?id=com.gsmash.sahibaan&hl=en_IN" target="_blank">
                     <div class="imgdiv">
                         <img src="../portfolio-app-development//sahiba.png" alt="">
                     </div>
                 </a>
                 <div class="content-text">
-                    <a href="https://play.google.com/store/apps/datasafety?id=com.gsmash.sahibaan&hl=en_IN" target="_blank">
-                        <h2>Sahibaan                        </h2>
+                    <a href="https://play.google.com/store/apps/details?id=com.gsmash.sahibaan&hl=en_IN" target="_blank">
+                        <h2>Sahibaan</h2>
                     </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
