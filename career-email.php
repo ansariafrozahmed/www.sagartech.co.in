@@ -14,7 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $job_position = $_POST["job_position"];
     $message = $_POST["message"];
 
-    $target_dir = "https://sagartech.co.in/uploads/";
+    if ($_FILES["resume"]["error"] !== UPLOAD_ERR_OK) {
+        die("File Upload Error: " . $_FILES["resume"]["error"]);
+    }
+
+    $target_dir = "uploads/";
 
     // Get original file extension
     $file_extension = pathinfo($_FILES["resume"]["name"], PATHINFO_EXTENSION);
@@ -45,8 +49,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->addAddress('danishshaikh.st@gmail.com');
 
         // Attach the uploaded file if available
+
         if ($file_uploaded) {
+            echo "File saved at: " . $target_file;
+        } else {
+            echo "File upload failed!";
+        }
+        if (file_exists($target_file)) {
             $mail->addAttachment($target_file, $new_filename);
+        } else {
+            echo "File not found: " . $target_file;
         }
 
         $mail->isHTML(false);
