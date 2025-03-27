@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 587;
 
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('danishshaikh.st@gmail.com');
 
         // Attach the uploaded file if available
         if ($file_uploaded) {
