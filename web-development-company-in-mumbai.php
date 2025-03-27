@@ -1438,7 +1438,7 @@
       <br>
       <div class="herobuttonsnew">
         <!-- <a href="#">Quick Enquiry</a> -->
-        <a href="https://sagartech.co.in/blog/redesign-your-website-by-working-with-a-skilled-web-design-agency" class="button">READ BLOG POST</a>
+        <a href="/blog/redesign-your-website-by-working-with-a-skilled-web-design-agency" class="button">READ BLOG POST</a>
       </div>
     </div>
     <div class="right">
