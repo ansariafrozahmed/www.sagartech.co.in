@@ -493,7 +493,7 @@ include("../include/config.php");
     .fifthsection {
         line-height: normal;
         padding: 50px;
-        background-color: #f2f2f2;
+        background-color: #ffffff;
         text-align: center;
     }
 
@@ -512,9 +512,10 @@ include("../include/config.php");
     }
 
     .imgdiv {
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
         border: 5px solid white;
         background-color: white;
+        border-radius: 15px;
     }
 
     .imgdiv img {
@@ -687,7 +688,7 @@ include("../include/config.php");
     <script src="../js/custom.js"></script>
 
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -703,7 +704,7 @@ include("../include/config.php");
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

@@ -526,6 +526,7 @@ include("../include/config.php");
     }
 </style>
 
+
 <body>
     <!-- loading -->
     <div id="loading">
