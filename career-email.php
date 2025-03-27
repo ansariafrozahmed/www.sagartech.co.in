@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $job_position = $_POST["job_position"];
     $message = $_POST["message"];
 
-    $target_dir = "uploads/";
+    $target_dir = "https://sagartech.co.in/uploads/";
 
     // Get original file extension
     $file_extension = pathinfo($_FILES["resume"]["name"], PATHINFO_EXTENSION);
