@@ -1525,7 +1525,31 @@
     </script>
 
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Dynamic Website Development Process: A Simplified Guide
 
+            </h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">In today’s digital age, a dynamic website has become a necessity for businesses of all sizes. Unlike static websites, dynamic websites are interactive, allowing for real-time updates and personalized experiences. This guide will provide a simplified overview of the dynamic website development process, from planning to launch. ...
+
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/dynamic-website-development-process-a-simplified-guide" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/09/Dynamic-website-development-process-feature-image.webp" alt="Web Development">
+            </div>
+        </div>
+    </div>
     <?php
     // include 'blogSectionHome.php'
     ?>
