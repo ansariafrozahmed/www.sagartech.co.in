@@ -298,25 +298,57 @@ include "include/config.php";
         <div class="bg-white p-6 rounded-lg w-96 shadow-lg">
             <h2 class="text-xl font-semibold" id="modalJobTitle"></h2>
             <p class="text-gray-600 mt-2">Fill your resume to apply.</p>
-            <form action="career-email.php" method="POST" enctype="multipart/form-data">
-                <input class="mt-4 w-full p-2 border rounded-lg" type="text" id="jobPositionInput" name="job_position" placeholder="Job Position" required><br>
+            <form id="careerForm" action="career-email.php" method="POST" enctype="multipart/form-data" onsubmit="disableSubmitButton()">
+                <input class="mt-4 w-full p-2 border rounded-lg" type="hidden" id="jobPositionInput" name="job_position" required><br>
 
                 <input class="mt-4 w-full p-2 border rounded-lg" type="text" name="name" placeholder="Your Name" required><br>
                 <input class="mt-4 w-full p-2 border rounded-lg" type="email" name="email" placeholder="Your Email" required><br>
-                <input class="mt-4 w-full p-2 border rounded-lg" type="number" name="email" placeholder="Your Phone" required><br>
+                <input class="mt-4 w-full p-2 border rounded-lg" type="number" name="phone" placeholder="Your Phone" required><br>
+
                 <div class="pt-2">
                     <span>Upload Your Resume </span>
                     <input type="file" name="resume" class="mt-1 w-full p-2 border rounded-lg">
                 </div>
 
                 <textarea class="mt-4 w-full p-2 border rounded-lg" name="message" placeholder="Your Message"></textarea><br>
+
                 <div class="mt-4 flex justify-end gap-3">
-                    <button onclick="closeModal()" class="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400">Cancel</button>
-                    <button type="submit" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Apply Now</button>
+                    <button type="button" onclick="closeModal()" class="px-4 py-2 bg-gray-300 rounded-lg hover:bg-gray-400">Cancel</button>
+                    <button id="submitButton" type="submit" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">
+                        Apply Now
+                    </button>
                 </div>
             </form>
+
+            <script>
+                function disableSubmitButton() {
+                    let submitButton = document.getElementById("submitButton");
+                    submitButton.disabled = true;
+                    submitButton.innerText = "Submitting...";
+                    submitButton.classList.add("opacity-50", "cursor-not-allowed");
+                }
+            </script>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const status = urlParams.get("status");
+            const message = urlParams.get("message");
+
+            if (status && message) {
+                Swal.fire({
+                    icon: status === "success" ? "success" : "error",
+                    title: message
+                }).then(() => {
+                    // Remove query parameters after showing the alert
+                    window.history.replaceState(null, null, window.location.pathname);
+                });
+            }
+        });
+    </script>
+
 
     <script>
         let selectedJob = "";
