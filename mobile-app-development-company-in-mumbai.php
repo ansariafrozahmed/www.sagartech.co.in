@@ -1644,7 +1644,29 @@
         });
     </script>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px"> Mobile App Development for Security Best Practices.</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">In the fast-paced world of Mobile app development, where innovation is the key driver, ensuring the security of applications is paramount. Users entrust their sensitive information to mobile apps, making it crucial for developers to adopt best practices that safeguard against potential threats. Let’s delve into the essential aspects of mobile app development...
 
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/mobile-app-development-for-security-best-practices" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/01/Untitled-design-13.png" alt="Web Development">
+            </div>
+        </div>
+    </div>
     <?php
     // include('blogSectionHome.php')
     ?>

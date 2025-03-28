@@ -983,7 +983,29 @@ include "include/config.php";
         });
     </script>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Digital Marketing Strategy: 10 Effective Tips for Small Businesses</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">In today’s digital age, small businesses must establish a solid digital marketing strategy to succeed. A well-thought-out digital marketing strategy may help small businesses compete with larger competitors, reach their target audience effectively, and meet their business objectives. You can choose Best Digital Marketing Company in Mumbai for...
 
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/digital-marketing-strategy" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/03/Capture-12.jpg" alt="Web Development">
+            </div>
+        </div>
+    </div>
     <?php
     // include('blogSectionHome.php')
     ?>
