@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Best Web Design and Web Development Company in Mumbai</title>
+    <title>Node JS Development Services</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,13 +10,13 @@
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Best Web Design and Web Development Company in Mumbai">
-    <meta property="og:url" content="https://sagartech.co.in/web-development-company-in-mumbai">
-    <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/web-development-og.webp">
+    <meta property="og:title" content="Node JS Development Services">
+    <meta property="og:url" content="https://sagartech.co.in/nodejs-development-services">
+    <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/web-development-company-in-mumbai" />
+    <link rel="canonical" href="https://sagartech.co.in/nodejs-development-services" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- bootstrap -->
