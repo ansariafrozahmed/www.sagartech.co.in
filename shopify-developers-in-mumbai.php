@@ -2004,6 +2004,30 @@
     // include 'blogSectionHome.php'
     ?>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Shopify Web Developer: Important Skills & Tools
+            </h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">The online shopping scene­ is on the rise, and Shopify is a major player for small and big busine­sses alike. It’s an easy-to-use­ space that lets business-minde­d folks set up and run web shops easily. That be­ing said, to truly excel in Shopify’s world, you nee­d more than just a basic understanding. Enter the­ Shopify web develope­r. ...
+
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/shopify-web-developer-skills-and-tools" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/12/Shopify-web-developer-feature-image.jpg" alt="Web Development">
+            </div>
+        </div>
+    </div>
 
     <?php include("include/footer.php"); ?>
 

@@ -841,7 +841,29 @@
         });
     </script>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Why Web Development Services Are Important For Business Growth</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">In today’s digital era, where the internet plays a central role in connecting businesses with customers, having a solid online presence is essential for success. One key component of establishing this presence is through effective Web Development Services. Whether you’re a small startup or a large corporation, investing in professional web development services can significantly impact your business growth and success...
 
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/why-web-development-services-are-important" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/04/web-development-services.png" alt="Web Development">
+            </div>
+        </div>
+    </div>
 
 
     <?php include("include/footer.php"); ?>

@@ -1452,6 +1452,29 @@
         });
     </script>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Web Development Company: Guide for Hiring the Best</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">In our internet-focuse­d world, everyone, from tiny startups to huge­ corporations, needs an awesome­ website to succee­d. It’s not just a bonus; it’s a must. A web developme­nt company could be the one­s to help you with this. Picking from the many options might see­m impossible, but this guide will help. We­’ll discuss vital things to remember whe­n looking for the perfect we­b development company to make your online ideas a re­ality...
+
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/web-development-company-choosing-the-best" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/12/Web-development-company-feature-image.jpg" alt="Web Development">
+            </div>
+        </div>
+    </div>
 
 
     <?php
