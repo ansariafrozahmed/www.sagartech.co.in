@@ -1569,6 +1569,29 @@ s0.parentNode.insertBefore(s1,s0);
   // include("blogSectionHome.php");
   ?>
 
+  <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;color:white;margin-bottom:15px">Top 5 Digital Marketing Techniques 2025 to Grow Any Company</h2>
+      <!-- <h3>Subtitle</h3> -->
+      <p style="color:white;">Change­s happen fast in the digital marketing world. By 2025, ce­rtain digital marketing techniques will be ke­y to business success. These­ top five approaches are for e­veryone, whethe­r you’re just starting out or an established firm...
+
+      </p>
+      <br>
+      <div class="herobuttonsnew">
+        <!-- <a href="#">Quick Enquiry</a> -->
+        <a href="/blog/top-5-digital-marketing-techniques-for-businesses" class="button">READ BLOG POST</a>
+      </div>
+    </div>
+    <div class="right">
+      <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+      <div class="dsanjkdhw0qp" style="height:400px">
+        <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2025/01/Digital-marketing-techniques-feature-image.jpg" alt="Web Development">
+      </div>
+    </div>
+  </div>
 
   <?php include("include/footer.php"); ?>
 

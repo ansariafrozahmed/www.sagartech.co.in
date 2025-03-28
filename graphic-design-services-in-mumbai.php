@@ -1226,6 +1226,31 @@
   <?php
   // include("blogSectionHome.php");
   ?>
+
+  <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+    <div class="left">
+      <h2 style="line-height:40px;color:white;margin-bottom:15px">Select Your Design Partner With A Graphic Design Company in India</h2>
+      <!-- <h3>Subtitle</h3> -->
+      <p style="color:white;">Have you ever thought the images for your brand are a little… boring? Your message isn’t being shouted from the rooftops, are they? You’re not all alone. Standing out is a challenge in today’s packed industry, which is where a trusted graphic design company in India can help. But locating a perfect partner? The true difficulty lies in it....
+
+      </p>
+      <br>
+      <div class="herobuttonsnew">
+        <!-- <a href="#">Quick Enquiry</a> -->
+        <a href="/blog/graphic-design-company-in-india-finding-design-partner" class="button">READ BLOG POST</a>
+      </div>
+    </div>
+    <div class="right">
+      <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+      <div class="dsanjkdhw0qp" style="height:400px">
+        <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2025/03/Graphic-design-company-in-India-feature.jpg" alt="Web Development">
+      </div>
+    </div>
+  </div>
+
   <?php include("include/footer.php"); ?>
   <script src="js/custom.js"></script>
   <script type="text/javascript">

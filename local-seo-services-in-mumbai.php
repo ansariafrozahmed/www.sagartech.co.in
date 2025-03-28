@@ -893,6 +893,29 @@
     // include('blogSectionHome.php')
     ?>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Local SEO Audit: Increase Your Local Business In 2025</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">Businesses of all sizes depend significantly on internet exposure to prosper in the hyperconnected world of today. For many firms, a local SEO audit is the key to unlocking a sizable chunk of their consumer base, even if having a strong national web presence is essentia. Consider this: Where do you go when you need a hair salon, a plumber, or a new restaurant? Most likely, you begin with a straightforward Google search...
+
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/local-seo-audit-for-more-customers-in-2025" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2025/01/Local-SEO-Audit-feature-image.webp" alt="Web Development">
+            </div>
+        </div>
+    </div>
 
     <?php include("include/footer.php"); ?>
 

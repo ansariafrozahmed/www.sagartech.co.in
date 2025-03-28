@@ -1125,7 +1125,29 @@ s0.parentNode.insertBefore(s1,s0);
         });
     </script>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Social Media Marketing Tools: Expand Your Audience</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">Social media has developed into a crucial tool for businesses in the current digital era to engage with their target market. With billions of active users across various platforms, it’s no wonder that social media marketing has emerged as a powerful tool for growth. To effectively leverage this potential, businesses need to harness the power of social media marketing tools...
 
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/social-media-marketing-tools" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/08/Social-media-marketing-tools-feature-image.webp" alt="Web Development">
+            </div>
+        </div>
+    </div>
 
     <?php
     // include('blogSectionHome.php')

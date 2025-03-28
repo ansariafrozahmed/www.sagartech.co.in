@@ -1031,7 +1031,29 @@ include 'include/config.php';
         });
     </script>
 
+    <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
+        <div class="left">
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Graphic Design Services: The Visual Face Of Your Brand</h2>
+            <!-- <h3>Subtitle</h3> -->
+            <p style="color:white;">In today’s competitive business, it is more important than ever for businesses to have a strong visual identity. The graphic design services are what help your brand stand out from the competition and connect with your target audiences.Graphic design services can play a vital part in creating a strong visual identity for your brand...
 
+            </p>
+            <br>
+            <div class="herobuttonsnew">
+                <!-- <a href="#">Quick Enquiry</a> -->
+                <a href="/blog/graphic-design-services-your-brand-visual-identity" class="button">READ BLOG POST</a>
+            </div>
+        </div>
+        <div class="right">
+            <!-- <iframe width="100%" height="300" src="https://www.youtube.com/embed/BVqMoA9C4Qo?si=9QxprkBltCyTP_Q7"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            <div class="dsanjkdhw0qp" style="height:400px">
+                <img style="object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2024/10/Graphic-design-services-feature-image-min.webp" alt="Web Development">
+            </div>
+        </div>
+    </div>
 
     <?php
     // include 'blogSectionHome.php' 
