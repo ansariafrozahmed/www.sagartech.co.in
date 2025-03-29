@@ -822,7 +822,7 @@ include('config.php');
               <div class="sub-menu single-column-menu">
                 <ul>
                   <li><a href="<?= WEB_URL ?>portfolio/website">Web Development Portfolio</a></li>
-                  <li><a href="<?= WEB_URL ?>portfolio/mobile">Mobile Development Portfolio</a></li>
+                  <li><a href="<?= WEB_URL ?>portfolio/mobile">App Development Portfolio</a></li>
                   <li><a href="<?= WEB_URL ?>portfolio/search-engine-optimization">SEO Portfolio</a></li>
                   <li><a href="<?= WEB_URL ?>portfolio/logo">Logo Design Portfolio</a></li>
                   <li><a href="<?= WEB_URL ?>portfolio/banner">Banner Design Portfolio</a></li>
