@@ -43,6 +43,7 @@
         gtag('config', 'UA-156939866-1');
     </script>
 </head>
+
 <style type="text/css">
     * {
         margin: 0;
@@ -1008,6 +1009,23 @@
                 width: 100%;
             }
         }
+
+        .our-client-main-div h2 {
+            font-size: 40px;
+            font-weight: 700;
+            padding-bottom: 40px;
+            color: #2b2a2a;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        @media (max-width: 767px) {
+            .our-client-main-div h2 {
+                font-size: 30px !important;
+                padding-bottom: 15px;
+            }
+        }
     </style>
 
     <!-- <div class="herosectionnew"> -->
@@ -1062,31 +1080,39 @@
 
 
     <div class="ourprocesssection">
-        <h2>Benefits of Node JS Development</h2>
+        <div class="our-client-main-div ">
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">Node JS Development</span></h2>
+        </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
+                <img src="./technologiesicons/node/operations.png" height="70px" alt="Faster I/O operations">
                 <div class="headingggggg">Faster I/O operations</div>
                 <p>Node JS is built to handle asynchronous I/O operations using a single thread called the Event Loop ensuring faster reading or writing to the database, network connections or file systems.</p>
             </div>
             <div class="discover">
+                <img src="./technologiesicons/node/Faster data streaming.png" height="70px" alt="Faster data streaming">
                 <div class="headingggggg">Faster data streaming</div>
                 <p>Node JS uses HTTP request and response as data streams resulting in faster processing of files during the uploading process. This power can be leveraged in deploying real-time video and audio recording.</p>
             </div>
             <div class="discover">
+                <img src="./technologiesicons/node/Ease of coding.png" height="70px" alt="Ease of coding">
                 <div class="headingggggg">Ease of coding</div>
                 <p>Our Node JS, developers use JavaScript for both client and server side scripting, resulting in ease of data transport between server and browser.</p>
             </div>
             <div class="discover">
+                <img src="./technologiesicons/node/Node JS Community.png" height="70px" alt="Node JS Community">
                 <div class="headingggggg">Node JS Community
                 </div>
                 <p>Being an open-source framework, there is a huge repository of dynamic tools and modules in the Node Package Manager (NPM). Further, the immense popularity of the platform is making the Node community stronger with more updated tools and modules.</p>
             </div>
             <div class="discover">
+                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Caching of Modules">
                 <div class="headingggggg">Caching of Modules
                 </div>
                 <p>Node JS allows module caching. When the modules are requested for the first time, they are automatically cached into the application memory thus preventing repeated module code execution for the next time it is called on.</p>
             </div>
             <div class="discover">
+                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Proxy Server">
                 <div class="headingggggg">Proxy Server</div>
                 <p>For server-side applictions those need to pull in data from different sources, you may consider Node JS as a cost saving platform. Node JS can be used to proxy a number of services that have different response times. Thus, you may bypass the cost of setting up proxy infrastructure.</p>
             </div>
@@ -1263,14 +1289,16 @@
 
 
         <div class="typesofsection">
-            <h2>Our Node JS Development Services
-            </h2>
+            <div class="our-client-main-div ">
+                <h2>Our Node <span style="font-family: 'Raleway', sans-serif;color: #ff0808">JS Development Services</span></h2>
+            </div>
+
             <br>
             <!-- <h3>subtitle</h3> -->
             <div class="typesofcard">
                 <!-- <a href="ecommerce-website-development-company-in-mumbai"> -->
                 <div class="carddd">
-                    <img src="icons/online-shop.png" height="70px" alt="Web Development">
+                    <img src="./technologiesicons/node/Custom Node JS development.webp" height="100px" alt="Custom Node JS development">
                     <!-- <p class="number-h1">01</p> -->
                     <p class="h1">Custom Node JS development</p>
                     <p class="p">Our in-house development team specializes in crafting custom Node JS applications for SMBs and large enterprises. Our developers have an industry exposure in real-time web programming, AJAX and JSON communication, and rich web app development suited to your specific business requirements.</p>
@@ -1278,7 +1306,7 @@
                 <!-- </a>
             <a href="blogging-website-development-in-mumbai"> -->
                 <div class="carddd">
-                    <img src="icons/blog.png" height="70px" alt="Web Development">
+                    <img src="./technologiesicons/node/chap app.png" height="100px" alt="Real-time Chat App">
                     <!-- <p class="number-h1">01</p> -->
                     <p class="h1">Real-time Chat App
                     </p>
@@ -1289,7 +1317,7 @@
                 <!-- </a>
             <a href="dynamic-website-development-company-in-mumbai"> -->
                 <div class="carddd">
-                    <img src="icons/webpage.png" height="70px" alt="Web Development">
+                    <img src="./technologiesicons/node/API Development.webp" height="100px" alt="API Development">
                     <!-- <p class="number-h1">01</p> -->
                     <p class="h1">API Development</p>
                     <p class="p">Hire Node JS developers from us to extend the features and functionalities with API development and integration. We can craft JSON-based REST APIs and integrate them into an application. We create custom APIs for payment, shipment, cloud applications, Server-Oriented Architectures (SOA), etc.</p>
@@ -1297,7 +1325,7 @@
                 <!-- </a> -->
                 <!-- <a href="shopify-developers-in-mumbai"> -->
                 <div class="carddd">
-                    <img src="icons/shopify-icon.png" height="70px" alt="Web Development">
+                    <img src="./technologiesicons/node/Support & Maintenance.webp" height="100px" alt="Support & Maintenance">
                     <!-- <p class="number-h1">01</p> -->
                     <p class="h1">Support & Maintenance</p>
                     <p class="p">We extend our support to keep your web application highly functional at all times. Feature integration, troubleshooting, upgrades - we offer an extensive maintenance solution to our clients. Our aim is to deliver a top-notch user experience on your web app and we are ready to go an extra mile to ensure that.</p>
@@ -1366,79 +1394,59 @@
         <h3 class="faqs-heading">FAQs</h3>
         <div class="accordion">
             <div class="accordion-item">
-                <h2>Why do I need professional web development services?</h2>
+                <h2>What is the architecture of Node JS?</h2>
                 <div class="accordion-content">
-                    <p>Professional web development services ensure that your website is created with the latest technologies,
-                        adheres to industry standards, and provides a seamless user experience. This can enhance your online presence
-                        and business credibility.</p>
+                    <p>Node JS architecture includes the following:
+
+                        Single threaded – Node JS operates on a single thread. It helps to avoid context switching
+
+                        Non-blocking I/O – The runtime tasks are executed in an asynchronous way which returns relevant results through a call back system to the event loop thread.
+
+                        Event loop –It allows Node JS to perform non-blocking I/O (input-output) operations. Any transaction that passes through it traverses the callbacks. Node JS uses the libuv to manage queuing and process the asynchronous events.
+
+                        Back end development –This is the server side scripting and database integration that is invisible to the users. It ensures to receive and return requested data through the database integration.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>What technologies do you use for web development?</h2>
+                <h2>What are some of the features of Node JS?</h2>
                 <div class="accordion-content">
-                    <p>We utilize a variety of technologies, including HTML, CSS, JavaScript, PHP, Python, Ruby on Rails, and
-                        various content management systems (CMS) like WordPress, Drupal, and Joomla, depending on the project
-                        requirements.</p>
+                    <p>Real time application –Node JS is perfect for developing real-time apps such as chatting and gaming apps. It is also ideal for programmes that require a non-blocking or event-based server.
+
+                        Time Saving –Node JS allows the developers to code JavaScript both on the server (front-end) and client (back-end) sides. Naturally, it saves significant development time.
+
+                        Cross-platform development –By collaborating with NW.js or Electron, Node JS allows the devs to create user-friendly cross-platform apps.
+
+                        Scalable and lightweight –The non-blocking nature of the single threads makes sure that the apps are lightweight, scalable, high-performing and work in a network-friendly way.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>Do you provide e-commerce development services?</h2>
+                <h2>Which kinds of applications are developed with Node JS?</h2>
                 <div class="accordion-content">
-                    <p>Yes, we specialize in e-commerce development, creating secure and user-friendly online stores. Our solutions
-                        include payment gateway integration, product management, and order processing features.</p>
+                    <p>From enterprises to small startups – businesses of diverse sizes seek to develop scalable and stable web applications with Node JS. Due to its event-driven nature, this framework excels over other frameworks.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>How long does it take to develop a website?</h2>
+                <h2>How to use Node JS for serverless and microservices?</h2>
                 <div class="accordion-content">
-                    <p>The timeline for web development varies depending on the complexity and scope of the project. Simple websites
-                        may take a few weeks, while more complex projects, such as e-commerce platforms, can take several months.</p>
+                    <p>Microservice architecture refers to the development of any app including various services. Each service carries out a specific task. As per the business requirement, the codebase can be expanded.
+
+                        Another significant feature of Node JS is its serverless architecture. With this, the developers can get rid of managing servers and using various functions during writing codes. This allows them to individually deploy the codes or functionalities.
+
+                    </p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>How can i get started with your web development services?</h2>
+                <h2>Is Node JS ideal for MVPs and prototyping?</h2>
                 <div class="accordion-content">
-                    <p>To get started, simply contact us through our website or by email. We'll schedule a consultation to discuss
-                        your project requirements, goals, and any specific features you want to include in your website or web
-                        application.</p>
+                    <p>Entrepreneurs these days prefer to launch an MVP (Minimum Viable Products) in the market as soon as possible to achieve a competitive edge and then scale it as per budget and requirement. Since Node JS is equipped with a huge library of modules in the NPM, the development team can easily prototype and subsequently craft MVPs without any hassles.</p>
                 </div>
             </div>
 
-            <div class="accordion-item">
-                <h2>Can you create custom web applications tailored to my business needs?</h2>
-                <div class="accordion-content">
-                    <p>Yes, we specialize in developing custom web applications designed to meet specific business requirements,
-                        providing unique solutions for your industry or niche.</p>
-                </div>
-            </div>
 
-            <div class="accordion-item">
-                <h2>Can you integrate a payment gateway for e-commerce functionality?</h2>
-                <div class="accordion-content">
-                    <p>Yes, we specialize in integrating secure payment gateways such as PayPal, Stripe, and others to facilitate
-                        online transactions for e-commerce websites.</p>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2>Do you provide ongoing website analytics and performance tracking?</h2>
-                <div class="accordion-content">
-                    <p>We can integrate analytics tools such as Google Analytics to track website performance, user behavior, and
-                        other key metrics, providing insights for continuous improvement.</p>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2>Can you assist with domain registration and hosting services?</h2>
-                <div class="accordion-content">
-                    <p>While our primary focus is on web development, we can provide guidance on domain registration and recommend
-                        reliable hosting services to suit your needs.</p>
-                </div>
-            </div>
         </div>
         <script>
             document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
