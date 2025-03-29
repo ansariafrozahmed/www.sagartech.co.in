@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Node JS Development Services</title>
+    <title>React JS Development Services</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +10,7 @@
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Node JS Development Services">
+    <meta property="og:title" content="React JS Development Services">
     <meta property="og:url" content="https://sagartech.co.in/nodejs-development-services">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
@@ -492,7 +492,7 @@
     }
 
     .ourprocesssection {
-        padding: 60px;
+        padding: 60px 60px 10px 60px;
     }
 
     .ourprocesssection h2 {
@@ -504,7 +504,7 @@
         padding: 20px 0px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px 60px;
+        gap: 20px 60px;
     }
 
     .discover {
@@ -1031,14 +1031,14 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">Node JS Development Services</h2>
+            <h2 style="line-height:40px;color:white">React JS Development Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>Node JS Development Services</li>
+                <li>React JS Development Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
-            <p style="color:white">Node JS is an excellent choice for building data-intensive, real-time web and mobile applications. Powered by JavaScript, it streamlines backend development, ensuring efficiency and scalability. As a top Node JS development company in India, we specialize in creating high-performance real-time applications, network solutions, and mobile platforms of any scale. Partner with us to leverage our expertise and get cutting-edge Node JS development services at a competitive price.
+            <p style="color:white">React.js is ideal for building fast, scalable, and interactive web and mobile applications. As a leading React.js development company in India, we specialize in SPAs, PWAs, and dynamic UI components using React Hooks, Redux, and Next.js. Our expert team delivers SEO-friendly, high-performance solutions at competitive prices. Partner with us to create cutting-edge React applications tailored to your business needs.
             </p>
             <br>
             <div class="herobuttonsnew">
@@ -1052,7 +1052,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/node.png">
+            <img src="./images/react.png">
         </div>
 
     </div>
@@ -1085,26 +1085,26 @@
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/node/operations.png" height="70px" alt="Fast Rendering with Virtual DOM">
+                <img src="./technologiesicons/react/Fast Rendering with Virtual DOM.png" height="70px" alt="Fast Rendering with Virtual DOM">
                 <div class="headingggggg">Fast Rendering with Virtual DOM</div>
                 <p>React uses a Virtual DOM to optimize rendering. Instead of updating the entire DOM, it updates only the changed components, leading to faster performance and a smoother user experience.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Faster data streaming.png" height="70px" alt="Component-Based Architecture">
+                <img src="./technologiesicons/react/Component-Based Architecture.webp" height="70px" alt="Component-Based Architecture">
                 <div class="headingggggg">Component-Based Architecture</div>
                 <p>React follows a component-driven approach, allowing developers to create reusable UI components. This makes the development process modular, scalable, and easier to maintain.
 
                 </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Ease of coding.png" height="70px" alt="SEO-Friendly">
+                <img src="./technologiesicons/react/SEO-Friendly.png" height="70px" alt="SEO-Friendly">
                 <div class="headingggggg">SEO-Friendly</div>
                 <p>React’s ability to render on the server-side with Next.js helps improve SEO rankings by making pages more indexable by search engines.
 
                 </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Node JS Community.png" height="70px" alt="One-Way Data Binding">
+                <img src="./technologiesicons/react/One-Way Data Binding.webp" height="70px" alt="One-Way Data Binding">
                 <div class="headingggggg">One-Way Data Binding
                 </div>
                 <p>React follows a unidirectional data flow, ensuring better control over data and reducing unexpected errors while managing UI state.
@@ -1112,7 +1112,7 @@
                 </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Rich Ecosystem & Community Support">
+                <img src="./technologiesicons/react/Rich Ecosystem & Community Support.png" height="70px" alt="Rich Ecosystem & Community Support">
                 <div class="headingggggg">Rich Ecosystem & Community Support
 
                 </div>
@@ -1121,14 +1121,14 @@
                 </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Easy Integration with Other Technologies">
+                <img src="./technologiesicons/react/Easy Integration with Other Technologies.png" height="70px" alt="Easy Integration with Other Technologies">
                 <div class="headingggggg">Easy Integration with Other Technologies
                 </div>
                 <p>React can be easily integrated with backend frameworks like Node.js, Laravel, or Django, making it a great choice for full-stack development.
                 </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Cross-Platform Development with React Native">
+                <img src="./technologiesicons/react/Cross-Platform Development with React Native.webp" height="70px" alt="Cross-Platform Development with React Native">
                 <div class="headingggggg">Cross-Platform Development with React Native
                 </div>
                 <p>React’s core principles extend to React Native, enabling developers to build mobile applications using the same JavaScript and React knowledge.
@@ -1136,23 +1136,23 @@
                 </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Faster Debugging & Development with Developer Tools">
+                <img src="./technologiesicons/react/Faster Debugging & Development with Developer Tools.png" height="70px" alt="Faster Debugging & Development with Developer Tools">
                 <div class="headingggggg">Faster Debugging & Development with Developer Tools </div>
                 <p>React Developer Tools allow easy debugging and tracking of component states, improving productivity and debugging efficiency. </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Reusable Components & Code Reusability">
+                <img src="./technologiesicons/react/Reusable Components & Code Reusability.png" height="70px" alt="Reusable Components & Code Reusability">
                 <div class="headingggggg">Reusable Components & Code Reusability </div>
                 <p>React's reusable components ensure that once a component is created, it can be used across multiple projects, reducing development time.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Hooks for Better State Management">
+                <img src="./technologiesicons/react/Hooks for Better State Management.png" height="70px" alt="Hooks for Better State Management">
                 <div class="headingggggg">Hooks for Better State Management
                 </div>
                 <p>React’s useState, useEffect, and custom hooks allow developers to handle state and lifecycle methods efficiently in functional components.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Server-Side Rendering with Next.js">
+                <img src="./technologiesicons/react/Server-Side Rendering with Next.js.png" height="70px" alt="Server-Side Rendering with Next.js">
                 <div class="headingggggg">Server-Side Rendering with Next.js
 
                 </div>
@@ -1170,60 +1170,41 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is the architecture of Node JS?</h2>
+            <h2>What is the architecture of React.js?</h2>
             <div class="accordion-content">
-                <p>Node JS architecture includes the following:
-
-                    Single threaded – Node JS operates on a single thread. It helps to avoid context switching
-
-                    Non-blocking I/O – The runtime tasks are executed in an asynchronous way which returns relevant results through a call back system to the event loop thread.
-
-                    Event loop –It allows Node JS to perform non-blocking I/O (input-output) operations. Any transaction that passes through it traverses the callbacks. Node JS uses the libuv to manage queuing and process the asynchronous events.
-
-                    Back end development –This is the server side scripting and database integration that is invisible to the users. It ensures to receive and return requested data through the database integration.</p>
+                <p>React.js follows a component-based architecture, allowing developers to build reusable UI components. It uses a virtual DOM to efficiently update the real DOM, optimizing performance. React follows a unidirectional data flow, making state management predictable and easier to debug.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What are some of the features of Node JS?</h2>
+            <h2>What are some of the features of React.js?</h2>
             <div class="accordion-content">
-                <p>Real time application –Node JS is perfect for developing real-time apps such as chatting and gaming apps. It is also ideal for programmes that require a non-blocking or event-based server.
-
-                    Time Saving –Node JS allows the developers to code JavaScript both on the server (front-end) and client (back-end) sides. Naturally, it saves significant development time.
-
-                    Cross-platform development –By collaborating with NW.js or Electron, Node JS allows the devs to create user-friendly cross-platform apps.
-
-                    Scalable and lightweight –The non-blocking nature of the single threads makes sure that the apps are lightweight, scalable, high-performing and work in a network-friendly way.</p>
+                <p>React.js offers features like JSX (JavaScript XML) for writing UI components, Virtual DOM for efficient rendering, component-based structure for reusability, and hooks for managing state and lifecycle methods without class components. It also supports server-side rendering (SSR) with Next.js.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Which kinds of applications are developed with Node JS?</h2>
+            <h2>Which kinds of applications are developed with React.js?</h2>
             <div class="accordion-content">
-                <p>From enterprises to small startups – businesses of diverse sizes seek to develop scalable and stable web applications with Node JS. Due to its event-driven nature, this framework excels over other frameworks.</p>
+                <p>React.js is widely used for developing single-page applications (SPAs), progressive web apps (PWAs), dynamic web applications, dashboards, e-commerce platforms, and mobile applications (using React Native).</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How to use Node JS for serverless and microservices?</h2>
+            <h2>How to use React.js for server-side rendering (SSR) and SEO?</h2>
             <div class="accordion-content">
-                <p>Microservice architecture refers to the development of any app including various services. Each service carries out a specific task. As per the business requirement, the codebase can be expanded.
-
-                    Another significant feature of Node JS is its serverless architecture. With this, the developers can get rid of managing servers and using various functions during writing codes. This allows them to individually deploy the codes or functionalities.
-
-                </p>
+                <p>React.js can be used for server-side rendering (SSR) with frameworks like Next.js, improving SEO and performance by rendering pages on the server before sending them to the client. This ensures better search engine indexing and faster page loads.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is Node JS ideal for MVPs and prototyping?</h2>
+            <h2>Is React.js ideal for MVPs and rapid prototyping?</h2>
             <div class="accordion-content">
-                <p>Entrepreneurs these days prefer to launch an MVP (Minimum Viable Products) in the market as soon as possible to achieve a competitive edge and then scale it as per budget and requirement. Since Node JS is equipped with a huge library of modules in the NPM, the development team can easily prototype and subsequently craft MVPs without any hassles.</p>
+                <p>Yes, React.js is ideal for building Minimum Viable Products (MVPs) due to its modular component structure, large ecosystem of third-party libraries, and fast development capabilities. It enables quick prototyping and scalable development.</p>
             </div>
         </div>
-
-
     </div>
+
     <script>
         document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
             accordionToggle.addEventListener('click', () => {
@@ -1244,7 +1225,7 @@
 
     <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced Node JS Development Tools | Expert Corner
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced React JS Development Tools | Expert Corner
             </h2>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...
@@ -1262,7 +1243,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
             <div class="dsanjkdhw0qp" style="height:400px">
-                <img style="background:white;object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://arhamtechnosoft.com/wp-content/uploads/2022/09/node.js-development-company-banner.png" alt="Web Development">
+                <img style="background:white;object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="./images/react.png" alt="Web Development">
             </div>
         </div>
     </div>

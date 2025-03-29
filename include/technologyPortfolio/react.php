@@ -98,7 +98,7 @@ $slides = array(
 ?>
 <style>
   .main-div-portfolio {
-    padding: 50px 0px
+    padding: 40px 0px 10px 0px;
   }
 
   swiper-container {
@@ -304,7 +304,7 @@ $slides = array(
 </head>
 
 <div class="main-div-portfolio">
-  <h2 class="portfolio-heading">Our <span style="color: #ff0808">Portfolio</span></h2>
+  <h2 class="portfolio-heading">Our <span style="color: #ff0808">Projects on React js</span></h2>
   <swiper-container class="mySwiper" navigation="true">
     <?php foreach ($slides as $slide) : ?>
       <swiper-slide>
@@ -322,9 +322,9 @@ $slides = array(
       </swiper-slide>
     <?php endforeach; ?>
   </swiper-container>
-  <div class="botttoonnn">
+  <!-- <div class="botttoonnn">
     <a href="portfolio/website" class="button-62" role="button">View All</a>
-  </div>
+  </div> -->
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
