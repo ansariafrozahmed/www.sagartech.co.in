@@ -492,7 +492,7 @@
     }
 
     .ourprocesssection {
-        padding: 60px 60px 10px 60px;
+        padding: 60px;
     }
 
     .ourprocesssection h2 {
@@ -504,7 +504,7 @@
         padding: 20px 0px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 60px;
+        gap: 10px 60px;
     }
 
     .discover {
@@ -1081,152 +1081,91 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div ">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">Node JS Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">React JS Development</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/node/operations.png" height="70px" alt="Faster I/O operations">
-                <div class="headingggggg">Faster I/O operations</div>
-                <p>Node JS is built to handle asynchronous I/O operations using a single thread called the Event Loop ensuring faster reading or writing to the database, network connections or file systems.</p>
+                <img src="./technologiesicons/node/operations.png" height="70px" alt="Fast Rendering with Virtual DOM">
+                <div class="headingggggg">Fast Rendering with Virtual DOM</div>
+                <p>React uses a Virtual DOM to optimize rendering. Instead of updating the entire DOM, it updates only the changed components, leading to faster performance and a smoother user experience.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Faster data streaming.png" height="70px" alt="Faster data streaming">
-                <div class="headingggggg">Faster data streaming</div>
-                <p>Node JS uses HTTP request and response as data streams resulting in faster processing of files during the uploading process. This power can be leveraged in deploying real-time video and audio recording.</p>
+                <img src="./technologiesicons/node/Faster data streaming.png" height="70px" alt="Component-Based Architecture">
+                <div class="headingggggg">Component-Based Architecture</div>
+                <p>React follows a component-driven approach, allowing developers to create reusable UI components. This makes the development process modular, scalable, and easier to maintain.
+
+                </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Ease of coding.png" height="70px" alt="Ease of coding">
-                <div class="headingggggg">Ease of coding</div>
-                <p>Our Node JS, developers use JavaScript for both client and server side scripting, resulting in ease of data transport between server and browser.</p>
+                <img src="./technologiesicons/node/Ease of coding.png" height="70px" alt="SEO-Friendly">
+                <div class="headingggggg">SEO-Friendly</div>
+                <p>React’s ability to render on the server-side with Next.js helps improve SEO rankings by making pages more indexable by search engines.
+
+                </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Node JS Community.png" height="70px" alt="Node JS Community">
-                <div class="headingggggg">Node JS Community
+                <img src="./technologiesicons/node/Node JS Community.png" height="70px" alt="One-Way Data Binding">
+                <div class="headingggggg">One-Way Data Binding
                 </div>
-                <p>Being an open-source framework, there is a huge repository of dynamic tools and modules in the Node Package Manager (NPM). Further, the immense popularity of the platform is making the Node community stronger with more updated tools and modules.</p>
+                <p>React follows a unidirectional data flow, ensuring better control over data and reducing unexpected errors while managing UI state.
+
+                </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Caching of Modules">
-                <div class="headingggggg">Caching of Modules
+                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Rich Ecosystem & Community Support">
+                <div class="headingggggg">Rich Ecosystem & Community Support
+
                 </div>
-                <p>Node JS allows module caching. When the modules are requested for the first time, they are automatically cached into the application memory thus preventing repeated module code execution for the next time it is called on.</p>
+                <p>Being an open-source library backed by Facebook (now Meta), React has a vast ecosystem with React Router, Redux, and Material-UI for faster development.
+
+                </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Proxy Server">
-                <div class="headingggggg">Proxy Server</div>
-                <p>For server-side applictions those need to pull in data from different sources, you may consider Node JS as a cost saving platform. Node JS can be used to proxy a number of services that have different response times. Thus, you may bypass the cost of setting up proxy infrastructure.</p>
+                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Easy Integration with Other Technologies">
+                <div class="headingggggg">Easy Integration with Other Technologies
+                </div>
+                <p>React can be easily integrated with backend frameworks like Node.js, Laravel, or Django, making it a great choice for full-stack development.
+                </p>
+            </div>
+            <div class="discover">
+                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Cross-Platform Development with React Native">
+                <div class="headingggggg">Cross-Platform Development with React Native
+                </div>
+                <p>React’s core principles extend to React Native, enabling developers to build mobile applications using the same JavaScript and React knowledge.
+
+                </p>
+            </div>
+            <div class="discover">
+                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Faster Debugging & Development with Developer Tools">
+                <div class="headingggggg">Faster Debugging & Development with Developer Tools </div>
+                <p>React Developer Tools allow easy debugging and tracking of component states, improving productivity and debugging efficiency. </p>
+            </div>
+            <div class="discover">
+                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Reusable Components & Code Reusability">
+                <div class="headingggggg">Reusable Components & Code Reusability </div>
+                <p>React's reusable components ensure that once a component is created, it can be used across multiple projects, reducing development time.</p>
+            </div>
+            <div class="discover">
+                <img src="./technologiesicons/node/Caching of Modules.png" height="70px" alt="Hooks for Better State Management">
+                <div class="headingggggg">Hooks for Better State Management
+                </div>
+                <p>React’s useState, useEffect, and custom hooks allow developers to handle state and lifecycle methods efficiently in functional components.</p>
+            </div>
+            <div class="discover">
+                <img src="./technologiesicons/node/Proxy Server.png" height="70px" alt="Server-Side Rendering with Next.js">
+                <div class="headingggggg">Server-Side Rendering with Next.js
+
+                </div>
+                <p>For better performance and SEO, React can be used with Next.js to enable server-side rendering (SSR) and static site generation (SSG).</p>
             </div>
         </div>
     </div>
 
     <?php
-    include './include/technologyPortfolio/node.php'
+    include './include/technologyPortfolio/react.php'
     ?>
 
 
-
-    <div class="typesofsection">
-        <div class="our-client-main-div ">
-            <h2>Our Node <span style="font-family: 'Raleway', sans-serif;color: #ff0808">JS Development Services</span></h2>
-        </div>
-
-        <br>
-        <!-- <h3>subtitle</h3> -->
-        <div class="typesofcard">
-            <!-- <a href="ecommerce-website-development-company-in-mumbai"> -->
-            <div class="carddd">
-                <img src="./technologiesicons/node/Custom Node JS development.webp" height="100px" alt="Custom Node JS development">
-                <!-- <p class="number-h1">01</p> -->
-                <p class="h1">Custom Node JS development</p>
-                <p class="p">Our in-house development team specializes in crafting custom Node JS applications for SMBs and large enterprises. Our developers have an industry exposure in real-time web programming, AJAX and JSON communication, and rich web app development suited to your specific business requirements.</p>
-            </div>
-            <!-- </a>
-            <a href="blogging-website-development-in-mumbai"> -->
-            <div class="carddd">
-                <img src="./technologiesicons/node/chap app.png" height="100px" alt="Real-time Chat App">
-                <!-- <p class="number-h1">01</p> -->
-                <p class="h1">Real-time Chat App
-                </p>
-                <p class="p">If you are looking to craft social networking apps, our agile development team can be the right partner for you. With broad industry experience, they can help you create social platforms. We provide an end-to-end web solution to help you achieve a competitive edge.
-
-                </p>
-            </div>
-            <!-- </a>
-            <a href="dynamic-website-development-company-in-mumbai"> -->
-            <div class="carddd">
-                <img src="./technologiesicons/node/API Development.webp" height="100px" alt="API Development">
-                <!-- <p class="number-h1">01</p> -->
-                <p class="h1">API Development</p>
-                <p class="p">Hire Node JS developers from us to extend the features and functionalities with API development and integration. We can craft JSON-based REST APIs and integrate them into an application. We create custom APIs for payment, shipment, cloud applications, Server-Oriented Architectures (SOA), etc.</p>
-            </div>
-            <!-- </a> -->
-            <!-- <a href="shopify-developers-in-mumbai"> -->
-            <div class="carddd">
-                <img src="./technologiesicons/node/Support & Maintenance.webp" height="100px" alt="Support & Maintenance">
-                <!-- <p class="number-h1">01</p> -->
-                <p class="h1">Support & Maintenance</p>
-                <p class="p">We extend our support to keep your web application highly functional at all times. Feature integration, troubleshooting, upgrades - we offer an extensive maintenance solution to our clients. Our aim is to deliver a top-notch user experience on your web app and we are ready to go an extra mile to ensure that.</p>
-            </div>
-            <!-- </a> -->
-        </div>
-    </div>
-
-
-
-
-    <!-- <style>
-        .secondul {
-            display: grid;
-            padding: 10px 20px;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-        }
-
-        .secondul li {
-            font-size: 15px;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            justify-content: start;
-            gap: 10px;
-            color: #212121;
-        }
-
-        .secondul li img {
-            height: 35px;
-        }
-
-        @media only screen and (max-width: 767px) {
-            .secondul {
-                display: grid;
-                padding: 10px 20px;
-                grid-template-columns: 1fr;
-                gap: 10px;
-            }
-        }
-    </style>
-    <div class="newsecondsection">
-        <div class="left">
-        <img src="portfolio-images/social-media-marketing.webp" alt="Digital Marketing Company">
-            <h2>Why Is Digital Marketing Services Required for Your Company?</h2>
-           
-            <p>It is impossible to undervalue the importance of digital marketing for your company in today connected and quick environment. Adopting digital marketing tactics is essential for every organisation, whether it is a startup, small business, or existing corporation, in order to reach your audience, unleash growth, and maintain competitiveness.
-            </p>
-            <ul class="secondul">
-                <li><img src="./images/planet-earth.png" alt="">Global Reach, Local Impact</li>
-                <li><img src="./images/stock.png" alt="">Cost-Effective Marketing</li>
-                <li><img src="./images/target.png" alt="">Targeted Advertising</li>
-                <li><img src="./images/eye.png" alt="">Brand Visibility and Recognition</li>
-            </ul>
-            <div class="herobuttonsnew">
-                <a href="about" class="button">About Us</a>
-            </div>
-        </div>
-        <div class="right">
-            <img src="portfolio-images/social-media-marketing.webp" alt="Digital Marketing Company">
-        </div>
-    </div>
-    -->
 
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
