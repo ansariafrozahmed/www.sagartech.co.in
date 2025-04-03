@@ -194,7 +194,7 @@ include("../include/config.php");
         }
 
         .banner-content h2 {
-            font-size: 50px;
+            font-size: 40px;
             color: white;
             font-weight: 900;
             text-shadow: 2px 2px #000;
