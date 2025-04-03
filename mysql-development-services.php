@@ -1089,32 +1089,32 @@
             <div class="discover">
                 <img src="./technologiesicons/mysql/Open-Source.png" height="70px" alt="Open-Source">
                 <div class="headingggggg">Open-Source</div>
-                <p>MySQL is freely available and open-source, allowing businesses to reduce costs and customize the source code to fit specific requirements. :contentReference[oaicite:2]{index=2}</p>
+                <p>MySQL is freely available and open-source, allowing businesses to reduce costs and customize the source code to fit specific requirements. </p>
             </div>
             <div class="discover">
                 <img src="./technologiesicons/mysql/Data Security.png" height="70px" alt="Data Security">
                 <div class="headingggggg">Data Security</div>
-                <p>MySQL offers robust data security features, including user authentication, access control, and encryption, ensuring protection against unauthorized access. :contentReference[oaicite:3]{index=3}</p>
+                <p>MySQL offers robust data security features, including user authentication, access control, and encryption, ensuring protection against unauthorized access.</p>
             </div>
             <div class="discover">
                 <img src="./technologiesicons/mysql/Scalability.png" height="70px" alt="Scalability">
                 <div class="headingggggg">Scalability</div>
-                <p>With its ability to handle large databases and support for replication, MySQL scales efficiently to accommodate growing data and user demands. :contentReference[oaicite:4]{index=4}</p>
+                <p>With its ability to handle large databases and support for replication, MySQL scales efficiently to accommodate growing data and user demands. </p>
             </div>
             <div class="discover">
                 <img src="./technologiesicons/mysql/High Performance.png" height="70px" alt="High Performance">
                 <div class="headingggggg">High Performance</div>
-                <p>MySQL delivers high-speed performance with optimized storage engines and efficient query processing, suitable for both transactional and analytical workloads. :contentReference[oaicite:5]{index=5}</p>
+                <p>MySQL delivers high-speed performance with optimized storage engines and efficient query processing, suitable for both transactional and analytical workloads. </p>
             </div>
             <div class="discover">
                 <img src="./technologiesicons/mysql/Flexibility.png" height="70px" alt="Flexibility">
                 <div class="headingggggg">Flexibility</div>
-                <p>Supporting a wide range of data types and character sets, MySQL offers flexibility in managing diverse data structures and internationalization needs. :contentReference[oaicite:6]{index=6}</p>
+                <p>Supporting a wide range of data types and character sets, MySQL offers flexibility in managing diverse data structures and internationalization needs. </p>
             </div>
             <div class="discover">
                 <img src="./technologiesicons/mysql/Community Support.png" height="70px" alt="Community Support">
                 <div class="headingggggg">Community Support</div>
-                <p>Backed by a large and active community, MySQL benefits from continuous improvements, extensive documentation, and a wealth of third-party tools and resources. :contentReference[oaicite:7]{index=7}</p>
+                <p>Backed by a large and active community, MySQL benefits from continuous improvements, extensive documentation, and a wealth of third-party tools and resources.</p>
             </div>
         </div>
     </div>
@@ -1133,35 +1133,35 @@
         <div class="accordion-item">
             <h2>What is MySQL?</h2>
             <div class="accordion-content">
-                <p>MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) for accessing and managing data. It is widely used for web applications and supports a variety of platforms. :contentReference[oaicite:8]{index=8}</p>
+                <p>MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) for accessing and managing data. It is widely used for web applications and supports a variety of platforms.</p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What are the key features of MySQL?</h2>
             <div class="accordion-content">
-                <p>MySQL offers features such as high performance, scalability, robust security, support for large databases, and flexibility with various data types and character sets. :contentReference[oaicite:9]{index=9}</p>
+                <p>MySQL offers features such as high performance, scalability, robust security, support for large databases, and flexibility with various data types and character sets. </p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>What types of applications commonly use MySQL?</h2>
             <div class="accordion-content">
-                <p>MySQL is commonly used in web applications, e-commerce platforms, data warehousing, and logging applications due to its reliability and ease of use. :contentReference[oaicite:10]{index=10}</p>
+                <p>MySQL is commonly used in web applications, e-commerce platforms, data warehousing, and logging applications due to its reliability and ease of use. </p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>How does MySQL ensure data security?</h2>
             <div class="accordion-content">
-                <p>MySQL provides robust security features, including user authentication, access control based on user privileges, and encryption for data protection, ensuring that only authorized users can access and manipulate data. :contentReference[oaicite:11]{index=11}</p>
+                <p>MySQL provides robust security features, including user authentication, access control based on user privileges, and encryption for data protection, ensuring that only authorized users can access and manipulate data. </p>
             </div>
         </div>
 
         <div class="accordion-item">
             <h2>Is MySQL suitable for large-scale applications?</h2>
             <div class="accordion-content">
-                <p>Yes, MySQL is designed to handle large databases efficiently and supports features like replication and clustering, making it suitable for large-scale applications. :contentReference[oaicite:12]{index=12}</p>
+                <p>Yes, MySQL is designed to handle large databases efficiently and supports features like replication and clustering, making it suitable for large-scale applications. </p>
             </div>
         </div>
     </div>
