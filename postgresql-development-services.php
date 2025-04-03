@@ -1080,7 +1080,7 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">PostgreSQL Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">PostgreSQL </span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">

@@ -1086,7 +1086,7 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">Shopify Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">Shopify </span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
