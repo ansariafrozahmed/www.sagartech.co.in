@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>React Native Development Services</title>
+    <title>JWT Authentication Services</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,13 +10,13 @@
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="React Native Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/reactnative-development-services">
+    <meta property="og:title" content="JWT Authentication Services">
+    <meta property="og:url" content="https://sagartech.co.in/jwt-authentication-services">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/reactnative-development-services" />
+    <link rel="canonical" href="https://sagartech.co.in/jwt-authentication-services" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->
@@ -1031,15 +1031,15 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">React Native Development Services</h2>
+            <h2 style="line-height:40px;color:white">JWT Authentication Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>React Native Development Services</li>
+                <li>JWT Authentication Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                React Native is a popular open-source framework developed by Meta (formerly Facebook) for building mobile applications using JavaScript and React. It enables developers to create cross-platform apps for iOS and Android with a single codebase, leveraging native components for optimal performance. React Native allows for faster development, hot reloading, and access to native APIs, making it a preferred choice for mobile app development.
+                JSON Web Token (JWT) is a secure and compact authentication mechanism used to verify user identity and facilitate secure communication between client and server. JWTs are self-contained, meaning they contain all necessary information about the user, eliminating the need for server-side session storage. They are commonly used in API authentication, single sign-on (SSO), and securing web applications.
             </p>
 
 
@@ -1055,7 +1055,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/react-native.webp">
+            <img src="./images/jwt.png">
         </div>
 
     </div>
@@ -1084,50 +1084,45 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">React Native Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">JWT Authentication</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Cross-Platform.png" height="70px" alt="Cross-Platform Development">
-                <div class="headingggggg">Cross-Platform Development</div>
-                <p>Develop once and deploy across both iOS and Android, saving time and resources.</p>
+                <img src="./technologiesicons/jwt/Secure.png" height="70px" alt="Secure Authentication">
+                <div class="headingggggg">Secure Authentication</div>
+                <p>Ensures secure user authentication with digitally signed tokens.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Performance.png" height="70px" alt="High Performance">
-                <div class="headingggggg">High Performance</div>
-                <p>Utilizes native components to deliver near-native performance and smooth user experience.</p>
+                <img src="./technologiesicons/jwt/Stateless.png" height="70px" alt="Stateless Mechanism">
+                <div class="headingggggg">Stateless Mechanism</div>
+                <p>JWTs are self-contained, reducing the need for server-side session storage.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Hot-Reloading.png" height="70px" alt="Hot Reloading">
-                <div class="headingggggg">Hot Reloading</div>
-                <p>Instantly see code changes in real time without rebuilding the app.</p>
+                <img src="./technologiesicons/jwt/Fast.png" height="70px" alt="Fast Performance">
+                <div class="headingggggg">Fast Performance</div>
+                <p>Since authentication is stateless, JWTs improve speed and scalability.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Reusability.png" height="70px" alt="Code Reusability">
-                <div class="headingggggg">Code Reusability</div>
-                <p>Reusing components and logic across platforms speeds up development and reduces costs.</p>
+                <img src="./technologiesicons/jwt/Cross-Platform.png" height="70px" alt="Cross-Platform Support">
+                <div class="headingggggg">Cross-Platform Support</div>
+                <p>Works across multiple platforms, including web, mobile, and cloud applications.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Community.png" height="70px" alt="Strong Community">
-                <div class="headingggggg">Strong Community Support</div>
-                <p>Vast community and extensive libraries make development easier and faster.</p>
+                <img src="./technologiesicons/jwt/Authorization.png" height="70px" alt="User Authorization">
+                <div class="headingggggg">User Authorization</div>
+                <p>JWTs are widely used for user roles and access control management.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Native-Modules.png" height="70px" alt="Native Modules">
-                <div class="headingggggg">Native Modules</div>
-                <p>Provides direct access to native APIs and device functionalities.</p>
-            </div>
-            <div class="discover">
-                <img src="./technologiesicons/reactnative/Fast-Development.png" height="70px" alt="Fast Development">
-                <div class="headingggggg">Faster Development</div>
-                <p>Rapid development and iteration cycles with a single codebase.</p>
+                <img src="./technologiesicons/jwt/SSO.png" height="70px" alt="Single Sign-On">
+                <div class="headingggggg">Single Sign-On (SSO)</div>
+                <p>Allows seamless authentication across multiple applications with a single login.</p>
             </div>
         </div>
     </div>
 
 
     <?php
-    include './include/technologyPortfolio/native.php'
+    include './include/technologyPortfolio/jwt.php'
     ?>
 
 
@@ -1137,37 +1132,37 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is React Native?</h2>
+            <h2>What is JWT?</h2>
             <div class="accordion-content">
-                <p>React Native is a JavaScript framework used for developing mobile applications that run on both iOS and Android using a single codebase.</p>
+                <p>JWT (JSON Web Token) is a compact, self-contained authentication token used for securely transmitting user information between parties.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does React Native differ from React?</h2>
+            <h2>How does JWT authentication work?</h2>
             <div class="accordion-content">
-                <p>React is used for building web applications, while React Native is used for mobile applications with native-like performance.</p>
+                <p>JWTs are generated after successful user login and are sent with API requests for authentication and authorization.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can React Native apps achieve native performance?</h2>
+            <h2>Is JWT secure?</h2>
             <div class="accordion-content">
-                <p>Yes, React Native uses native components and optimizes rendering to achieve near-native performance.</p>
+                <p>JWTs use cryptographic signing methods (HMAC, RSA, or ECDSA) to ensure integrity and security. However, they should always be transmitted over HTTPS.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is React Native suitable for large-scale applications?</h2>
+            <h2>Where is JWT stored?</h2>
             <div class="accordion-content">
-                <p>Yes, many large-scale apps like Facebook, Instagram, and Airbnb use React Native for its scalability and maintainability.</p>
+                <p>JWTs can be stored in HTTP-only cookies or localStorage, though cookies are preferred for better security.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Does React Native support third-party libraries?</h2>
+            <h2>Can JWTs be revoked?</h2>
             <div class="accordion-content">
-                <p>Yes, React Native has a vast ecosystem of third-party libraries and plugins to enhance development.</p>
+                <p>Since JWTs are stateless, they cannot be revoked easily, but their validity can be managed using expiration times and blacklists.</p>
             </div>
         </div>
     </div>
