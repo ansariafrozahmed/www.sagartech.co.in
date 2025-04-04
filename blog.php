@@ -82,7 +82,7 @@ if (curl_errno($ch)) {
         content="https://sagartech.co.in/blog/<?php echo htmlentities($data['slug'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <!-- <meta property="og:image" content="<?php //echo $data['fimg_url']; ?>"> -->
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
     <link rel="canonical"
         href="https://sagartech.co.in/blog/<?php echo htmlentities($data['slug'], ENT_QUOTES, 'UTF-8'); ?>">

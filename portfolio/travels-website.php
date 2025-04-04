@@ -23,7 +23,7 @@ include("../include/config.php");
         content="View our Travel Website Portfolio, which includes attractive designs for travel and tourist websites. Ideal for promoting your work and drawing in new customers. View more!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/travels-website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <link href="<?= WEB_URL ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

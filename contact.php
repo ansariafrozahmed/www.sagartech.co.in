@@ -19,7 +19,7 @@
     <meta property="og:title" content="Contact Us for Website Design Services and SEO in Mumbai" />
     <meta property="og:description" content="We can help you with designing your brand website. 
     Please get in touch with me for a quote for website design or just fill an equiry form." />
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <meta property="og:url" content="https://sagartech.co.in/contact/" />
     <meta property="og:site_name" content="Sagar Tech technical Solutions" />
     <meta property="article:publisher" content="https://www.facebook.com/sagartechsolns" />

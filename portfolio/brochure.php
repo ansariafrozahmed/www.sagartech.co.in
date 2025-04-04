@@ -23,7 +23,7 @@ include("../include/config.php");
         content="Explore our brochure design portfolio, which consists of eye-catching and memorable layouts created to enhance the impact and narrative of your company.">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/brochure">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

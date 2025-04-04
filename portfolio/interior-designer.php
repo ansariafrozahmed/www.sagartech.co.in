@@ -23,7 +23,7 @@ include("../include/config.php");
         content="See all our interior design portfolio projects, which include unique and motivating designs. Ideal for promoting your work and drawing in new customers. Find out more!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/interior-designer">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <link href="<?= WEB_URL ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

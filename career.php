@@ -22,7 +22,7 @@ include "include/config.php";
         content="Find the best IT jobs in Mumbai and fascinating IT career options. Find the perfect chance to launch or grow your tech career right now!">
     <meta property="og:url" content="https://sagartech.co.in/career">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
     <!-- main style -->

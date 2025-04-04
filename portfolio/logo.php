@@ -22,7 +22,7 @@ include("../include/config.php");
         content="View our logo design portfolio, which features original and imaginative brand identities. Ideal for providing ideas for your upcoming project. Explore our work now!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/logo">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

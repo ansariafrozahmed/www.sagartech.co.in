@@ -1305,16 +1305,16 @@
 
     <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced Node JS Development Tools | Expert Corner
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">Node.js Tutorial: Unlocking Server-Side JavaScript
             </h2>
             <!-- <h3>Subtitle</h3> -->
-            <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...
+            <p style="color:white;">Have you ever wondered why everyone is so excited about Node.js? You’re not by yourself! The same question is frequently asked by both beginner as well as expert developers: What is Node.js? and about the node.js tutorial. Let’s analyse it, explain the technology, and investigate why it has grown to be such a key component in modern web development...
 
             </p>
             <br>
             <div class="herobuttonsnew">
                 <!-- <a href="#">Quick Enquiry</a> -->
-                <a href="/blog/redesign-your-website-by-working-with-a-skilled-web-design-agency" class="button">READ BLOG POST</a>
+                <a href="/blog/what-is-nodejs-and-their-tutorial" class="button">READ BLOG POST</a>
             </div>
         </div>
         <div class="right">
@@ -1323,7 +1323,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
             <div class="dsanjkdhw0qp" style="height:400px">
-                <img style="background:white;object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://arhamtechnosoft.com/wp-content/uploads/2022/09/node.js-development-company-banner.png" alt="Web Development">
+                <img style="background:white;object-fit: cover;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;" src="https://sagartech.co.in/blogs/wp-content/uploads/2025/03/Node.js-tutorial-feature-image.jpg" alt="Web Development">
             </div>
         </div>
     </div>

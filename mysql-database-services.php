@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>MySQL Development Services</title>
+    <title>MySQL Database Services</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,13 +10,13 @@
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="MySQL Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/nodejs-development-services">
+    <meta property="og:title" content="MySQL Database Services">
+    <meta property="og:url" content="https://sagartech.co.in/mysql-database-services">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/nodejs-development-services" />
+    <link rel="canonical" href="https://sagartech.co.in/mysql-database-services" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- bootstrap -->
@@ -1031,15 +1031,15 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">MySQL Development Services</h2>
+            <h2 style="line-height:40px;color:white">MySQL Database Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>MySQL Development Services</li>
+                <li>MySQL Database Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                MySQL is a widely-used, open-source relational database management system (RDBMS) that enables efficient and reliable data storage, retrieval, and management. Known for its high performance, scalability, and ease of use, MySQL supports a variety of applications, from small websites to large-scale enterprise systems. Its compatibility with numerous platforms and programming languages makes it a versatile choice for developers. As a leading MySQL development company, we specialize in delivering customized database solutions tailored to your business needs, ensuring robust performance, security, and seamless integration with your existing systems.
+                MySQL is a widely-used, open-source relational database management system (RDBMS) that enables efficient and reliable data storage, retrieval, and management. Known for its high performance, scalability, and ease of use, MySQL supports a variety of applications, from small websites to large-scale enterprise systems. Its compatibility with numerous platforms and programming languages makes it a versatile choice for developers. As a leading MySQL Database company, we specialize in delivering customized database solutions tailored to your business needs, ensuring robust performance, security, and seamless integration with your existing systems.
             </p>
 
             <br>
@@ -1083,7 +1083,7 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">MySQL </span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">MySQL Database</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">

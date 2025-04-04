@@ -718,7 +718,7 @@ include('config.php');
         <div class="logo">
           <a href="<?= WEB_URL ?>">
             <!-- <img src="<?= WEB_URL ?>images/sagartech.png" alt="" /> -->
-            <img src="<?= WEB_URL ?>images/sagartech1.png" alt="sagartech logo" />
+            <img src="<?= WEB_URL ?>images/sagartech1.webp" alt="sagartech logo" />
           </a>
         </div>
       </div>

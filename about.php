@@ -21,7 +21,7 @@
     content="Sagar Tech Technical Solutions is a trusted provider of mobile app development services, specializing in delivering high-quality, user-centric solutions for iOS and Android platforms to enhance business performance and digital engagement.">
   <meta property="og:url" content="https://sagartech.co.in/about">
   <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-  <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+  <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
   <!-- bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <!-- main style -->

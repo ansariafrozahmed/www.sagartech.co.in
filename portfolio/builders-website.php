@@ -23,7 +23,7 @@ include("../include/config.php");
         content="Explore our builders website portfolio featuring stunning construction projects. Perfect for showcasing your work and attracting new clients. Visit now!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/builders-website">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <link href="<?= WEB_URL ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

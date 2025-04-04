@@ -23,7 +23,7 @@ include("../include/config.php");
         content="Check out our captivating, trend-driven designs for the social media posts portfolio that captivate audiences and increase company visibility. Ideal for your upcoming campaign!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/social-media-post">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->

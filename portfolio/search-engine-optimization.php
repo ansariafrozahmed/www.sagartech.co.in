@@ -22,7 +22,7 @@ include("../include/config.php");
         content="Check the Best SEO Portfolio, which includes outstanding projects with track records. Check out how our experience helps customers with traffic, rankings, and growth. Visit now!">
     <meta property="og:url" content="https://sagartech.co.in/portfolio/search-engine-optimization">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.png">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
     <!-- bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- REVOLUTION STYLE SHEETS -->
