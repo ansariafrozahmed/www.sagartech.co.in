@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>HTML Development Services</title>
+    <title>MongoDB Database Services</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,17 +10,17 @@
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="HTML Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/nodejs-development-services">
+    <meta property="og:title" content="MongoDB Database Services">
+    <meta property="og:url" content="https://sagartech.co.in/mongodb-database-services">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/nodejs-development-services" />
+    <link rel="canonical" href="https://sagartech.co.in/mongodb-database-services" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
-    <!-- HTML -->
-    <!-- <link href="css/HTML.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- bootstrap -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
     <!-- main style -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!-- responsive -->
@@ -1031,15 +1031,15 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">HTML Development Services</h2>
+            <h2 style="line-height:40px;color:white">MongoDB Database Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>HTML Development Services</li>
+                <li>MongoDB Database Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                HTML (HyperText Markup Language) is the standard language for creating web pages and web applications. It structures content on the web using elements such as headings, paragraphs, links, images, and forms. HTML is the foundation of web development and works alongside CSS and JavaScript to create interactive and visually appealing websites. It is widely used for building static web pages and serves as the backbone for dynamic web applications.
+                MongoDB is a NoSQL database that stores data in a flexible, JSON-like format, allowing for scalable and high-performance applications. It provides rich query capabilities, horizontal scalability, and built-in sharding, making it ideal for handling large volumes of unstructured data.
             </p>
 
 
@@ -1055,7 +1055,7 @@
         </div>
         <div class="right">
 
-            <img style="width: 80%;margin: auto;display: block;" src="./images/html5.png">
+            <img src="./images/mongodb.png">
         </div>
 
     </div>
@@ -1081,56 +1081,53 @@
         </div>
     </div> -->
 
-
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">HTML Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">MongoDB Database</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/html/Simplicity.png" height="70px" alt="Simplicity">
-                <div class="headingggggg">Simplicity</div>
-                <p>HTML is easy to learn and use, making it a beginner-friendly language for web development.</p>
+                <img src="./technologiesicons/mongodb/Flexible Schema.png" height="70px" alt="Flexible Schema">
+                <div class="headingggggg">Flexible Schema</div>
+                <p>MongoDB's schema-less structure allows dynamic and flexible data modeling, making it easy to adapt to changing requirements.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/html/Universal Compatibility.png" height="70px" alt="Universal Compatibility">
-                <div class="headingggggg">Universal Compatibility</div>
-                <p>HTML is supported by all browsers, ensuring seamless web page rendering across different devices.</p>
+                <img src="./technologiesicons/mongodb/High Scalability.png" height="70px" alt="Scalability">
+                <div class="headingggggg">High Scalability</div>
+                <p>MongoDB supports horizontal scaling through sharding, enabling efficient handling of large datasets across multiple servers.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/html/Fast Loading Speed.png" height="70px" alt="Fast Loading Speed">
-                <div class="headingggggg">Fast Loading Speed</div>
-                <p>Web pages built with pure HTML load quickly because they do not require external processing like databases.</p>
+                <img src="./technologiesicons/mongodb/High Performance.png" height="70px" alt="High Performance">
+                <div class="headingggggg">High Performance</div>
+                <p>With indexing and in-memory storage, MongoDB delivers high-speed data retrieval and efficient query execution.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/html/SEO-Friendly.png" height="70px" alt="SEO Friendly">
-                <div class="headingggggg">SEO Friendly</div>
-                <p>Properly structured HTML enhances search engine optimization (SEO), making websites more discoverable.</p>
+                <img src="./technologiesicons/mongodb/Replication.png" height="70px" alt="Replication">
+                <div class="headingggggg">Built-in Replication</div>
+                <p>MongoDB ensures high availability with automatic failover and data replication across multiple nodes.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/html/Flexibility.png" height="70px" alt="Flexibility">
-                <div class="headingggggg">Flexibility</div>
-                <p>HTML is highly flexible and can be combined with CSS, JavaScript, and other technologies for advanced functionalities.</p>
+                <img src="./technologiesicons/mongodb/Query Language.png" height="70px" alt="Query Language">
+                <div class="headingggggg">Rich Query Language</div>
+                <p>MongoDB provides powerful queries, including filtering, aggregation, and geospatial indexing, for advanced data operations.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/html/Open-Source.png" height="70px" alt="Open Source">
-                <div class="headingggggg">Open Source</div>
-                <p>Being an open-source language, HTML is free to use and accessible to everyone without licensing costs.</p>
+                <img src="./technologiesicons/mongodb/Integration.png" height="70px" alt="Integration">
+                <div class="headingggggg">Seamless Integration</div>
+                <p>MongoDB integrates well with popular frameworks and programming languages like Node.js, Python, and Java.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/html/Multimedia Support.png" height="70px" alt="Multimedia Support">
-                <div class="headingggggg">Multimedia Support</div>
-                <p>HTML supports embedding images, audio, video, and interactive elements, enhancing user experience.</p>
+                <img src="./technologiesicons/mongodb/Cloud Support.png" height="70px" alt="Cloud Support">
+                <div class="headingggggg">Cloud & Atlas Support</div>
+                <p>MongoDB Atlas provides a fully managed cloud database solution, simplifying deployment and maintenance.</p>
             </div>
         </div>
     </div>
 
 
 
-
-
     <?php
-    include './include/technologyPortfolio/html.php'
+    include './include/technologyPortfolio/mongodb.php'
     ?>
 
 
@@ -1139,37 +1136,37 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is HTML?</h2>
+            <h2>What is MongoDB?</h2>
             <div class="accordion-content">
-                <p>HTML (HyperText Markup Language) is the standard language for structuring and presenting content on the web.</p>
+                <p>MongoDB is a NoSQL document-oriented database that stores data in a flexible JSON-like format, providing high performance, scalability, and powerful query capabilities.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What are the key features of HTML5?</h2>
+            <h2>What are the advantages of using MongoDB?</h2>
             <div class="accordion-content">
-                <p>HTML5 introduces semantic elements, multimedia support, offline storage, and improved performance for modern web applications.</p>
+                <p>MongoDB offers a flexible schema, horizontal scalability, built-in replication, high performance, and seamless integration with various programming languages.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is HTML a programming language?</h2>
+            <h2>How does MongoDB handle large-scale applications?</h2>
             <div class="accordion-content">
-                <p>No, HTML is a markup language used for structuring web content. It works alongside CSS and JavaScript to create interactive websites.</p>
+                <p>MongoDB uses sharding to distribute data across multiple servers, ensuring efficient handling of large-scale applications with high traffic and data loads.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does HTML improve SEO?</h2>
+            <h2>Is MongoDB suitable for real-time applications?</h2>
             <div class="accordion-content">
-                <p>HTML improves SEO by using semantic elements, proper heading structures, meta tags, and accessibility-friendly attributes.</p>
+                <p>Yes, MongoDB is ideal for real-time applications like analytics, IoT, gaming, and financial systems due to its fast read/write operations and scalable architecture.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Why is HTML important for web development?</h2>
+            <h2>What is MongoDB Atlas?</h2>
             <div class="accordion-content">
-                <p>HTML forms the backbone of every website, providing the necessary structure for displaying content across all devices and browsers.</p>
+                <p>MongoDB Atlas is a fully managed cloud-based database service that automates deployment, scaling, and backup, providing hassle-free database management.</p>
             </div>
         </div>
     </div>
@@ -1197,7 +1194,7 @@
 
     <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced HTML Development Tools | Expert Corner
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced MySQL Development Tools | Expert Corner
             </h2>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...

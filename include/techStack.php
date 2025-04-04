@@ -204,9 +204,38 @@
       "Cloudflare",
       "JWT"
     ];
+
+    $techLinks = [
+      "/nodejs-development-services",
+      "https://reactjs.org",
+      "https://nextjs.org",
+      "https://www.postgresql.org",
+      "https://www.mysql.com",
+      "https://wordpress.org",
+      "https://getbootstrap.com",
+      "https://tailwindcss.com",
+      "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "https://www.shopify.com",
+      "https://www.mongodb.com",
+      "https://www.typescriptlang.org",
+      "https://flutter.dev",
+      "https://www.php.net",
+      "https://laravel.com",
+      "https://expressjs.com",
+      "https://firebase.google.com",
+      "https://remix.run",
+      "https://expo.dev",
+      "https://reactnative.dev",
+      "https://www.cloudflare.com",
+      "https://jwt.io"
+    ];
     foreach ($imageUrls as $index => $imageUrl) {
       echo '<div class="image-div">';
-      echo '<img src="' . $imageUrl . '" alt="' . $techNames[$index] . '" title="' . $techNames[$index] . '">';
+      echo '<a href="' . $techLinks[$index] . '" target="_blank" title="' . $techNames[$index] . '">';
+      echo '<img src="' . $imageUrl . '" alt="' . $techNames[$index] . '">';
+      echo '</a>';
       echo '</div>';
     }
     ?>

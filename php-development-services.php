@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>CSS Development Services</title>
+    <title>PHP Development Services</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,13 +10,13 @@
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="CSS Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/css-development-services">
+    <meta property="og:title" content="PHP Development Services">
+    <meta property="og:url" content="https://sagartech.co.in/php-development-services">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
         content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/css-development-services" />
+    <link rel="canonical" href="https://sagartech.co.in/php-development-services" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->
@@ -1031,18 +1031,16 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">CSS Development Services</h2>
+            <h2 style="line-height:40px;color:white">PHP Development Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>CSS Development Services</li>
+                <li>PHP Development Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of web pages. It controls layout, colors, fonts, and animations, enabling responsive and visually appealing designs. CSS works alongside HTML to enhance user experience, ensuring consistency across different screen sizes and devices. With CSS frameworks like Bootstrap and Tailwind CSS, developers can streamline styling and improve productivity.
+                PHP (Hypertext Preprocessor) is a widely used open-source scripting language designed for web development. It is embedded within HTML and is especially suited for creating dynamic web pages and server-side applications. PHP is known for its simplicity, flexibility, and compatibility with various databases.
             </p>
-
-
 
             <br>
             <div class="herobuttonsnew">
@@ -1056,7 +1054,7 @@
         </div>
         <div class="right">
 
-            <img  src="./images/css.png">
+            <img src="./images/php.png">
         </div>
 
     </div>
@@ -1085,54 +1083,52 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">CSS Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">PHP Development</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/css/Faster Page Loading.png" height="70px" alt="Faster Page Loading">
-                <div class="headingggggg">Faster Page Loading</div>
-                <p>CSS reduces HTML file size by separating content from design, improving website loading speed and performance.</p>
+                <img src="./technologiesicons/php/Open-Source.png" height="70px" alt="Open-Source">
+                <div class="headingggggg">Open-Source</div>
+                <p>PHP is free to use, making it a cost-effective solution for web development.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/css/Responsive Design.png" height="70px" alt="Responsive Design">
-                <div class="headingggggg">Responsive Design</div>
-                <p>CSS enables fluid layouts and media queries, ensuring websites adapt seamlessly to different screen sizes and devices.</p>
+                <img src="./technologiesicons/php/Fast Performance.png" height="70px" alt="Fast Performance">
+                <div class="headingggggg">Fast Performance</div>
+                <p>PHP scripts execute faster than many other scripting languages, improving page load speed.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/css/Reusability.png" height="70px" alt="Reusability">
-                <div class="headingggggg">Code Reusability</div>
-                <p>Styles can be reused across multiple web pages, reducing redundancy and making design updates more efficient.</p>
+                <img src="./technologiesicons/php/Flexible.png" height="70px" alt="Flexible">
+                <div class="headingggggg">Platform Independent</div>
+                <p>PHP runs on various operating systems, including Windows, Linux, and macOS.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/css/Highly Customizable.png" height="70px" alt="Customization">
-                <div class="headingggggg">Highly Customizable</div>
-                <p>CSS provides complete control over design, enabling unique, brand-specific aesthetics with animations and transitions.</p>
+                <img src="./technologiesicons/php/Database Support.png" height="70px" alt="Database Support">
+                <div class="headingggggg">Database Integration</div>
+                <p>PHP supports multiple databases such as MySQL, PostgreSQL, and MongoDB, making data handling easier.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/css/Easy Maintenance.png" height="70px" alt="Maintainability">
-                <div class="headingggggg">Easy Maintenance</div>
-                <p>With CSS, updates and design modifications can be applied globally without editing individual HTML files.</p>
+                <img src="./technologiesicons/php/Secure.png" height="70px" alt="Secure">
+                <div class="headingggggg">Security Features</div>
+                <p>With built-in security features, PHP helps protect applications from common threats like SQL injection.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/css/SEO Benefits.png" height="70px" alt="SEO Friendly">
-                <div class="headingggggg">SEO Benefits</div>
-                <p>Well-structured CSS improves page speed and enhances the user experience, positively impacting search engine rankings.</p>
+                <img src="./technologiesicons/php/Scalability.png" height="70px" alt="Scalability">
+                <div class="headingggggg">Highly Scalable</div>
+                <p>PHP is used in small websites as well as large enterprise applications due to its scalability.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/css/Enhanced User Experience.png" height="70px" alt="Better UX">
-                <div class="headingggggg">Enhanced User Experience</div>
-                <p>CSS enables smooth animations, transitions, and visual effects, making web applications more interactive and engaging.</p>
+                <img src="./technologiesicons/php/Large Community.png" height="70px" alt="Large Community">
+                <div class="headingggggg">Strong Community Support</div>
+                <p>PHP has a large developer community, offering extensive documentation, libraries, and frameworks.</p>
             </div>
         </div>
     </div>
 
 
-
-
-
     <?php
-    include './include/technologyPortfolio/css.php'
+    include './include/technologyPortfolio/php.php'
     ?>
+
 
 
 
@@ -1140,41 +1136,40 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is CSS?</h2>
+            <h2>What is PHP?</h2>
             <div class="accordion-content">
-                <p>CSS (Cascading Style Sheets) is a language used to style and format HTML documents, controlling layout, colors, fonts, and animations.</p>
+                <p>PHP is a server-side scripting language designed for web development, enabling the creation of dynamic websites and applications.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What are the different types of CSS?</h2>
+            <h2>What are the benefits of PHP?</h2>
             <div class="accordion-content">
-                <p>CSS can be applied in three ways: Inline CSS (within HTML elements), Internal CSS (inside the &lt;style&gt; tag), and External CSS (using a separate stylesheet file).</p>
+                <p>PHP is open-source, easy to learn, supports multiple databases, and offers fast performance with a vast ecosystem of frameworks.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does CSS improve website performance?</h2>
+            <h2>Which databases are supported by PHP?</h2>
             <div class="accordion-content">
-                <p>CSS reduces file size and eliminates redundant styling, leading to faster page loading and improved website efficiency.</p>
+                <p>PHP supports databases like MySQL, PostgreSQL, SQLite, and Oracle, making it highly flexible for web applications.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What is the difference between CSS and CSS3?</h2>
+            <h2>Is PHP still relevant in modern web development?</h2>
             <div class="accordion-content">
-                <p>CSS3 is the latest version of CSS, introducing advanced features like animations, gradients, flexbox, grid, and media queries for responsive design.</p>
+                <p>Yes, PHP remains a popular choice for web development due to its performance, scalability, and extensive community support.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does CSS help in responsive design?</h2>
+            <h2>What are some popular PHP frameworks?</h2>
             <div class="accordion-content">
-                <p>CSS uses media queries and flexible layouts to make web pages adapt dynamically to different screen sizes and resolutions.</p>
+                <p>Popular PHP frameworks include Laravel, CodeIgniter, Symfony, Yii, and Zend Framework.</p>
             </div>
         </div>
     </div>
-
 
 
 
@@ -1198,7 +1193,7 @@
 
     <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced HTML Development Tools | Expert Corner
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced HTML Tools | Expert Corner
             </h2>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...
