@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Services</title>
+    <title>Expert MySQL Database Services in Mumbai</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Sagar Tech offers fast, secure MySQL database solutions in Mumbai. We help set up, manage, and optimise databases for smooth business operations.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Bootstrap Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/bootstrap-services">
+    <meta property="og:title" content="Expert MySQL Database Services in Mumbai">
+    <meta property="og:url" content="https://sagartech.co.in/mysql-database-services-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Sagar Tech offers fast, secure MySQL database solutions in Mumbai. We help set up, manage, and optimise databases for smooth business operations.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/bootstrap-services" />
+    <link rel="canonical" href="https://sagartech.co.in/mysql-database-services-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- bootstrap -->
@@ -1031,15 +1031,15 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">Bootstrap Services</h2>
+            <h2 style="line-height:40px;color:white">MySQL Database Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>Bootstrap Services</li>
+                <li>MySQL Database Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                Bootstrap is a powerful front-end framework for developing responsive and mobile-first websites. It offers a comprehensive collection of pre-designed components, such as buttons, forms, and navigation bars, along with a responsive grid system that simplifies the layout design process. With extensive documentation and a large community, Bootstrap enables developers to create consistent and visually appealing web interfaces efficiently. Its customizable nature allows for tailoring designs to specific project needs, ensuring a seamless and engaging user experience across various devices and browsers.
+                MySQL is a widely-used, open-source relational database management system (RDBMS) that enables efficient and reliable data storage, retrieval, and management. Known for its high performance, scalability, and ease of use, MySQL supports a variety of applications, from small websites to large-scale enterprise systems. Its compatibility with numerous platforms and programming languages makes it a versatile choice for developers. As a leading MySQL Database company, we specialize in delivering customized database solutions tailored to your business needs, ensuring robust performance, security, and seamless integration with your existing systems.
             </p>
 
             <br>
@@ -1054,7 +1054,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/Bootstrap.png">
+            <img src="./images/mysql.png">
         </div>
 
     </div>
@@ -1083,42 +1083,46 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits <span style="font-family: 'Raleway', sans-serif;color: #ff0808">of Bootstrap </span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">MySQL Database</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/bootstrap/Ease of Use.png" height="70px" alt="Ease of Use">
-                <div class="headingggggg">Ease of Use</div>
-                <p>Bootstrap provides a user-friendly framework that simplifies the web development process, allowing developers to create functional and attractive websites with minimal effort.</p>
+                <img src="./technologiesicons/mysql/Open-Source.png" height="70px" alt="Open-Source">
+                <div class="headingggggg">Open-Source</div>
+                <p>MySQL is freely available and open-source, allowing businesses to reduce costs and customize the source code to fit specific requirements. </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/bootstrap/Responsive Design.png" height="70px" alt="Responsive Design">
-                <div class="headingggggg">Responsive Design</div>
-                <p>With its responsive grid system and pre-designed components, Bootstrap ensures that websites adapt seamlessly to various screen sizes and devices, enhancing user experience.</p>
+                <img src="./technologiesicons/mysql/Data Security.png" height="70px" alt="Data Security">
+                <div class="headingggggg">Data Security</div>
+                <p>MySQL offers robust data security features, including user authentication, access control, and encryption, ensuring protection against unauthorized access.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/bootstrap/Consistency.png" height="70px" alt="Consistency">
-                <div class="headingggggg">Consistency</div>
-                <p>Bootstrap promotes design consistency across different platforms and browsers, ensuring a uniform look and feel for web applications.</p>
+                <img src="./technologiesicons/mysql/Scalability.png" height="70px" alt="Scalability">
+                <div class="headingggggg">Scalability</div>
+                <p>With its ability to handle large databases and support for replication, MySQL scales efficiently to accommodate growing data and user demands. </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/bootstrap/Customizability.png" height="70px" alt="Customizability">
-                <div class="headingggggg">Customizability</div>
-                <p>Developers can tailor Bootstrap's components and styles to meet specific project requirements, providing flexibility in design and functionality.</p>
+                <img src="./technologiesicons/mysql/High Performance.png" height="70px" alt="High Performance">
+                <div class="headingggggg">High Performance</div>
+                <p>MySQL delivers high-speed performance with optimized storage engines and efficient query processing, suitable for both transactional and analytical workloads. </p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/bootstrap/Community Support.png" height="70px" alt="Community Support">
+                <img src="./technologiesicons/mysql/Flexibility.png" height="70px" alt="Flexibility">
+                <div class="headingggggg">Flexibility</div>
+                <p>Supporting a wide range of data types and character sets, MySQL offers flexibility in managing diverse data structures and internationalization needs. </p>
+            </div>
+            <div class="discover">
+                <img src="./technologiesicons/mysql/Community Support.png" height="70px" alt="Community Support">
                 <div class="headingggggg">Community Support</div>
-                <p>As a widely-used framework, Bootstrap has a large and active community, offering extensive resources, tutorials, and third-party plugins to assist developers.</p>
+                <p>Backed by a large and active community, MySQL benefits from continuous improvements, extensive documentation, and a wealth of third-party tools and resources.</p>
             </div>
         </div>
     </div>
 
 
 
-
     <?php
-    include './include/technologyPortfolio/bootstrap.php'
+    include './include/technologyPortfolio/mysql.php'
     ?>
 
 
@@ -1127,37 +1131,37 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is Bootstrap?</h2>
+            <h2>What is MySQL?</h2>
             <div class="accordion-content">
-                <p>Bootstrap is a free, open-source front-end framework for developing responsive and mobile-first websites. It includes HTML, CSS, and JavaScript components for creating consistent and visually appealing web interfaces.</p>
+                <p>MySQL is an open-source relational database management system (RDBMS) that uses Structured Query Language (SQL) for accessing and managing data. It is widely used for web applications and supports a variety of platforms.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is Bootstrap suitable for beginners?</h2>
+            <h2>What are the key features of MySQL?</h2>
             <div class="accordion-content">
-                <p>Yes, Bootstrap is designed to be user-friendly and accessible for developers of all skill levels. Its comprehensive documentation and pre-designed components make it an excellent choice for beginners.</p>
+                <p>MySQL offers features such as high performance, scalability, robust security, support for large databases, and flexibility with various data types and character sets. </p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can Bootstrap be customized?</h2>
+            <h2>What types of applications commonly use MySQL?</h2>
             <div class="accordion-content">
-                <p>Yes, Bootstrap is highly customizable. Developers can modify its components and styles using CSS or Sass to match specific design requirements and branding guidelines.</p>
+                <p>MySQL is commonly used in web applications, e-commerce platforms, data warehousing, and logging applications due to its reliability and ease of use. </p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Does Bootstrap support responsive design?</h2>
+            <h2>How does MySQL ensure data security?</h2>
             <div class="accordion-content">
-                <p>Yes, Bootstrap is built with a responsive grid system and components that adapt to various screen sizes and devices, ensuring a consistent user experience across desktops, tablets, and smartphones.</p>
+                <p>MySQL provides robust security features, including user authentication, access control based on user privileges, and encryption for data protection, ensuring that only authorized users can access and manipulate data. </p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is Bootstrap compatible with all browsers?</h2>
+            <h2>Is MySQL suitable for large-scale applications?</h2>
             <div class="accordion-content">
-                <p>Bootstrap is designed to be compatible with all modern browsers, ensuring consistent performance and appearance across different platforms.</p>
+                <p>Yes, MySQL is designed to handle large databases efficiently and supports features like replication and clustering, making it suitable for large-scale applications. </p>
             </div>
         </div>
     </div>
@@ -1184,7 +1188,7 @@
 
     <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced Bootstrap  Tools | Expert Corner
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced MySQL Development Tools | Expert Corner
             </h2>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...

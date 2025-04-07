@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>React JS Development Services</title>
+    <title>Top React JS Development Company in Mumbai</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Build fast and user-friendly web apps with our React.js experts. Sagar Tech offers a trusted React development company in Mumbai for your business needs.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="React JS Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/reactjs-development-services">
+    <meta property="og:title" content="Top React JS Development Company in Mumbai">
+    <meta property="og:url" content="https://sagartech.co.in/reactjs-development-company-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Build fast and user-friendly web apps with our React.js experts. Sagar Tech offers a trusted React development company in Mumbai for your business needs.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/reactjs-development-services" />
+    <link rel="canonical" href="https://sagartech.co.in/reactjs-development-company-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- bootstrap -->
