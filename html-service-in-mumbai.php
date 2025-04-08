@@ -2,21 +2,20 @@
 <html lang="en">
 
 <head>
-    <title>HTML Services</title>
+    <title>Professional HTML Service in Mumbai for Your Website</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
-    <meta name="keywords" content="Web Development">
+        content="Looking for an HTML service in Mumbai? Sagar Tech offers clean, fast, and SEO-friendly HTML websites tailored to your business needs. Get started today!">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="HTML Services">
-    <meta property="og:url" content="https://sagartech.co.in/html-services">
+    <meta property="og:title" content="Professional HTML Service in Mumbai for Your Website">
+    <meta property="og:url" content="https://sagartech.co.in/html-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Looking for an HTML service in Mumbai? Sagar Tech offers clean, fast, and SEO-friendly HTML websites tailored to your business needs. Get started today!">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/html-services" />
+    <link rel="canonical" href="https://sagartech.co.in/html-service-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->

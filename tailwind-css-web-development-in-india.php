@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Professional HTML Service in Mumbai for Your Website</title>
+    <title>Best Tailwind CSS Web Development in India</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Looking for an HTML service in Mumbai? Sagar Tech offers clean, fast, and SEO-friendly HTML websites tailored to your business needs. Get started today!">
+        content="Get Tailwind CSS web development in India with Sagar Tech. We build fast, modern, and responsive websites using clean, scalable Tailwind code.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Professional HTML Service in Mumbai for Your Website">
+    <meta property="og:title" content="Best Tailwind CSS Web Development in India">
     <meta property="og:url" content="https://sagartech.co.in/tailwind-css-web-development-in-india">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Looking for an HTML service in Mumbai? Sagar Tech offers clean, fast, and SEO-friendly HTML websites tailored to your business needs. Get started today!">
+        content="Get Tailwind CSS web development in India with Sagar Tech. We build fast, modern, and responsive websites using clean, scalable Tailwind code.">
     <!-- Favicon -->
     <link rel="canonical" href="https://sagartech.co.in/tailwind-css-web-development-in-india" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />

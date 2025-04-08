@@ -214,7 +214,7 @@
       "/wordpress-developers-in-mumbai",
       "/bootstrap-development-services-mumbai",
       "/tailwind-css-web-development-in-india",
-      "/html-services",
+      "/html-service-in-mumbai",
       "/css-services",
       "/javascript-services",
       "/shopify-developers-in-mumbai",
