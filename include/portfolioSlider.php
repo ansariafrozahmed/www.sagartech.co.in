@@ -72,7 +72,7 @@ $slides = array(
 
   array(
     'type' => 'Travel Website',
-    'image' => './image/homepage/classic-v1.webp',
+    'image' => './image/homepage/classics-v1.webp',
     'web_title' => 'Go Classic Tour',
     'desc' => "Go Classic Tour is your gateway to unforgettable travel experiences, offering expertly curated tours that combine luxury, adventure, and cultural immersion. Our user-friendly platform allows you to explore a wide range of destinations and customizable packages tailored to your preferences. Whether you're seeking a serene escape or an exhilarating journey, Go Classic Tour ensures every moment of your trip is seamless and memorable. Discover the world with us and create stories that last a lifetime!"
   ),
