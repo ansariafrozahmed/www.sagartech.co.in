@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>JWT Authentication Services</title>
+    <title>Top TypeScript Services in Mumbai for Web Apps</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Sagar Tech offers expert TypeScript services in Mumbai. Build fast, secure, scalable web apps with clean code and smooth performance.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="JWT Authentication Services">
-    <meta property="og:url" content="https://sagartech.co.in/jwt-authentication-services">
+    <meta property="og:title" content="Top TypeScript Services in Mumbai for Web Apps">
+    <meta property="og:url" content="https://sagartech.co.in/typescript-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Sagar Tech offers expert TypeScript services in Mumbai. Build fast, secure, scalable web apps with clean code and smooth performance.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/jwt-authentication-services" />
+    <link rel="canonical" href="https://sagartech.co.in/typescript-service-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->
@@ -1031,16 +1031,18 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">JWT Authentication Services</h2>
+            <h2 style="line-height:40px;color:white">TypeScript Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>JWT Authentication Services</li>
+                <li>TypeScript Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                JSON Web Token (JWT) is a secure and compact authentication mechanism used to verify user identity and facilitate secure communication between client and server. JWTs are self-contained, meaning they contain all necessary information about the user, eliminating the need for server-side session storage. They are commonly used in API authentication, single sign-on (SSO), and securing web applications.
+                TypeScript is a strongly typed programming language that builds on JavaScript, providing static typing, improved maintainability, and better tooling support. It compiles to plain JavaScript and helps developers catch errors early while improving code scalability and collaboration.
             </p>
+
+
 
 
             <br>
@@ -1055,7 +1057,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/jwt.png">
+            <img src="./images/ts.png">
         </div>
 
     </div>
@@ -1084,47 +1086,51 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">JWT Authentication</span></h2>
+            <h2>Benefits <span style="font-family: 'Raleway', sans-serif;color: #ff0808">of TypeScript </span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/jwt/Secure.png" height="70px" alt="Secure Authentication">
-                <div class="headingggggg">Secure Authentication</div>
-                <p>Ensures secure user authentication with digitally signed tokens.</p>
+                <img src="./technologiesicons/typescript/Static Typing.png" height="70px" alt="Static Typing">
+                <div class="headingggggg">Static Typing</div>
+                <p>TypeScript provides optional static typing, allowing developers to catch errors at compile time and improve code reliability.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/jwt/Stateless.png" height="70px" alt="Stateless Mechanism">
-                <div class="headingggggg">Stateless Mechanism</div>
-                <p>JWTs are self-contained, reducing the need for server-side session storage.</p>
+                <img src="./technologiesicons/typescript/Improved Readability.png" height="70px" alt="Better Readability">
+                <div class="headingggggg">Improved Readability</div>
+                <p>The type system enhances code readability and maintainability, making it easier for teams to collaborate on large projects.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/jwt/Fast.png" height="70px" alt="Fast Performance">
-                <div class="headingggggg">Fast Performance</div>
-                <p>Since authentication is stateless, JWTs improve speed and scalability.</p>
+                <img src="./technologiesicons/typescript/Enhanced Tooling.png" height="70px" alt="Enhanced Tooling">
+                <div class="headingggggg">Enhanced Tooling</div>
+                <p>TypeScript offers powerful IDE support with auto-completion, type inference, and advanced debugging tools.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/jwt/Cross-Platform.png" height="70px" alt="Cross-Platform Support">
-                <div class="headingggggg">Cross-Platform Support</div>
-                <p>Works across multiple platforms, including web, mobile, and cloud applications.</p>
+                <img src="./technologiesicons/typescript/Object-Oriented.png" height="70px" alt="Object-Oriented">
+                <div class="headingggggg">Object-Oriented Features</div>
+                <p>With features like interfaces, generics, and classes, TypeScript enables structured and modular development.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/jwt/Authorization.png" height="70px" alt="User Authorization">
-                <div class="headingggggg">User Authorization</div>
-                <p>JWTs are widely used for user roles and access control management.</p>
+                <img src="./technologiesicons/typescript/JavaScript Compatibility.png" height="70px" alt="JavaScript Compatibility">
+                <div class="headingggggg">JavaScript Compatibility</div>
+                <p>TypeScript is a superset of JavaScript, meaning existing JS code works seamlessly while benefiting from TypeScript's features.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/jwt/SSO.png" height="70px" alt="Single Sign-On">
-                <div class="headingggggg">Single Sign-On (SSO)</div>
-                <p>Allows seamless authentication across multiple applications with a single login.</p>
+                <img src="./technologiesicons/typescript/Scalability.png" height="70px" alt="Scalability">
+                <div class="headingggggg">Scalability</div>
+                <p>Ideal for large-scale applications, TypeScript helps manage complex codebases with ease.</p>
+            </div>
+            <div class="discover">
+                <img src="./technologiesicons/typescript/Early Error Detection.png" height="70px" alt="Error Prevention">
+                <div class="headingggggg">Early Error Detection</div>
+                <p>By catching type-related errors at compile time, TypeScript reduces runtime issues and improves application stability.</p>
             </div>
         </div>
     </div>
 
 
     <?php
-    include './include/technologyPortfolio/jwt.php'
+    include './include/technologyPortfolio/typescript.php'
     ?>
-
 
 
 
@@ -1132,41 +1138,40 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is JWT?</h2>
+            <h2>What is TypeScript?</h2>
             <div class="accordion-content">
-                <p>JWT (JSON Web Token) is a compact, self-contained authentication token used for securely transmitting user information between parties.</p>
+                <p>TypeScript is a superset of JavaScript that adds static typing and additional features to improve code quality, maintainability, and scalability.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does JWT authentication work?</h2>
+            <h2>What are the advantages of using TypeScript?</h2>
             <div class="accordion-content">
-                <p>JWTs are generated after successful user login and are sent with API requests for authentication and authorization.</p>
+                <p>TypeScript offers static typing, improved code organization, better tooling, enhanced debugging, and seamless JavaScript compatibility.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is JWT secure?</h2>
+            <h2>How does TypeScript improve development?</h2>
             <div class="accordion-content">
-                <p>JWTs use cryptographic signing methods (HMAC, RSA, or ECDSA) to ensure integrity and security. However, they should always be transmitted over HTTPS.</p>
+                <p>TypeScript improves development by detecting errors early, enhancing code readability, and providing a structured approach with object-oriented programming concepts.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Where is JWT stored?</h2>
+            <h2>Can I use TypeScript with existing JavaScript projects?</h2>
             <div class="accordion-content">
-                <p>JWTs can be stored in HTTP-only cookies or localStorage, though cookies are preferred for better security.</p>
+                <p>Yes, TypeScript is fully compatible with JavaScript, allowing developers to gradually adopt it in existing projects without rewriting everything.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can JWTs be revoked?</h2>
+            <h2>Is TypeScript suitable for large-scale applications?</h2>
             <div class="accordion-content">
-                <p>Since JWTs are stateless, they cannot be revoked easily, but their validity can be managed using expiration times and blacklists.</p>
+                <p>Yes, TypeScript is widely used in enterprise applications due to its ability to manage complex and scalable codebases efficiently.</p>
             </div>
         </div>
     </div>
-
 
 
     <script>

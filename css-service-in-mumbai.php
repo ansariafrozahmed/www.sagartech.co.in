@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>JavaScript Services</title>
+    <title>Expert CSS Service in Mumbai for Stylish Websites</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Need CSS service in Mumbai? Sagar Tech creates smooth, modern, and mobile-friendly designs with expert CSS styling. Make your website stand out today">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="JavaScript Services">
-    <meta property="og:url" content="https://sagartech.co.in/javascript-services">
+    <meta property="og:title" content="Expert CSS Service in Mumbai for Stylish Websites">
+    <meta property="og:url" content="https://sagartech.co.in/css-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Need CSS service in Mumbai? Sagar Tech creates smooth, modern, and mobile-friendly designs with expert CSS styling. Make your website stand out today">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/javascript-services" />
+    <link rel="canonical" href="https://sagartech.co.in/css-service-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->
@@ -1031,17 +1031,16 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">JavaScript Services</h2>
+            <h2 style="line-height:40px;color:white">CSS Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>JavaScript Services</li>
+                <li>CSS Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                JavaScript is a versatile programming language used for building interactive and dynamic web applications. It enables client-side scripting, enhances user experience, and supports frameworks like React, Angular, and Vue.js. JavaScript also works on the server-side with Node.js, making it a powerful language for full-stack development.
+                CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of web pages. It controls layout, colors, fonts, and animations, enabling responsive and visually appealing designs. CSS works alongside HTML to enhance user experience, ensuring consistency across different screen sizes and devices. With CSS frameworks like Bootstrap and Tailwind CSS, developers can streamline styling and improve productivity.
             </p>
-
 
 
 
@@ -1057,7 +1056,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/js.png">
+            <img src="./images/css.png">
         </div>
 
     </div>
@@ -1086,43 +1085,43 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits <span style="font-family: 'Raleway', sans-serif;color: #ff0808">of JavaScript</span></h2>
+            <h2>Benefits <span style="font-family: 'Raleway', sans-serif;color: #ff0808">of CSS </span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/javascript/Fast Performance.png" height="70px" alt="Fast Performance">
-                <div class="headingggggg">Fast Performance</div>
-                <p>JavaScript runs directly in the browser without needing server processing, resulting in fast execution and a smooth user experience.</p>
+                <img src="./technologiesicons/css/Faster Page Loading.png" height="70px" alt="Faster Page Loading">
+                <div class="headingggggg">Faster Page Loading</div>
+                <p>CSS reduces HTML file size by separating content from design, improving website loading speed and performance.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/javascript/Cross-Platform Compatibility.png" height="70px" alt="Cross-Platform">
-                <div class="headingggggg">Cross-Platform Compatibility</div>
-                <p>JavaScript works on all major browsers and platforms, making it a universal language for web development.</p>
+                <img src="./technologiesicons/css/Responsive Design.png" height="70px" alt="Responsive Design">
+                <div class="headingggggg">Responsive Design</div>
+                <p>CSS enables fluid layouts and media queries, ensuring websites adapt seamlessly to different screen sizes and devices.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/javascript/Enhanced Interactivity.png" height="70px" alt="Interactivity">
-                <div class="headingggggg">Enhanced Interactivity</div>
-                <p>JavaScript enables dynamic content updates, animations, and interactive elements like sliders, pop-ups, and modals.</p>
+                <img src="./technologiesicons/css/Reusability.png" height="70px" alt="Reusability">
+                <div class="headingggggg">Code Reusability</div>
+                <p>Styles can be reused across multiple web pages, reducing redundancy and making design updates more efficient.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/javascript/Full-Stack Development.png" height="70px" alt="Full-Stack Development">
-                <div class="headingggggg">Full-Stack Development</div>
-                <p>With Node.js, JavaScript can be used for both front-end and back-end development, creating a seamless development process.</p>
+                <img src="./technologiesicons/css/Highly Customizable.png" height="70px" alt="Customization">
+                <div class="headingggggg">Highly Customizable</div>
+                <p>CSS provides complete control over design, enabling unique, brand-specific aesthetics with animations and transitions.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/javascript/Rich Ecosystem.png" height="70px" alt="Rich Ecosystem">
-                <div class="headingggggg">Rich Ecosystem</div>
-                <p>JavaScript has a vast ecosystem with numerous libraries and frameworks like React, Angular, and Vue.js for faster development.</p>
+                <img src="./technologiesicons/css/Easy Maintenance.png" height="70px" alt="Maintainability">
+                <div class="headingggggg">Easy Maintenance</div>
+                <p>With CSS, updates and design modifications can be applied globally without editing individual HTML files.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/javascript/SEO & Performance Optimization.png" height="70px" alt="SEO Friendly">
-                <div class="headingggggg">SEO & Performance Optimization</div>
-                <p>With server-side rendering and optimized JavaScript frameworks, web applications can improve performance and SEO rankings.</p>
+                <img src="./technologiesicons/css/SEO Benefits.png" height="70px" alt="SEO Friendly">
+                <div class="headingggggg">SEO Benefits</div>
+                <p>Well-structured CSS improves page speed and enhances the user experience, positively impacting search engine rankings.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/javascript/Strong Community Support.png" height="70px" alt="Community Support">
-                <div class="headingggggg">Strong Community Support</div>
-                <p>JavaScript is widely used and supported by a vast community of developers, ensuring continuous improvements and updates.</p>
+                <img src="./technologiesicons/css/Enhanced User Experience.png" height="70px" alt="Better UX">
+                <div class="headingggggg">Enhanced User Experience</div>
+                <p>CSS enables smooth animations, transitions, and visual effects, making web applications more interactive and engaging.</p>
             </div>
         </div>
     </div>
@@ -1131,9 +1130,8 @@
 
 
 
-
     <?php
-    include './include/technologyPortfolio/javascript.php'
+    include './include/technologyPortfolio/css.php'
     ?>
 
 
@@ -1142,41 +1140,40 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is JavaScript?</h2>
+            <h2>What is CSS?</h2>
             <div class="accordion-content">
-                <p>JavaScript is a programming language used to create interactive and dynamic web applications. It runs in the browser and supports both client-side and server-side development.</p>
+                <p>CSS (Cascading Style Sheets) is a language used to style and format HTML documents, controlling layout, colors, fonts, and animations.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What are the main features of JavaScript?</h2>
+            <h2>What are the different types of CSS?</h2>
             <div class="accordion-content">
-                <p>JavaScript supports asynchronous programming, event-driven behavior, dynamic typing, and has a rich ecosystem with frameworks like React, Angular, and Vue.js.</p>
+                <p>CSS can be applied in three ways: Inline CSS (within HTML elements), Internal CSS (inside the &lt;style&gt; tag), and External CSS (using a separate stylesheet file).</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does JavaScript enhance website functionality?</h2>
+            <h2>How does CSS improve website performance?</h2>
             <div class="accordion-content">
-                <p>JavaScript enables real-time updates, interactive elements, animations, and client-side validation, improving user engagement and experience.</p>
+                <p>CSS reduces file size and eliminates redundant styling, leading to faster page loading and improved website efficiency.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can JavaScript be used for back-end development?</h2>
+            <h2>What is the difference between CSS and CSS3?</h2>
             <div class="accordion-content">
-                <p>Yes, JavaScript can be used for back-end development with Node.js, allowing developers to build full-stack applications using a single language.</p>
+                <p>CSS3 is the latest version of CSS, introducing advanced features like animations, gradients, flexbox, grid, and media queries for responsive design.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What is the difference between JavaScript and Java?</h2>
+            <h2>How does CSS help in responsive design?</h2>
             <div class="accordion-content">
-                <p>JavaScript is a lightweight, interpreted language primarily used for web development, while Java is a statically-typed, compiled language used for various applications, including enterprise solutions.</p>
+                <p>CSS uses media queries and flexible layouts to make web pages adapt dynamically to different screen sizes and resolutions.</p>
             </div>
         </div>
     </div>
-
 
 
 
@@ -1201,7 +1198,7 @@
 
     <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced HTML Tools | Expert Corner
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced HTML Development Tools | Expert Corner
             </h2>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...

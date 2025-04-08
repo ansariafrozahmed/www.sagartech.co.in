@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>Express JS Development Services</title>
+    <title>Best React Native Development in Mumbai</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Need React Native development in Mumbai? Sagar Tech builds powerful mobile apps for iOS & Android. Contact us now and turn your idea into reality!">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Express JS Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/expressjs-development-services">
+    <meta property="og:title" content="Best React Native Development in Mumbai">
+    <meta property="og:url" content="https://sagartech.co.in/react-native-development-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Need React Native development in Mumbai? Sagar Tech builds powerful mobile apps for iOS & Android. Contact us now and turn your idea into reality!">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/expressjs-development-services" />
+    <link rel="canonical" href="https://sagartech.co.in/react-native-development-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->
@@ -1031,15 +1031,15 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">Express JS Development Services</h2>
+            <h2 style="line-height:40px;color:white">React Native Development Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>Express JS Development Services</li>
+                <li>React Native Development Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. It simplifies server-side development by offering middleware support, routing, and templating engines. Express.js is widely used to create RESTful APIs and real-time applications due to its lightweight nature and performance efficiency.
+                React Native is a popular open-source framework developed by Meta (formerly Facebook) for building mobile applications using JavaScript and React. It enables developers to create cross-platform apps for iOS and Android with a single codebase, leveraging native components for optimal performance. React Native allows for faster development, hot reloading, and access to native APIs, making it a preferred choice for mobile app development.
             </p>
 
 
@@ -1055,7 +1055,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/express.png">
+            <img src="./images/react-native.webp">
         </div>
 
     </div>
@@ -1081,53 +1081,55 @@
         </div>
     </div> -->
 
+
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">Express JS Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">React Native Development</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/expressjs/Fast and Lightweight.png" height="70px" alt="Fast and Lightweight">
-                <div class="headingggggg">Fast and Lightweight</div>
-                <p>Express.js is minimal and optimized for high performance, making it ideal for building scalable applications.</p>
+                <img src="./technologiesicons/reactnative/Cross-Platform.png" height="70px" alt="Cross-Platform Development">
+                <div class="headingggggg">Cross-Platform Development</div>
+                <p>Develop once and deploy across both iOS and Android, saving time and resources.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/expressjs/Middleware-Support.png" height="70px" alt="Middleware Support">
-                <div class="headingggggg">Middleware Support</div>
-                <p>It provides a powerful middleware system that allows easy request and response handling.</p>
+                <img src="./technologiesicons/reactnative/Performance.png" height="70px" alt="High Performance">
+                <div class="headingggggg">High Performance</div>
+                <p>Utilizes native components to deliver near-native performance and smooth user experience.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/expressjs/Routing-System.png" height="70px" alt="Routing System">
-                <div class="headingggggg">Flexible Routing</div>
-                <p>Express.js offers a simple and intuitive routing mechanism to handle different HTTP requests efficiently.</p>
+                <img src="./technologiesicons/reactnative/Hot-Reloading.png" height="70px" alt="Hot Reloading">
+                <div class="headingggggg">Hot Reloading</div>
+                <p>Instantly see code changes in real time without rebuilding the app.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/expressjs/API-Development.png" height="70px" alt="API Development">
-                <div class="headingggggg">Ideal for APIs</div>
-                <p>Express.js is widely used for developing RESTful APIs and microservices.</p>
+                <img src="./technologiesicons/reactnative/Reusability.png" height="70px" alt="Code Reusability">
+                <div class="headingggggg">Code Reusability</div>
+                <p>Reusing components and logic across platforms speeds up development and reduces costs.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/expressjs/Templating-Engines.png" height="70px" alt="Templating Engines">
-                <div class="headingggggg">Templating Engines</div>
-                <p>Supports multiple templating engines like EJS, Pug, and Handlebars for dynamic content rendering.</p>
+                <img src="./technologiesicons/reactnative/Community.png" height="70px" alt="Strong Community">
+                <div class="headingggggg">Strong Community Support</div>
+                <p>Vast community and extensive libraries make development easier and faster.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/expressjs/Real-Time-Apps.png" height="70px" alt="Real-Time Apps">
-                <div class="headingggggg">Real-Time Applications</div>
-                <p>Works seamlessly with WebSockets for building real-time applications like chat apps and live notifications.</p>
+                <img src="./technologiesicons/reactnative/Native-Modules.png" height="70px" alt="Native Modules">
+                <div class="headingggggg">Native Modules</div>
+                <p>Provides direct access to native APIs and device functionalities.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/expressjs/Integration.png" height="70px" alt="Integration">
-                <div class="headingggggg">Seamless Integration</div>
-                <p>Can be integrated with databases like MongoDB, MySQL, and PostgreSQL effortlessly.</p>
+                <img src="./technologiesicons/reactnative/Fast-Development.png" height="70px" alt="Fast Development">
+                <div class="headingggggg">Faster Development</div>
+                <p>Rapid development and iteration cycles with a single codebase.</p>
             </div>
         </div>
     </div>
 
 
     <?php
-    include './include/technologyPortfolio/express.php'
+    include './include/technologyPortfolio/native.php'
     ?>
+
 
 
 
@@ -1135,41 +1137,40 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is Express.js?</h2>
+            <h2>What is React Native?</h2>
             <div class="accordion-content">
-                <p>Express.js is a fast, unopinionated web framework for Node.js that helps developers build web applications and RESTful APIs efficiently.</p>
+                <p>React Native is a JavaScript framework used for developing mobile applications that run on both iOS and Android using a single codebase.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Why use Express.js?</h2>
+            <h2>How does React Native differ from React?</h2>
             <div class="accordion-content">
-                <p>Express.js simplifies backend development by providing a powerful routing system, middleware support, and easy integration with databases.</p>
+                <p>React is used for building web applications, while React Native is used for mobile applications with native-like performance.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is Express.js suitable for large-scale applications?</h2>
+            <h2>Can React Native apps achieve native performance?</h2>
             <div class="accordion-content">
-                <p>Yes, Express.js can handle large-scale applications when combined with proper middleware, load balancing, and caching strategies.</p>
+                <p>Yes, React Native uses native components and optimizes rendering to achieve near-native performance.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What kind of applications can be built using Express.js?</h2>
+            <h2>Is React Native suitable for large-scale applications?</h2>
             <div class="accordion-content">
-                <p>Express.js is used to build RESTful APIs, real-time applications, microservices, e-commerce websites, and single-page applications (SPAs).</p>
+                <p>Yes, many large-scale apps like Facebook, Instagram, and Airbnb use React Native for its scalability and maintainability.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does Express.js handle security?</h2>
+            <h2>Does React Native support third-party libraries?</h2>
             <div class="accordion-content">
-                <p>Express.js provides security features like Helmet middleware to prevent vulnerabilities, rate limiting, and input validation to enhance application security.</p>
+                <p>Yes, React Native has a vast ecosystem of third-party libraries and plugins to enhance development.</p>
             </div>
         </div>
     </div>
-
 
 
 

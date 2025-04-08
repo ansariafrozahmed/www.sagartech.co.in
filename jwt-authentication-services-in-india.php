@@ -2,25 +2,25 @@
 <html lang="en">
 
 <head>
-    <title>MongoDB Database Services</title>
+    <title>JWT Authentication Services in India You Can Trust</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Get reliable JWT authentication services in India with Sagar Tech. We help you protect user data with secure, token-based login systems.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="MongoDB Database Services">
-    <meta property="og:url" content="https://sagartech.co.in/mongodb-database-services">
+    <meta property="og:title" content="JWT Authentication Services in India You Can Trust">
+    <meta property="og:url" content="https://sagartech.co.in/jwt-authentication-services-in-india">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Get reliable JWT authentication services in India with Sagar Tech. We help you protect user data with secure, token-based login systems.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/mongodb-database-services" />
+    <link rel="canonical" href="https://sagartech.co.in/jwt-authentication-services-in-india" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
-    <!-- bootstrap -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+    <!-- HTML -->
+    <!-- <link href="css/HTML.min.css" rel="stylesheet" type="text/css" /> -->
     <!-- main style -->
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!-- responsive -->
@@ -1031,15 +1031,15 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">MongoDB Database Services</h2>
+            <h2 style="line-height:40px;color:white">JWT Authentication Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>MongoDB Database Services</li>
+                <li>JWT Authentication Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                MongoDB is a NoSQL database that stores data in a flexible, JSON-like format, allowing for scalable and high-performance applications. It provides rich query capabilities, horizontal scalability, and built-in sharding, making it ideal for handling large volumes of unstructured data.
+                JSON Web Token (JWT) is a secure and compact authentication mechanism used to verify user identity and facilitate secure communication between client and server. JWTs are self-contained, meaning they contain all necessary information about the user, eliminating the need for server-side session storage. They are commonly used in API authentication, single sign-on (SSO), and securing web applications.
             </p>
 
 
@@ -1055,7 +1055,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/mongodb.png">
+            <img src="./images/jwt.png">
         </div>
 
     </div>
@@ -1081,54 +1081,50 @@
         </div>
     </div> -->
 
+
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">MongoDB Database</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">JWT Authentication</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/mongodb/Flexible Schema.png" height="70px" alt="Flexible Schema">
-                <div class="headingggggg">Flexible Schema</div>
-                <p>MongoDB's schema-less structure allows dynamic and flexible data modeling, making it easy to adapt to changing requirements.</p>
+                <img src="./technologiesicons/jwt/Secure.png" height="70px" alt="Secure Authentication">
+                <div class="headingggggg">Secure Authentication</div>
+                <p>Ensures secure user authentication with digitally signed tokens.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/mongodb/High Scalability.png" height="70px" alt="Scalability">
-                <div class="headingggggg">High Scalability</div>
-                <p>MongoDB supports horizontal scaling through sharding, enabling efficient handling of large datasets across multiple servers.</p>
+                <img src="./technologiesicons/jwt/Stateless.png" height="70px" alt="Stateless Mechanism">
+                <div class="headingggggg">Stateless Mechanism</div>
+                <p>JWTs are self-contained, reducing the need for server-side session storage.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/mongodb/High Performance.png" height="70px" alt="High Performance">
-                <div class="headingggggg">High Performance</div>
-                <p>With indexing and in-memory storage, MongoDB delivers high-speed data retrieval and efficient query execution.</p>
+                <img src="./technologiesicons/jwt/Fast.png" height="70px" alt="Fast Performance">
+                <div class="headingggggg">Fast Performance</div>
+                <p>Since authentication is stateless, JWTs improve speed and scalability.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/mongodb/Replication.png" height="70px" alt="Replication">
-                <div class="headingggggg">Built-in Replication</div>
-                <p>MongoDB ensures high availability with automatic failover and data replication across multiple nodes.</p>
+                <img src="./technologiesicons/jwt/Cross-Platform.png" height="70px" alt="Cross-Platform Support">
+                <div class="headingggggg">Cross-Platform Support</div>
+                <p>Works across multiple platforms, including web, mobile, and cloud applications.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/mongodb/Query Language.png" height="70px" alt="Query Language">
-                <div class="headingggggg">Rich Query Language</div>
-                <p>MongoDB provides powerful queries, including filtering, aggregation, and geospatial indexing, for advanced data operations.</p>
+                <img src="./technologiesicons/jwt/Authorization.png" height="70px" alt="User Authorization">
+                <div class="headingggggg">User Authorization</div>
+                <p>JWTs are widely used for user roles and access control management.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/mongodb/Integration.png" height="70px" alt="Integration">
-                <div class="headingggggg">Seamless Integration</div>
-                <p>MongoDB integrates well with popular frameworks and programming languages like Node.js, Python, and Java.</p>
-            </div>
-            <div class="discover">
-                <img src="./technologiesicons/mongodb/Cloud Support.png" height="70px" alt="Cloud Support">
-                <div class="headingggggg">Cloud & Atlas Support</div>
-                <p>MongoDB Atlas provides a fully managed cloud database solution, simplifying deployment and maintenance.</p>
+                <img src="./technologiesicons/jwt/SSO.png" height="70px" alt="Single Sign-On">
+                <div class="headingggggg">Single Sign-On (SSO)</div>
+                <p>Allows seamless authentication across multiple applications with a single login.</p>
             </div>
         </div>
     </div>
 
 
-
     <?php
-    include './include/technologyPortfolio/mongodb.php'
+    include './include/technologyPortfolio/jwt.php'
     ?>
+
 
 
 
@@ -1136,41 +1132,40 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is MongoDB?</h2>
+            <h2>What is JWT?</h2>
             <div class="accordion-content">
-                <p>MongoDB is a NoSQL document-oriented database that stores data in a flexible JSON-like format, providing high performance, scalability, and powerful query capabilities.</p>
+                <p>JWT (JSON Web Token) is a compact, self-contained authentication token used for securely transmitting user information between parties.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What are the advantages of using MongoDB?</h2>
+            <h2>How does JWT authentication work?</h2>
             <div class="accordion-content">
-                <p>MongoDB offers a flexible schema, horizontal scalability, built-in replication, high performance, and seamless integration with various programming languages.</p>
+                <p>JWTs are generated after successful user login and are sent with API requests for authentication and authorization.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does MongoDB handle large-scale applications?</h2>
+            <h2>Is JWT secure?</h2>
             <div class="accordion-content">
-                <p>MongoDB uses sharding to distribute data across multiple servers, ensuring efficient handling of large-scale applications with high traffic and data loads.</p>
+                <p>JWTs use cryptographic signing methods (HMAC, RSA, or ECDSA) to ensure integrity and security. However, they should always be transmitted over HTTPS.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is MongoDB suitable for real-time applications?</h2>
+            <h2>Where is JWT stored?</h2>
             <div class="accordion-content">
-                <p>Yes, MongoDB is ideal for real-time applications like analytics, IoT, gaming, and financial systems due to its fast read/write operations and scalable architecture.</p>
+                <p>JWTs can be stored in HTTP-only cookies or localStorage, though cookies are preferred for better security.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What is MongoDB Atlas?</h2>
+            <h2>Can JWTs be revoked?</h2>
             <div class="accordion-content">
-                <p>MongoDB Atlas is a fully managed cloud-based database service that automates deployment, scaling, and backup, providing hassle-free database management.</p>
+                <p>Since JWTs are stateless, they cannot be revoked easily, but their validity can be managed using expiration times and blacklists.</p>
             </div>
         </div>
     </div>
-
 
 
 
@@ -1194,7 +1189,7 @@
 
     <div style="background:radial-gradient(ellipse at center, #ff2828 0%, #000000 130%)" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced MySQL Development Tools | Expert Corner
+            <h2 style="line-height:40px;color:white;margin-bottom:15px">15 Advanced HTML Tools | Expert Corner
             </h2>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white;">Your website has become a first point of contact between your company and visitors in the current digital era. It serves as your digital business card, online store, and primary method of increasing brand recognition. Having a good internet presence is now required instead of optional. An expert web design agency can help with that. They are the designers of your online environment, creating visually appealing and effective websites...

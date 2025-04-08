@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>TypeScript Services</title>
+    <title>Top Flutter Service in Mumbai for Mobile Apps</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Looking for Flutter service in Mumbai? Sagar Tech builds fast, cross-platform mobile apps with Flutter. Clean design, smooth performance, and an expert team.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="TypeScript Services">
-    <meta property="og:url" content="https://sagartech.co.in/typescript-services">
+    <meta property="og:title" content="Top Flutter Service in Mumbai for Mobile Apps">
+    <meta property="og:url" content="https://sagartech.co.in/flutter-service-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Looking for Flutter service in Mumbai? Sagar Tech builds fast, cross-platform mobile apps with Flutter. Clean design, smooth performance, and an expert team.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/typescript-services" />
+    <link rel="canonical" href="https://sagartech.co.in/flutter-service-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->
@@ -1031,15 +1031,15 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">TypeScript Services</h2>
+            <h2 style="line-height:40px;color:white">Flutter Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>TypeScript Services</li>
+                <li>Flutter Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                TypeScript is a strongly typed programming language that builds on JavaScript, providing static typing, improved maintainability, and better tooling support. It compiles to plain JavaScript and helps developers catch errors early while improving code scalability and collaboration.
+                Flutter is an open-source UI software development toolkit created by Google. It allows developers to build natively compiled applications for mobile, web, and desktop from a single codebase. Using the Dart programming language, Flutter offers fast development, expressive UI, and high performance.
             </p>
 
 
@@ -1057,7 +1057,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/ts.png">
+            <img src="./images/flutter.png">
         </div>
 
     </div>
@@ -1086,50 +1086,50 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits <span style="font-family: 'Raleway', sans-serif;color: #ff0808">of TypeScript </span></h2>
+            <h2>Benefits <span style="font-family: 'Raleway', sans-serif;color: #ff0808">of Flutter</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/typescript/Static Typing.png" height="70px" alt="Static Typing">
-                <div class="headingggggg">Static Typing</div>
-                <p>TypeScript provides optional static typing, allowing developers to catch errors at compile time and improve code reliability.</p>
+                <img src="./technologiesicons/flutter/Single Codebase.png" height="70px" alt="Single Codebase">
+                <div class="headingggggg">Single Codebase</div>
+                <p>Develop apps for Android, iOS, web, and desktop with a single codebase, reducing development time and costs.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/typescript/Improved Readability.png" height="70px" alt="Better Readability">
-                <div class="headingggggg">Improved Readability</div>
-                <p>The type system enhances code readability and maintainability, making it easier for teams to collaborate on large projects.</p>
+                <img src="./technologiesicons/flutter/Fast Development.png" height="70px" alt="Fast Development">
+                <div class="headingggggg">Fast Development</div>
+                <p>Flutter’s Hot Reload feature enables developers to see changes instantly, speeding up the development process.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/typescript/Enhanced Tooling.png" height="70px" alt="Enhanced Tooling">
-                <div class="headingggggg">Enhanced Tooling</div>
-                <p>TypeScript offers powerful IDE support with auto-completion, type inference, and advanced debugging tools.</p>
+                <img src="./technologiesicons/flutter/Native-Like Performance.png" height="70px" alt="Native Performance">
+                <div class="headingggggg">Native-Like Performance</div>
+                <p>Flutter provides smooth animations and high performance by compiling directly to native ARM code.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/typescript/Object-Oriented.png" height="70px" alt="Object-Oriented">
-                <div class="headingggggg">Object-Oriented Features</div>
-                <p>With features like interfaces, generics, and classes, TypeScript enables structured and modular development.</p>
+                <img src="./technologiesicons/flutter/Expressive UI.png" height="70px" alt="Custom UI">
+                <div class="headingggggg">Expressive UI</div>
+                <p>With a rich set of customizable widgets, Flutter allows for creating beautiful and engaging user interfaces.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/typescript/JavaScript Compatibility.png" height="70px" alt="JavaScript Compatibility">
-                <div class="headingggggg">JavaScript Compatibility</div>
-                <p>TypeScript is a superset of JavaScript, meaning existing JS code works seamlessly while benefiting from TypeScript's features.</p>
+                <img src="./technologiesicons/flutter/Backed by Google.png" height="70px" alt="Google Support">
+                <div class="headingggggg">Backed by Google</div>
+                <p>Flutter is backed by Google, ensuring continuous updates, community support, and long-term reliability.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/typescript/Scalability.png" height="70px" alt="Scalability">
+                <img src="./technologiesicons/flutter/Scalability.png" height="70px" alt="Scalability">
                 <div class="headingggggg">Scalability</div>
-                <p>Ideal for large-scale applications, TypeScript helps manage complex codebases with ease.</p>
+                <p>Suitable for startups and enterprises, Flutter scales well with business needs and evolving technologies.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/typescript/Early Error Detection.png" height="70px" alt="Error Prevention">
-                <div class="headingggggg">Early Error Detection</div>
-                <p>By catching type-related errors at compile time, TypeScript reduces runtime issues and improves application stability.</p>
+                <img src="./technologiesicons/flutter/Cross-Platform Compatibility.png" height="70px" alt="Cross-Platform">
+                <div class="headingggggg">Cross-Platform Compatibility</div>
+                <p>Flutter apps run seamlessly on Android, iOS, web, and desktop without compromising user experience.</p>
             </div>
         </div>
     </div>
 
 
     <?php
-    include './include/technologyPortfolio/typescript.php'
+    include './include/technologyPortfolio/flutter.php'
     ?>
 
 
@@ -1138,37 +1138,37 @@
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is TypeScript?</h2>
+            <h2>What is Flutter?</h2>
             <div class="accordion-content">
-                <p>TypeScript is a superset of JavaScript that adds static typing and additional features to improve code quality, maintainability, and scalability.</p>
+                <p>Flutter is an open-source UI toolkit by Google for building cross-platform applications with a single codebase.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>What are the advantages of using TypeScript?</h2>
+            <h2>What are the benefits of using Flutter?</h2>
             <div class="accordion-content">
-                <p>TypeScript offers static typing, improved code organization, better tooling, enhanced debugging, and seamless JavaScript compatibility.</p>
+                <p>Flutter provides a single codebase for multiple platforms, fast development with Hot Reload, expressive UI, and high performance.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does TypeScript improve development?</h2>
+            <h2>Can Flutter be used for web development?</h2>
             <div class="accordion-content">
-                <p>TypeScript improves development by detecting errors early, enhancing code readability, and providing a structured approach with object-oriented programming concepts.</p>
+                <p>Yes, Flutter supports web development, allowing developers to build applications for browsers using the same codebase.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can I use TypeScript with existing JavaScript projects?</h2>
+            <h2>Is Flutter suitable for large-scale applications?</h2>
             <div class="accordion-content">
-                <p>Yes, TypeScript is fully compatible with JavaScript, allowing developers to gradually adopt it in existing projects without rewriting everything.</p>
+                <p>Yes, Flutter is used by enterprises and startups to build scalable applications for various platforms.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is TypeScript suitable for large-scale applications?</h2>
+            <h2>Which programming language does Flutter use?</h2>
             <div class="accordion-content">
-                <p>Yes, TypeScript is widely used in enterprise applications due to its ability to manage complex and scalable codebases efficiently.</p>
+                <p>Flutter uses Dart, a modern programming language optimized for UI development and high performance.</p>
             </div>
         </div>
     </div>

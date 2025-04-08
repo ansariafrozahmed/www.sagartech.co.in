@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>Expo Services</title>
+    <title>Trusted Expo Services in India for Mobile Apps</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Get expert Expo services in India with Sagar Tech. We build smooth, cross-platform mobile apps using Expo for faster development and great performance.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Expo Services">
-    <meta property="og:url" content="https://sagartech.co.in/expo-services">
+    <meta property="og:title" content="Trusted Expo Services in India for Mobile Apps">
+    <meta property="og:url" content="https://sagartech.co.in/expo-services-in-india">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Get expert Expo services in India with Sagar Tech. We build smooth, cross-platform mobile apps using Expo for faster development and great performance.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/expo-services" />
+    <link rel="canonical" href="https://sagartech.co.in/expo-services-in-india" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->

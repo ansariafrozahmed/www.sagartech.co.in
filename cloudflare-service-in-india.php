@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <title>React Native Development Services</title>
+    <title>Cloudflare Service in India for Safe, Fast Websites</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Need Cloudflare service in India? Sagar Tech helps secure your site, boost speed, and manage traffic easily with expert Cloudflare setup.">
     <meta name="keywords" content="Web Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="React Native Development Services">
-    <meta property="og:url" content="https://sagartech.co.in/reactnative-development-services">
+    <meta property="og:title" content="Cloudflare Service in India for Safe, Fast Websites">
+    <meta property="og:url" content="https://sagartech.co.in/cloudflare-service-in-india">
     <meta property="og:image" content="https://sagartech.co.in/portfolio-mockups//ecommerce/trillionair.webp">
     <meta property="og:description"
-        content="Are you trying to find web development? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Need Cloudflare service in India? Sagar Tech helps secure your site, boost speed, and manage traffic easily with expert Cloudflare setup.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/reactnative-development-services" />
+    <link rel="canonical" href="https://sagartech.co.in/cloudflare-service-in-india" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- HTML -->
@@ -1031,16 +1031,18 @@
     <!-- <div class="herosectionnew"> -->
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">React Native Development Services</h2>
+            <h2 style="line-height:40px;color:white">CloudFlare Services</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>React Native Development Services</li>
+                <li>CloudFlare Services</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
-                React Native is a popular open-source framework developed by Meta (formerly Facebook) for building mobile applications using JavaScript and React. It enables developers to create cross-platform apps for iOS and Android with a single codebase, leveraging native components for optimal performance. React Native allows for faster development, hot reloading, and access to native APIs, making it a preferred choice for mobile app development.
+                Cloudflare is a leading web performance and security platform that provides CDN (Content Delivery Network), DDoS protection, and security services to optimize and protect websites and applications. It enhances website speed, reliability, and security by distributing content across a global network of servers.
             </p>
+
+
 
 
             <br>
@@ -1055,7 +1057,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/react-native.webp">
+            <img src="./images/cloudflare.png">
         </div>
 
     </div>
@@ -1084,90 +1086,84 @@
 
     <div class="ourprocesssection">
         <div class="our-client-main-div">
-            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">React Native Development</span></h2>
+            <h2>Benefits of <span style="font-family: 'Raleway', sans-serif;color: #ff0808">Cloudflare</span></h2>
         </div>
         <div class="ourprocesssectiontwo">
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Cross-Platform.png" height="70px" alt="Cross-Platform Development">
-                <div class="headingggggg">Cross-Platform Development</div>
-                <p>Develop once and deploy across both iOS and Android, saving time and resources.</p>
+                <img src="./technologiesicons/cloudflare/CDN.png" height="70px" alt="Global CDN">
+                <div class="headingggggg">Global CDN</div>
+                <p>Cloudflare's global content delivery network ensures faster website loading times and reduced latency.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Performance.png" height="70px" alt="High Performance">
-                <div class="headingggggg">High Performance</div>
-                <p>Utilizes native components to deliver near-native performance and smooth user experience.</p>
+                <img src="./technologiesicons/cloudflare/Security.png" height="70px" alt="Enhanced Security">
+                <div class="headingggggg">Enhanced Security</div>
+                <p>Provides DDoS protection, firewall rules, and bot mitigation to keep websites secure.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Hot-Reloading.png" height="70px" alt="Hot Reloading">
-                <div class="headingggggg">Hot Reloading</div>
-                <p>Instantly see code changes in real time without rebuilding the app.</p>
+                <img src="./technologiesicons/cloudflare/DDoS.png" height="70px" alt="DDoS Protection">
+                <div class="headingggggg">DDoS Protection</div>
+                <p>Cloudflare blocks malicious traffic and prevents attacks that could disrupt your website.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Reusability.png" height="70px" alt="Code Reusability">
-                <div class="headingggggg">Code Reusability</div>
-                <p>Reusing components and logic across platforms speeds up development and reduces costs.</p>
+                <img src="./technologiesicons/cloudflare/SSL.png" height="70px" alt="Free SSL">
+                <div class="headingggggg">Free SSL Certificates</div>
+                <p>Automatically provides SSL/TLS encryption for secure website connections.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Community.png" height="70px" alt="Strong Community">
-                <div class="headingggggg">Strong Community Support</div>
-                <p>Vast community and extensive libraries make development easier and faster.</p>
+                <img src="./technologiesicons/cloudflare/Caching.png" height="70px" alt="Caching Optimization">
+                <div class="headingggggg">Caching Optimization</div>
+                <p>Improves website performance with intelligent caching mechanisms.</p>
             </div>
             <div class="discover">
-                <img src="./technologiesicons/reactnative/Native-Modules.png" height="70px" alt="Native Modules">
-                <div class="headingggggg">Native Modules</div>
-                <p>Provides direct access to native APIs and device functionalities.</p>
-            </div>
-            <div class="discover">
-                <img src="./technologiesicons/reactnative/Fast-Development.png" height="70px" alt="Fast Development">
-                <div class="headingggggg">Faster Development</div>
-                <p>Rapid development and iteration cycles with a single codebase.</p>
+                <img src="./technologiesicons/cloudflare/Analytics.png" height="70px" alt="Real-time Analytics">
+                <div class="headingggggg">Real-time Analytics</div>
+                <p>Monitors website traffic, security threats, and performance metrics in real time.</p>
             </div>
         </div>
     </div>
 
 
+
     <?php
-    include './include/technologyPortfolio/native.php'
+    include './include/technologyPortfolio/cloudflare.php'
     ?>
-
-
 
 
 
     <h3 class="faqs-heading">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is React Native?</h2>
+            <h2>What is Cloudflare?</h2>
             <div class="accordion-content">
-                <p>React Native is a JavaScript framework used for developing mobile applications that run on both iOS and Android using a single codebase.</p>
+                <p>Cloudflare is a cloud-based security and performance service that provides CDN, DDoS protection, and website optimization features.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does React Native differ from React?</h2>
+            <h2>How does Cloudflare improve website performance?</h2>
             <div class="accordion-content">
-                <p>React is used for building web applications, while React Native is used for mobile applications with native-like performance.</p>
+                <p>Cloudflare caches website content across its global servers, reducing load times and improving site speed.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can React Native apps achieve native performance?</h2>
+            <h2>Is Cloudflare free to use?</h2>
             <div class="accordion-content">
-                <p>Yes, React Native uses native components and optimizes rendering to achieve near-native performance.</p>
+                <p>Cloudflare offers a free plan with basic security and CDN services, along with paid plans for advanced features.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Is React Native suitable for large-scale applications?</h2>
+            <h2>How does Cloudflare protect against DDoS attacks?</h2>
             <div class="accordion-content">
-                <p>Yes, many large-scale apps like Facebook, Instagram, and Airbnb use React Native for its scalability and maintainability.</p>
+                <p>Cloudflare uses advanced filtering techniques to detect and block malicious traffic before it reaches your server.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Does React Native support third-party libraries?</h2>
+            <h2>Does Cloudflare work with any website?</h2>
             <div class="accordion-content">
-                <p>Yes, React Native has a vast ecosystem of third-party libraries and plugins to enhance development.</p>
+                <p>Yes, Cloudflare can be integrated with any website by updating its DNS settings to route traffic through Cloudflare’s network.</p>
             </div>
         </div>
     </div>
