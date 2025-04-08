@@ -1009,7 +1009,7 @@
             }
         }
 
-        .our-client-main-div h2 {
+        .our-client-main-div h1 {
             font-size: 40px;
             font-weight: 700;
             padding-bottom: 40px;
@@ -1020,7 +1020,7 @@
         }
 
         @media (max-width: 767px) {
-            .our-client-main-div h2 {
+            .our-client-main-div h1 {
                 font-size: 30px !important;
                 padding-bottom: 15px;
             }

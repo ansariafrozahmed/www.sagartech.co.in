@@ -3,7 +3,7 @@
     padding: 50px 100px;
     text-align: center;
   }
-  .our-client-main-div h2 {
+  .our-client-main-div h1 {
     font-size: 40px;
     font-weight: 700;
     color: #2b2a2a;
@@ -32,7 +32,7 @@
       padding: 50px;
       text-align: center;
     }
-    .our-client-main-div h2 {
+    .our-client-main-div h1 {
       font-size: 40px;
       font-weight: 700;
     }
@@ -59,7 +59,7 @@
       padding: 20px;
       text-align: center;
     }
-    .our-client-main-div h2 {
+    .our-client-main-div h1 {
       font-size: 40px;
       font-weight: 700;
     }

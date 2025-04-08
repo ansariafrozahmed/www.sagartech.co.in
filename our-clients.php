@@ -168,7 +168,7 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
     padding: 50px 100px;
     text-align: center;
     }
-  .our-client-main-div h2 {
+  .our-client-main-div h1 {
     font-size: 40px;
     font-weight: 700;
     color: #2b2a2a;
@@ -197,7 +197,7 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
       padding: 50px;
       text-align: center;
     }
-    .our-client-main-div h2 {
+    .our-client-main-div h1 {
       font-size: 40px;
       font-weight: 700;
     }
@@ -224,7 +224,7 @@ background: linear-gradient(0deg, rgba(162,0,0,1) 35%, rgba(255,8,8,1) 100%); */
       padding: 40px 20px;
       text-align: center;
     }
-    .our-client-main-div h2 {
+    .our-client-main-div h1 {
       font-size: 30px;
       font-weight: 700;
     }

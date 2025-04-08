@@ -13,6 +13,42 @@ $slides = array(
     'web_title' => 'Syrocs',
     'desc' => 'Syrocs is a modern, responsive web platform built using the latest technologies including React.js, Tailwind CSS, JavaScript, and Node.js. Designed for speed and scalability, Syrocs offers a seamless user experience with clean design and efficient performance. Whether you are browsing on desktop or mobile, the interface remains intuitive and lightning-fast. Powered by a robust backend and dynamic frontend, Syrocs stands as a showcase of cutting-edge web development, merging aesthetics with functionality for optimal engagement.'
   ),
+  array(
+    'type' => 'Logistics',
+    'image' => './portfolio-mockups/business/binfinit.webp',
+    'web_title' => 'Binfinit',
+    'desc' => 'Binfinit is a modern, high-performance website built with Next.js, Tailwind CSS, TypeScript, and powered by Cloudflare for top-tier speed and security. Designed with scalability and performance in mind, Binfinit delivers a seamless user experience with clean, responsive design and optimized functionality. Leveraging the latest web technologies, it ensures fast loading times, robust architecture, and a future-ready foundation. Whether for business or creative purposes, Binfinit stands out as a sleek, efficient, and professional digital solution.'
+  ),
+  array(
+    'type' => 'Catalogue',
+    'image' => './portfolio-mockups/catalogue/kostevo.webp',
+    'web_title' => 'Kostevo',
+    'desc' => 'Kostevo is a modern, high-performance website built using Next.js, Tailwind CSS, and TypeScript. Designed for speed, scalability, and a seamless user experience, Kostevo offers a clean, responsive interface that looks great on all devices. With a focus on performance and maintainability, the site leverages powerful modern technologies to ensure optimal loading times and smooth navigation. Whether you are browsing on desktop or mobile, Kostevo delivers an intuitive and engaging experience tailored for todays web standards.'
+  ),
+  array(
+    'type' => 'Health Care',
+    'image' => './portfolio-mockups/business/AXXIO.webp',
+    'web_title' => 'Axxio Laboratory',
+    'desc' => 'Axxio Laboratory is a cutting-edge platform developed using Next.js, Tailwind CSS, and JavaScript, ensuring fast, responsive, and modern web experiences. Powered by a WordPress backend and optimized with Cloudflare, the site offers seamless content management, high performance, and top-notch security. Whether you are exploring scientific solutions or lab services, Axxio Laboratory delivers a smooth and professional experience tailored for all users. Designed for scalability and flexibility, it represents the perfect blend of technology and functionality.'
+  ),
+  array(
+    'type' => 'Health Care',
+    'image' => './portfolio-mockups/business/vcare.webp',
+    'web_title' => 'Vcare Diagnostics',
+    'desc' => 'Vcare Diagnostics is a modern healthcare diagnostics website built using TypeScript, Next.js, and Tailwind CSS for a fast, responsive, and seamless user experience. Leveraging Cloudflare for performance and security, and WordPress for dynamic content management, the platform ensures reliability and ease of updates. Vcare Diagnostics provides users with essential medical information, test booking options, and service details in a clean, user-friendly interface, aiming to make diagnostics accessible and efficient for everyone.'
+  ),
+  array(
+    'type' => 'Travel Website',
+    'image' => './image/homepage/classics-v1.webp',
+    'web_title' => 'Go Classic Tours',
+    'desc' => 'Go Classic Tours offers seamless travel experiences with a modern touch. Built using Next.js and TypeScript, the platform ensures speed, reliability, and security, powered by Cloudflare. Styled with Tailwind CSS for a clean and responsive design, it delivers a premium user experience across devices. Our content is efficiently managed through a robust WordPress backend, allowing us to bring you the latest tour updates and offers. Explore, book, and embark on your next journey with Go Classic Tours today!'
+  ),
+  array(
+    'type' => 'Human Resource',
+    'image' => './portfolio-mockups/humanresource/yovant-webite-mockup.webp',
+    'web_title' => 'Yovant Recruitement Services',
+    'desc' => 'Yovant Recruitment Services is a modern, dynamic platform designed to streamline hiring processes and connect top talent with leading companies. Built using Next.js, Tailwind CSS, and GSAP, the site delivers a smooth and engaging user experience. With a secure and scalable backend powered by WordPress and Cloudflare, it ensures fast performance and robust reliability. Leveraging TypeScript for maintainable code, Yovant offers a professional and intuitive interface tailored for today’s recruitment needs.'
+  ),
 );
 ?>
 <style>

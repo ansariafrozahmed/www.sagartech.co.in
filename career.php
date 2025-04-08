@@ -256,7 +256,7 @@ include "include/config.php";
             color: black
         }
 
-        .our-client-main-div h2 {
+        .our-client-main-div h1 {
             font-size: 40px;
             font-weight: 700;
             color: #2b2a2a;
@@ -265,7 +265,7 @@ include "include/config.php";
         }
 
         @media (max-width: 767px) {
-            .our-client-main-div h2 {
+            .our-client-main-div h1 {
                 font-size: 30px !important;
 
             }
@@ -273,7 +273,7 @@ include "include/config.php";
     </style>
     <section class="career-section py-16 px-6 md:px-12 lg:px-24">
         <div class="our-client-main-div pb-6 lg:pb-10">
-            <h2>Current <span style="color: #ff0808">Job Openings</span></h2>
+            <h1>Current <span style="color: #ff0808">Job Openings</span></h1>
         </div>
         <div class="grid gap-5 lg:gap-8 md:grid-cols-2 lg:grid-cols-2">
 
