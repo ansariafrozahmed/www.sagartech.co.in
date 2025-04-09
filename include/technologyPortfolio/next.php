@@ -27,13 +27,13 @@ $slides = array(
   ),
   array(
     'type' => 'Health Care',
-    'image' => './portfolio-mockups/business/AXXIO.webp',
+    'image' => './portfolio-mockups/healthcare/AXXIO.webp',
     'web_title' => 'Axxio Laboratory',
     'desc' => 'Axxio Laboratory is a cutting-edge platform developed using Next.js, Tailwind CSS, and JavaScript, ensuring fast, responsive, and modern web experiences. Powered by a WordPress backend and optimized with Cloudflare, the site offers seamless content management, high performance, and top-notch security. Whether you are exploring scientific solutions or lab services, Axxio Laboratory delivers a smooth and professional experience tailored for all users. Designed for scalability and flexibility, it represents the perfect blend of technology and functionality.'
   ),
   array(
     'type' => 'Health Care',
-    'image' => './portfolio-mockups/business/vcare.webp',
+    'image' => './portfolio-mockups/healthcare/vcare.webp',
     'web_title' => 'Vcare Diagnostics',
     'desc' => 'Vcare Diagnostics is a modern healthcare diagnostics website built using TypeScript, Next.js, and Tailwind CSS for a fast, responsive, and seamless user experience. Leveraging Cloudflare for performance and security, and WordPress for dynamic content management, the platform ensures reliability and ease of updates. Vcare Diagnostics provides users with essential medical information, test booking options, and service details in a clean, user-friendly interface, aiming to make diagnostics accessible and efficient for everyone.'
   ),
