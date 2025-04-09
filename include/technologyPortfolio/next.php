@@ -49,6 +49,30 @@ $slides = array(
     'web_title' => 'Yovant Recruitement Services',
     'desc' => 'Yovant Recruitment Services is a modern, dynamic platform designed to streamline hiring processes and connect top talent with leading companies. Built using Next.js, Tailwind CSS, and GSAP, the site delivers a smooth and engaging user experience. With a secure and scalable backend powered by WordPress and Cloudflare, it ensures fast performance and robust reliability. Leveraging TypeScript for maintainable code, Yovant offers a professional and intuitive interface tailored for today’s recruitment needs.'
   ),
+  array(
+    'type' => 'Business',
+    'image' => './portfolio-mockups/business/verify8.webp',
+    'web_title' => 'Verify8',
+    'desc' => 'Verify8 is a modern web platform built using cutting-edge technologies like TypeScript, Next.js, and Tailwind CSS. Hosted with Cloudflare for top-tier performance and security, it seamlessly integrates WordPress for content management. Verify8 offers a responsive, fast, and user-friendly experience, tailored for both developers and end-users. Whether you are browsing on desktop or mobile, Verify8 ensures reliability, speed, and a clean UI. Its designed to scale with modern web standards and deliver content efficiently.'
+  ),
+  array(
+    'type' => 'Education',
+    'image' => './portfolio-mockups/education/educate.webp',
+    'web_title' => 'Educ4te',
+    'desc' => 'Educ4te is a modern educational platform built to deliver seamless learning experiences. Powered by a robust tech stack including TypeScript, Next.js, and Tailwind CSS, it ensures fast performance and responsive design. With Cloudflare enhancing security and speed, and WordPress managing dynamic content, Educ4te combines innovation with simplicity. Whether you are a student or educator, Educ4te offers a reliable and user-friendly environment to explore and grow knowledge. Learn smarter, faster, and better—with Educ4te.'
+  ),
+  array(
+    'type' => 'Business',
+    'image' => './portfolio-mockups/business/dontquit.webp',
+    'web_title' => 'Dont Quit Ventures',
+    'desc' => 'Dont Quit Ventures is a modern, performance-focused website built using TypeScript, Next.js, and Tailwind CSS, ensuring a seamless user experience with fast load times and responsive design. Hosted on Cloudflare for enhanced speed and security, the site reflects our commitment to innovation, resilience, and user-centric development. At Dont Quit Ventures, we believe in pushing boundaries and building solutions that inspire persistence and growth. Our tech stack empowers us to deliver scalable, reliable, and future-ready digital experiences.'
+  ),
+  array(
+    'type' => 'Logistics',
+    'image' => './portfolio-mockups/logistics/bml.webp',
+    'web_title' => 'Book my logistics',
+    'desc' => 'Book My Logistics is a modern logistics booking platform built with TypeScript, Next.js, and Tailwind CSS, ensuring fast performance and a sleek, responsive design. Hosted on Cloudflare for enhanced speed and security, the website offers a seamless user experience for managing logistics efficiently. Whether you are booking transport or tracking shipments, Book My Logistics simplifies the process with intuitive features and real-time updates. Designed for scalability and performance, it’s your smart solution for hassle-free logistics management.'
+  ),
 );
 ?>
 <style>
@@ -118,6 +142,7 @@ $slides = array(
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
+    text-align: left;
   }
 
   .inner-right .desc {

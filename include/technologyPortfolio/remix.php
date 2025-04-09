@@ -163,6 +163,7 @@ $slides = array(
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
+    text-align: left;
   }
 
   .inner-right .desc {

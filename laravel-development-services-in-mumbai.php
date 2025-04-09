@@ -1126,7 +1126,7 @@
 
 
     <?php
-    include './include/technologyPortfolio/laravel.php'
+   // include './include/technologyPortfolio/laravel.php'
     ?>
 
 

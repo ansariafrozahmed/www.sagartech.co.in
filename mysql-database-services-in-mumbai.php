@@ -1122,7 +1122,7 @@
 
 
     <?php
-    include './include/technologyPortfolio/mysql.php'
+   // include './include/technologyPortfolio/mysql.php'
     ?>
 
 

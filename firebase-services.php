@@ -1129,7 +1129,7 @@
 
 
     <?php
-    include './include/technologyPortfolio/firebase.php'
+   // include './include/technologyPortfolio/firebase.php'
     ?>
 
 

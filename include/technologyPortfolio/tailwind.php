@@ -1,98 +1,77 @@
 <?php
-// $slides = array(
-//   array(
-//     'type' => 'Ecommerce Website',
-//     'image' => './image/homepage/BSAuto.webp',
-//     'web_title' => 'BS Auto Accessories',
-//     'desc' => "When it comes to e-commerce website its user interface is a big challenge we have some best Wordpress Developers who can make your websites user friendly, easy to navigate product for customers with the help of latest technology no matter how many products are listed on your website it won't create a bad user experience."
-// ),
-//     array(
-//         'type' => 'Business Website',
-//         'image' => './image/homepage/MithiyajMockup.webp',
-//         'web_title' => 'Mithiyaj',
-//         'desc' => 'At Mithiyaj, we understand the universal craving for the finer things in life. With an unwavering commitment to quality, creativity, and affordability, we have curated a menu that spans a spectrum of delectable treats. From sumptuous cakes and pastries to timeless Indian sweets, delicate Baklavas, and luxurious gift hampers, we are here to transform your moments of indulgence into everlasting memories.'
-//     ),
-//     array(
-//         'type' => 'Catalogue Website',
-//         'image' => './image/homepage/ASAudio.webp',
-//         'web_title' => 'AS Audio',
-//         'desc' => 'Amaze Sound Audio Private Limited is a professional large-scale importer/manufacturer of Power Amplifiers, Professional Speakers, HF, Live Mixers, DJ Mixers, Microphones, Digital Processors, Manual Processors and Speaker Cabinets. AS Audio is driven by our Dedication to quality and most important Reliability.'
-//     ),
-//     array(
-//         'type' => 'Builders Website',
-//         'image' => './image/homepage/folksco.webp',
-//         'web_title' => 'Folksco',
-//         'desc' => 'At Folksco, our team works with you to create spaces for Best Interior Designer in Mumbai that are truly special. Our team is the pillars of our projects; they run our studio with passion, vision, and energy. As a team, we have made Eye for Detail, Value Engineering,'
-//     ),
 
-//     array(
-//         'type' => 'Logistics Website',
-//         'image' => './image/homepage/amarClearing.webp',
-//         'web_title' => 'Amar Clearing',
-//         'desc' => 'We are a Servicing Enterprise that handles varied activities in the sphere of Imports and Exports. Currently we are one of the leading Customs House Agents and Freight Forwarding Companies, rapidly moving towards the goal of emerging as one of the largest company dealing with Custom clearance, freight forwarding and logistics management.'
-//     ),
-//     array(
-//         'type' => 'Restaurant Website',
-//         'image' => './image/homepage/alnizami.webp',
-//         'web_title' => 'Al Nizami Darbar',
-//         'desc' => 'NIZAM, which in Arabic means an order or arrangement, was the title bestowed upon the ruler of Hyderabad. The NIZAMS of Hyderabad were of Turkish and Hadrahmi Arab descent. DARBAR, an audience hall, was the majestic court of a native prince that originated in Persia.'
-//     ),
-// );
 $slides = array(
-  array(
-    'type' => 'Human Resource Website',
-    'image' => './image/homepage/yovant-homepage.webp',
-    'web_title' => 'Yovant Recruitment',
-    'desc' => "Yovant Recruitment is a premier manpower and overseas recruitment agency specializing in sourcing skilled and unskilled workers for various industries across the Middle East. They have their own recruitment agencies in India, Nepal, Bangladesh, Pakistan, and Africa, ensuring a seamless hiring process. With a strong network and expertise, they cater to the staffing needs of construction, hospitality, healthcare, and other sectors. Their end-to-end recruitment solutions include screening, documentation, and deployment of workers. Yovant Recruitment is committed to providing reliable, efficient, and cost-effective hiring services for businesses worldwide."
-  ),
   array(
     'type' => 'Catalogue Website',
     'image' => './image/homepage/thaiger-v1.webp',
     'web_title' => 'Thaiger Nutraceuticals',
-    'desc' => "At Thaiger Nutraceuticals, we specialize in crafting premium health and wellness solutions tailored to support your lifestyle. Our website showcases a wide range of high-quality nutraceutical products designed with precision and care. Built with cutting-edge e-commerce technology, it ensures a seamless shopping experience, easy navigation, and secure transactions. Whether you're exploring our catalog or seeking personalized wellness support, we strive to provide an unparalleled user experience that reflects our commitment to quality and innovation."
+    'desc' => "Thaiger Nutraceuticals is a modern, performance-driven platform built to showcase high-quality nutraceutical products. Developed using Next.js, TypeScript, and Node.js, it ensures a fast, secure, and seamless user experience. With Express.js powering the backend and PostgreSQL managing structured data, the site is both scalable and reliable. Styled with Tailwind CSS for a clean, responsive UI and secured by Cloudflare, Thaiger Nutraceuticals combines innovation and health through cutting-edge web technology."
   ),
   array(
-    'type' => 'Education Website',
-    'image' => './image/homepage/educ4te-v2.webp',
-    'web_title' => 'Educ4te',
-    'desc' => 'At Educ4te, we are dedicated to revolutionizing online learning by providing comprehensive, engaging, and interactive courses across a wide range of subjects. Our platform is designed to make education accessible and enjoyable for learners of all ages. With user-friendly navigation, cutting-edge technology, and a vast array of expertly crafted content, we empower individuals to achieve their educational goals and unlock their true potential. Join Educ4te and embark on a transformative learning journey tailored just for you!'
+    'type' => 'Health Care',
+    'image' => './portfolio-mockups/healthcare/syrocs.webp',
+    'web_title' => 'Syrocs',
+    'desc' => 'Syrocs is a modern, responsive web platform built using the latest technologies including React.js, Tailwind CSS, JavaScript, and Node.js. Designed for speed and scalability, Syrocs offers a seamless user experience with clean design and efficient performance. Whether you are browsing on desktop or mobile, the interface remains intuitive and lightning-fast. Powered by a robust backend and dynamic frontend, Syrocs stands as a showcase of cutting-edge web development, merging aesthetics with functionality for optimal engagement.'
   ),
   array(
-    'type' => 'Business Website',
-    'image' => './image/homepage/verify8-v1.webp',
-    'web_title' => 'Verify8',
-    'desc' => 'Verify8 is your trusted partner in ensuring accuracy, security, and compliance through cutting-edge verification solutions. Our platform is designed to simplify and streamline verification processes across industries, offering fast, reliable, and efficient services tailored to your needs. With advanced technology and a user-focused interface, Verify8 empowers businesses and individuals to verify identities, documents, and data with confidence. Choose Verify8 for seamless verification that drives trust and success.'
+    'type' => 'Logistics',
+    'image' => './portfolio-mockups/business/binfinit.webp',
+    'web_title' => 'Binfinit',
+    'desc' => 'Binfinit is a modern, high-performance website built with Next.js, Tailwind CSS, TypeScript, and powered by Cloudflare for top-tier speed and security. Designed with scalability and performance in mind, Binfinit delivers a seamless user experience with clean, responsive design and optimized functionality. Leveraging the latest web technologies, it ensures fast loading times, robust architecture, and a future-ready foundation. Whether for business or creative purposes, Binfinit stands out as a sleek, efficient, and professional digital solution.'
   ),
   array(
-    'type' => 'Business Website',
-    'image' => './image/homepage/dontquit-v2.webp',
-    'web_title' => "Don't Quit Ventures",
-    'desc' => "Don't Quit Ventures is more than just a brand; it's a movement dedicated to fueling perseverance, passion, and progress. Our platform is designed to inspire and empower entrepreneurs, creators, and dreamers to push boundaries and achieve their goals. Through innovative solutions, expert guidance, and a vibrant community, we help you navigate challenges and turn ambitions into reality. At Don't Quit Ventures, we believe success starts with resilience—because quitting is never an option."
+    'type' => 'Catalogue',
+    'image' => './portfolio-mockups/catalogue/kostevo.webp',
+    'web_title' => 'Kostevo',
+    'desc' => 'Kostevo is a modern, high-performance website built using Next.js, Tailwind CSS, and TypeScript. Designed for speed, scalability, and a seamless user experience, Kostevo offers a clean, responsive interface that looks great on all devices. With a focus on performance and maintainability, the site leverages powerful modern technologies to ensure optimal loading times and smooth navigation. Whether you are browsing on desktop or mobile, Kostevo delivers an intuitive and engaging experience tailored for todays web standards.'
   ),
-
+  array(
+    'type' => 'Health Care',
+    'image' => './portfolio-mockups/healthcare/AXXIO.webp',
+    'web_title' => 'Axxio Laboratory',
+    'desc' => 'Axxio Laboratory is a cutting-edge platform developed using Next.js, Tailwind CSS, and JavaScript, ensuring fast, responsive, and modern web experiences. Powered by a WordPress backend and optimized with Cloudflare, the site offers seamless content management, high performance, and top-notch security. Whether you are exploring scientific solutions or lab services, Axxio Laboratory delivers a smooth and professional experience tailored for all users. Designed for scalability and flexibility, it represents the perfect blend of technology and functionality.'
+  ),
+  array(
+    'type' => 'Health Care',
+    'image' => './portfolio-mockups/healthcare/vcare.webp',
+    'web_title' => 'Vcare Diagnostics',
+    'desc' => 'Vcare Diagnostics is a modern healthcare diagnostics website built using TypeScript, Next.js, and Tailwind CSS for a fast, responsive, and seamless user experience. Leveraging Cloudflare for performance and security, and WordPress for dynamic content management, the platform ensures reliability and ease of updates. Vcare Diagnostics provides users with essential medical information, test booking options, and service details in a clean, user-friendly interface, aiming to make diagnostics accessible and efficient for everyone.'
+  ),
   array(
     'type' => 'Travel Website',
-    'image' => './image/homepage/classic-v1.webp',
-    'web_title' => 'Go Classic Tour',
-    'desc' => "Go Classic Tour is your gateway to unforgettable travel experiences, offering expertly curated tours that combine luxury, adventure, and cultural immersion. Our user-friendly platform allows you to explore a wide range of destinations and customizable packages tailored to your preferences. Whether you're seeking a serene escape or an exhilarating journey, Go Classic Tour ensures every moment of your trip is seamless and memorable. Discover the world with us and create stories that last a lifetime!"
+    'image' => './image/homepage/classics-v1.webp',
+    'web_title' => 'Go Classic Tours',
+    'desc' => 'Go Classic Tours offers seamless travel experiences with a modern touch. Built using Next.js and TypeScript, the platform ensures speed, reliability, and security, powered by Cloudflare. Styled with Tailwind CSS for a clean and responsive design, it delivers a premium user experience across devices. Our content is efficiently managed through a robust WordPress backend, allowing us to bring you the latest tour updates and offers. Explore, book, and embark on your next journey with Go Classic Tours today!'
   ),
   array(
-    'type' => 'Business Website',
-    'image' => './image/homepage/alsalama-v2.webp',
-    'web_title' => 'Noor Al Salama',
-    'desc' => 'Al Salama Accident Repair Center is your trusted partner in restoring vehicles to their pristine condition. With state-of-the-art facilities and a team of highly skilled professionals, we specialize in providing top-quality accident repair services that prioritize safety and excellence. From minor scratches to major repairs, our commitment to precision, efficiency, and customer satisfaction ensures your vehicle gets the care it deserves. Trust Al Salama to get you back on the road with confidence.'
+    'type' => 'Human Resource',
+    'image' => './portfolio-mockups/humanresource/yovant-webite-mockup.webp',
+    'web_title' => 'Yovant Recruitement Services',
+    'desc' => 'Yovant Recruitment Services is a modern, dynamic platform designed to streamline hiring processes and connect top talent with leading companies. Built using Next.js, Tailwind CSS, and GSAP, the site delivers a smooth and engaging user experience. With a secure and scalable backend powered by WordPress and Cloudflare, it ensures fast performance and robust reliability. Leveraging TypeScript for maintainable code, Yovant offers a professional and intuitive interface tailored for today’s recruitment needs.'
   ),
-  // array(
-  //   'type' => 'Ecommerce Website',
-  //   'image' => './image/homepage/newqualityware-v1.webp',
-  //   'web_title' => 'New Quality Ware',
-  //   'desc' => "New Quality Ware is dedicated to delivering premium-quality kitchenware and home essentials designed to elevate your lifestyle. Our products combine innovation, durability, and style to meet the needs of modern living. Whether you're upgrading your kitchen tools or enhancing your home spaces, our thoughtfully curated collection ensures functionality and elegance in every detail. Explore New Quality Ware and discover the perfect balance of quality and practicality for your home."
-  // ),
   array(
-    'type' => 'Ecommerce Website',
-    'image' => './image/homepage/trillionair-mockup.webp',
-    'web_title' => 'Trillionaire',
-    'desc' => "Trillionaire Auto Parts is committed to providing premium-quality automotive parts and accessories designed to enhance your vehicle’s performance and style. Our products blend innovation, durability, and precision to meet the demands of modern vehicles. Whether you're upgrading your car’s functionality or enhancing its aesthetics, our carefully curated selection ensures top-tier quality and reliability in every detail. Explore Trillionaire Auto Parts and experience the perfect combination of performance and excellence for your vehicle."
+    'type' => 'Business',
+    'image' => './portfolio-mockups/business/verify8.webp',
+    'web_title' => 'Verify8',
+    'desc' => 'Verify8 is a modern web platform built using cutting-edge technologies like TypeScript, Next.js, and Tailwind CSS. Hosted with Cloudflare for top-tier performance and security, it seamlessly integrates WordPress for content management. Verify8 offers a responsive, fast, and user-friendly experience, tailored for both developers and end-users. Whether you are browsing on desktop or mobile, Verify8 ensures reliability, speed, and a clean UI. Its designed to scale with modern web standards and deliver content efficiently.'
+  ),
+  array(
+    'type' => 'Education',
+    'image' => './portfolio-mockups/education/educate.webp',
+    'web_title' => 'Educ4te',
+    'desc' => 'Educ4te is a modern educational platform built to deliver seamless learning experiences. Powered by a robust tech stack including TypeScript, Next.js, and Tailwind CSS, it ensures fast performance and responsive design. With Cloudflare enhancing security and speed, and WordPress managing dynamic content, Educ4te combines innovation with simplicity. Whether you are a student or educator, Educ4te offers a reliable and user-friendly environment to explore and grow knowledge. Learn smarter, faster, and better—with Educ4te.'
+  ),
+  array(
+    'type' => 'Business',
+    'image' => './portfolio-mockups/business/dontquit.webp',
+    'web_title' => 'Dont Quit Ventures',
+    'desc' => 'Dont Quit Ventures is a modern, performance-focused website built using TypeScript, Next.js, and Tailwind CSS, ensuring a seamless user experience with fast load times and responsive design. Hosted on Cloudflare for enhanced speed and security, the site reflects our commitment to innovation, resilience, and user-centric development. At Dont Quit Ventures, we believe in pushing boundaries and building solutions that inspire persistence and growth. Our tech stack empowers us to deliver scalable, reliable, and future-ready digital experiences.'
+  ),
+  array(
+    'type' => 'Logistics',
+    'image' => './portfolio-mockups/logistics/bml.webp',
+    'web_title' => 'Book my logistics',
+    'desc' => 'Book My Logistics is a modern logistics booking platform built with TypeScript, Next.js, and Tailwind CSS, ensuring fast performance and a sleek, responsive design. Hosted on Cloudflare for enhanced speed and security, the website offers a seamless user experience for managing logistics efficiently. Whether you are booking transport or tracking shipments, Book My Logistics simplifies the process with intuitive features and real-time updates. Designed for scalability and performance, it’s your smart solution for hassle-free logistics management.'
   ),
 );
 ?>
@@ -163,6 +142,7 @@ $slides = array(
     font-size: 40px;
     text-transform: uppercase;
     font-weight: 600;
+    text-align: left;
   }
 
   .inner-right .desc {
