@@ -5,7 +5,7 @@ $slides = array(
     'type' => 'Catalogue Website',
     'image' => './image/homepage/thaiger-v1.webp',
     'web_title' => 'Thaiger Nutraceuticals',
-    'desc' => "Thaiger Nutraceuticals is a modern, performance-driven platform built to showcase high-quality nutraceutical products. Developed using Next.js, TypeScript, and Node.js, it ensures a fast, secure, and seamless user experience. With Express.js powering the backend and PostgreSQL managing structured data, the site is both scalable and reliable. Styled with Tailwind CSS for a clean, responsive UI and secured by Cloudflare, Thaiger Nutraceuticals combines innovation and health through cutting-edge web technology.    "
+    'desc' => "Thaiger Nutraceuticals is a modern, performance-driven platform built to showcase high-quality nutraceutical products. Developed using Next.js, TypeScript, and Node.js, it ensures a fast, secure, and seamless user experience. With Express.js powering the backend and PostgreSQL managing structured data, the site is both scalable and reliable. Styled with Tailwind CSS for a clean, responsive UI and secured by Cloudflare, Thaiger Nutraceuticals combines innovation and health through cutting-edge web technology."
   ),
   array(
     'type' => 'Health Care',

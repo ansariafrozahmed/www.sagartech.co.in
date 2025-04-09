@@ -240,60 +240,60 @@ include("../include/config.php");
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://www.yogueshprashna.com/"
                 ),
-                array(
-                    "name" => "Abyaz",
-                    "imgSrc" => "../portfolio-mockups/business/abyaz.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://abyaztextiles.com/"
-                ),
-                array(
-                    "name" => "Ahad Marine",
-                    "imgSrc" => "../portfolio-mockups/business/ahadmarine.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://ahadmarine.com/"
-                ),
-                array(
-                    "name" => "Al Husaini",
-                    "imgSrc" => "../portfolio-mockups/business/alhusaini.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://alhusainitravels.com/"
-                ),
-                array(
-                    "name" => "Annex",
-                    "imgSrc" => "../portfolio-mockups/business/annex.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://annexoverseas.com/"
-                ),
+                // array(
+                //     "name" => "Abyaz",
+                //     "imgSrc" => "../portfolio-mockups/business/abyaz.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://abyaztextiles.com/"
+                // ),
+                // array(
+                //     "name" => "Ahad Marine",
+                //     "imgSrc" => "../portfolio-mockups/business/ahadmarine.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://ahadmarine.com/"
+                // ),
+                // array(
+                //     "name" => "Al Husaini",
+                //     "imgSrc" => "../portfolio-mockups/business/alhusaini.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://alhusainitravels.com/"
+                // ),
+                // array(
+                //     "name" => "Annex",
+                //     "imgSrc" => "../portfolio-mockups/business/annex.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://annexoverseas.com/"
+                // ),
                 array(
                     "name" => "DPC Saudi",
                     "imgSrc" => "../portfolio-mockups/business/dpcsaudi.webp",
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://dpcsaudi.com/"
                 ),
-                array(
-                    "name" => "Golden Diamond",
-                    "imgSrc" => "../portfolio-mockups/business/goldendiamond.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://goldendiamondei.ae/"
-                ),
-                array(
-                    "name" => "Metal Tech Port",
-                    "imgSrc" => "../portfolio-mockups/business/metaltechport.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://metaltechportablecabin.com/"
-                ),
-                array(
-                    "name" => "Mithiyaj",
-                    "imgSrc" => "../portfolio-mockups/business/mithiyaj.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://mithiyaj.com/"
-                ),
-                array(
-                    "name" => "Oasis Consulting",
-                    "imgSrc" => "../portfolio-mockups/business/oasisconsulting.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://oasisconsultinguae.in/"
-                ),
+                // array(
+                //     "name" => "Golden Diamond",
+                //     "imgSrc" => "../portfolio-mockups/business/goldendiamond.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://goldendiamondei.ae/"
+                // ),
+                // array(
+                //     "name" => "Metal Tech Port",
+                //     "imgSrc" => "../portfolio-mockups/business/metaltechport.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://metaltechportablecabin.com/"
+                // ),
+                // array(
+                //     "name" => "Mithiyaj",
+                //     "imgSrc" => "../portfolio-mockups/business/mithiyaj.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://mithiyaj.com/"
+                // ),
+                // array(
+                //     "name" => "Oasis Consulting",
+                //     "imgSrc" => "../portfolio-mockups/business/oasisconsulting.webp",
+                //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+                //     "link" => "https://oasisconsultinguae.in/"
+                // ),
                 // array(
                 //     "name" => "Pure Saff",
                 //     "imgSrc" => "../portfolio-mockups/business/puresaff.webp",
@@ -306,12 +306,7 @@ include("../include/config.php");
                     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
                     "link" => "https://saudiwells.com/"
                 ),
-                array(
-                    "name" => "SK Cool World",
-                    "imgSrc" => "../portfolio-mockups/business/skcoolworld.webp",
-                    "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-                    "link" => "https://skcoolworld.com/"
-                )
+               
                 // array(
                 //     "name" => "Ayesha Makeup Academy",
                 //     "imgSrc" => "../portfolio-mockups/business/ayesha.webp",

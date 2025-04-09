@@ -213,18 +213,18 @@ include("../include/config.php");
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://powerplay.ae/"
         ),
-        array(
-            "name" => "Alnoor Minar",
-            "imgSrc" => "../portfolio-mockups/catalogue/alnoorminar.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://alnoorminar.com/"
-        ),
-        array(
-            "name" => "AS Audio",
-            "imgSrc" => "../portfolio-mockups/catalogue/asaudio.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://asaudio.in/"
-        ),
+        // array(
+        //     "name" => "Alnoor Minar",
+        //     "imgSrc" => "../portfolio-mockups/catalogue/alnoorminar.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://alnoorminar.com/"
+        // ),
+        // array(
+        //     "name" => "AS Audio",
+        //     "imgSrc" => "../portfolio-mockups/catalogue/asaudio.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://asaudio.in/"
+        // ),
         array(
             "name" => "Asreh Exports",
             "imgSrc" => "../portfolio-mockups/catalogue/asrehexports.webp",
@@ -249,12 +249,12 @@ include("../include/config.php");
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
             "link" => "https://redsailexports.com/"
         ),
-        array(
-            "name" => "Trigger Exim",
-            "imgSrc" => "../portfolio-mockups/catalogue/trigger exam_barber.webp",
-            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
-            "link" => "https://triggerexim.com/"
-        )
+        // array(
+        //     "name" => "Trigger Exim",
+        //     "imgSrc" => "../portfolio-mockups/catalogue/trigger exam_barber.webp",
+        //     "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+        //     "link" => "https://triggerexim.com/"
+        // )
         // array(
         //     "name" => "Padmavati Chains",
         //     "imgSrc" => "../portfolio-mockups/catalogue/padmavatichains.webp",
