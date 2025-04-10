@@ -2,6 +2,18 @@
 
 $slides = array(
   array(
+    'type' => 'Makeup Artist',
+    'image' => './portfolio-mockups/business/yogeshprashna.webp',
+    'web_title' => 'Prashna',
+    'desc' => "Prashna is a beautifully crafted website for professional makeup services, designed using HTML, CSS, JavaScript, Bootstrap, and PHP. Whether you're preparing for a wedding, party, or special event, Prashna offers flawless beauty transformations to suit every occasion. Explore our services, portfolio, and easy booking system, all in one place. With a user-friendly interface and elegant design, Prashna brings your beauty goals to life with just a few clicks. Enhance your look with Prashna today!"
+  ),
+  array(
+    'type' => 'Business',
+    'image' => './portfolio-mockups/telegrowthbpo-min.webp',
+    'web_title' => 'TelegrowthBPO',
+    'desc' => 'TelegrowthBPO is a professional call center service provider, dedicated to delivering seamless customer support solutions. Built using HTML, CSS, JavaScript, Bootstrap, and PHP, the website offers a clean, responsive interface that showcases our services, expertise, and commitment to client satisfaction. Whether its inbound, outbound, or back-office support, TelegrowthBPO empowers businesses to scale communication effortlessly. Explore our platform to discover how we optimize customer interactions and drive growth through reliable and efficient BPO solutions.'
+  ),
+  array(
     'type' => 'Travel',
     'image' => './portfolio-mockups/travel/riyazint.webp',
     'web_title' => 'Riyaz International',
