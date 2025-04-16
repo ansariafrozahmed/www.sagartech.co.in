@@ -171,7 +171,7 @@ include('include/config.php');
         }
 
         .accordion-item {
-            border-top: 1px solid #c5c5c5;
+            border-bottom: 1px solid #c5c5c5;
             color: #333;
         }
 
@@ -202,10 +202,10 @@ include('include/config.php');
         }
 
         /* Add this class to .accordion-content when the accordion item is active/open */
-        .accordion-content.active {
+        /* .accordion-content.active {
             max-height: auto;
-            /* Adjust as needed */
-        }
+            Adjust as needed
+        } */
 
         /*adding the + and - signs*/
         .accordion-item h2 {
@@ -1276,102 +1276,90 @@ BS AUTO ACCESSORIES" srcset="">
         <h3 class="faqs-heading">FAQs</h3>
         <div class="accordion">
             <div class="accordion-item">
-                <h2>What services does Sagar Tech Technical Solution offer?</h2>
+                <h2>How fast can you build my website?</h2>
                 <div class="accordion-content">
                     <p>
-                        Sagar Tech Technical Solution is an award-winning company that provides a comprehensive range of
-                        services, including:
-                        <br><br>
-                        <b>Web Development:</b> We specialise in web development, software development, and customised
-                        solutions that meet your specific requirements.
-                        <br>
-                        <b>Digital Marketing:</b> Our team offers strategic digital marketing services such as Google
-                        Ads, SEO, social media marketing, and email marketing to help you increase your online presence
-                        and achieve results.
-                        <br>
-                        <b>App Development:</b> We create innovative and user-friendly mobile applications for the iOS
-                        and Android platforms to assist businesses in effectively engaging their target audiences.
-                        <br>
-                        <b>Graphic Design:</b> Our skilled designers create visually appealing graphics, logos, branding
-                        materials, and user interfaces to enhance your brand's identity and communication.
+                    We deliver fully custom websites in just 7 days from the time we receive your content and branding details.
                     </p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>How can I request a quote for services?</h2>
+                <h2>Is this really a custom website or just a template?</h2>
                 <div class="accordion-content">
-                    <p>To request a quote, simply visit our website and fill out the contact form with details about
-                        your project requirements. Our team will get back to you promptly with a customised quote
-                        tailored to your needs.</p>
+                    <p>Every Weblix site is 100% custom-designed to match your brand, goals, and audience—no templates, ever.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>What industries does Sagar Tech Technical Solution work with?</h2>
+                <h2>Do I need to provide content and images?</h2>
                 <div class="accordion-content">
-                    <p>We have worked with clients in a variety of industries, including e-commerce, healthcare,
-                        education, finance, Real Estate, Interior Design, Perfume Industry . Our adaptable approach
-                        allows us to meet the unique needs of each business.</p>
+                    <p>You can provide your own, or we can help source professional images and write high-converting content for you.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>Is Sagar Tech Technical Solution capable of handling large-scale projects?</h2>
+                <h2>Will my website be mobile-friendly?</h2>
                 <div class="accordion-content">
-                    <p>Absolutely yes! We have a proven track record of successfully delivering large-scale projects for
-                        enterprise clients.Our team has the expertise and resources to handle projects of any size and
-                        complexity.</p>
+                    <p>Absolutely! Your website will be fully responsive, optimized for mobile, tablet, and desktop devices.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>How long does it typically take to complete a project?</h2>
+                <h2>Do you offer SEO services?</h2>
                 <div class="accordion-content">
-                    <p>The timeline for each project varies according to its scope, complexity, and specific
-                        requirements. We work together closely with our clients to establish realistic timelines and
-                        achievements, ensuring timely delivery without affecting quality.</p>
+                    <p>Yes! Basic on-page SEO optimization is included in every package to help you rank and attract traffic.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>What digital marketing services does Sagar Tech Technical Solution offer?</h2>
+                <h2>Can I update the website myself later?</h2>
                 <div class="accordion-content">
-                    <p>Sagar Tech Technical Solution offers a variety of digital marketing services to help businesses
-                        improve their online presence and meet marketing objectives. Our services include Google Ads,,
-                        SEO, SEM, SMM, email marketing, content marketing, and others.</p>
+                    <p>Yes, your site will be built on a user-friendly platform so you can easily make changes anytime.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <h2>How can digital marketing services benefit my business?</h2>
+                <h2>What if I need changes after launch?</h2>
                 <div class="accordion-content">
-                    <p>Digital marketing services are critical for businesses seeking to increase visibility, attract
-                        targeted traffic, generate leads, and increase conversions. Businesses can reach their target
-                        audience more effectively by leveraging various digital channels and strategies, engaging with
-                        them on relevant platforms, and driving meaningful interactions that lead to business growth and
-                        success.</p>
+                    <p>We include 30 days of free post-launch support, and offer affordable maintenance plans if you need ongoing help.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2>Is there any hidden cost?</h2>
+                <div class="accordion-content">
+                    <p>Nope! We believe in transparent, flat-rate pricing—you’ll know exactly what you’re paying for before we begin.</p>
                 </div>
             </div>
 
         </div>
         <script>
-            document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
-                accordionToggle.addEventListener('click', () => {
-                    const accordionItem = accordionToggle.parentNode;
-                    const accordionContent = accordionToggle.nextElementSibling;
+    document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
+        accordionToggle.addEventListener('click', () => {
+            const currentItem = accordionToggle.parentNode;
+            const currentContent = accordionToggle.nextElementSibling;
 
-                    // If this accordion item is already open, close it.
-                    if (accordionContent.style.maxHeight) {
-                        accordionContent.style.maxHeight = null;
-                        accordionItem.classList.remove('active');
-                    } else {
-                        accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-                        accordionItem.classList.add('active');
-                    }
-                });
+            // Close all other accordion items
+            document.querySelectorAll('.accordion-item').forEach((item) => {
+                const content = item.querySelector('.accordion-content');
+                if (item !== currentItem) {
+                    content.style.maxHeight = null;
+                    item.classList.remove('active');
+                }
             });
-        </script>
+
+            // Toggle the current item
+            if (currentContent.style.maxHeight) {
+                currentContent.style.maxHeight = null;
+                currentItem.classList.remove('active');
+            } else {
+                currentContent.style.maxHeight = currentContent.scrollHeight + 'px';
+                currentItem.classList.add('active');
+            }
+        });
+    });
+</script>
+
 
     </div>
     <?php
