@@ -508,8 +508,8 @@
     <hr>
 
 
-    <div class="my-12 flex justify-between">
-      <div class="w-1/2 bg-[#f2f2f2] flex justify-center items-center">
+    <div class="my-12 max-sm:flex-col max-sm:item-center flex justify-between">
+      <div class="w-1/2 bg-[#f2f2f2] max-sm:px-5 flex justify-center items-center">
 
       <div class="">
 
