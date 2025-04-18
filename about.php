@@ -8,8 +8,10 @@
   <title>About - Sagar Tech Technical Solutions</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Sagar Tech Technical Solutions is a trusted provider of mobile app development services, specializing in delivering high-quality, user-centric solutions for iOS and Android platforms to enhance business performance and digital engagement.">
+  <script src="https://cdn.tailwindcss.com"></script>
   <meta name="keywords" content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/logoonly.jpg" />
@@ -460,11 +462,11 @@
 
 <body>
   <!-- loading -->
-  <div id="loading">
+  <!-- <div id="loading">
     <div id="loading-center">
       <img src="images/logoonly.jpg" alt="loder">
     </div>
-  </div>
+  </div> -->
 
   <?php
   $page = 'about';
@@ -506,6 +508,51 @@
     <hr>
 
 
+    <div class="my-12 flex justify-between">
+      <div class="w-1/2 bg-[#f2f2f2] flex justify-center items-center">
+
+      <div class="">
+
+        <h2 class="text-5xl font-semibold text-center mb-2">From the CEO’s Desk</h2>
+        <h3 class="text-center text-2xl  font-medium mb-3 text-red-500 ">Ubaid Saudagar - <span class="text-gray-500 text-xs">CEO, Sagar Tech</span></h3>
+      </div>
+    </div>
+        <div class="p-12 w-1/2">
+
+        <p class="mb-3">
+          Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, social media optimization, seo, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
+        </p>
+        <p class="mb-3">
+          We hold regular meetings of our team and make them understand that if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.
+        </p>
+      <p class="mb-3">
+      When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
+
+    </p>
+    <p class="mb-3">
+      In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a class="text-red-500" href="https://sagartech.co.in/web-development-company-in-mumbai" >website development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards Bootstrap, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, Next JS, Node JS, JWT for security, and many more.
+      
+    </p>
+    <p class="mb-3">
+      So it is the clear and clean intentions with which we are working. Keeping in mind our mission, which is to create maximum employment across the globe.
+      
+    </p>
+    <div class="">
+      <p class="mb-1">
+        Written by,
+      </p>
+      <p class="text-[red]">
+      Ubaid Saudagar - <span class="text-gray-400"> CEO, Sagar Tech</span>
+
+        </p>
+  
+
+
+      </div>
+  </div>
+  
+
+    </div>
     <div class="our-workspace-about">
       <h2>Our <span style="color:#ff0808;">Workspace</span></h2>
       <p>In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.</p>
