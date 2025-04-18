@@ -509,7 +509,7 @@
 
 
     <div class="my-12 max-sm:flex-col max-sm:item-center flex justify-between">
-      <div class="w-1/2 bg-[#f2f2f2] max-sm:px-5 flex justify-center items-center">
+      <div class="md:w-1/2 w-full bg-[#f2f2f2] max-sm:px-5 flex justify-center items-center">
 
       <div class="">
 
@@ -517,7 +517,7 @@
         <h3 class="text-center text-2xl  font-medium mb-3 text-red-500 ">Ubaid Saudagar - <span class="text-gray-500 text-xs">CEO, Sagar Tech</span></h3>
       </div>
     </div>
-        <div class="p-12 w-1/2">
+        <div class="md:p-12 p-5 md:w-1/2 w-full">
 
         <p class="mb-3">
           Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, social media optimization, seo, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
