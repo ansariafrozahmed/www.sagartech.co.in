@@ -510,7 +510,7 @@
 
     <div class="my-12 max-sm:flex-col max-sm:item-center flex justify-between">
       <div class="relative md:w-1/2 w-full bg-[#f2f2f2] max-sm:px-5 max-sm:py-12 flex justify-center items-center  "  >
-      <div class="absolute inset-0 bg-[url('./images/CEO-desk.webp')] bg-cover bg-center">
+      <div class="absolute inset-0 bg-[url('./images/CEO-desk2.webp')] bg-cover bg-center">
   <div class="absolute inset-0 bg-black opacity-50"></div>
 </div>
 
@@ -553,11 +553,11 @@
   <!-- Author Info -->
   <div class="mt-6">
     <div class="flex items-center space-x-3">
-      <img src="./images/CEO.webp" alt="" class="w-12 h-12 rounded-full bg-gray-200" />
+      <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
       <div>
         <p class="mb-1">Written by,</p>
         <p class="text-red-500 flex gap-1 items-center">
-          Ubaid Saudagar - <span class="text-gray-400">CEO, Sagar Tech</span>
+          Ubaid Saudagar - <span class="text-gray-500">CEO, Sagar Tech</span>
         </p>
       </div>
     </div>
