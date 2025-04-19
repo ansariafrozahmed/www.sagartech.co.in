@@ -926,11 +926,11 @@
 </style>
 
 <body>
-  <!-- <div id="loading">
+  <div id="loading">
     <div id="loading-center">
       <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo">
     </div>
-  </div> -->
+  </div>
   <?php
   $page = 'services';
   // include("include/trialh.php");
