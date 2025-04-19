@@ -509,46 +509,63 @@
 
 
     <div class="my-12 max-sm:flex-col max-sm:item-center flex justify-between">
-      <div class="md:w-1/2 w-full bg-[#f2f2f2] max-sm:px-5 max-sm:py-12 flex justify-center items-center">
+      <div class="relative md:w-1/2 w-full bg-[#f2f2f2] max-sm:px-5 max-sm:py-12 flex justify-center items-center  "  >
+      <div class="absolute inset-0 bg-[url('./images/CEO-desk.webp')] bg-cover bg-center">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+</div>
 
-      <div class="">
+      <div class="relative z-10">
 
-        <h2 class="text-5xl font-semibold text-center mb-2">From the CEO’s Desk</h2>
-        <h3 class="text-center text-2xl  font-medium mb-3 text-red-500 ">Ubaid Saudagar - <span class="text-gray-500 text-sm">CEO, Sagar Tech</span></h3>
+        <h2 class="text-5xl font-semibold text-center mb-2 text-white">From the CEO’s Desk</h2>
+        <h3 class="text-center text-2xl  font-medium mb-3 text-red-500 ">Ubaid Saudagar - <span class="text-gray-400 text-sm">CEO, Sagar Tech</span></h3>
       </div>
     </div>
-        <div class="md:p-12 p-3 pt-7 md:w-1/2 w-full">
+    <div class="relative lg:p-10 p-4 pt-7 md:w-1/2 w-full overflow-hidden">
 
-        <p class="mb-3">
-          Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, social media optimization, seo, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
+<!-- Background Image with white semi-transparent overlay -->
+<div class="absolute inset-0 bg-[url('./images/quotes-bg.webp')] bg-cover bg-center">
+  <div class="absolute inset-0 bg-white opacity-90"></div>
+</div>
+
+<!-- Main Content -->
+<div class="relative z-10">
+  <p class="mb-3 text-gray-700">
+    <span class="text-5xl">O</span><span>ur</span> basic principle, which we have been successful in the past few years, is <strong>TRUST</strong>. We have not broken the trust of our clients in terms of the development of websites, social media optimization, SEO, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
+  </p>
+
+  <p class="mb-3 text-gray-700">
+    We hold regular meetings of our team and make them understand that <span class="italic font-semibold">"if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate."</span>
+  </p>
+
+  <p class="mb-3 text-gray-700">
+    When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
+  </p>
+
+  <p class="mb-3 text-gray-700">
+    In terms of development, we continuously keep upgrading with the latest technology. So, when we started 
+    <a class="text-red-500" href="https://sagartech.co.in/web-development-company-in-mumbai" target="_blank" rel="noopener noreferrer">website development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="https://sagartech.co.in/bootstrap-development-services-mumbai" class="text-red-500">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="https://sagartech.co.in/nextjs-development-services-in-india" class="text-red-500">Next JS</a>, <a href="https://sagartech.co.in/nodejs-development-company-in-india" class="text-red-500">Node JS</a>, JWT for security, and many more.
+  </p>
+
+  <p class="mb-3 text-gray-700">
+    So it is the clear and clean intentions with which we are working. Keeping in mind our mission, which is to create maximum employment across the globe.
+  </p>
+
+  <!-- Author Info -->
+  <div class="mt-6">
+    <div class="flex items-center space-x-3">
+      <img src="./images/CEO.webp" alt="" class="w-12 h-12 rounded-full bg-gray-200" />
+      <div>
+        <p class="mb-1">Written by,</p>
+        <p class="text-red-500 flex gap-1 items-center">
+          Ubaid Saudagar - <span class="text-gray-400">CEO, Sagar Tech</span>
         </p>
-        <p class="mb-3">
-          We hold regular meetings of our team and make them understand that if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.
-        </p>
-      <p class="mb-3">
-      When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
-
-    </p>
-    <p class="mb-3">
-      In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a class="text-red-500" href="https://sagartech.co.in/web-development-company-in-mumbai" >website development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards Bootstrap, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, Next JS, Node JS, JWT for security, and many more.
-      
-    </p>
-    <p class="mb-3">
-      So it is the clear and clean intentions with which we are working. Keeping in mind our mission, which is to create maximum employment across the globe.
-      
-    </p>
-    <div class="">
-      <p class="mb-1">
-        Written by,
-      </p>
-      <p class="text-[red]">
-      Ubaid Saudagar - <span class="text-gray-400"> CEO, Sagar Tech</span>
-
-        </p>
-  
-
-
       </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
   </div>
   
 
