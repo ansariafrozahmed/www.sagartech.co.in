@@ -10,11 +10,11 @@
 </head>
 <body>
       <!-- loading -->
-  <div id="loading">
+  <!-- <div id="loading">
     <div id="loading-center">
       <img src="images/logoonly.jpg" alt="loder">
     </div>
-  </div>
+  </div> -->
 
   <?php
   $page = 'about';
