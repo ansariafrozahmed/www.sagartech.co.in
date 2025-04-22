@@ -1497,7 +1497,7 @@
 
         // Animate visible cards
         function animateVisibleCards() {
-            const visibleCards = document.querySelectorAll(".portfolio-card:not([style*='display: none'])");
+            const visibleCards = document.querySelectorAll(".portfolio:not([style*='display: none'])");
             gsap.from(visibleCards, {
                 y: 40,
                 opacity: 0,
