@@ -11,7 +11,9 @@
 // define('DB_NAME', 'sagartech');
 
 // define('WEB_URL', "http://localhost/sagartech.co.in/");
-define('WEB_URL', "https://sagartech.co.in/");
+if (!defined('WEB_URL')) {
+    define('WEB_URL', "https://sagartech.co.in/");
+}
 
 // error_reporting(error_reporting() & ~E_WARNING);
 
