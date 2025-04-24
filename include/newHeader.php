@@ -818,6 +818,22 @@ include('config.php');
               </div>
             </li>
             <li class="menu-item-has-children">
+              <a href="#">Our Products<i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <div style="display: flex; gap: 5px; align-items:center; ">
+                    <img src="../product-images/siyahfy-logo11.png" style="width: 30px; height: 100%;" alt="" />
+                    <li><a href="<?= WEB_URL ?>our-products/siyahfy">Siyahfy</a></li>
+                  </div>
+                  <div style="display: flex; gap: 5px; align-items:center;">
+                    <img src="../product-images/chillinote-logo1.png" style="width: 30px; height: 100%;" alt="" />
+                    <li><a href="<?= WEB_URL ?>our-products/siyahfy">Chillinote</a></li>
+                  </div>
+                </ul>
+              </div>
+
+            </li>
+            <li class="menu-item-has-children">
               <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
               <div class="sub-menu single-column-menu">
                 <ul>

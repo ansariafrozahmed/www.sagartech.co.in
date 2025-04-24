@@ -468,11 +468,11 @@ include('include/config.php');
 
 <body>
     <!-- loading -->
-    <div id="loading">
+    <!-- <div id="loading">
         <div id="loading-center">
             <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo">
         </div>
-    </div>
+    </div> -->
     <?php
     $page = 'home';
     include('include/newHeader.php');
@@ -1279,7 +1279,7 @@ BS AUTO ACCESSORIES" srcset="">
                 <h2>How fast can you build my website?</h2>
                 <div class="accordion-content">
                     <p>
-                    We deliver fully custom websites in just 7 days from the time we receive your content and branding details.
+                        We deliver fully custom websites in just 7 days from the time we receive your content and branding details.
                     </p>
                 </div>
             </div>
@@ -1334,31 +1334,31 @@ BS AUTO ACCESSORIES" srcset="">
 
         </div>
         <script>
-    document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
-        accordionToggle.addEventListener('click', () => {
-            const currentItem = accordionToggle.parentNode;
-            const currentContent = accordionToggle.nextElementSibling;
+            document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
+                accordionToggle.addEventListener('click', () => {
+                    const currentItem = accordionToggle.parentNode;
+                    const currentContent = accordionToggle.nextElementSibling;
 
-            // Close all other accordion items
-            document.querySelectorAll('.accordion-item').forEach((item) => {
-                const content = item.querySelector('.accordion-content');
-                if (item !== currentItem) {
-                    content.style.maxHeight = null;
-                    item.classList.remove('active');
-                }
+                    // Close all other accordion items
+                    document.querySelectorAll('.accordion-item').forEach((item) => {
+                        const content = item.querySelector('.accordion-content');
+                        if (item !== currentItem) {
+                            content.style.maxHeight = null;
+                            item.classList.remove('active');
+                        }
+                    });
+
+                    // Toggle the current item
+                    if (currentContent.style.maxHeight) {
+                        currentContent.style.maxHeight = null;
+                        currentItem.classList.remove('active');
+                    } else {
+                        currentContent.style.maxHeight = currentContent.scrollHeight + 'px';
+                        currentItem.classList.add('active');
+                    }
+                });
             });
-
-            // Toggle the current item
-            if (currentContent.style.maxHeight) {
-                currentContent.style.maxHeight = null;
-                currentItem.classList.remove('active');
-            } else {
-                currentContent.style.maxHeight = currentContent.scrollHeight + 'px';
-                currentItem.classList.add('active');
-            }
-        });
-    });
-</script>
+        </script>
 
 
     </div>
