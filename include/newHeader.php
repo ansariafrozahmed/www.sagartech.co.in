@@ -107,6 +107,10 @@ include('config.php');
       visibility: visible;
       opacity: 1;
     }
+
+    .row.v-center{
+      row-gap:0px !important;
+    }
   }
 
   .header .menu>ul>li .sub-menu>ul>li {
@@ -218,6 +222,10 @@ include('config.php');
     .header .item-center {
       order: 3;
       flex: 0 0 100%;
+    }
+
+    .row.v-center{
+      row-gap:0px !important;
     }
 
     .header .item-left,
@@ -477,6 +485,10 @@ include('config.php');
     .logo img {
       height: 30px;
     }
+
+    .row.v-center{
+      row-gap:0px !important;
+    }
   }
 
   .titlee {
@@ -557,6 +569,10 @@ include('config.php');
     .multi-level-dropdown:hover {
       display: block;
     }
+
+    .row.v-center{
+      row-gap:0px !important;
+    }
   }
 
   .dkuywW {
@@ -601,6 +617,10 @@ include('config.php');
       padding: 5px;
       gap: 5px;
       flex-direction: column;
+    }
+    
+    .row.v-center{
+      row-gap:0px !important;
     }
 
     .announcementLeft ul {
