@@ -48,9 +48,9 @@ include('include/config.php');
         <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
         <!-- Meta Pixel Code -->
         <script>
-            ! function(f, b, e, v, n, t, s) {
+            ! function (f, b, e, v, n, t, s) {
                 if (f.fbq) return;
-                n = f.fbq = function() {
+                n = f.fbq = function () {
                     n.callMethod ?
                         n.callMethod.apply(n, arguments) : n.queue.push(arguments)
                 };
@@ -452,13 +452,46 @@ include('include/config.php');
             width: 540px;
             height: 494px;
         }
+
+
+
+
+
+        /* .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        } */
+
+        /* Optional: Hide/show based on device */
+        /* @media (max-width: 767px) {
+            .desktop-view {
+                display: none;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .mobile-view {
+                display: none;
+            }
+        } */
     </Style>
     <script>
         function loadDynamicContentModal() {
             //  console.log(id);
             var id = 1;
             $('#demo-modal').load('modal-data.php?modal=' + id,
-                function() {
+                function () {
                     $('#bootstrap-modal').modal({
                         show: true
                     });
@@ -468,11 +501,11 @@ include('include/config.php');
 
 <body>
     <!-- loading -->
-    <!-- <div id="loading">
+    <div id="loading">
         <div id="loading-center">
             <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo">
         </div>
-    </div> -->
+    </div>
     <?php
     $page = 'home';
     include('include/newHeader.php');
@@ -496,33 +529,56 @@ include('include/config.php');
             <img src="./image/homepage/homeBanner.webp" alt="" srcset="">
         </div> -->
         <div class="video-container mobile-view">
-            <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
-                <source src="./video/sagartechmobilebanner.mp4" type="video/mp4">
+            <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
+                <source src="./video/home-page-video.mp4" type="video/mp4">
             </video>
         </div>
 
         <div class="video-container desktop-view">
-            <video class="video" autoplay loop muted poster="./video/video thumbnail.webp">
-                <source src="./video/sagartech banner 10.mp4" type="video/mp4">
+            <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
+                <source src="./video/home-page-video.mp4" type="video/mp4">
             </video>
         </div>
+
+        <!-- Mobile Video -->
+        <!-- <div class="video-container mobile-view">
+    <iframe 
+        src="https://www.youtube.com/embed/oAjMOpYPhZA?autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&playlist=oAjMOpYPhZA" 
+        title="YouTube video mobile" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
+</div> -->
+
+        <!-- Desktop Video -->
+        <!-- <div class="video-container desktop-view">
+    <iframe 
+        src="https://www.youtube.com/embed/oAjMOpYPhZA?autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&playlist=oAjMOpYPhZA
+" 
+        title="YouTube video desktop" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
+</div> -->
 
 
         <?php
         include 'include/intro.php'
-        ?>
+            ?>
         <?php
         include 'ourservice.php'
-        ?>
+            ?>
 
         <script>
-            ! function(o, i) {
+            ! function (o, i) {
                 window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
                     dq: [],
-                    display: function() {
+                    display: function () {
                         this.dq.push(arguments)
                     }
-                }, o._provesrcAsyncInit = function() {
+                }, o._provesrcAsyncInit = function () {
                     provesrc.init({
                         apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
                         v: "0.0.4"
@@ -542,16 +598,16 @@ include('include/config.php');
         <hr>
         <?php
         include 'include/ourClients.php'
-        ?>
+            ?>
 
 
         <?php
         include 'include/portfolioSlider.php'
-        ?>
+            ?>
         <hr>
         <?php
         include 'include/techStack.php'
-        ?>
+            ?>
 
 
         <style>
@@ -673,7 +729,8 @@ include('include/config.php');
                     </div>
                 </div>
                 <div class="stats-cards">
-                    <img src="images/counter/client2.png" alt="Satisfied Clients" title="Satisfied Clients" loading="lazy" />
+                    <img src="images/counter/client2.png" alt="Satisfied Clients" title="Satisfied Clients"
+                        loading="lazy" />
                     <div class="stats-card-detail">
                         <h5 style="color:green">300+</h5>
                         <span>Satisfied Clients</span>
@@ -687,8 +744,7 @@ include('include/config.php');
                     </div>
                 </div>
                 <div class="stats-cards">
-                    <img src="./images/counter/star-rating.png" alt="Rating" title="Rating"
-                        loading="lazy" />
+                    <img src="./images/counter/star-rating.png" alt="Rating" title="Rating" loading="lazy" />
                     <div class="stats-card-detail">
                         <h5 style="color:green">5</h5>
                         <span>Rating</span>
@@ -1256,7 +1312,8 @@ BS AUTO ACCESSORIES" srcset="">
                             <p class="description">
                                 <?php echo $item['excerpt'] ?>
                             </p>
-                            <p class="publisher-info">Published By <a href="https://sagartech.co.in/"><span class="blog-time"> Sagar Tech</span></a> | On <span class="blog-time">
+                            <p class="publisher-info">Published By <a href="https://sagartech.co.in/"><span
+                                        class="blog-time"> Sagar Tech</span></a> | On <span class="blog-time">
                                     <?php echo date('F j, Y', strtotime($item['date'])); ?>
                                 </span>
                             </p>
@@ -1279,7 +1336,8 @@ BS AUTO ACCESSORIES" srcset="">
                 <h2>How fast can you build my website?</h2>
                 <div class="accordion-content">
                     <p>
-                        We deliver fully custom websites in just 7 days from the time we receive your content and branding details.
+                        We deliver fully custom websites in just 7 days from the time we receive your content and
+                        branding details.
                     </p>
                 </div>
             </div>
@@ -1287,48 +1345,55 @@ BS AUTO ACCESSORIES" srcset="">
             <div class="accordion-item">
                 <h2>Is this really a custom website or just a template?</h2>
                 <div class="accordion-content">
-                    <p>Every Weblix site is 100% custom-designed to match your brand, goals, and audience—no templates, ever.</p>
+                    <p>Every Weblix site is 100% custom-designed to match your brand, goals, and audience—no templates,
+                        ever.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>Do I need to provide content and images?</h2>
                 <div class="accordion-content">
-                    <p>You can provide your own, or we can help source professional images and write high-converting content for you.</p>
+                    <p>You can provide your own, or we can help source professional images and write high-converting
+                        content for you.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>Will my website be mobile-friendly?</h2>
                 <div class="accordion-content">
-                    <p>Absolutely! Your website will be fully responsive, optimized for mobile, tablet, and desktop devices.</p>
+                    <p>Absolutely! Your website will be fully responsive, optimized for mobile, tablet, and desktop
+                        devices.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>Do you offer SEO services?</h2>
                 <div class="accordion-content">
-                    <p>Yes! Basic on-page SEO optimization is included in every package to help you rank and attract traffic.</p>
+                    <p>Yes! Basic on-page SEO optimization is included in every package to help you rank and attract
+                        traffic.</p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>Can I update the website myself later?</h2>
                 <div class="accordion-content">
-                    <p>Yes, your site will be built on a user-friendly platform so you can easily make changes anytime.</p>
+                    <p>Yes, your site will be built on a user-friendly platform so you can easily make changes anytime.
+                    </p>
                 </div>
             </div>
 
             <div class="accordion-item">
                 <h2>What if I need changes after launch?</h2>
                 <div class="accordion-content">
-                    <p>We include 30 days of free post-launch support, and offer affordable maintenance plans if you need ongoing help.</p>
+                    <p>We include 30 days of free post-launch support, and offer affordable maintenance plans if you
+                        need ongoing help.</p>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2>Is there any hidden cost?</h2>
                 <div class="accordion-content">
-                    <p>Nope! We believe in transparent, flat-rate pricing—you’ll know exactly what you’re paying for before we begin.</p>
+                    <p>Nope! We believe in transparent, flat-rate pricing—you’ll know exactly what you’re paying for
+                        before we begin.</p>
                 </div>
             </div>
 
@@ -1367,7 +1432,7 @@ BS AUTO ACCESSORIES" srcset="">
     ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1383,7 +1448,7 @@ BS AUTO ACCESSORIES" srcset="">
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
