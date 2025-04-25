@@ -13,7 +13,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="keywords" content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/logoonly.jpg" />
+    <link rel="shortcut icon" href="../images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/our-products">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
@@ -441,11 +441,11 @@
 
 
 <body>
-    <!-- <div id="loading">
+    <div id="loading">
         <div id="loading-center">
             <img src="images/logoonly.jpg" alt="loder">
         </div>
-    </div> -->
+    </div>
     <?php
     $page = 'portfolio';
     include("../include/newHeader.php");
