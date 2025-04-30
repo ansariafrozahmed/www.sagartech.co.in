@@ -383,7 +383,7 @@
                 </div>
             </div>
             <div class="chillinote-image">
-                <img src="../product-images/image51.png" alt="main_image1">
+                <img src="../product-images/chillinote-mockup.png" alt="main_image1">
             </div>
         </div>
     </section>

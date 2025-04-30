@@ -469,7 +469,7 @@
                 </div>
             </div>
             <div class="product-image">
-                <img src="../product-images/image51.png" alt="main_image1">
+                <img src="../product-images/siyahfy-mockup.png" alt="main_image1">
             </div>
         </div>
     </section>
