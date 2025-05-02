@@ -51,16 +51,19 @@ if (curl_errno($ch)) {
         ?>
     </title>
     <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 
-    <meta name="description" content="<?php echo htmlentities(!empty($data['meta']['meta_description']) ? $data['meta']['meta_description'] : $data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="description"
+        content="<?php echo htmlentities(!empty($data['meta']['meta_description']) ? $data['meta']['meta_description'] : $data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- <meta name="keywords"
         content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai"> -->
 
-    <meta name="keywords" content="<?php echo htmlentities(!empty($data['meta']['meta_keywords']) ? $data['meta']['meta_keywords'] : 'Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai', ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="keywords"
+        content="<?php echo htmlentities(!empty($data['meta']['meta_keywords']) ? $data['meta']['meta_keywords'] : 'Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai', ENT_QUOTES, 'UTF-8'); ?>">
 
     <meta name="author" content="Ubaid saudagar">
     <meta name="designer" content="Ubaid Saudagar">
@@ -75,7 +78,8 @@ if (curl_errno($ch)) {
     <meta name="language" content="english">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="<?php echo !empty($data['meta']['meta_title']) ? $data['meta']['meta_title'] : $data['title']['rendered']; ?>">
+    <meta property="og:title"
+        content="<?php echo !empty($data['meta']['meta_title']) ? $data['meta']['meta_title'] : $data['title']['rendered']; ?>">
     <meta property="og:description"
         content="<?php echo htmlentities(!empty($data['meta']['meta_description']) ? $data['meta']['meta_description'] : $data['excerpt']['rendered'], ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:url"
@@ -434,7 +438,7 @@ if (curl_errno($ch)) {
     <!-- --------------------------- -->
     <?php
     // include("include/faqaccordian.html");
-    include ("include/footer.php");
+    include("include/footer.php");
     ?>
 </body>
 
