@@ -831,6 +831,10 @@ include('config.php');
                     <a href="<?= WEB_URL ?>bulk-sms-service-provider-in-mumbai">Bulk SMS</a>
                   </div>
                   <div class="titlee">
+                    <img src="<?= WEB_URL ?>icons/whatsappicon.png" style="width: 30px" alt="" />
+                    <a href="<?= WEB_URL ?>bulk-whatsapp-message-sender-in-india">Bulk WhatsApp</a>
+                  </div>
+                  <div class="titlee">
                     <img src="<?= WEB_URL ?>icons/app-development.png" style="width: 30px" alt="" />
                     <a href="<?= WEB_URL ?>mobile-app-development-company-in-mumbai">App Development</a>
                   </div>
