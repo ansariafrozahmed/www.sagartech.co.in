@@ -749,7 +749,7 @@ include "include/config.php";
     <!-- Why Sagartech -->
 
     <div class="why-content">
-        <h2>Why Choose Sagar Tech for Bulk Messaging?</h2>
+        <h2>Benefits of using Whtsify</h2>
         <p class="pp">
             Elevate your communication strategy with Sagar Tech's advanced bulk SMS and WhatsApp messaging services. Leveraging platforms like Whtsify, we provide efficient, reliable, and scalable solutions tailored to your business needs. As a leading <a class="interlink" href="web-development-company-in-mumbai">Web Development</a> and <a class="interlink" href="digital-marketing-company-in-mumbai">Digital Marketing</a> company in Mumbai, we're here to enhance your messaging strategy.
         </p>
