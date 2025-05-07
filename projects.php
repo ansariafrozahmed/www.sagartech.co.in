@@ -284,7 +284,7 @@
     project_desc:`<div>
     <p class="mb-3">Archic Greenscape Engineering was founded on the principle of “Seeking Sustenance in Sustainability.” The firm specializes in delivering technology-driven, sustainable design and execution solutions across residential, commercial, institutional, and public spaces. With a focus on offering premium and value-centric products over cost-cutting alternatives, Archic Greenscape has served clients ranging from educational institutions and public buildings to leading automobile brands across Mumbai and Goa.</p>
     </div>`,
-     long_img:"./images/long-images/archicgreenscape.webp",
+     long_img:"./images/long-images/archic-green.webp",
     web_url:"https://archicgreenscape.com/",
      bgGradientStart: "#e8bd6f", // Red color for the gradient
     bgGradientEnd: "#e8bd6f"
@@ -310,7 +310,7 @@
     project_desc:`<div>
     <p class="mb-3">Thaiger Nutraceuticals, a division of the renowned Thaiger Pharma Group (est. 2014), brings pharmaceutical-grade quality to the world of dietary supplements. Originally launched in India with high-performance proteins for athletes, the brand has since expanded globally with a newly enhanced product line now manufactured in Europe. With modern formulations, premium packaging, and a distribution base in the UAE, Thaiger Nutraceuticals is reaching new markets across Europe, Asia, and the Middle East. The brand remains committed to innovation, quality, and promoting wellness through supplements trusted by health-conscious individuals and professionals alike.</p>
     </div>`,
-     long_img:"./images/long-images/thaigernutraceuticals",
+     long_img:"./images/long-images/thaigernutraceuticals.webp",
     web_url:"https://thaigernutraceuticals.com/",
        bgGradientStart: "#75a7df", // Pink color for the gradient
     bgGradientEnd: "#75a7df"
@@ -609,7 +609,7 @@
     project_desc:`<div>
     <p class="mb-3">EuRadicle is dedicated to transforming individuals by unlocking their untapped potential through personalized learning solutions. With our Capability Based Development Model (CBDM), we combine corporate experience with creative consulting to foster growth. Our unique approach emphasizes awareness, action, coaching, and a positive environment, ensuring lasting change.</p>
     </div>`,
-     long_img:"./images/long-images/euradicle.webp",
+     long_img:"./images/long-images/EuRadicle.webp",
     web_url:"https://euradicle.com/",
        bgGradientStart: "#2c2a2d", // Pink color for the gradient
     bgGradientEnd: "#2c2a2d"
