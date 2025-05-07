@@ -92,29 +92,28 @@
         </div>
     </div>
 
-    <!-- Popup Modal -->
-    <div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5">
-        <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:max-h-[80vh] max-sm:h-full max-sm:overflow-hidden">
-            <button id="closePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-            <div class="flex max-sm:!flex-col md:flex-row items-start gap-5" id="popupContent">
-                <div class="w-full md:w-[30%]" id="work-details">
-                    <div class="flex items-center gap-2">
-                        <h2 id="popupTitle" class="text-xl md:text-2xl font-semibold text-gray-800"></h2>
-                        <a id="popupLink" href="#" class="inline-block text-blue-500 hover:text-blue-700"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                    <div id="popupDescription" class="text-gray-600 text-sm mt-4"></div>
+  <!-- Popup Modal -->
+<div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
+    <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:max-h-[80vh] max-sm:h-full max-sm:overflow-hidden">
+        <button id="closePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <div class="flex max-sm:!flex-col md:flex-row items-start gap-5" id="popupContent">
+            <div class="w-full md:w-[30%]" id="work-details">
+                <div class="flex items-center gap-2">
+                    <h2 id="popupTitle" class="text-xl md:text-2xl font-semibold text-gray-800"></h2>
+                    <a id="popupLink" href="#" class="inline-block text-blue-500 hover:text-blue-700"><i class="fa-solid fa-link"></i></a>
                 </div>
-                <div class="w-full md:w-[70%] md:h-96 max-sm:h-96  !overflow-y-scroll scrollbar-auto flex justify-center items-start" id="long-img">
-                    <img id="popupImage" src="" alt="Project Image" class="w-[80%] max-sm:w-full object-top rounded-md" />
-                </div>
+                <div id="popupDescription" class="text-gray-600 text-sm mt-4"></div>
+            </div>
+            <div class="w-full md:w-[70%] md:h-96 max-sm:h-96 !overflow-y-scroll scrollbar-auto flex justify-center items-start" id="long-img">
+                <img id="popupImage" src="" alt="Project Image" class="w-[80%] max-sm:w-full object-top rounded-md" />
             </div>
         </div>
     </div>
-
+</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script>
         // Portfolio items
@@ -1684,7 +1683,6 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
   },
 
 ];
-
 
 
         // Service to project type mapping
