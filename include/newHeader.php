@@ -107,6 +107,10 @@ include('config.php');
       visibility: visible;
       opacity: 1;
     }
+
+    .row.v-center{
+      row-gap:0px !important;
+    }
   }
 
   .header .menu>ul>li .sub-menu>ul>li {
@@ -218,6 +222,10 @@ include('config.php');
     .header .item-center {
       order: 3;
       flex: 0 0 100%;
+    }
+
+    .row.v-center{
+      row-gap:0px !important;
     }
 
     .header .item-left,
@@ -477,6 +485,10 @@ include('config.php');
     .logo img {
       height: 30px;
     }
+
+    .row.v-center{
+      row-gap:0px !important;
+    }
   }
 
   .titlee {
@@ -557,6 +569,10 @@ include('config.php');
     .multi-level-dropdown:hover {
       display: block;
     }
+
+    .row.v-center{
+      row-gap:0px !important;
+    }
   }
 
   .dkuywW {
@@ -601,6 +617,10 @@ include('config.php');
       padding: 5px;
       gap: 5px;
       flex-direction: column;
+    }
+    
+    .row.v-center{
+      row-gap:0px !important;
     }
 
     .announcementLeft ul {
@@ -811,11 +831,31 @@ include('config.php');
                     <a href="<?= WEB_URL ?>bulk-sms-service-provider-in-mumbai">Bulk SMS</a>
                   </div>
                   <div class="titlee">
+                    <img src="<?= WEB_URL ?>icons/whatsappicon.png" style="width: 30px" alt="" />
+                    <a href="<?= WEB_URL ?>bulk-whatsapp-message-sender-in-india">Bulk WhatsApp</a>
+                  </div>
+                  <div class="titlee">
                     <img src="<?= WEB_URL ?>icons/app-development.png" style="width: 30px" alt="" />
                     <a href="<?= WEB_URL ?>mobile-app-development-company-in-mumbai">App Development</a>
                   </div>
                 </div>
               </div>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#">Our Products<i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <div style="display: flex; gap: 5px; align-items:center; ">
+                    <img src="../product-images/siyahfy-logo11.png" style="width: 30px; height: 100%;" alt="" />
+                    <li><a href="<?= WEB_URL ?>our-products/siyahfy">Siyahfy</a></li>
+                  </div>
+                  <div style="display: flex; gap: 5px; align-items:center;">
+                    <img src="../product-images/chillinote-logo1.png" style="width: 30px; height: 100%;" alt="" />
+                    <li><a href="<?= WEB_URL ?>our-products/chillinote">Chillinote</a></li>
+                  </div>
+                </ul>
+              </div>
+
             </li>
             <li class="menu-item-has-children">
               <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
