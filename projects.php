@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -18,6 +19,32 @@
         }
     </script>
     <title>Portfolio</title>
+    <style>
+        /* Fade-up animation for portfolio cards */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 0.6s ease-out forwards;
+        }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Stagger animation for each card */
+        .portfolio-card:nth-child(1) { animation-delay: 0.1s; }
+        .portfolio-card:nth-child(2) { animation-delay: 0.2s; }
+        .portfolio-card:nth-child(3) { animation-delay: 0.3s; }
+        .portfolio-card:nth-child(4) { animation-delay: 0.4s; }
+        .portfolio-card:nth-child(5) { animation-delay: 0.5s; }
+        .portfolio-card:nth-child(6) { animation-delay: 0.6s; }
+        .portfolio-card:nth-child(7) { animation-delay: 0.7s; }
+        .portfolio-card:nth-child(8) { animation-delay: 0.8s; }
+        .portfolio-card:nth-child(9) { animation-delay: 0.9s; }
+    </style>
 </head>
 <body>
     <?php
@@ -28,16 +55,16 @@
         Creating Next Level Digital Products
     </h1>
     <div class="md:px-16 pb-10">
-        <div class="">
-            <h1 class="text-3xl md:hidden block font-medium text-center px-5 mt-7">
+        <!-- <div class="">
+            <h1 class="text-3xl md:block block font-medium text-center px-5 mt-7">
                 Creating Next Level Digital Products
             </h1>
-        </div>
+        </div> -->
         <div class="flex md:flex-row flex-col justify-between">
             <div class="md:w-[20%] w-full p-5 md:sticky md:top-24 bg-white top-16 h-full">
                 <div class="flex justify-between items-center">
                     <h4 class="font-medium">Filter</h4>
-                    <button class="border px-2 text-[13px] rounded-[5px] hover:shadow-sm bg-gradient-to-t from-gray-200 transition-all duration-300 hover:from-gray-300 clear-button">Clear</button>
+                    <button class="border px-2 text-[13px] rounded-[5px] hover:shadow-sm bg-gradient-to-t from-gray-200 transition-all duration-300 hover:from-gray-300 clear-button hidden">Clear</button>
                 </div>
                 <div class="">
                     <div class="relative w-full max-w-sm mt-4">
@@ -88,36 +115,39 @@
             <div class="md:w-[80%] w-full p-3">
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-4" id="portfolioContainer">
                 </div>
+                <div class="flex justify-center mt-6 space-x-2" id="paginationContainer">
+                    <!-- Pagination buttons will be dynamically added here -->
+                </div>
             </div>
         </div>
     </div>
 
-  <!-- Popup Modal -->
-<div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
-    <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:max-h-[80vh] max-sm:h-full max-sm:overflow-hidden">
-        <button id="closePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-        </button>
-        <div class="flex max-sm:!flex-col md:flex-row items-start gap-5" id="popupContent">
-            <div class="w-full md:w-[30%]" id="work-details">
-                <div class="flex items-center gap-2">
-                    <h2 id="popupTitle" class="text-xl md:text-2xl font-semibold text-gray-800"></h2>
-                    <a id="popupLink" href="#" class="inline-block text-blue-500 hover:text-blue-700"><i class="fa-solid fa-link"></i></a>
+    <!-- Popup Modal -->
+    <div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
+        <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:max-h-[80vh] max-sm:h-full max-sm:overflow-hidden">
+            <button id="closePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <div class="flex max-sm:!flex-col md:flex-row items-start gap-5" id="popupContent">
+                <div class="w-full md:w-[30%]" id="work-details">
+                    <div class="flex items-center gap-2">
+                        <h2 id="popupTitle" class="text-xl md:text-2xl font-semibold text-gray-800"></h2>
+                        <a id="popupLink" href="#" class="inline-block text-red-500 hover:text-red-700"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    <div id="popupDescription" class="text-gray-600 text-sm mt-4"></div>
                 </div>
-                <div id="popupDescription" class="text-gray-600 text-sm mt-4"></div>
-            </div>
-            <div class="w-full md:w-[70%] md:h-96 max-sm:h-96 !overflow-y-scroll scrollbar-auto flex justify-center items-start" id="long-img">
-                <img id="popupImage" src="" alt="Project Image" class="w-[80%] max-sm:w-full object-top rounded-md" />
+                <div class="w-full md:w-[70%] md:h-96 max-sm:h-96 !overflow-y-scroll scrollbar-auto flex justify-center items-start" id="long-img">
+                    <img id="popupImage" src="" alt="Project Image" class="w-[80%] max-sm:w-full object-top rounded-md" />
+                </div>
             </div>
         </div>
     </div>
-</div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
     <script>
-        // Portfolio items
-        const portfolioItems = [
+
+                const portfolioItems = [
   {
     imgPath: "./portfolio-mockups/business/verify8.webp",
     title: "Verify8",
@@ -1684,8 +1714,7 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
 ];
 
-
-        // Service to project type mapping
+   // Service to project type mapping
         const serviceProjectTypes = {
             "Web Development": [
                 "Business", "Builders", "Catalogue", "Logistics", "Ecommerce",
@@ -1698,37 +1727,46 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
             "Banner Design": [
                 "Digital Ads", "Social Media", "Print Media"
             ],
-            // Add other service mappings as needed
         };
 
         // Animate heading
-        function splitTextByChar(el) {
-            const text = el.innerHTML;
-            const characters = text
-                .replace(/<br\s*\/?>/g, "<br>")
-                .split("")
-                .map(char => {
-                    if (char === " ") return `<span class="inline-block w-[0.25em]"> </span>`;
-                    if (char === "<") return char;
-                    return `<span class="inline-block char">${char}</span>`;
-                }).join("");
-            el.innerHTML = characters;
+    function splitTextByChar(el) {
+    const text = el.innerHTML.trim();
+    const characters = text.split("").map(char => {
+        return char === " " ? `<span class="inline-block char">&nbsp;</span>` : `<span class="inline-block char">${char}</span>`;
+    }).join("");
+    el.innerHTML = characters;
+}
+
+const heading = document.getElementById("animatedHeading");
+splitTextByChar(heading);
+
+// GSAP animation for characters
+document.addEventListener("DOMContentLoaded", () => {
+    const chars = document.querySelectorAll("#animatedHeading .char");
+    gsap.fromTo(
+        chars,
+        { y: 50, opacity: 0 },
+        {
+            y: 0,
+            opacity: 1,
+            duration: 0.8,
+            ease: "power2.out",
+            stagger: 0.05,
+            delay: 0.3
         }
-
-        const heading = document.getElementById("animatedHeading");
-        splitTextByChar(heading);
-
-        gsap.from("#animatedHeading .char", {
-            y: 50,
-            opacity: 0,
-            duration: 0.6,
-            ease: "power3.out",
-            stagger: 0.03
-        });
+    );
+});
+   
 
         // Service filter dropdown
         function toggleDropdown() {
-            document.getElementById("serviceList").classList.toggle("hidden");
+            const serviceList = document.getElementById("serviceList");
+            serviceList.classList.toggle("hidden");
+            const items = document.querySelectorAll("#serviceList li");
+            items.forEach(item => {
+                item.style.display = "block";
+            });
         }
 
         function selectService(item) {
@@ -1743,8 +1781,10 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
             const input = document.getElementById("serviceInput").value.toLowerCase();
             const items = document.querySelectorAll("#serviceList li");
             items.forEach(item => {
-                item.style.display = item.innerText.toLowerCase().includes(input) ? "block" : "none";
+                const text = item.innerText.toLowerCase();
+                item.style.display = text.includes(input) ? "block" : "none";
             });
+            document.getElementById("serviceList").classList.remove("hidden");
         }
 
         document.addEventListener("click", function (event) {
@@ -1757,7 +1797,8 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
         // Project type filter dropdown
         function toggleProjectTypeDropdown() {
-            document.getElementById("projectTypeList").classList.toggle("hidden");
+            const projectTypeList = document.getElementById("projectTypeList");
+            projectTypeList.classList.toggle("hidden");
         }
 
         function selectProjectType(item) {
@@ -1772,6 +1813,7 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
             items.forEach(item => {
                 item.style.display = item.innerText.toLowerCase().includes(input) ? "block" : "none";
             });
+            document.getElementById("projectTypeList").classList.remove("hidden");
         }
 
         document.addEventListener("click", function (event) {
@@ -1802,40 +1844,123 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
             projectTypeList.classList.add("hidden");
         }
 
+        // Pagination state
+        const cardsPerPage = 9;
+        let currentPage = 1;
+        let currentItems = portfolioItems; // Track current items (filtered or unfiltered)
+
         // Render portfolio cards
-        const portfolioGrid = document.querySelector("#portfolioContainer");
+        function renderCards(items, page = 1) {
+            const portfolioGrid = document.querySelector("#portfolioContainer");
+            portfolioGrid.innerHTML = ""; // Clear existing cards
+            const fragment = document.createDocumentFragment();
 
-        portfolioItems.forEach((item, index) => {
-            const card = document.createElement("div");
-            card.classList.add("portfolio-card", "relative", "bg-white", "p-3", "rounded-2xl", "overflow-hidden", "max-w-[350px]", "w-full");
-            card.setAttribute("data-service", item.service);
-            card.setAttribute("data-project", item.projectType);
+            const startIndex = (page - 1) * cardsPerPage;
+            const endIndex = Math.min(startIndex + cardsPerPage, items.length);
 
-            const descriptionHtml = item.service === "Banner Design"
-                ? ""
-                : `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
-            const titleHtml = item.service === "Banner Design"
-                ? ""
-                : `<div  class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
+            for (let index = startIndex; index < endIndex; index++) {
+                const item = items[index];
+                const card = document.createElement("div");
+                card.classList.add("portfolio-card", "relative", "bg-white", "p-3", "rounded-2xl", "overflow-hidden", "max-w-[350px]", "w-full", "fade-up");
+                card.setAttribute("data-service", item.service);
+                card.setAttribute("data-project", item.projectType);
 
-            card.innerHTML = `
-                <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-                    <div class="relative overflow-hidden p-2">
-                        <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
-                    </div>
-                    <div class="p-5">
-                        <div class="flex items-center justify-between">
-                              ${titleHtml}
-                            <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">
-                                View
-                            </button>
+                const descriptionHtml = item.service === "Banner Design"
+                    ? ""
+                    : `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
+                const titleHtml = item.service === "Banner Design"
+                    ? ""
+                    : `<div class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
+
+                card.innerHTML = `
+                    <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                        <div class="relative overflow-hidden p-2">
+                            <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
                         </div>
-                        ${descriptionHtml}
+                        <div class="p-5">
+                            <div class="flex items-center justify-between">
+                                ${titleHtml}
+                                <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">
+                                    View
+                                </button>
+                            </div>
+                            ${descriptionHtml}
+                        </div>
                     </div>
-                </div>
-            `;
+                `;
 
-            portfolioGrid.appendChild(card);
+                fragment.appendChild(card);
+            }
+
+            portfolioGrid.appendChild(fragment);
+            renderPagination(items, page);
+        }
+
+        // Render pagination buttons
+        function renderPagination(items, currentPage) {
+            const paginationContainer = document.getElementById("paginationContainer");
+            paginationContainer.innerHTML = "";
+
+            const totalPages = Math.ceil(items.length / cardsPerPage);
+            if (totalPages <= 1) return;
+
+            const maxVisiblePages = 5;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
+            if (endPage - startPage + 1 < maxVisiblePages) {
+                startPage = Math.max(1, endPage - maxVisiblePages + 1);
+            }
+
+            // Previous button
+            if (currentPage > 1) {
+                const prevButton = document.createElement("button");
+                prevButton.className = "border px-3 py-1 text-sm rounded-[5px] bg-gradient-to-t from-red-500 to-red-700 text-white hover:from-red-700 hover:to-red-700 transition-all duration-300";
+                prevButton.textContent = "Prev";
+                prevButton.onclick = () => {
+                    currentPage--;
+                    renderCards(items, currentPage);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                };
+                paginationContainer.appendChild(prevButton);
+            }
+
+            // Page numbers
+            for (let i = startPage; i <= endPage; i++) {
+                const pageButton = document.createElement("button");
+                pageButton.className = `border px-3 py-1 text-sm rounded-[5px] transition-all duration-300 ${
+                    i === currentPage
+                        ? "bg-gradient-to-t from-red-700 to-red-700 text-white"
+                        : "bg-gradient-to-t from-red-500 to-red-700 text-white hover:from-red-700 hover:to-red-700"
+                }`;
+                pageButton.textContent = i;
+                pageButton.onclick = () => {
+                    currentPage = i;
+                    renderCards(items, currentPage);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                };
+                paginationContainer.appendChild(pageButton);
+            }
+
+            // Next button
+            if (currentPage < totalPages) {
+                const nextButton = document.createElement("button");
+                nextButton.className = "border px-3 py-1 text-sm rounded-[5px] bg-gradient-to-t from-red-500 to-red-700 text-white hover:from-red-700 hover:to-red-700 transition-all duration-300";
+                nextButton.textContent = "Next";
+                nextButton.onclick = () => {
+                    currentPage++;
+                    renderCards(items, currentPage);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                };
+                paginationContainer.appendChild(nextButton); // Fixed typo
+            }
+        }
+
+        // Initial render
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelector(".clear-button").classList.add("hidden");
+            renderCards(portfolioItems, currentPage);
+            updateProjectTypeList("");
         });
 
         // Popup functionality
@@ -1852,16 +1977,14 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
         document.addEventListener("click", function (event) {
             if (event.target.closest(".view-button")) {
                 const index = event.target.closest(".view-button").dataset.index;
-                const item = portfolioItems[index];
+                const item = currentItems[index]; // Use currentItems to ensure correct item
 
-                // Update popup content
                 popupTitle.textContent = item.title;
                 popupImage.src = item.long_img || './fallback-image.webp';
                 popupImage.alt = item.title;
                 popupDescription.innerHTML = item.project_desc || 'No description available';
                 popupLink.href = item.web_url || '#';
 
-                // Adjust layout based on service
                 if (item.service === "Banner Design") {
                     workDetails.classList.add("hidden");
                     longImg.classList.remove("md:w-[70%]");
@@ -1880,14 +2003,7 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
                     popupImage.classList.add("w-[80%]");
                 }
 
-                // Show popup with animation
                 popup.classList.remove("hidden");
-                gsap.from(popup.querySelector(".bg-white"), {
-                    scale: 0.8,
-                    opacity: 0,
-                    duration: 0.3,
-                    ease: "power2.out"
-                });
             }
         });
 
@@ -1903,34 +2019,29 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
         // Filter cards
         function filterCards() {
-            const selectedService = document.getElementById("serviceInput").value.toLowerCase();
-            const selectedProject = document.getElementById("projectTypeInput").value.toLowerCase();
+            const selectedService = document.getElementById("serviceInput").value.trim().toLowerCase();
+            const selectedProject = document.getElementById("projectTypeInput").value.trim().toLowerCase();
+            const clearButton = document.querySelector(".clear-button");
 
-            const cards = document.querySelectorAll(".portfolio-card");
+            if (selectedService || selectedProject) {
+                clearButton.classList.remove("hidden");
+            } else {
+                clearButton.classList.add("hidden");
+            }
 
-            cards.forEach(card => {
-                const service = card.getAttribute("data-service").toLowerCase();
-                const project = card.getAttribute("data-project").toLowerCase();
+            const filteredItems = portfolioItems.filter(item => {
+                const service = item.service.toLowerCase();
+                const project = item.projectType.toLowerCase();
 
                 const matchService = !selectedService || service.includes(selectedService);
                 const matchProject = !selectedProject || project.includes(selectedProject);
 
-                card.style.display = (matchService && matchProject) ? "block" : "none";
+                return matchService && matchProject;
             });
 
-            animateVisibleCards();
-        }
-
-        // Animate visible cards
-        function animateVisibleCards() {
-            const visibleCards = document.querySelectorAll(".portfolio-card:not([style*='display: none'])");
-            gsap.from(visibleCards, {
-                y: 40,
-                opacity: 0,
-                duration: 0.6,
-                stagger: 0.1,
-                ease: "power2.out"
-            });
+            currentItems = filteredItems; // Update currentItems
+            currentPage = 1; // Reset to first page on filter
+            renderCards(currentItems, currentPage);
         }
 
         // Clear button
@@ -1956,9 +2067,6 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
         document.getElementById("serviceInput").addEventListener("input", filterCards);
         document.getElementById("projectTypeInput").addEventListener("input", filterCards);
-
-        // Initialize project type list
-        updateProjectTypeList("");
     </script>
 </body>
 </html>
