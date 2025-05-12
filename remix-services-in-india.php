@@ -1055,7 +1055,7 @@
         </div>
         <div class="right">
 
-            <img src="./images/remixs.png">
+            <img src="./images/remix.png">
         </div>
 
     </div>
