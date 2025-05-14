@@ -59,15 +59,13 @@ if (isset($_POST['msg_submit'])) {
         curl_close($ch);
 
         // Optional: log or handle the response
-        if ($httpCode == 200 || $httpCode == 201) {
+        if ($httpCode == 200) {
             echo '1'; // success
         } else {
-            echo '0'; // or handle failure
+            echo '0'; // backend API failed
         }
-        echo '1';
     } catch (Exception $e) {
-        echo '0';
-
+        echo '0'; // email failed
     }
     /*  $mail = new PHPMailer();
     $mail->Host = 'mail.sagartech.co.in';
