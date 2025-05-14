@@ -33,7 +33,7 @@ if (isset($_POST['msg_submit'])) {
 
         // Mail content
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('neverlossme275@gmail.com');
+        $mail->addAddress('info@sagartech.co.in');
         $mail->isHTML(true);
         $mail->Subject = "Enquiry from $name";
         $mail->Body = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
