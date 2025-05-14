@@ -27,8 +27,8 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
-        // $mail->addAddress('patiladiti240@gmail.com');
+        // $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('neverlossme275@gmail.com');
 
         // Content
         $mail->isHTML(true);
@@ -37,6 +37,33 @@ if (isset($_POST['msg_submit'])) {
         $mail->Body = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
 
         $mail->send();
+
+        // API CALL to WordPress after successful email
+        $postData = [
+            'name' => $name,
+            'email' => $email,
+            'phone' => $phone,
+            'message' => $message
+        ];
+
+        $ch = curl_init('https://sagartech.co.in/blogs/wp-json/contact-form/v1/submit');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-Type: application/json'
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData));
+
+        $response = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+
+        // Optional: log or handle the response
+        if ($httpCode == 200 || $httpCode == 201) {
+            echo '1'; // success
+        } else {
+            echo '0'; // or handle failure
+        }
         echo '1';
     } catch (Exception $e) {
         echo '0';
