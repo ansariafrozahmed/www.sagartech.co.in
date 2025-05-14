@@ -779,7 +779,7 @@ include('config.php');
                       <a href="<?= WEB_URL ?>domain-service-provider-in-mumbai">Domain Registration</a>
                     </li>
                     <li>
-                      <a href="<?= WEB_URL ?>website-maintainance-company-in-mumbai">Website Maintainance</a>
+                      <a href="<?= WEB_URL ?>website-maintainance-company-in-mumbai">Website Maintenance</a>
                     </li>
                     <li>
                       <a href="<?= WEB_URL ?>wordpress-developers-in-mumbai">Wordpress Development</a>

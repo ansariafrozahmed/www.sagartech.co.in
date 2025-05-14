@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <title>Best Website maintainance company in Mumbai</title>
+    <title>Best Website Maintenance company in Mumbai</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find website maintainance? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
-    <meta name="keywords" content="Website Maintainance">
+        content="Are you trying to find website Maintenance? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+    <meta name="keywords" content="Website Maintenance">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Best Website maintainance company in Mumbai">
+    <meta property="og:title" content="Best Website Maintenance company in Mumbai">
     <meta property="og:url" content="https://sagartech.co.in/website-maintainance-company-in-mumbai">
     <meta property="og:image" content="https://sagartech.co.in/images\OG-Images\maintainance.png">
     <meta property="og:description"
-        content="Are you trying to find website maintainance? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
+        content="Are you trying to find website Maintenance? Our knowledgeable staff fulfills your digital vision. As a top web development company in Mumbai and a web design company, we deliver excellence.">
     <!-- Favicon -->
     <link rel="canonical" href="https://sagartech.co.in/website-maintainance-company-in-mumbai" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
@@ -1247,11 +1247,11 @@
     </style>
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">No. 1 Website Maintainance Company in Mumbai</h2>
+            <h2 style="line-height:40px;color:white">No. 1 Website Maintenance Company in Mumbai</h2>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
-                <li>Website Maintainance company in mumbai</li>
+                <li>Website Maintenance company in mumbai</li>
             </ul>
             <!-- <h3>Subtitle</h3> -->
             <p style="color:white">
@@ -1284,7 +1284,7 @@
 
     <div class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;">Why to choose us for website maintainance?</h2>
+            <h2 style="line-height:40px;">Why to choose us for website Maintenance?</h2>
             <!-- <h3>Subtitle</h3> -->
             <p>At Sagar Tech Technical Solutions, we combine expertise and dedication to ensure your website remains
                 flawless and functional. As one of Mumbai's leading <a
@@ -1406,7 +1406,7 @@
 
     <div class="ninth-ecom-sec">
         <h6>Importance of the service</h6>
-        <h2>Why does website maintainance matters?</h2>
+        <h2>Why does website Maintenance matters?</h2>
         <span>Website maintenance is crucial to keep your site secure, fast, and functional, ensuring an excellent user
             experience. Regular updates and performance checks prevent downtime, protect against cyber threats, and
             maintain your brand's credibility. A well-maintained website is key to staying competitive in the digital
@@ -1486,7 +1486,7 @@
     <div class="seventh-ecom-sec">
         <div class="ecom-head">
             <p style="text-align: center;">Transparent and Satisfactory</p>
-            <h2 style="text-align: center;">The Website Maintainance Process</h2>
+            <h2 style="text-align: center;">The Website Maintenance Process</h2>
             <!-- <span>
                     From custom layout design to required payment gateway integration, our eCommerce website developers treat every project in a unique manner. However, we follow a proven strategy to ensure a successful deployment within a quick turnaround time. Here it is:
                 </span> -->
@@ -1509,7 +1509,7 @@
     </div> -->
 
     <div class="ourprocesssection">
-        <h2>Why choose us for website maintainance?</h2>
+        <h2>Why Choose us for Website Maintenance?</h2>
         <div class="ourprocesssectiontwo">
             <div class="discover">
                 <div class="headingggggg">Expertise that Matters</div>
