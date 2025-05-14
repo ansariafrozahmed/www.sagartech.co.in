@@ -264,30 +264,18 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $('#myContact').on('submit', function (e) {
-        e.preventDefault(); // prevent page refresh
+        e.preventDefault();
 
         let formData = $(this).serialize();
 
         $.ajax({
             url: 'sendmail.php',
             method: 'POST',
-            data: formData,
-            beforeSend: function () {
-                $('#formResponse').text('Sending...');
-            },
-            success: function (response) {
-                console.log("Raw Response:", response); // 🔍 Debug output
-                if (response.trim() === '1') {
-                    $('#formResponse').text('Your message has been sent successfully!');
-                    $('#myContact')[0].reset();
-                } else {
-                    $('#formResponse').text('Something went wrong. Please try again.');
-                }
-            },
-            error: function () {
-                $('#formResponse').text('Server error. Please try again later.');
-            }
+            data: formData
         });
+
+        // Optionally reset form
+        $('#myContact')[0].reset();
     });
 </script>
 </body>
