@@ -141,7 +141,7 @@
                                         <div class="g-recaptcha"
                                             data-sitekey="6Lc8994hAAAAALf_4WIq1IRd7agMuQRqiHG2yp1l"></div>
                                     </div>
-                                    <button id="contact_send" class="button pull-right iq-mt-20">Send Message</button>
+                                    <button id="contact_send" type="submit" class="button pull-right iq-mt-20">Send Message</button>
                                     <p id="formResponse" role="alert"></p>
                                 </div>
                             </form>
@@ -263,29 +263,31 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    $('#contact_send').on('click', function () {
-        let formData = $('#myContact').serialize();
+   $('#myContact').on('submit', function (e) {
+    e.preventDefault(); // prevent default form submission
 
-        $.ajax({
-            url: 'sendmail.php',
-            method: 'POST',
-            data: formData,
-            beforeSend: function () {
-                $('#formResponse').text('Sending...');
-            },
-            success: function (response) {
-                if (response.trim() === '1') {
-                    $('#formResponse').text('Your message has been sent successfully!');
-                    $('#myContact')[0].reset();
-                } else {
-                    $('#formResponse').text('Something went wrong. Please try again.');
-                }
-            },
-            error: function () {
-                $('#formResponse').text('Server error. Please try again later.');
+    let formData = $(this).serialize();
+
+    $.ajax({
+        url: 'sendmail.php',
+        method: 'POST',
+        data: formData,
+        beforeSend: function () {
+            $('#formResponse').text('Sending...');
+        },
+        success: function (response) {
+            if (response.trim() === '1') {
+                $('#formResponse').text('Your message has been sent successfully!');
+                $('#myContact')[0].reset();
+            } else {
+                $('#formResponse').text('Something went wrong. Please try again.');
             }
-        });
+        },
+        error: function () {
+            $('#formResponse').text('Server error. Please try again later.');
+        }
     });
+});
 </script>
 </body>
 
