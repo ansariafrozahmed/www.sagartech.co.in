@@ -263,31 +263,32 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-   $('#myContact').on('submit', function (e) {
-    e.preventDefault(); // prevent default form submission
+    $('#myContact').on('submit', function (e) {
+        e.preventDefault(); // prevent page refresh
 
-    let formData = $(this).serialize();
+        let formData = $(this).serialize();
 
-    $.ajax({
-        url: 'sendmail.php',
-        method: 'POST',
-        data: formData,
-        beforeSend: function () {
-            $('#formResponse').text('Sending...');
-        },
-        success: function (response) {
-            if (response.trim() === '1') {
-                $('#formResponse').text('Your message has been sent successfully!');
-                $('#myContact')[0].reset();
-            } else {
-                $('#formResponse').text('Something went wrong. Please try again.');
+        $.ajax({
+            url: 'sendmail.php',
+            method: 'POST',
+            data: formData,
+            beforeSend: function () {
+                $('#formResponse').text('Sending...');
+            },
+            success: function (response) {
+                console.log("Raw Response:", response); // 🔍 Debug output
+                if (response.trim() === '1') {
+                    $('#formResponse').text('Your message has been sent successfully!');
+                    $('#myContact')[0].reset();
+                } else {
+                    $('#formResponse').text('Something went wrong. Please try again.');
+                }
+            },
+            error: function () {
+                $('#formResponse').text('Server error. Please try again later.');
             }
-        },
-        error: function () {
-            $('#formResponse').text('Server error. Please try again later.');
-        }
+        });
     });
-});
 </script>
 </body>
 
