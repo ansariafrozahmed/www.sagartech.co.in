@@ -726,13 +726,13 @@ include "include/config.php";
 
     <div class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;margin-bottom: 10px;">Why use Whtsify for Bulk WhatsApp Message?</h2>
+            <h2 style="line-height:40px;margin-bottom: 10px;">Why use Wonestop for Bulk WhatsApp Message?</h2>
             <!-- <h3>Subtitle</h3> -->
             <p>At Sagar Tech Technical Solutions, we deliver cutting-edge bulk SMS services designed to enhance your business communication. As a leading service provider in Mumbai, we help you connect with your audience instantly and effectively. Our reliable, cost-efficient, and customizable solutions ensure your messages reach the right people at the right time, driving better engagement and results. Whether it's promotional campaigns, transactional alerts, or reminders, our services are tailored to meet your needs. With robust API integration and multilingual support, we empower you to communicate seamlessly. Our real-time reporting tools help you track performance, ensuring maximum ROI. Choose us to experience unmatched reliability and round-the-clock support for all your bulk SMS needs.</p>
 
             <div class="herobuttonsnew">
                 <!-- <a href="#">Quick Enquiry</a> -->
-                <a href="https://whtsify.com/" class="button">Explore Now</a>
+                <a href="https://wonestop.com/" class="button">Explore Now</a>
             </div>
         </div>
         <div class="right">
@@ -749,9 +749,9 @@ include "include/config.php";
     <!-- Why Sagartech -->
 
     <div class="why-content">
-        <h2>Benefits of using Whtsify</h2>
+        <h2>Benefits of using Wonestop</h2>
         <p class="pp">
-            Elevate your communication strategy with Sagar Tech's advanced bulk SMS and WhatsApp messaging services. Leveraging platforms like Whtsify, we provide efficient, reliable, and scalable solutions tailored to your business needs. As a leading <a class="interlink" href="web-development-company-in-mumbai">Web Development</a> and <a class="interlink" href="digital-marketing-company-in-mumbai">Digital Marketing</a> company in Mumbai, we're here to enhance your messaging strategy.
+            Elevate your communication strategy with Sagar Tech's advanced bulk SMS and WhatsApp messaging services. Leveraging platforms like Wonestop, we provide efficient, reliable, and scalable solutions tailored to your business needs. As a leading <a class="interlink" href="web-development-company-in-mumbai">Web Development</a> and <a class="interlink" href="digital-marketing-company-in-mumbai">Digital Marketing</a> company in Mumbai, we're here to enhance your messaging strategy.
         </p>
         <div class="why-list">
             <div class="listt">
@@ -803,30 +803,30 @@ include "include/config.php";
     <h3 class="faq-headinggg">FAQs</h3>
     <div class="accordion">
         <div class="accordion-item">
-            <h2>What is Whtsify?</h2>
+            <h2>What is Wonestop?</h2>
             <div class="accordion-content">
-                <p>Whtsify is a WhatsApp-based messaging platform that helps businesses communicate with their customers efficiently through automation and marketing tools.</p>
+                <p>Wonestop is a WhatsApp-based messaging platform that helps businesses communicate with their customers efficiently through automation and marketing tools.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>How does Whtsify pricing work?</h2>
+            <h2>How does Wonestop pricing work?</h2>
             <div class="accordion-content">
                 <p>We offer pay-as-you-go pricing based on the number of messages sent, along with different packages tailored to marketing, utility, and authentication needs.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Do I need technical skills to use Whtsify?</h2>
+            <h2>Do I need technical skills to use Wonestop?</h2>
             <div class="accordion-content">
                 <p>Not at all! Our platform is user-friendly and designed for both technical and non-technical users. You can easily create campaigns and track conversations from your dashboard.</p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <h2>Can I integrate Whtsify with other tools?</h2>
+            <h2>Can I integrate Wonestop with other tools?</h2>
             <div class="accordion-content">
-                <p>Yes, Whtsify supports API integration for connecting with CRMs, websites, and third-party applications for seamless workflows.</p>
+                <p>Yes, Wonestop supports API integration for connecting with CRMs, websites, and third-party applications for seamless workflows.</p>
             </div>
         </div>
     </div>
