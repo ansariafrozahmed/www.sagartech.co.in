@@ -1072,12 +1072,12 @@
           vision.</p>
       </div>
       <div class="discover">
-        <div class="headinggg"><span style="font-size: 45px; font-weight: 900;">05</span>Asset Collection</div>
+        <div class="headinggg"><span style="font-size: 45px; font-weight: 900;">06</span>Asset Collection</div>
         <p>Our collaborative effort extends to collecting necessary assets from your end, such as logos, brand
           guidelines, and any specific content crucial for the design process.</p>
       </div>
       <div class="discover">
-        <div class="headinggg"><span style="font-size: 45px; font-weight: 900;">05</span>Regular Updates and Check-ins
+        <div class="headinggg"><span style="font-size: 45px; font-weight: 900;">07</span>Regular Updates and Check-ins
         </div>
         <p>Throughout the design process, we schedule regular check-ins to provide updates, address any concerns, and
           gather your feedback. This iterative approach ensures that the design evolves in line with your expectations.
