@@ -163,7 +163,7 @@ include('config.php');
   }
 
   .header .menu>ul>li .sub-menu.mega-menu-column-4 {
-    max-width: 1100px;
+    max-width: 1200px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
