@@ -529,15 +529,17 @@ include('include/config.php');
             <img src="./image/homepage/homeBanner.webp" alt="" srcset="">
         </div> -->
         <div class="video-container mobile-view">
-            <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
+            <!-- <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
                 <source src="./video/home-page-video.mp4" type="video/mp4">
-            </video>
+            </video> -->
+            <img style="width: 100%;" src="./image/homepage/home-page-banner-mobile.webp" alt="Web Development and Digital Marketing Agency In India" srcset="">
         </div>
 
         <div class="video-container desktop-view">
-            <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
+            <!-- <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
                 <source src="./video/home-page-video.mp4" type="video/mp4">
-            </video>
+            </video> -->
+            <img style="width: 100%;" src="./image/homepage/home-page-banner.webp" alt="Web Development and Digital Marketing Agency In India" srcset="">
         </div>
 
         <!-- Mobile Video -->
