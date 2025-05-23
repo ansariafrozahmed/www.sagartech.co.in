@@ -907,11 +907,11 @@ include('config.php');
                   </div>
                   <div style="display: flex; gap: 5px; align-items:center; ">
                     <img src="../product-images/wonestop.png" style="width: 30px; height: 100%;" alt="" />
-                    <li><a href="<?= WEB_URL ?>our-products/wonestop">Wonestop</a></li>
+                    <li><a href="<?= WEB_URL ?>our-products/bulk-whatsapp-api-marketing-software-in-india ">Wonestop</a></li>
                   </div>
                   <div style="display: flex; gap: 5px; align-items:center;">
                     <img src="../product-images/tappify.png" style="width: 30px; height: 100%;" alt="" />
-                    <li><a href="<?= WEB_URL ?>our-products/tappify">Tappify</a></li>
+                    <li><a href="<?= WEB_URL ?>our-products/nfc-digital-business-cards-in-india">Tappify</a></li>
                   </div>
                 </ul>
               </div>

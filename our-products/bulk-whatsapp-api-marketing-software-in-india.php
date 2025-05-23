@@ -4,23 +4,26 @@
 
 
 <head>
-    <title>Wonestop app in Dubai</title>
+    <title>Wonestop: Bulk WhatsApp Marketing & Automation | Sagar Tech</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Wonestop app in Dubai">
+    <meta name="description" content="Use Wonestop's WhatsApp bulk message sender and API marketing to increase sales. Automate campaigns and send a lot of WhatsApp messages for strong growth.
+">
     <script src="https://cdn.tailwindcss.com"></script>
-    <meta name="keywords" content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
+    <meta name="keywords"
+        content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
-    <link rel="canonical" href="https://sagartech.ae/our-products">
+    <link rel="canonical" href="https://sagartech.co.in/our-products/bulk-whatsapp-api-marketing-software-in-india">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Wonestop app in Dubai">
-    <meta property="og:description"
-        content="Wonestop app in Dubai">
-    <meta property="og:url" content="https://sagartech.ae/our-products">
+    <meta property="og:title" content="Wonestop: Bulk WhatsApp Marketing & Automation | Sagar Tech">
+    <meta property="og:description" content="Use Wonestop's WhatsApp bulk message sender and API marketing to increase sales. Automate campaigns and send a lot of WhatsApp messages for strong growth.
+">
+    <meta property="og:url"
+        content="https://sagartech.co.in/our-products/bulk-whatsapp-api-marketing-software-in-india">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.ae/images/sagartech1.webp">
     <!-- bootstrap -->
@@ -353,11 +356,11 @@
 
 
 <body>
-    <!-- <div id="loading">
+    <div id="loading">
         <div id="loading-center">
             <img src="../images/logoonly.jpg" alt="loder">
         </div>
-    </div> -->
+    </div>
     <?php
     $page = 'portfolio';
     include("../include/newHeader.php");
@@ -366,13 +369,24 @@
     <section class="chillinote-section">
         <div class="chillinote-content">
             <div class="chillinote-info">
-                <h1 class="chillinote-title">Wonestop — Smart Notes for Smarter Work</h1>
+                <h1 class="chillinote-title">Sagar Tech's WhatsApp Marketing Powerhouse, Grow Your Business
+                </h1>
                 <p class="chillinote-description">
-                    Capture thoughts, organize your tasks, and collaborate seamlessly—all in one intuitive workspace. Whether you're a student, professional, or a growing team, Wonestop simplifies productivity like never before.
+                    The secret to success in today's fast-paced digital environment is establishing a personal and
+                    direct connection with your audience. <a href="https://wonestop.com/"
+                        target="_blank"><strong>Wonestop</strong></a>, an effective platform from Sagar Tech,
+                    is here to
+                    transform your customer interactions, increase revenue, and create strong relationships.
+                    <br>
+                    With the help of <strong>Wonestop's</strong> innovative technologies, you'll discover the true
+                    effectiveness and
+                    impact of bulk WhatsApp marketing.
                 </p>
-                <div class="chillinote-buttons">
-                    <button class="chill-btn chill-primary" onclick="window.open('https://wonestop.com/', '_blank')">Get Started</button>
-                    <button class="chill-btn chill-secondary" onclick="window.open('https://sagartech.ae/contact', '_blank')">Talk to Us</button>
+                <div class=" chillinote-buttons">
+                    <button class="chill-btn chill-primary" onclick="window.open('https://wonestop.com/', '_blank')">Get
+                        Started</button>
+                    <button class="chill-btn chill-secondary"
+                        onclick="window.open('https://sagartech.ae/contact', '_blank')">Talk to Us</button>
                 </div>
             </div>
             <div class="chillinote-image">
@@ -384,8 +398,11 @@
     <section class="chillinote-benefits">
         <div class="chillinote-benefit-wrapper">
             <div class="chillinote-benefit-header">
-                <h2>What Makes Wonestop Unique</h2>
-                <p>Your all-in-one digital space to brainstorm, plan, and execute effortlessly—with tools designed for speed, clarity, and security.</p>
+                <h2>Why Use Wonestop for WhatsApp Marketing? The Direct Connection
+                </h2>
+                <p>WhatsApp is now a direct line to more than 2 billion active users worldwide, making it more than just
+                    a chat service. Consider the possibility of contacting your clients directly on the messaging app of
+                    their choice. Wonestop gives you the ability to:</p>
             </div>
 
             <div class="chillinote-benefit-columns">
@@ -393,22 +410,23 @@
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Real-Time Collaboration</h3>
-                            <p>Work together live—anytime, anywhere, across any device.</p>
+                            <h3>Bulk Messaging Made Easy</h3>
+                            <p>Easily send bulk WhatsApp messages to thousands of contacts at once.
+                            </p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Minimalist Design</h3>
-                            <p>A distraction-free interface that helps you stay focused and productive.</p>
+                            <h3>Targeted Campaigns</h3>
+                            <p>Use Wonestop's clever tools to carry out targeted campaigns with customized material.</p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Custom Organization</h3>
-                            <p>Create your own structure with folders, tags, and color-coded notes.</p>
+                            <h3>Higher Engagement Rates</h3>
+                            <p>Outperform traditional marketing channels in terms of engagement and open rates.</p>
                         </div>
                     </div>
                 </div>
@@ -421,22 +439,22 @@
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Work Offline</h3>
-                            <p>No connection? No problem. Notes auto-sync when you're back online.</p>
+                            <h3>Automated Communication</h3>
+                            <p>Use Wonestop to automate your communications for consistency and efficiency.</p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Privacy First</h3>
-                            <p>Built with end-to-end encryption to keep your data private and secure.</p>
+                            <h3>Instant Personalized Support</h3>
+                            <p>Provide instant, personalized support to enhance customer satisfaction.</p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Light & Dark Mode</h3>
-                            <p>Switch between themes based on your style or work environment.</p>
+                            <h3>Data-Driven Insights</h3>
+                            <p>Access detailed analytics to optimize future campaigns and improve ROI.</p>
                         </div>
                     </div>
                 </div>

@@ -4,23 +4,24 @@
 
 
 <head>
-    <title>Tappify app in Dubai</title>
+    <title>Smart NFC Business Cards in India | Digital Visiting Card</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Tappify app in Dubai">
+    <meta name="description"
+        content="Use Tappify's NFC business cards in Mumbai, India, to improve networking. With metal NFC choices and smart NFC cards, you can share contacts quickly. Your current digital business card.">
     <script src="https://cdn.tailwindcss.com"></script>
-    <meta name="keywords" content="Tappify app in Dubai">
+    <meta name="keywords" content="Tappify app in India">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
-    <link rel="canonical" href="https://sagartech.ae/our-products">
+    <link rel="canonical" href="https://sagartech.co.in/our-products/nfc-digital-business-cards-in-india">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Tappify app in Dubai">
+    <meta property="og:title" content="Smart NFC Business Cards in India | Digital Visiting Card">
     <meta property="og:description"
-        content="Tappify app in Dubai">
-    <meta property="og:url" content="https://sagartech.ae/our-products">
+        content="Use Tappify's NFC business cards in Mumbai, India, to improve networking. With metal NFC choices and smart NFC cards, you can share contacts quickly. Your current digital business card.">
+    <meta property="og:url" content="https://sagartech.co.in/our-products/nfc-digital-business-cards-in-india">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.ae/images/sagartech1.webp">
     <!-- bootstrap -->
@@ -353,11 +354,11 @@
 
 
 <body>
-    <!-- <div id="loading">
+    <div id="loading">
         <div id="loading-center">
             <img src="../images/logoonly.jpg" alt="loder">
         </div>
-    </div> -->
+    </div>
     <?php
     $page = 'portfolio';
     include("../include/newHeader.php");
@@ -366,13 +367,21 @@
     <section class="chillinote-section">
         <div class="chillinote-content">
             <div class="chillinote-info">
-                <h1 class="chillinote-title">Tappify — Smart, Seamless Productivity</h1>
+                <h1 class="chillinote-title">Tappify: Your Professional Presence, Reimagined.
+                </h1>
                 <p class="chillinote-description">
-                    Tappify is your all-in-one digital workspace — designed to simplify note-taking, streamline team collaboration, and boost everyday productivity. Whether you're working solo or with a team, Tappify adapts to your workflow.
+                    Introducing Tappify by
+                    Sagar Tech, the smart business card transforming professional connections. It's more than just a
+                    card; it's your unique digital identity, ready to connect and impress with just a tap.<br>
+                    Tappify resolves all this, instantly sharing your complete professional profile—including contact
+                    info, social media accounts, portfolio, and more—with a single tap. It's the perfect upgrade for
+                    every working professional, from consultants to busy advocate visiting cards.
                 </p>
                 <div class="chillinote-buttons">
-                    <button class="chill-btn chill-primary" onclick="window.open('https://tappify.me/', '_blank')">Get Started</button>
-                    <button class="chill-btn chill-secondary" onclick="window.open('https://sagartech.ae/contact', '_blank')">Talk to Us</button>
+                    <button class="chill-btn chill-primary" onclick="window.open('https://tappify.me/', '_blank')">Get
+                        Started</button>
+                    <button class="chill-btn chill-secondary"
+                        onclick="window.open('https://sagartech.ae/contact', '_blank')">Talk to Us</button>
                 </div>
             </div>
             <div class="chillinote-image">
@@ -384,8 +393,8 @@
     <section class="chillinote-benefits">
         <div class="chillinote-benefit-wrapper">
             <div class="chillinote-benefit-header">
-                <h2>Why Teams Love Tappify</h2>
-                <p>From ideation to execution, Tappify empowers you to stay organized, focused, and in sync — wherever you are.</p>
+                <h2>The Benefits of Tappify: Not Just Contact Information</h2>
+                <p>Tappify is about increasing your professional profile, not just exchanging stats.</p>
             </div>
 
             <div class="chillinote-benefit-columns">
@@ -393,22 +402,22 @@
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Live Collaboration</h3>
-                            <p>Work together with your team in real time — updates are instant and seamless.</p>
+                            <h3>Instant Professionalism</h3>
+                            <p>Create a memorable first impression with a stylish, tech-forward NFC business card.</p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Minimal, Elegant Interface</h3>
-                            <p>Stay focused with a clean and modern UI designed for productivity.</p>
+                            <h3>Always Up-to-Date</h3>
+                            <p>Update your profile online; your card instantly reflects the latest info</p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Custom Workflows</h3>
-                            <p>Organize your notes, tasks, and ideas in a way that suits your process.</p>
+                            <h3>Eco-Friendly & Sustainable</h3>
+                            <p>Eliminate paper waste by ditching traditional business cards.</p>
                         </div>
                     </div>
                 </div>
@@ -421,22 +430,22 @@
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Works Offline Too</h3>
-                            <p>Stay productive even when you're offline. Everything syncs when you're back.</p>
+                            <h3>Seamless Networking</h3>
+                            <p>Effortlessly connect at events, conferences, or casual interactions.</p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Built-In Security</h3>
-                            <p>Your data is protected with secure encryption and privacy-first design.</p>
+                            <h3>Customizable for Your Brand</h3>
+                            <p>Get exquisitely crafted cards that perfectly capture your company's spirit.</p>
                         </div>
                     </div>
                     <div class="chillinote-benefit">
                         <div class="icon-circle"><i class="fa-solid fa-check"></i></div>
                         <div>
-                            <h3>Light & Dark Modes</h3>
-                            <p>Switch between themes for a comfortable viewing experience anytime.</p>
+                            <h3>Comprehensive Digital Presence</h3>
+                            <p>Share your portfolio, website, and social media links directly.</p>
                         </div>
                     </div>
                 </div>
