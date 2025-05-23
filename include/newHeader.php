@@ -903,7 +903,7 @@ include('config.php');
                   </div>
                   <div style="display: flex; gap: 5px; align-items:center;">
                     <img src="../product-images/chillinote-logo1.png" style="width: 30px; height: 100%;" alt="" />
-                    <li><a href="<?= WEB_URL ?>our-products/chillinote">Chillinote</a></li>
+                    <li><a href="<?= WEB_URL ?>our-products/project-management-software-in-india">Chillinote</a></li>
                   </div>
                   <div style="display: flex; gap: 5px; align-items:center; ">
                     <img src="../product-images/wonestop.png" style="width: 30px; height: 100%;" alt="" />
