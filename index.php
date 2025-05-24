@@ -81,11 +81,6 @@ include('include/config.php');
 
         <!-- bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <!-- REVOLUTION STYLE SHEETS -->
-        <!-- <link href="revolution/css/settings.css" rel="stylesheet" type="text/css"> -->
-        <!-- ADD-ONS CSS FILES -->
-        <!-- <link href="revolution/css/revolution.addon.particles.css" rel="stylesheet" type="text/css"> -->
-        <!-- main style -->
         <link href="css/style.css" rel="stylesheet" type="text/css" />
         <!-- responsive -->
         <link href="css/responsive.css" rel="stylesheet" type="text/css" />
@@ -241,33 +236,8 @@ include('include/config.php');
             display: block;
         }
 
-
-        /* Style for the video container to make it responsive */
-        /* .video-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio (56.25% = 9/16 * 100) 
-            height: 0;
-            overflow: hidden;
-        } */
-
-        /* Ensure the video fits within the container */
-        /* .video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensure the video covers the entire container 
-            display: block;
-        } */
-
         /* Optional media queries to further control layout on small devices */
         @media (max-width: 768px) {
-
-            /* .video-container {
-                padding-bottom: 75%; /* Adjust to 4:3 aspect ratio for smaller screens if needed 
-            } */
             .faqs-heading {
                 font-weight: 700;
                 font-size: 30px !important;
@@ -453,26 +423,6 @@ include('include/config.php');
             height: 494px;
         }
 
-
-
-
-
-        /* .video-container {
-            position: relative;
-            width: 100%;
-            padding-top: 56.25%;
-            overflow: hidden;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
-        } */
-
         /* Optional: Hide/show based on device */
         /* @media (max-width: 767px) {
             .desktop-view {
@@ -503,7 +453,7 @@ include('include/config.php');
     <!-- loading -->
     <div id="loading">
         <div id="loading-center">
-            <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo">
+            <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo" loading="lazy">
         </div>
     </div>
     <?php
@@ -532,39 +482,17 @@ include('include/config.php');
             <!-- <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
                 <source src="./video/home-page-video.mp4" type="video/mp4">
             </video> -->
-            <img style="width: 100%;" src="./image/homepage/home-page-banner-mobile.webp" alt="Web Development and Digital Marketing Agency In India" srcset="">
+            <img style="width: 100%;" src="./image/homepage/home-page-banner-mobile.webp"
+                alt="Web Development and Digital Marketing Agency In India">
         </div>
 
         <div class="video-container desktop-view">
             <!-- <video class="video" autoplay loop muted poster="./video/home-page-video-thumbnail.png">
                 <source src="./video/home-page-video.mp4" type="video/mp4">
             </video> -->
-            <img style="width: 100%;" src="./image/homepage/home-page-banner.webp" alt="Web Development and Digital Marketing Agency In India" srcset="">
+            <img style="width: 100%;" src="./image/homepage/home-page-banner-optimized.webp"
+                alt="Web Development and Digital Marketing Agency In India">
         </div>
-
-        <!-- Mobile Video -->
-        <!-- <div class="video-container mobile-view">
-    <iframe 
-        src="https://www.youtube.com/embed/oAjMOpYPhZA?autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&playlist=oAjMOpYPhZA" 
-        title="YouTube video mobile" 
-        frameborder="0" 
-        allow="autoplay; encrypted-media" 
-        allowfullscreen>
-    </iframe>
-</div> -->
-
-        <!-- Desktop Video -->
-        <!-- <div class="video-container desktop-view">
-    <iframe 
-        src="https://www.youtube.com/embed/oAjMOpYPhZA?autoplay=1&loop=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&playlist=oAjMOpYPhZA
-" 
-        title="YouTube video desktop" 
-        frameborder="0" 
-        allow="autoplay; encrypted-media" 
-        allowfullscreen>
-    </iframe>
-</div> -->
-
 
         <?php
         include 'include/intro.php'
@@ -592,11 +520,6 @@ include('include/config.php');
                 e.parentNode.insertBefore(r, e)
             }(window, document);
         </script>
-
-
-
-
-
         <hr>
         <?php
         include 'include/ourClients.php'
@@ -754,14 +677,7 @@ include('include/config.php');
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-        <style>
+         <style>
             .index-testimonial {
                 padding: 50px 100px;
                 text-align: center;
@@ -937,10 +853,11 @@ include('include/config.php');
 
                         <img class="thumbnail" src="./image/homepage/Saquib-Agboatwala-thumbnail.webp" alt="Testimonial From SAQUIB AGBOATWALA (CEO)
 OASIS CONSULTING" title="Testimonial From SAQUIB AGBOATWALA (CEO)
-OASIS CONSULTING" srcset="">
+OASIS CONSULTING" loading="lazy">
                         <img class="icon"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"
-                            alt="" srcset="">
+                            alt="Testimonial From SAQUIB AGBOATWALA (CEO)
+OASIS CONSULTING" loading="lazy">
                     </a>
                 </div>
                 <div class="inner-right">
@@ -963,10 +880,11 @@ OASIS CONSULTING" srcset="">
 
                         <img class="thumbnail" src="./image/homepage/mukesh-ranka-thumbnail.webp" alt="Testimonial From MUKESH RANKA (FOUNDER)
 BS AUTO ACCESSORIES" title="Testimonial From MUKESH RANKA (FOUNDER)
-BS AUTO ACCESSORIES" srcset="">
+BS AUTO ACCESSORIES" loading="lazy">
                         <img class="icon"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/512px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png?20190606141903"
-                            alt="" srcset="">
+                            alt="Testimonial From MUKESH RANKA (FOUNDER)
+BS AUTO ACCESSORIES" loading="lazy">
 
                     </a>
                 </div>
@@ -982,11 +900,6 @@ BS AUTO ACCESSORIES" srcset="">
                 </div>
             </div>
         </div>
-
-
-
-
-
 
         <?php include "include/config.php"; ?>
 
@@ -1304,7 +1217,7 @@ BS AUTO ACCESSORIES" srcset="">
                         <div class="card-img-holder">
                             <a href="https://sagartech.co.in/blog/<?php echo $item['slug']; ?>">
                                 <img src="<?php echo $item['featured_image'] ? $item['featured_image'] : 'https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png'; ?>"
-                                    alt="<?php echo $item['title'] ?>">
+                                    alt="<?php echo $item['title'] ?>" loading="lazy">
                             </a>
                         </div>
                         <div class="card-content-holder">
