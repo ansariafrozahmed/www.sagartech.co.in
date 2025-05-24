@@ -1073,7 +1073,8 @@
 
     .fourth-brand-sec {
         /*background-color: #f2f2f2;*/
-        padding: 50px 100px;
+        /* padding: 50px 100px; */
+        padding: 50px 50px;
     }
 
     .fourth-brand-sec h2 {
@@ -1085,9 +1086,9 @@
 
     .fourth-card-div {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         /* grid-template-columns: 1fr 1fr 1fr; */
-        gap: 50px;
+        gap:0px;
     }
 
     .fourth-card {
@@ -1144,7 +1145,8 @@
 
         .fourth-card-div {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: 1fr 1fr;
             gap: 20px;
         }
     }
@@ -1759,10 +1761,16 @@
         <h2>Our Shopify Ecommerce Websites</h2>
         <div class="fourth-card-div">
             <div class="fourth-card">
-                <img src="portfolio-images/chief-parfum1.webp" alt="shopify website development company" title="Cotton Culture">
+                <img src="portfolio-images/cotton-culture2.webp" alt="shopify website development company" title="Cotton Culture">
             </div>
             <div class="fourth-card">
-                <img src="portfolio-images/cotton-culture1.webp" alt="shopify website development company" title="Chief Parfum">
+                <img src="portfolio-images/chief-parfum2.webp" alt="shopify website development company" title="Chief Parfum">
+            </div>
+            <div class="fourth-card">
+                <img src="portfolio-images/diamondtoys.webp" alt="shopify website development company" title="Diamond Toys">
+            </div>
+            <div class="fourth-card">
+                <img src="portfolio-images/zenitto.webp" alt="shopify website development company" title="Zenitto">
             </div>
         </div>
         <!-- <div class="portfolio-button">

@@ -210,6 +210,18 @@ include("../include/config.php");
         //     "link" => "https://chiefparfums.com/"
         // ),
         array(
+            "name" => "Diamond Toys",
+            "imgSrc" => "../portfolio-mockups/ecommerce/diamondtoys.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://diamondtoys.in/"
+        ),
+        array(
+            "name" => "Zenitto",
+            "imgSrc" => "../portfolio-mockups/ecommerce/zenitto.webp",
+            "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
+            "link" => "https://zenitto.in/"
+        ),
+        array(
             "name" => "Trillionaire",
             "imgSrc" => "../portfolio-mockups/ecommerce/trillionair.webp",
             "description" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.",
