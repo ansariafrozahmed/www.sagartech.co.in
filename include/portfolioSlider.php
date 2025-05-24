@@ -245,7 +245,7 @@ $slides = array(
     .inner-right .web_title {
       font-size: 25px;
       font-weight: 600;
-      text-align: left;
+      /* text-align: left;  */
     }
 
     .inner-right .desc {
