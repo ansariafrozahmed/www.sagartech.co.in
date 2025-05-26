@@ -51,7 +51,7 @@
     $page = 'about';
     include("include/newHeader.php");
     ?>
-    <h1 id="animatedHeading" class="text-5xl md:block hidden font-medium text-center ml-10 mt-7">
+    <h1 id="animatedHeading" class="text-4xl md:block hidden font-medium text-center ml-10 mt-8 mb-6">
         Creating Next Level Digital Products
     </h1>
     <div class="md:px-16 pb-10">
