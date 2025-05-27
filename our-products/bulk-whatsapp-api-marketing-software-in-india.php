@@ -352,6 +352,62 @@
             align-items: center;
         }
     }
+
+    /* sticky social icons css */
+    .stickysocialicon {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 9999;
+        background-color: white;
+        /* Optional: Add background for contrast */
+        padding: 5px;
+        border-radius: 8px 0 0 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .stickysocialicon ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .stickysocialicon ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .stickysocialicon ul li a svg {
+        color: #000;
+        /* Change as needed */
+        transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .stickysocialicon ul li a:hover svg {
+        transform: scale(1.2);
+        color: #007bff;
+        /* Optional hover color */
+    }
+
+    /* Optional: Adjust size for mobile */
+    @media (max-width: 600px) {
+        .stickysocialicon {
+            top: auto;
+            bottom: 35%;
+            right: 0px;
+            transform: none;
+        }
+
+        .stickysocialicon ul li {
+            margin: 8px 0;
+        }
+
+        .stickysocialicon ul li a svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
 </style>
 
 
@@ -462,12 +518,53 @@
         </div>
     </section>
 
-
-
-
-
-
-
+    <div class="stickysocialicon">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/sagartechwebdevelopersmumbai" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#FF0808"
+                        stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/w__onestop?igsh=cHk5dzJ0em12M3pw
+" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="#FF0808" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-instagram">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/sagar-tech-technical-solutions" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#FF0808"
+                        stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect width="4" height="12" x="2" y="9" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCRVxoCbFJAQdqo6U5bgFxog" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FF0808" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-youtube">
+                        <path
+                            d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                        <path d="m10 15 5-3-5-3z" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <?php
     include("../include/footer.php");

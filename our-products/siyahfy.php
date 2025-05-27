@@ -9,9 +9,11 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Sagar Tech Technical Solutions is a trusted provider of mobile app development services, specializing in delivering high-quality, user-centric solutions for iOS and Android platforms to enhance business performance and digital engagement.">
+    <meta name="description"
+        content="Sagar Tech Technical Solutions is a trusted provider of mobile app development services, specializing in delivering high-quality, user-centric solutions for iOS and Android platforms to enhance business performance and digital engagement.">
     <script src="https://cdn.tailwindcss.com"></script>
-    <meta name="keywords" content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
+    <meta name="keywords"
+        content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/our-products">
@@ -102,11 +104,6 @@
 
     }
 
-
-
-
-
-
     .product-content {
         display: flex;
         width: 100%;
@@ -195,8 +192,6 @@
             opacity: 0;
         }
     }
-
-
 
     .btn-primary {
         background-color: var(--button-dark) !important;
@@ -436,9 +431,63 @@
             padding: 40px 15px;
         }
     }
+
+    /* sticky social icons css */
+    .stickysocialicon {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 9999;
+        background-color: white;
+        /* Optional: Add background for contrast */
+        padding: 5px;
+        border-radius: 8px 0 0 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .stickysocialicon ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .stickysocialicon ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .stickysocialicon ul li a svg {
+        color: #000;
+        /* Change as needed */
+        transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .stickysocialicon ul li a:hover svg {
+        transform: scale(1.2);
+        color: #007bff;
+        /* Optional hover color */
+    }
+
+    /* Optional: Adjust size for mobile */
+    @media (max-width: 600px) {
+        .stickysocialicon {
+            top: auto;
+            bottom: 35%;
+            right: 0px;
+            transform: none;
+        }
+        
+        .stickysocialicon ul li {
+            margin: 8px 0;
+        }
+
+        .stickysocialicon ul li a svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
 </style>
-
-
 
 <body>
     <!-- <div id="loading">
@@ -457,14 +506,18 @@
                 <!-- <p class="product-subtitle">#1</p> -->
                 <h1 class="product-title">Siyahfy Software One Ecommerce Solution</h1>
                 <p class="product-description">
-                    Siyahfy is a modern digital publishing platform built to empower creators, educators, and businesses. Whether you're sharing articles, research, or educational content, Siyafy provides the tools you need to create, manage, and publish effortlessly.
+                    Siyahfy is a modern digital publishing platform built to empower creators, educators, and
+                    businesses. Whether you're sharing articles, research, or educational content, Siyafy provides the
+                    tools you need to create, manage, and publish effortlessly.
 
                 </p>
                 <div class="product-buttons">
-                    <button class="btn btn-primary" onclick="window.open('https://siyahfy.com/', '_blank')">Explore Now</button>
+                    <button class="btn btn-primary" onclick="window.open('https://siyahfy.com/', '_blank')">Explore
+                        Now</button>
 
 
-                    <button class="btn btn-secondary" onclick="window.open('https://sagartech.co.in/contact', '_blank')">Contact Us</button>
+                    <button class="btn btn-secondary"
+                        onclick="window.open('https://sagartech.co.in/contact', '_blank')">Contact Us</button>
 
                 </div>
             </div>
@@ -479,7 +532,8 @@
         <div class="benefit-container">
             <div class="benefit-header">
                 <h2>Why Businesses Choose Siyahfy</h2>
-                <p>Empower your online store with the tools, flexibility, and performance you need to grow without limits.</p>
+                <p>Empower your online store with the tools, flexibility, and performance you need to grow without
+                    limits.</p>
 
             </div>
 
@@ -558,8 +612,53 @@
         </div>
     </section>
 
-
-
+    <div class="stickysocialicon">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/sagartechwebdevelopersmumbai" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#FF0808"
+                        stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-facebook">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/siyahfy?igsh=ZnkzbmU4OXBnZ3l5
+" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                        stroke="#FF0808" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-instagram">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/company/sagar-tech-technical-solutions" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#FF0808"
+                        stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-linkedin">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect width="4" height="12" x="2" y="9" />
+                        <circle cx="4" cy="4" r="2" />
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCRVxoCbFJAQdqo6U5bgFxog" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#FF0808" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-youtube">
+                        <path
+                            d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
+                        <path d="m10 15 5-3-5-3z" />
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <?php
     include("../include/footer.php");
@@ -569,12 +668,6 @@
         <a class="top" id="top" href="#top"> <i class="ion-ios-arrow-up"></i> </a>
     </div>
 
-
 </body>
-
-
-
-
-
 
 </html>
