@@ -163,7 +163,7 @@ include('config.php');
 	<script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
+<!-- <body>
 <script type="text/javascript">
         (function () {
             var options = {
@@ -188,7 +188,7 @@ include('config.php');
             x.parentNode.insertBefore(s, x);
         })();
     </script>
-</body>	
+</body>	 -->
 <footer class="footer">
 	<div class="footer-upper">
 		<!-- <img src="<?= WEB_URL ?>images/sagartech.png" alt="sagartech logo"> -->
