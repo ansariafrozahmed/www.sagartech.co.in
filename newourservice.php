@@ -283,7 +283,7 @@
         font-size: 13px;
     }
 }
- p{
+p.our-service-content{
     margin-bottom: 0px;
     text-align:center;
  }
