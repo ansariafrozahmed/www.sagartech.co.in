@@ -44,6 +44,21 @@
         .portfolio-card:nth-child(7) { animation-delay: 0.7s; }
         .portfolio-card:nth-child(8) { animation-delay: 0.8s; }
         .portfolio-card:nth-child(9) { animation-delay: 0.9s; }
+
+       #animatedHeading {
+      white-space: normal;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+
+    #animatedHeading .word {
+      white-space: nowrap;
+      margin-right: em; /* Mimics natural spacing between words */
+    }
+
+    #animatedHeading .char {
+      display: inline-block;
+    }
     </style>
 </head>
 <body>
@@ -52,23 +67,17 @@
     include("include/newHeader.php");
     ?>
     <div class="md:my-5  flex flex-col justify-center items-center px-5">
-
-      <h1 id="animatedHeading" class="text-3xl md:max-w-[640px] w-full  uppercase md:block hidden font-medium text-center mt-7">
+   <h1 id="animatedHeading" class="text-3xl md:max-w-[640px] w-full uppercase  font-medium text-center mt-7">
+    See The Digital Transformation Check Out Our Innovative Projects Portfolio
+  </h1>
+      <h1 id="animatedHead" class="md:text-3xl text-xl md:max-w-[640px] uppercase block md:hidden font-medium text-center mt-7">
         See The Digital Transformation Check Out Our Innovative Projects Portfolio
       </h1>
-      <h1 id="animatedHead" class="md:text-3xl text-xl md:max-w-[640px]  uppercase block md:hidden font-medium text-center mt-7">
-        See The Digital Transformation Check Out Our Innovative Projects Portfolio
-      </h1>
-      <div class="text-sm text-gray-600 md:max-w-[800px] w-full md:text-center text-justify  ">
+      <div class="text-sm text-gray-600 md:max-w-[800px] w-full md:text-center text-justify">
         Explore Sagar Tech's different portfolio, where each project confirms our expertise in digital marketing, app development, and website development. See how we turn ideas into powerful digital realities that generate visible results and success for companies all around the world. Learn about the creative fixes that make us successful.
       </div>
     </div>
-      <div class="md:px-16 pb-10">
-        <!-- <div class="">
-            <h1 class="text-3xl md:block block font-medium text-center px-5 mt-7">
-                Creating Next Level Digital Products
-            </h1>
-        </div> -->
+    <div class="md:px-16 pb-10">
         <div class="flex md:flex-row flex-col justify-between">
             <div class="md:w-[20%] w-full p-5 md:sticky md:top-24 bg-white top-16 h-full">
                 <div class="flex justify-between items-center">
@@ -98,7 +107,7 @@
                             <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Social Media Post</li>
                         </ul>
                     </div>
-                    <div class="relative w-full max-w-sm mt-6">
+                    <div id="projectTypeContainer" class="relative w-full max-w-sm mt-6">
                         <div class="relative">
                             <label for="projectType" class="absolute -top-2 text-xs bg-white left-3 px-1 font-medium text-gray-700">
                                 Select Project Type
@@ -131,127 +140,66 @@
         </div>
     </div>
 
-    <!-- Popup Modal -->
-    <!-- <div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
-        <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:h-[90vh] max-sm:h-full max-sm:overflow-hidden">
-            <button id="closePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
-          <div class="flex max-sm:!flex-col md:flex-row items-start gap-5" id="popupContent">
-            <div class="w-full md:w-[30%]" id="work-details">
-              <div class="flex flex-col  gap-2">
-                <h2 id="popupTitle" class="text-xl md:text-3xl font-semibold text-gray-800"></h2>
-                <div class=" ">
-
-                  <a id="popupLink" href="#" class=" flex items-center gap-3 text-red-500 hover:text-red-700"><i class="fa-solid fa-link"></i>
-                  <p class=" text-sm text-gray-600" id="popupLinkText" ></p>
-                </a>
-
-                
-                </div>
-              </div>
-              <div class="mt-5 text-gray-800 text-lg font-medium tracking-wide">
-                Project Description
-              </div>
-              <div id="popupDescription" class="text-gray-600 text-sm mt-2 tracking-wide leading-5 text-justify"></div>
-              <div class="">
-                <h4 class="mt-5 text-gray-800 text-lg font-medium tracking-wide mb-3">Skills & Deliverables.</h4>
-                <div class="flex items-center gap-2 flex-wrap">
-                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
-                    Next Js
-                  </div>
-                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
-                    WordPress
-                  </div>
-                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
-                    HTML
-                  </div>
-                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
-                  JavaScript
-                  </div>
-                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
-                  Node Js
-                  </div>
-                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
-                  Express Js
-                  </div>
-                
-                </div>
-              </div>
-            </div>
-            <div class="w-full md:w-[70%] md:h-[500px] max-sm:h-96 overflow-y-auto scrollbar-auto flex justify-center items-start" id="long-img">
-              <img id="popupImage" src="" alt="Project Image" class="w-full max-sm:w-full h-auto object-contain rounded-md" />
-            </div>
-          </div>
-        </div>
-    </div> -->
-
-    <!-- Existing Full Popup Modal -->
-<div id="projectPopup" class="fixed  inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
-  <button id="closePopup" class="absolute top-10 md:top-5 right-5 z-50  md:text-white hover:text-gray-300">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-      </svg>
-  </button>
-    <div class="bg-white rounded-lg  max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:h-[90vh] max-sm:h-[90vh] max-sm:overflow-y-auto scrollbar-auto">
-        <div class="flex max-sm:flex-col md:flex-row items-start gap-5" id="popupContent">
-            <div class="w-full md:w-[30%]" id="work-details">
-                <div class="flex flex-col gap-2">
-                    <h2 id="popupTitle" class="text-xl md:text-3xl font-semibold text-gray-800"></h2>
-                    <div class="">
-                        <a id="popupLink" href="#" class="flex items-center gap-3 text-red-500 hover:text-red-700">
-                            <i class="fa-solid fa-link"></i>
-                            <p class="text-sm text-gray-600" id="popupLinkText"></p>
-                        </a>
-                    </div>
-                </div>
-                <div class="mt-5 text-gray-800 text-lg font-medium tracking-wide">
-                    Project Description
-                </div>
-                <div id="popupDescription" class="text-gray-600 text-sm mt-2 tracking-wide leading-5 text-justify"></div>
-                <div class="">
-                    <h4 class="mt-5 text-gray-800 text-lg font-medium tracking-wide mb-3">Skills & Technologies</h4>
-                    <div class="flex items-center gap-2 flex-wrap">
-                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">Next Js</div>
-                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">WordPress</div>
-                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">HTML</div>
-                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">JavaScript</div>
-                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">Node Js</div>
-                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">Express Js</div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-[70%] md:h-[500px] md:overflow-y-auto md:scrollbar-auto flex justify-center items-start" id="long-img">
-                <img id="popupImage" src="" alt="Project Image" class="w-full max-sm:w-full h-auto object-contain rounded-md" />
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- New Image-Only Popup Modal -->
-<div id="imagePopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
-    <div class="bg-white rounded-lg w-full max-w-3xl mx-4 md:mx-0 p-4 relative">
-        <button id="closeImagePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
+    <!-- Full Popup Modal -->
+    <div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
+        <button id="closePopup" class="absolute top-10 md:top-5 right-5 z-50 md:text-white hover:text-gray-300">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
         </button>
-        <div class="w-full flex justify-center items-center">
-            <img id="imagePopupImage" src="" alt="Project Image" class="w-full max-w-[70%] h-auto object-contain rounded-md" />
+        <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:h-[90vh] max-sm:h-[90vh] max-sm:overflow-y-auto scrollbar-auto">
+            <div class="flex max-sm:flex-col md:flex-row items-start gap-5" id="popupContent">
+                <div class="w-full md:w-[30%]" id="work-details">
+                    <div class="flex flex-col gap-2">
+                        <h2 id="popupTitle" class="text-xl md:text-3xl font-semibold text-gray-800"></h2>
+                        <div class="">
+                            <a id="popupLink" href="#" class="flex items-center gap-3 text-red-500 hover:text-red-700">
+                                <i class="fa-solid fa-link"></i>
+                                <p class="text-sm text-gray-600" id="popupLinkText"></p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-5 text-gray-800 text-lg font-medium tracking-wide">
+                        Project Description
+                    </div>
+                    <div id="popupDescription" class="text-gray-600 text-sm mt-2 tracking-wide leading-5 text-justify"></div>
+                    <div class="">
+                        <h4 class="mt-5 text-gray-800 text-lg font-medium tracking-wide mb-3">Skills & Technologies</h4>
+                        <div id="skillsContainer" class="flex items-center gap-2 flex-wrap">
+                            <!-- Skills will be dynamically inserted here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-[70%] md:h-[500px] md:overflow-y-auto md:scrollbar-auto flex justify-center items-start" id="long-img">
+                    <img id="popupImage" src="" alt="Project Image" class="w-full max-sm:w-full h-auto object-contain rounded-md" />
+                </div>
+            </div>
         </div>
     </div>
-</div>
+
+    <!-- Image-Only Popup Modal -->
+    <div id="imagePopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
+        <div class="bg-white rounded-lg w-full max-w-3xl mx-4 md:mx-0 p-4 relative">
+            <button id="closeImagePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <div class="w-full flex justify-center items-center">
+                <img id="imagePopupImage" src="" alt="Project Image" class="w-full max-w-[70%] h-auto object-contain rounded-md" />
+            </div>
+        </div>
+    </div>
 
     <script>
-      // MAIN OBJECT DETAILS
-       const portfolioItems = [
+
+ const portfolioItems = [
   {
     imgPath: "./portfolio-mockups/business/verify8.webp",
     title: "Verify8",
     service: "Web Development",
     projectType: "Business",
+    skill_and_tech:["Next Js", "React Js", "HTML", "CSS", "Tailwind"],
     project_desc:`<div>
     <p class="mb-3">Verify8 is the result of two inspiring journeys — one starting in Mumbai in 1999 and the other in Singapore in 2021. After decades of diverse experience, both paths merged to form a powerful tech company committed to innovation. With roots in ConnectT, Verify8 specializes in digital transformation and now operates across Singapore, Australia, Southeast Asia, and New Zealand. We empower businesses with cutting-edge solutions and a passion for unlocking growth.</p>
     </div>`,
@@ -265,6 +213,8 @@
     title: "Don't Quit Ventures",
     service: "Web Development",
     projectType: "Business",
+    skill_and_tech:["Next Js", "React Js", "Tailwind"],
+
     project_desc:`<div>
     <p class="mb-3">Don't Quit Ventures is a forward-thinking venture capital firm focused on empowering Australia's startup ecosystem. We invest in unique, high-potential ideas that often struggle to find support through traditional funding channels. Our mission is to back visionary entrepreneurs with strategic capital and hands-on guidance. By nurturing innovation and resilience, we help transform ambitious concepts into successful, scalable businesses.</p>
    </div>`,
@@ -278,6 +228,7 @@
     title: "Noor Al Salama",
     service: "Web Development",
     projectType: "Business",
+    skill_and_tech:["WordPress", "JavaScript", "HTML", "CSS", "PHP"],
     project_desc:`<div>
     <p class="mb-3">At Noor Al Salama Auto Repair Services, customer satisfaction is at the heart of everything we do. Our mission is to deliver top-quality car services that ensure reliability, performance, and driving enjoyment — all at competitive prices. We’re dedicated to continuous improvement, sourcing guaranteed parts efficiently to provide the best value and service to our clients.</p>
     </div>`,
@@ -291,6 +242,7 @@
     title: "Eva Skin",
     service: "Web Development",
     projectType: "Business",
+    skill_and_tech:["WordPress", "JavaScript", "HTML", "CSS", "PHP"],
     project_desc:`<div>
     <p class="mb-3">Eva Life Care Clinic, founded by Dr. Aiman Munshi, offers holistic healthcare services with a client-centric approach. A certified aesthetic physician and homeopath, Dr. Munshi is one of the youngest members of the Maharashtra Council for Homeopathy. Her expertise spans Skin & Hair Care, Homeopathy, and Cupping Therapy. Backed by experience at Prince Aly Khan Hospital and mentorship from top skin specialists in South Mumbai, she brings a blend of knowledge and compassion to every treatment.</p>
     </div>`,
@@ -304,6 +256,7 @@
     title: "Yogesh Prashna",
     service: "Web Development",
     projectType: "Business",
+    skill_and_tech:["JavaScript", "HTML", "CSS", "PHP","BootStrap"],
     project_desc:`<div>
     <p class="mb-3">Prashna is a Dubai-based global freelance makeup artist certified by AOFM, one of the world's leading makeup academies. With backstage experience at major fashion events like Arab Fashion Week, Middle East Fashion Week, and Melbourne Fashion Week, the brand brings a rich blend of global styles and techniques. Prashna works with professional models, photographers, and artists, and offers services across the Middle East and internationally.</p>
     </div>`,
@@ -317,6 +270,7 @@
     title: "DPC Saudi",
     service: "Web Development",
     projectType: "Business",
+    skill_and_tech:["JavaScript", "HTML", "CSS", "PHP","BootStrap"],
     project_desc:`<div>
     <p class="mb-3">Drilling Performance brings extensive industry experience with a strong focus on efficiency, capability, and integrity. With a future-driven approach, the company leverages advanced offshore drilling technologies to deliver reliable energy solutions. A deep commitment to safety, quality, and client satisfaction reflects the dedication of its team. Drilling Performance continues to lead with innovation and excellence in all aspects of its operations.</p>
     </div>`,
@@ -330,11 +284,12 @@
     title: "Saudi Wells",
     service: "Web Development",
     projectType: "Business",
+    skill_and_tech:["JavaScript", "HTML", "CSS", "PHP","BootStrap"],
     project_desc:`<div>
     <p class="mb-3">Saudi Wells Technology Factory Company (SWTF), established in 2010, specializes in designing and supplying advanced equipment for the oil and gas industry. Their product range includes wellhead control panels, hydraulic power units, ESD systems, chemical injection systems, high-pressure test equipment, and more. Known for engineering expertise and field-proven technologies, SWTF offers in-house testing, reliable after-sales service, on-site support, and 24/7 troubleshooting to ensure efficient and innovative solutions.</p>
     </div>`,
      long_img:"./images/long-images/saudiwells.webp",
-    web_url:"https://saudiwells.com/#",
+    web_url:"https://saudiwells.com/",
        bgGradientStart: "#606773", // Dark color for the gradient
     bgGradientEnd: "#606773"
   },
@@ -1823,11 +1778,242 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
        bgGradientStart: "#2c2a2d", // Pink color for the gradient
     bgGradientEnd: "#2c2a2d"
   },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Alsalama.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Alsalama.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Bareziya%20Architects.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Bareziya%20Architects.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20BlueMed.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20BlueMed.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20BS%20Auto.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20BS%20Auto.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Cotton%20Culture.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Cotton%20Culture.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Folkso.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Folkso.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20MCM%20Phoenix.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20MCM%20Phoenix.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Royal%20Wrists.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20Royal%20Wrists.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20trillionaire.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%202%20-%20trillionaire.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/1.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/1.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/2.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/2.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/3.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/3.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/4.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/4.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/5.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/5.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/6.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/6.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/7.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/7.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/8.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/8.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/9.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/9.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/10.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/10.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/11.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/11.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/12.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/12.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
 
 ];
 
    
-// Service to project type mapping
+        // Service to project type mapping
         const serviceProjectTypes = {
             "Web Development": [
                 "Business", "Builders", "Catalogue", "Logistics", "Ecommerce",
@@ -1840,38 +2026,46 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
             "Banner Design": [
                 "Digital Ads", "Social Media", "Print Media"
             ],
+            "Social Media Post": [
+                "Digital Ads", "Social Media", "Print Media"
+            ],
+            "Logo Design": [
+                "Branding", "Corporate Identity"
+            ],
+            // Add other services as needed
         };
 
         // Animate heading
-    function splitTextByChar(el) {
-    const text = el.innerHTML.trim();
-    const characters = text.split("").map(char => {
-        return char === " " ? `<span class="inline-block char">&nbsp;</span>` : `<span class="inline-block char">${char}</span>`;
-    }).join("");
-    el.innerHTML = characters;
-}
+       function splitTextByWordAndChar(el) {
+      const text = el.innerHTML.trim();
+      const words = text.split(" ").map(word => {
+        const chars = word
+          .split("")
+          .map(char => `<span class="char">${char}</span>`)
+          .join("");
+        return `<span class="word">${chars}</span>`;
+      }).join(" ");
+      el.innerHTML = words;
+    }
 
-const heading = document.getElementById("animatedHeading");
-splitTextByChar(heading);
+    const heading = document.getElementById("animatedHeading");
+    splitTextByWordAndChar(heading);
 
-// GSAP animation for characters
-document.addEventListener("DOMContentLoaded", () => {
-    const chars = document.querySelectorAll("#animatedHeading .char");
-    gsap.fromTo(
+    document.addEventListener("DOMContentLoaded", () => {
+      const chars = document.querySelectorAll("#animatedHeading .char");
+      gsap.fromTo(
         chars,
         { y: 50, opacity: 0 },
         {
-            y: 0,
-            opacity: 1,
-            duration: 0.2,
-            ease: "power2.out",
-            stagger: 0.02,
-            delay: 0.1
+          y: 0,
+          opacity: 1,
+          duration: 0.2,
+          ease: "power2.out",
+          stagger: 0.02,
+          delay: 0.1
         }
-    );
-});
-   
-
+      );
+    });
         // Service filter dropdown
         function toggleDropdown() {
             const serviceList = document.getElementById("serviceList");
@@ -1939,9 +2133,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Update project type list based on selected service
         function updateProjectTypeList(service) {
+            const projectTypeContainer = document.getElementById("projectTypeContainer");
             const projectTypeList = document.getElementById("projectTypeList");
             projectTypeList.innerHTML = "";
             const projectTypes = serviceProjectTypes[service] || [];
+
+            // Hide project type input for Banner Design or Social Media Post
+            if (service === "Banner Design" || service === "Social Media Post" || service === "Brochure Design" || service === "Logo Design") {
+                projectTypeContainer.classList.add("hidden");
+            } else {
+                projectTypeContainer.classList.remove("hidden");
+            }
+
             if (projectTypes.length === 0) {
                 projectTypeList.innerHTML = `<li class="px-4 py-2 text-sm text-gray-500">No project types available</li>`;
             } else {
@@ -1963,55 +2166,56 @@ document.addEventListener("DOMContentLoaded", () => {
         let currentItems = portfolioItems; // Track current items (filtered or unfiltered)
 
         // Render portfolio cards
-      // Render portfolio cards
-function renderCards(items, page = 1) {
-    const portfolioGrid = document.querySelector("#portfolioContainer");
-    portfolioGrid.innerHTML = ""; // Clear existing cards
-    const fragment = document.createDocumentFragment();
+        function renderCards(items, page = 1) {
+            const portfolioGrid = document.querySelector("#portfolioContainer");
+            portfolioGrid.innerHTML = ""; // Clear existing cards
+            const fragment = document.createDocumentFragment();
 
-    const startIndex = (page - 1) * cardsPerPage;
-    const endIndex = Math.min(startIndex + cardsPerPage, items.length);
+            const startIndex = (page - 1) * cardsPerPage;
+            const endIndex = Math.min(startIndex + cardsPerPage, items.length);
 
-    for (let index = startIndex; index < endIndex; index++) {
-        const item = items[index];
-        const card = document.createElement("div");
-        card.classList.add("portfolio-card", "relative", "bg-white", "p-3", "rounded-2xl", "overflow-hidden", "max-w-[350px]", "w-full", "fade-up");
-        card.setAttribute("data-service", item.service);
-        card.setAttribute("data-project", item.projectType);
+            for (let index = startIndex; index < endIndex; index++) {
+                const item = items[index];
+                const card = document.createElement("div");
+                card.classList.add("portfolio-card", "relative", "bg-white", "p-3", "rounded-2xl", "overflow-hidden", "max-w-[350px]", "w-full", "fade-up");
+                card.setAttribute("data-service", item.service);
+                card.setAttribute("data-project", item.projectType);
 
-        // Check if service is "Banner Design" or "Social Media Post"
-        const isBannerOrSocial = item.service === "Banner Design" || item.service === "Social Media Post" || item.service ==="Logo Design" ;
+                // Check if service is "Banner Design" or "Social Media Post"
+                const isBannerOrSocial = item.service === "Banner Design" || item.service === "Social Media Post";
 
-        const descriptionHtml = isBannerOrSocial
-            ? ""
-            : `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
-        const titleHtml = isBannerOrSocial
-            ? ""
-            : `<div class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
+                const descriptionHtml = isBannerOrSocial
+                    ? ""
+                    : `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
+                const titleHtml = isBannerOrSocial
+                    ? ""
+                    : `<div class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
 
-        card.innerHTML = `
-            <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-                <div class="relative overflow-hidden p-2">
-                    <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
-                </div>
-                <div class="p-5">
-                    <div class="flex items-center justify-between">
-                        ${titleHtml}
-                        <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">
-                            View
-                        </button>
+                card.innerHTML = `
+                    <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                        <div class="relative overflow-hidden p-2">
+                            <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
+                        </div>
+                        <div class="p-5">
+                            <div class="flex items-center justify-between">
+                                ${titleHtml}
+                                <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">
+                                    View
+                                </button>
+                            </div>
+                            ${descriptionHtml}
+                        </div>
                     </div>
-                    ${descriptionHtml}
-                </div>
-            </div>
-        `;
+                `;
 
-        fragment.appendChild(card);
-    }
+                fragment.appendChild(card);
+            }
 
-    portfolioGrid.appendChild(fragment);
-    renderPagination(items, page);
-}// Render pagination buttons
+            portfolioGrid.appendChild(fragment);
+            renderPagination(items, page);
+        }
+
+        // Render pagination buttons
         function renderPagination(items, currentPage) {
             const paginationContainer = document.getElementById("paginationContainer");
             paginationContainer.innerHTML = "";
@@ -2067,7 +2271,7 @@ function renderCards(items, page = 1) {
                     renderCards(items, currentPage);
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 };
-                paginationContainer.appendChild(nextButton); // Fixed typo
+                paginationContainer.appendChild(nextButton);
             }
         }
 
@@ -2079,76 +2283,96 @@ function renderCards(items, page = 1) {
         });
 
         // Popup functionality
-       // Popup functionality
-          const projectPopup = document.getElementById("projectPopup");
-          const imagePopup = document.getElementById("imagePopup");
-          const popupContent = document.getElementById("popupContent");
-          const workDetails = document.getElementById("work-details");
-          const longImg = document.getElementById("long-img");
-          const popupTitle = document.getElementById("popupTitle");
-          const popupImage = document.getElementById("popupImage");
-          const popupDescription = document.getElementById("popupDescription");
-          const popupLink = document.getElementById("popupLink");
-          const popupLinkText = document.getElementById("popupLinkText");
-          const closePopup = document.getElementById("closePopup");
-          const closeImagePopup = document.getElementById("closeImagePopup");
-          const imagePopupImage = document.getElementById("imagePopupImage");
+        const projectPopup = document.getElementById("projectPopup");
+        const imagePopup = document.getElementById("imagePopup");
+        const popupContent = document.getElementById("popupContent");
+        const workDetails = document.getElementById("work-details");
+        const longImg = document.getElementById("long-img");
+        const popupTitle = document.getElementById("popupTitle");
+        const popupImage = document.getElementById("popupImage");
+        const popupDescription = document.getElementById("popupDescription");
+        const popupLink = document.getElementById("popupLink");
+        const popupLinkText = document.getElementById("popupLinkText");
+        const closePopup = document.getElementById("closePopup");
+        const closeImagePopup = document.getElementById("closeImagePopup");
+        const imagePopupImage = document.getElementById("imagePopupImage");
 
-          document.addEventListener("click", function (event) {
-              if (event.target.closest(".view-button")) {
-                  const index = event.target.closest(".view-button").dataset.index;
-                  const item = currentItems[index]; // Use currentItems to ensure correct item
+        document.addEventListener("click", function (event) {
+            if (event.target.closest(".view-button")) {
+                const index = event.target.closest(".view-button").dataset.index;
+                const item = currentItems[index]; // Use currentItems to ensure correct item
 
-                  // Check if service is Banner Design or Social Media Post
-                  if (item.service === "Banner Design" || item.service === "Social Media Post" || item.service === "Logo Design") {
-                      // Show image-only popup
-                      imagePopupImage.src = item.long_img || './fallback-image.webp';
-                      imagePopupImage.alt = item.title;
-                      imagePopup.classList.remove("hidden");
-                  } else {
-                      // Show full project popup
-                      popupTitle.textContent = item.title;
-                      popupImage.src = item.long_img || './fallback-image.webp';
-                      popupImage.alt = item.title;
-                      popupDescription.innerHTML = item.project_desc || 'No description available';
-                      popupLink.href = item.web_url || '#';
-                      popupLinkText.textContent = item.web_url || 'No link available';
+                // Check if service is Banner Design, Social Media Post
+                if (item.service === "Banner Design" || item.service === "Social Media Post") {
+                    // Show image-only popup
+                    imagePopupImage.src = item.long_img || './fallback-image.webp';
+                    imagePopupImage.alt = item.title;
+                    imagePopup.classList.remove("hidden");
+                } else {
+                    // Show full project popup
+                    popupTitle.textContent = item.title;
+                    popupImage.src = item.long_img || './fallback-image.webp';
+                    popupImage.alt = item.title;
+                    popupDescription.innerHTML = item.project_desc || 'No description available';
+                    popupLink.href = item.web_url || '#';
+                    popupLinkText.textContent = item.web_url || 'No link available';
 
-                      // Adjust layout for non-Banner Design/Social Media Post
-                      workDetails.classList.remove("hidden");
-                      longImg.classList.remove("w-full");
-                      longImg.classList.add("md:w-[70%]");
-                      popupContent.classList.remove("flex-col");
-                      popupContent.classList.add("md:flex-row");
-                      popupImage.classList.remove("w-[80%]");
-                      popupImage.classList.add("w-[80%]");
+                    // Populate skills dynamically
+                    const skillsContainer = document.getElementById("skillsContainer");
+                    skillsContainer.innerHTML = ""; // Clear existing skills
+                    (item.skill_and_tech || []).forEach(skill => {
+                        const skillDiv = document.createElement("div");
+                        skillDiv.className = "py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit";
+                        skillDiv.textContent = skill;
+                        skillsContainer.appendChild(skillDiv);
+                    });
 
-                      projectPopup.classList.remove("hidden");
-                  }
-              }
-          });
+                    // Adjust layout for non-Banner Design/Social Media Post
+                    workDetails.classList.remove("hidden");
+                    longImg.classList.remove("w-full");
+                    longImg.classList.add("md:w-[70%]");
 
-          // Close project popup
-          closePopup.addEventListener("click", () => {
-              projectPopup.classList.add("hidden");
-          });
+                    // Center image for Logo Design
+                    if (item.service === "Logo Design") {
+                        longImg.classList.remove("items-start");
+                        longImg.classList.add("items-center");
+                    } else {
+                        longImg.classList.remove("items-center");
+                        longImg.classList.add("items-start");
+                    }
 
-          projectPopup.addEventListener("click", (event) => {
-              if (event.target === projectPopup) {
-                  projectPopup.classList.add("hidden");
-              }
-          });
+                    popupContent.classList.remove("flex-col");
+                    popupContent.classList.add("md:flex-row");
+                    popupImage.classList.remove("w-[80%]");
+                    popupImage.classList.add("w-[80%]");
 
-          // Close image popup
-          closeImagePopup.addEventListener("click", () => {
-              imagePopup.classList.add("hidden");
-          });
+                    projectPopup.classList.remove("hidden");
+                }
+            }
+        });
 
-          imagePopup.addEventListener("click", (event) => {
-              if (event.target === imagePopup) {
-                  imagePopup.classList.add("hidden");
-              }
-          });
+        // Close project popup
+        closePopup.addEventListener("click", () => {
+            projectPopup.classList.add("hidden");
+        });
+
+        projectPopup.addEventListener("click", (event) => {
+            if (event.target === projectPopup) {
+                projectPopup.classList.add("hidden");
+            }
+        });
+
+        // Close image popup
+        closeImagePopup.addEventListener("click", () => {
+            imagePopup.classList.add("hidden");
+        });
+
+        imagePopup.addEventListener("click", (event) => {
+            if (event.target === imagePopup) {
+                imagePopup.classList.add("hidden");
+            }
+        });
+
         // Filter cards
         function filterCards() {
             const selectedService = document.getElementById("serviceInput").value.trim().toLowerCase();
