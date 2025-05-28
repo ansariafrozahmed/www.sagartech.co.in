@@ -1,8 +1,13 @@
 <?php
 
+ob_start();
+error_reporting(0);
+header('Content-Type: text/plain');
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+
+// require 'vendor/autoload.php'; // if using Composer
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
@@ -17,31 +22,52 @@ if (isset($_POST['msg_submit'])) {
     $mail = new PHPMailer(true);
 
     try {
-        // Server settings
+        // SMTP config
         $mail->isSMTP();
         $mail->Host = 'smtp-relay.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'info@sagartech.co.in';
-        $mail->Password = 'arzsumqvxpkalxlj'; // Use the actual email account password
-        $mail->SMTPSecure = 'tls'; // Enable TLS encryption, [ICODE]ssl[/ICODE] also accepted
-        $mail->Port = 587; // TCP port to connect to
-        // Sender info
+        $mail->Password = 'arzsumqvxpkalxlj'; // secure this
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
+
+        // Mail content
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
         $mail->addAddress('info@sagartech.co.in');
-        // $mail->addAddress('patiladiti240@gmail.com');
-
-        // Content
         $mail->isHTML(true);
-        $mail->Subject = "Enquiry from " . $name;
-
+        $mail->Subject = "Enquiry from $name";
         $mail->Body = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
 
         $mail->send();
-        echo '1';
+
+        // Send data to WordPress API
+        $postData = [
+            'name' => $name,
+            'email' => $email,
+            'phone' => $phone,
+            'message' => $message
+        ];
+
+        $ch = curl_init('https://sagartech.co.in/blogs/wp-json/contact-form/v1/submit');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData));
+
+        $response = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+
+        if ($httpCode == 200) {
+            echo '1';
+        } else {
+            echo '0';
+        }
     } catch (Exception $e) {
         echo '0';
-
     }
+
+    ob_end_clean(); // clean up extra output
     /*  $mail = new PHPMailer();
     $mail->Host = 'mail.sagartech.co.in';
     $mail->isSMTP();

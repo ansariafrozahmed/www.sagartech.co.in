@@ -7,8 +7,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Web developers in Mumbai, Web Designers in Mumbai, Digital Marketing agency in Mumbai, Best web development services that help your business grow.">
-    <meta name="keywords" content="Web developers in mumbai, mumbai central,navi mumbai,web designing, Web designers in Mumbai, wordpress developers in mumbai, website developer near me, best website developers, digital marketing agency near me">
+    <meta name="description"
+        content="Web developers in Mumbai, Web Designers in Mumbai, Digital Marketing agency in Mumbai, Best web development services that help your business grow.">
+    <meta name="keywords"
+        content="Web developers in mumbai, mumbai central,navi mumbai,web designing, Web designers in Mumbai, wordpress developers in mumbai, website developer near me, best website developers, digital marketing agency near me">
     <meta name="author" content="Ubaid saudagar">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
@@ -46,16 +48,18 @@
         /* IE 10+ and Edge */
         user-select: none;
         /* Non-prefixed version, 
-								  currently supported by Chrome and Opera */
+                                  currently supported by Chrome and Opera */
     }
 
     section {
         padding: 60px 0;
         /* min-height: 100vh;*/
     }
+
     .single-serviecs-block.sdfdd h5 {
         color: white;
     }
+
     .section-padding {
         padding: 120px 0;
     }
@@ -171,10 +175,10 @@
         padding: 0 25%;
         font-weight: bold;
     }
-    
 </Style>
 
-<body onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1" onselectstart="return!1" ondragstart="return!1">
+<body onkeydown="if(!event.target.matches('input')&&!event.target.matches('textarea'))return!1" oncontextmenu="return!1"
+    onselectstart="return!1" ondragstart="return!1">
     <!-- loading -->
     <div id="loading">
         <div id="loading-center">
@@ -205,7 +209,8 @@ s0.parentNode.insertBefore(s1,s0);
     <!-- /HEADER END -->
 
     <!--======= Breadcrumb Left With BG Image =======-->
-    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white" style="background-image: url('images/bg/packages-slider.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+    <section class="overview-block-ptb iq-over-black-70 jarallax iq-breadcrumb3 text-left iq-font-white"
+        style="background-image: url('images/bg/packages-slider.png'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
         <!--style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RhZmZ8ZW58MHx8MHx8&w=1000&q=80'); background-position: center center; background-repeat: no-repeat; background-size: cover;">-->
         <div class="container">
             <div class="row align-items-center">
@@ -331,7 +336,8 @@ MAIN CONTENT -->
         <!--        </div>-->
         <!--    </div>-->
         <!--</section>-->
-        <section class="services-area" style="background-image: url('images/bg/sagartechimg2.jpg');background-repeat: no-repeat;background-size: cover;">
+        <section class="services-area"
+            style="background-image: url('images/bg/sagartechimg2.jpg');background-repeat: no-repeat;background-size: cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 wow slideInDown" data-wow-duration="1.0s">
@@ -352,7 +358,8 @@ MAIN CONTENT -->
                                 SMO + Local SEO
                             </h5>
                             <!--<p style="color: black;margin-top: 20px;text-align: center;">SMO  + Local SEO</p>-->
-                            <a href="tel:+919820133303"><button style="margin-top: 20px;" class="button visitbtn sdefsd">Contact us for more details</button></a>
+                            <a href="tel:+919820133303"><button style="margin-top: 20px;"
+                                    class="button visitbtn sdefsd">Contact us for more details</button></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0.5s">
@@ -365,7 +372,8 @@ MAIN CONTENT -->
                                 SMO + Local SEO + SEO
                             </h5>
                             <!--<p style="color: black;margin-top: 20px;text-align: center;">SMO  + Local SEO</p>-->
-                            <a href="tel:+919820133303"><button style="margin-top: 20px;" class="button visitbtn sdefsd">Contact us for more details</button></a>
+                            <a href="tel:+919820133303"><button style="margin-top: 20px;"
+                                    class="button visitbtn sdefsd">Contact us for more details</button></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0.6s">
@@ -378,12 +386,13 @@ MAIN CONTENT -->
                                 SMO + SMM
                             </h5>
                             <!--<p style="color: black;margin-top: 20px;text-align: center;">SMO  + Local SEO</p>-->
-                            <a href="tel:+919820133303"><button style="margin-top: 20px;" class="button visitbtn sdefsd">Contact us for more details</button></a>
+                            <a href="tel:+919820133303"><button style="margin-top: 20px;"
+                                    class="button visitbtn sdefsd">Contact us for more details</button></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp dss" data-wow-delay="0.6s">
                     </div>
-                    
+
                     <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0.6s">
                         <div class="single-serviecs-block sdfdd">
                             <img style='font-size:120px' alt="sem" src="images/bg/ADS.png">
@@ -391,7 +400,8 @@ MAIN CONTENT -->
                                 SEO + SEM
                             </h5>
                             <!--<p style="color: black;margin-top: 20px;text-align: center;">SMO  + Local SEO</p>-->
-                            <a href="tel:+919820133303"><button style="margin-top: 20px;" class="button visitbtn sdefsd">Contact us for more details</button></a>
+                            <a href="tel:+919820133303"><button style="margin-top: 20px;"
+                                    class="button visitbtn sdefsd">Contact us for more details</button></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0.6s">
@@ -404,7 +414,8 @@ MAIN CONTENT -->
                                 SEM + SMM
                             </h5>
                             <!--<p style="color: black;margin-top: 20px;text-align: center;">SMO  + Local SEO</p>-->
-                            <a href="tel:+919820133303"><button style="margin-top: 20px;" class="button visitbtn sdefsd">Contact us for more details</button></a>
+                            <a href="tel:+919820133303"><button style="margin-top: 20px;"
+                                    class="button visitbtn sdefsd">Contact us for more details</button></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp dss" data-wow-delay="0.6s">
@@ -462,35 +473,35 @@ Footer -->
     <!-- WhatsHelp.io widget -->
     <!--<script src="js/notcopyable.js"></script>-->
     <script type="text/javascript">
-        $(document).ready(function() {
-                var msgpopup = "COPYING CONTENT IS PROHIBITED";
+        $(document).ready(function () {
+            var msgpopup = "COPYING CONTENT IS PROHIBITED";
 
-                function handle() {
-                    if (toShowMessage == "1") alert(message);
-                    if (closeSelf == "1") self.close();
-                    return false;
-                }
+            function handle() {
+                if (toShowMessage == "1") alert(message);
+                if (closeSelf == "1") self.close();
+                return false;
+            }
 
-                function mouseDown() {
-                    if (event.button == "2" || event.button == "3") {
-                        handle();
-                    }
+            function mouseDown() {
+                if (event.button == "2" || event.button == "3") {
+                    handle();
                 }
+            }
 
-                function mouseUp(e) {
-                    //if (document.layers || (document.getElementById && !document.all)){
-                    if (e.which == "2" || e.which == "3") {
-                        handle();
-                    }
-                    //}
+            function mouseUp(e) {
+                //if (document.layers || (document.getElementById && !document.all)){
+                if (e.which == "2" || e.which == "3") {
+                    handle();
                 }
-                document.onmousedown = mouseDown;
-                document.onmouseup = mouseUp;
-                // $('body').bind('cut copy paste', function (e) {
-                //       e.preventDefault();
-                //   });
-            })
-            (function() {
+                //}
+            }
+            document.onmousedown = mouseDown;
+            document.onmouseup = mouseUp;
+            // $('body').bind('cut copy paste', function (e) {
+            //       e.preventDefault();
+            //   });
+        })
+            (function () {
                 var options = {
                     //whatsapp: "+919820133303", // WhatsApp number
                     email: "info@sagartech.co.in",
@@ -504,7 +515,7 @@ Footer -->
                 s.type = 'text/javascript';
                 s.async = true;
                 s.src = url + '/widget-send-button/js/init.js';
-                s.onload = function() {
+                s.onload = function () {
                     WhWidgetSendButton.init(host, proto, options);
                 };
                 var x = document.getElementsByTagName('script')[0];
@@ -528,13 +539,15 @@ Footer -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="fname">Full Name</label>
-                                    <input type="text" class="form-control" name="fname" id="fname" aria-describedby="emailHelp" placeholder="Enter full name">
+                                    <input type="text" class="form-control" name="fname" id="fname"
+                                        aria-describedby="emailHelp" placeholder="Enter full name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email1">Email address</label>
-                                    <input type="email" class="form-control" id="email1" name="email1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <input type="email" class="form-control" id="email1" name="email1"
+                                        aria-describedby="emailHelp" placeholder="Enter email">
                                     <small id="emailHelp" class="form-text text-muted">Your information is safe with
                                         us.</small>
                                 </div>
@@ -544,7 +557,8 @@ Footer -->
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="mobile">Contact Number</label>
-                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10" aria-describedby="emailHelp" placeholder="Enter Contact Number">
+                                    <input type="number" class="form-control" name="mobile" id="mobile" max-length="10"
+                                        aria-describedby="emailHelp" placeholder="Enter Contact Number">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -579,12 +593,12 @@ Footer -->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
     <script>
-        $(function() {
+        $(function () {
             var myform = $(".add_mainarea_form");
             var completed = '0%';
             $(myform).ajaxForm({
 
-                complete: function() {
+                complete: function () {
                     $('#largeModal').modal('hide')
                     setTimeout(
                         $('.bd-example-modal-sm').modal('show'), 3000);
@@ -593,9 +607,9 @@ Footer -->
 
 
         });
-        $(document).ready(function() {
+        $(document).ready(function () {
 
-            $('body').bind('cut copy paste', function(e) {
+            $('body').bind('cut copy paste', function (e) {
                 e.preventDefault();
             });
 
@@ -609,7 +623,8 @@ Footer -->
 
         });
     </script>
-    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal fade bd-example-modal-sm text-center" tabindex="-1" role="dialog"
+        aria-labelledby="mySmallModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm text-center">
             <div class="modal-content text-center">
                 <div class="modal-header text-center">
@@ -656,8 +671,10 @@ Footer -->
                     <div> Don't Have an Account? <a href="#" class="iq-font-yellow">Register Now</a></div>
                     <ul class="iq-media-blog iq-mt-20">
                         <li><a href="https://twitter.com/SagarTech2"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i class="fa fa-facebook "></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/"><i
+                                    class="fa fa-facebook "></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/"><i
+                                    class="fa fa-linkedin"></i></a></li>
                         <li><a href="# "><i class="fa fa-github "></i></a></li>
                     </ul>
                 </div>

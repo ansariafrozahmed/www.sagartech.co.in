@@ -108,8 +108,8 @@ include('config.php');
       opacity: 1;
     }
 
-    .row.v-center{
-      row-gap:0px !important;
+    .row.v-center {
+      row-gap: 0px !important;
     }
   }
 
@@ -163,7 +163,7 @@ include('config.php');
   }
 
   .header .menu>ul>li .sub-menu.mega-menu-column-4 {
-    max-width: 1100px;
+    max-width: 1200px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -224,8 +224,8 @@ include('config.php');
       flex: 0 0 100%;
     }
 
-    .row.v-center{
-      row-gap:0px !important;
+    .row.v-center {
+      row-gap: 0px !important;
     }
 
     .header .item-left,
@@ -486,8 +486,8 @@ include('config.php');
       height: 30px;
     }
 
-    .row.v-center{
-      row-gap:0px !important;
+    .row.v-center {
+      row-gap: 0px !important;
     }
   }
 
@@ -570,8 +570,8 @@ include('config.php');
       display: block;
     }
 
-    .row.v-center{
-      row-gap:0px !important;
+    .row.v-center {
+      row-gap: 0px !important;
     }
   }
 
@@ -618,9 +618,9 @@ include('config.php');
       gap: 5px;
       flex-direction: column;
     }
-    
-    .row.v-center{
-      row-gap:0px !important;
+
+    .row.v-center {
+      row-gap: 0px !important;
     }
 
     .announcementLeft ul {
@@ -707,7 +707,7 @@ include('config.php');
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/company/31067049/admin/feed/posts/" target="_blank">
+        <a href="https://www.linkedin.com/company/sagar-tech-technical-solutions" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="lucide lucide-linkedin">
@@ -743,6 +743,22 @@ include('config.php');
         </div>
       </div>
       <!-- menu start here -->
+      <style>
+        .li-service-item-css {
+          display: flex !important;
+          align-items: center;
+          gap: 6px;
+        }
+
+        li.li-service-item-css:hover {
+          padding-left: 15px !important;
+          animation-duration: 2s;
+        }
+
+        .list-item .titlee:hover {
+          padding-left: 15px;
+        }
+      </style>
       <div class="header-item item-center">
         <div class="menu-overlay"></div>
         <nav class="menu">
@@ -764,30 +780,44 @@ include('config.php');
                     <a href="<?= WEB_URL ?>web-development-company-in-mumbai">Web Development</a>
                   </div>
                   <ul>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Ecommerce-Website.webp" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>ecommerce-website-development-company-in-mumbai">Ecommerce Website</a>
                     </li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Dynamic-Website.avif" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>dynamic-website-development-company-in-mumbai">Dynamic Website</a>
                     </li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Static-Website.avif" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>static-website-development-company-in-mumbai">Static Website</a>
                     </li>
-                    <li><a href="<?= WEB_URL ?>blogging-website-development-in-mumbai">Blog Website</a></li>
-                    <li><a href="<?= WEB_URL ?>web-hosting-services-in-mumbai">Web Hosting</a></li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Blog-Website.jpeg" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>blogging-website-development-in-mumbai">Blog Website</a>
+                    </li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Web-Hosting.webp" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>web-hosting-services-in-mumbai">Web Hosting</a>
+                    </li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Domain-Registration.jpg" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>domain-service-provider-in-mumbai">Domain Registration</a>
                     </li>
-                    <li>
-                      <a href="<?= WEB_URL ?>website-maintainance-company-in-mumbai">Website Maintainance</a>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Website-Maintenance.jpeg" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>website-maintainance-company-in-mumbai">Website Maintenance</a>
                     </li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Wordpress-Development.png" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>wordpress-developers-in-mumbai">Wordpress Development</a>
                     </li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Ecommerce-Using-Shopify.jpeg" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>shopify-developers-in-mumbai">Ecommerce Using Shopify</a>
                     </li>
                   </ul>
+
                 </div>
                 <div class="list-item">
                   <div class="titlee">
@@ -795,18 +825,28 @@ include('config.php');
                     <a href="<?= WEB_URL ?>digital-marketing-company-in-mumbai">Digital Marketing</a>
                   </div>
                   <ul>
-                    <li><a href="<?= WEB_URL ?>google-ads-services-in-mumbai">Google Adwords</a></li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Google-Adwords.webp" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>google-ads-services-in-mumbai">Google Adwords</a>
+                    </li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Search-Engine-Optimization.jpeg" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>seo-company-in-mumbai">Search Engine Optimization</a>
                     </li>
-                    <li><a href="<?= WEB_URL ?>local-seo-services-in-mumbai">Local SEO</a></li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Local-SEO.webp" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>local-seo-services-in-mumbai">Local SEO</a>
+                    </li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Social-Media-Marketing.webp" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>social-media-marketing-agency-in-mumbai">Social Media Marketing</a>
                     </li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Social-Media-Optimization.webp" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>social-media-optimization-agency-in-mumbai">Social Media Optimization</a>
                     </li>
                   </ul>
+
                 </div>
                 <div class="list-item">
                   <div class="titlee">
@@ -814,16 +854,28 @@ include('config.php');
                     <a href="<?= WEB_URL ?>graphic-design-services-in-mumbai">Graphic Designing</a>
                   </div>
                   <ul>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Brand-Identity.jpeg" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>brand-identity-design-in-mumbai">Brand Identity</a>
                     </li>
-                    <li><a href="<?= WEB_URL ?>logo-design-services-in-mumbai">Logo Designing</a></li>
-                    <li><a href="<?= WEB_URL ?>brochure-design-services-in-mumbai">Brochure Designing</a></li>
-                    <li><a href="<?= WEB_URL ?>social-media-post-design-in-mumbai">Post Designing</a></li>
-                    <li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Logo-Designing.webp" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>logo-design-services-in-mumbai">Logo Designing</a>
+                    </li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Brochure-Designing.webp" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>brochure-design-services-in-mumbai">Brochure Designing</a>
+                    </li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Post-Designing.webp" style="width: 25px; margin: 0px" alt="" />
+                      <a href="<?= WEB_URL ?>social-media-post-design-in-mumbai">Post Designing</a>
+                    </li>
+                    <li class="li-service-item-css">
+                      <img src="<?= WEB_URL ?>icons/Banner-Designing.webp" style="width: 25px; margin: 0px" alt="" />
                       <a href="<?= WEB_URL ?>banner-design-services-in-mumbai">Banner Designing</a>
                     </li>
                   </ul>
+
                 </div>
                 <div class="list-item">
                   <div class="titlee">
@@ -851,7 +903,15 @@ include('config.php');
                   </div>
                   <div style="display: flex; gap: 5px; align-items:center;">
                     <img src="../product-images/chillinote-logo1.png" style="width: 30px; height: 100%;" alt="" />
-                    <li><a href="<?= WEB_URL ?>our-products/chillinote">Chillinote</a></li>
+                    <li><a href="<?= WEB_URL ?>our-products/project-management-software-in-india">Chillinote</a></li>
+                  </div>
+                  <div style="display: flex; gap: 5px; align-items:center; ">
+                    <img src="../product-images/wonestop.png" style="width: 30px; height: 100%;" alt="" />
+                    <li><a href="<?= WEB_URL ?>our-products/bulk-whatsapp-api-marketing-software-in-india ">Wonestop</a></li>
+                  </div>
+                  <div style="display: flex; gap: 5px; align-items:center;">
+                    <img src="../product-images/tappify.png" style="width: 30px; height: 100%;" alt="" />
+                    <li><a href="<?= WEB_URL ?>our-products/nfc-digital-business-cards-in-india">Tappify</a></li>
                   </div>
                 </ul>
               </div>

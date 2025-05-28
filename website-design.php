@@ -95,7 +95,7 @@ s0.parentNode.insertBefore(s1,s0);
                                             <ul>
                                                 <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/" target="_blank"><i class="fa fa-facebook" title="Facebook"></i></a></li>
                                                 <li><a href="https://twitter.com/SagarTech2" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/" target="_blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/" target="_blank"><i class="fa fa-linkedin" title="LinkedIn"></i></a></li>
                                                 
                                             </ul>
                                         </div>
@@ -283,7 +283,7 @@ Footer -->
                      <ul class="iq-media-blog text-left">
                         <li><a href="https://twitter.com/SagarTech2" target="_blank"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.facebook.com/Sagar-Tech-223839251868625/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/sagar-tech-151800177/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/sagar-tech-technical-solutions/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                         <!-- <li><a href="#"><i class="fa fa-github"></i></a></li> -->
                      </ul>
                   </div>

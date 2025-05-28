@@ -121,6 +121,8 @@
                             <h4 class="heading-left iq-tw-6 iq-pb-20 iq-mb-20">Get in Touch</h4>
                             <form id="myContact" onsubmit="return false">
                                 <div class="contact-form">
+                                    <input type="hidden" name="msg_submit" value="1">
+
                                     <div class="section-field iq-mt-10">
                                         <input class="" id="contact_name" type="text" placeholder="Name*" name="name">
                                     </div>
@@ -129,22 +131,21 @@
                                             name="email">
                                     </div>
                                     <div class="section-field iq-mt-10">
-                                        <!-- <input class="" id="contact_phone" type="text" placeholder="Phone*" name="phone"> -->
                                         <input type="tel" id="contact_phone" name="phone" placeholder="Phone*" />
                                     </div>
                                     <div class="section-field textarea iq-mt-20">
-                                        <textarea id="contact_msg" class="input-message " placeholder="Comment*"
-                                            rows="5" name="msg"></textarea>
+                                        <textarea id="contact_msg" class="input-message" placeholder="Comment*" rows="5"
+                                            name="msg"></textarea>
                                     </div>
                                     <div class="section-field">
                                         <div class="g-recaptcha"
                                             data-sitekey="6Lc8994hAAAAALf_4WIq1IRd7agMuQRqiHG2yp1l"></div>
                                     </div>
-                                    <button id="contact_send" value="Send" class="button pull-right iq-mt-20">Send
-                                        Message</button>
-                                    <p role="alert"></p>
+                                    <button id="contact_send" type="submit" class="button pull-right iq-mt-20">Send Message</button>
+                                    <p id="formResponse" role="alert"></p>
                                 </div>
                             </form>
+
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 iq-mtb-15 ">
                             <div class="contact-info  pt-0 iq-pl-60 iq-pr-60 lpswoqonn">
@@ -156,11 +157,13 @@
 
                                     <div class="contact-box right media-body">
                                         <h5 class="iq-tw-6">India Address</h5>
-                                        <p class="interlink" style="margin-bottom:0px; margin-top:5px;">Office Address</p>
+                                        <p class="interlink" style="margin-bottom:0px; margin-top:5px;">Office Address
+                                        </p>
                                         <p>501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai
                                             - 400009</p>
                                         <p class="interlink" style="margin-bottom:0px;">Registered Address</p>
-                                        <p>Dhudwala Complex, D/1304, Bellasis Rd, RBI Staff Colony, Mumbai Central, Mumbai, Maharashtra 400008</p>
+                                        <p>Dhudwala Complex, D/1304, Bellasis Rd, RBI Staff Colony, Mumbai Central,
+                                            Mumbai, Maharashtra 400008</p>
                                         <p style="margin-top:-10px; color:#ff0808;"><a
                                                 href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></p>
                                     </div>
@@ -257,6 +260,24 @@
                 x.parentNode.insertBefore(s, x);
             })();
         </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $('#myContact').on('submit', function (e) {
+        e.preventDefault();
+
+        let formData = $(this).serialize();
+
+        $.ajax({
+            url: 'sendmail.php',
+            method: 'POST',
+            data: formData
+        });
+
+        // Optionally reset form
+        $('#myContact')[0].reset();
+    });
+</script>
 </body>
 
 </html>

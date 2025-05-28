@@ -1,3 +1,4 @@
+s
 <?php
 // $slides = array(
 //   array(
@@ -227,7 +228,8 @@ $slides = array(
       height: 100%;
       display: flex;
       flex-direction: column;
-      align-items: start;
+      /* align-items: start; */
+      align-items: center;
       justify-content: center;
       padding: 0px;
       gap: 0px;
@@ -243,7 +245,7 @@ $slides = array(
     .inner-right .web_title {
       font-size: 25px;
       font-weight: 600;
-      text-align: left;
+      /* text-align: left;  */
     }
 
     .inner-right .desc {
