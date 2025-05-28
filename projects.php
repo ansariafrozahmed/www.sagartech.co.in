@@ -51,10 +51,19 @@
     $page = 'about';
     include("include/newHeader.php");
     ?>
-    <h1 id="animatedHeading" class="text-5xl md:block hidden font-medium text-center ml-10 mt-7">
-        Creating Next Level Digital Products
-    </h1>
-    <div class="md:px-16 pb-10">
+    <div class="md:my-5  flex flex-col justify-center items-center px-5">
+
+      <h1 id="animatedHeading" class="text-3xl md:max-w-[640px] w-full  uppercase md:block hidden font-medium text-center mt-7">
+        See The Digital Transformation Check Out Our Innovative Projects Portfolio
+      </h1>
+      <h1 id="animatedHead" class="md:text-3xl text-xl md:max-w-[640px]  uppercase block md:hidden font-medium text-center mt-7">
+        See The Digital Transformation Check Out Our Innovative Projects Portfolio
+      </h1>
+      <div class="text-sm text-gray-600 md:max-w-[800px] w-full md:text-center text-justify  ">
+        Explore Sagar Tech's different portfolio, where each project confirms our expertise in digital marketing, app development, and website development. See how we turn ideas into powerful digital realities that generate visible results and success for companies all around the world. Learn about the creative fixes that make us successful.
+      </div>
+    </div>
+      <div class="md:px-16 pb-10">
         <!-- <div class="">
             <h1 class="text-3xl md:block block font-medium text-center px-5 mt-7">
                 Creating Next Level Digital Products
@@ -123,31 +132,121 @@
     </div>
 
     <!-- Popup Modal -->
-    <div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
-        <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:max-h-[80vh] max-sm:h-full max-sm:overflow-hidden">
+    <!-- <div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
+        <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:h-[90vh] max-sm:h-full max-sm:overflow-hidden">
             <button id="closePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
-            <div class="flex max-sm:!flex-col md:flex-row items-start gap-5" id="popupContent">
-                <div class="w-full md:w-[30%]" id="work-details">
-                    <div class="flex items-center gap-2">
-                        <h2 id="popupTitle" class="text-xl md:text-2xl font-semibold text-gray-800"></h2>
-                        <a id="popupLink" href="#" class="inline-block text-red-500 hover:text-red-700"><i class="fa-solid fa-link"></i></a>
+          <div class="flex max-sm:!flex-col md:flex-row items-start gap-5" id="popupContent">
+            <div class="w-full md:w-[30%]" id="work-details">
+              <div class="flex flex-col  gap-2">
+                <h2 id="popupTitle" class="text-xl md:text-3xl font-semibold text-gray-800"></h2>
+                <div class=" ">
+
+                  <a id="popupLink" href="#" class=" flex items-center gap-3 text-red-500 hover:text-red-700"><i class="fa-solid fa-link"></i>
+                  <p class=" text-sm text-gray-600" id="popupLinkText" ></p>
+                </a>
+
+                
+                </div>
+              </div>
+              <div class="mt-5 text-gray-800 text-lg font-medium tracking-wide">
+                Project Description
+              </div>
+              <div id="popupDescription" class="text-gray-600 text-sm mt-2 tracking-wide leading-5 text-justify"></div>
+              <div class="">
+                <h4 class="mt-5 text-gray-800 text-lg font-medium tracking-wide mb-3">Skills & Deliverables.</h4>
+                <div class="flex items-center gap-2 flex-wrap">
+                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
+                    Next Js
+                  </div>
+                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
+                    WordPress
+                  </div>
+                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
+                    HTML
+                  </div>
+                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
+                  JavaScript
+                  </div>
+                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
+                  Node Js
+                  </div>
+                  <div class=" py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">
+                  Express Js
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-[70%] md:h-[500px] max-sm:h-96 overflow-y-auto scrollbar-auto flex justify-center items-start" id="long-img">
+              <img id="popupImage" src="" alt="Project Image" class="w-full max-sm:w-full h-auto object-contain rounded-md" />
+            </div>
+          </div>
+        </div>
+    </div> -->
+
+    <!-- Existing Full Popup Modal -->
+<div id="projectPopup" class="fixed  inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
+  <button id="closePopup" class="absolute top-10 md:top-5 right-5 z-50  md:text-white hover:text-gray-300">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+  </button>
+    <div class="bg-white rounded-lg  max-w-6xl w-full mx-4 md:mx-0 p-6 relative md:h-[90vh] max-sm:h-[90vh] max-sm:overflow-y-auto scrollbar-auto">
+        <div class="flex max-sm:flex-col md:flex-row items-start gap-5" id="popupContent">
+            <div class="w-full md:w-[30%]" id="work-details">
+                <div class="flex flex-col gap-2">
+                    <h2 id="popupTitle" class="text-xl md:text-3xl font-semibold text-gray-800"></h2>
+                    <div class="">
+                        <a id="popupLink" href="#" class="flex items-center gap-3 text-red-500 hover:text-red-700">
+                            <i class="fa-solid fa-link"></i>
+                            <p class="text-sm text-gray-600" id="popupLinkText"></p>
+                        </a>
                     </div>
-                    <div id="popupDescription" class="text-gray-600 text-sm mt-4"></div>
                 </div>
-                <div class="w-full md:w-[70%] md:h-96 max-sm:h-96 !overflow-y-scroll scrollbar-auto flex justify-center items-start" id="long-img">
-                    <img id="popupImage" src="" alt="Project Image" class="w-[80%] max-sm:w-full object-top rounded-md" />
+                <div class="mt-5 text-gray-800 text-lg font-medium tracking-wide">
+                    Project Description
                 </div>
+                <div id="popupDescription" class="text-gray-600 text-sm mt-2 tracking-wide leading-5 text-justify"></div>
+                <div class="">
+                    <h4 class="mt-5 text-gray-800 text-lg font-medium tracking-wide mb-3">Skills & Technologies</h4>
+                    <div class="flex items-center gap-2 flex-wrap">
+                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">Next Js</div>
+                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">WordPress</div>
+                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">HTML</div>
+                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">JavaScript</div>
+                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">Node Js</div>
+                        <div class="py-1 px-3 bg-gray-100 border border-gray-200 rounded-full !text-xs text-gray-600 w-fit">Express Js</div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-[70%] md:h-[500px] md:overflow-y-auto md:scrollbar-auto flex justify-center items-start" id="long-img">
+                <img id="popupImage" src="" alt="Project Image" class="w-full max-sm:w-full h-auto object-contain rounded-md" />
             </div>
         </div>
     </div>
+</div>
+
+<!-- New Image-Only Popup Modal -->
+<div id="imagePopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
+    <div class="bg-white rounded-lg w-full max-w-3xl mx-4 md:mx-0 p-4 relative">
+        <button id="closeImagePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <div class="w-full flex justify-center items-center">
+            <img id="imagePopupImage" src="" alt="Project Image" class="w-full max-w-[70%] h-auto object-contain rounded-md" />
+        </div>
+    </div>
+</div>
 
     <script>
-
-                const portfolioItems = [
+      // MAIN OBJECT DETAILS
+       const portfolioItems = [
   {
     imgPath: "./portfolio-mockups/business/verify8.webp",
     title: "Verify8",
@@ -1712,9 +1811,23 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
     bgGradientEnd: "#2c2a2d"
   },
 
+  // Social Media Details
+  {
+    imgPath: "https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%201%20-%20Armaf.webp",
+    title: "",
+    service: "Social Media Post",
+    projectType: "",
+    project_desc:"",
+    long_img:"https://sagartech.co.in/social-media-mockup/Social%20Media%20Post%20Design%201%20-%20Armaf.webp",
+    web_url:"",
+       bgGradientStart: "#2c2a2d", // Pink color for the gradient
+    bgGradientEnd: "#2c2a2d"
+  },
+
 ];
 
-   // Service to project type mapping
+   
+// Service to project type mapping
         const serviceProjectTypes = {
             "Web Development": [
                 "Business", "Builders", "Catalogue", "Logistics", "Ecommerce",
@@ -1750,10 +1863,10 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             y: 0,
             opacity: 1,
-            duration: 0.8,
+            duration: 0.2,
             ease: "power2.out",
-            stagger: 0.05,
-            delay: 0.3
+            stagger: 0.02,
+            delay: 0.1
         }
     );
 });
@@ -1850,53 +1963,55 @@ document.addEventListener("DOMContentLoaded", () => {
         let currentItems = portfolioItems; // Track current items (filtered or unfiltered)
 
         // Render portfolio cards
-        function renderCards(items, page = 1) {
-            const portfolioGrid = document.querySelector("#portfolioContainer");
-            portfolioGrid.innerHTML = ""; // Clear existing cards
-            const fragment = document.createDocumentFragment();
+      // Render portfolio cards
+function renderCards(items, page = 1) {
+    const portfolioGrid = document.querySelector("#portfolioContainer");
+    portfolioGrid.innerHTML = ""; // Clear existing cards
+    const fragment = document.createDocumentFragment();
 
-            const startIndex = (page - 1) * cardsPerPage;
-            const endIndex = Math.min(startIndex + cardsPerPage, items.length);
+    const startIndex = (page - 1) * cardsPerPage;
+    const endIndex = Math.min(startIndex + cardsPerPage, items.length);
 
-            for (let index = startIndex; index < endIndex; index++) {
-                const item = items[index];
-                const card = document.createElement("div");
-                card.classList.add("portfolio-card", "relative", "bg-white", "p-3", "rounded-2xl", "overflow-hidden", "max-w-[350px]", "w-full", "fade-up");
-                card.setAttribute("data-service", item.service);
-                card.setAttribute("data-project", item.projectType);
+    for (let index = startIndex; index < endIndex; index++) {
+        const item = items[index];
+        const card = document.createElement("div");
+        card.classList.add("portfolio-card", "relative", "bg-white", "p-3", "rounded-2xl", "overflow-hidden", "max-w-[350px]", "w-full", "fade-up");
+        card.setAttribute("data-service", item.service);
+        card.setAttribute("data-project", item.projectType);
 
-                const descriptionHtml = item.service === "Banner Design"
-                    ? ""
-                    : `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
-                const titleHtml = item.service === "Banner Design"
-                    ? ""
-                    : `<div class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
+        // Check if service is "Banner Design" or "Social Media Post"
+        const isBannerOrSocial = item.service === "Banner Design" || item.service === "Social Media Post" || item.service ==="Logo Design" ;
 
-                card.innerHTML = `
-                    <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-                        <div class="relative overflow-hidden p-2">
-                            <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
-                        </div>
-                        <div class="p-5">
-                            <div class="flex items-center justify-between">
-                                ${titleHtml}
-                                <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">
-                                    View
-                                </button>
-                            </div>
-                            ${descriptionHtml}
-                        </div>
+        const descriptionHtml = isBannerOrSocial
+            ? ""
+            : `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
+        const titleHtml = isBannerOrSocial
+            ? ""
+            : `<div class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
+
+        card.innerHTML = `
+            <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                <div class="relative overflow-hidden p-2">
+                    <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
+                </div>
+                <div class="p-5">
+                    <div class="flex items-center justify-between">
+                        ${titleHtml}
+                        <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">
+                            View
+                        </button>
                     </div>
-                `;
+                    ${descriptionHtml}
+                </div>
+            </div>
+        `;
 
-                fragment.appendChild(card);
-            }
+        fragment.appendChild(card);
+    }
 
-            portfolioGrid.appendChild(fragment);
-            renderPagination(items, page);
-        }
-
-        // Render pagination buttons
+    portfolioGrid.appendChild(fragment);
+    renderPagination(items, page);
+}// Render pagination buttons
         function renderPagination(items, currentPage) {
             const paginationContainer = document.getElementById("paginationContainer");
             paginationContainer.innerHTML = "";
@@ -1964,59 +2079,76 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         // Popup functionality
-        const popup = document.getElementById("projectPopup");
-        const popupContent = document.getElementById("popupContent");
-        const workDetails = document.getElementById("work-details");
-        const longImg = document.getElementById("long-img");
-        const popupTitle = document.getElementById("popupTitle");
-        const popupImage = document.getElementById("popupImage");
-        const popupDescription = document.getElementById("popupDescription");
-        const popupLink = document.getElementById("popupLink");
-        const closePopup = document.getElementById("closePopup");
+       // Popup functionality
+          const projectPopup = document.getElementById("projectPopup");
+          const imagePopup = document.getElementById("imagePopup");
+          const popupContent = document.getElementById("popupContent");
+          const workDetails = document.getElementById("work-details");
+          const longImg = document.getElementById("long-img");
+          const popupTitle = document.getElementById("popupTitle");
+          const popupImage = document.getElementById("popupImage");
+          const popupDescription = document.getElementById("popupDescription");
+          const popupLink = document.getElementById("popupLink");
+          const popupLinkText = document.getElementById("popupLinkText");
+          const closePopup = document.getElementById("closePopup");
+          const closeImagePopup = document.getElementById("closeImagePopup");
+          const imagePopupImage = document.getElementById("imagePopupImage");
 
-        document.addEventListener("click", function (event) {
-            if (event.target.closest(".view-button")) {
-                const index = event.target.closest(".view-button").dataset.index;
-                const item = currentItems[index]; // Use currentItems to ensure correct item
+          document.addEventListener("click", function (event) {
+              if (event.target.closest(".view-button")) {
+                  const index = event.target.closest(".view-button").dataset.index;
+                  const item = currentItems[index]; // Use currentItems to ensure correct item
 
-                popupTitle.textContent = item.title;
-                popupImage.src = item.long_img || './fallback-image.webp';
-                popupImage.alt = item.title;
-                popupDescription.innerHTML = item.project_desc || 'No description available';
-                popupLink.href = item.web_url || '#';
+                  // Check if service is Banner Design or Social Media Post
+                  if (item.service === "Banner Design" || item.service === "Social Media Post" || item.service === "Logo Design") {
+                      // Show image-only popup
+                      imagePopupImage.src = item.long_img || './fallback-image.webp';
+                      imagePopupImage.alt = item.title;
+                      imagePopup.classList.remove("hidden");
+                  } else {
+                      // Show full project popup
+                      popupTitle.textContent = item.title;
+                      popupImage.src = item.long_img || './fallback-image.webp';
+                      popupImage.alt = item.title;
+                      popupDescription.innerHTML = item.project_desc || 'No description available';
+                      popupLink.href = item.web_url || '#';
+                      popupLinkText.textContent = item.web_url || 'No link available';
 
-                if (item.service === "Banner Design") {
-                    workDetails.classList.add("hidden");
-                    longImg.classList.remove("md:w-[70%]");
-                    longImg.classList.add("w-full");
-                    popupContent.classList.remove("md:flex-row");
-                    popupContent.classList.add("flex-col");
-                    popupImage.classList.remove("w-[80%]");
-                    popupImage.classList.add("w-[80%]");
-                } else {
-                    workDetails.classList.remove("hidden");
-                    longImg.classList.remove("w-full");
-                    longImg.classList.add("md:w-[70%]");
-                    popupContent.classList.remove("flex-col");
-                    popupContent.classList.add("md:flex-row");
-                    popupImage.classList.remove("w-[80%]");
-                    popupImage.classList.add("w-[80%]");
-                }
+                      // Adjust layout for non-Banner Design/Social Media Post
+                      workDetails.classList.remove("hidden");
+                      longImg.classList.remove("w-full");
+                      longImg.classList.add("md:w-[70%]");
+                      popupContent.classList.remove("flex-col");
+                      popupContent.classList.add("md:flex-row");
+                      popupImage.classList.remove("w-[80%]");
+                      popupImage.classList.add("w-[80%]");
 
-                popup.classList.remove("hidden");
-            }
-        });
+                      projectPopup.classList.remove("hidden");
+                  }
+              }
+          });
 
-        closePopup.addEventListener("click", () => {
-            popup.classList.add("hidden");
-        });
+          // Close project popup
+          closePopup.addEventListener("click", () => {
+              projectPopup.classList.add("hidden");
+          });
 
-        popup.addEventListener("click", (event) => {
-            if (event.target === popup) {
-                popup.classList.add("hidden");
-            }
-        });
+          projectPopup.addEventListener("click", (event) => {
+              if (event.target === projectPopup) {
+                  projectPopup.classList.add("hidden");
+              }
+          });
 
+          // Close image popup
+          closeImagePopup.addEventListener("click", () => {
+              imagePopup.classList.add("hidden");
+          });
+
+          imagePopup.addEventListener("click", (event) => {
+              if (event.target === imagePopup) {
+                  imagePopup.classList.add("hidden");
+              }
+          });
         // Filter cards
         function filterCards() {
             const selectedService = document.getElementById("serviceInput").value.trim().toLowerCase();
