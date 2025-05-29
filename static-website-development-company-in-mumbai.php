@@ -1546,11 +1546,14 @@
     <?php include("include/footer.php"); ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
-                call_to_action: "Message us", // Call to action
+                email: "info@sagartech.co.in", // Email
+                call_to_action: "Contact Us", // Call to action
+                button_color: "#FF0808", // Color of button
                 position: "left", // Position may be 'right' or 'left'
+                order: "whatsapp,email", // Order of buttons
             };
             var proto = document.location.protocol,
                 host = "getbutton.io",
@@ -1559,7 +1562,7 @@
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
+            s.onload = function () {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
