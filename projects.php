@@ -83,57 +83,62 @@
     </div>
     <div class="md:px-16 pb-10">
         <div class="flex md:flex-row flex-col justify-between">
-            <div class="md:w-[20%] w-full p-5 md:sticky md:top-24 bg-white top-16 h-full">
-                <div class="flex justify-between items-center">
-                    <h4 class="font-medium">Filter</h4>
-                    <button class="border px-2 text-[13px] rounded-[5px] hover:shadow-sm bg-gradient-to-t from-gray-200 transition-all duration-300 hover:from-gray-300 clear-button hidden">Clear</button>
-                </div>
-                <div class="">
-                    <div class="relative w-full max-w-sm mt-4">
-                        <div class="relative">
-                            <label for="service" class="absolute -top-2 text-xs bg-white left-3 px-1 mb-1 font-medium text-gray-700">Select a Service</label>
-                            <input
-                                type="text"
-                                id="serviceInput"
-                                placeholder="Choose a service..."
-                                class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none"
-                                oninput="filterServices()"
-                                onclick="toggleDropdown()"
-                            />
-                        </div>
-                        <ul id="serviceList" class="absolute z-10 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow">
-                            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Web Development</li>
-                            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">App Development</li>
-                            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">SEO</li>
-                            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Logo Design</li>
-                            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Banner Design</li>
-                            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Brochure Design</li>
-                            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Social Media Post</li>
-                        </ul>
-                    </div>
-                    <div id="projectTypeContainer" class="relative w-full max-w-sm mt-6">
-                        <div class="relative">
-                            <label for="projectType" class="absolute -top-2 text-xs bg-white left-3 px-1 font-medium text-gray-700">
-                                Select Project Type
-                            </label>
-                            <input
-                                type="text"
-                                id="projectTypeInput"
-                                placeholder="Choose project type..."
-                                class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none"
-                                oninput="filterProjectTypes()"
-                                onclick="toggleProjectTypeDropdown()"
-                            />
-                        </div>
-                        <ul
-                            id="projectTypeList"
-                            class="absolute z-10 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow"
-                        >
-                            <!-- Dynamically populated -->
-                        </ul>
-                    </div>
+          <div class="md:w-[20%] w-full p-5 md:sticky md:top-24 bg-white top-16 h-full">
+    <div class="flex justify-between items-center">
+        <h4 class="font-medium">Filter</h4>
+        <button class="border px-2 text-[13px] rounded-[5px] hover:shadow-sm bg-gradient-to-t from-gray-200 transition-all duration-300 hover:from-gray-300 clear-button hidden">Clear</button>
+    </div>
+    <div class="">
+        <div class="relative w-full max-w-sm mt-4">
+            <div class="relative">
+                <label for="service" class="absolute z-10 -top-2 text-xs bg-white left-3 px-1 mb-1 font-medium text-gray-700">Select a Service</label>
+                <div class="relative">
+                    <input
+                        type="text"
+                        id="serviceInput"
+                        placeholder="Choose a service..."
+                        class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none pr-10"
+                        oninput="filterServices()"
+                        onclick="toggleDropdown()"
+                    />
+                    <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
                 </div>
             </div>
+            <ul id="serviceList" class="absolute z-20 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow">
+                <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Web Development</li>
+                <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">App Development</li>
+                <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">SEO</li>
+                <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Logo Design</li>
+                <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Banner Design</li>
+                <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Brochure Design</li>
+                <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Social Media Post</li>
+            </ul>
+        </div>
+        <div id="projectTypeContainer" class="relative w-full max-w-sm mt-6">
+            <div class="relative">
+                <label for="projectType" class="absolute -top-2 z-10 text-xs bg-white left-3 px-1 font-medium text-gray-700">Select Project Type</label>
+                <div class="relative">
+                    <input
+                        type="text"
+                        id="projectTypeInput"
+                        placeholder="Choose project type..."
+                        class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none pr-10"
+                        oninput="filterProjectTypes()"
+                        onclick="toggleProjectTypeDropdown()"
+                    />
+                    <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+            </div>
+            <ul id="projectTypeList" class="absolute z-10 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow">
+                <!-- Dynamically populated -->
+            </ul>
+        </div>
+    </div>
+</div>
             <div class="md:w-[80%] w-full p-3">
                 <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-4" id="portfolioContainer">
                 </div>
@@ -153,7 +158,7 @@
         </button>
         <div class="bg-white rounded-lg max-w-6xl w-full mx-4 md:mx-0 p-6 relative max-h-[90vh] overflow-y-auto scrollbar-auto">
             <div class="flex max-sm:flex-col md:flex-row items-start gap-5" id="popupContent">
-                <div class="w-full md:w-[30%]" id="work-details">
+                <div class="w-full md:w-[30%] md:sticky md:top-0 md:h-full" id="work-details">
                     <div class="flex flex-col gap-2">
                         <h2 id="popupTitle" class="text-xl md:text-3xl font-semibold text-gray-800"></h2>
                         <div class="">
@@ -179,6 +184,7 @@
                 </div>
             </div>
             <div id="videoSection" class="mt-5 max-sm:mt-12 hidden  ">
+              <h4 class="md:text-3xl text-2xl uppercase text-center font-semibold mb-7">Our Logo <span class="text-red-500">Designing Methodology</span></h4>
               <div class="flex md:flex-row flex-col w-full justify-between gap-5 items-center">
 
                 <div class="w-full ">
@@ -2051,6 +2057,17 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 ];
 
 // https://youtu.be/BIu8v8b2bQU
+
+// https://youtu.be/pYBguISmCSs
+
+// https://youtu.be/BIu8v8b2bQU
+
+// https://youtu.be/pYBguISmCSs
+
+// Service to project type mapping
+
+
+   // https://youtu.be/BIu8v8b2bQU
 
 // https://youtu.be/pYBguISmCSs
 
