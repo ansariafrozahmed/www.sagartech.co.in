@@ -8,8 +8,6 @@ include('include/config.php');
 <!doctype html>
 <html lang="en">
 
-<head>
-
     <head>
         <title>Web Development and Digital Marketing Agency in Mumbai - Sagar Tech</title>
         <!-- Required meta tags -->
