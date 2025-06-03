@@ -303,7 +303,6 @@ $slides = array(
     }
   }
 </style>
-</head>
 
 <div class="main-div-portfolio">
   <h2 class="portfolio-heading">Our <span style="color: #ff0808">Portfolio</span></h2>

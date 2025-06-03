@@ -159,11 +159,10 @@ include('config.php');
 </style>
 
 
-<head>
 	<script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
+
+
 <script>
     (function () {
         // Check if the chat icon is already present
@@ -193,7 +192,6 @@ include('config.php');
         }
     })();
 </script>
-</body>	
 <footer class="footer">
 	<div class="footer-upper">
 		<!-- <img src="<?= WEB_URL ?>images/sagartech.png" alt="sagartech logo"> -->

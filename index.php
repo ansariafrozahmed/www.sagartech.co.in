@@ -8,421 +8,421 @@ include('include/config.php');
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <title>Web Development and Digital Marketing Agency in Mumbai - Sagar Tech</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
+<head>
+    <title>Web Development and Digital Marketing Agency in Mumbai - Sagar Tech</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description"
-            content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
 
-        <meta name="keywords"
-            content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
+    <meta name="keywords"
+        content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
 
-        <meta name="author" content="Ubaid saudagar">
-        <meta name="designer" content="Ubaid Saudagar">
-        <meta name="publisher" content="Ubaid Saudagar">
-        <meta name="copyright" content="https://sagartech.co.in/">
-        <meta name="distribution" content="Global">
-        <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
-        <meta name="document-type" content="Public">
-        <meta name="robots" content="all">
-        <meta name="Googlebot" content="Index, Follow">
-        <meta name="rating" content="Safe for Kids">
-        <meta name="language" content="english">
-        <link rel="canonical" href="https://sagartech.co.in/">
-        <meta property="og:locale" content="en_US">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Web Development and Digital Marketing Agency in Mumbai - Sagar Tech">
-        <meta property="og:description"
-            content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
-        <meta property="og:url" content="https://sagartech.co.in/">
-        <meta property="og:site_name" content="Sagar Tech - Technical Solution">
-        <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
-        <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
-        <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
-        <!-- Meta Pixel Code -->
-        <script>
-            ! function (f, b, e, v, n, t, s) {
-                if (f.fbq) return;
-                n = f.fbq = function () {
-                    n.callMethod ?
-                        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq) f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window, document, 'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1473706306814871');
-            fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-                src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" /></noscript>
-        <!-- End Meta Pixel Code -->
+    <meta name="author" content="Ubaid saudagar">
+    <meta name="designer" content="Ubaid Saudagar">
+    <meta name="publisher" content="Ubaid Saudagar">
+    <meta name="copyright" content="https://sagartech.co.in/">
+    <meta name="distribution" content="Global">
+    <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
+    <meta name="document-type" content="Public">
+    <meta name="robots" content="all">
+    <meta name="Googlebot" content="Index, Follow">
+    <meta name="rating" content="Safe for Kids">
+    <meta name="language" content="english">
+    <link rel="canonical" href="https://sagartech.co.in/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Web Development and Digital Marketing Agency in Mumbai - Sagar Tech">
+    <meta property="og:description"
+        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta property="og:url" content="https://sagartech.co.in/">
+    <meta property="og:site_name" content="Sagar Tech - Technical Solution">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
+    <meta name="google-site-verification" content="EiGydxSCnJYDG7kwWzWMRW7-ciXvjatEdxGN_XGYtiY" />
+    <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1473706306814871');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="images/logoonly.jpg" />
-        <link rel="shortcut icon" href="images/logoonly.jpg" type="image/png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="images/logoonly.png">
-        <link rel="icon" href="images/logoonly.jpg" type="image/x-icon" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logoonly.jpg" />
+    <link rel="shortcut icon" href="images/logoonly.jpg" type="image/png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logoonly.png">
+    <link rel="icon" href="images/logoonly.jpg" type="image/x-icon" />
 
-        <!-- bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" />
-        <!-- responsive -->
-        <link href="css/responsive.css" rel="stylesheet" type="text/css" />
-        <link href="css/newcssresponsive.css" rel="stylesheet" type="text/css" />
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- responsive -->
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="css/newcssresponsive.css" rel="stylesheet" type="text/css" />
 
-        <!-- custom -->
-        <!--<link href="css/custom.css" rel="stylesheet" type="text/css" />-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+    <!-- custom -->
+    <!--<link href="css/custom.css" rel="stylesheet" type="text/css" />-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-        </script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+    </script>
 
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "LocalBusiness",
-                "name": "Sagar Tech - Web Developers & Digital Marketing Agency",
-                "image": "https://www.sagartech.co.in/images/sagartech.png",
-                "@id": "",
-                "url": "https://sagartech.co.in/",
-                "telephone": "9820133303",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "D/1304, Dudhwala Complex Bellasis Road, RBI Staff Colony, Mumbai Central",
-                    "addressLocality": "Mumbai",
-                    "postalCode": "400008",
-                    "addressCountry": "IN"
-                },
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": 18.9686606,
-                    "longitude": 72.82266299999999
-                },
-                "openingHoursSpecification": {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": [
-                        "Monday",
-                        "Tuesday",
-                        "Wednesday",
-                        "Thursday",
-                        "Friday",
-                        "Saturday",
-                        "Sunday"
-                    ],
-                    "opens": "10:00",
-                    "closes": "22:00"
-                },
-                "sameAs": [
-                    "https://www.facebook.com/sagartechsolns/about/?ref=page_internal",
-                    "https://www.instagram.com/sagartechsolutions/",
-                    "https://www.linkedin.com/company/sagar-tech-technical-solutions/",
-                    "https://in.pinterest.com/sagartech241/_created/",
-                    "https://sagartech.co.in/",
-                    "https://www.youtube.com/channel/UCeiZkckl8LqEZsYdq5NlAVA/about"
-                ]
-            }
-        </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Sagar Tech - Web Developers & Digital Marketing Agency",
+            "image": "https://www.sagartech.co.in/images/sagartech.png",
+            "@id": "",
+            "url": "https://sagartech.co.in/",
+            "telephone": "9820133303",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "D/1304, Dudhwala Complex Bellasis Road, RBI Staff Colony, Mumbai Central",
+                "addressLocality": "Mumbai",
+                "postalCode": "400008",
+                "addressCountry": "IN"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 18.9686606,
+                "longitude": 72.82266299999999
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                    "Sunday"
+                ],
+                "opens": "10:00",
+                "closes": "22:00"
+            },
+            "sameAs": [
+                "https://www.facebook.com/sagartechsolns/about/?ref=page_internal",
+                "https://www.instagram.com/sagartechsolutions/",
+                "https://www.linkedin.com/company/sagar-tech-technical-solutions/",
+                "https://in.pinterest.com/sagartech241/_created/",
+                "https://sagartech.co.in/",
+                "https://www.youtube.com/channel/UCeiZkckl8LqEZsYdq5NlAVA/about"
+            ]
+        }
+    </script>
 
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <Style>
-        /*-------------Accordian-----------------*/
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<Style>
+    /*-------------Accordian-----------------*/
 
+    .faqs-heading {
+        text-align: center;
+        margin: 1em 0;
+        font-weight: 700;
+        font-size: 40px;
+        color: #212121;
+    }
+
+    .accordion {
+        max-width: 70%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .accordion-item {
+        border-bottom: 1px solid #c5c5c5;
+        color: #333;
+    }
+
+    .accordion-item h2 {
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .accordion-content {
+        max-height: 0;
+        /* Set a default max-height, but don't display it */
+        overflow: hidden;
+        /* Hide the content */
+        transition: max-height 0.4s ease-out;
+        /* Add a transition effect when sliding down (and up) the content */
+        padding: 0 1em;
+    }
+
+    .accordion-content p {
+        padding: 1em 0;
+        font-size: 16px;
+        color: gray;
+        margin: 0;
+    }
+
+    /* Add this class to .accordion-content when the accordion item is active/open */
+    /* .accordion-content.active {
+            max-height: auto;
+            Adjust as needed
+        } */
+
+    /*adding the + and - signs*/
+    .accordion-item h2 {
+        position: relative;
+        padding-right: 30px;
+        /* Adjust as needed */
+    }
+
+    .accordion-item h2::before {
+        content: "+";
+        color: #8f060f;
+        position: absolute;
+        right: 10px;
+        /* Adjust as needed */
+    }
+
+    .accordion-item.active h2::before {
+        content: "-";
+    }
+
+    .video-container {
+        max-width: 100%;
+        overflow: hidden;
+        /* Prevent x overflow*/
+        position: relative;
+    }
+
+    .video {
+        width: 100%;
+        /* Make video scale to container width */
+        height: auto;
+        /* Maintain aspect ratio */
+        display: block;
+    }
+
+    /* Optional media queries to further control layout on small devices */
+    @media (max-width: 768px) {
         .faqs-heading {
-            text-align: center;
-            margin: 1em 0;
             font-weight: 700;
-            font-size: 40px;
-            color: #212121;
+            font-size: 30px !important;
         }
+    }
 
+    @media (max-width: 480px) {
+        /* .video-container {
+                padding-bottom: 100%; /* Square aspect ratio for very small screens 
+            } */
+    }
+
+
+    /* For mobile screens */
+    @media (max-width: 767px) {
         .accordion {
-            max-width: 70%;
+            max-width: 100vw;
             margin: 0 auto;
-            padding-bottom: 50px;
-        }
-
-        .accordion-item {
-            border-bottom: 1px solid #c5c5c5;
-            color: #333;
         }
 
         .accordion-item h2 {
-            padding: 15px;
-            font-size: 20px;
-            font-weight: 500;
+            padding: 20px;
+            font-size: 16px;
             line-height: normal;
             margin: 0;
             cursor: pointer;
         }
 
-        .accordion-content {
-            max-height: 0;
-            /* Set a default max-height, but don't display it */
-            overflow: hidden;
-            /* Hide the content */
-            transition: max-height 0.4s ease-out;
-            /* Add a transition effect when sliding down (and up) the content */
-            padding: 0 1em;
-        }
-
         .accordion-content p {
             padding: 1em 0;
-            font-size: 16px;
-            color: gray;
+            font-size: 15px;
             margin: 0;
+            line-height: normal;
         }
+    }
 
-        /* Add this class to .accordion-content when the accordion item is active/open */
-        /* .accordion-content.active {
-            max-height: auto;
-            Adjust as needed
-        } */
+    .why-choose img {
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
 
-        /*adding the + and - signs*/
-        .accordion-item h2 {
-            position: relative;
-            padding-right: 30px;
-            /* Adjust as needed */
-        }
+    .rimg {
+        width: 50% !important;
+        height: 50% !important;
+        margin-left: 155px;
+        padding-top: 5px;
+    }
 
-        .accordion-item h2::before {
-            content: "+";
-            color: #8f060f;
-            position: absolute;
-            right: 10px;
-            /* Adjust as needed */
-        }
-
-        .accordion-item.active h2::before {
-            content: "-";
-        }
-
-        .video-container {
-            max-width: 100%;
-            overflow: hidden;
-            /* Prevent x overflow*/
-            position: relative;
-        }
-
-        .video {
-            width: 100%;
-            /* Make video scale to container width */
-            height: auto;
-            /* Maintain aspect ratio */
-            display: block;
-        }
-
-        /* Optional media queries to further control layout on small devices */
-        @media (max-width: 768px) {
-            .faqs-heading {
-                font-weight: 700;
-                font-size: 30px !important;
-            }
-        }
-
-        @media (max-width: 480px) {
-            /* .video-container {
-                padding-bottom: 100%; /* Square aspect ratio for very small screens 
-            } */
-        }
-
-
-        /* For mobile screens */
-        @media (max-width: 767px) {
-            .accordion {
-                max-width: 100vw;
-                margin: 0 auto;
-            }
-
-            .accordion-item h2 {
-                padding: 20px;
-                font-size: 16px;
-                line-height: normal;
-                margin: 0;
-                cursor: pointer;
-            }
-
-            .accordion-content p {
-                padding: 1em 0;
-                font-size: 15px;
-                margin: 0;
-                line-height: normal;
-            }
-        }
-
-        .why-choose img {
-            height: 90px;
-            width: 90px;
-            margin-top: 20px;
-        }
-
+    @media screen and (max-width: 480px) {
         .rimg {
-            width: 50% !important;
-            height: 50% !important;
-            margin-left: 155px;
-            padding-top: 5px;
+            margin-left: 80px;
         }
+    }
 
-        @media screen and (max-width: 480px) {
-            .rimg {
-                margin-left: 80px;
-            }
-        }
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
 
-        .cards {
-            display: flex;
-            flex-wrap: wrap;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
+    .cards_item {
+        display: flex;
+        padding: 1rem;
+    }
 
+    @media (min-width: 40rem) {
         .cards_item {
-            display: flex;
-            padding: 1rem;
+            width: 50%;
         }
+    }
 
-        @media (min-width: 40rem) {
-            .cards_item {
-                width: 50%;
-            }
+    @media (min-width: 56rem) {
+        .cards_item {
+            width: 33.3333%;
         }
+    }
 
-        @media (min-width: 56rem) {
-            .cards_item {
-                width: 33.3333%;
-            }
-        }
+    .cardss {
+        background-color: #0e0e0e;
+        border-radius: 0.25rem;
+        box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        height: 215px;
+    }
 
-        .cardss {
-            background-color: #0e0e0e;
-            border-radius: 0.25rem;
-            box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.25);
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            height: 215px;
-        }
+    .card_content {
+        padding: 1rem;
+        background: #000000;
+        height: 150px;
+    }
 
-        .card_content {
-            padding: 1rem;
-            background: #000000;
-            height: 150px;
-        }
+    .card_title {
+        color: red;
+        font-size: 1.1rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin: 0px;
+    }
 
-        .card_title {
-            color: red;
-            font-size: 1.1rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-transform: capitalize;
-            margin: 0px;
-        }
+    .card_text {
+        color: white;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        margin-bottom: 1.25rem;
+        font-weight: 400;
+    }
 
-        .card_text {
-            color: white;
-            font-size: 0.875rem;
-            line-height: 1.5;
-            margin-bottom: 1.25rem;
-            font-weight: 400;
-        }
+    .img-cent {
+        margin-top: 20px;
+    }
 
+    @media screen and (min-width: 600px) {
         .img-cent {
-            margin-top: 20px;
+            margin-top: 130px;
         }
+    }
 
-        @media screen and (min-width: 600px) {
-            .img-cent {
-                margin-top: 130px;
-            }
-        }
+    /* Bubble Slider */
 
-        /* Bubble Slider */
+    .bubble blockquote {
+        margin: 10px 10px 0;
+        padding: 60px;
+        position: relative;
+        border: none;
+        border-radius: 8px;
+        font-size: 2em;
+        color: black;
+    }
 
-        .bubble blockquote {
-            margin: 10px 10px 0;
-            padding: 60px;
-            position: relative;
-            border: none;
-            border-radius: 8px;
-            font-size: 2em;
-            color: black;
-        }
+    .bubble blockquote:before,
+    .bubble blockquote:after {
+        content: "\201C";
+        position: absolute;
+        font-size: 80px;
+        padding: 10px;
+        line-height: 1;
+        color: black;
+    }
 
-        .bubble blockquote:before,
-        .bubble blockquote:after {
-            content: "\201C";
-            position: absolute;
-            font-size: 80px;
-            padding: 10px;
-            line-height: 1;
-            color: black;
-        }
+    .bubble blockquote:before {
+        top: 0;
+        left: 10px;
+        color: red;
+    }
 
-        .bubble blockquote:before {
-            top: 0;
-            left: 10px;
-            color: red;
-        }
+    .bubble blockquote:after {
+        content: "\201D";
+        right: 10px;
+        bottom: -.5em;
+        color: red;
+    }
 
-        .bubble blockquote:after {
-            content: "\201D";
-            right: 10px;
-            bottom: -.5em;
-            color: red;
-        }
+    .bubble div {
+        width: 0;
+        height: 0;
+        border-left: 0 solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #fff;
+        margin: 0 0 0 60px;
+        margin-bottom: 10px;
+    }
 
-        .bubble div {
-            width: 0;
-            height: 0;
-            border-left: 0 solid transparent;
-            border-right: 20px solid transparent;
-            border-top: 20px solid #fff;
-            margin: 0 0 0 60px;
-            margin-bottom: 10px;
-        }
+    .bubble cite {
+        padding-left: 20px;
+        font-size: 1.25em;
+        color: #f7f7f7;
+    }
 
-        .bubble cite {
-            padding-left: 20px;
-            font-size: 1.25em;
-            color: #f7f7f7;
-        }
+    .test-cardss {
+        background-color: white;
+        border-radius: 0.25rem;
+        box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 540px;
+        height: 494px;
+    }
 
-        .test-cardss {
-            background-color: white;
-            border-radius: 0.25rem;
-            box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.25);
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            width: 540px;
-            height: 494px;
-        }
-
-        /* Optional: Hide/show based on device */
-        /* @media (max-width: 767px) {
+    /* Optional: Hide/show based on device */
+    /* @media (max-width: 767px) {
             .desktop-view {
                 display: none;
             }
@@ -433,19 +433,19 @@ include('include/config.php');
                 display: none;
             }
         } */
-    </Style>
-    <script>
-        function loadDynamicContentModal() {
-            //  console.log(id);
-            var id = 1;
-            $('#demo-modal').load('modal-data.php?modal=' + id,
-                function () {
-                    $('#bootstrap-modal').modal({
-                        show: true
-                    });
+</Style>
+<script>
+    function loadDynamicContentModal() {
+        //  console.log(id);
+        var id = 1;
+        $('#demo-modal').load('modal-data.php?modal=' + id,
+            function() {
+                $('#bootstrap-modal').modal({
+                    show: true
                 });
-        }
-    </script>
+            });
+    }
+</script>
 
 <body>
     <!-- loading -->
@@ -494,19 +494,19 @@ include('include/config.php');
 
         <?php
         include 'include/intro.php'
-            ?>
+        ?>
         <?php
         include 'newourservice.php'
-            ?>
+        ?>
 
         <script>
-            ! function (o, i) {
+            ! function(o, i) {
                 window.provesrc && window.console && console.error && console.error("ProveSource is included twice in this page."), provesrc = window.provesrc = {
                     dq: [],
-                    display: function () {
+                    display: function() {
                         this.dq.push(arguments)
                     }
-                }, o._provesrcAsyncInit = function () {
+                }, o._provesrcAsyncInit = function() {
                     provesrc.init({
                         apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50SWQiOiI2MzE4ZWE3ZDQ3NTFkZDA2NGEzOTAzZmEiLCJpYXQiOjE2NjI1NzcyNzd9.MxKe-CKwqJG8-E9mKVVmBMbEpBnSHD9f9Wk5EDokCdo",
                         v: "0.0.4"
@@ -521,16 +521,16 @@ include('include/config.php');
         <hr>
         <?php
         include 'include/ourClients.php'
-            ?>
+        ?>
 
 
         <?php
         include 'include/portfolioSlider.php'
-            ?>
+        ?>
         <hr>
         <?php
         include 'include/techStack.php'
-            ?>
+        ?>
 
 
         <style>
@@ -675,7 +675,7 @@ include('include/config.php');
                 </div>
             </div>
         </div>
-         <style>
+        <style>
             .index-testimonial {
                 padding: 50px 100px;
                 text-align: center;
@@ -1345,7 +1345,7 @@ BS AUTO ACCESSORIES" loading="lazy">
     ?>
     <script src="js/custom.js"></script>
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in", // Email
@@ -1361,7 +1361,7 @@ BS AUTO ACCESSORIES" loading="lazy">
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];

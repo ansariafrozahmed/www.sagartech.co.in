@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <style>
     .our-service-main-section {
         background-color: #f2f2f2;
@@ -271,136 +264,134 @@
     }
 </style>
 
-<body>
-    <div class="our-service-main-section ">
-        <h2 class=" our-service-heading-top">Our <span style="color:#ff0808">Services</span></h2>
-        <section class="row">
-            <!-- <div class="d-flex col-md-3"> -->
-            <?php
-            $services = [
-                [
-                    'imageSrc' => './image/homepage/services-icons/web-dev.webp',
-                    'imageAlt' => 'Web Development & Designing',
-                    'heading' => 'Web Development & Designing',
-                    'description' => 'Sagar Tech Technical Solution stands out as an award-winning
+<div class="our-service-main-section ">
+    <h2 class=" our-service-heading-top">Our <span style="color:#ff0808">Services</span></h2>
+    <section class="row">
+        <!-- <div class="d-flex col-md-3"> -->
+        <?php
+        $services = [
+            [
+                'imageSrc' => './image/homepage/services-icons/web-dev.webp',
+                'imageAlt' => 'Web Development & Designing',
+                'heading' => 'Web Development & Designing',
+                'description' => 'Sagar Tech Technical Solution stands out as an award-winning
                             ecommerce website development services provider in Mumbai. Having a track record of
                             providing innovative solutions We take pride in our ability to develop e-commerce websites
                             that not only matches your business needs but also exceed the needs of businesses looking
                             for an efficient and eye-catching online presence. we work using latest technology React,
                             Next.js, Node.js,etc.',
-                    'link' => 'web-development-company-in-mumbai',
-                    'buttonLabel' => 'Read More'
-                ],
-                // Add more services here as additional arrays
-                [
-                    'imageSrc' => './image/homepage/services-icons/digital-marketing.webp',
-                    'imageAlt' => 'Digital Marketing',
-                    'heading' => 'Digital Marketing',
-                    'description' => 'Sagar Tech Technical Solution is an award-winning Digital
+                'link' => 'web-development-company-in-mumbai',
+                'buttonLabel' => 'Read More'
+            ],
+            // Add more services here as additional arrays
+            [
+                'imageSrc' => './image/homepage/services-icons/digital-marketing.webp',
+                'imageAlt' => 'Digital Marketing',
+                'heading' => 'Digital Marketing',
+                'description' => 'Sagar Tech Technical Solution is an award-winning Digital
                             marketing Company right here in the heart of Mumbai. We help To Drive Sales on Your Website
                             By Providing Expert Digital Marketing Solutions. We Provide Services Like Google Ads, Search
                             Engine Optimization, Social Media Ads, and more.',
-                    'link' => 'digital-marketing-company-in-mumbai',
-                    'buttonLabel' => 'Read More'
-                ],
-                [
-                    'imageSrc' => './image/homepage/services-icons/app-development.webp',
-                    'imageAlt' => 'App Development',
-                    'heading' => 'App Development',
-                    'description' => "Sagar Tech's commitment to innovation and excellence has
+                'link' => 'digital-marketing-company-in-mumbai',
+                'buttonLabel' => 'Read More'
+            ],
+            [
+                'imageSrc' => './image/homepage/services-icons/app-development.webp',
+                'imageAlt' => 'App Development',
+                'heading' => 'App Development',
+                'description' => "Sagar Tech's commitment to innovation and excellence has
                             positioned it as a reliable partner for businesses looking to leverage the vast potential of
                             online commerce. With a team of seasoned professionals, Sagar Tech combines cutting-edge
                             technology, user-centric design, and industry expertise to deliver tailored e-commerce
                             solutions that cater to the unique needs of each client.",
-                    'link' => 'mobile-app-development-company-in-mumbai',
-                    'buttonLabel' => 'Read More'
-                ],
-                [
-                    'imageSrc' => './image/homepage/services-icons/graphic-design.webp',
-                    'imageAlt' => 'Graphic Designing',
-                    'heading' => 'Graphic Designing',
-                    'description' => 'Sagar Tech Technical Solution is on of the best Graphic design
+                'link' => 'mobile-app-development-company-in-mumbai',
+                'buttonLabel' => 'Read More'
+            ],
+            [
+                'imageSrc' => './image/homepage/services-icons/graphic-design.webp',
+                'imageAlt' => 'Graphic Designing',
+                'heading' => 'Graphic Designing',
+                'description' => 'Sagar Tech Technical Solution is on of the best Graphic design
                             services provider in Mumbai our team of expert is specilised to turn your imagination into
                             to reality. Beyond just creating visually appealing images, graphic design plays a pivotal
                             role in conveying messages, establishing brand identity, and influencing the overall user
                             experience.',
-                    'link' => 'graphic-design-services-in-mumbai',
-                    'buttonLabel' => 'Read More'
-                ],
-                [
-                    'imageSrc' => './image/homepage/services-icons/sms-marketing.webp',
-                    'imageAlt' => 'Bulk SMS Service',
-                    'heading' => 'Bulk SMS Service',
-                    'description' => "In today's fast-paced digital world, effective communication
+                'link' => 'graphic-design-services-in-mumbai',
+                'buttonLabel' => 'Read More'
+            ],
+            [
+                'imageSrc' => './image/homepage/services-icons/sms-marketing.webp',
+                'imageAlt' => 'Bulk SMS Service',
+                'heading' => 'Bulk SMS Service',
+                'description' => "In today's fast-paced digital world, effective communication
                             is more critical than ever. At Sagar Tech, we take pride in being your ultimate partner for
                             state-of-the-art communication solutions. Whether you're seeking the expertise of a Bulk SMS
                             Service Provider or in need of a reliable WhatsApp Bulk Message service, rest assured, we've
                             got your back.",
-                    'link' => 'bulk-sms-service-provider-in-mumbai',
-                    'buttonLabel' => 'Read More'
-                ],
-                [
-                    'imageSrc' => './image/homepage/services-icons/seo.webp',
-                    'imageAlt' => 'SEO Service',
-                    'heading' => 'SEO Service',
-                    'description' => "Improve your online visibility and drive organic traffic to
+                'link' => 'bulk-sms-service-provider-in-mumbai',
+                'buttonLabel' => 'Read More'
+            ],
+            [
+                'imageSrc' => './image/homepage/services-icons/seo.webp',
+                'imageAlt' => 'SEO Service',
+                'heading' => 'SEO Service',
+                'description' => "Improve your online visibility and drive organic traffic to
                             your website with our comprehensive SEO services. At Sagar Tech - Technical Solutions, we
                             specialize in optimizing your web presence to rank higher in search engine results. Our SEO
                             experts utilize advanced strategies tailored to your business goals. From keyword research
                             and on-page optimization to link building and content creation, we enhance your website's
                             authority and relevance for targeted search queries.",
-                    'link' => 'seo-company-in-mumbai',
-                    'buttonLabel' => 'Read More'
-                ],
-            ];
+                'link' => 'seo-company-in-mumbai',
+                'buttonLabel' => 'Read More'
+            ],
+        ];
 
-            // foreach ($services as $service) {
-            //     echo '<a href="' . $service['link'] . '">';
-            //     echo '<div class="col-lg-4 col-md-4 col-sm-12">';
-            //     echo '<div class="our-service-card">';
-            //     echo '  <div class="afreen">';
-            //     echo '      <div class="our-service-img-div">';
-            //     echo '          <img src="' . $service['imageSrc'] . '" alt="' . $service['imageAlt'] . '">';
-            //     echo '      </div>';
-            //     echo '      <div class="our-service-content-div">';
-            //     echo '          <a href="' . $service['link'] . '">';
-            //     echo '              <h2 class="our-service-heading">' . $service['heading'] . '</h2>';
-            //     echo '          </a>';
-            //     echo '          <hr style="border: none; height: 4px; background-color: #E31F14; width: 40%;">';
-            //     echo '          <span class="our-service-content">' . $service['description'] . '</span>';
-            //     echo '          <button class="read-more-less-btn">' . $service['buttonLabel'] . '</button>';
-            //     echo '      </div>';
-            //     echo '  </div>';
-            //     echo '</div>';
-            //     echo '</div>';
-            //     echo '</a>';
-            // }
+        // foreach ($services as $service) {
+        //     echo '<a href="' . $service['link'] . '">';
+        //     echo '<div class="col-lg-4 col-md-4 col-sm-12">';
+        //     echo '<div class="our-service-card">';
+        //     echo '  <div class="afreen">';
+        //     echo '      <div class="our-service-img-div">';
+        //     echo '          <img src="' . $service['imageSrc'] . '" alt="' . $service['imageAlt'] . '">';
+        //     echo '      </div>';
+        //     echo '      <div class="our-service-content-div">';
+        //     echo '          <a href="' . $service['link'] . '">';
+        //     echo '              <h2 class="our-service-heading">' . $service['heading'] . '</h2>';
+        //     echo '          </a>';
+        //     echo '          <hr style="border: none; height: 4px; background-color: #E31F14; width: 40%;">';
+        //     echo '          <span class="our-service-content">' . $service['description'] . '</span>';
+        //     echo '          <button class="read-more-less-btn">' . $service['buttonLabel'] . '</button>';
+        //     echo '      </div>';
+        //     echo '  </div>';
+        //     echo '</div>';
+        //     echo '</div>';
+        //     echo '</a>';
+        // }
 
-            foreach ($services as $service) {
-                echo '<div class="col-lg-4 col-md-4 col-sm-12">';
-                echo '<a href="' . $service['link'] . '" >'; // Wrap the entire card in <a>
-                echo '<div class="our-service-card">';
-                echo '  <div class="afreen">';
-                echo '      <div class="our-service-img-div">';
-                echo '          <img src="' . $service['imageSrc'] . '" alt="' . $service['imageAlt'] . '" title="' . $service['imageAlt'] . '">';
-                echo '      </div>';
-                echo '      <div class="our-service-content-div">';
-                echo '          <h2 class="our-service-heading">' . $service['heading'] . '</h2>'; // Removed nested <a>
-                echo '          <hr style="border: none; height: 4px; background-color: #E31F14; width: 40%;">';
-                echo '          <span class="our-service-content">' . $service['description'] . '</span>';
-                echo '          <button class="read-more-less-btn">' . $service['buttonLabel'] . '</button>';
-                echo '      </div>';
-                echo '  </div>';
-                echo '  </div>';
-                echo '</a>'; // Closing <a> after the card content
-                echo '</div>';
-            }
+        foreach ($services as $service) {
+            echo '<div class="col-lg-4 col-md-4 col-sm-12">';
+            echo '<a href="' . $service['link'] . '" >'; // Wrap the entire card in <a>
+            echo '<div class="our-service-card">';
+            echo '  <div class="afreen">';
+            echo '      <div class="our-service-img-div">';
+            echo '          <img src="' . $service['imageSrc'] . '" alt="' . $service['imageAlt'] . '" title="' . $service['imageAlt'] . '">';
+            echo '      </div>';
+            echo '      <div class="our-service-content-div">';
+            echo '          <h2 class="our-service-heading">' . $service['heading'] . '</h2>'; // Removed nested <a>
+            echo '          <hr style="border: none; height: 4px; background-color: #E31F14; width: 40%;">';
+            echo '          <span class="our-service-content">' . $service['description'] . '</span>';
+            echo '          <button class="read-more-less-btn">' . $service['buttonLabel'] . '</button>';
+            echo '      </div>';
+            echo '  </div>';
+            echo '  </div>';
+            echo '</a>'; // Closing <a> after the card content
+            echo '</div>';
+        }
 
-            ?>
-            <!-- </div> -->
-        </section>
-    </div>
-</body>
+        ?>
+        <!-- </div> -->
+    </section>
+</div>
 
 <!-- <script>
 document.addEventListener('DOMContentLoaded', function () {
