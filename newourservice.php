@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
 <style>
     .our-service-main-section {
         /* background-color: #f2f2f2; */
@@ -289,7 +283,6 @@ p.our-service-content{
  }
 </style>
 
-<body>
     <div class="our-service-main-section">
         <h2 class=" our-service-heading-top">Our <span style="color:#ff0808">Services</span></h2>
         <section class="row">
@@ -371,5 +364,3 @@ p.our-service-content{
             <!-- </div> -->
         </section>
     </div>
-</body>
-</html>

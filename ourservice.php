@@ -418,6 +418,3 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 </script> -->
-
-
-</html>
