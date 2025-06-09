@@ -485,7 +485,7 @@
     <div class="about-intro">
       <div class="about-intro-left">
         <h1 class="text-[40px] font-[700] mb-0 uppercase">Sagar Tech - <span style="color:#ff0808;">Technical Solutions</span></h1>
-        <h1 class="text-[18px] mt-0 font-semibold">Think <span style="color:#ff0808">Red,</span> Think Sagar Tech</h1>
+        <h3 class="text-[18px] mt-0 mb-[15px] font-semibold">Think <span style="color:#ff0808">Red,</span> Think Sagar Tech</h3>
         <p class="mt-0 mb-2">
           Sagar Tech Technical Solution Is Award Winning 🏆 Web Development and Digital Marketing Agency In Mumbai Our team of web developers specialises in developing websites that quickly generate leads. We offer effective design, innovative web development, Mobile App Development, and ROI-focused marketing to help your brand reach its full potential. We offer Ecommerce Website, business website, one page website, custom website.
         </p>
