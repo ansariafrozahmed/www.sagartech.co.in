@@ -547,6 +547,12 @@ include "include/config.php";
         font-weight: 600;
     }
 
+    .newsecondsection .left h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0px;
+    }
+
     .newsecondsection .left h3 {
         font-size: 20px;
         font-weight: 500;
@@ -578,6 +584,12 @@ include "include/config.php";
         .newsecondsection .left h2 {
             font-size: 30px;
             font-weight: 600;
+        }
+
+        .newsecondsection .left h1 {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0px;
         }
 
         .newsecondsection .left h3 {
@@ -631,6 +643,12 @@ include "include/config.php";
             font-weight: 600;
         }
 
+        .newsecondsection .left h1 {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0px;
+        }
+
         .newsecondsection .left h3 {
             font-size: 20px;
             font-weight: 500;
@@ -668,6 +686,12 @@ include "include/config.php";
                 font-weight: 600;
             }
 
+            .newsecondsection .left h1 {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 0px;
+            }
+
             .newsecondsection .left h3 {
                 font-size: 20px;
                 font-weight: 500;
@@ -696,7 +720,7 @@ include "include/config.php";
     </style>
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">India’s No. 1 Bulk SMS Service Provider and WhatsApp Bulk Message Provider</h2>
+            <h1 style="line-height:40px;color:white">India’s No. 1 Bulk SMS Service Provider and WhatsApp Bulk Message Provider</h1>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
