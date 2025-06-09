@@ -760,6 +760,12 @@
             font-weight: 600;
         }
 
+        .newsecondsection .left h1 {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0px;
+        }
+
         .newsecondsection .left h3 {
             font-size: 20px;
             font-weight: 500;
@@ -797,6 +803,12 @@
                 font-weight: 600;
             }
 
+            .newsecondsection .left h1 {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0px;
+        }
+
             .newsecondsection .left h3 {
                 font-size: 20px;
                 font-weight: 500;
@@ -825,7 +837,7 @@
     </style>
     <div style="background:  radial-gradient(ellipse at center, #ff2828 0%, #000000 130%);" class="newsecondsection">
         <div class="left">
-            <h2 style="line-height:40px;color:white">Social Media Post Design Services in Mumbai</h2>
+            <h1 style="line-height:40px;color:white">Social Media Post Design Services in Mumbai</h1>
             <ul style="color:white" class="herobreadrumb">
                 <li>Home</li>
                 <li>/</li>
