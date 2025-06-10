@@ -43,7 +43,7 @@ include('config.php');
     z-index: 99;
     background: #fff;
     padding: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
   }
 
   .header .item-left {

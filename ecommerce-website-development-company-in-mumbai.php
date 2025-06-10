@@ -1134,7 +1134,7 @@
             <p style="color:white"> <a style="color: #000;" href="https://sagartech.co.in/">Sagar Tech Technical Solution</a> stands out as an
                 award-winning 🏆 <a style="color: #000;" href="web-development-company-in-mumbai">Web Development Company</a>
                 that provides <a style="color: #000;" href="https://www.indiamart.com/sagartech-technicalsolutions/e-commerce-website-design.html" target="_blank" class="interlink">ecommerce website</a>
-development services in Mumbai. Having a track record of providing innovative solutions We take pride in developing ecommerce website design and our ability to create e-commerce websites that not only match your business needs but also exceed the needs of businesses looking for an efficient and eye-catching online presence. Our skilled ecommerce developers work using the latest technology like: React, Next.js, Node.js, etc.
+                development services in Mumbai. Having a track record of providing innovative solutions We take pride in developing ecommerce website design and our ability to create e-commerce websites that not only match your business needs but also exceed the needs of businesses looking for an efficient and eye-catching online presence. Our skilled ecommerce developers work using the latest technology like: React, Next.js, Node.js, etc.
             </p>
             <br>
             <div class="herobuttonsnew">
@@ -1186,7 +1186,7 @@ development services in Mumbai. Having a track record of providing innovative so
         <h2>Why Your Business Need Ecommerce Website</h2>
         <!-- <h3>An experienced team of eCommerce developers to deliver your dream online store.</h3> -->
         <p><a href="https://www.indiamart.com/sagartech-technicalsolutions/ecommerce-website-development-service.html#2854462235188" target="_blank" style="color:#ff0808;font-weight: 600;">E-commerce website</a>
-is more critical than ever for businesses of all sizes and industries The internet has turned into a centre of activity, and having a strong online presence can help your business grow Our core of ecommerce website development is to provide the user with a store-like shopping experience and provide the administrator with an easy management facility. Sagar Tech Technical solution is ISO certified e-commerce website development company in india Here are the reasons why your business needs an e-commerce website:</p>
+            is more critical than ever for businesses of all sizes and industries The internet has turned into a centre of activity, and having a strong online presence can help your business grow Our core of ecommerce website development is to provide the user with a store-like shopping experience and provide the administrator with an easy management facility. Sagar Tech Technical solution is ISO certified e-commerce website development company in india Here are the reasons why your business needs an e-commerce website:</p>
     </div>
 
 
@@ -1221,7 +1221,7 @@ is more critical than ever for businesses of all sizes and industries The intern
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
                     <h2>Data-Driven Insights</h2>
-                    <p>E-commerce platforms provide valuable data and insights into customer behavior.    </p>
+                    <p>E-commerce platforms provide valuable data and insights into customer behavior. </p>
                 </div>
                 <!-- -------------------- -->
                 <div class="ecom-left-card">
@@ -1348,7 +1348,7 @@ is more critical than ever for businesses of all sizes and industries The intern
                     <h2>Custom Development</h2>
                 </div>
                 <span>
-                 Do you want your online marketplace to be unique from the competition and filled with features? You really need the services of our skilled eCommerce website developers. We can create a custom eCommerce website that is feature-rich, lightweight, simple to use, and appropriate for any type of business. We use frameworks like NodeJS and Laravel to develop effective and accessible online businesses.
+                    Do you want your online marketplace to be unique from the competition and filled with features? You really need the services of our skilled eCommerce website developers. We can create a custom eCommerce website that is feature-rich, lightweight, simple to use, and appropriate for any type of business. We use frameworks like NodeJS and Laravel to develop effective and accessible online businesses.
                 </span>
             </div>
             <!-- ------------------ -->
@@ -1368,7 +1368,7 @@ is more critical than ever for businesses of all sizes and industries The intern
                     <h2>Shopify Development</h2>
                 </div>
                 <span>
-                   Sagar Tech Technical Solution proudly introduces its specialized Shopify Website Development Services, designed to redefine and elevate your e-commerce experience. User experience is important for every website. Sagar Tech makes sure that your Shopify ecommerce website is both aesthetically pleasing and has a user-friendly layout for smooth navigation.
+                    Sagar Tech Technical Solution proudly introduces its specialized Shopify Website Development Services, designed to redefine and elevate your e-commerce experience. User experience is important for every website. Sagar Tech makes sure that your Shopify ecommerce website is both aesthetically pleasing and has a user-friendly layout for smooth navigation.
 
                 </span>
             </div>
@@ -1381,7 +1381,7 @@ is more critical than ever for businesses of all sizes and industries The intern
         <div class="newvideoinner">
             <h2>What can we do for you?</h2>
             <span class="newvideotext">
-               We offer continuous support and maintenance services to keep your e-commerce website up-to-date, secure, and running seamlessly. This ensures a positive experience for both you and your customers.
+                We offer continuous support and maintenance services to keep your e-commerce website up-to-date, secure, and running seamlessly. This ensures a positive experience for both you and your customers.
             </span>
             <span>We would be happy to discuss the project with you in person</span>
             <div class="newvideobutton">
@@ -1400,8 +1400,8 @@ is more critical than ever for businesses of all sizes and industries The intern
         <div class="ecom-head">
             <h2 style="text-align: center;">Our Ecommerce Development Process</h2>
             <!-- <span>
-                    From custom layout design to required payment gateway integration, our eCommerce website developers treat every project in a unique manner. However, we follow a proven strategy to ensure a successful deployment within a quick turnaround time. Here it is:
-                </span> -->
+                From custom layout design to required payment gateway integration, our eCommerce website developers treat every project in a unique manner. However, we follow a proven strategy to ensure a successful deployment within a quick turnaround time. Here it is:
+            </span> -->
         </div>
         <?php
         include 'ecommerce-info.php'
@@ -1420,7 +1420,7 @@ is more critical than ever for businesses of all sizes and industries The intern
         <div class="eight-head">
             <h2>Core Features of Our eCommerce Website Design Services</h2>
             <span>An eCommerce website's ability to rank well depends on the features and functionalities it delivers. As an award-winning ecommerce website development company in India, we provide every feature required for managing a profitable online store. Our eCommerce web developers handle everything, from a rich user interface to easy access on mobile, tablet, desktop, and laptop devices. We are experts at scaling your business by providing an ecommerce website solution.
-</span>
+            </span>
         </div>
         <div class="eight-bottom">
             <div class="eight-card">
@@ -1495,7 +1495,7 @@ is more critical than ever for businesses of all sizes and industries The intern
                 <img src="./icons/customer-review.webp" alt="review">
                 <h2>Knowledge and skill:</h2>
                 <span>Look for a business that shows expertise and competence in a range of technologies and ecommerce platforms.
-</span>
+                </span>
             </div>
             <!-- -------------- -->
             <div class="ninth-card">

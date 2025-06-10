@@ -133,23 +133,6 @@
   <h2>Our <span style="color: #ff0808">Clients</span></h2>
   <div class="client-image-main-div">
     <?php
-    // $imageUrls = [
-    //   "client-logos/rbi.webp",
-    //   "client-logos/armaf.webp",
-    //   "client-logos/bsauto.webp",
-    //   "client-logos/OasisConsulting.webp",
-    //   "client-logos/chief-parfums-final.webp",
-    //   "client-logos/axxio-laboratory.webp",
-    //   "client-logos/acharya-shiv.webp",
-    //   // "client-logos/ngmp.webp",
-    //   "client-logos/AlhamdGroup.webp",
-    //   "client-logos/cotton-culture.webp",
-    //   "client-logos/ASAudio.webp",
-    //   "client-logos/ZZConsultants.webp",
-    //   // "client-logos/Trillionaire.webp",
-    //   "client-logos/Tasavvur.webp",
-    //   //"client-logos/PadmavatiChains.webp",
-    // ];
     $imageUrls = [
       "client-logos/Thaiger.png",
       "client-logos/educ4ate.webp",
