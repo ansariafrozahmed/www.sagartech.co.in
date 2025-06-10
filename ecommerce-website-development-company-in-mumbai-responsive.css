@@ -1,0 +1,61 @@
+/* Mobile (already present) */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0 10px;
+  }
+  .new_ecom_style_heading {
+    font-size: 40px;
+    max-width: 100%;
+  }
+  .new_ecom_style_card_container {
+    padding: 25px 0px;
+  }
+  .radio-inputs .radio .name {
+    padding: 0.8rem 0.8rem;
+  }
+  .new_ecom_style_package-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .new_ecom_style_faq {
+    padding: 10px;
+  }
+  .new_ecom_style_faq_inner {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    column-gap: 60px;
+  }
+  .new_ecom_style_faq_inner_card h3 {
+    font-size: 18px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    padding: 0 20px;
+  }
+
+  .new_ecom_style_card_container {
+    padding: 30px 10px;
+  }
+
+  .new_ecom_style_package-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for tablet */
+    gap: 16px;
+  }
+  .new_ecom_style_faq {
+    padding: 40px 10px;
+  }
+  .new_ecom_style_faq_inner {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+  }
+}

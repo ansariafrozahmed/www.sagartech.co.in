@@ -894,7 +894,7 @@ include('config.php');
               </div>
             </li>
             <li class="menu-item-has-children">
-              <a href="#">Our Products<i class="fas fa-angle-down"></i></a>
+              <a href="#">Our Products<i class="fas fa-angle-down" style="margin-left: 3px;"></i></a>
               <div class="sub-menu single-column-menu">
                 <ul>
                   <div style="display: flex; gap: 5px; align-items:center; ">
@@ -917,7 +917,7 @@ include('config.php');
               </div>
 
             </li>
-            <li class="menu-item-has-children">
+            <!-- <li class="menu-item-has-children">
               <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
               <div class="sub-menu single-column-menu">
                 <ul>
@@ -928,16 +928,19 @@ include('config.php');
                   <li><a href="<?= WEB_URL ?>portfolio/banner">Banner Design Portfolio</a></li>
                   <li><a href="<?= WEB_URL ?>portfolio/brochure">Brochure Design Portfolio</a></li>
                   <li><a href="<?= WEB_URL ?>portfolio/social-media-post">Social Media Post Portfolio</a></li>
-                  <!-- <li class="portfolio-dropdown"><a href="#">Social Media Portfolio <i class="fas fa-angle-right"></i></a>
+                  <li class="portfolio-dropdown"><a href="#">Social Media Portfolio <i class="fas fa-angle-right"></i></a>
                           <div class="multi-level-dropdown">
                             <ul>
                               <li><a href="<?= WEB_URL ?>portfolio/facebook-insights">Facebook Insights Portfolio</a></li>
                               <li><a href="<?= WEB_URL ?>portfolio/instagram-insights">Instagram Insights Portfolio</a></li>
                             </ul>
                           </div>
-                      </li> -->
+                      </li>
                 </ul>
               </div>
+            </li> -->
+            <li>
+              <a href="<?= WEB_URL ?>projects">Projects</a>
             </li>
             <li>
               <a href="<?= WEB_URL ?>about">About Us</a>

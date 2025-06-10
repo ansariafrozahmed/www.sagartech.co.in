@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+body {
+  background-image: url("abstract-shapes-wave-background.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+  color: #242424;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.new_ecom_style_highlight {
+  color: #ff0808;
+}
+.new_ecom_style_container {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.new_ecom_style_headdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.new_ecom_style_heading {
+  font-size: 50px;
+  max-width: 600px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-align: center;
+}
+.new_ecom_style_text {
+  max-width: 550px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgb(52, 52, 52);
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+
+/* ------- */
+.new_ecom_style_card_container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-inputs {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.7rem;
+  border: 1px solid rgb(229, 229, 229);
+  background: white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15),
+    -5px -5px 15px rgba(255, 255, 255, 0.8);
+  padding: 0.5rem 0.6rem;
+  font-size: 14px;
+  gap: 0.6rem;
+}
+
+.radio-inputs .radio {
+  flex: 1 1 auto;
+  text-align: center;
+  position: relative;
+}
+
+.radio-inputs .radio input {
+  display: none;
+}
+
+.radio-inputs .radio .name {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.8rem 1rem;
+  color: #2d3748;
+  font-weight: 500;
+  border: 1px solid rgb(239, 233, 233);
+  font-family: inherit;
+  background: white;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1),
+    -3px -3px 6px rgba(255, 255, 255, 0.7);
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.radio-inputs .radio input:checked + .name {
+  background: linear-gradient(145deg, #c90505, #ff0808);
+  color: white;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.1),
+    3px 3px 8px rgba(59, 130, 246, 0.3);
+}
+
+/* Hover effect */
+.radio-inputs .radio:hover .name {
+  background: white;
+  transform: translateY(-1px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1),
+    -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+
+.radio-inputs .radio:hover input:checked + .name {
+  transform: translateY(1px);
+}
+
+/* Animation */
+.radio-inputs .radio input:checked + .name {
+  animation: select 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Particles */
+.radio-inputs .radio .name::before,
+.radio-inputs .radio .name::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.radio-inputs .radio input:checked + .name::before,
+.radio-inputs .radio input:checked + .name::after {
+  animation: particles 0.8s ease-out forwards;
+}
+
+.radio-inputs .radio .name::before {
+  background: #ff0808;
+  box-shadow: 0 0 6px #ff0808;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.radio-inputs .radio .name::after {
+  background: #ff0808;
+  box-shadow: 0 0 8px #ff0808;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Sparkles */
+.radio-inputs .radio .name::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    #ff0808 0%,
+    transparent 50%
+  );
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.radio-inputs .radio input:checked + .name::after {
+  opacity: 1;
+  animation: sparkle-bg 1s ease-out forwards;
+}
+
+/* Multiple particles */
+.radio-inputs .radio input:checked + .name {
+  overflow: visible;
+}
+
+.radio-inputs .radio input:checked + .name::before {
+  box-shadow: 0 0 6px #ff0808, 10px -10px 0 #ff0808, -10px -10px 0 #ff0808;
+  animation: multi-particles-top 0.8s ease-out forwards;
+}
+
+.radio-inputs .radio input:checked + .name::after {
+  box-shadow: 0 0 8px #ff0808, 10px 10px 0 #ff0808, -10px 10px 0 #ff0808;
+  animation: multi-particles-bottom 0.8s ease-out forwards;
+}
+
+@keyframes select {
+  0% {
+    transform: scale(0.95) translateY(2px);
+  }
+  50% {
+    transform: scale(1.05) translateY(-1px);
+  }
+  100% {
+    transform: scale(1) translateY(2px);
+  }
+}
+
+@keyframes multi-particles-top {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+  40% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px) scale(0);
+    box-shadow: 0 0 6px transparent, 20px -20px 0 transparent,
+      -20px -20px 0 transparent;
+  }
+}
+
+@keyframes multi-particles-bottom {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+  40% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px) scale(0);
+    box-shadow: 0 0 8px transparent, 20px 20px 0 transparent,
+      -20px 20px 0 transparent;
+  }
+}
+
+@keyframes sparkle-bg {
+  0% {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+/* Ripple effect */
+.radio-inputs .radio .name::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    #ff0808 0%,
+    transparent 50%
+  );
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.radio-inputs .radio input:checked + .name::before {
+  animation: ripple 0.8s ease-out;
+}
+
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    transform: scale(0.2);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+
+/* Glowing border */
+.radio-inputs .radio input:checked + .name {
+  position: relative;
+}
+
+.radio-inputs .radio input:checked + .name::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(45deg, #ff0808, #ff0808);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: border-glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes border-glow {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Package */
+.new_ecom_style_package-container {
+  display: none;
+  margin-top: 30px;
+  width: 100%;
+}
+.new_ecom_style_package-container.active {
+  display: block;
+}
+.new_ecom_style_package-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.new_ecom_style_package-card {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 12px;
+  background-color: white;
+  transition: transform 0.2s;
+}
+
+.new_ecom_style_package-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  border-bottom: 4px solid green;
+}
+
+.new_ecom_style_package-card h4 {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #242424;
+  line-height: 0px;
+  letter-spacing: 0.3px;
+}
+
+.new_ecom_style_card_subheading {
+  font-size: 13px;
+  line-height: 1.3;
+  color: rgb(52, 52, 52);
+  letter-spacing: 0.5px;
+  margin-top: 25px;
+  font-weight: 300;
+}
+.new_ecom_style_button {
+  margin-top: 20px;
+  --bg: #242424;
+  --hover-bg: #fff;
+  width: 100%;
+  --hover-text: #242424s;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+  color: var(--hover-text);
+  transform: translate(-0.25rem, -0.25rem);
+  background: var(--hover-bg);
+  box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.new_ecom_style_button:hover {
+  color: white;
+  background: #242424;
+}
+
+.new_ecom_style_button:active {
+  transform: translate(0);
+  box-shadow: none;
+}
+
+.new_ecom_style_features_div {
+  margin-top: 20px;
+}
+.new_ecom_style_features_div .new_ecom_style_features_div_heading {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: rgb(97, 97, 97);
+}
+
+.new_ecom_style_features_div_list {
+}
+
+.new_ecom_style_features_div_list_item {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  gap: 8px;
+}
+.new_ecom_style_features_div_list_item svg {
+}
+.new_ecom_style_features_div_list_item p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #242424;
+}
+
+.new_ecom_style_faq {
+  padding: 40px 40px;
+}
+
+.new_ecom_style_faq h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.new_ecom_style_faq p {
+  font-size: 14px;
+  color: #242424;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.new_ecom_style_faq_inner {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 60px;
+}
+.new_ecom_style_faq_inner_card {
+}
+.new_ecom_style_faq_inner_card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.new_ecom_style_faq_inner_card p {
+  font-size: 14px;
+  color: rgb(72, 72, 72);
+  margin-bottom: 10px;
+  font-weight: 300;
+}
