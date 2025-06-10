@@ -61,6 +61,15 @@
     grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
+  .new_ecom_style_whyus_inner {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .new_ecom_style_whyus_container {
+    padding: 40px 10px;
+  }
 }
 
 /* Tablet */
@@ -118,5 +127,11 @@
     padding: 40px;
     max-width: 1500px;
     margin: auto;
+  }
+  .new_ecom_style_whyus_inner {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
   }
 }

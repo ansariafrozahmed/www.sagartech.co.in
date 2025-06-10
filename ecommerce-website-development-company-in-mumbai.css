@@ -436,7 +436,7 @@ body {
 .new_ecom_style_faq p {
   font-size: 14px;
   color: #242424;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-weight: 300;
 }
 
@@ -637,4 +637,61 @@ body {
 .new_ecom_style_platforms_inner_card h3 {
   font-weight: 300;
   font-size: 16px;
+}
+.new_ecom_style_whyus_container {
+  padding: 40px;
+}
+.new_ecom_style_whyus {
+  max-width: 1500px;
+  margin: auto;
+}
+.new_ecom_style_whyus h2 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-align: center;
+}
+.new_ecom_style_whyus p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 0px 10px;
+  color: rgb(52, 52, 52);
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+.new_ecom_style_whyus_inner {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.new_ecom_style_whyus_card {
+  border: 1px solid rgb(237, 231, 231);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.new_ecom_style_whyus_card img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.new_ecom_style_whyus_card h4 {
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.new_ecom_style_whyus_card p {
+  text-align: left;
+  font-size: 14px;
+  padding: 0px;
+  font-weight: 300;
 }

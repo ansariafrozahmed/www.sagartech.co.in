@@ -22,6 +22,30 @@
     href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet" />
   <title>No.1 Ecommerce Website Development Agency in India</title>
+  <meta name="description"
+    content="We are one of the leading  e-commerce website developers in India. We designed an e-commerce website as per your  product and business requirement.">
+  <meta name="keywords" content="ecommerce website">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="No.1 Ecommerce Website Development Agency in India">
+  <meta property="og:url" content="https://sagartech.co.in/ecommerce-website-development-company-in-mumbai">
+  <meta property="og:image" content="https://sagartech.co.in/portfolio-images/ecommerce-mockup41.webp">
+  <meta property="og:description"
+    content="We are one of the leading  e-commerce website developers in India. We designed an e-commerce website as per your  product and business requirement.">
+  <!-- Favicon -->
+  <link rel="canonical" href="https://sagartech.co.in/ecommerce-website-development-company-in-mumbai" />
+  <link rel="shortcut icon" href="images/logoonly.jpg" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-156939866-1');
+  </script>
 </head>
 
 <body>
@@ -75,9 +99,6 @@
         </div>
       </div>
     </div>
-
-
-
 
     <div class="new_ecom_style_process_container">
       <div class="new_ecom_style_process_heading">
@@ -180,7 +201,36 @@
 
     </div>
 
-    <!-- FAQ -->
+    <div class="new_ecom_style_whyus_container" style="background-color: white;">
+      <div class="new_ecom_style_whyus">
+        <h2>Why Choose Us</h2>
+        <p>Why choose Sagar Tech Technical Solutions for Ecommerce website development.</p>
+        <div class="new_ecom_style_whyus_inner">
+          <div class="new_ecom_style_whyus_card">
+            <img src="./icons/customer-review.webp" alt="Knowledge and skill">
+            <h4>Knowledge and skill</h4>
+            <p>Look for a business that shows expertise and competence in a range of technologies and ecommerce platforms.</p>
+          </div>
+          <div class="new_ecom_style_whyus_card">
+            <img src="./icons/high-quality.webp" alt="Knowledge and skill">
+            <h4>High-quality Portfolio</h4>
+            <p>Take the time to review their portfolio and the quality of their work to ensure it meets your expectations.</p>
+          </div>
+          <div class="new_ecom_style_whyus_card">
+            <img src="./icons/budget.webp" alt="Knowledge and skill">
+            <h4>Cost and budget</h4>
+            <p>Getting an accurate estimate that suits your budget and offers a cost breakdown is also crucial, but you should be aware of any hidden expenses.</p>
+          </div>
+          <div class="new_ecom_style_whyus_card">
+            <img src="./icons/help-desk.webp" alt="Knowledge and skill">
+            <h4>Assistance and Service</h4>
+            <p>Long-term success depends on continuous feature enhancement and post-deployment support for your ecommerce platform.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
     <div class="new_ecom_style_faq_container">
       <div class="new_ecom_style_faq">
         <h2>FAQs</h2>
@@ -282,7 +332,7 @@
       },
       {
         icon: [
-          "https://siyahfy.com/favicon/favicon-32x32.png",
+          "./icons/siyafy.png",
           "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
         ],
         heading: "Custom",
@@ -346,7 +396,7 @@
       },
       {
         icon: [
-          "https://siyahfy.com/favicon/favicon-32x32.png",
+          "./icons/siyafy.png",
           "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
         ],
         heading: "Advanced Custom",
@@ -410,7 +460,7 @@
       },
       {
         icon: [
-          "https://siyahfy.com/favicon/favicon-32x32.png",
+          "./icons/siyafy.png",
           "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
         ],
         heading: "Advanced Custom + App",
@@ -437,7 +487,7 @@
         const iconsHTML = item.icon
           .map(
             (src) =>
-            `<img title="${item.heading}" src="${src}" alt="${item.heading} icon" style="height:28px; object-fit: contain;width:28px;  margin-right:10px" />`
+            `<img title="${item.heading}" src="${src}" alt="${item.heading} icon" style="height:28px; object-fit: contain;width:auto;  margin-right:10px" />`
           )
           .join("");
 
