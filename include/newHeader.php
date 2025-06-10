@@ -940,7 +940,7 @@ include('config.php');
               </div>
             </li> -->
             <li>
-              <a href="<?= WEB_URL ?>projects">Projects</a>
+              <a href="<?= WEB_URL ?>projects" target="_blank">Projects</a>
             </li>
             <li>
               <a href="<?= WEB_URL ?>about">About Us</a>
