@@ -1839,13 +1839,3 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
     bgGradientEnd: "#2c2a2d",
   },
 ];
-
-// https://youtu.be/BIu8v8b2bQU
-
-// https://youtu.be/pYBguISmCSs
-
-// https://youtu.be/BIu8v8b2bQU
-
-// https://youtu.be/pYBguISmCSs
-
-// Service to project type mapping
