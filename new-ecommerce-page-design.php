@@ -100,16 +100,7 @@
       </div>
     </div>
 
-    <div class="new_ecom_style_process_container">
-      <div class="new_ecom_style_process_heading">
-        <h3>Our Development Process</h3>
-      </div>
-      <div>
-        <?php
-        include 'ecommerce-info.php'
-        ?>
-      </div>
-    </div>
+
 
     <div class="new_ecom_style_platforms_container">
       <div class="new_ecom_style_platforms">
@@ -143,7 +134,7 @@
       </div>
     </div>
 
-    <div class="new_ecom_style_features_container">
+    <div class="new_ecom_style_features_container" style="background-color: white;">
       <div class="new_ecom_style_features">
         <h2>Core Features</h2>
         <p>An eCommerce website's ability to rank well depends on the features and functionalities it delivers.</p>
@@ -237,47 +228,36 @@
         <p>Everything you need to know about the product and billing.</p>
         <div class="new_ecom_style_faq_inner">
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Is there a free trial available ?</h3>
+            <h3>What is the timeline to complete my Shopify website?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, assumenda perspiciatis? Adipisci itaque tempora
+              Basic plan websites take 7–10 working days. Advanced plan websites take 12–15 working days.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Is there a free trial available ?</h3>
+            <h3>Can I manage the website myself after it's delivered?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, assumenda perspiciatis? Adipisci itaque tempora
+              Yes. We provide full training so you can add/edit products, track orders, and manage your store easily.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Is there a free trial available ?</h3>
+            <h3> Are domain & hosting charges included?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, assumenda perspiciatis? Adipisci itaque tempora
+              Shopify includes hosting. You only need to buy a domain, or we can help you purchase one.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Is there a free trial available ?</h3>
+            <h3>Will the website be mobile-friendly?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, assumenda perspiciatis? Adipisci itaque tempora
+              Absolutely. All Shopify websites we build are responsive and optimized for mobile users.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Is there a free trial available ?</h3>
+            <h3>Do you offer marketing & SEO support after launch?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, assumenda perspiciatis? Adipisci itaque tempora
+              Yes. We offer ongoing digital marketing services like SEO, social media, and ads to grow your store.
             </p>
           </div>
-          <div class="new_ecom_style_faq_inner_card">
-            <h3>Is there a free trial available ?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, assumenda perspiciatis? Adipisci itaque tempora
-            </p>
-          </div>
+
         </div>
       </div>
     </div>
@@ -290,11 +270,13 @@
         subheading: "Launch and scale your online store on Shopify with expert integrations, automated systems, and real-time insights tailored for rapid growth.",
         buttonText: "Talk to us",
         featurelist: [
-          "Interactive Dashboard Access",
-          "Dedicated Shopify Support",
+          "Shopify Basic Theme",
+          "Mobile Responsive Design",
           "Unlimited Marketing Campaigns",
-          "Integrated Fraud Protection",
-          "AI-Powered Recommendations",
+          "Payment Gateway Setup",
+          "Shipping & Tax Configuration",
+          "Order & Inventory Setup",
+          "Discount/Coupon Management",
         ],
       },
       {
@@ -350,11 +332,16 @@
         subheading: "Level up your Shopify store with high-speed performance, deep analytics, and advanced fraud protection tailored for scaling businesses.",
         buttonText: "Talk to us",
         featurelist: [
-          "Advanced Dashboard Access",
-          "Premium Shopify Support",
-          "Unlimited Growth Campaigns",
-          "Enhanced Fraud Prevention",
-          "AI-Powered Insights & Automation",
+          "All of Basic features",
+          "Shopify Premium Theme",
+          "Product Filters & Search",
+          "Blog Integration",
+          "SEO Setup",
+          "Analytics Integration",
+          "WhatsApp Chat Integration",
+          "Multi-Currency / Multi-Language",
+          "Abandoned Cart Recovery",
+          "Loyalty/Rewards Setup",
         ],
       },
       {
