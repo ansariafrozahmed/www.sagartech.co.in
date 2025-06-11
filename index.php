@@ -1,27 +1,17 @@
-<?php
-
-include('include/config.php');
-// error_reporting(error_reporting() & ~E_WARNING);
-// ini_set('display_errors', 1);
-// ini_set('error_reporting', E_ALL);
-?>
+<?php include('include/config.php'); ?>
 <!doctype html>
 <html lang="en">
 
 <head>
     <title>Web Development and Digital Marketing Agency in Mumbai - Sagar Tech</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
         content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
-
     <meta name="keywords"
         content="Website Designer and Web Developer in Mumbai, Best Website designer in Mumbai, 
     Best Website Designer in India, Web Developer in Mumbai,  Wordpress Developer in Mumbai,  Magento Developer in Mumbai, 
     Wordpress Woocommerce Website Developer in Mumbai, web Developer in Mumbai, Developer in Mumbai india, ISO consultants in Mumbai">
-
     <meta name="author" content="Ubaid saudagar">
     <meta name="designer" content="Ubaid Saudagar">
     <meta name="publisher" content="Ubaid Saudagar">
@@ -458,7 +448,6 @@ include('include/config.php');
     $page = 'home';
     include('include/newHeader.php');
     ?>
-
 
     <div class="main-content">
 
