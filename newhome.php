@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="newHome_heroImagediv">
-            <img src="./icons/avatar/neww.png" alt="">
+            <img src="./icons/avatar/neww.webp" alt="">
         </div>
         <!-- HERO -->
         <!-- STATISTICS -->
