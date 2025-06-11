@@ -134,29 +134,51 @@
       <div class="new_ecom_style_platformsweused_inner">
         <div class="new_ecom_style_platformsweused_card">
           <div class="new_ecom_style_platformsweused_card_head">
-            <img src="./icons/node.webp" alt="">
+            <!-- <img src="./icons/node.webp" alt=""> -->
             <h4>Custom Development</h4>
           </div>
-          <p>Do you want your online marketplace to be unique from the competition and filled with features? You really need the services of our skilled eCommerce website developers.</p>
           <p>
+            Do you want your online marketplace to be unique from the competition and filled with features? You really need the services of our skilled eCommerce website developers.
+          </p>
+          <!-- Hidden paragraph -->
+          <p class="hidden-paragraph">
             We can create a custom eCommerce website that is feature-rich, lightweight, simple to use, and appropriate for any type of business. We use frameworks like NodeJS and Laravel to develop effective and accessible online businesses.
           </p>
+
+          <!-- Button -->
+          <button class="read-more-btn">Read More</button>
         </div>
         <div class="new_ecom_style_platformsweused_card">
           <div class="new_ecom_style_platformsweused_card_head">
-            <img src="./icons/wordpress.webp" alt="">
+            <!-- <img src="./icons/wordpress.webp" alt=""> -->
             <h4>Wordpress Development</h4>
           </div>
-          <p>WordPress websites are extremely manageable, lightweight, and quicker to build. With a 30% market share, WooCommerce is the most widely used eCommerce plugin for WordPress.</p>
-          <p>WooCommerce, which is highly scalable and built with REST API, provides secure online payment and customizable shipping options The user experience is at the forefront of our design philosophy. Sagar Tech ensures that your WordPress e-commerce website development services are not only visually appealing but also user-friendly.</p>
+          <p>
+            WordPress websites are extremely manageable, lightweight, and quicker to build. With a 30% market share, WooCommerce is the most widely used eCommerce plugin for WordPress.
+          </p>
+          <!-- Hidden paragraph -->
+          <p class="hidden-paragraph">
+            WooCommerce, which is highly scalable and built with REST API, provides secure online payment and customizable shipping options The user experience is at the forefront of our design philosophy. Sagar Tech ensures that your WordPress e-commerce website development services are not only visually appealing but also user-friendly.
+          </p>
+
+          <!-- Button -->
+          <button class="read-more-btn">Read More</button>
         </div>
         <div class="new_ecom_style_platformsweused_card">
           <div class="new_ecom_style_platformsweused_card_head">
-            <img src="./icons/shopify.webp" alt="">
+            <!-- <img src="./icons/shopify.webp" alt=""> -->
             <h4>Shopify Development</h4>
           </div>
-          <p>Sagar Tech Technical Solution proudly introduces its specialized Shopify Website Development Services, designed to redefine and elevate your e-commerce experience.</p>
-          <p>User experience is important for every website. Sagar Tech makes sure that your Shopify ecommerce website is both aesthetically pleasing and has a user-friendly layout for smooth navigation.</p>
+          <p>
+            Sagar Tech Technical Solution proudly introduces its specialized Shopify Website Development Services, designed to redefine and elevate your e-commerce experience.
+          </p>
+          <!-- Hidden paragraph -->
+          <p class="hidden-paragraph">
+            User experience is important for every website. Sagar Tech makes sure that your Shopify ecommerce website is both aesthetically pleasing and has a user-friendly layout for smooth navigation.
+          </p>
+
+          <!-- Button -->
+          <button class="read-more-btn">Read More</button>
         </div>
       </div>
     </div>
@@ -652,6 +674,20 @@
         // Animate in new tab
         nextActive.classList.add("active");
         currentActive = nextActive;
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const buttons = document.querySelectorAll(".read-more-btn");
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", function() {
+          const hiddenPara = this.previousElementSibling;
+          if (hiddenPara && hiddenPara.classList.contains("hidden-paragraph")) {
+            hiddenPara.style.display = "block";
+            this.style.display = "none";
+          }
+        });
       });
     });
   </script>

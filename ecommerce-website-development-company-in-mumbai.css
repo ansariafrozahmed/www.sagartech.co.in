@@ -727,7 +727,7 @@ body {
   max-width: 1500px;
   margin: auto;
   display: grid;
-  margin-top: 30px;
+  margin-top: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
@@ -747,11 +747,23 @@ body {
   line-height: 1.5;
   color: #7c7b7b;
   letter-spacing: 0.5px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-weight: 300;
 }
 .new_ecom_style_platformsweused_card_head {
   margin-bottom: 15px;
   align-items: center;
   gap: 10px;
+}
+.hidden-paragraph {
+  display: none;
+}
+
+.read-more-btn {
+  color: #ff0808;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
