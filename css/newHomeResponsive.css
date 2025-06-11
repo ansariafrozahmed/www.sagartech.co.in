@@ -1,0 +1,43 @@
+/* Mobile (already present) */
+@media only screen and (max-width: 600px) {
+  .newHome_hero h1 {
+    font-size: 33px;
+    max-width: 800px;
+  }
+  .newHome_hero p {
+    max-width: 1000px;
+  }
+  .newHome_heroImagediv {
+    width: 100%;
+    height: 200px;
+  }
+  .newHome_statistics {
+    padding: 80px 15px;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .newHome_statistics .newHome_number {
+    font-size: 50px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .newHome_hero h1 {
+    font-size: 40px;
+    max-width: 600px;
+  }
+  .newHome_hero p {
+    max-width: 600px;
+  }
+  .newHome_heroImagediv {
+    width: 100%;
+  }
+  .newHome_statistics {
+    padding: 50px 30px;
+    gap: 30px;
+  }
+  .newHome_statistics .newHome_number {
+    font-size: 40px;
+  }
+}

@@ -70,6 +70,18 @@
   .new_ecom_style_whyus_container {
     padding: 40px 10px;
   }
+  .new_ecom_style_platformsweused_container {
+    padding: 40px 15px;
+  }
+  .new_ecom_style_platformsweused_inner {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .new_ecom_style_platformsweused_container h2 {
+    font-size: 28px;
+  }
 }
 
 /* Tablet */

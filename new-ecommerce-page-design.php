@@ -16,11 +16,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
     rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet" />
   <title>No.1 Ecommerce Website Development Agency in India</title>
   <meta name="description"
     content="We are one of the leading  e-commerce website developers in India. We designed an e-commerce website as per your  product and business requirement.">
@@ -49,10 +44,12 @@
 </head>
 
 <body>
+
   <?php
   $page = 'services';
   include("include/newHeader.php");
   ?>
+
   <div class="new_ecom_style_main">
     <div class="new_ecom_style_container">
       <div class="new_ecom_style_headdiv">
@@ -61,7 +58,7 @@
           for your business
         </h1>
         <p class="new_ecom_style_text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Sagar Tech Technical Solution stands out as an award-winning 🏆 Web Development Company that provides ecommerce website development services in Mumbai.
         </p>
       </div>
 
@@ -100,9 +97,7 @@
       </div>
     </div>
 
-
-
-    <div class="new_ecom_style_platforms_container">
+    <!-- <div class="new_ecom_style_platforms_container">
       <div class="new_ecom_style_platforms">
         <h2>Techstack We Used</h2>
       </div>
@@ -132,12 +127,44 @@
           <img src="./icons/siyafy.png" alt="siyahfy">
         </div>
       </div>
+    </div> -->
+
+    <div class="new_ecom_style_platformsweused_container">
+      <h2>Platforms Used by Our eCommerce Website Developers</h2>
+      <div class="new_ecom_style_platformsweused_inner">
+        <div class="new_ecom_style_platformsweused_card">
+          <div class="new_ecom_style_platformsweused_card_head">
+            <img src="./icons/node.webp" alt="">
+            <h4>Custom Development</h4>
+          </div>
+          <p>Do you want your online marketplace to be unique from the competition and filled with features? You really need the services of our skilled eCommerce website developers.</p>
+          <p>
+            We can create a custom eCommerce website that is feature-rich, lightweight, simple to use, and appropriate for any type of business. We use frameworks like NodeJS and Laravel to develop effective and accessible online businesses.
+          </p>
+        </div>
+        <div class="new_ecom_style_platformsweused_card">
+          <div class="new_ecom_style_platformsweused_card_head">
+            <img src="./icons/wordpress.webp" alt="">
+            <h4>Wordpress Development</h4>
+          </div>
+          <p>WordPress websites are extremely manageable, lightweight, and quicker to build. With a 30% market share, WooCommerce is the most widely used eCommerce plugin for WordPress.</p>
+          <p>WooCommerce, which is highly scalable and built with REST API, provides secure online payment and customizable shipping options The user experience is at the forefront of our design philosophy. Sagar Tech ensures that your WordPress e-commerce website development services are not only visually appealing but also user-friendly.</p>
+        </div>
+        <div class="new_ecom_style_platformsweused_card">
+          <div class="new_ecom_style_platformsweused_card_head">
+            <img src="./icons/shopify.webp" alt="">
+            <h4>Shopify Development</h4>
+          </div>
+          <p>Sagar Tech Technical Solution proudly introduces its specialized Shopify Website Development Services, designed to redefine and elevate your e-commerce experience.</p>
+          <p>User experience is important for every website. Sagar Tech makes sure that your Shopify ecommerce website is both aesthetically pleasing and has a user-friendly layout for smooth navigation.</p>
+        </div>
+      </div>
     </div>
 
     <div class="new_ecom_style_features_container" style="background-color: white;">
       <div class="new_ecom_style_features">
         <h2>Core Features</h2>
-        <p>An eCommerce website's ability to rank well depends on the features and functionalities it delivers.</p>
+        <p>An eCommerce website's ability to rank well depends on the features and functionalities it delivers. As an award-winning ecommerce website development company in India, we provide every feature required for managing a profitable online store. Our eCommerce web developers handle everything, from a rich user interface to easy access on mobile, tablet, desktop, and laptop devices. We are experts at scaling your business by providing an ecommerce website solution.</p>
         <div class="new_ecom_style_features_inner">
           <div class="new_ecom_style_features_card">
             <img src="./icons/cms.webp" alt="ecommerce website">
@@ -192,6 +219,51 @@
 
     </div>
 
+    <div class="new_ecom_style_faq_container">
+      <div class="new_ecom_style_faq">
+        <h2>Why Your Business Need Ecommerce Website</h2>
+        <p><a href="https://www.indiamart.com/sagartech-technicalsolutions/ecommerce-website-development-service.html#2854462235188" class="new_ecom_style_highlight">E-commerce website</a> is more critical than ever for businesses of all sizes and industries The internet has turned into a centre of activity, and having a strong online presence can help your business grow Our core of ecommerce website development is to provide the user with a store-like shopping experience and provide the administrator with an easy management facility. Sagar Tech Technical solution is ISO certified e-commerce website development company in india Here are the reasons why your business needs an e-commerce website:</p>
+        <div class="new_ecom_style_faq_inner">
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>Global Market Reach</h3>
+            <p>
+              An e-commerce website allows your business to transcend geographical boundaries. By establishing an online storefront.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>24/7 Accessibility</h3>
+            <p>
+              Unlike traditional brick-and-mortar stores with fixed operating hours, an e-commerce website is open 24/7.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>Increased Sales</h3>
+            <p>
+              The online marketplace is dynamic and ever-expanding. An e-commerce website opens up new avenues for sales.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>Reduced Costs</h3>
+            <p>
+              Operating an online website often incurs lower costs compared to maintaining a physical storefront.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>Data-Driven Insights</h3>
+            <p>
+              E-commerce platforms provide valuable data and insights into customer behavior.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>Brand visibility</h3>
+            <p>
+              An e-commerce website enhances your brand's visibility and credibility.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="new_ecom_style_whyus_container" style="background-color: white;">
       <div class="new_ecom_style_whyus">
         <h2>Why Choose Us</h2>
@@ -228,33 +300,51 @@
         <p>Everything you need to know about the product and billing.</p>
         <div class="new_ecom_style_faq_inner">
           <div class="new_ecom_style_faq_inner_card">
-            <h3>What is the timeline to complete my Shopify website?</h3>
+            <h3>Why do I need an E-Commerce Website for my business?</h3>
             <p>
-              Basic plan websites take 7–10 working days. Advanced plan websites take 12–15 working days.
+              An E-Commerce website expands your reach, allowing you to tap into a global market. It provides a convenient shopping experience for customers and enhances your business visibility.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Can I manage the website myself after it's delivered?</h3>
+            <h3>What services do you offer for E-Commerce Websites?</h3>
             <p>
-              Yes. We provide full training so you can add/edit products, track orders, and manage your store easily.
+              Yes, we specialize in developing custom E-Commerce websites designed to meet your specific business requirements, ensuring a unique and effective online presence.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3> Are domain & hosting charges included?</h3>
+            <h3>Can you optimize my website for search engines (SEO)?</h3>
             <p>
-              Shopify includes hosting. You only need to buy a domain, or we can help you purchase one.
+              Yes, we offer SEO-friendly web development services to ensure your website is optimized for search engines, helping to improve its visibility and ranking in search results.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Will the website be mobile-friendly?</h3>
+            <h3>How do you ensure the security of transactions on E-Commerce websites?</h3>
             <p>
-              Absolutely. All Shopify websites we build are responsive and optimized for mobile users.
+              We implement robust security measures, including SSL encryption, secure payment gateways, and compliance with industry standards, to protect customer data and ensure safe transactions.
             </p>
           </div>
           <div class="new_ecom_style_faq_inner_card">
-            <h3>Do you offer marketing & SEO support after launch?</h3>
+            <h3>Can you integrate popular payment gateways into my E-Commerce website?</h3>
             <p>
-              Yes. We offer ongoing digital marketing services like SEO, social media, and ads to grow your store.
+              Yes, we can integrate various payment gateways like PayPal, Stripe, and others, providing your customers with multiple secure options for making online purchases.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>What platforms do you use for building E-Commerce websites?</h3>
+            <p>
+              We work with popular E-Commerce platforms such as Shopify, WooCommerce, Magento, and others, selecting the platform that best aligns with your business goals and requirements.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>Can you create a mobile-responsive design for my E-Commerce website?</h3>
+            <p>
+              Yes Absolutely, we prioritize mobile-responsive design to ensure that your E-Commerce website functions seamlessly on various devices, providing an optimal user experience.
+            </p>
+          </div>
+          <div class="new_ecom_style_faq_inner_card">
+            <h3>Do you offer ongoing support and maintenance for E-Commerce websites?</h3>
+            <p>
+              Yes, we provide ongoing support and maintenance services to keep your E-Commerce website updated, secure, and functioning smoothly, ensuring a positive experience for both you and your customers.
             </p>
           </div>
 
@@ -262,6 +352,10 @@
       </div>
     </div>
   </div>
+
+  <?php
+  include("include/footer.php");
+  ?>
 
   <script>
     const basicPackages = [{
@@ -285,11 +379,13 @@
         subheading: "Build content-driven websites and eCommerce experiences on WordPress with advanced customizations, SEO optimization, and seamless performance.",
         buttonText: "Talk to us",
         featurelist: [
-          "CMS Dashboard Access",
-          "24/7 WordPress Support",
-          "Unlimited Campaign Deployment",
-          "Robust Security Layers",
-          "AI-Optimized Content Tools",
+          "WooCommerce Integration",
+          "Custom Theme & Plugin Setup",
+          "Mobile Responsive Design",
+          "Basic SEO Optimization",
+          "Product & Category Management",
+          "Payment & Shipping Setup",
+          "Blog & Content Pages"
         ],
       },
       {
@@ -301,11 +397,13 @@
         subheading: "Combine flexibility with performance using a headless architecture. Connect frontend frameworks like Next.js with powerful backend systems effortlessly.",
         buttonText: "Talk to us",
         featurelist: [
-          "Modern Dashboard Access",
-          "Full-Stack Developer Support",
-          "Unlimited API-based Campaigns",
-          "Headless Security Measures",
-          "AI-Powered Backend Logic",
+          "WordPress as CMS Backend",
+          "Next.js Frontend Integration",
+          "Optimized Performance & SEO",
+          "Dynamic Routing & CMS Pages",
+          "API-based Content Delivery",
+          "Custom Blog & Product Modules",
+          "Responsive UI & Page Speed Focused"
         ],
       },
       {
@@ -317,11 +415,13 @@
         subheading: "Tailored to your business needs—from hybrid platforms to unique workflows—our custom solutions deliver unmatched scalability and control.",
         buttonText: "Talk to us",
         featurelist: [
-          "Custom Admin Dashboard",
-          "Priority Support",
-          "Unlimited Campaign Flexibility",
-          "Enterprise-Grade Fraud Detection",
-          "AI Logic Built to Your Needs",
+          "Siyahfy CMS Backend",
+          "Next.js Frontend Interface",
+          "Custom Workflows & Modules",
+          "Multi-Role User Management",
+          "Integrated Order Management",
+          "API & 3rd Party Integration",
+          "Dynamic UI section"
         ],
       },
     ];
@@ -350,11 +450,16 @@
         subheading: "Transform your WordPress site with faster loading, advanced SEO tools, custom integrations, and enterprise-grade support.",
         buttonText: "Talk to us",
         featurelist: [
-          "Pro Dashboard Access",
-          "Expert WordPress Support",
-          "Unlimited Marketing Campaigns",
-          "Security & Spam Shielding",
-          "AI Content Optimization",
+          "All of Basic features",
+          "Custom Theme Optimization",
+          "Speed & Caching Enhancements",
+          "Advanced WooCommerce Setup",
+          "Structured Data & SEO Tools",
+          "CRM / ERP Plugin Integration",
+          "Live Chat & WhatsApp Integration",
+          "Multilingual Support (WPML/Polylang)",
+          "Abandoned Cart Recovery",
+          "Security & Backup Setup"
         ],
       },
       {
@@ -366,11 +471,16 @@
         subheading: "Build lightning-fast frontend experiences with Headless commerce, API-based flexibility, and full-stack control.",
         buttonText: "Talk to us",
         featurelist: [
-          "Next.js Admin Access",
-          "Developer-Level Support",
-          "API-Based Campaign Deployment",
-          "Advanced Backend Logic & Security",
-          "AI Workflows & Automations",
+          "All of Basic features",
+          "WordPress CMS + Next.js Frontend",
+          "API-Driven Product Management",
+          "SSR & ISR Optimization",
+          "Custom Blog System",
+          "Advanced SEO & Meta Handling",
+          "Multi-language Routing",
+          "Cart & Checkout via API",
+          "Authentication & Protected Routes",
+          "Advanced Analytics & GTM Integration"
         ],
       },
       {
@@ -382,11 +492,16 @@
         subheading: "Get a solution crafted exactly to your business model, combining custom workflows, deep tech stacks, and full scalability.",
         buttonText: "Talk to us",
         featurelist: [
-          "Fully Customized Dashboard",
-          "Direct Engineering Support",
-          "Unlimited API/Manual Campaigns",
-          "Enterprise Security Layer",
-          "Tailored AI Intelligence",
+          "All of Basic features",
+          "Siyahfy CMS Admin Panel",
+          "Custom Role-Based Dashboards",
+          "Dynamic Component-Based Frontend",
+          "Custom APIs & 3rd Party Integrations",
+          "Headless Checkout System",
+          "Real-time Order & Inventory Sync",
+          "Progressive Web App (PWA) Ready",
+          "Advanced Access Controls & Logs",
+          "Data Export, Backup & Recovery"
         ],
       }
 
@@ -398,11 +513,9 @@
         subheading: "All the power of Advanced Shopify, now with a fully-synced mobile app to supercharge customer engagement and retention.",
         buttonText: "Talk to us",
         featurelist: [
-          "All Advanced Shopify Features",
-          "iOS + Android App Integration",
-          "Real-time Sync with Store",
-          "Push Notifications & Analytics",
-          "Optimized Mobile UX",
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
         ],
       },
       {
@@ -411,11 +524,9 @@
         subheading: "Combine your WordPress site with a cross-platform mobile app to deliver content, ecommerce, and support—anytime, anywhere.",
         buttonText: "Talk to us",
         featurelist: [
-          "All Advanced WordPress Features",
-          "Custom Mobile App Included",
-          "Live Sync with WordPress",
-          "Push Messaging & Engagement",
-          "Seamless Mobile Navigation",
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
         ],
       },
       {
@@ -427,11 +538,9 @@
         subheading: "Go headless across web and mobile. We build a high-performance frontend plus native apps with a unified backend.",
         buttonText: "Talk to us",
         featurelist: [
-          "All Advanced Headless Features",
-          "Next.js + App Shell Architecture",
-          "Mobile App (iOS & Android)",
-          "API Sync Across Channels",
-          "Unified Codebase & AI Flows",
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
         ],
       },
       {
@@ -443,11 +552,9 @@
         subheading: "Bespoke web and mobile solutions designed around your business logic, customer journeys, and monetization goals.",
         buttonText: "Talk to us",
         featurelist: [
-          "Custom Web + App Architecture",
-          "End-to-End Support & Strategy",
-          "Real-Time Data Sync",
-          "White-Label Branding Options",
-          "Smart Automation & AI Features",
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
         ],
       },
     ];
@@ -507,13 +614,17 @@
     };
 
     renderPackageCards(basicPackages, "basic-cards");
+
     renderPackageCards(AdvancedPackages, "advanced-cards");
+
     renderPackageCards(AdvancedWithAppPackages, "advanced-app-cards");
 
     const radios = document.querySelectorAll('input[name="package"]');
+
     const containers = document.querySelectorAll(
       ".new_ecom_style_package-container"
     );
+
     let currentActive = document.querySelector(
       ".new_ecom_style_package-container.active"
     );
@@ -547,6 +658,3 @@
 </body>
 
 </html>
-<?php
-include("include/footer.php");
-?>

@@ -39,11 +39,11 @@ body {
   text-align: center;
 }
 .new_ecom_style_text {
-  max-width: 550px;
+  max-width: 700px;
   text-align: center;
   font-size: 14px;
   line-height: 1.4;
-  padding: 0px 10px;
+  padding: 0px 15px;
   color: rgb(52, 52, 52);
   letter-spacing: 0.5px;
   margin-top: 15px;
@@ -414,11 +414,10 @@ body {
 .new_ecom_style_features_div_list_item p {
   font-size: 13px;
   font-weight: 300;
-  color: #242424;
+  color: #7c7b7b;
 }
 
 .new_ecom_style_faq_container {
-  background-color: white;
 }
 
 .new_ecom_style_faq {
@@ -429,13 +428,19 @@ body {
 
 .new_ecom_style_faq h2 {
   font-size: 35px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
   margin-bottom: 10px;
   font-weight: 500;
 }
 
 .new_ecom_style_faq p {
-  font-size: 14px;
-  color: #242424;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #7c7b7b;
+  text-align: center;
+  letter-spacing: 0.5px;
   margin-bottom: 30px;
   font-weight: 300;
 }
@@ -444,21 +449,27 @@ body {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 30px;
-  column-gap: 60px;
+  row-gap: 25px;
+  column-gap: 25px;
 }
 .new_ecom_style_faq_inner_card {
+  border: 1px solid rgb(240, 235, 235);
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
 }
 .new_ecom_style_faq_inner_card h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  text-align: center;
   font-weight: 400;
 }
 
 .new_ecom_style_faq_inner_card p {
-  font-size: 14px;
-  color: rgb(72, 72, 72);
+  font-size: 13px;
+  color: #7c7b7b;
   margin-bottom: 10px;
+  letter-spacing: 0.5px;
   font-weight: 300;
 }
 .new_ecom_style_tech_stack_container {
@@ -559,8 +570,8 @@ body {
   text-align: center;
   font-size: 14px;
   line-height: 1.4;
-  padding: 0px 10px;
-  color: rgb(52, 52, 52);
+  padding: 0px 15px;
+  color: #7c7b7b;
   letter-spacing: 0.5px;
   margin-top: 15px;
   font-weight: 300;
@@ -626,7 +637,7 @@ body {
   justify-content: center;
   border: 1px solid rgb(239, 237, 237);
   border-radius: 15px;
-  padding: 20px 10px;
+  padding: 20px 15px;
   background-color: white;
 }
 .new_ecom_style_platforms_inner_card img {
@@ -659,7 +670,7 @@ body {
   font-size: 14px;
   line-height: 1.4;
   padding: 0px 10px;
-  color: rgb(52, 52, 52);
+  color: #494949;
   letter-spacing: 0.5px;
   margin-top: 15px;
   font-weight: 300;
@@ -692,6 +703,55 @@ body {
 .new_ecom_style_whyus_card p {
   text-align: left;
   font-size: 14px;
+  color: #7c7b7b;
   padding: 0px;
   font-weight: 300;
+}
+.new_ecom_style_platformsweused_container {
+  padding: 40px;
+  margin: auto;
+  background-color: white;
+}
+.new_ecom_style_platformsweused_container h2 {
+  margin-bottom: 10px;
+  max-width: 700px;
+  margin: auto;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.15;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-align: center;
+}
+.new_ecom_style_platformsweused_inner {
+  max-width: 1500px;
+  margin: auto;
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.new_ecom_style_platformsweused_card {
+}
+.new_ecom_style_platformsweused_card img {
+  height: 50px;
+  width: auto;
+}
+.new_ecom_style_platformsweused_card h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.new_ecom_style_platformsweused_card p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #7c7b7b;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.new_ecom_style_platformsweused_card_head {
+  margin-bottom: 15px;
+  align-items: center;
+  gap: 10px;
 }
