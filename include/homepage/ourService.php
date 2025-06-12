@@ -18,28 +18,28 @@
             </div>
         </a>
         <a href="/">
-            <div data-aos="fade-up" data-aos-delay="200" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
+            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
                 <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/digital marketing.webp" alt="">
             </div>
         </a>
         <a href="/">
-            <div data-aos="fade-up" data-aos-delay="400" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
+            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
                 <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/app development & design.webp" alt="">
             </div>
         </a>
         <a href="/">
-            <div data-aos="fade-up" data-aos-delay="600" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
+            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
                 <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/graphic designing.webp" alt="">
             </div>
         </a>
         <a href="/">
-            <div data-aos="fade-up" data-aos-delay="800" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
+            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
                 <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/seo.webp" alt="">
             </div>
         </a>
         <a href="/">
-            <div data-aos="fade-up" data-aos-delay="1000" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/6.webp" alt="">
+            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
+                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/bulk sms services.webp" alt="">
             </div>
         </a>
     </div>
