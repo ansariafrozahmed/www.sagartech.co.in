@@ -9,7 +9,7 @@
   color: #ff0808;
   font-weight: 500;
 }
-.newHome_hero h1 {
+.newHome_hero h2 {
   font-size: 50px;
   max-width: 800px;
   color: #242424;
@@ -138,7 +138,7 @@
 }
 /* Mobile (already present) */
 @media only screen and (max-width: 600px) {
-  .newHome_hero h1 {
+  .newHome_hero h2 {
     font-size: 33px;
     max-width: 800px;
   }
@@ -153,7 +153,7 @@
 
 /* Tablet */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .newHome_hero h1 {
+  .newHome_hero h2 {
     font-size: 40px;
     max-width: 600px;
   }

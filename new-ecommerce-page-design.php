@@ -29,7 +29,7 @@
   <!-- Favicon -->
   <link rel="canonical" href="https://sagartech.co.in/ecommerce-website-development-company-in-mumbai" />
   <link rel="shortcut icon" href="images/logoonly.jpg" />
-
+  <script src="https://cdn.tailwindcss.com"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -58,8 +58,18 @@
           for your business
         </h1>
         <p class="new_ecom_style_text">
-          Sagar Tech Technical Solution stands out as an award-winning 🏆 Web Development Company that provides ecommerce website development services in Mumbai.
+          <a href="https://sagartech.co.in/" class="text-[#ff0808]">Sagar Tech Technical Solution</a> stands out as an award-winning 🏆
+          <a href="https://sagartech.co.in/web-development-company-in-mumbai" class="text-[#ff0808]">Web Development Company</a> that provides
+          <a href="https://www.indiamart.com/sagartech-technicalsolutions/e-commerce-website-design.html" class="text-[#ff0808]">ecommerce website</a>
+          development services in Mumbai. <button id="readMoreBtn" class="text-[#ff0808] text-xs mt-2 font-light underline"> read more</button>
         </p>
+
+        <!-- Hidden content -->
+        <p id="moreContent" class="new_ecom_style_text hidden">
+          Having a track record of providing innovative solutions We take pride in developing ecommerce website design and our ability to create e-commerce websites that not only match your business needs but also exceed the needs of businesses looking for an efficient and eye-catching online presence. Our skilled ecommerce developers work using the latest technology like: React, Next.js, Node.js, etc.
+        </p>
+
+
       </div>
 
       <div class="new_ecom_style_card_container">
@@ -242,9 +252,12 @@
     </div>
 
     <div class="new_ecom_style_faq_container">
-      <div class="new_ecom_style_faq">
-        <h2>Why Your Business Need Ecommerce Website</h2>
-        <p><a href="https://www.indiamart.com/sagartech-technicalsolutions/ecommerce-website-development-service.html#2854462235188" class="new_ecom_style_highlight">E-commerce website</a> is more critical than ever for businesses of all sizes and industries The internet has turned into a centre of activity, and having a strong online presence can help your business grow Our core of ecommerce website development is to provide the user with a store-like shopping experience and provide the administrator with an easy management facility. Sagar Tech Technical solution is ISO certified e-commerce website development company in india Here are the reasons why your business needs an e-commerce website:</p>
+      <div class="new_ecom_style_faq space-y-4">
+        <h2 class="!leading-none">Why Your Business Need Ecommerce Website</h2>
+        <p id="ecomText" class="!text-gray-700  transition-all duration-300 ease-in-out">
+          <a href="https://www.indiamart.com/sagartech-technicalsolutions/ecommerce-website-development-service.html#2854462235188" class="new_ecom_style_highlight">E-commerce website</a> is more critical than ever for businesses of all sizes and industries. The internet has turned into a centre of activity, and having a strong online presence can help your business grow. Our core of ecommerce website development is to provide the user with a store-like shopping experience and provide the administrator with an easy management facility. Sagar Tech Technical solution is ISO certified e-commerce website development company in India. Here are the reasons why your business needs an e-commerce website.
+        </p>
+
         <div class="new_ecom_style_faq_inner">
           <div class="new_ecom_style_faq_inner_card">
             <h3>Global Market Reach</h3>
@@ -621,7 +634,7 @@
 
         card.innerHTML = `
         <div class="new_ecom_style_card_heading">
-          ${iconsHTML}
+         <div class="flex">${iconsHTML}</div>
           <h4>${item.heading}</h4>
         </div>
         <p class="new_ecom_style_card_subheading">${item.subheading}</p>
@@ -689,6 +702,14 @@
           }
         });
       });
+    });
+
+    const btn = document.getElementById("readMoreBtn");
+    const content = document.getElementById("moreContent");
+
+    btn.addEventListener("click", () => {
+      content.classList.remove("hidden");
+      btn.classList.add("hidden");
     });
   </script>
 </body>
