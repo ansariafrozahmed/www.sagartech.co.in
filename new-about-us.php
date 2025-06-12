@@ -168,10 +168,10 @@
             <!-- ABOUT CEO AND QUOTES SECTION -->
             <div class="">
 
-                <h1 class="heading-all md:text-5xl text-3xl ">
+                <h1 class="heading-all md:text-5xl text-3xl text-center ">
                     From the CEO’s Desk
                 </h1>
-                <div class="space-y-3 text-gray-600 text-sm content-all tracking-wide">
+                <div class="space-y-3 text-gray-600 text-sm content-all tracking-wide text-center">
                     <p class="">
                         Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, <a href="/social-media-optimization-agency-in-mumbai" class="text-red-600">social media optimization, SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
                     </p>
@@ -216,15 +216,13 @@
                 <div class="md:my-12 my-10 ">
                     <div class="">
                         <div class="flex md:flex-row flex-col justify-between gap-10 items-center">
-                            <div class="md:w-1/2 w-full">
-                                <h2 class="heading-all md:text-5xl text-3xl mb-3 ">Our <span class="text-red-600">Workspace</span></h2>
-                                <p class="text-sm content-all text-gray-600 text-start  w-full px-0 ">
+                            <div class=" w-full">
+                                <h2 class="heading-all md:text-5xl text-3xl mb-3 text-center">Our <span class="text-red-600">Workspace</span></h2>
+                                <p class="text-sm content-all text-gray-600 md:px-48 text-center  w-full px-0 ">
                                     In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.
                                 </p>
                             </div>
-                            <div class="md:w-1/2 w-full">
-                                <img src="workspace.webp" class="w" alt="">
-                            </div>
+
                             <!-- <div class="">
                                 <ul class="space-y-3 flex items-center bg-gray-100 p-7 rounded-md ">
                                     <li class="flex items-center gap-2">
@@ -250,29 +248,29 @@
                             </div> -->
                         </div>
                         <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
-                            <div class="  md:h-[300px] rounded-md h-auto p-5 bg-gray-100 shadow-md flex-1">
+                            <div class="  md:h-[300px] rounded-md h-auto p-5 bg-red-100 shadow-md flex-1">
                                 <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
                                         <img src="web-development.png" class="w-16 h-16" alt="">
                                     </span>Development Team</h3>
-                                <p class="text-sm content-all text-gray-500">Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.</p>
+                                <p class="text-sm content-all text-gray-600">Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.</p>
                             </div>
-                            <div class=" md:h-[300px] rounded-md h-auto  p-5 bg-gray-100 shadow-md flex-1 flex justify-center items-center">
+                            <div class=" md:h-[300px] rounded-md h-auto  p-5 bg-red-100 shadow-md flex-1 flex justify-center items-center">
                                 <div class="">
                                     <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
                                             <img src="socialmedia-icons.png" class="w-16 h-16" alt="">
                                         </span>Social Media Team
                                     </h3>
-                                    <p class="text-sm content-all text-gray-500
+                                    <p class="text-sm content-all text-gray-600
                                     ">Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.</p>
                                 </div>
                             </div>
-                            <div class=" md:h-[300px] rounded-md bg-gray-100 shadow-md h-auto p-5 flex-1 flex justify-center items-center">
+                            <div class=" md:h-[300px] rounded-md bg-red-100 shadow-md h-auto p-5 flex-1 flex justify-center items-center">
                                 <div class="">
 
                                     <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
                                             <img src="seo-icon.png" class="w-16 h-16" alt="">
                                         </span>SEO Team</h3>
-                                    <p class="text-sm content-all text-gray-500">Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
+                                    <p class="text-sm content-all text-gray-600">Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
                                 </div>
                             </div>
                         </div>
@@ -280,48 +278,51 @@
                 </div>
             </div>
         </div>
-        <div class="md:px-20 relative pt-16 bg-gray-950">
-            <!-- <img src="bg-black.webp" class="w-full h-full absolute top-0 left-0 object-cover object-top" alt=""> -->
-            <h1 class="text-gray-200 relative mb-10 text-center font- md:text-5xl text-3xl heading-all">Our <span class="text-red-600">Statistics</span></h1>
-            <div class="relative flex md:flex-row max-sm:gap-20 max-sm:items-center flex-col justify-between mt-14 pb-20">
-                <div class="flex items-end gap-5">
-                    <span class="text-gray-900 heading-all font-semibold">
-                        <img src="project1.png" alt="" class="w-20">
-                    </span>
-                    <div>
-                        <div class="text-gray-500 text-6xl number-count" data-target="500">0</div>
-                        <div class="text-gray-300 text-sm">Projects</div>
-                    </div>
-                </div>
-                <div class="flex items-end gap-5">
-                    <span class="text-gray-900 heading-all font-semibold">
-                        <img src="client1.png" alt="" class="w-20">
-                    </span>
-                    <div>
-                        <div class="text-gray-500 text-6xl number-count" data-target="300">0</div>
-                        <div class="text-gray-300 text-sm">Satisfied Clients</div>
-                    </div>
-                </div>
-                <div class="flex items-end gap-5">
-                    <span class="text-gray-900 heading-all font-semibold">
-                        <img src="trophy1.png" alt="" class="w-20">
-                    </span>
-                    <div>
-                        <div class="text-gray-500 text-6xl number-count" data-target="1">0</div>
-                        <div class="text-gray-300 text-sm">Award</div>
-                    </div>
-                </div>
-                <div class="flex items-end gap-5">
-                    <span class="text-gray-900 heading-all font-semibold">
-                        <img src="rate2.png" alt="" class="w-20">
-                    </span>
-                    <div>
-                        <div class="text-gray-500 text-6xl number-count" data-target="5">0</div>
-                        <div class="text-gray-300 text-sm">Ratings</div>
-                    </div>
-                </div>
-            </div>
+        <div class="md:!mb-16 mb-10">
 
+            <div class="md:px-20 relative pt-16 bg-gray-100">
+                <!-- <img src="bg-black.webp" class="w-full h-full absolute top-0 left-0 object-cover object-top" alt=""> -->
+                <h1 class="text-gray-800 relative mb-10 text-center font- md:text-5xl text-3xl heading-all">Our <span class="text-red-600">Statistics</span></h1>
+                <div class="relative flex md:flex-row max-sm:gap-20 max-sm:items-center flex-col justify-between mt-14 pb-20">
+                    <div class="flex items-end gap-5">
+                        <span class="text-gray-900 heading-all font-semibold">
+                            <img src="project1.png" alt="" class="w-20">
+                        </span>
+                        <div>
+                            <div class="text-gray-500 text-6xl number-count" data-target="500">0</div>
+                            <div class="text-gray-900 text-sm">Projects</div>
+                        </div>
+                    </div>
+                    <div class="flex items-end gap-5">
+                        <span class="text-gray-900 heading-all font-semibold">
+                            <img src="client1.png" alt="" class="w-20">
+                        </span>
+                        <div>
+                            <div class="text-gray-500 text-6xl number-count" data-target="300">0</div>
+                            <div class="text-gray-900 text-sm">Satisfied Clients</div>
+                        </div>
+                    </div>
+                    <div class="flex items-end gap-5">
+                        <span class="text-gray-900 heading-all font-semibold">
+                            <img src="trophy1.png" alt="" class="w-20">
+                        </span>
+                        <div>
+                            <div class="text-gray-500 text-6xl number-count" data-target="1">0</div>
+                            <div class="text-gray-900 text-sm">Award</div>
+                        </div>
+                    </div>
+                    <div class="flex items-end gap-5">
+                        <span class="text-gray-900 heading-all font-semibold">
+                            <img src="rate2.png" alt="" class="w-20">
+                        </span>
+                        <div>
+                            <div class="text-gray-500 text-6xl number-count" data-target="5">0</div>
+                            <div class="text-gray-900 text-sm">Ratings</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
         <section class="overview-block device-aria iq-bg jarallax ">
 
@@ -430,7 +431,7 @@
             );
 
             // Target the specific statistics section (the last md:px-20 with the statistics heading)
-            const statsSection = document.querySelector('.md\\:px-20.pt-16:has(h1.text-gray-200)');
+            const statsSection = document.querySelector('.md\\:px-20.pt-16:has(h1.text-gray-800)');
             if (statsSection) {
                 observer.observe(statsSection);
             } else {
