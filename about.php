@@ -509,155 +509,155 @@
 
 
     <div class="my-12 max-sm:flex-col max-sm:item-center flex justify-between">
-      <div class="relative md:w-1/2 w-full bg-[#f2f2f2] max-sm:px-5 max-sm:py-12 flex justify-center items-center  "  >
-      <div class="absolute inset-0 bg-[url('./images/CEO-desk2.webp')] bg-cover bg-center">
-  <div class="absolute inset-0 bg-black opacity-50"></div>
-</div>
-
-      <div class="relative z-10">
-
-        <h2 class="text-5xl font-semibold text-center mb-2 text-white">From the CEO’s Desk</h2>
-        <h3 class="text-center text-2xl  font-medium mb-3 text-red-500 ">Ubaid Saudagar - <span class="text-gray-400 text-sm">CEO, Sagar Tech</span></h3>
-      </div>
-    </div>
-    <div class="relative lg:p-10 p-4 pt-7 md:w-1/2 w-full overflow-hidden">
-
-<!-- Background Image with white semi-transparent overlay -->
-<div class="absolute inset-0 bg-[url('./images/quotes-bg.webp')] bg-cover bg-center">
-  <div class="absolute inset-0 bg-white opacity-90"></div>
-</div>
-
-<!-- Main Content -->
-<div class="relative z-10">
-  <p class="mb-3 text-gray-700">
-    <span class="text-5xl">O</span><span>ur</span> basic principle, which we have been successful in the past few years, is <strong>TRUST</strong>. We have not broken the trust of our clients in terms of the development of websites, <a href="https://sagartech.co.in/social-media-optimization-agency-in-mumbai" class="text-red-500">social media optimization</a>, <a href="https://sagartech.co.in/seo-company-in-mumbai" class="text-red-500">SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
-  </p>
-
-  <p class="mb-3 text-gray-700">
-    We hold regular meetings of our team and make them understand that <span class="italic font-semibold">"if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate."</span>
-  </p>
-
-  <p class="mb-3 text-gray-700">
-    When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
-  </p>
-
-  <p class="mb-3 text-gray-700">
-    In terms of development, we continuously keep upgrading with the latest technology. So, when we started 
-    <a class="text-red-500" href="https://sagartech.co.in/web-development-company-in-mumbai" target="_blank" rel="noopener noreferrer">website development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="https://sagartech.co.in/bootstrap-development-services-mumbai" class="text-red-500">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="https://sagartech.co.in/nextjs-development-services-in-india" class="text-red-500">Next JS</a>, <a href="https://sagartech.co.in/nodejs-development-company-in-india" class="text-red-500">Node JS</a>, JWT for security, and many more.
-  </p>
-
-  <p class="mb-3 text-gray-700">
-    So it is the clear and clean intentions with which we are working. Keeping in mind our mission, which is to create maximum employment across the globe.
-  </p>
-
-  <!-- Author Info -->
-  <div class="mt-6">
-    <div class="flex items-center space-x-3">
-      <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
-      <div>
-        <p class="mb-1">Written by,</p>
-        <p class="text-red-500 flex gap-1 items-center">
-          Ubaid Saudagar - <span class="text-gray-500">CEO, Sagar Tech</span>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
-
-  </div>
-  
-
-    </div>
-    <div class="our-workspace-about">
-      <h2>Our <span style="color:#ff0808;">Workspace</span></h2>
-      <p>In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.</p>
-      <div class="workspace-img-div">
-        <div class="image-card">
-          <!-- <div class="image-div">
-                    <img src="sagartech-team/Dev Team Photo - 3.webp" alt="">
-                </div> -->
-          <h5 class="card-text">Development Team</h5>
-          <p>Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.</p>
+      <div class="relative md:w-1/2 w-full bg-[#f2f2f2] max-sm:px-5 max-sm:py-12 flex justify-center items-center  ">
+        <div class="absolute inset-0 bg-[url('./images/CEO-desk2.webp')] bg-cover bg-center">
+          <div class="absolute inset-0 bg-black opacity-50"></div>
         </div>
-        <!-- ------------------------ -->
-        <div class="image-card">
-          <!-- <div class="image-div">
-                    <img src="sagartech-team/Social_Media_Team_Photo_-_1_35.webp" alt="">
-                </div> -->
-          <h5 class="card-text">Social Media Team</h5>
-          <p>Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.</p>
-        </div>
-        <!-- ------------------------ -->
-        <div class="image-card">
-          <!-- <div class="image-div">
-                    <img src="sagartech-team/SEO_Team_Photo_-_4_35.webp" alt="">
-                </div> -->
-          <h5 class="card-text">SEO Team</h5>
-          <p>Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
-        </div>
-        <!-- ------------------------ -->
-      </div>
-      <div>
-        <!-- <a class="button-62" href="team" type="submit">Meet Our Team</a> -->
-      </div>
-    </div>
 
+        <div class="relative z-10">
 
-
-    <div class="stats-class">
-      <h6>Our <span style="color: #ff0808">Statistics</span></h6>
-      <div class="card-divvvv">
-        <div class="stats-cards">
-          <img src="images/counter/like1.png" alt="" />
-          <div class="stats-card-detail">
-            <h5 style="color:green">500+</h5>
-            <span>Projects Done</span>
-          </div>
-        </div>
-        <div class="stats-cards">
-          <img src="images/counter/client2.png" alt="" />
-          <div class="stats-card-detail">
-            <h5 style="color:green">300+</h5>
-            <span>Satisfied Clients</span>
-          </div>
-        </div>
-        <div class="stats-cards">
-          <img src="./images/counter/awards.png" alt="" />
-          <div class="stats-card-detail">
-            <h5 style="color:green">1</h5>
-            <span>Awards</span>
-          </div>
-        </div>
-        <div class="stats-cards">
-          <img src="./images/counter/star-rating.png" alt="" />
-          <div class="stats-card-detail">
-            <h5 style="color:green">5</h5>
-            <span>Rating</span>
-          </div>
+          <h2 class="text-5xl font-semibold text-center mb-2 text-white">From the CEO’s Desk</h2>
+          <h3 class="text-center text-2xl  font-medium mb-3 text-red-500 ">Ubaid Saudagar - <span class="text-gray-400 text-sm">CEO, Sagar Tech</span></h3>
         </div>
       </div>
-    </div>
+      <div class="relative lg:p-10 p-4 pt-7 md:w-1/2 w-full overflow-hidden">
 
+        <!-- Background Image with white semi-transparent overlay -->
+        <div class="absolute inset-0 bg-[url('./images/quotes-bg.webp')] bg-cover bg-center">
+          <div class="absolute inset-0 bg-white opacity-90"></div>
+        </div>
 
+        <!-- Main Content -->
+        <div class="relative z-10">
+          <p class="mb-3 text-gray-700">
+            <span class="text-5xl">O</span><span>ur</span> basic principle, which we have been successful in the past few years, is <strong>TRUST</strong>. We have not broken the trust of our clients in terms of the development of websites, <a href="https://sagartech.co.in/social-media-optimization-agency-in-mumbai" class="text-red-500">social media optimization</a>, <a href="https://sagartech.co.in/seo-company-in-mumbai" class="text-red-500">SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
+          </p>
 
+          <p class="mb-3 text-gray-700">
+            We hold regular meetings of our team and make them understand that <span class="italic font-semibold">"if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate."</span>
+          </p>
 
+          <p class="mb-3 text-gray-700">
+            When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
+          </p>
 
+          <p class="mb-3 text-gray-700">
+            In terms of development, we continuously keep upgrading with the latest technology. So, when we started
+            <a class="text-red-500" href="https://sagartech.co.in/web-development-company-in-mumbai" target="_blank" rel="noopener noreferrer">website development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="https://sagartech.co.in/bootstrap-development-services-mumbai" class="text-red-500">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="https://sagartech.co.in/nextjs-development-services-in-india" class="text-red-500">Next JS</a>, <a href="https://sagartech.co.in/nodejs-development-company-in-india" class="text-red-500">Node JS</a>, JWT for security, and many more.
+          </p>
 
-    <section class="overview-block device-aria iq-bg jarallax">
+          <p class="mb-3 text-gray-700">
+            So it is the clear and clean intentions with which we are working. Keeping in mind our mission, which is to create maximum employment across the globe.
+          </p>
 
-      <div class="iq-testimonial2 overview-block-ptb iq-ove-black-40 iq-bg jarallax" style="background-image: url('images/bg/white-abstract-testimonial.jpeg'); background-position: center,center;">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-sm-12">
-              <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-              <div class="elfsight-app-6707e05d-e5a9-4163-b54a-a3a842227c55"></div>
+          <!-- Author Info -->
+          <div class="mt-6">
+            <div class="flex items-center space-x-3">
+              <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
+              <div>
+                <p class="mb-1">Written by,</p>
+                <p class="text-red-500 flex gap-1 items-center">
+                  Ubaid Saudagar - <span class="text-gray-500">CEO, Sagar Tech</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-    </section>
+
+    </div>
+
+
+  </div>
+  <div class="our-workspace-about">
+    <h2>Our <span style="color:#ff0808;">Workspace</span></h2>
+    <p>In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.</p>
+    <div class="workspace-img-div">
+      <div class="image-card">
+        <!-- <div class="image-div">
+                    <img src="sagartech-team/Dev Team Photo - 3.webp" alt="">
+                </div> -->
+        <h5 class="card-text">Development Team</h5>
+        <p>Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.</p>
+      </div>
+      <!-- ------------------------ -->
+      <div class="image-card">
+        <!-- <div class="image-div">
+                    <img src="sagartech-team/Social_Media_Team_Photo_-_1_35.webp" alt="">
+                </div> -->
+        <h5 class="card-text">Social Media Team</h5>
+        <p>Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.</p>
+      </div>
+      <!-- ------------------------ -->
+      <div class="image-card">
+        <!-- <div class="image-div">
+                    <img src="sagartech-team/SEO_Team_Photo_-_4_35.webp" alt="">
+                </div> -->
+        <h5 class="card-text">SEO Team</h5>
+        <p>Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
+      </div>
+      <!-- ------------------------ -->
+    </div>
+    <div>
+      <!-- <a class="button-62" href="team" type="submit">Meet Our Team</a> -->
+    </div>
+  </div>
+
+
+
+  <div class="stats-class">
+    <h6>Our <span style="color: #ff0808">Statistics</span></h6>
+    <div class="card-divvvv">
+      <div class="stats-cards">
+        <img src="images/counter/like1.png" alt="" />
+        <div class="stats-card-detail">
+          <h5 style="color:green">500+</h5>
+          <span>Projects Done</span>
+        </div>
+      </div>
+      <div class="stats-cards">
+        <img src="images/counter/client2.png" alt="" />
+        <div class="stats-card-detail">
+          <h5 style="color:green">300+</h5>
+          <span>Satisfied Clients</span>
+        </div>
+      </div>
+      <div class="stats-cards">
+        <img src="./images/counter/awards.png" alt="" />
+        <div class="stats-card-detail">
+          <h5 style="color:green">1</h5>
+          <span>Awards</span>
+        </div>
+      </div>
+      <div class="stats-cards">
+        <img src="./images/counter/star-rating.png" alt="" />
+        <div class="stats-card-detail">
+          <h5 style="color:green">5</h5>
+          <span>Rating</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <section class="overview-block device-aria iq-bg jarallax">
+
+    <div class="iq-testimonial2 overview-block-ptb iq-ove-black-40 iq-bg jarallax" style="background-image: url('images/bg/white-abstract-testimonial.jpeg'); background-position: center,center;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12">
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-6707e05d-e5a9-4163-b54a-a3a842227c55"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   </div>
 
   <?php
