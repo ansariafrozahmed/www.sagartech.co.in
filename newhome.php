@@ -36,6 +36,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+
+            },
+            plugins: [
+                require('@tailwindcss/line-clamp')
+            ]
+        }
+    </script>
     <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
@@ -74,6 +86,7 @@
     <link rel="shortcut icon" href="images/logoonly.jpg" type="image/png" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/logoonly.png">
     <link rel="icon" href="images/logoonly.jpg" type="image/x-icon" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -150,12 +163,28 @@
 </style>
 
 <body>
-    <?php $page = 'home';
-    include("include/newHeader.php"); ?>
+    <?php include("include/header/headerv1.php"); ?>
 
     <?php include("include/homepage/homeBanner/homeBanner.php") ?>
+    <?php include("include/homepage/introduction.php") ?>
+    <?php include("include/homepage/ourService.php") ?>
+    <!-- <?php include("include/homepage/ourClients.php") ?> -->
+    <?php include("include/homepage/metaShowcase.php") ?>
 
     <?php include("include/footer.php"); ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            // offset: 100, // Trigger animation 200px before element enters viewport
+            // duration: 500, // Animation duration in milliseconds
+            // delay: 0, // Delay before animation starts (applies to all elements)
+            // easing: 'ease-in-out', // Easing function
+            once: true, // Animate only once while scrolling down
+            mirror: false // Don't animate while scrolling back up
+        });
+    </script>
+
 </body>
 
 </html>
