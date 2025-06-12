@@ -14,32 +14,32 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <a href="/">
             <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/web development & design.webp" alt="">
+                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/web development & designnew.webp" alt="">
             </div>
         </a>
         <a href="/">
             <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/digital marketing.webp" alt="">
+                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/digital marketingnew.webp" alt="">
             </div>
         </a>
         <a href="/">
             <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/app development & design.webp" alt="">
+                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/app development & designnew.webp" alt="">
             </div>
         </a>
         <a href="/">
             <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/graphic designing.webp" alt="">
+                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/graphic designingnew.webp" alt="">
             </div>
         </a>
         <a href="/">
             <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/seo.webp" alt="">
+                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/seonew.webp" alt="">
             </div>
         </a>
         <a href="/">
             <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/bulk sms services.webp" alt="">
+                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/bulk sms servicesnew.webp" alt="">
             </div>
         </a>
     </div>
