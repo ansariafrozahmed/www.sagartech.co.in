@@ -247,7 +247,8 @@
                                 </ul>
                             </div> -->
                         </div>
-                        <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
+                        <!-- <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
+                            
                             <div class="  md:h-[300px] rounded-md h-auto p-5 bg-gray-100 flex-1">
                                 <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
                                         <img src="web-development.png" class="w-16 h-16" alt="">
@@ -273,7 +274,218 @@
                                     <p class="text-sm content-all text-gray-600">Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="mt-10">
+                            <div class="flex md:flex-row flex-col justify-between items-center md:gap-10 gap-5 ">
+                                <div class="md:w-[50%] w-full space-y-4">
+                                    <h3 class="md:text-5xl text-2xl heading-all text-red-600 max-sm:text-center">Web Development</h3>
+                                    <h4 class="font-medium max-sm:text-center">
+                                        Delivering Seamless, Scalable,
+                                        and High-Performance <br class="max-sm:hidden" /> Web & Mobile Apps
+                                    </h4>
+                                    <p class="text-sm tracking-wide text-gray-600">
+                                        Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android.
+                                        We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions.
+                                        From concept to deployment, we ensure every app meets industry standards and user expectations.
+                                        Our expertise spans native and cross-platform development, providing businesses with tailored solutions.
+                                    </p>
+                                    <div class="!mt-5">
+                                        <a href="/web-development-company-in-mumbai" class="  text-white rounded-md shadow-md hover:shadow-lg bg-[#f82727] px-5 py-2 text-sm font-medium">Know More</a>
+                                    </div>
+                                </div>
+
+                                <!-- Image Section -->
+                                <div class="md:w-[50%] w-full relative h-64 md:h-80 rounded-md overflow-hidden">
+                                    <!-- Image -->
+                                    <img
+                                        src="web-development1.webp"
+                                        alt="Web Development"
+                                        class="absolute top-0 left-0 w-full h-full object-cover z-0 object-center rounded-md" />
+
+                                    <!-- Black Overlay -->
+                                    <div class="absolute inset-0 bg-black/50 z-10">
+                                        <div class="flex justify-center items-center h-full">
+                                            <ul class="space-y-3 flex flex-col justify-center  bg-gray-100 p-7 rounded-md  ">
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Skilled Developers </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Innovative & Scalable Solutions</span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Seamless UI/UX </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">High Performance </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Standards & Quality</span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Native & Cross-Platform Expertise</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md:mt-16 mt-8 flex md:flex-row flex-col justify-between items-center md:gap-10 gap-5 ">
+                                <!-- Image Section -->
+                                <div class="md:w-[50%] w-full relative h-64 md:h-80 rounded-md overflow-hidden">
+                                    <!-- Image -->
+                                    <img
+                                        src="socialmedia1.webp"
+                                        alt="Web Development"
+                                        class="absolute top-0 left-0 w-full h-full object-cover z-0 object-center rounded-md" />
+
+                                    <!-- Black Overlay -->
+                                    <div class="absolute inset-0 bg-black/50 z-10">
+                                        <div class="flex justify-center items-center h-full">
+                                            <ul class="space-y-3 flex flex-col justify-center  bg-gray-100 p-7 rounded-md  ">
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Creative Content Creation</span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Strategic Campaign Planning </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Multi-Platform Management </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Audience Insight & Trend Analysis </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Driving Traffic & Interaction</span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Effective Audience Targeting</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="md:w-[50%] w-full space-y-4">
+                                    <h3 class="md:text-5xl text-2xl heading-all text-red-600 max-sm:text-center">Social Media Team</h3>
+                                    <h4 class="font-medium max-sm:text-center">
+                                        Boosting Brands with Creative Content
+                                        <br class="max-sm:hidden" /> and Smart Campaigns
+                                    </h4>
+                                    <p class="text-sm tracking-wide text-gray-600">
+                                        Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.
+                                    </p>
+                                    <div class="!mt-5">
+                                        <a href="/social-media-marketing-agency-in-mumbai" class=" text-white rounded-md shadow-md bg-[#f82727] px-5 py-2 text-sm font-medium">Know More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex md:flex-row md:mt-16 mt-8 flex-col justify-between items-center md:gap-10 gap-5 ">
+                                <div class="md:w-[50%] w-full space-y-4">
+                                    <h3 class="md:text-5xl text-2xl heading-all text-red-600 max-sm:text-center">SEO Team</h3>
+                                    <h4 class="font-medium max-sm:text-center">
+                                        Optimized for Search, Built for Growth
+                                    </h4>
+                                    <p class="text-sm tracking-wide text-gray-600">
+                                        Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.
+                                    </p>
+                                    <div class="!mt-5">
+                                        <a href="/web-development-company-in-mumbai" class="  text-white rounded-md shadow-md hover:shadow-lg bg-[#f82727] px-5 py-2 text-sm font-medium">Know More</a>
+                                    </div>
+                                </div>
+
+                                <!-- Image Section -->
+                                <div class="md:w-[50%] w-full relative h-64 md:h-80 rounded-md overflow-hidden">
+                                    <!-- Image -->
+                                    <img
+                                        src="web-development1.webp"
+                                        alt="Web Development"
+                                        class="absolute top-0 left-0 w-full h-full object-cover z-0 object-center rounded-md" />
+
+                                    <!-- Black Overlay -->
+                                    <div class="absolute inset-0 bg-black/50 z-10">
+                                        <div class="flex justify-center items-center h-full">
+                                            <ul class="space-y-3 flex flex-col justify-center  bg-gray-100 p-7 rounded-md  ">
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Data-Driven SEO Strategies </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Keyword Research</span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Technical Optimization</span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">High-Quality Content Creation </span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">On-Page & Off-Page SEO</span>
+                                                </li>
+                                                <li class="flex items-center gap-2">
+                                                    <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
+                                                        <i class="fa-solid fa-check"></i>
+                                                    </span>
+                                                    <span class="content-all text-sm">Performance Monitoring</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
