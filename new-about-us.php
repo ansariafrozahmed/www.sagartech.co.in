@@ -164,7 +164,7 @@
 
             </div>
         </div>
-        <div class="md:px-20 px-4 md:py-12 py-10">
+        <div class="md:px-20 px-4 md:pt-12 pt-10">
             <!-- ABOUT CEO AND QUOTES SECTION -->
             <div class="">
 
@@ -194,7 +194,7 @@
                             <h3 class="text-center text-2xl   font-medium mb-3 text-red-500 heading-all ">Ubaid Saudagar - <span class="text-gray-400 text-sm content-all">CEO, Sagar Tech</span></h3>
                         </div>
                     </div>
-                    <div class="md:w-1/2 w-full h-[250px] rounded-md md:p-10 p-5 bg-gray-100">
+                    <div class="md:w-1/2 w-full h-[250px] rounded-md md:p-10 p-5 bg-[#fafafa] border border-gray-100">
                         <p class="content-all text-gray-600">
                             <span class="text-red-600 font-bold">"</span> if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.<span class="text-red-600 font-bold"> "</span>
                         </p>
@@ -213,15 +213,9 @@
                 </div>
 
                 <!-- WORK SPACE SECTION -->
-                <div class="md:my-12 my-10 ">
+                <div class="md:my-16 my-10 ">
                     <div class="">
                         <div class="flex md:flex-row flex-col justify-between gap-10 items-center">
-                            <div class=" w-full">
-                                <h2 class="heading-all md:text-5xl text-3xl mb-3 text-center">Our <span class="text-red-600">Workspace</span></h2>
-                                <p class="text-sm content-all text-gray-600 md:px-48 text-center  w-full px-0 ">
-                                    In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.
-                                </p>
-                            </div>
 
                             <!-- <div class="">
                                 <ul class="space-y-3 flex items-center bg-gray-100 p-7 rounded-md ">
@@ -247,7 +241,8 @@
                                 </ul>
                             </div> -->
                         </div>
-                        <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
+                        <!-- <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
+                            
                             <div class="  md:h-[300px] rounded-md h-auto p-5 bg-gray-100 flex-1">
                                 <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
                                         <img src="web-development.png" class="w-16 h-16" alt="">
@@ -273,51 +268,139 @@
                                     <p class="text-sm content-all text-gray-600">Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="flex md:flex-row flex-col justify-between gap-10">
+                            <div class="md:w-[30%] w-full">
+                                <div class="relative rounded-full w-fit p-[1px] bg-gradient-to-r from-red-600 via-black/50 ">
+                                    <!-- Inner white background -->
+                                    <div class="bg-white text-black rounded-full px-3 py-1.5 text-sm font-medium">
+                                        Workspace
+                                    </div>
+                                </div>
+                                <div class=" w-full">
+                                    <h2 class="heading-all md:text-4xl text-3xl mt-7 ">Digital Workspace <br> Platform <span class="text-[#ff0808]">Sagar Tech</span></span></h2>
+                                    <p class="text-sm text-gray-500 mt-3">Automation and collaboration in one platform.</p>
+                                    <!-- <p class="text-sm content-all text-gray-600 md:px-48 text-center  w-full px-0 ">
+                                        In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.
+                                    </p> -->
+                                    <div class="mt-5">
+                                        <a href="/contact" class="text-sm font-medium bg-gray-900 rounded-md px-5 py-2 text-white">
+                                            Contact Us
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="md:w-[70%] w-full grid md:grid-cols-2 grid-cols-1 gap-3">
+                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                                    <h3 class="text-xl font-semibold pb-3">Web Development Team</h3>
+                                    <hr class="">
+                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
+                                        Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.
+                                    </p>
+                                    <div class="">
+                                        <a href="/web-development-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                            <span class="text-sm text-gray-900">Visit</span>
+                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                                    <h3 class="text-xl font-semibold pb-3">Social Media Team</h3>
+                                    <hr class="">
+                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
+                                        Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.
+                                    </p>
+                                    <div class="">
+                                        <a href="/social-media-marketing-agency-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                            <span class="text-sm text-gray-900">Visit</span>
+                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                                    <h3 class="text-xl font-semibold pb-3">SEO Team</h3>
+                                    <hr class="">
+                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
+                                        Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.
+                                    </p>
+                                    <div class="">
+                                        <a href="/seo-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                            <span class="text-sm text-gray-900">Visit</span>
+                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                                    <h3 class="text-xl font-semibold pb-3">Graphic Designer Team</h3>
+                                    <hr class="">
+                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
+                                        our Graphic Design Team blends creativity with precision Whether it's crafting brand identities, designing marketing assets, or creating stunning visuals for digital platforms, our designers are passionate about making your brand stand out. With a deep understanding of design principles, user behavior, and current trends, we deliver designs that are not only aesthetically striking but also strategically aligned with your business goals.
+                                    </p>
+                                    <div class="">
+                                        <a href="/banner-design-services-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                            <span class="text-sm text-gray-900">Visit</span>
+                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="md:!mb-16 mb-10">
+        <div class="md:!mb-1 mb-10">
 
-            <div class="md:px-20 relative pt-16 bg-gray-100">
+            <div class="md:px-20 relative pt-12 bg-[#f3f5f7]">
                 <!-- <img src="bg-black.webp" class="w-full h-full absolute top-0 left-0 object-cover object-top" alt=""> -->
-                <h1 class="text-gray-800 relative mb-10 text-center font- md:text-5xl text-3xl heading-all">Our <span class="text-red-600">Statistics</span></h1>
-                <div class="relative flex md:flex-row max-sm:gap-20 max-sm:items-center flex-col justify-between mt-14 pb-20">
-                    <div class="flex items-end gap-5">
-                        <span class="text-gray-900 heading-all font-semibold">
-                            <img src="project1.png" alt="" class="w-20">
-                        </span>
-                        <div>
-                            <div class="text-gray-500 text-6xl number-count" data-target="500">0</div>
-                            <div class="text-gray-900 text-sm">Projects</div>
+                <h1 class="text-gray-800 relative mb-10 text-center font- md:text-5xl text-3xl heading-all  ">Our <span class="text-red-600">Statistics</span></h1>
+                <div class="relative flex md:flex-row max-sm:gap-8 max-sm:items-center flex-col justify-between mt- pb-16">
+                    <div class="bg-white !p-6 !rounded-xl  h-[150px]">
+                        <div class="text-gray-600 text-sm mb-5 ml-2">Projects</div>
+                        <div class="flex items-end gap-4 ">
+                            <span class=" text-gray-900 heading-all font-semibold">
+                                <img src="project2.png" alt="" class="w-14">
+                            </span>
+                            <div>
+                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="500">0</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex items-end gap-5">
-                        <span class="text-gray-900 heading-all font-semibold">
-                            <img src="client1.png" alt="" class="w-20">
-                        </span>
-                        <div>
-                            <div class="text-gray-500 text-6xl number-count" data-target="300">0</div>
-                            <div class="text-gray-900 text-sm">Satisfied Clients</div>
+                    <div class="bg-white !p-6 !rounded-xl max-w-[250px] w-full  h-[150px]">
+                        <div class="text-gray-500 text-sm mb-5 ml-2">Satisfied Clients</div>
+
+                        <div class="flex items-end gap-5">
+                            <span class="text-gray-900 heading-all font-semibold">
+                                <img src="client2.png" alt="" class="w-16">
+                            </span>
+                            <div>
+                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="300">0</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex items-end gap-5">
-                        <span class="text-gray-900 heading-all font-semibold">
-                            <img src="trophy1.png" alt="" class="w-20">
-                        </span>
-                        <div>
-                            <div class="text-gray-500 text-6xl number-count" data-target="1">0</div>
-                            <div class="text-gray-900 text-sm">Award</div>
+                    <div class="bg-white !p-6 !rounded-xl max-w-[250px] w-full h-[150px]">
+                        <div class="text-gray-500 text-sm mb-3 ml-2">Award</div>
+                        <div class="flex items-end gap-5">
+                            <span class="text-gray-900 heading-all font-semibold">
+                                <img src="trophy2.png" alt="" class="w-14">
+                            </span>
+                            <div>
+                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="1">0</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="flex items-end gap-5">
-                        <span class="text-gray-900 heading-all font-semibold">
-                            <img src="rate2.png" alt="" class="w-20">
-                        </span>
-                        <div>
-                            <div class="text-gray-500 text-6xl number-count" data-target="5">0</div>
-                            <div class="text-gray-900 text-sm">Ratings</div>
+                    <div class="bg-white !p-6 !rounded-xl max-w-[250px] w-full h-[150px]">
+
+                        <div class="text-gray-900 text-sm mb-3 ml-2">Ratings</div>
+                        <div class="flex items-end gap-5">
+                            <span class="text-gray-900 heading-all font-semibold">
+                                <img src="rate3.png" alt="" class="w-16">
+                            </span>
+                            <div>
+                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="5">0</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -348,12 +431,12 @@
                     <div class="flex md:flex-row flex-col  justify-center gap-5 items-center mt-7">
                         <div class="max-w-[450px] px-4 h-[130px] w-full border shadow-lg py-3 text-sm rounded-md flex flex-col justify-center items-center">
                             <div class="mb-3"><i class="fa-solid fa-phone text-xl text-red-600"></i></div>
-                            <p>+91 98201 33303</p>
-                            <p>+91 91522 20484</p>
+                            <p><a href="tel:+919820133303">+91 98201 33303</a></p>
+                            <p><a href="tel:+919152220484">+91 91522 20484</a></p>
                         </div>
                         <div class="max-w-[450px] px-4 h-[130px] w-full border shadow-lg py-3 text-sm rounded-md flex flex-col justify-center items-center">
                             <div class="mb-3"><i class="fa-solid fa-envelope text-xl text-red-600"></i></div>
-                            <span>info@sagartech.co.in</span>
+                            <span><a href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></span>
                         </div>
                         <div class="max-w-[450px] px-4 h-[130px] w-full border shadow-lg py-3 text-sm rounded-md flex flex-col justify-center items-center">
                             <div class="mb-3"><i class="fa-solid fa-location-dot text-xl text-red-600"></i></div>
@@ -431,7 +514,7 @@
             );
 
             // Target the specific statistics section (the last md:px-20 with the statistics heading)
-            const statsSection = document.querySelector('.md\\:px-20.pt-16:has(h1.text-gray-800)');
+            const statsSection = document.querySelector('.md\\:px-20.pt-12:has(h1.text-gray-800)');
             if (statsSection) {
                 observer.observe(statsSection);
             } else {
