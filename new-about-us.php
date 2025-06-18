@@ -8,9 +8,38 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="description" content="Sagar Tech Technical Solutions is a trusted provider of mobile app development services, specializing in delivering high-quality, user-centric solutions for iOS and Android platforms to enhance business performance and digital engagement.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="keywords" content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logoonly.jpg" />
+    <link rel="canonical" href="https://sagartech.co.in/about">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About - Sagar Tech Technical Solutions">
+    <meta property="og:description"
+        content="Sagar Tech Technical Solutions is a trusted provider of mobile app development services, specializing in delivering high-quality, user-centric solutions for iOS and Android platforms to enhance business performance and digital engagement.">
+    <meta property="og:url" content="https://sagartech.co.in/about">
+    <meta property="og:site_name" content="Sagar Tech - Technical Solution">
+    <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156939866-1');
+    </script>
     <script>
         tailwind.config = {
             theme: {
@@ -67,20 +96,21 @@
     ?>
     <div class="">
         <div class="bg-[radial-gradient(circle,_rgba(111,0,0,1)_0%,_rgba(48,0,0,1)_100%)] md:py-10 py-10 px-4">
-            <h4 class="flex justify-center items-center gap-1 bg-gray-900 border shadow-md border-gray-500 w-fit px-2 py-0.5  rounded-full mx-auto">
+            <h4 class="flex justify-center items-center gap-1   mx-auto">
                 <!-- <div class="">
                     
                     <img src="about-icon.png" alt="" class="w-3">
                 </div> -->
-                <span class="text-white text-[12px]">About Us</span>
+                <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">About Us</span>
             </h4>
             <div class="mt-5">
-                <h1 class=" text-white text-center md:text-5xl text-3xl "><span class="text-white heading-all ">Sagar Tech </span> <span class="text-gray-100 inline-block text-center heading-all">Technical Solutions</span></h1>
+                <h1 class=" text-[50px] max-w-[800px] text-[#242424] mx-auto text-center leading-[1.1]  tracking-[0px] font-light "><span class="text-white heading-all ">Sagar Tech </span> <span class="text-gray-100 inline-block text-center heading-all">Technical Solutions</span></h1>
                 <div class="flex justify-center">
 
-                    <h3 class="text-gray-100 inline-block text-center md:text-xl   font-light heading-all">Think Red, Think Sagar Tech</h3>
+                    <h3 class="text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400]    heading-all text-white">Think Red, Think Sagar Tech</h3>
                 </div>
-                <p class="text-sm mt-3 text-red-300 md:px-40  text-center tracking-wide content-all !my-7">
+                <p class="text-sm mt-3 text-red-300 text-[13.5px] font-light 
+                                    md:px-40  text-center tracking-wide content-all !my-7">
                     Sagar Tech Technical Solution Is Award Winning 🏆 Web Development and Digital Marketing Agency In Mumbai Our team of web developers specialises in developing websites that quickly generate leads. We offer effective design, innovative web development, Mobile App Development, and ROI-focused marketing to help your brand reach its full potential. We offer Ecommerce Website, business website, one page website, custom website.
                 </p>
                 <div class=" flex justify-center mt-10">
@@ -164,60 +194,93 @@
 
             </div>
         </div>
-        <div class="md:px-20 px-4 md:pt-12 pt-10">
-            <!-- ABOUT CEO AND QUOTES SECTION -->
-            <div class="">
+        <div
+            class="md:py-16 !py-10 md:px-10 bg-cover bg-center bg-no-repeat md:pr-20 z-10 "
+            style="background-image: url('line4.png'); background-repeat: no-repeat;">
 
-                <h1 class="heading-all md:text-5xl text-3xl text-center ">
-                    From the CEO’s Desk
-                </h1>
-                <div class="space-y-3 text-gray-600 text-sm content-all tracking-wide text-center">
-                    <p class="">
-                        Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, <a href="/social-media-optimization-agency-in-mumbai" class="text-red-600">social media optimization, SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
-                    </p>
-                    <p class="">
-                        When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
-                    </p>
-                    <p class="">
-                        In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a href="/web-development-company-in-mumbai" class="text-red-600">Website Development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="/bootstrap-development-services-mumbai" class="">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="/nextjs-development-services-in-india" class="text-red-600">Next Js</a>, <a href="/nodejs-development-company-in-india" class="text-red-600">Node Js</a>, JWT for security, and many more.
-                    </p>
-                </div>
-                <div class="mt-10 flex justify-between items-center md:flex-row flex-col gap-5">
-                    <div class="relative md:w-1/2 h-[250px] rounded-md overflow-hidden  hidden w-full bg-[#f2f2f2] max-sm:px-5 max-sm:py-12 md:flex justify-center items-center  ">
-                        <div class="absolute  inset-0 bg-[url('./images/CEO-desk2.webp')] bg-cover bg-center">
-                            <div class="absolute inset-0 bg-black opacity-50"></div>
-                        </div>
+            <div class="flex justify-center">
 
-                        <div class="relative z-10">
+                <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">CEO</span>
+            </div>
+            <h2 class="text-[28px] mt-5  lg:text-[36px] leading-[1.15]  font-[400] text-[#242424] text-center">
+                From the CEO’s Desk
+            </h2>
+            <div class=" mt-">
+                <!-- FOR MOBILE -->
+                <div class="md:hidden block px-4 text-center mt-7">
 
-                            <!-- <h2 class="text-5xl font-semibold text-center mb-2 text-white">From the CEO’s Desk</h2> -->
-                            <h3 class="text-center text-2xl   font-medium mb-3 text-red-500 heading-all ">Ubaid Saudagar - <span class="text-gray-400 text-sm content-all">CEO, Sagar Tech</span></h3>
+                    <p class="content-all text-[13.5px] !font-bold tracking-wide text-gray-700">
+                        <span class="text-red-600 !font-bold">"</span> if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.<span class="text-red-600 font-bold"> "</span>
+                    </p>
+                    <div class="mt-6 flex justify-center">
+                        <div class="flex items-center space-x-3">
+                            <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
+                            <div>
+                                <p class="mb-1 content-all text-[13.5px] font-light tracking-wide text-gray-600">Written by,</p>
+                                <p class="text-red-500 flex flex-col text-sm heading-all">
+                                    <span>
+
+                                        Ubaid Saudagar -
+                                    </span>
+                                    <span class="text-gray-500 ">CEO, Sagar Tech</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="md:w-1/2 w-full h-[250px] rounded-md md:p-10 p-5 bg-[#fafafa] border border-gray-100">
-                        <p class="content-all text-gray-600">
+                    <!-- <div class="max-w-[500px] mt-7 w-full">
+                        <img src="frame-img.png" class="" />
+                    </div> -->
+                </div>
+                <div class=" flex md:flex-row flex-col md:items-end items-center ">
+
+                    <div class="md:max-w-[350px] w-full  rounded-md md:p-10 p-5 flex-1 ">
+                        <p class=" bg-[#fef2f2c4] p-5 rounded-md text-[13.5px] font-light tracking-wide text-gray-600 mb-5 max-sm:mb-0 ">
+                            <span class=""><img src="principle.png" class="w-8 !mb-2" alt=""></span>
+                            Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, <a href="/social-media-optimization-agency-in-mumbai" class="text-red-600">social media optimization, SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
+                        </p>
+                        <p class="content-all text-[13.5px] font-light tracking-wide text-gray-600 hidden md:block">
                             <span class="text-red-600 font-bold">"</span> if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.<span class="text-red-600 font-bold"> "</span>
                         </p>
-                        <div class="mt-6">
+                        <div class="mt-6 hidden md:block">
                             <div class="flex items-center space-x-3">
                                 <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
                                 <div>
-                                    <p class="mb-1 text-sm content-all text-gray-600">Written by,</p>
-                                    <p class="text-red-500 flex gap-1 items-center text-sm heading-all">
-                                        Ubaid Saudagar - <span class="text-gray-500 ">CEO, Sagar Tech</span>
+                                    <p class="mb-1 content-all text-[13.5px] font-light tracking-wide text-gray-600">Written by,</p>
+                                    <p class="text-red-500 flex flex-col text-sm heading-all">
+                                        <span>
+
+                                            Ubaid Saudagar -
+                                        </span>
+                                        <span class="text-gray-500 ">CEO, Sagar Tech</span>
                                     </p>
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+                    <div class="max-w-[500px] flex-[2] w-full md:block hidden">
+                        <img src="frame-img.png" class="" />
+                    </div>
+                    <div class="text-[13.5px] font-light tracking-wide text-gray-600 space-y-3 flex-1 px-4 ">
+
+                        <p class=" bg-[#fef2f2c4] p-5 rounded-md mb-5 ">
+                            <span><img src="client.png" class="w-8 !mb-2" alt=""></span>
+                            When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
+                        </p>
+                        <p class=" bg-[#fef2f2c4] p-5 rounded-md ">
+                            <span><img src="development.png" class="w-8 !mb-2" alt=""></span>
+                            In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a href="/web-development-company-in-mumbai" class="text-red-600">Website Development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="/bootstrap-development-services-mumbai" class="">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="/nextjs-development-services-in-india" class="text-red-600">Next Js</a>, <a href="/nodejs-development-company-in-india" class="text-red-600">Node Js</a>, JWT for security, and many more.
+                        </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- WORK SPACE SECTION -->
+        <div class="md:my-16 my-10 md:px-20 px-4 ">
+            <div class="">
+                <div class="flex md:flex-row flex-col justify-between gap-10 items-center">
 
-                <!-- WORK SPACE SECTION -->
-                <div class="md:my-16 my-10 ">
-                    <div class="">
-                        <div class="flex md:flex-row flex-col justify-between gap-10 items-center">
-
-                            <!-- <div class="">
+                    <!-- <div class="">
                                 <ul class="space-y-3 flex items-center bg-gray-100 p-7 rounded-md ">
                                     <li class="flex items-center gap-2">
                                         <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
@@ -240,8 +303,8 @@
 
                                 </ul>
                             </div> -->
-                        </div>
-                        <!-- <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
+                </div>
+                <!-- <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
                             
                             <div class="  md:h-[300px] rounded-md h-auto p-5 bg-gray-100 flex-1">
                                 <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
@@ -269,93 +332,86 @@
                                 </div>
                             </div>
                         </div> -->
-                        <div class="flex md:flex-row flex-col justify-between gap-10">
-                            <div class="md:w-[30%] w-full">
-                                <div class="relative rounded-full w-fit p-[1px] bg-gradient-to-r from-red-600 via-black/50 ">
-                                    <!-- Inner white background -->
-                                    <div class="bg-white text-black rounded-full px-3 py-1.5 text-sm font-medium">
-                                        Workspace
-                                    </div>
-                                </div>
-                                <div class=" w-full">
-                                    <h2 class="heading-all md:text-4xl text-3xl mt-7 ">Digital Workspace <br> Platform <span class="text-[#ff0808]">Sagar Tech</span></span></h2>
-                                    <p class="text-sm text-gray-500 mt-3">Automation and collaboration in one platform.</p>
-                                    <!-- <p class="text-sm content-all text-gray-600 md:px-48 text-center  w-full px-0 ">
+                <div class="flex md:flex-row flex-col justify-between gap-10">
+                    <div class="md:w-[30%] w-full">
+                        <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">Workspace</span>
+                        <div class=" w-full">
+                            <h2 class="text-[28px] lg:text-[36px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] mt-3 text-[#242424] heading-all ">Digital Workspace <br> Platform <span class="text-[#ff0808]">Sagar Tech</span></span></h2>
+                            <p class="text-sm text-gray-500 mt-3">Automation and collaboration in one platform.</p>
+                            <!-- <p class="text-sm content-all text-gray-600 md:px-48 text-center  w-full px-0 ">
                                         In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.
                                     </p> -->
-                                    <div class="mt-5">
-                                        <a href="/contact" class="text-sm font-medium bg-gray-900 rounded-md px-5 py-2 text-white">
-                                            Contact Us
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="mt-5">
+                                <a href="/contact" class="text-sm font-medium bg-gray-900 rounded-md px-5 py-2 text-white">
+                                    Contact Us
+                                </a>
                             </div>
-                            <div class="md:w-[70%] w-full grid md:grid-cols-2 grid-cols-1 gap-3">
-                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                                    <h3 class="text-xl font-semibold pb-3">Web Development Team</h3>
-                                    <hr class="">
-                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
-                                        Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.
-                                    </p>
-                                    <div class="">
-                                        <a href="/web-development-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                            <span class="text-sm text-gray-900">Visit</span>
-                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                                    <h3 class="text-xl font-semibold pb-3">Social Media Team</h3>
-                                    <hr class="">
-                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
-                                        Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.
-                                    </p>
-                                    <div class="">
-                                        <a href="/social-media-marketing-agency-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                            <span class="text-sm text-gray-900">Visit</span>
-                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                                    <h3 class="text-xl font-semibold pb-3">SEO Team</h3>
-                                    <hr class="">
-                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
-                                        Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.
-                                    </p>
-                                    <div class="">
-                                        <a href="/seo-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                            <span class="text-sm text-gray-900">Visit</span>
-                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                                    <h3 class="text-xl font-semibold pb-3">Graphic Designer Team</h3>
-                                    <hr class="">
-                                    <p class="text-[13px] flex-1 pt-3 text-gray-600">
-                                        our Graphic Design Team blends creativity with precision Whether it's crafting brand identities, designing marketing assets, or creating stunning visuals for digital platforms, our designers are passionate about making your brand stand out. With a deep understanding of design principles, user behavior, and current trends, we deliver designs that are not only aesthetically striking but also strategically aligned with your business goals.
-                                    </p>
-                                    <div class="">
-                                        <a href="/banner-design-services-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                            <span class="text-sm text-gray-900">Visit</span>
-                                            <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[70%] w-full grid md:grid-cols-2 grid-cols-1 gap-3">
+                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">Web Development Team</h3>
+                            <hr class="">
+                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
+                                Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.
+                            </p>
+                            <div class="">
+                                <a href="/web-development-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                    <span class="text-sm text-gray-900">Visit</span>
+                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                </a>
                             </div>
                         </div>
 
+                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">Social Media Team</h3>
+                            <hr class="">
+                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
+                                Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.
+                            </p>
+                            <div class="">
+                                <a href="/social-media-marketing-agency-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                    <span class="text-sm text-gray-900">Visit</span>
+                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">SEO Team</h3>
+                            <hr class="">
+                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
+                                Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.
+                            </p>
+                            <div class="">
+                                <a href="/seo-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                    <span class="text-sm text-gray-900">Visit</span>
+                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
+                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">Graphic Designer Team</h3>
+                            <hr class="">
+                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
+                                our Graphic Design Team blends creativity with precision Whether it's crafting brand identities, designing marketing assets, or creating stunning visuals for digital platforms, our designers are passionate about making your brand stand out. With a deep understanding of design principles, user behavior, and current trends, we deliver designs that are not only aesthetically striking but also strategically aligned with your business goals.
+                            </p>
+                            <div class="">
+                                <a href="/banner-design-services-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
+                                    <span class="text-sm text-gray-900">Visit</span>
+                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
         <div class="md:!mb-1 mb-10">
-
-            <div class="md:px-20 relative pt-12 bg-[#f3f5f7]">
-                <!-- <img src="bg-black.webp" class="w-full h-full absolute top-0 left-0 object-cover object-top" alt=""> -->
-                <h1 class="text-gray-800 relative mb-10 text-center font- md:text-5xl text-3xl heading-all  ">Our <span class="text-red-600">Statistics</span></h1>
+            <div class="md:px-20 relative pt-12 bg-[#f3f5f7] statistics-section">
+                <h3 class=" relative mb-10 text-center heading-all text-[28px] lg:text-[36px] leading-[1.15] font-[400] text-[#242424]">
+                    Our <span class="text-red-600">Statistics</span>
+                </h3>
                 <div class="relative flex md:flex-row max-sm:gap-8 max-sm:items-center flex-col justify-between mt- pb-16">
                     <div class="bg-white !p-6 !rounded-xl  h-[150px]">
                         <div class="text-gray-600 text-sm mb-5 ml-2">Projects</div>
@@ -404,9 +460,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
+
         <section class="overview-block device-aria iq-bg jarallax ">
 
             <div class="iq-testimonial2 overview-block-ptb iq-ove-black-40 md:py-12 py-10 iq-bg jarallax" style="background-image: url('images/bg/white-abstract-testimonial.jpeg'); background-position: center,center;">
@@ -458,70 +514,59 @@
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const track = document.getElementById("slider-track");
-            const clone = track.cloneNode(true); // Clone the original content
-            clone.id = "slider-track-clone"; // Give it a different ID
-            document.getElementById("techStackSlider").appendChild(clone);
-        });
-
-        document.addEventListener("DOMContentLoaded", () => {
-            // Clone the slider track for seamless scrolling
-            const track = document.getElementById("slider-track");
-            const clone = track.cloneNode(true); // Clone the original content
-            clone.id = "slider-track-clone"; // Give it a different ID
-            document.getElementById("techStackSlider").appendChild(clone);
-
-            // GSAP animation for number counting
+            // Number animation function
             function animateNumber(element, target) {
                 gsap.fromTo(
                     element, {
                         innerText: 0
                     }, {
                         innerText: target,
-                        duration: 2, // 2 seconds duration
+                        duration: 2,
                         ease: "power1.out",
                         snap: {
                             innerText: 1
-                        }, // Ensure integer values
+                        },
                         onUpdate: function() {
-                            element.textContent = Math.floor(this.targets()[0].innerText) + (target > 1 ? '+' : '');
-                        }
+                            element.textContent =
+                                Math.floor(this.targets()[0].innerText) +
+                                (target > 1 ? "+" : "");
+                        },
                     }
                 );
             }
 
-            // Intersection Observer to trigger animation when the statistics section is visible
+            // Intersection Observer for counter
             const observer = new IntersectionObserver(
                 (entries, observer) => {
-                    entries.forEach(entry => {
+                    entries.forEach((entry) => {
                         if (entry.isIntersecting) {
-                            const counters = entry.target.querySelectorAll('.number-count');
-                            counters.forEach(counter => {
-                                const target = parseInt(counter.getAttribute('data-target'));
-                                if (!counter.classList.contains('animated')) {
+                            const counters = entry.target.querySelectorAll(".number-count");
+                            counters.forEach((counter) => {
+                                const target = parseInt(counter.getAttribute("data-target"));
+                                if (!counter.classList.contains("animated")) {
                                     animateNumber(counter, target);
-                                    counter.classList.add('animated');
+                                    counter.classList.add("animated");
                                 }
                             });
-                            observer.unobserve(entry.target); // Stop observing after animation
+                            observer.unobserve(entry.target); // Stop observing after trigger
                         }
                     });
                 }, {
                     root: null,
-                    rootMargin: '0px',
-                    threshold: 0.6 // Trigger when the bottom of the section enters the viewport
+                    threshold: 0.5,
                 }
             );
 
-            // Target the specific statistics section (the last md:px-20 with the statistics heading)
-            const statsSection = document.querySelector('.md\\:px-20.pt-12:has(h1.text-gray-800)');
+            // Attach observer to the statistics section
+            const statsSection = document.querySelector(".statistics-section");
             if (statsSection) {
                 observer.observe(statsSection);
             } else {
-                console.error("Statistics section not found. Check the selector.");
+                console.error("Statistics section not found.");
             }
         });
     </script>
+
     <script src="js/custom.js"></script>
     <script type="text/javascript">
         (function() {
