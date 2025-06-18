@@ -56,6 +56,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
         rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 </head>
 
 <style>
@@ -95,373 +96,11 @@
     include("include/newHeader.php");
     ?>
     <div class="">
-        <div class="bg-[radial-gradient(circle,_rgba(111,0,0,1)_0%,_rgba(48,0,0,1)_100%)] md:py-10 py-10 px-4">
-            <h4 class="flex justify-center items-center gap-1   mx-auto">
-                <!-- <div class="">
-                    
-                    <img src="about-icon.png" alt="" class="w-3">
-                </div> -->
-                <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">About Us</span>
-            </h4>
-            <div class="mt-5">
-                <h1 class=" text-[50px] max-w-[800px] text-[#242424] mx-auto text-center leading-[1.1]  tracking-[0px] font-light "><span class="text-white heading-all ">Sagar Tech </span> <span class="text-gray-100 inline-block text-center heading-all">Technical Solutions</span></h1>
-                <div class="flex justify-center">
+        <?php include("include/newAboutpage/banner.php") ?>
+        <?php include("include/newAboutpage/ceoDesktop.php") ?>
+        <?php include("include/newAboutpage/workspace.php") ?>
+        <?php include("include/newAboutpage/statistics.php") ?>
 
-                    <h3 class="text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400]    heading-all text-white">Think Red, Think Sagar Tech</h3>
-                </div>
-                <p class="text-sm mt-3 text-red-300 text-[13.5px] font-light 
-                                    md:px-40  text-center tracking-wide content-all !my-7">
-                    Sagar Tech Technical Solution Is Award Winning 🏆 Web Development and Digital Marketing Agency In Mumbai Our team of web developers specialises in developing websites that quickly generate leads. We offer effective design, innovative web development, Mobile App Development, and ROI-focused marketing to help your brand reach its full potential. We offer Ecommerce Website, business website, one page website, custom website.
-                </p>
-                <div class=" flex justify-center mt-10">
-                    <a href="/contact" class="flex w-fit py-2 shadow-lg   rounded-full px-3 items-center justify-center gap-1 hover:bg-gray-300 bg-gray-100 transition-all duration-300">
-                        <span class="text-xs font-semibold uppercase ">
-
-                            Get in Touch
-                        </span>
-                        <span class=" w-4">
-                            <img src="arrow-up-right.svg" alt="">
-                        </span>
-                    </a>
-                </div>
-            </div>
-            <div class="lg:px-40">
-
-
-                <!-- Add this to your existing HTML (replace the old slider) -->
-                <div class="relative w-full overflow-hidden mt-12">
-                    <div class="slider flex w-max gap-3" id="techStackSlider">
-                        <div class="flex flex-nowrap gap-3 content-all" id="slider-track">
-                            <!-- ORIGINAL TECH STACK LOGOS -->
-                            <div class="flex-none flex-col gap-1  rounded-md flex justify-center items-center p-5">
-                                <img src="tech-stack/node.png" class="w-10" alt="Tech Stack 1">
-                                <p class="text-gray-300 text-xs text-center">Node Js</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/react.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">React Js</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/react.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">React Native</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/php.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">php</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/postgre.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">PostgresSQL</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/mysql.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">MySQL</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/wordpress.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">WordPress</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/shopify.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">Shopify</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/mongodb.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">MongoDB</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/express.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">Express Js</p>
-                            </div>
-                            <div class="flex-none flex-col gap-5 mt-3 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/jwt.svg" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">JWT</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/ts.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">Typescript</p>
-                            </div>
-                            <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
-                                <img src="tech-stack/firebase.png" class="w-10" alt="Tech Stack 2">
-                                <p class="text-gray-300 text-xs text-center">Firebase</p>
-                            </div>
-
-
-                        </div>
-                        <!-- Clone will be created automatically by JS -->
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div
-            class="md:py-16 !py-10 md:px-10 bg-cover bg-center bg-no-repeat md:pr-20 z-10 "
-            style="background-image: url('line4.png'); background-repeat: no-repeat;">
-
-            <div class="flex justify-center">
-
-                <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">CEO</span>
-            </div>
-            <h2 class="text-[28px] mt-5  lg:text-[36px] leading-[1.15]  font-[400] text-[#242424] text-center">
-                From the CEO’s Desk
-            </h2>
-            <div class=" mt-">
-                <!-- FOR MOBILE -->
-                <div class="md:hidden block px-4 text-center mt-7">
-
-                    <p class="content-all text-[13.5px] !font-bold tracking-wide text-gray-700">
-                        <span class="text-red-600 !font-bold">"</span> if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.<span class="text-red-600 font-bold"> "</span>
-                    </p>
-                    <div class="mt-6 flex justify-center">
-                        <div class="flex items-center space-x-3">
-                            <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
-                            <div>
-                                <p class="mb-1 content-all text-[13.5px] font-light tracking-wide text-gray-600">Written by,</p>
-                                <p class="text-red-500 flex flex-col text-sm heading-all">
-                                    <span>
-
-                                        Ubaid Saudagar -
-                                    </span>
-                                    <span class="text-gray-500 ">CEO, Sagar Tech</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="max-w-[500px] mt-7 w-full">
-                        <img src="frame-img.png" class="" />
-                    </div> -->
-                </div>
-                <div class=" flex md:flex-row flex-col md:items-end items-center ">
-
-                    <div class="md:max-w-[350px] w-full  rounded-md md:p-10 p-5 flex-1 ">
-                        <p class=" bg-[#fef2f2c4] p-5 rounded-md text-[13.5px] font-light tracking-wide text-gray-600 mb-5 max-sm:mb-0 ">
-                            <span class=""><img src="principle.png" class="w-8 !mb-2" alt=""></span>
-                            Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, <a href="/social-media-optimization-agency-in-mumbai" class="text-red-600">social media optimization, SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
-                        </p>
-                        <p class="content-all text-[13.5px] font-light tracking-wide text-gray-600 hidden md:block">
-                            <span class="text-red-600 font-bold">"</span> if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.<span class="text-red-600 font-bold"> "</span>
-                        </p>
-                        <div class="mt-6 hidden md:block">
-                            <div class="flex items-center space-x-3">
-                                <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
-                                <div>
-                                    <p class="mb-1 content-all text-[13.5px] font-light tracking-wide text-gray-600">Written by,</p>
-                                    <p class="text-red-500 flex flex-col text-sm heading-all">
-                                        <span>
-
-                                            Ubaid Saudagar -
-                                        </span>
-                                        <span class="text-gray-500 ">CEO, Sagar Tech</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="max-w-[500px] flex-[2] w-full md:block hidden">
-                        <img src="frame-img.png" class="" />
-                    </div>
-                    <div class="text-[13.5px] font-light tracking-wide text-gray-600 space-y-3 flex-1 px-4 ">
-
-                        <p class=" bg-[#fef2f2c4] p-5 rounded-md mb-5 ">
-                            <span><img src="client.png" class="w-8 !mb-2" alt=""></span>
-                            When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
-                        </p>
-                        <p class=" bg-[#fef2f2c4] p-5 rounded-md ">
-                            <span><img src="development.png" class="w-8 !mb-2" alt=""></span>
-                            In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a href="/web-development-company-in-mumbai" class="text-red-600">Website Development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="/bootstrap-development-services-mumbai" class="">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="/nextjs-development-services-in-india" class="text-red-600">Next Js</a>, <a href="/nodejs-development-company-in-india" class="text-red-600">Node Js</a>, JWT for security, and many more.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- WORK SPACE SECTION -->
-        <div class="md:my-16 my-10 md:px-20 px-4 ">
-            <div class="">
-                <div class="flex md:flex-row flex-col justify-between gap-10 items-center">
-
-                    <!-- <div class="">
-                                <ul class="space-y-3 flex items-center bg-gray-100 p-7 rounded-md ">
-                                    <li class="flex items-center gap-2">
-                                        <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span class="content-all text-sm">Development Team</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span class="content-all text-sm">Social media</span>
-                                    </li>
-                                    <li class="flex items-center gap-2">
-                                        <span class="w-4 h-4 flex justify-center items-center rounded-full bg-red-600 text-white text-xs">
-                                            <i class="fa-solid fa-check"></i>
-                                        </span>
-                                        <span class="content-all text-sm">SEO Team</span>
-                                    </li>
-
-                                </ul>
-                            </div> -->
-                </div>
-                <!-- <div class="flex md:flex-row flex-col justify-center items-center gap-5 mt-7">
-                            
-                            <div class="  md:h-[300px] rounded-md h-auto p-5 bg-gray-100 flex-1">
-                                <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
-                                        <img src="web-development.png" class="w-16 h-16" alt="">
-                                    </span>Development Team</h3>
-                                <p class="text-sm content-all text-gray-600">Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.</p>
-                            </div>
-                            <div class=" md:h-[300px] rounded-md h-auto  p-5 bg-gray-100  flex-1 flex justify-center items-center">
-                                <div class="">
-                                    <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
-                                            <img src="socialmedia-icons.png" class="w-16 h-16" alt="">
-                                        </span>Social Media Team
-                                    </h3>
-                                    <p class="text-sm content-all text-gray-600
-                                    ">Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.</p>
-                                </div>
-                            </div>
-                            <div class=" md:h-[300px] rounded-md bg-gray-100  h-auto p-5 flex-1 flex justify-center items-center">
-                                <div class="">
-
-                                    <h3 class="text-xl heading-all flex items-center gap-2 mb-1"><span class="">
-                                            <img src="seo-icon.png" class="w-16 h-16" alt="">
-                                        </span>SEO Team</h3>
-                                    <p class="text-sm content-all text-gray-600">Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.</p>
-                                </div>
-                            </div>
-                        </div> -->
-                <div class="flex md:flex-row flex-col justify-between gap-10">
-                    <div class="md:w-[30%] w-full">
-                        <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">Workspace</span>
-                        <div class=" w-full">
-                            <h2 class="text-[28px] lg:text-[36px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] mt-3 text-[#242424] heading-all ">Digital Workspace <br> Platform <span class="text-[#ff0808]">Sagar Tech</span></span></h2>
-                            <p class="text-sm text-gray-500 mt-3">Automation and collaboration in one platform.</p>
-                            <!-- <p class="text-sm content-all text-gray-600 md:px-48 text-center  w-full px-0 ">
-                                        In the hustle and bustle of everyday life, our workspace stands as a sanctuary a place where minds meet and visions align. Here, diversity is celebrated, and inclusivity reigns supreme, creating an atmosphere where everyone feels valued and respected.
-                                    </p> -->
-                            <div class="mt-5">
-                                <a href="/contact" class="text-sm font-medium bg-gray-900 rounded-md px-5 py-2 text-white">
-                                    Contact Us
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="md:w-[70%] w-full grid md:grid-cols-2 grid-cols-1 gap-3">
-                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">Web Development Team</h3>
-                            <hr class="">
-                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
-                                Our skilled developers specialize in building innovative and scalable mobile applications for iOS and Android. We focus on seamless UI/UX, high performance, and cutting-edge technology to deliver top-notch digital solutions. From concept to deployment, we ensure every app meets industry standards and user expectations. Our expertise spans native and cross-platform development, providing businesses with tailored solutions.
-                            </p>
-                            <div class="">
-                                <a href="/web-development-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                    <span class="text-sm text-gray-900">Visit</span>
-                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">Social Media Team</h3>
-                            <hr class="">
-                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
-                                Our creative social media team crafts compelling content and strategic campaigns to boost brand engagement. We manage multiple platforms, ensuring a consistent and impactful online presence. Through audience insights and trend analysis, we create engaging posts that drive traffic and interactions. Whether it's organic growth or paid promotions, we help businesses connect with their target audience effectively.
-                            </p>
-                            <div class="">
-                                <a href="/social-media-marketing-agency-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                    <span class="text-sm text-gray-900">Visit</span>
-                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">SEO Team</h3>
-                            <hr class="">
-                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
-                                Our SEO experts implement data-driven strategies to enhance website visibility and search engine rankings. We focus on keyword research, technical optimization, and high-quality content to drive organic traffic. Our team continuously monitors analytics and adapts strategies to improve performance. With on-page and off-page SEO techniques, we help businesses achieve sustainable online growth.
-                            </p>
-                            <div class="">
-                                <a href="/seo-company-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                    <span class="text-sm text-gray-900">Visit</span>
-                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="border border-gray-100 rounded-xl p-5 bg-[#fafafa]">
-                            <h3 class=" text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] !pb-3 ">Graphic Designer Team</h3>
-                            <hr class="">
-                            <p class=" flex-1 pt-3 text-gray-600 text-[13.5px] font-light tracking-wide">
-                                our Graphic Design Team blends creativity with precision Whether it's crafting brand identities, designing marketing assets, or creating stunning visuals for digital platforms, our designers are passionate about making your brand stand out. With a deep understanding of design principles, user behavior, and current trends, we deliver designs that are not only aesthetically striking but also strategically aligned with your business goals.
-                            </p>
-                            <div class="">
-                                <a href="/banner-design-services-in-mumbai" class="flex gap-3 justify-between mt-3 border border-gray-400 px-3 py-1 rounded-full items-center w-fit">
-                                    <span class="text-sm text-gray-900">Visit</span>
-                                    <img src="up-right-arrow1.png" class="w-3 h-3" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="md:!mb-1 mb-10">
-            <div class="md:px-20 relative pt-12 bg-[#f3f5f7] statistics-section">
-                <h3 class=" relative mb-10 text-center heading-all text-[28px] lg:text-[36px] leading-[1.15] font-[400] text-[#242424]">
-                    Our <span class="text-red-600">Statistics</span>
-                </h3>
-                <div class="relative flex md:flex-row max-sm:gap-8 max-sm:items-center flex-col justify-between mt- pb-16">
-                    <div class="bg-white !p-6 !rounded-xl  h-[150px]">
-                        <div class="text-gray-600 text-sm mb-5 ml-2">Projects</div>
-                        <div class="flex items-end gap-4 ">
-                            <span class=" text-gray-900 heading-all font-semibold">
-                                <img src="project2.png" alt="" class="w-14">
-                            </span>
-                            <div>
-                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="500">0</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-white !p-6 !rounded-xl max-w-[250px] w-full  h-[150px]">
-                        <div class="text-gray-500 text-sm mb-5 ml-2">Satisfied Clients</div>
-
-                        <div class="flex items-end gap-5">
-                            <span class="text-gray-900 heading-all font-semibold">
-                                <img src="client2.png" alt="" class="w-16">
-                            </span>
-                            <div>
-                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="300">0</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-white !p-6 !rounded-xl max-w-[250px] w-full h-[150px]">
-                        <div class="text-gray-500 text-sm mb-3 ml-2">Award</div>
-                        <div class="flex items-end gap-5">
-                            <span class="text-gray-900 heading-all font-semibold">
-                                <img src="trophy2.png" alt="" class="w-14">
-                            </span>
-                            <div>
-                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="1">0</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-white !p-6 !rounded-xl max-w-[250px] w-full h-[150px]">
-
-                        <div class="text-gray-900 text-sm mb-3 ml-2">Ratings</div>
-                        <div class="flex items-end gap-5">
-                            <span class="text-gray-900 heading-all font-semibold">
-                                <img src="rate3.png" alt="" class="w-16">
-                            </span>
-                            <div>
-                                <div class="text-gray-700 text-6xl number-count heading-all" data-target="5">0</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <section class="overview-block device-aria iq-bg jarallax ">
 
@@ -477,40 +116,7 @@
             </div>
         </section>
 
-        <div class="relative w-full  py-12 flex flex-col items-center justify-between">
-            <!-- <img src="abstract-shapes-wave-background.webp" class="absolute w-full h-full left-0 top-0 object-cover object-center" alt=""> -->
-            <!-- <div class="bg-black/50 absolute left-0 top-0 w-full h-full inset-0"></div> -->
-            <div class="">
-                <h3 class="uppercase text-center md:text-6xl text-4xl font-medium heading-all tracking-wide"><span class="heading-all font-extralight">Ready For your</span> <br> next project?</h3>
-                <div class="text-center max-sm:px-4">
-                    <p class=" text-red-600 mt-5">For Share Your Vision</p>
-                    <div class="flex md:flex-row flex-col  justify-center gap-5 items-center mt-7">
-                        <div class="max-w-[450px] px-4 h-[130px] w-full border shadow-lg py-3 text-sm rounded-md flex flex-col justify-center items-center">
-                            <div class="mb-3"><i class="fa-solid fa-phone text-xl text-red-600"></i></div>
-                            <p><a href="tel:+919820133303">+91 98201 33303</a></p>
-                            <p><a href="tel:+919152220484">+91 91522 20484</a></p>
-                        </div>
-                        <div class="max-w-[450px] px-4 h-[130px] w-full border shadow-lg py-3 text-sm rounded-md flex flex-col justify-center items-center">
-                            <div class="mb-3"><i class="fa-solid fa-envelope text-xl text-red-600"></i></div>
-                            <span><a href="mailto:info@sagartech.co.in">info@sagartech.co.in</a></span>
-                        </div>
-                        <div class="max-w-[450px] px-4 h-[130px] w-full border shadow-lg py-3 text-sm rounded-md flex flex-col justify-center items-center">
-                            <div class="mb-3"><i class="fa-solid fa-location-dot text-xl text-red-600"></i></div>
-                            <span>501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai - 400009</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- <div class="">
-                <div class="">
-                    <img src="" alt="">
-                </div>
-                <div class="border border-gray-50 rounded-full shadow-lg  px-5 py-0.5 text-sm">
-                    <a href="mailto:info@sagartech.co.in ">info@sagartech.co.in</a>
-                </div>
-            </div> -->
-        </div>
+        <?php include("include/newAboutpage/contactForAbout.php") ?>
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
@@ -591,6 +197,18 @@
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);
         })();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            // offset: 100, // Trigger animation 200px before element enters viewport
+            // duration: 500, // Animation duration in milliseconds
+            // delay: 0, // Delay before animation starts (applies to all elements)
+            // easing: 'ease-in-out', // Easing function
+            once: true, // Animate only once while scrolling down
+            mirror: false // Don't animate while scrolling back up
+        });
     </script>
 
 </body>
