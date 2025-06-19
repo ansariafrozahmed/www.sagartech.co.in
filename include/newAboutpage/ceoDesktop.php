@@ -1,82 +1,45 @@
 <?php include('include/config.php') ?>
-<div
-    class="md:py-16 !py-10 md:px-10 bg-cover bg-center bg-no-repeat md:pr-20 z-10 "
-    style="background-image: url('line4.png'); background-repeat: no-repeat;">
+<div class=" lg:h-[600px] flex lg:flex-row flex-col max-sm:items-center  bg-cover bg-center" style="background-image: url('st2.webp');">
+    <div class=" flex justify-center items-center lg:w-1/2 py-20 w-full">
+        <div class="max-sm:px-4">
+            <div class="flex flex-col items-center">
+                <h2 class="text-[28px] lg:text-[36px] leading-[1.15] text-center  font-[400] text-[#242424]">
 
-    <div class="flex justify-center" data-aos="fade-up">
+                    From the CEO's Desk
+                </h2>
 
-        <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">CEO</span>
-    </div>
-    <h2 class="text-[28px] mt-5  lg:text-[36px] leading-[1.15]  font-[400] text-[#242424] text-center" data-aos="fade-up">
-        From the CEO’s Desk
-    </h2>
-    <div class=" mt-">
-        <!-- FOR MOBILE -->
-        <div class="md:hidden block px-4 text-center mt-7">
-
-            <p class="content-all text-[13.5px] !font-bold tracking-wide text-gray-700" data-aos="fade-up">
-                <span class="text-red-600 !font-bold">"</span> if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.<span class="text-red-600 font-bold"> "</span>
-            </p>
-            <div class="mt-6 flex justify-center">
-                <div class="flex items-center space-x-3">
-                    <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" data-aos="fade-up" />
-                    <div>
-                        <p class="mb-1 content-all text-[13.5px] font-light tracking-wide text-gray-600" data-aos="fade-up">Written by,</p>
-                        <p class="text-red-500 flex flex-col text-sm heading-all" data-aos="fade-up">
-                            <span>
-
-                                Ubaid Saudagar -
-                            </span>
-                            <span class="text-gray-500 ">CEO, Sagar Tech</span>
-                        </p>
-                    </div>
-                </div>
+                <!-- <img src="st1.webp" class="w-[300px] mt-16" alt=""> -->
             </div>
-            <!-- <div class="max-w-[500px] mt-7 w-full">
-                        <img src="frame-img.png" class="" />
-                    </div> -->
-        </div>
-        <div class=" flex md:flex-row flex-col md:items-end items-center ">
-
-            <div class="md:max-w-[350px] w-full  rounded-md md:p-10 p-5 flex-1 ">
-                <p class=" bg-[#fef2f2c4] p-5 rounded-md text-[13.5px] font-light tracking-wide text-gray-600 mb-5 max-sm:mb-0 " data-aos="fade-up">
-                    <span class=""><img src="principle.png" class="w-8 !mb-2" alt="" data-aos="fade-up"></span>
-                    Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, <a href="/social-media-optimization-agency-in-mumbai" class="text-red-600">social media optimization, SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
-                </p>
-                <p class="content-all text-[13.5px] font-light tracking-wide text-gray-600 hidden md:block" data-aos="fade-up">
+            <div class="mt-5">
+                <p class="content-all text-gray-700 lg:px-20 text-center">
                     <span class="text-red-600 font-bold">"</span> if we do not give our clients the desired results they expect and for which they have approached us, then our income will not be appropriate.<span class="text-red-600 font-bold"> "</span>
                 </p>
-                <div class="mt-6 hidden md:block">
-                    <div class="flex items-center space-x-3">
+                <div class="mt-6 flex justify-center">
+                    <div class="flex flex-col items-center space-x-3">
                         <img src="./images/CEO.webp" alt="" class="w-16 h-16 rounded-full bg-gray-200" />
-                        <div>
-                            <p class="mb-1 content-all text-[13.5px] font-light tracking-wide text-gray-600" data-aos="fade-up">Written by,</p>
-                            <p class="text-red-500 flex flex-col text-sm heading-all" data-aos="fade-up">
-                                <span>
-
-                                    Ubaid Saudagar -
-                                </span>
-                                <span class="text-gray-500 ">CEO, Sagar Tech</span>
+                        <div class="text-center">
+                            <p class="mb-1 text-sm content-all text-gray-800 mt-2">Written by,</p>
+                            <p class="text-red-700 flex gap-1 items-center text-sm font-bold heading-all">
+                                Ubaid Saudagar - <span class="font-normal text-gray-500">CEO, Sagar Tech</span>
                             </p>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="max-w-[500px] flex-[2] w-full md:block hidden" data-aos="fade-up">
-                <img src="frame-img.png" class="" />
-            </div>
-            <div class="text-[13.5px] font-light tracking-wide text-gray-600 space-y-3 flex-1 px-4 ">
-
-                <p class=" bg-[#fef2f2c4] p-5 rounded-md mb-5 " data-aos="fade-up">
-                    <span><img src="client.png" class="w-8 !mb-2" alt=""></span>
-                    When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
-                </p>
-                <p class=" bg-[#fef2f2c4] p-5 rounded-md " data-aos="fade-up">
-                    <span><img src="development.png" class="w-8 !mb-2" alt=""></span>
-                    In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a href="/web-development-company-in-mumbai" class="text-red-600">Website Development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="/bootstrap-development-services-mumbai" class="">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="/nextjs-development-services-in-india" class="text-red-600">Next Js</a>, <a href="/nodejs-development-company-in-india" class="text-red-600">Node Js</a>, JWT for security, and many more.
-                </p>
-            </div>
+        </div>
+    </div>
+    <div
+        class="lg:w-1/2 w-full bg-cover bg-center bg-no-repeat flex justify-center items-center ">
+        <div class="lg:m-16 bg-[#ffffff9d] lg:p-16 rounded-lg space-y-3 max-sm:px-4 max-sm:py-10">
+            <p class="text-[13.5px] font-light tracking-wide text-gray-700 ">
+                Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, <a href="/social-media-optimization-agency-in-mumbai" class="text-red-600">social media optimization, SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
+            </p>
+            <p class="text-[13.5px] font-light tracking-wide text-gray-700">
+                When clients get the desired results they want, then automatically supplications come from their hearts, and they give us a positive review and feedback.
+            </p>
+            <p class="text-[13.5px] font-light tracking-wide text-gray-700">
+                In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a href="/web-development-company-in-mumbai" class="text-red-600">Website Development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="/bootstrap-development-services-mumbai" class="">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="/nextjs-development-services-in-india" class="text-red-600">Next Js</a>, <a href="/nodejs-development-company-in-india" class="text-red-600">Node Js</a>, JWT for security, and many more.
+            </p>
         </div>
     </div>
 </div>

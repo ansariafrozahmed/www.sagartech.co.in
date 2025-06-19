@@ -43,7 +43,11 @@
     <script>
         tailwind.config = {
             theme: {
-                extend: {},
+                extend: {
+                    backgroundImage: {
+                        'custom-pink-gradient': 'linear-gradient(163deg, rgba(250,246,243,1) 14%, rgba(246,213,229,1) 37%, rgba(253,43,33,1) 99%)',
+                    },
+                },
             },
             plugins: [
                 require('@tailwindcss/line-clamp')
@@ -102,7 +106,12 @@
         <?php include("include/newAboutpage/statistics.php") ?>
 
 
-        <section class="overview-block device-aria iq-bg jarallax ">
+        <div class="md:!px-20 md:py-12 py-10 overflow-hidden px-4 ">
+            <h4 class="text-[28px] lg:text-[36px] heading-all leading-[1.15] font-[400] text-[#242424] mb-7 text-center">What our customers say</h4>
+            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+            <div class="elfsight-app-c6525cd4-e40b-4288-b841-1f142c4ba611" data-elfsight-app-lazy></div>
+        </div>
+        <!-- <section class="overview-block device-aria iq-bg jarallax ">
 
             <div class="iq-testimonial2 overview-block-ptb iq-ove-black-40 md:py-12 py-10 iq-bg jarallax" style="background-image: url('images/bg/white-abstract-testimonial.jpeg'); background-position: center,center;">
                 <div class="container">
@@ -114,7 +123,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <?php include("include/newAboutpage/contactForAbout.php") ?>
     </div>

@@ -88,6 +88,30 @@
                         <img src="tech-stack/firebase.png" class="w-10" alt="Tech Stack 2">
                         <p class="text-gray-300 text-xs text-center">Firebase</p>
                     </div>
+                    <div class="flex-none flex-col gap-1  rounded-md flex justify-center items-center p-5">
+                        <img src="tech-stack/node.png" class="w-10" alt="Tech Stack 1">
+                        <p class="text-gray-300 text-xs text-center">Node Js</p>
+                    </div>
+                    <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
+                        <img src="tech-stack/react.png" class="w-10" alt="Tech Stack 2">
+                        <p class="text-gray-300 text-xs text-center">React Js</p>
+                    </div>
+                    <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
+                        <img src="tech-stack/react.png" class="w-10" alt="Tech Stack 2">
+                        <p class="text-gray-300 text-xs text-center">React Native</p>
+                    </div>
+                    <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
+                        <img src="tech-stack/php.png" class="w-10" alt="Tech Stack 2">
+                        <p class="text-gray-300 text-xs text-center">php</p>
+                    </div>
+                    <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
+                        <img src="tech-stack/postgre.png" class="w-10" alt="Tech Stack 2">
+                        <p class="text-gray-300 text-xs text-center">PostgresSQL</p>
+                    </div>
+                    <div class="flex-none flex-col gap-1 rounded-md flex justify-center items-center  p-5">
+                        <img src="tech-stack/mysql.png" class="w-10" alt="Tech Stack 2">
+                        <p class="text-gray-300 text-xs text-center">MySQL</p>
+                    </div>
 
 
                 </div>
