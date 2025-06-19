@@ -11,7 +11,9 @@ include("include/config.php");
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="We are the leading 🔝 Web Development and Digital Marketing Company In Indai with more than 500 satisfied Client ⭐">
+        content="We are the leading 🔝 Web Development and Digital Marketing Company In India with more than 500 satisfied Client ⭐">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://sagartech.co.in/our-portfolio">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- bootstrap -->
@@ -610,14 +612,14 @@ include("include/config.php");
             // Your implementation to open the city
         }
 
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             // Retrieve the active tab from localStorage
             var activeTab = localStorage.getItem('activeTab');
 
             // Check if an active tab is stored in localStorage
             if (activeTab) {
                 // Remove the 'active' class from all tabs
-                document.querySelectorAll('.buttons').forEach(function (button) {
+                document.querySelectorAll('.buttons').forEach(function(button) {
                     button.classList.remove('active');
                 });
 
@@ -631,10 +633,10 @@ include("include/config.php");
         });
 
         // Event listener to store the active tab in localStorage when clicked
-        document.querySelectorAll('.buttons').forEach(function (button) {
-            button.addEventListener('click', function () {
+        document.querySelectorAll('.buttons').forEach(function(button) {
+            button.addEventListener('click', function() {
                 // Remove the 'active' class from all tabs
-                document.querySelectorAll('.buttons').forEach(function (btn) {
+                document.querySelectorAll('.buttons').forEach(function(btn) {
                     btn.classList.remove('active');
                 });
 
@@ -648,7 +650,7 @@ include("include/config.php");
         });
 
         // Clear localStorage and set active tab to "Business" on reload
-        window.addEventListener('beforeunload', function () {
+        window.addEventListener('beforeunload', function() {
             localStorage.removeItem('activeTab');
             localStorage.setItem('activeTab', 'Business');
         });
@@ -1119,90 +1121,90 @@ include("include/config.php");
         </div>
         <div class="viewmore">
             <button class="buttons"><a href="<?= WEB_URL ?>portfolio/travels-website" target="_blank">View More</a><svg
-                                xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                                <path
-                                    d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                            </svg></button>
+                    xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                </svg></button>
+        </div>
+    </div>
+
+    <div id="Interior" class="content-div" style="display:none">
+        <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
+        <div class="maincontent">
+            <div class="maincontent-inner">
+                <a href="https://folksco.in/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/interior/folksco.webp" alt="">
                     </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://folksco.in/" target="_blank">
+                        <h2>Folksco</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://bareziyaarchitects.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/interior/bareziya_arch.png" alt="">
                     </div>
-                    
-                    <div id="Interior" class="content-div" style="display:none">
-                        <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
-                        <div class="maincontent">
-                            <div class="maincontent-inner">
-                                <a href="https://folksco.in/" target="_blank">
-                                    <div class="imgdiv">
-                                        <img src="./portfolio-mockups/interior/folksco.webp" alt="">
-                                    </div>
-                                </a>
-                                <div class="content-text">
-                                    <a href="https://folksco.in/" target="_blank">
-                                        <h2>Folksco</h2>
-                                    </a>
-                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                                </div>
-                            </div>
-                            <div class="maincontent-inner">
-                                <a href="https://bareziyaarchitects.com/" target="_blank">
-                                    <div class="imgdiv">
-                                        <img src="./portfolio-mockups/interior/bareziya_arch.png" alt="">
-                                    </div>
-                                </a>
-                                <div class="content-text">
-                                    <a href="https://bareziyaarchitects.com/" target="_blank">
-                                        <h2>Bareziya Architects</h2>
-                                    </a>
-                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="viewmore">
-                            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/interior-designer" target="_blank">View
-                                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
-                                    <path
-                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
-                                </svg></button>
-                        </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://bareziyaarchitects.com/" target="_blank">
+                        <h2>Bareziya Architects</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="viewmore">
+            <button class="buttons"><a href="<?= WEB_URL ?>portfolio/interior-designer" target="_blank">View
+                    More</a><svg xmlns="http://www.w3.org/2000/svg" height="12" width="12" viewBox="0 0 512 512">
+                    <path
+                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                </svg></button>
+        </div>
+    </div>
+    <div id="Health" class="content-div" style="display:none">
+        <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
+        <div class="maincontent">
+            <div class="maincontent-inner">
+                <a href="https://www.axxio-laboratory.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/healthcare/AXXIO.webp" alt="Axxio">
                     </div>
-                    <div id="Health" class="content-div" style="display:none">
-                        <!-- <h2>Our Trust & Properties Website portfolio</h2> -->
-                        <div class="maincontent">
-                            <div class="maincontent-inner">
-                                <a href="https://www.axxio-laboratory.com/" target="_blank">
-                                    <div class="imgdiv">
-                                        <img src="./portfolio-mockups/healthcare/AXXIO.webp" alt="Axxio">
-                                    </div>
-                                </a>
-                                <div class="content-text">
-                                    <a href="https://www.axxio-laboratory.com/" target="_blank">
-                                        <h2>Axxio Laboratory</h2>
-                                    </a>
-                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                                </div>
-                            </div>
-                            <div class="maincontent-inner">
-                                <a href="https://syrocs.com/" target="_blank">
-                                    <div class="imgdiv">
-                                        <img src="./portfolio-mockups/healthcare/syrocs.webp" alt="Syrocs">
-                                    </div>
-                                </a>
-                                <div class="content-text">
-                                    <a href="https://syrocs.com/" target="_blank">
-                                        <h2>Syrocs</h2>
-                                    </a>
-                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
-                                </div>
-                            </div>
-                            <div class="maincontent-inner">
-                                <a href="https://vcarediagnostic.center/" target="_blank">
-                                    <div class="imgdiv">
-                                        <img src="./portfolio-mockups/healthcare/vcare.webp" alt="VCare">
-                                    </div>
-                                </a>
-                                <div class="content-text">
-                                    <a href="https://vcarediagnostic.center/" target="_blank">
-                                        <h2>VCare Diagnostics</h2>
-                                    </a>
+                </a>
+                <div class="content-text">
+                    <a href="https://www.axxio-laboratory.com/" target="_blank">
+                        <h2>Axxio Laboratory</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://syrocs.com/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/healthcare/syrocs.webp" alt="Syrocs">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://syrocs.com/" target="_blank">
+                        <h2>Syrocs</h2>
+                    </a>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
+                </div>
+            </div>
+            <div class="maincontent-inner">
+                <a href="https://vcarediagnostic.center/" target="_blank">
+                    <div class="imgdiv">
+                        <img src="./portfolio-mockups/healthcare/vcare.webp" alt="VCare">
+                    </div>
+                </a>
+                <div class="content-text">
+                    <a href="https://vcarediagnostic.center/" target="_blank">
+                        <h2>VCare Diagnostics</h2>
+                    </a>
                     <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore est? Ipsum magni sunt alias voluptas deleniti in explicabo fuga amet.</p> -->
                 </div>
             </div>
@@ -1371,7 +1373,7 @@ include("include/config.php");
 
     <!-- WhatsHelp.io widget -->
     <script type="text/javascript">
-        (function () {
+        (function() {
             var options = {
                 whatsapp: "+919820133303", // WhatsApp number
                 email: "info@sagartech.co.in",
@@ -1385,7 +1387,7 @@ include("include/config.php");
             s.type = 'text/javascript';
             s.async = true;
             s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function () {
+            s.onload = function() {
                 WhWidgetSendButton.init(host, proto, options);
             };
             var x = document.getElementsByTagName('script')[0];
@@ -1461,12 +1463,12 @@ include("include/config.php");
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
     <script>
-        $(function () {
+        $(function() {
             var myform = $(".add_mainarea_form");
             var completed = '0%';
             $(myform).ajaxForm({
 
-                complete: function () {
+                complete: function() {
                     $('#largeModal').modal('hide')
                     setTimeout(
                         $('.bd-example-modal-sm').modal('show'), 3000);
@@ -1475,9 +1477,9 @@ include("include/config.php");
 
 
         });
-        $(document).ready(function () {
+        $(document).ready(function() {
 
-            $('body').bind('cut copy paste', function (e) {
+            $('body').bind('cut copy paste', function(e) {
                 e.preventDefault();
             });
 

@@ -1,7 +1,7 @@
 <?php include('include/config.php') ?>
 <div class="md:!mb-1 mb-10">
     <div class="md:px-20 relative pt-12 bg-[#f3f5f7] statistics-section">
-        <h3 class=" relative mb-10 text-center heading-all text-[28px] lg:text-[36px] leading-[1.15] font-[400] text-[#242424]" data-aos="fade-up">
+        <h3 class=" relative mb-10 text-center heading-all text-[28px] lg:text-[40px] leading-[1.15] font-[400] text-[#242424]" data-aos="fade-up">
             Our <span class="text-red-600">Statistics</span>
         </h3>
         <div class="relative flex md:flex-row max-sm:gap-8 max-sm:items-center flex-col justify-between mt- pb-16">

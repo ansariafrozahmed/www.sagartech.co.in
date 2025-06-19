@@ -8,13 +8,23 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
     <meta name="description" content="Sagar Tech Technical Solutions is a trusted provider of mobile app development services, specializing in delivering high-quality, user-centric solutions for iOS and Android platforms to enhance business performance and digital engagement.">
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="keywords" content="Mobile app development, iOS app development, Android app development, custom software solutions, app development company, digital transformation, mobile solutions, business apps, technology solutions, Sagar Tech Technical Solutions.">
     <!-- Favicon -->
+    <meta name="author" content="Ubaid saudagar">
+    <meta name="designer" content="Ubaid Saudagar">
+    <meta name="publisher" content="Ubaid Saudagar">
+    <meta name="copyright" content="https://sagartech.co.in/">
+    <meta name="distribution" content="Global">
+    <meta name="document-classification" content=" Website Designer and website Developer in Mumbai, India">
+    <meta name="document-type" content="Public">
+    <meta name="robots" content="all">
+    <meta name="Googlebot" content="Index, Follow">
+    <meta name="rating" content="Safe for Kids">
+    <meta name="language" content="english">
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <link rel="canonical" href="https://sagartech.co.in/about">
     <meta property="og:locale" content="en_US">
@@ -65,7 +75,7 @@
 
 <style>
     body {
-        font-family: "Quicksand", sans-serif;
+        font-family: "Bricolage Grotesque", sans-serif;
     }
 
     .heading-all {
@@ -107,7 +117,7 @@
 
 
         <div class="md:!px-20 md:py-12 py-10 overflow-hidden px-4 ">
-            <h4 class="text-[28px] lg:text-[36px] heading-all leading-[1.15] font-[400] text-[#242424] mb-7 text-center">What our customers say</h4>
+            <h4 class="text-[28px] lg:text-[40px] heading-all leading-[1.15] font-[400] text-[#242424] mb-7 text-center">What our customers say</h4>
             <script src="https://static.elfsight.com/platform/platform.js" async></script>
             <div class="elfsight-app-c6525cd4-e40b-4288-b841-1f142c4ba611" data-elfsight-app-lazy></div>
         </div>
