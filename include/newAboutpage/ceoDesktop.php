@@ -39,7 +39,7 @@
             </div>
             <div class="flex lg:flex-row flex-col max-sm:items-center justify-between gap-5 mt-8">
                 <div class="md:w-1/2 w-full text-justify space-y-3">
-                    <p class="text-[13.5px] font- tracking-wide text-gray-500" data-aos="fade-up">
+                    <p class="text-[13.5px] font-light tracking-wide text-gray-500" data-aos="fade-up">
                         Our basic principle, which we have been successful in the past few years, is TRUST. We have not broken the trust of our clients in terms of the development of websites, <a href="/social-media-optimization-agency-in-mumbai" class="text-red-600">social media optimization, SEO</a>, or any other service for which our client has opted for our services. Hence, our client retention percentage is 90%.
                     </p>
                     <p class="text-[13.5px] font- tracking-wide text-gray-500" data-aos="fade-up">
@@ -50,7 +50,7 @@
                 </div>
                 <div class="md:w-1/2 w-full text-justify space-y-3">
 
-                    <p class="text-[13.5px] font- tracking-wide text-gray-500" data-aos="fade-up">
+                    <p class="text-[13.5px] font-light tracking-wide text-gray-500" data-aos="fade-up">
                         In terms of development, we continuously keep upgrading with the latest technology. So, when we started <a href="/web-development-company-in-mumbai" class="text-red-600">Website Development</a> in 2018, we just had one technology to develop our websites, and that was WordPress, along with a shared server. Then, gradually, we moved towards <a href="/bootstrap-development-services-mumbai" class="">Bootstrap</a>, PHP for building custom websites. Now, we have adapted ourselves to the latest trends for developing our websites, wherein we use Remix, <a href="/nextjs-development-services-in-india" class="text-red-600">Next Js</a>, <a href="/nodejs-development-company-in-india" class="text-red-600">Node Js</a>, JWT for security, and many more.
                     </p>
 
