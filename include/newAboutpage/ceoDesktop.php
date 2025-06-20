@@ -1,7 +1,7 @@
 <?php include('include/config.php') ?>
-<div class="lg:px-20 px-4 md:pt-16  py-10 max-sm:pb-0 ">
+<div class="lg:px-20 px-4 md:pt-16  py-10 max-sm:pb-0 bg-gray-100 ">
 
-    <div class=" flex justify-between lg:flex-row flex-col max-sm:items-center gap-10 relative  bg-white  ">
+    <div class=" flex justify-between lg:flex-row flex-col max-sm:items-center gap-10 relative  bg-gray-100  ">
 
         <div class=" lg:w-[35%] w-full lg:sticky top-24 h-full ">
             <div class="max-sm:flex justify-center" data-aos="fade-up">

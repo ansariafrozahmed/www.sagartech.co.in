@@ -35,6 +35,20 @@
     <meta property="og:url" content="https://sagartech.co.in/about">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
+    <script>
+        window.addEventListener('load', function() {
+            // Wait a bit in case Elfsight loads content after DOM is ready
+            setTimeout(function() {
+                const links = document.querySelectorAll('a');
+                links.forEach(function(link) {
+                    if (link.textContent.trim() === 'Free Google Reviews widget') {
+                        link.style.display = 'none';
+                    }
+                });
+            }, 2000); // 2-second delay to allow widget to render
+        });
+    </script>
+
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -112,14 +126,18 @@
     <div class="">
         <?php include("include/newAboutpage/banner.php") ?>
         <?php include("include/newAboutpage/ceoDesktop.php") ?>
+        <!-- <hr class="md:mx-20 px-4 mt-5"> -->
         <?php include("include/newAboutpage/workspace.php") ?>
         <?php include("include/newAboutpage/statistics.php") ?>
 
 
-        <div class="md:!px-20 md:py-12 py-10 overflow-hidden px-4 ">
-            <h4 class="text-[28px] lg:text-[40px] heading-all leading-[1.15] font-[400] text-[#242424] mb-7 text-center">What our customers say</h4>
+        <div class="md:!px-10 pt-10 pb-5 overflow-hidden px-4 ">
+            <h4 class="text-[28px] lg:text-[40px] heading-all leading-[1.15] font-[400] text-[#242424] mb-5 text-center">What our customers say</h4>
+            <!-- <script src="https://static.elfsight.com/platform/platform.js" async></script>
+            <div class="elfsight-app-c6525cd4-e40b-4288-b841-1f142c4ba611" data-elfsight-app-lazy></div> -->
+            <!-- Elfsight Google Reviews | Untitled Google Reviews -->
             <script src="https://static.elfsight.com/platform/platform.js" async></script>
-            <div class="elfsight-app-c6525cd4-e40b-4288-b841-1f142c4ba611" data-elfsight-app-lazy></div>
+            <div class="elfsight-app-a83ead89-8ce9-45e6-8b13-1f2774c56535" data-elfsight-app-lazy></div>
         </div>
         <!-- <section class="overview-block device-aria iq-bg jarallax ">
 
