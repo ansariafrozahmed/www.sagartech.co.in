@@ -992,10 +992,10 @@
       <h2 style="line-height:40px;">Why are web design and web development important for your business?
       </h2>
       <!-- <h3>Subtitle</h3> -->
-       <p class="">
-       In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of the top <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-designing-service.html" target="_blank" style="color:#ff0808; font-weight: 600;">web development</a> companies in Mumbai, we are extremely proud of our work as a web design agency and our skilled team of developers and designers. Our objective is to create websites that beat your expectations and provide you with a unique online presence. In the present digital age, having a strong online presence is crucial, and we can assist you in making your ideas a reality. You can count on our expertise as a leading web design company in India to produce a website that perfectly represents your brand.
+      <p class="">
+        In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of the top <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-designing-service.html" target="_blank" style="color:#ff0808; font-weight: 600;">web development</a> companies in Mumbai, we are extremely proud of our work as a web design agency and our skilled team of developers and designers. Our objective is to create websites that beat your expectations and provide you with a unique online presence. In the present digital age, having a strong online presence is crucial, and we can assist you in making your ideas a reality. You can count on our expertise as a leading web design company in India to produce a website that perfectly represents your brand.
 
-       </p>
+      </p>
       <!-- <p>At Sagar Tech Technical Solutions, we merge brilliance and creativity in . Being one of Mumbai's leading <a href="https://www.indiamart.com/proddetail/corporate-website-designing-service-2854563932388.html" target="_blank" style="color:#ff0808; font-weight: 600;">web development</a> companies, we take great pride in our talented group of web designers and developers. Our goal is to develop websites that provide you with a distinctive online presence while going above and beyond your expectations. Having a strong online presence is essential in the current digital era, and we can help you realize your ideas. As a top web design company in India, you can count on our experience to create a website that accurately captures your brand.</p> -->
       <br>
       <div class="herobuttonsnew">
@@ -1019,7 +1019,7 @@
       <div class="discover">
         <div class="headingggggg">Expertise that Matters</div>
         <p class="">
-        Having years of experience in web development, our team as a web design agency is competent in both frontend and backend solutions. Being a top <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-maintenance-service.html" target="_blank" class="interlink">web development</a> company, we promise that your website is up-to-date and future-ready. You might depend on our web design company and our web designers in Mumbai to build a website that meets your needs now and stays current with new trends.
+          Having years of experience in web development, our team as a web design agency is competent in both frontend and backend solutions. Being a top <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-maintenance-service.html" target="_blank" class="interlink">web development</a> company, we promise that your website is up-to-date and future-ready. You might depend on our web design company and our web designers in Mumbai to build a website that meets your needs now and stays current with new trends.
 
         </p>
         <!-- <p>Our team has many years of <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-maintenance-service.html" target="_blank" class="interlink">web development</a> experience, and we excel at both front-end and back-end solutions. As a leading web development company we guarantee that your website is modern and ready for the future. You can count on our web design company to create a website that satisfies your demands today and keeps up with emerging trends.</p> -->
@@ -1027,17 +1027,17 @@
       <div class="discover">
         <div class="headingggggg">Tailored Solutions</div>
         <p class="">
-        Our web design company understands that every business is unique and needs customised ideas. We do not apply one-size-fits-all tactics as a top <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-designing.html" target="_blank" class="interlink">web development</a> and design agency in Mumbai. We must determine your target demographic and company goals in order to create a distinctive website that complements your brand and effectively engages your audience.
+          Our web design company understands that every business is unique and needs customised ideas. We do not apply one-size-fits-all tactics as a top <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-designing.html" target="_blank" class="interlink">web development</a> and design agency in Mumbai. We must determine your target demographic and company goals in order to create a distinctive website that complements your brand and effectively engages your audience.
 
         </p>
         <!-- <p>Our web design company is aware that every company is different and requires customized solutions. Being a leading <a href="https://www.indiamart.com/sagartech-technicalsolutions/website-designing.html" target="_blank" class="interlink">web development</a> company in Mumbai, we don't use one-size-fits-all strategies. To build a unique website that fits your brand and successfully engages your audience, we must establish your business objectives and target market.</p> -->
       </div>
       <div class="discover">
         <div class="headingggggg">Responsive Design</div>
-       <p class="">
-       A web design agency is aware that reactive design counts in the multi-device world of today. As a top web development company, we and our web designers in Mumbai ensure that our websites work flawlessly on all screen sizes. Whether seen on a desktop, tablet, or smartphone, your website will offer the optimal viewing experience, increasing consumer happiness wherever it is viewed.
+        <p class="">
+          A web design agency is aware that reactive design counts in the multi-device world of today. As a top web development company, we and our web designers in Mumbai ensure that our websites work flawlessly on all screen sizes. Whether seen on a desktop, tablet, or smartphone, your website will offer the optimal viewing experience, increasing consumer happiness wherever it is viewed.
 
-       </p>
+        </p>
       </div>
       <div class="discover">
         <div class="headingggggg">Performance Optimization</div>
