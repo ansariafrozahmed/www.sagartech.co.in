@@ -3,12 +3,13 @@
         Why choose us <br> for <span class="text-red-600">web development</span>?
     </h1>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
 
         <!-- Feature 1 -->
         <div class="lg:m-6 max-sm:text-justify lg:border-r lg:pr-10">
             <div class=" text-gray-300 text-3xl mb-4">
-                <i class=" mb-3 fa-solid fa-code"></i>
+                <!-- <i class=" mb-3 fa-solid fa-code"></i> -->
+                <img src="new-icons/expert.png" class="w-12 mb-3" alt="">
                 <h2 class="text-[20px] lg:text-[24px] leading-[1.15] mt-2 font-[400] text-[#242424]">Expertise that Matters</h2>
             </div>
             <p class=" text-[13.5px] font-light tracking-wide text-gray-600">
@@ -19,7 +20,8 @@
         <!-- Feature 2 -->
         <div class="lg:m-6 max-sm:text-justify lg:border-r lg:pr-10">
             <div class=" text-gray-300 text-3xl mb-4">
-                <i class=" mb-3 fa-solid fa-bullseye"></i>
+                <!-- <i class=" mb-3 fa-solid fa-bullseye"></i> -->
+                <img src="new-icons/solution.png" class="w-12 mb-3" alt="">
                 <h2 class="text-[20px] lg:text-[24px] leading-[1.15] mt-2 font-[400] text-[#242424]">Tailored Solutions</h2>
             </div>
             <p class=" text-[13.5px] font-light tracking-wide text-gray-600">
@@ -30,7 +32,8 @@
         <!-- Feature 3 -->
         <div class="lg:m-6 max-sm:text-justify ">
             <div class=" text-gray-300 text-3xl mb-4">
-                <i class=" mb-3 fa-solid fa-mobile-screen"></i>
+                <!-- <i class=" mb-3 fa-solid fa-mobile-screen"></i> -->
+                <img src="new-icons/responsive.png" class="w-12 mb-3" alt="">
                 <h2 class="text-[20px] lg:text-[24px] leading-[1.15] mt-2 font-[400] text-[#242424]">Responsive Design</h2>
             </div>
             <p class=" text-[13.5px] font-light tracking-wide text-gray-600">
@@ -41,7 +44,8 @@
         <!-- Feature 4 -->
         <div class="lg:m-6 max-sm:text-justify lg:border-r lg:pr-10">
             <div class=" text-gray-300 text-3xl mb-4">
-                <i class=" mb-3 fa-solid fa-gauge-high"></i>
+                <!-- <i class=" mb-3 fa-solid fa-gauge-high"></i> -->
+                <img src="new-icons/optimization.png" class="w-12 mb-3" alt="">
                 <h2 class="text-[20px] lg:text-[24px] leading-[1.15] mt-2 font-[400] text-[#242424]">Performance Optimization</h2>
             </div>
             <p class=" text-[13.5px] font-light tracking-wide text-gray-600">
@@ -52,7 +56,8 @@
         <!-- Feature 5 -->
         <div class="lg:m-6 max-sm:text-justify lg:border-r lg:pr-10">
             <div class=" text-gray-300 text-3xl mb-4">
-                <i class=" mb-3 fa-solid fa-shield-halved"></i>
+                <!-- <i class=" mb-3 fa-solid fa-shield-halved"></i> -->
+                <img src="new-icons/security.png" class="w-12 mb-3" alt="">
                 <h2 class="text-[20px] lg:text-[24px] leading-[1.15] mt-2 font-[400] text-[#242424]">Security First</h2>
             </div>
             <p class=" text-[13.5px] font-light tracking-wide text-gray-600">
@@ -63,7 +68,8 @@
         <!-- Feature 6 -->
         <div class="lg:m-6 max-sm:text-justify ">
             <div class=" text-gray-300 text-3xl mb-4">
-                <i class=" mb-3 fa-solid fa-layer-group"></i>
+                <!-- <i class=" mb-3 fa-solid fa-layer-group"></i> -->
+                <img src="new-icons/scalability.png" class="w-12 mb-3" alt="">
                 <h2 class="text-[20px] lg:text-[24px] leading-[1.15] mt-2 font-[400] text-[#242424]">Scalability for the Future</h2>
             </div>
             <p class=" text-[13.5px] font-light tracking-wide text-gray-600">

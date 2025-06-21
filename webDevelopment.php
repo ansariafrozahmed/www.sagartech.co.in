@@ -34,7 +34,17 @@
     <!-- <link rel="stylesheet" href="css/web-design.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -129,6 +139,29 @@
         text-underline-offset: 6px;
         text-decoration: underline;
     }
+
+    .fade-target {
+        opacity: 0;
+        transform: translateY(10px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .fade-active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .swiper-pagination-bullet {
+        background-color: #ef4444 !important;
+        /* Tailwind red-500 */
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #b91c1c !important;
+        /* Tailwind red-700 */
+    }
+</style>
 </style>
 
 <body>
@@ -150,8 +183,16 @@
         include("include/new-services/web-development/new-our-Client.php"); ?>
         <?php
         include("include/new-services/web-development/developmentServices.php"); ?>
-
-
+        <?php
+        include("include/new-services/web-development/carousel.php"); ?>
+        <?php
+        include("include/new-services/web-development/tanstack.php"); ?>
+        <?php
+        include("include/new-services/web-development/ourProcess.php"); ?>
+        <?php
+        include("include/new-services/web-development/checklist.php"); ?>
+        <?php
+        include("include/new-services/web-development/secondLast.php"); ?>
     </div>
     <!-- /HEADER END -->
 
