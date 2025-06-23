@@ -1,6 +1,6 @@
 <div class="lg:px-20 px-4 lg:py-16 py-10 bg-gray-100">
     <h2 class="text-[28px] lg:text-[40px] leading-[1.15] text-center font-[400] text-[#242424]">
-        Types of the website <br> development services
+        Types of the <br> <span class="text-red-500"> website development</span> services
     </h2>
     <div class="grid lg:grid-cols-4 grid-cols-1 max-sm:place-items-center items-center gap-5 mt-10">
         <div class="space-y-4 max-w-[300px] w-full rounded-lg px-5 py-8 hover:shadow-lg hover:scale-105 transition-all duration-200 ease-out  bg-white">
@@ -10,7 +10,7 @@
                     <img src="new-icons/ecommerce.png" alt="">
                 </div>
             </div>
-            <h3 class="text-[20px] lg:text-[24px] leading-[1.15]  font-[400] text-[#242424] text-center">
+            <h3 class=" lg:text-[22px] leading-[1.15]  font-[400] text-[#242424] text-center">
                 Ecommerce website
             </h3>
             <p class="text-[13.5px] font-light tracking-wide text-gray-600 line-clamp-4 text-justify">
@@ -29,7 +29,7 @@
                     <img src="new-icons/blogging.png" alt="">
                 </div>
             </div>
-            <h3 class="text-[20px] lg:text-[24px] leading-[1.15]  font-[400] text-[#242424] text-center">
+            <h3 class=" lg:text-[22px] leading-[1.15]  font-[400] text-[#242424] text-center">
                 Blogging Website
             </h3>
             <p class="text-[13.5px] font-light tracking-wide text-gray-600 line-clamp-4 text-justify">
@@ -48,7 +48,7 @@
                     <img src="new-icons/dynamic.png" alt="">
                 </div>
             </div>
-            <h3 class="text-[20px] lg:text-[24px] leading-[1.15]  font-[400] text-[#242424] text-center">
+            <h3 class=" lg:text-[22px] leading-[1.15]  font-[400] text-[#242424] text-center">
                 Dynamic Website </h3>
             <p class="text-[13.5px] font-light tracking-wide text-gray-600 line-clamp-4 text-justify">
                 In an era where simplicity and efficiency are paramount, a one-page website has gained significant traction among businesses seeking a concise and impactful online presence.
@@ -66,7 +66,7 @@
                     <img src="new-icons/shopify.png" alt="">
                 </div>
             </div>
-            <h3 class="text-[20px] lg:text-[24px] leading-[1.15]  font-[400] text-[#242424] text-center">
+            <h3 class=" lg:text-[22px] leading-[1.15]  font-[400] text-[#242424] text-center">
                 shopify Website
             </h3>
             <p class="text-[13.5px] font-light tracking-wide text-gray-600 line-clamp-4 text-justify">

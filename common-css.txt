@@ -1,6 +1,6 @@
 h1 = text-[50px] max-w-[800px] text-[#242424] mx-auto text-center leading-[1.1] tracking-[0px] font-normal
 h2 = text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]
-h3 = text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]
+h3 =  lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]
 p  = text-[13.5px] font-light tracking-wide text-gray-600
 
 tagline =   <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">About Us</span>
@@ -10,3 +10,223 @@ tagline =   <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 r
 
  
         
+
+        <div class="swiper-slide relative ">
+    <!-- Background Image -->
+    <!-- <div class=" bg-cover bg-center z-0" style="background-image: url('/slider1.jpg')"></div> -->
+
+    <!-- Content (stays in place) -->
+    <div class="w-full h-full flex flex-col justify-center items-center text-center ">
+        <div class=" flex flex-col items-center justify-center  fade-target ">
+            <img
+                src="new-images/thaigerpharma.webp"
+                class=" w-[500px] mb-7"
+                alt="" />
+            <h1 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  ">Portfolio Website</h1>
+        </div>
+
+        <div class="fade-target">
+            <p class="text-[13.5px] mb- font-light tracking-wide text-gray-600 max-w-[600px] mx-auto">
+                In the rapidly evolving digital landscape, having a strong online presence is essential for businesses to thrive.
+            </p>
+            <div class="flex justify-center mt-5">
+                <button class="button1">
+                    <a href="our-clients">View All</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="swiper-slide relative ">
+    <!-- Background Image -->
+    <!-- <div class=" bg-cover bg-center z-0" style="background-image: url('/slider1.jpg')"></div> -->
+
+    <!-- Content (stays in place) -->
+    <div class="w-full h-full flex flex-col justify-center items-center text-center ">
+        <div class=" flex flex-col items-center justify-center  fade-target ">
+            <img
+                src="new-images/slider-img1.webp"
+                class=" w-[500px] mb-7"
+                alt="" />
+            <h1 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  ">Shopify Website</h1>
+        </div>
+
+        <div class="fade-target">
+            <p class="text-[13.5px] mb- font-light tracking-wide text-gray-600 max-w-[600px] mx-auto">
+                In the rapidly evolving digital landscape, having a strong online presence is essential for businesses to thrive.
+            </p>
+            <div class="flex justify-center mt-5">
+                <button class="button1">
+                    <a href="our-clients">View All</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="lg:pb-16 pb-10 lg:px-20 px-4">
+    <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
+        <!-- Text Area -->
+        <div class="lg:w-1/2 w-full">
+            <h1 class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal">
+                Why are <span class="text-red-600">web design</span> and <span class="text-red-600">web development</span> important for your business?
+            </h1>
+            <p class="text-[13.5px] font-light tracking-wide text-gray-600 max-sm:text-center mt-4">
+                How a Strong Website Builds Trust, Engagement, and Conversions
+            </p>
+            <div class="flex max-sm:justify-center mt-7">
+                <button data-aos="fade-right" class="button1">
+                    <a href="about">About Us</a>
+                </button>
+            </div>
+        </div>
+
+        <!-- Video Section -->
+        <div
+            id="videoWrapper"
+            class="relative lg:w-1/2 w-full mx-auto max-sm:mt-7 rounded-2xl overflow-hidden shadow-xl group bg-black">
+            <!-- Video -->
+            <video id="customVideo" class="w-full" poster="new-images/poster.webp">
+                <source src="video/web-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Overlay Play Button -->
+            <button
+                id="playPauseOverlay"
+                class="absolute inset-0 flex items-center justify-center bg-black/40 text-white text-4xl transition duration-300 group-hover:bg-black/10 z-10">
+                <div class="w-14 h-14 rounded-full bg-red-500 flex justify-center items-center">
+                    <i class="fa-solid fa-play text-xl"></i>
+                </div>
+            </button>
+
+            <!-- Custom Controls -->
+            <div
+                id="videoControls"
+                class="absolute bottom-0 left-0 right-0 z-20 bg-black/60 backdrop-blur px-4 py-3 flex items-center justify-between gap-4 opacity-0 pointer-events-none transition-opacity duration-300">
+                <button id="playPauseBtn" class="text-white text-lg focus:outline-none" title="Play/Pause">▶</button>
+                <input
+                    type="range"
+                    id="progressBar"
+                    value="0"
+                    class="w-full h-1 accent-red-500 bg-gray-300 rounded-lg cursor-pointer" />
+                <button id="fullscreenBtn" class="text-white text-lg focus:outline-none" title="Fullscreen">⛶</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SCRIPT SECTION -->
+<script>
+    const video = document.getElementById("customVideo");
+    const wrapper = document.getElementById("videoWrapper");
+    const playPauseBtn = document.getElementById("playPauseBtn");
+    const playPauseOverlay = document.getElementById("playPauseOverlay");
+    const progressBar = document.getElementById("progressBar");
+    const fullscreenBtn = document.getElementById("fullscreenBtn");
+    const controls = document.getElementById("videoControls");
+
+    let hideControlsTimeout;
+
+    function showControlsTemporarily() {
+        controls.classList.remove("opacity-0", "pointer-events-none");
+        clearTimeout(hideControlsTimeout);
+        hideControlsTimeout = setTimeout(() => {
+            if (!video.paused) {
+                controls.classList.add("opacity-0", "pointer-events-none");
+            }
+        }, 3000);
+    }
+
+    function togglePlayPause() {
+        if (video.paused) {
+            video.play();
+            playPauseBtn.textContent = "⏸";
+            playPauseOverlay.style.display = "none";
+            showControlsTemporarily();
+        } else {
+            video.pause();
+            playPauseBtn.textContent = "▶";
+            playPauseOverlay.style.display = "flex";
+            controls.classList.remove("opacity-0", "pointer-events-none");
+            clearTimeout(hideControlsTimeout);
+        }
+    }
+
+    playPauseBtn.addEventListener("click", togglePlayPause);
+    playPauseOverlay.addEventListener("click", togglePlayPause);
+
+    video.addEventListener("click", () => {
+        video.pause();
+        playPauseBtn.textContent = "▶";
+        playPauseOverlay.style.display = "flex";
+        controls.classList.remove("opacity-0", "pointer-events-none");
+        clearTimeout(hideControlsTimeout);
+    });
+
+    // Spacebar toggle play
+    window.addEventListener("keydown", (e) => {
+        if (e.code === "Space") {
+            e.preventDefault();
+            togglePlayPause();
+        }
+    });
+
+    // Fullscreen toggle
+    fullscreenBtn.addEventListener("click", () => {
+        if (!document.fullscreenElement) {
+            wrapper.requestFullscreen();
+        } else {
+            document.exitFullscreen();
+        }
+    });
+
+    // Fullscreen style handling
+    document.addEventListener("fullscreenchange", () => {
+        if (document.fullscreenElement === wrapper) {
+            wrapper.classList.add("min-h-screen", "flex", "items-center", "justify-center");
+        } else {
+            wrapper.classList.remove("min-h-screen", "flex", "items-center", "justify-center");
+        }
+    });
+
+    // Progress bar update
+    video.addEventListener("timeupdate", () => {
+        const progress = (video.currentTime / video.duration) * 100;
+        progressBar.value = progress || 0;
+    });
+
+    progressBar.addEventListener("input", () => {
+        const time = (progressBar.value / 100) * video.duration;
+        video.currentTime = time;
+    });
+
+    // Show controls when mouse moves during play
+    video.addEventListener("mousemove", () => {
+        if (!video.paused) {
+            showControlsTemporarily();
+        }
+    });
+
+    // Reset everything on video end
+    video.addEventListener("ended", () => {
+        playPauseBtn.textContent = "▶";
+        playPauseOverlay.style.display = "flex";
+        controls.classList.remove("opacity-0", "pointer-events-none");
+        progressBar.value = 0;
+        clearTimeout(hideControlsTimeout);
+    });
+</script>

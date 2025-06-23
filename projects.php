@@ -13,16 +13,13 @@
   <script>
     tailwind.config = {
       theme: {
-        extend: {},
+        extend: {}
       },
-      plugins: [
-        require('@tailwindcss/line-clamp')
-      ]
+      plugins: [require('@tailwindcss/line-clamp')]
     }
   </script>
-  <title> Trusted Web & App Solutions Projects | Sagar Tech</title>
+  <title>Trusted Web & App Solutions Projects | Sagar Tech</title>
   <style>
-    /* Fade-up animation for portfolio cards */
     .fade-up {
       opacity: 0;
       transform: translateY(20px);
@@ -36,7 +33,6 @@
       }
     }
 
-    /* Stagger animation for each card */
     .portfolio-card:nth-child(1) {
       animation-delay: 0.1s;
     }
@@ -75,22 +71,11 @@
 
     #animatedHeading {
       white-space: normal;
-      word-break: keep-all;
       overflow-wrap: break-word;
-    }
-
-    #animatedHeading .word {
-      white-space: nowrap;
-    }
-
-    #animatedHeading .char {
-      display: inline-block;
     }
 
     #videoSection iframe {
       width: 100%;
-
-
     }
   </style>
 </head>
@@ -101,14 +86,14 @@
   include("include/newHeader.php");
   ?>
   <div class="md:my-5 flex flex-col justify-center items-center px-5">
-    <h1 id="animatedHeading" class="md:text-3xl text-2xl md:max-w-[640px] w-full uppercase  font-medium text-center mt-7">
-      Our Creative Projects Portfolio
-    </h1>
-    <!-- <h1 id="animatedHead" class="md:text-3xl text-xl md:max-w-[640px] uppercase block md:hidden font-medium text-center mt-7">
-            See The Digital Transformation Check Out Our Innovative Projects Portfolio
-        </h1> -->
+    <div class=" h-[70px] overflow-hidden">
+      <h1 id="title_animation" class="md:text-3xl text-2xl md:max-w-[640px] w-full h-full uppercase font-medium text-center mt-7">
+        Our Creative Projects Portfolio
+      </h1>
+    </div>
     <div class="text-sm text-gray-600 md:max-w-[800px] w-full md:text-center text-justify">
-      Take a look at the exciting projects in Sagar Tech’s portfolio! From digital marketing and app development to web design and website development, our work across Dubai, Mumbai, and all over India shows what we do best. We love turning fresh ideas into powerful digital solutions that help businesses grow and shine online. Explore the smart, creative, and slightly geeky magic that drives our success!
+      Explore Sagar Tech’s portfolio – from digital marketing and app/web development to creative design.
+      We turn fresh ideas into smart digital solutions that help businesses grow across Dubai, Mumbai & India.
     </div>
   </div>
   <div class="md:px-16 pb-10">
@@ -118,66 +103,41 @@
           <h4 class="font-medium">Filter</h4>
           <button class="border px-2 text-[13px] rounded-[5px] hover:shadow-sm bg-gradient-to-t from-gray-200 transition-all duration-300 hover:from-gray-300 clear-button hidden">Clear</button>
         </div>
-        <div class="">
-          <div class="relative w-full max-w-sm mt-4">
-            <div class="relative">
-              <label for="service" class="absolute z-10 -top-2 text-xs bg-white left-3 px-1 mb-1 font-medium text-gray-700">Select a Service</label>
-              <div class="relative">
-                <input
-                  type="text"
-                  id="serviceInput"
-                  placeholder="Choose a service..."
-                  class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none pr-10"
-                  oninput="filterServices()"
-                  onclick="toggleDropdown()" />
-                <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </div>
-            </div>
-            <ul id="serviceList" class="absolute z-20 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow">
-              <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Web Development</li>
-              <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">App Development</li>
-              <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">SEO</li>
-              <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Logo Design</li>
-              <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Banner Design</li>
-              <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Brochure Design</li>
-              <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Social Media Post</li>
-            </ul>
+        <div class="relative w-full max-w-sm mt-4">
+          <label for="service" class="absolute z-10 -top-2 text-xs bg-white left-3 px-1 mb-1 font-medium text-gray-700">Select a Service</label>
+          <div class="relative">
+            <input type="text" id="serviceInput" placeholder="Choose a service..." class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none pr-10" oninput="filterServices()" onclick="toggleDropdown()" />
+            <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
           </div>
-          <div id="projectTypeContainer" class="relative w-full max-w-sm mt-6">
-            <div class="relative">
-              <label for="projectType" class="absolute -top-2 z-10 text-xs bg-white left-3 px-1 font-medium text-gray-700">Select Project Type</label>
-              <div class="relative">
-                <input
-                  type="text"
-                  id="projectTypeInput"
-                  placeholder="Choose project type..."
-                  class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none pr-10"
-                  oninput="filterProjectTypes()"
-                  onclick="toggleProjectTypeDropdown()" />
-                <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                </svg>
-              </div>
-            </div>
-            <ul id="projectTypeList" class="absolute z-10 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow">
-              <!-- Dynamically populated -->
-            </ul>
+          <ul id="serviceList" class="absolute z-20 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow">
+            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Web Development</li>
+            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">App Development</li>
+            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">SEO</li>
+            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Logo Design</li>
+            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Banner Design</li>
+            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Brochure Design</li>
+            <li class="px-4 py-2 cursor-pointer hover:bg-gray-100 text-sm text-gray-700" onclick="selectService(this)">Social Media Post</li>
+          </ul>
+        </div>
+        <div id="projectTypeContainer" class="relative w-full max-w-sm mt-6">
+          <label for="projectType" class="absolute -top-2 z-10 text-xs bg-white left-3 px-1 font-medium text-gray-700">Select Project Type</label>
+          <div class="relative">
+            <input type="text" id="projectTypeInput" placeholder="Choose project type..." class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm focus:outline-none pr-10" oninput="filterProjectTypes()" onclick="toggleProjectTypeDropdown()" />
+            <svg class="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
           </div>
+          <ul id="projectTypeList" class="absolute z-10 w-full border border-gray-300 rounded-md mt-1 bg-white hidden max-h-40 overflow-y-auto shadow"></ul>
         </div>
       </div>
       <div class="md:w-[80%] w-full p-3">
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-4" id="portfolioContainer">
-        </div>
-        <div class="flex justify-center mt-6 space-x-2" id="paginationContainer">
-          <!-- Pagination buttons will be dynamically added here -->
-        </div>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center gap-4" id="portfolioContainer"></div>
+        <div class="flex justify-center mt-6 space-x-2" id="paginationContainer"></div>
       </div>
     </div>
   </div>
-
-  <!-- Full Popup Modal -->
   <div id="projectPopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
     <button id="closePopup" class="absolute top-10 md:top-5 right-5 z-50 md:text-white hover:text-gray-300">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -196,37 +156,30 @@
               </a>
             </div>
           </div>
-          <div class="mt-5 text-gray-800 text-lg font-medium tracking-wide">
-            Project Description
-          </div>
+          <div class="mt-5 text-gray-800 text-lg font-medium tracking-wide">Project Description</div>
           <div id="popupDescription" class="text-gray-600 text-sm mt-2 tracking-wide leading-5 text-justify"></div>
           <div class="">
             <h4 class="mt-5 text-gray-800 text-lg font-medium tracking-wide mb-3">Skills & Technologies</h4>
-            <div id="skillsContainer" class="flex items-center gap-2 flex-wrap">
-              <!-- Skills will be dynamically inserted here -->
-            </div>
+            <div id="skillsContainer" class="flex items-center gap-2 flex-wrap"></div>
           </div>
         </div>
         <div class="w-full md:w-[70%] md:overflow-y-auto md:scrollbar-auto flex justify-center items-start" id="long-img">
           <img id="popupImage" src="" alt="Project Image" class="w-full max-sm:w-full h-auto object-contain rounded-md" />
         </div>
       </div>
-      <div id="videoSection" class="mt-5 max-sm:mt-12 hidden  ">
+      <div id="videoSection" class="mt-5 max-sm:mt-12 hidden">
         <h4 class="md:text-3xl text-2xl uppercase text-center font-semibold mb-7">Our Logo <span class="text-red-500">Designing Methodology</span></h4>
         <div class="flex md:flex-row flex-col w-full justify-between gap-5 items-center">
-
-          <div class="w-full ">
+          <div class="w-full">
             <iframe src="https://www.youtube.com/embed/pYBguISmCSs?si=yrZzwzchbUphFFSV" class="h-[300px]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
-          <div class="w-full ">
+          <div class="w-full">
             <iframe src="https://www.youtube.com/embed/BIu8v8b2bQU?si=gEojBGyJ0XNM075U" class="h-[300px]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Image-Only Popup Modal -->
   <div id="imagePopup" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[500] py-5 hidden">
     <div class="bg-white rounded-lg w-full max-w-3xl mx-4 md:mx-0 p-4 relative">
       <button id="closeImagePopup" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700">
@@ -239,7 +192,6 @@
       </div>
     </div>
   </div>
-
   <script>
     const portfolioItems = [{
         imgPath: "./portfolio-mockups/business/verify8.webp",
@@ -2114,97 +2066,70 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
 
 
-    // https://youtu.be/BIu8v8b2bQU
-
-    // https://youtu.be/pYBguISmCSs
-
-    // https://youtu.be/BIu8v8b2bQU
-
-    // https://youtu.be/pYBguISmCSs
-
-    // Service to project type mapping
     const serviceProjectTypes = {
-      "Web Development": [
-        "Business", "Builders", "Catalogue", "Logistics", "Ecommerce",
-        "Education", "Restaurants", "Trust & Properties", "Travels",
-        "Interior Designer", "Health Care", "Human Resource"
-      ],
-      "SEO": [
-        "Armaf", "BS Auto", "Seal Excel", "Noor Al Salama", "Go Classic Tour", "Cotton Culture"
-      ],
-      "Banner Design": [
-        "Digital Ads", "Social Media", "Print Media"
-      ],
-      "Social Media Post": [
-        "Digital Ads", "Social Media", "Print Media"
-      ],
-      "Logo Design": [
-        "Branding", "Corporate Identity"
-      ],
+      "Web Development": ["Business", "Builders", "Catalogue", "Logistics", "Ecommerce", "Education", "Restaurants", "Trust & Properties", "Travels", "Interior Designer", "Health Care", "Human Resource"],
+      "SEO": ["Armaf", "BS Auto", "Seal Excel", "Noor Al Salama", "Go Classic Tour", "Cotton Culture"],
+      "Banner Design": ["Digital Ads", "Social Media", "Print Media"],
+      "Social Media Post": ["Digital Ads", "Social Media", "Print Media"],
+      "Logo Design": ["Branding", "Corporate Identity"],
     };
 
-    // Animate heading
-    function splitTextByWordAndChar(el) {
-      const text = el.innerHTML.trim();
-      const words = text.split(" ").map(word => {
-        const chars = word
-          .split("")
-          .map(char => `<span class="char">${char}</span>`)
-          .join("");
-        return `<span class="word">${chars}</span>`;
-      }).join(" ");
-      el.innerHTML = words;
-    }
+    gsap.fromTo("#title_animation", {
+        y: 100,
+        opacity: 1
+      }, // from bottom and invisible
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.7,
+        ease: "ease-in",
+        // delay: 0.1
+      }
+    );
 
-    const heading = document.getElementById("animatedHeading");
-    splitTextByWordAndChar(heading);
-
+    // Simplified heading animation
     document.addEventListener("DOMContentLoaded", () => {
-      const chars = document.querySelectorAll("#animatedHeading .char");
-      gsap.fromTo(
-        chars, {
-          y: 50,
-          opacity: 0
-        }, {
-          y: 0,
-          opacity: 1,
-          duration: 0.2,
-          ease: "power2.out",
-          stagger: 0.02,
-          delay: 0.1
-        }
-      );
+      console.log("portfolioItems:", portfolioItems); // Debug: Verify portfolioItems
+      const heading = document.getElementById("animatedHeading");
+      gsap.fromTo(heading, {
+        y: 20,
+        opacity: 0
+      }, {
+        y: 0,
+        opacity: 1,
+        duration: 0.6,
+        ease: "power2.out",
+        delay: 0.1
+      });
+
+      // Initial render
+      document.querySelector(".clear-button").classList.add("hidden");
+      renderCards(portfolioItems, currentPage);
+      updateProjectTypeList("");
     });
 
-    // Service filter dropdown
     function toggleDropdown() {
       const serviceList = document.getElementById("serviceList");
       serviceList.classList.toggle("hidden");
-      const items = document.querySelectorAll("#serviceList li");
-      items.forEach(item => {
-        item.style.display = "block";
-      });
+      document.querySelectorAll("#serviceList li").forEach(item => item.style.display = "block");
     }
 
     function selectService(item) {
-      const service = item.innerText;
-      document.getElementById("serviceInput").value = service;
+      document.getElementById("serviceInput").value = item.innerText;
       document.getElementById("serviceList").classList.add("hidden");
-      updateProjectTypeList(service);
+      updateProjectTypeList(item.innerText);
       filterCards();
     }
 
     function filterServices() {
       const input = document.getElementById("serviceInput").value.toLowerCase();
-      const items = document.querySelectorAll("#serviceList li");
-      items.forEach(item => {
-        const text = item.innerText.toLowerCase();
-        item.style.display = text.includes(input) ? "block" : "none";
+      document.querySelectorAll("#serviceList li").forEach(item => {
+        item.style.display = item.innerText.toLowerCase().includes(input) ? "block" : "none";
       });
       document.getElementById("serviceList").classList.remove("hidden");
     }
 
-    document.addEventListener("click", function(event) {
+    document.addEventListener("click", event => {
       const dropdown = document.getElementById("serviceList");
       const input = document.getElementById("serviceInput");
       if (!input.contains(event.target) && !dropdown.contains(event.target)) {
@@ -2212,10 +2137,8 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       }
     });
 
-    // Project type filter dropdown
     function toggleProjectTypeDropdown() {
-      const projectTypeList = document.getElementById("projectTypeList");
-      projectTypeList.classList.toggle("hidden");
+      document.getElementById("projectTypeList").classList.toggle("hidden");
     }
 
     function selectProjectType(item) {
@@ -2226,14 +2149,13 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
     function filterProjectTypes() {
       const input = document.getElementById("projectTypeInput").value.toLowerCase();
-      const items = document.querySelectorAll("#projectTypeList li");
-      items.forEach(item => {
+      document.querySelectorAll("#projectTypeList li").forEach(item => {
         item.style.display = item.innerText.toLowerCase().includes(input) ? "block" : "none";
       });
       document.getElementById("projectTypeList").classList.remove("hidden");
     }
 
-    document.addEventListener("click", function(event) {
+    document.addEventListener("click", event => {
       const ptInput = document.getElementById("projectTypeInput");
       const ptList = document.getElementById("projectTypeList");
       if (!ptInput.contains(event.target) && !ptList.contains(event.target)) {
@@ -2241,14 +2163,13 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       }
     });
 
-    // Update project type list based on selected service
     function updateProjectTypeList(service) {
       const projectTypeContainer = document.getElementById("projectTypeContainer");
       const projectTypeList = document.getElementById("projectTypeList");
       projectTypeList.innerHTML = "";
       const projectTypes = serviceProjectTypes[service] || [];
 
-      if (service === "Banner Design" || service === "Social Media Post" || service === "Brochure Design" || service === "Logo Design") {
+      if (["Banner Design", "Social Media Post", "Brochure Design", "Logo Design"].includes(service)) {
         projectTypeContainer.classList.add("hidden");
       } else {
         projectTypeContainer.classList.remove("hidden");
@@ -2269,13 +2190,12 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       projectTypeList.classList.add("hidden");
     }
 
-    // Pagination state
     const cardsPerPage = 9;
     let currentPage = 1;
     let currentItems = portfolioItems;
 
-    // Render portfolio cards
     function renderCards(items, page = 1) {
+      console.log("Rendering cards with items:", items); // Debug: Verify items
       const portfolioGrid = document.querySelector("#portfolioContainer");
       portfolioGrid.innerHTML = "";
       const fragment = document.createDocumentFragment();
@@ -2291,31 +2211,23 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
         card.setAttribute("data-project", item.projectType);
 
         const isBannerOrSocial = item.service === "Banner Design" || item.service === "Social Media Post";
-
-        const descriptionHtml = isBannerOrSocial ?
-          "" :
-          `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
-        const titleHtml = isBannerOrSocial ?
-          "" :
-          `<div class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
+        const descriptionHtml = isBannerOrSocial ? "" : `<div class="text-sm text-gray-500 mt-2 line-clamp-2">${item?.project_desc || 'No description available'}</div>`;
+        const titleHtml = isBannerOrSocial ? "" : `<div class="text-lg font-semibold text-gray-800 line-clamp-1">${item?.title || 'No description available'}</div>`;
 
         card.innerHTML = `
-                    <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-                        <div class="relative overflow-hidden p-2">
-                            <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
-                        </div>
-                        <div class="p-5">
-                            <div class="flex items-center justify-between">
-                                ${titleHtml}
-                                <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">
-                                    View
-                                </button>
-                            </div>
-                            ${descriptionHtml}
-                        </div>
-                    </div>
-                `;
-
+          <div class="max-w-sm w-full bg-white rounded-2xl overflow-hidden shadow-lg group hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+            <div class="relative overflow-hidden p-2">
+              <img src="${item?.imgPath || './fallback-image.webp'}" alt="${item?.title}" class="w-full h-48 object-contain transform transition-transform duration-300 group-hover:scale-105" />
+            </div>
+            <div class="p-5">
+              <div class="flex items-center justify-between">
+                ${titleHtml}
+                <button class="flex items-center text-sm hover:text-red-700 text-red-500 transition view-button" data-index="${index}">View</button>
+              </div>
+              ${descriptionHtml}
+            </div>
+          </div>
+        `;
         fragment.appendChild(card);
       }
 
@@ -2323,11 +2235,9 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       renderPagination(items, page);
     }
 
-    // Render pagination buttons
     function renderPagination(items, currentPage) {
       const paginationContainer = document.getElementById("paginationContainer");
       paginationContainer.innerHTML = "";
-
       const totalPages = Math.ceil(items.length / cardsPerPage);
       if (totalPages <= 1) return;
 
@@ -2356,11 +2266,7 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
       for (let i = startPage; i <= endPage; i++) {
         const pageButton = document.createElement("button");
-        pageButton.className = `border px-3 py-1 text-sm rounded-[5px] transition-all duration-300 ${
-                    i === currentPage
-                        ? "bg-gradient-to-t from-red-700 to-red-700 text-white"
-                        : "bg-gradient-to-t from-red-500 to-red-700 text-white hover:from-red-700 hover:to-red-700"
-                }`;
+        pageButton.className = `border px-3 py-1 text-sm rounded-[5px] transition-all duration-300 ${i === currentPage ? "bg-gradient-to-t from-red-700 to-red-700 text-white" : "bg-gradient-to-t from-red-500 to-red-700 text-white hover:from-red-700 hover:to-red-700"}`;
         pageButton.textContent = i;
         pageButton.onclick = () => {
           currentPage = i;
@@ -2389,14 +2295,6 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       }
     }
 
-    // Initial render
-    document.addEventListener("DOMContentLoaded", () => {
-      document.querySelector(".clear-button").classList.add("hidden");
-      renderCards(portfolioItems, currentPage);
-      updateProjectTypeList("");
-    });
-
-    // Popup functionality
     const projectPopup = document.getElementById("projectPopup");
     const imagePopup = document.getElementById("imagePopup");
     const popupContent = document.getElementById("popupContent");
@@ -2412,7 +2310,7 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
     const imagePopupImage = document.getElementById("imagePopupImage");
     const videoSection = document.getElementById("videoSection");
 
-    document.addEventListener("click", function(event) {
+    document.addEventListener("click", event => {
       if (event.target.closest(".view-button")) {
         const index = event.target.closest(".view-button").dataset.index;
         const item = currentItems[index];
@@ -2440,10 +2338,6 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
 
           if (item.service === "Logo Design") {
             videoSection.classList.remove("hidden");
-            // Scroll to videoSection
-            // setTimeout(() => {
-            //     videoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            // }, 100); // Small delay to ensure popup is rendered
           } else {
             videoSection.classList.add("hidden");
           }
@@ -2475,21 +2369,17 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       videoSection.classList.add("hidden");
     });
 
-    projectPopup.addEventListener("click", (event) => {
+    projectPopup.addEventListener("click", event => {
       if (event.target === projectPopup) {
         projectPopup.classList.add("hidden");
         videoSection.classList.add("hidden");
       }
     });
 
-    closeImagePopup.addEventListener("click", () => {
-      imagePopup.classList.add("hidden");
-    });
+    closeImagePopup.addEventListener("click", () => imagePopup.classList.add("hidden"));
 
-    imagePopup.addEventListener("click", (event) => {
-      if (event.target === imagePopup) {
-        imagePopup.classList.add("hidden");
-      }
+    imagePopup.addEventListener("click", event => {
+      if (event.target === imagePopup) imagePopup.classList.add("hidden");
     });
 
     function filterCards() {
@@ -2497,19 +2387,14 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       const selectedProject = document.getElementById("projectTypeInput").value.trim().toLowerCase();
       const clearButton = document.querySelector(".clear-button");
 
-      if (selectedService || selectedProject) {
-        clearButton.classList.remove("hidden");
-      } else {
-        clearButton.classList.add("hidden");
-      }
+      if (selectedService || selectedProject) clearButton.classList.remove("hidden");
+      else clearButton.classList.add("hidden");
 
       const filteredItems = portfolioItems.filter(item => {
         const service = item.service.toLowerCase();
         const project = item.projectType.toLowerCase();
-
         const matchService = !selectedService || service.includes(selectedService);
         const matchProject = !selectedProject || project.includes(selectedProject);
-
         return matchService && matchProject;
       });
 
@@ -2525,24 +2410,18 @@ Dr. Arpit Bansal is a renowned Advanced Laparoscopy and Cancer Surgeon, Director
       filterCards();
     });
 
-    document.getElementById("serviceInput").addEventListener("keydown", function(event) {
-      if (event.key === "Enter") {
-        filterCards();
-      }
+    document.getElementById("serviceInput").addEventListener("keydown", event => {
+      if (event.key === "Enter") filterCards();
     });
 
-    document.getElementById("projectTypeInput").addEventListener("keydown", function(event) {
-      if (event.key === "Enter") {
-        filterCards();
-      }
+    document.getElementById("projectTypeInput").addEventListener("keydown", event => {
+      if (event.key === "Enter") filterCards();
     });
 
     document.getElementById("serviceInput").addEventListener("input", filterCards);
-    document.getElementById("projectTypeInput").addEventListener("input", filterCards);
+    document.getElementById("projectTypeInput").addEventListener("input", filterProjectTypes);
   </script>
+  <?php include("include/footer.php"); ?>
 </body>
 
 </html>
-<?php
-include("include/footer.php");
-?>
