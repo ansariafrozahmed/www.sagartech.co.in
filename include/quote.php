@@ -52,7 +52,7 @@
 ?>
 
 <style>
-    .title {
+  .title {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -60,13 +60,16 @@
     margin-bottom: 5px;
     padding: 2px 10px;
   }
+
   .title:hover {
     border-radius: 15px;
     background-color: rgb(243, 243, 243);
   }
+
   .title img {
     width: 10px;
   }
+
   .modal-window {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.50);
@@ -87,7 +90,7 @@
     pointer-events: auto;
   }
 
-  .modal-window > div {
+  .modal-window>div {
     width: 350px;
     position: absolute;
     top: 50%;
@@ -129,10 +132,9 @@
     text-decoration: none;
   }
 
-  .containerrrr {
-  }
+  .containerrrr {}
 
-  .modal-window > div {
+  .modal-window>div {
     border-radius: 1rem;
   }
 
@@ -159,54 +161,61 @@
   .btn i {
     padding-right: 0.3em;
   }
+
   .form-divvv {
     padding: 20px 0px;
   }
-  .formmmm {
-    display:flex;
-    flex-direction:column;
-    gap:10px;
-  }
-  .formmmm input,select {
-    border-radius:10px;
-    border:1px solid gray;
-  }
-  .formmmm textarea {
-    height:90px;
-    border-radius:10px;
-    border:1px solid gray;
-  }
-  .button-62 {
-  background: linear-gradient(to bottom right, #FF0808, #fc6262);
-  border: 0;
-  border-radius: 12px;
 
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 2.5;
-  outline: transparent;
-  padding: 5px 30px;
-  text-align: center;
-  text-decoration: none;
-  transition: box-shadow .2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
+  .formmmm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .formmmm input,
+  select {
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+
+  .formmmm textarea {
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+
+  .button-62 {
+    background: linear-gradient(to bottom right, #FF0808, #fc6262);
+    border: 0;
+    border-radius: 12px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
   }
 
   .button-62:not([disabled]):focus {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
   }
 
   .button-62:not([disabled]):hover {
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
-  color:white;
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+    color: white;
   }
+
   .quote-button {
     background-color: #ff0808;
     padding: 8px 15px;
@@ -221,33 +230,33 @@
 </style>
 
 
-    <button class="quote-button" >
-          <a href="#open-modal" style="color: white">Get Quote</a>
-    </button>
+<button class="quote-button">
+  <a href="#open-modal" style="color: white">Get Quote</a>
+</button>
 
-    <div class="containerrrr">
-        <div id="open-modal" class="modal-window">
-            <div>
-                <a href="#" title="Close" class="modal-close">Close</a>
-                <div class="form-divvv">
-                    <form class="formmmm" method="post">
-                        <input type="text" name="name" id="name" placeholder="Enter your name..">
-                        <input type="email" name="email" id="email" placeholder="Enter your email..">
-                        <input type="number" name="contact" id="contact" placeholder="Enter your number..">
-                        <select name="service" id="service">
-                            <option value="Web Development">Web Development</option>
-                            <option value="App Development">App Development</option>
-                            <option value="Digital Marketing">Digital Marketing</option>
-                            <option value="Social Engine Optimization">Social Engine Optimization</option>
-                            <option value="Bulk SMS">Bulk SMS</option>
-                            <option value="ISO Consulting">ISO Consulting</option>
-                        </select>
-                        <textarea name="message" placeholder="Enter Your Message" id=""></textarea>
-                        <button class="button-62" type="submit">
-                            SEND
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
+<div class="containerrrr">
+  <div id="open-modal" class="modal-window">
+    <div>
+      <a href="#" title="Close" class="modal-close">Close</a>
+      <div class="form-divvv">
+        <form class="formmmm" method="post">
+          <input type="text" name="name" id="name" placeholder="Enter your name..">
+          <input type="email" name="email" id="email" placeholder="Enter your email..">
+          <input type="number" name="contact" id="contact" placeholder="Enter your number..">
+          <select name="service" id="service">
+            <option value="Web Development">Web Development</option>
+            <option value="App Development">App Development</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+            <option value="Social Engine Optimization">Social Engine Optimization</option>
+            <option value="Bulk SMS">Bulk SMS</option>
+            <option value="ISO Consulting">ISO Consulting</option>
+          </select>
+          <textarea name="message" placeholder="Enter Your Message" id=""></textarea>
+          <button class="button-62" type="submit">
+            SEND
+          </button>
+        </form>
+      </div>
     </div>
+  </div>
+</div>

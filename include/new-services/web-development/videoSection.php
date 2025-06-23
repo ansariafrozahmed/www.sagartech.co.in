@@ -48,6 +48,9 @@
             </div>
         </div>
     </div>
+    <p class="text-[13.5px] font-light tracking-wide text-gray-600 mt-10">
+        In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of the top web development companies in Mumbai, we are extremely proud of our work as a web design agency and our skilled team of developers and designers. Our objective is to create websites that beat your expectations and provide you with a unique online presence. In the present digital age, having a strong online presence is crucial, and we can assist you in making your ideas a reality. You can count on our expertise as a leading web design company in India to produce a website that perfectly represents your brand.
+    </p>
 </div>
 
 <!-- SCRIPT SECTION -->

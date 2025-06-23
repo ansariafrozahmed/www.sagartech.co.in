@@ -173,8 +173,68 @@
     <?php
     $page = 'services';
     include("include/newHeader.php"); ?>
+    <!-- Top Banner with Breadcrumb -->
+    <div class="w-full bg-[radial-gradient(circle,_rgba(111,0,0,1)_0%,_rgba(48,0,0,1)_100%)]  py-12 px-4 lg:px-20">
+        <div class="max-w-7xl mx-auto space-y-5">
 
-    <div class=" lg:py-16 py-10">
+            <!-- Breadcrumb Path -->
+            <nav class="text-sm text-gray-100 mb-2">
+                <ol class="list-reset flex flex-wrap items-center space-x-2">
+                    <li><a href="/" class="hover:underline text-gray-300">Home</a></li>
+                    <li><i class="fa-solid fa-angles-right text-white text-xs"></i></li>
+                    <li><a href="/services" class="hover:underline text-gray-300">Services</a></li>
+                    <li><i class="fa-solid fa-angles-right text-white text-xs"></i></li>
+                    <li class="text-gray-200 font-medium">Web Development</li>
+                </ol>
+            </nav>
+
+            <!-- Title -->
+            <h1 class=" text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400]  text-gray-200 mb-2">
+                Leading Web Development Company in Mumbai
+            </h1>
+
+            <!-- Description -->
+            <p class="text-[13.5px] font-light tracking-wide  text-gray-300 max-w-3xl max-sm:text-justify">
+                Our specialisation as a web design agency and our web designers in Mumbai is building stunning, functional websites that boost your internet presence. As a leading web design company, we apply modern technologies like Node.js, WordPress, Next.js, React.js, and Shopify. Our skilled group of web designers in Mumbai produces exceptional results that are specific to your business's goals. Let's work together to develop a website that is focused on growth. Get in touch with us immediately!
+            </p>
+            <div class="flex items-center gap-3 !mt-7">
+                <div class="">
+                    <a href="#open-modal" class="">
+
+                        <button
+                            class="relative px-[30px] py-[10px] text-[15px] font-normal text-[#fff] hover:text-[#242424] border border-[#fff] rounded-full overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] group bg-transparent">
+                            <span class="relative z-10">Quick Enquiry</span>
+
+                            <!-- expanding circle effect -->
+                            <span
+                                class="absolute inset-0 m-auto w-[50px] h-[50px] bg-[#fff] rounded-full scale-0 
+                            transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)]  
+                            group-hover:scale-[4] z-0"></span>
+                        </button>
+                    </a>
+
+                </div>
+                <div class="">
+                    <a href="portfolio/website" class="">
+
+                        <button
+                            class="relative px-[30px] py-[10px] text-[15px] font-normal text-[#fff] hover:text-[#242424] border border-[#fff] rounded-full overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] group bg-transparent">
+                            <span class="relative z-10">Our Portfolio</span>
+
+                            <!-- expanding circle effect -->
+                            <span
+                                class="absolute inset-0 m-auto w-[50px] h-[50px] bg-[#fff] rounded-full scale-0 
+                        transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)]  
+                        group-hover:scale-[4] z-0"></span>
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class=" lg:pt-16 pt-10">
         <?php
         include("include/new-services/web-development/videoSection.php"); ?>
         <?php
@@ -193,6 +253,8 @@
         include("include/new-services/web-development/checklist.php"); ?>
         <?php
         include("include/new-services/web-development/secondLast.php"); ?>
+        <?php
+        include("include/new-faq.php"); ?>
     </div>
     <!-- /HEADER END -->
 

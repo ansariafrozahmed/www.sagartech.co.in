@@ -1,6 +1,6 @@
 <div class="lg:py-16 py-10 lg:px-20 px-4">
     <h2 class="text-[28px] lg:text-[40px] leading-[1.15] font-[400] text-[#242424] text-center">
-        Our Client
+        Our <span class="text-red-500">Clients</span>
     </h2>
     <div class=" grid lg:grid-cols-6 grid-cols-2 gap-4 items-center mt-10 ">
         <div class="p-5 max-w-[200px] h-[140px] shadow-sm border border-gray-100 rounded-lg flex justify-center items-center">
