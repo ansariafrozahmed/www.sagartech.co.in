@@ -254,7 +254,7 @@
         <?php
         include("include/new-services/web-development/secondLast.php"); ?>
         <?php
-        include("include/new-faq.php"); ?>
+        include("include/faqs.php"); ?>
     </div>
     <!-- /HEADER END -->
 
