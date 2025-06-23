@@ -51,9 +51,9 @@
         }
     </script>
     <script>
-        ! function (f, b, e, v, n, t, s) {
+        ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
-            n = f.fbq = function () {
+            n = f.fbq = function() {
                 n.callMethod ?
                     n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
@@ -170,7 +170,9 @@
 
     <?php include("include/homepage/homeBanner/homeBanner.php") ?>
     <?php include("include/homepage/introduction.php") ?>
-    <?php include("include/homepage/ourService.php") ?>
+    <?php
+    // include("include/homepage/ourService.php") 
+    ?>
     <?php include("include/homepage/metaShowcase.php") ?>
     <?php include("include/homepage/videoTestimonials.php") ?>
     <?php include("include/new-services/web-development/new-our-Client.php"); ?>

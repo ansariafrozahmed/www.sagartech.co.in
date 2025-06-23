@@ -42,7 +42,7 @@
 
 <body>
 
-  <?php include("include/header/headerv1.php"); ?>
+  <?php include("include/newHeader.php"); ?>
 
   <div class="new_ecom_style_main">
     <div class="new_ecom_style_container">
@@ -411,204 +411,204 @@
 
 
     const basicPackages = [{
-      icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"],
-      heading: "Shopify",
-      subheading: "Launch and scale your online store on Shopify with expert integrations, automated systems, and real-time insights tailored for rapid growth.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "Shopify Basic Theme",
-        "Mobile Responsive Design",
-        "Unlimited Marketing Campaigns",
-        "Payment Gateway Setup",
-        "Shipping & Tax Configuration",
-        "Order & Inventory Setup",
-        "Discount/Coupon Management",
-      ],
-    },
-    {
-      icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s"],
-      heading: "WordPress",
-      subheading: "Build content-driven websites and eCommerce experiences on WordPress with advanced customizations, SEO optimization, and seamless performance.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "WooCommerce Integration",
-        "Custom Theme & Plugin Setup",
-        "Mobile Responsive Design",
-        "Basic SEO Optimization",
-        "Product & Category Management",
-        "Payment & Shipping Setup",
-        "Blog & Content Pages"
-      ],
-    },
-    {
-      icon: [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s",
-        "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default"
-      ],
-      heading: "Headless",
-      subheading: "Combine flexibility with performance using a headless architecture. Connect frontend frameworks like Next.js with powerful backend systems effortlessly.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "WordPress as CMS Backend",
-        "Next.js Frontend Integration",
-        "Optimized Performance & SEO",
-        "Dynamic Routing & CMS Pages",
-        "API-based Content Delivery",
-        "Custom Blog & Product Modules",
-        "Responsive UI & Page Speed Focused"
-      ],
-    },
-    {
-      icon: [
-        "https://sagartech.co.in/icons/siyafy.png",
-        "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default"
-      ],
-      heading: "Custom",
-      subheading: "Tailored to your business needs—from hybrid platforms to unique workflows—our custom solutions deliver unmatched scalability and control.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "Siyahfy CMS Backend",
-        "Next.js Frontend Interface",
-        "Custom Workflows & Modules",
-        "Multi-Role User Management",
-        "Integrated Order Management",
-        "API & 3rd Party Integration",
-        "Dynamic UI section"
-      ],
-    },
+        icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"],
+        heading: "Shopify",
+        subheading: "Launch and scale your online store on Shopify with expert integrations, automated systems, and real-time insights tailored for rapid growth.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "Shopify Basic Theme",
+          "Mobile Responsive Design",
+          "Unlimited Marketing Campaigns",
+          "Payment Gateway Setup",
+          "Shipping & Tax Configuration",
+          "Order & Inventory Setup",
+          "Discount/Coupon Management",
+        ],
+      },
+      {
+        icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s"],
+        heading: "WordPress",
+        subheading: "Build content-driven websites and eCommerce experiences on WordPress with advanced customizations, SEO optimization, and seamless performance.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "WooCommerce Integration",
+          "Custom Theme & Plugin Setup",
+          "Mobile Responsive Design",
+          "Basic SEO Optimization",
+          "Product & Category Management",
+          "Payment & Shipping Setup",
+          "Blog & Content Pages"
+        ],
+      },
+      {
+        icon: [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s",
+          "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default"
+        ],
+        heading: "Headless",
+        subheading: "Combine flexibility with performance using a headless architecture. Connect frontend frameworks like Next.js with powerful backend systems effortlessly.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "WordPress as CMS Backend",
+          "Next.js Frontend Integration",
+          "Optimized Performance & SEO",
+          "Dynamic Routing & CMS Pages",
+          "API-based Content Delivery",
+          "Custom Blog & Product Modules",
+          "Responsive UI & Page Speed Focused"
+        ],
+      },
+      {
+        icon: [
+          "https://sagartech.co.in/icons/siyafy.png",
+          "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default"
+        ],
+        heading: "Custom",
+        subheading: "Tailored to your business needs—from hybrid platforms to unique workflows—our custom solutions deliver unmatched scalability and control.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "Siyahfy CMS Backend",
+          "Next.js Frontend Interface",
+          "Custom Workflows & Modules",
+          "Multi-Role User Management",
+          "Integrated Order Management",
+          "API & 3rd Party Integration",
+          "Dynamic UI section"
+        ],
+      },
     ];
 
     const AdvancedPackages = [{
-      icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"],
-      heading: "Advanced Shopify",
-      subheading: "Level up your Shopify store with high-speed performance, deep analytics, and advanced fraud protection tailored for scaling businesses.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of Basic features",
-        "Shopify Premium Theme",
-        "Product Filters & Search",
-        "Blog Integration",
-        "SEO Setup",
-        "Analytics Integration",
-        "WhatsApp Chat Integration",
-        "Multi-Currency / Multi-Language",
-        "Abandoned Cart Recovery",
-        "Loyalty/Rewards Setup",
-      ],
-    },
-    {
-      icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s"],
-      heading: "Advanced WordPress",
-      subheading: "Transform your WordPress site with faster loading, advanced SEO tools, custom integrations, and enterprise-grade support.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of Basic features",
-        "Custom Theme Optimization",
-        "Speed & Caching Enhancements",
-        "Advanced WooCommerce Setup",
-        "Structured Data & SEO Tools",
-        "CRM / ERP Plugin Integration",
-        "Live Chat & WhatsApp Integration",
-        "Multilingual Support (WPML/Polylang)",
-        "Abandoned Cart Recovery",
-        "Security & Backup Setup"
-      ],
-    },
-    {
-      icon: [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s",
-        "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
-      ],
-      heading: "Advanced Headless",
-      subheading: "Build lightning-fast frontend experiences with Headless commerce, API-based flexibility, and full-stack control.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of Basic features",
-        "WordPress CMS + Next.js Frontend",
-        "API-Driven Product Management",
-        "SSR & ISR Optimization",
-        "Custom Blog System",
-        "Advanced SEO & Meta Handling",
-        "Multi-language Routing",
-        "Cart & Checkout via API",
-        "Authentication & Protected Routes",
-        "Advanced Analytics & GTM Integration"
-      ],
-    },
-    {
-      icon: [
-        "./icons/siyafy.png",
-        "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
-      ],
-      heading: "Advanced Custom",
-      subheading: "Get a solution crafted exactly to your business model, combining custom workflows, deep tech stacks, and full scalability.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of Basic features",
-        "Siyahfy CMS Admin Panel",
-        "Custom Role-Based Dashboards",
-        "Dynamic Component-Based Frontend",
-        "Custom APIs & 3rd Party Integrations",
-        "Headless Checkout System",
-        "Real-time Order & Inventory Sync",
-        "Progressive Web App (PWA) Ready",
-        "Advanced Access Controls & Logs",
-        "Data Export, Backup & Recovery"
-      ],
-    }
+        icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"],
+        heading: "Advanced Shopify",
+        subheading: "Level up your Shopify store with high-speed performance, deep analytics, and advanced fraud protection tailored for scaling businesses.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of Basic features",
+          "Shopify Premium Theme",
+          "Product Filters & Search",
+          "Blog Integration",
+          "SEO Setup",
+          "Analytics Integration",
+          "WhatsApp Chat Integration",
+          "Multi-Currency / Multi-Language",
+          "Abandoned Cart Recovery",
+          "Loyalty/Rewards Setup",
+        ],
+      },
+      {
+        icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s"],
+        heading: "Advanced WordPress",
+        subheading: "Transform your WordPress site with faster loading, advanced SEO tools, custom integrations, and enterprise-grade support.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of Basic features",
+          "Custom Theme Optimization",
+          "Speed & Caching Enhancements",
+          "Advanced WooCommerce Setup",
+          "Structured Data & SEO Tools",
+          "CRM / ERP Plugin Integration",
+          "Live Chat & WhatsApp Integration",
+          "Multilingual Support (WPML/Polylang)",
+          "Abandoned Cart Recovery",
+          "Security & Backup Setup"
+        ],
+      },
+      {
+        icon: [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s",
+          "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
+        ],
+        heading: "Advanced Headless",
+        subheading: "Build lightning-fast frontend experiences with Headless commerce, API-based flexibility, and full-stack control.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of Basic features",
+          "WordPress CMS + Next.js Frontend",
+          "API-Driven Product Management",
+          "SSR & ISR Optimization",
+          "Custom Blog System",
+          "Advanced SEO & Meta Handling",
+          "Multi-language Routing",
+          "Cart & Checkout via API",
+          "Authentication & Protected Routes",
+          "Advanced Analytics & GTM Integration"
+        ],
+      },
+      {
+        icon: [
+          "./icons/siyafy.png",
+          "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
+        ],
+        heading: "Advanced Custom",
+        subheading: "Get a solution crafted exactly to your business model, combining custom workflows, deep tech stacks, and full scalability.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of Basic features",
+          "Siyahfy CMS Admin Panel",
+          "Custom Role-Based Dashboards",
+          "Dynamic Component-Based Frontend",
+          "Custom APIs & 3rd Party Integrations",
+          "Headless Checkout System",
+          "Real-time Order & Inventory Sync",
+          "Progressive Web App (PWA) Ready",
+          "Advanced Access Controls & Logs",
+          "Data Export, Backup & Recovery"
+        ],
+      }
 
     ];
 
     const AdvancedWithAppPackages = [{
-      icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"],
-      heading: "Advanced Shopify + App",
-      subheading: "All the power of Advanced Shopify, now with a fully-synced mobile app to supercharge customer engagement and retention.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of basic features",
-        "All of advanced features",
-        "Custom Application"
-      ],
-    },
-    {
-      icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s"],
-      heading: "Advanced WordPress + App",
-      subheading: "Combine your WordPress site with a cross-platform mobile app to deliver content, ecommerce, and support—anytime, anywhere.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of basic features",
-        "All of advanced features",
-        "Custom Application"
-      ],
-    },
-    {
-      icon: [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s",
-        "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
-      ],
-      heading: "Advanced Headless + App",
-      subheading: "Go headless across web and mobile. We build a high-performance frontend plus native apps with a unified backend.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of basic features",
-        "All of advanced features",
-        "Custom Application"
-      ],
-    },
-    {
-      icon: [
-        "./icons/siyafy.png",
-        "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
-      ],
-      heading: "Advanced Custom + App",
-      subheading: "Bespoke web and mobile solutions designed around your business logic, customer journeys, and monetization goals.",
-      buttonText: "Talk to us",
-      featurelist: [
-        "All of basic features",
-        "All of advanced features",
-        "Custom Application"
-      ],
-    },
+        icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s"],
+        heading: "Advanced Shopify + App",
+        subheading: "All the power of Advanced Shopify, now with a fully-synced mobile app to supercharge customer engagement and retention.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
+        ],
+      },
+      {
+        icon: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s"],
+        heading: "Advanced WordPress + App",
+        subheading: "Combine your WordPress site with a cross-platform mobile app to deliver content, ecommerce, and support—anytime, anywhere.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
+        ],
+      },
+      {
+        icon: [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzAxIzs2yRTPxONA1yBwMZdhkNwlqmIpxFug&s",
+          "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
+        ],
+        heading: "Advanced Headless + App",
+        subheading: "Go headless across web and mobile. We build a high-performance frontend plus native apps with a unified backend.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
+        ],
+      },
+      {
+        icon: [
+          "./icons/siyafy.png",
+          "https://marcbruederlin.gallerycdn.vsassets.io/extensions/marcbruederlin/next-icons/0.1.0/1723747598319/Microsoft.VisualStudio.Services.Icons.Default",
+        ],
+        heading: "Advanced Custom + App",
+        subheading: "Bespoke web and mobile solutions designed around your business logic, customer journeys, and monetization goals.",
+        buttonText: "Talk to us",
+        featurelist: [
+          "All of basic features",
+          "All of advanced features",
+          "Custom Application"
+        ],
+      },
     ];
 
     const renderPackageCards = (packages, containerId) => {
@@ -622,7 +622,7 @@
         const iconsHTML = item.icon
           .map(
             (src) =>
-              `<img title="${item.heading}" src="${src}" alt="${item.heading} icon" style="height:28px; object-fit: contain;width:auto;  margin-right:10px" />`
+            `<img title="${item.heading}" src="${src}" alt="${item.heading} icon" style="height:28px; object-fit: contain;width:auto;  margin-right:10px" />`
           )
           .join("");
 
@@ -707,11 +707,11 @@
       });
     });
 
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
       const buttons = document.querySelectorAll(".read-more-btn");
 
       buttons.forEach((btn) => {
-        btn.addEventListener("click", function () {
+        btn.addEventListener("click", function() {
           const hiddenPara = this.previousElementSibling;
           if (hiddenPara && hiddenPara.classList.contains("hidden-paragraph")) {
             hiddenPara.style.display = "block";
