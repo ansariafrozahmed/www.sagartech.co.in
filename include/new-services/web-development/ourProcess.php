@@ -86,7 +86,7 @@
          <img src="${post.iconPath}" alt="icon" class="mb-3 mt-2 w-10 h-10   " />
           <h3 class="text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] text-gray-800 font-[400] text-[#242424] ">${post.title}</h3>
           <hr class="my-4" >
-          <p class="text-sm text-gray-400 mt-2  ">${post.text}</p>
+          <p class="text-[13.5px] font-light text-gray-400 mt-2  ">${post.text}</p>
         </div>
       </div>
 
