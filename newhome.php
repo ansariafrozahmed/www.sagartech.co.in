@@ -27,7 +27,8 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Web Development and Digital Marketing Agency in Mumbai - Sagar Tech">
-    <meta property="og:description" content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
+    <meta property="og:description"
+        content="Sagar Tech is one of the best web development and Digital Marketing company in Mumbai. We provide 360 degree marketing service. Grow your Business with Us.">
     <meta property="og:url" content="https://sagartech.co.in/">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
@@ -35,7 +36,8 @@
     <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -49,9 +51,9 @@
         }
     </script>
     <script>
-        ! function(f, b, e, v, n, t, s) {
+        ! function (f, b, e, v, n, t, s) {
             if (f.fbq) return;
-            n = f.fbq = function() {
+            n = f.fbq = function () {
                 n.callMethod ?
                     n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
@@ -71,7 +73,8 @@
         fbq('track', 'PageView');
     </script>
     <noscript>
-        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" />
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1473706306814871&ev=PageView&noscript=1" />
     </noscript>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
     <script>
@@ -168,20 +171,18 @@
     <?php include("include/homepage/homeBanner/homeBanner.php") ?>
     <?php include("include/homepage/introduction.php") ?>
     <?php include("include/homepage/ourService.php") ?>
-    <!-- <?php include("include/homepage/ourClients.php") ?> -->
     <?php include("include/homepage/metaShowcase.php") ?>
+    <?php include("include/homepage/videoTestimonials.php") ?>
+    <?php include("include/new-services/web-development/new-our-Client.php"); ?>
+    <?php include("include/faqs.php"); ?>
+    <?php include("include/homepage/BlogsSection.php"); ?>
 
     <?php include("include/footer.php"); ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init({
-            // Global settings:
-            // offset: 100, // Trigger animation 200px before element enters viewport
-            // duration: 500, // Animation duration in milliseconds
-            // delay: 0, // Delay before animation starts (applies to all elements)
-            // easing: 'ease-in-out', // Easing function
-            once: true, // Animate only once while scrolling down
-            mirror: false // Don't animate while scrolling back up
+            once: true,
+            mirror: false
         });
     </script>
 

@@ -2,8 +2,10 @@
     <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
         <!-- Text Area -->
         <div class="lg:w-1/2 w-full">
-            <h1 class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal">
-                Why are <span class="text-red-600">web design</span> and <span class="text-red-600">web development</span> important for your business?
+            <h1
+                class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal">
+                Why are <span class="text-red-600">web design</span> and <span class="text-red-600">web
+                    development</span> important for your business?
             </h1>
             <p class="text-[13.5px] font-light tracking-wide text-gray-600 max-sm:text-center mt-4">
                 How a Strong Website Builds Trust, Engagement, and Conversions
@@ -16,8 +18,7 @@
         </div>
 
         <!-- Video Section -->
-        <div
-            id="videoWrapper"
+        <div id="videoWrapper"
             class="relative lg:w-1/2 w-full mx-auto max-sm:mt-7 rounded-2xl overflow-hidden shadow-xl group bg-black">
             <!-- Video -->
             <video id="customVideo" class="w-full" poster="new-images/poster.webp">
@@ -26,23 +27,18 @@
             </video>
 
             <!-- Overlay Play Button -->
-            <button
-                id="playPauseOverlay"
-                class="absolute inset-0 flex items-center justify-center bg-black/40 text-white text-4xl transition duration-300 group-hover:bg-black/10 z-10">
+            <button id="playPauseOverlay"
+                class="absolute inset-0 flex items-center justify-center bg-black/10 text-white text-4xl transition duration-300 group-hover:bg-black/20 z-10">
                 <div class="w-14 h-14 rounded-full bg-red-500 flex justify-center items-center">
                     <i class="fa-solid fa-play text-xl"></i>
                 </div>
             </button>
 
             <!-- Custom Controls -->
-            <div
-                id="videoControls"
-                class="absolute bottom-0 left-0 right-0 z-20 bg-black/60 backdrop-blur px-4 py-3 flex items-center justify-between gap-4 opacity-0 pointer-events-none transition-opacity duration-300">
+            <div id="videoControls"
+                class="absolute bottom-0 left-0 right-0 z-20 bg-black/0 backdrop-blur px-4 py-3 flex items-center justify-between gap-4 opacity-0 pointer-events-none transition-opacity duration-300">
                 <button id="playPauseBtn" class="text-white text-lg focus:outline-none" title="Play/Pause">▶</button>
-                <input
-                    type="range"
-                    id="progressBar"
-                    value="0"
+                <input type="range" id="progressBar" value="0"
                     class="w-full h-1 accent-red-500 bg-gray-300 rounded-lg cursor-pointer" />
                 <button id="fullscreenBtn" class="text-white text-lg focus:outline-none" title="Fullscreen">⛶</button>
             </div>

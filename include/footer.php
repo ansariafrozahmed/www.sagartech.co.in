@@ -5,6 +5,7 @@ include('config.php');
 	.footer {
 		background-color: #f2f2f2;
 		padding: 50px 80px;
+		font-weight: 300 !important;
 		border-top: 1px solid #d1d1d1;
 	}
 
@@ -46,7 +47,7 @@ include('config.php');
 		color: #2b2a2a;
 		text-transform: capitalize;
 		margin-bottom: 25px;
-		font-weight: 600;
+		font-weight: 400;
 		position: relative;
 	}
 
@@ -67,8 +68,8 @@ include('config.php');
 	.footer-col ul li a {
 		color: #2b2a2a;
 		display: block;
-		font-size: 15px;
-		font-weight: 500;
+		font-size: 13px;
+		font-weight: 300;
 		text-transform: capitalize;
 		text-decoration: none;
 		transition: all 0.3s ease;
@@ -116,7 +117,7 @@ include('config.php');
 	.footer-bottom h2 {
 		text-align: center;
 		font-size: 14px;
-		font-weight: 500;
+		font-weight: 400;
 		color: #2b2a2a;
 		line-height: normal;
 	}
@@ -127,20 +128,20 @@ include('config.php');
 
 	.address-wrap .country {
 		font-size: 16px;
-		font-weight: 600;
+		font-weight: 300;
 		color: #ff0808;
 	}
 
 	.address-wrap .add {
-		font-weight: 600;
+		font-weight: 300;
 		line-height: normal;
-		font-size: 14px;
+		font-size: 13px;
 	}
 
 	.address-wrap .mail {
 		color: #ff0808;
-		font-size: 14px;
-		font-weight: 600;
+		font-size: 13px;
+		font-weight: 400;
 	}
 
 	@media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -164,7 +165,7 @@ include('config.php');
 
 
 <script>
-	(function() {
+	(function () {
 		// Check if the chat icon is already present
 		if (!document.querySelector('.wh-widget-send-button')) {
 			var options = {
@@ -182,7 +183,7 @@ include('config.php');
 			s.type = 'text/javascript';
 			s.async = true;
 			s.src = url + '/widget-send-button/js/init.js';
-			s.onload = function() {
+			s.onload = function () {
 				if (window.WhWidgetSendButton) {
 					WhWidgetSendButton.init(host, proto, options);
 				}
@@ -193,10 +194,10 @@ include('config.php');
 	})();
 </script>
 <footer class="footer">
-	<div class="footer-upper">
+	<div class="footer-upper flex flex-col items-center justify-center">
 		<!-- <img src="<?= WEB_URL ?>images/sagartech.png" alt="sagartech logo"> -->
 		<img src="<?= WEB_URL ?>images/sagatech1.png" alt="sagartech logo">
-		<p>
+		<p class="text-gray-600 mb-6 text-[13.5px] font-light ">
 			Sagar Tech was founded in 2018 by young entrepreneurs with a customer & employee centric mind. Having
 			contributed many services in the IT industry serving clients with services like web development, application
 			development and software product development, we are capable of delivering solutions and exceeding your
@@ -205,17 +206,17 @@ include('config.php');
 	</div>
 	<div class="contain row">
 		<div class="footer-col">
-			<h4>company</h4>
-			<ul>
-				<li><a href="<?= WEB_URL ?>about">About Us</a></li>
-				<li><a href="<?= WEB_URL ?>contact">Contact Us</a></li>
+			<h4 class="!font-light">company</h4>
+			<ul class="">
+				<li class="!font-light"><a href="<?= WEB_URL ?>about">About Us</a></li>
+				<li class="!font-light"><a href="<?= WEB_URL ?>contact">Contact Us</a></li>
 				<!-- <li><a href="#">Team</a></li> -->
-				<li><a href="<?= WEB_URL ?>blog">Blogs</a></li>
-				<li><a href="<?= WEB_URL ?>our-portfolio">Portfolio</a></li>
+				<li class="!font-light"><a href="<?= WEB_URL ?>blog">Blogs</a></li>
+				<li class="!font-light"><a href="<?= WEB_URL ?>our-portfolio">Portfolio</a></li>
 			</ul>
 		</div>
 		<div class="footer-col">
-			<h4>Quick Links</h4>
+			<h4 class="!font-light">Quick Links</h4>
 			<ul>
 				<li><a href="<?= WEB_URL ?>web-development-company-in-mumbai">Web Development</a></li>
 				<li><a href="<?= WEB_URL ?>mobile-app-development-company-in-mumbai">App Development</a></li>
@@ -225,9 +226,9 @@ include('config.php');
 			</ul>
 		</div>
 		<div class="footer-col">
-			<h4>Our Address</h4>
+			<h4 class="!font-light">Our Address</h4>
 			<div class="address-wrap">
-				<span class="country">INDIA</span>
+				<span class="country ">INDIA</span>
 				<br>
 				<span class="add">501, Vyapar Bhavan (Bldg No. 368), Narshi Natha Street, Masjid Bunder, Mumbai
 					- 400009</span>
@@ -250,9 +251,9 @@ include('config.php');
 			</div>
 		</div>
 		<div class="footer-col">
-			<h4>Contact Number</h4>
+			<h4 class="!font-light">Contact Number</h4>
 			<div class="address-wrap">
-				<a href="tel:919820133303" class="country">+91 98201 33303</a>
+				<a href="tel:919820133303" class="country ">+91 98201 33303</a>
 				<br>
 				<a href="tel:919152220484" class="country">+91 91522 20484</a>
 			</div>
@@ -260,7 +261,7 @@ include('config.php');
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.14610188209!2d72.820677774249!3d18.969153955319968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf7f0baae5fd%3A0xe15b1154ec3eb6e9!2sSagar%20Tech%20-%20Web%20Developers%20%26%20Digital%20Marketing%20Agency!5e0!3m2!1sen!2sin!4v1708425595087!5m2!1sen!2sin"
 				width="100%" height="120" style="border:0;" allowfullscreen="" loading="lazy"
 				referrerpolicy="no-referrer-when-downgrade"></iframe>
-			<div class="social-links">
+			<div class="social-links mt-4">
 				<a href="https://www.facebook.com/sagartechwebdevelopersmumbai"><i class="fa-brands fa-facebook-f"
 						style="color:#f80805;"></i></a>
 				<a href="https://www.instagram.com/sagartechsolutions/"><i class="fa-brands fa-instagram"
