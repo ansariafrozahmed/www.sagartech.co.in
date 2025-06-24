@@ -1,50 +1,4 @@
-<?php include('include/config.php') ?>
-<!-- <div class="max-w-[1500px] space-y-8 lg:space-y-16 mx-auto px-5 pb-10 md:px-10 md:pb-12 lg:px-20 lg:pb-24">
-    <div class="flex flex-col lg:flex-row items-center gap-4 justify-between w-full">
-        <div class="space-y-4 w-full lg:w-1/2">
-            <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">Our Services</span>
-            <h3 data-aos="fade-up" class="text-[25px] lg:text-[38px] max-w-[300px] leading-[1.05] font-[400] text-[#242424]">
-                What we can do for you
-            </h3>
-        </div>
-        <div class="w-full lg:w-1/2">
-            <p data-aos="fade-up" class="text-[13.5px] font-light tracking-wide text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa, consequatur a accusamus molestias corrupti.</p>
-        </div>
-    </div>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        <a href="/">
-            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/web development & designnew.webp" alt="">
-            </div>
-        </a>
-        <a href="/">
-            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/digital marketingnew.webp" alt="">
-            </div>
-        </a>
-        <a href="/">
-            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/app development & designnew.webp" alt="">
-            </div>
-        </a>
-        <a href="/">
-            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/graphic designingnew.webp" alt="">
-            </div>
-        </a>
-        <a href="/">
-            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/seonew.webp" alt="">
-            </div>
-        </a>
-        <a href="/">
-            <div data-aos="fade-up" class="aspect-[4/4] cursor-pointer group rounded-xl bg-gray-100 relative overflow-hidden">
-                <img class="h-full w-full object-cover group-hover:scale-105 transition-all ease-in-out duration-300" src="<?php WEB_URL ?>image/homepage/service/bulk sms servicesnew.webp" alt="">
-            </div>
-        </a>
-    </div>
-</div>  -->
-
+<!-- <?php include('include/config.php') ?>
 <div class="max-w-[1500px] space-y-8 lg:space-y-10 mx-auto px-5 py-10 md:px-10 md:py-12 lg:px-20 lg:py-24">
     <div class="space-y-4">
         <span class="bg-gray-100 px-4 py-2 rounded-full text-xs font-light text-[#242424]">What we offer</span>
@@ -52,9 +6,13 @@
         </h2>
     </div>
     <div class="grid grid-cols-3 gap-6">
-        <div class="p-5 relative border border-gray-100 rounded-lg bg-gray-100 aspect-[4/3]">
+        <div class="p-5 space-y-2 relative border border-gray-100 rounded-lg bg-gray-100 aspect-[4/3.5]">
+            <h2 class="text-xl font-light">Web Development</h2>
+            <p class="text-gray-600 mb-6 text-[13px] line-clamp-2 font-light">
+                We build custom websites and e-commerce platforms using technologies like React, Next.js, and Node.js to ensure performance, and business growth through visually appealing and functional designs. Our team focuses on clean UI, mobile responsiveness, and SEO-ready code.
+            </p>
             <img class="h-[60%] w-[60%] absolute bottom-4 right-4"
                 src="<?php WEB_URL ?>portfolio-mockups/MithiyajMockup.webp" alt="">
         </div>
     </div>
-</div>
+</div> -->

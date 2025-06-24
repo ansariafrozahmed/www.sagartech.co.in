@@ -1,38 +1,38 @@
-<!-- Entire blog section is wrapped in one div -->
-<div id="blog-section" class="max-w-[1500px] space-y-8 lg:space-y-10 mx-auto px-5 py-10 md:px-10 md:py-12 lg:px-32 lg:py-24">
+<div class="bg-white">
+  <div id="blog-section" class="max-w-[1500px] space-y-8 lg:space-y-10 mx-auto px-5 py-10 md:px-10 md:py-12 lg:px-28 lg:py-24">
     <div>
-        <h2 class="md:text-5xl mb-6 text-[28px] text-center text-[#242424] lg:text-[36px] leading-[1.2] lg:leading-[1.15] font-[400]">
-            Blogs And Articles
-        </h2>
+      <h2 class="md:text-5xl mb-6 text-[28px] text-center text-[#242424] lg:text-[36px] leading-[1.2] lg:leading-[1.15] font-[400]">
+        Blogs And Articles
+      </h2>
     </div>
-    <div id="blog-container" class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Blog cards will be inserted here -->
+    <div id="blog-container" class="grid grid-cols-1 md:grid-cols-3 gap-8">
     </div>
+  </div>
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const blogSection = document.getElementById("blog-section");
-        const blogContainer = document.getElementById("blog-container");
+  document.addEventListener("DOMContentLoaded", function() {
+    const blogSection = document.getElementById("blog-section");
+    const blogContainer = document.getElementById("blog-container");
 
-        fetch("https://sagartech.co.in/blogs/wp-json/custom/v1/posts?page=1&per_page=3")
-            .then(res => res.json())
-            .then(data => {
-                if (!data || !data.posts || data.posts.length < 1) {
-                    blogSection.style.display = "none";
-                    return;
-                }
+    fetch("https://sagartech.co.in/blogs/wp-json/custom/v1/posts?page=1&per_page=3")
+      .then(res => res.json())
+      .then(data => {
+        if (!data || !data.posts || data.posts.length < 1) {
+          blogSection.style.display = "none";
+          return;
+        }
 
-                const posts = data.posts;
+        const posts = data.posts;
 
-                posts.forEach(post => {
-                    const img = post.featured_image ?
-                        post.featured_image :
-                        "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png";
+        posts.forEach(post => {
+          const img = post.featured_image ?
+            post.featured_image :
+            "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png";
 
-                    const html = `
+          const html = `
             <div class="space-y-3">
-              <a href="https://sagartech.co.in/blog/${post.slug}" class="block group aspect-[4/2.4] lg:aspect-[4/2.8] overflow-hidden border">
+              <a href="https://sagartech.co.in/blog/${post.slug}" class="block rounded-xl group aspect-[4/2.4] lg:aspect-[4/2.8] overflow-hidden border">
                 <img src="${img}" alt="${post.title}" class="h-full group-hover:scale-105 transition-all ease-in-out duration-200 w-full object-cover" />
               </a>
               <div class="space-y-2">
@@ -66,12 +66,12 @@
               </div>
             </div>
           `;
-                    blogContainer.insertAdjacentHTML("beforeend", html);
-                });
-            })
-            .catch(error => {
-                console.error("Blog fetch error:", error);
-                blogSection.style.display = "none"; // Hide section on error
-            });
-    });
+          blogContainer.insertAdjacentHTML("beforeend", html);
+        });
+      })
+      .catch(error => {
+        console.error("Blog fetch error:", error);
+        blogSection.style.display = "none"; // Hide section on error
+      });
+  });
 </script>

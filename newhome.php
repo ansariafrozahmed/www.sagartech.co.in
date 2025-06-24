@@ -166,16 +166,45 @@
 </style>
 
 <body>
-    <?php include("include/header/headerv1.php"); ?>
 
-    <?php include("include/homepage/homeBanner/homeBanner.php") ?>
-    <?php include("include/homepage/introduction.php") ?>
+    <?php
+    include("include/config.php");
+    ?>
+
+    <?php
+    include("include/header/headerv1.php");
+    ?>
+
+    <?php
+    include("NewVersion/Homepage/heroWithService.php")
+    ?>
+
+    <?php
+    include('NewVersion/Homepage/gsapSlideStacking.php')
+    ?>
+
+    <?php
+    include('NewVersion/Homepage/Clients.php')
+    ?>
+
+    <?php
+    // include("include/homepage/homeBanner/homeBanner.php") 
+    ?>
+    <?php
+    // include("include/homepage/introduction.php") 
+    ?>
     <?php
     // include("include/homepage/ourService.php") 
     ?>
-    <?php include("include/homepage/metaShowcase.php") ?>
-    <?php include("include/homepage/videoTestimonials.php") ?>
-    <?php include("include/new-services/web-development/new-our-Client.php"); ?>
+    <?php
+    // include("include/homepage/metaShowcase.php") 
+    ?>
+    <?php
+    // include("include/homepage/videoTestimonials.php") 
+    ?>
+    <?php
+    // include("include/new-services/web-development/new-our-Client.php"); 
+    ?>
     <?php
     $faqData = [
         [
@@ -212,20 +241,20 @@
         ]
     ];
 
-    $faqId = "faq1"; // unique per section
+    $faqId = "faq1";
     include 'include/faqs.php';
     ?>
-    <?php include("include/homepage/BlogsSection.php"); ?>
+    <?php
+    // include("include/homepage/BlogsSection.php");
+    ?>
 
-    <?php include("include/footer.php"); ?>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-            mirror: false
-        });
-    </script>
-
+    <?php
+    include("NewVersion/StickyFooter.php");
+    ?>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="NewVersion/Homepage/home.js"></script>
 </body>
 
 </html>

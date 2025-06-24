@@ -3,7 +3,7 @@
 <?php
 $currentUrl = basename($_SERVER['REQUEST_URI']);
 ?>
-<div class="max-w-[1500px] w-full mx-auto px-4 md:px-10 lg:px-14 py-6 flex items-center justify-between">
+<div class="max-w-[1500px] w-full mx-auto px-4 md:px-10 lg:px-12 py-6 flex items-center justify-between">
     <!-- Logo -->
     <div class="w-1/2 md:w-[30%]">
         <a href="<?= WEB_URL ?>" class="block h-9">
