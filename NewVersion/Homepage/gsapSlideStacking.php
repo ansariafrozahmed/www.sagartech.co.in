@@ -24,10 +24,14 @@
         inset: 0%;
         overflow: hidden;
     }
+
+    video {
+        width: 100% !important;
+    }
 </style>
 
 <main class="main-wrapper bg-white">
-    <div class="container mx-auto px-4 md:px-8 lg:px-0 flex flex-col md:flex-row md:items-end md:justify-between gap-6 pt-12 pb-6 md:py-12">
+    <div class="container mx-auto p-4 md:p-8 lg:p-12 flex flex-col md:flex-row md:items-end md:justify-between gap-6 pt-12 pb-6 md:py-12">
         <div class="space-y-1">
             <span class="text-sm inline-block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal">Portfolio</span>
             <h2 class="text-5xl font-medium text-[#28282B]">Our <span class="text-[#28282B]">Amazing Work</span></h2>
