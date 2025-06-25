@@ -2,11 +2,11 @@
     <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
         <!-- Text Area -->
         <div class="lg:w-1/2 w-full">
-            <h1
+            <h2
                 class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal">
                 Why are <span class="text-red-600">web design</span> and <span class="text-red-600">web
                     development</span> important for your business?
-            </h1>
+            </h2>
             <p class="text-[13.5px] font-light tracking-wide text-gray-600 max-sm:text-center mt-4">
                 How a Strong Website Builds Trust, Engagement, and Conversions
             </p>

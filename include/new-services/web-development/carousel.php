@@ -14,7 +14,7 @@
                             src="new-images/slider1.webp"
                             class=" w-[500px] mb-7"
                             alt="" />
-                        <h1 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  ">Ecommerce Website</h1>
+                        <h2 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  ">Ecommerce Website</h2>
                     </div>
 
                     <div class="fade-target">
@@ -40,7 +40,7 @@
                             src="image/homepage/yovant-homepage.webp"
                             class=" w-[500px] mb-7"
                             alt="" />
-                        <h1 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  "> Yovant Recruitment</h1>
+                        <h2 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  "> Yovant Recruitment</h2>
                     </div>
 
                     <div class="fade-target">
@@ -66,7 +66,7 @@
                             src="image/homepage/classics-v1.webp"
                             class=" w-[500px] mb-7"
                             alt="" />
-                        <h1 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  "> Travel Website</h1>
+                        <h2 class="text-4xl lg:text-4xl uppercase font-bold mb-4 z-10 text-gray-900  "> Travel Website</h2>
                     </div>
 
                     <div class="fade-target">

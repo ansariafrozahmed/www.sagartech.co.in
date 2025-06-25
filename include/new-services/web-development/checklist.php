@@ -33,9 +33,9 @@
 
 
 <div class="lg:px-20 px-4 lg:py-16 py-10">
-    <h1 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[700px] text-center mx-auto font-[400] text-[#242424]">
+    <h2 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[700px] text-center mx-auto font-[400] text-[#242424]">
         <span class="text-red-500">Checklist</span> we follow
-    </h1>
+    </h2>
 
     <!-- Tabs -->
     <div class="mt-10 w-full overflow-x-auto scrollbar-hide">

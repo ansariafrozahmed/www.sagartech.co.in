@@ -1,7 +1,7 @@
-<div class="lg:py-16 py-10 px-4  mx-auto bg-gray-50 lg:px-14">
-    <h1 class="text-[25px] lg:text-[38px] max-w-[600px] mx-auto text-center leading-[1.05] font-[400]">
+<div class="lg:!py-16 py-10 px-4  mx-auto bg-gray-50 lg:px-14">
+    <h2 class="text-[25px] lg:text-[38px] max-w-[600px] mx-auto text-center leading-[1.05] font-[400]">
         Why choose us <br> for <span class="text-red-600">web development</span>?
-    </h1>
+    </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
 
