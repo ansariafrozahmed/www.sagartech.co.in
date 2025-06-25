@@ -201,6 +201,8 @@
         <?php
         include("include/new-services/web-development/secondLast.php"); ?>
         <?php
+        include("include/new-services/web-development/textReavelEffect.php"); ?>
+        <?php
         include("include/faqs.php"); ?>
     </div>
     <!-- /HEADER END -->
