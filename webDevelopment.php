@@ -189,7 +189,7 @@
             </nav>
 
             <!-- Title -->
-            <h1 class=" text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400]  text-gray-200 mb-2">
+            <h1 class=" text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400]  text-gray-200 mb-2">
                 Leading Web Development Company in Mumbai
             </h1>
 
