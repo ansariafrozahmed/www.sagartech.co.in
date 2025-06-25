@@ -76,7 +76,7 @@
             muted
             playsinline>
             <source src="new-videos/logo-video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
+            Your browser does not support the video tag
         </video>
     </div>
 
