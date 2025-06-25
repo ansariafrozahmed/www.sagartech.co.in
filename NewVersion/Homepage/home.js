@@ -1,6 +1,23 @@
 gsap.registerPlugin(ScrollTrigger);
 
-AOS.init();
+// AOS.init();
+
+// LENIS SETUP
+
+lenis = new Lenis({
+  duration: 1,
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  smooth: true,
+  smoothTouch: false,
+  direction: "vertical",
+  gestureDirection: "vertical",
+  lerp: 0.1,
+});
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
 
 //Hero With Service
 
@@ -82,3 +99,39 @@ function initScroll(section, items, direction) {
         );
   });
 }
+
+// CLIENT SECTION
+gsap.fromTo(
+  ".client-heading",
+  {
+    scaleY: 0,
+    transformOrigin: "bottom center",
+  },
+  {
+    scaleY: 1,
+    duration: 1.2,
+    ease: "bounce.out",
+    scrollTrigger: {
+      trigger: ".our-clients-section",
+      start: "top 50%",
+      toggleActions: "play none none none",
+      once: true,
+    },
+  }
+);
+
+gsap.from(".card-container > div", {
+  opacity: 0,
+  scale: 0.8,
+  duration: 0.6,
+  ease: "back.out(1.7)", // springy pop
+  stagger: {
+    each: 0.1, // 100ms delay between each card
+    from: "start", // can also be "center" or "random"
+  },
+  scrollTrigger: {
+    trigger: ".card-container",
+    start: "top 80%",
+    once: true,
+  },
+});

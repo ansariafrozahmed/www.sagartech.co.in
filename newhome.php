@@ -89,7 +89,6 @@
     <link rel="shortcut icon" href="images/logoonly.jpg" type="image/png" />
     <link rel="apple-touch-icon" sizes="180x180" href="images/logoonly.png">
     <link rel="icon" href="images/logoonly.jpg" type="image/x-icon" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -172,7 +171,7 @@
     ?>
 
     <?php
-    include("include/header/headerv1.php");
+    // include("include/header/headerv1.php");
     ?>
 
     <?php
@@ -251,9 +250,10 @@
     <?php
     include("NewVersion/StickyFooter.php");
     ?>
+    <script src="https://unpkg.com/lenis@1.3.4/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="NewVersion/Homepage/home.js"></script>
 </body>
 
