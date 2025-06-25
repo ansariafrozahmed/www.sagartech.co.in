@@ -68,14 +68,14 @@
             </div>
         </div>
     </div>
-    <div class="lg:w-[45%] w-full overflow-hidden">
+    <div class="lg:w-[45%] w-full">
         <video
             class="md:max-w-[400px] max-w-[350px] h-auto block object-cover"
             autoplay
             loop
             muted
             playsinline>
-            <source src="new-videos/logo-video.mp4" type="video/mp4" />
+            <source src="video/logo-video.mp4" type="video/mp4" />
             Your browser does not support the video tag
         </video>
     </div>

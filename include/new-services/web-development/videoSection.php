@@ -1,12 +1,20 @@
+<!-- GSAP + ScrollTrigger + SplitType -->
+<script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/split-type"></script>
+
 <div class="lg:pb-16 pb-10 lg:px-20 px-4">
     <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
         <!-- Text Area -->
         <div class="lg:w-1/2 w-full">
-            <h2
-                class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal">
-                Why are <span class="text-red-600">web design</span> and <span class="text-red-600">web
-                    development</span> important for your business?
-            </h2>
+            <section id="heading-section" class=" bg-white">
+                <h2
+                    id="animated-heading"
+                    class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal max-w-5xl mx-auto ">
+                    Why are <span class="text-red-600">web design</span> and <span class="text-red-600">web
+                        development</span> important for your business?
+                </h2>
+            </section>
             <p class="text-[13.5px] font-light tracking-wide text-gray-600 max-sm:text-center mt-4">
                 How a Strong Website Builds Trust, Engagement, and Conversions
             </p>
@@ -44,8 +52,16 @@
             </div>
         </div>
     </div>
-    <p class="text-[13.5px] font-light tracking-wide text-gray-600 mt-10">
-        In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of the top web development companies in Mumbai, we are extremely proud of our work as a web design agency and our skilled team of developers and designers. Our objective is to create websites that beat your expectations and provide you with a unique online presence. In the present digital age, having a strong online presence is crucial, and we can assist you in making your ideas a reality. You can count on our expertise as a leading web design company in India to produce a website that perfectly represents your brand.
+    <p
+        id="animated-paragraph"
+        class="text-[13.5px] font-light tracking-wide text-gray-600  opacity-0 translate-y-6 mt-10">
+        In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of
+        the top web development companies in Mumbai, we are extremely proud of our work as a web design agency
+        and our skilled team of developers and designers. Our objective is to create websites that beat your
+        expectations and provide you with a unique online presence. In the present digital age, having a strong
+        online presence is crucial, and we can assist you in making your ideas a reality. You can count on our
+        expertise as a leading web design company in India to produce a website that perfectly represents your
+        brand.
     </p>
 </div>
 
@@ -148,5 +164,50 @@
         controls.classList.remove("opacity-0", "pointer-events-none");
         progressBar.value = 0;
         clearTimeout(hideControlsTimeout);
+    });
+</script>
+
+<script>
+    // Split heading into chars and words
+    const splitHeading = new SplitType("#animated-heading", {
+        types: "words, chars"
+    });
+
+    // Keep words intact
+    splitHeading.words.forEach(word => {
+        word.style.display = "inline-block";
+        word.style.whiteSpace = "nowrap";
+    });
+
+    // Animate heading chars
+    gsap.fromTo(
+        splitHeading.chars, {
+            opacity: 0,
+            filter: "blur(4px)"
+        }, {
+            opacity: 1,
+            filter: "blur(0px)",
+            stagger: 0.02,
+            ease: "power4.out",
+            scrollTrigger: {
+                trigger: "#heading-section",
+                start: "top 85%",
+                end: "top 5%",
+                scrub: 1.2,
+                anticipatePin: 1
+            }
+        }
+    );
+
+    // Animate paragraph fade-in-up AFTER heading is mostly visible
+    gsap.to("#animated-paragraph", {
+        scrollTrigger: {
+            trigger: "#heading-section",
+            start: "top 10%", // Trigger after heading mostly appears
+        },
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        ease: "none"
     });
 </script>
