@@ -1,9 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-// AOS.init();
-
 // LENIS SETUP
-
 lenis = new Lenis({
   duration: 1,
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -13,6 +10,7 @@ lenis = new Lenis({
   gestureDirection: "vertical",
   lerp: 0.1,
 });
+
 function raf(time) {
   lenis.raf(time);
   requestAnimationFrame(raf);

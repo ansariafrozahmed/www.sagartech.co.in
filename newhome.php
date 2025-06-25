@@ -171,7 +171,7 @@
     ?>
 
     <?php
-    // include("include/header/headerv1.php");
+    include("include/header/headerv1.php");
     ?>
 
     <?php
@@ -183,7 +183,7 @@
     ?>
 
     <?php
-    include('NewVersion/Homepage/Clients.php')
+    // include('NewVersion/Homepage/Clients.php')
     ?>
 
     <?php
