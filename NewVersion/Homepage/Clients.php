@@ -36,7 +36,7 @@
     }
 </style>
 <div class="bg-white our-clients-section relative">
-    <div class="max-w-[1500px] space-y-8 px-4 py-8 md:p-8 lg:p-12">
+    <div class="max-w-[1500px] mx-auto space-y-8 px-4 py-8 md:p-8 lg:p-12">
         <div class="space-y-0.5">
             <span class="text-sm inline-block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal client-heading">Our Clients Who Shine</span>
             <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading leading-[0.9] uppercase font-black text-[#28282B] client-heading">Our</h3>
@@ -48,10 +48,8 @@
             <div id="card-slides" class="relative h-auto w-full"></div>
 
         </div>
-        <div class="max-w-[1500px] mx-auto relative">
-            <div class="absolute bottom-0 left-0 w-full h-[2px] bg-gray-200">
-                <div id="slide-loader" class="h-full bg-black w-0"></div>
-            </div>
+        <div class="max-w-[1500px] mx-auto w-full h-[2px] bg-gray-200">
+            <div id="slide-loader" class="h-full bg-black w-0"></div>
         </div>
     </div>
 </div>
