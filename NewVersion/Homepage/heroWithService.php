@@ -1,39 +1,103 @@
-<div id="main" class="bg-white">
-    <div class="max-w-[1700px] lg:space-y-10 xl:space-y-16 2xl:space-y-24 mx-auto p-4 md:p-8 lg:px-12 lg:py-12 xl:py-14 2xl:py-20">
+<!-- <div id="main" class="bg-white">
+    <div style="background: #6F0000; background: linear-gradient(0deg,rgba(111, 0, 0, 1) 0%, rgba(92, 1, 1, 1) 100%);"
+        class=" max-w-[1700px] lg:space-y-10 xl:space-y-16 2xl:space-y-24 mx-auto p-4 md:p-8 lg:px-12 lg:py-12 xl:py-14 2xl:py-20">
         <div class="flex items-center lg:h-[450px] xl:h-[550px] 2xl:h-[700px] gap-20">
             <div class="w-[50%] space-y-6 h-full">
-                <h2 class="text-[110px] 2xl:h-[120px] leading-[0.9] text-[#28282B] font-black">
-                    YOUR TRUSTED
+                <h2 class="text-[110px] 2xl:h-[120px] leading-[0.9] text-[#fff] font-black">
+                    YOUR TRUSTED.
                 </h2>
-                <p class="text-gray-600 text-[13.5px] font-light">
+                <p class="text-gray-100 text-[13.5px] pt-[200px] font-light">
                     Sagar Tech Technical Solution Is Award Winning 🏆 Web Development and Digital Marketing Agency In Mumbai Our team of web developers specialises in developing websites that quickly generate leads. We offer effective design, innovative web development, Mobile App Development, and ROI-focused marketing to help your brand reach its full potential.
                 </p>
             </div>
             <div class="w-[50%] h-full flex items-center justify-start relative">
                 <div class="relative lg:h-[450px] xl:h-[550px] 2xl:h-[700px] w-[50%]">
                     <img data-float-id="1" src="<?php WEB_URL ?>new-images/design.webp"
-                        class="img-stack absolute top-0 left-[0%] w-full h-full object-cover rounded-lg border-2 border-white z-[4]">
+                        class="img-stack absolute top-0 left-[0%] w-full h-full object-cover rounded-xl z-[4]">
                     <img data-float-id="2" src="<?php WEB_URL ?>new-images/consult.webp"
-                        class="img-stack absolute top-0 left-[33%] w-full h-full object-cover rounded-lg border-2 border-white z-[3]">
+                        class="img-stack absolute top-0 left-[33%] w-full h-full object-cover rounded-xl z-[3]">
                     <img data-float-id="3" src="<?php WEB_URL ?>new-images/development.webp"
-                        class="img-stack absolute top-0 left-[66.66%] w-full h-full object-cover rounded-lg border-2 border-white z-[2]">
+                        class="img-stack absolute top-0 left-[66.66%] w-full h-full object-cover rounded-xl z-[2]">
                     <img data-float-id="4" src="<?php WEB_URL ?>new-images/design.webp"
-                        class="img-stack absolute top-0 left-[99.99%] w-full h-full object-cover rounded-lg border-2 border-white z-[1]">
+                        class="img-stack absolute top-0 left-[99.99%] w-full h-full object-cover rounded-xl z-[1]">
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="space-y-10">
+    <div class="space-y-10 max-w-[1700px] mx-auto p-4 md:p-8 lg:px-12 lg:py-12 xl:py-14 2xl:py-20">
+        <div class="space-y-1">
+            <span class="text-sm text-center block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal">What we offer</span>
+            <h3 class="text-5xl md:text-7xl lg:text-5xl text-center leading-[0.9] font-semibold text-[#28282B]">Our Services</h3>
+        </div>
+
+        <div class="grid grid-cols-4 gap-4">
+            <div>
+                <div data-float-target="1" class="">
+                </div>t="2" class="lg:h-[450px] xl:h-[550px] 2xl:h-[700px]"></div>
+            <div data-[550px] 2xl:h-[700px]"></div>
+            <div data-[550px] 2xl:h-[700px]"></div>
+        </div>
+-->
+
+<style>
+    @media (min-width: 1300px) and (max-width: 1399px) {
+        .heightWrapper {
+            height: 90vh;
+        }
+    }
+
+    @media (min-width: 1400px) and (max-width: 1499px) {
+        .heightWrapper {
+            height: 80vh;
+        }
+    }
+
+    @media (min-width: 1500px) {
+        .heightWrapper {
+            height: 70vh;
+        }
+    }
+</style>
+
+<div id="main" class="overflow-hidden">
+    <div style="background: linear-gradient(0deg,rgba(36, 36, 36, 1) 0%, rgba(18, 18, 18, 1) 100%);" class="heightWrapper">
+        <div class="max-w-[1500px] h-full mx-auto space-y-8 px-4 py-8 md:p-8 lg:p-12">
+            <div class="flex items-center w-full h-full gap-10">
+                <div class="h-full w-[55%]  flex flex-col justify-between">
+                    <h2 class="text-[110px] 2xl:h-[120px] leading-[0.9] text-[#fff] font-black">
+                        YOUR TRUSTED.
+                    </h2>
+                    <p class="text-gray-100 block text-[13.5px] font-light">
+                        Sagar Tech Technical Solution Is Award Winning 🏆 Web Development and Digital Marketing Agency In Mumbai Our team of web developers specialises in developing websites that quickly generate leads. We offer effective design, innovative web development, Mobile App Development, and ROI-focused marketing to help your brand reach its full potential.
+                    </p>
+                </div>
+                <div class="h-full w-[45%] ">
+                    <div class="relative h-full w-[50%]">
+                        <img data-float-id="1" src="<?php WEB_URL ?>new-images/design.webp"
+                            class="shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] img-stack absolute top-0 left-[0%] w-full h-full object-cover rounded-xl z-[4]">
+                        <img data-float-id="2" src="<?php WEB_URL ?>new-images/consult.webp"
+                            class="shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] img-stack absolute top-0 left-[33%] w-full h-full object-cover rounded-xl z-[3]">
+                        <img data-float-id="3" src="<?php WEB_URL ?>new-images/development.webp"
+                            class="shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] img-stack absolute top-0 left-[66.66%] w-full h-full object-cover rounded-xl z-[2]">
+                        <img data-float-id="4" src="<?php WEB_URL ?>new-images/design.webp"
+                            class="shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] img-stack absolute top-0 left-[99.99%] w-full h-full object-cover rounded-xl z-[1]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background: #fff;">
+        <div class="max-w-[1500px] mx-auto space-y-8 px-4 py-8 md:p-8 lg:p-12">
             <div class="space-y-1">
                 <span class="text-sm text-center block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal">What we offer</span>
                 <h3 class="text-5xl md:text-7xl lg:text-5xl text-center leading-[0.9] font-semibold text-[#28282B]">Our Services</h3>
             </div>
-
-            <div class="grid grid-cols-4 gap-4">
-                <div data-float-target="1" class="lg:h-[450px] xl:h-[550px] bg-gray-50 rounded-lg 2xl:h-[700px]"></div>
-                <div data-float-target="2" class="lg:h-[450px] xl:h-[550px] bg-gray-50 rounded-lg 2xl:h-[700px]"></div>
-                <div data-float-target="3" class="lg:h-[450px] xl:h-[550px] bg-gray-50 rounded-lg 2xl:h-[700px]"></div>
-                <div data-float-target="4" class="lg:h-[450px] xl:h-[550px] bg-gray-50 rounded-lg 2xl:h-[700px]"></div>
+            <div class="grid grid-cols-5 gap-4">
+                <div data-float-target="1" class="heightWrapper"></div>
+                <div data-float-target="2" class="heightWrapper"></div>
+                <div data-float-target="3" class="heightWrapper"></div>
+                <div data-float-target="4" class="heightWrapper"></div>
             </div>
         </div>
     </div>
@@ -69,7 +133,6 @@
                             end: '40%', // Adjust based on desired scroll distance
                             scrub: 1, // Smoothly ties animation to scroll
                             pin: false,
-                            markers: true,
                         }
                     })
                     .to(img, {

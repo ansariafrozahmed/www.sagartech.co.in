@@ -3,89 +3,92 @@
 <?php
 $currentUrl = basename($_SERVER['REQUEST_URI']);
 ?>
-<div class="max-w-[1500px] w-full mx-auto px-4 md:px-10 lg:px-12 py-6 flex items-center justify-between">
-    <!-- Logo -->
-    <div class="w-1/2 md:w-[30%]">
-        <a href="<?= WEB_URL ?>" class="block h-9">
-            <img src="./images/sagartech1.webp" class="h-full w-auto object-contain" alt="SagarTech Logo" />
-        </a>
-    </div>
+<div style="background: #131313;"
+    class=" text-white">
+    <div class="max-w-[1500px] w-full mx-auto px-4 md:px-10 lg:px-12 py-6 flex items-center justify-between">
+        <!-- Logo -->
+        <div class="w-1/2 md:w-[30%]">
+            <a href="<?= WEB_URL ?>" class="block h-9">
+                <img src="./logo/whiteLogo.png" class="h-full w-auto object-contain" alt="SagarTech Logo" />
+            </a>
+        </div>
 
-    <!-- Hamburger Button (Mobile) -->
-    <div class="lg:hidden">
-        <button id="menuToggle" class="text-[#242424] focus:outline-none">
-            <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-        </button>
-    </div>
+        <!-- Hamburger Button (Mobile) -->
+        <div class="lg:hidden">
+            <button id="menuToggle" class="text-[#242424] focus:outline-none">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
 
-    <!-- Desktop Nav -->
-    <div class="hidden lg:flex w-[70%] font-light items-center justify-end gap-6">
+        <!-- Desktop Nav -->
+        <div class="hidden lg:flex w-[70%] font-light items-center justify-end gap-6">
 
-        <?php
-        $navItems = [
-            ["name" => "Home", "href" => "newhome", "children" => []],
-            ["name" => "Services", "href" => "services", "children" => []],
-            [
-                "name" => "Our Products",
-                "href" => "#",
-                "children" => [
-                    ["name" => "Siyahfy", "img" => "product-images/siyahfy-logo11.png", "href" => "our-products/siyahfy"],
-                    ["name" => "Chillinote", "img" => "product-images/chillinote-logo1.png", "href" => "our-products/project-management-software-in-india"],
-                    ["name" => "Wonestop", "img" => "product-images/wonestop.png", "href" => "our-products/bulk-whatsapp-api-marketing-software-in-india"],
-                    ["name" => "Tappify", "img" => "product-images/tappify.png", "href" => "our-products/nfc-digital-business-cards-in-india"],
-                ]
-            ],
-            ["name" => "Portfolio", "href" => "portfolio", "children" => []],
-            ["name" => "About Us", "href" => "about", "children" => []],
-            ["name" => "Contact Us", "href" => "contact", "children" => []],
-            ["name" => "Career", "href" => "career", "children" => []],
-            ["name" => "Blogs", "href" => "blogs", "children" => []]
-        ];
+            <?php
+            $navItems = [
+                ["name" => "Home", "href" => "newhome", "children" => []],
+                ["name" => "Services", "href" => "services", "children" => []],
+                [
+                    "name" => "Our Products",
+                    "href" => "#",
+                    "children" => [
+                        ["name" => "Siyahfy", "img" => "product-images/siyahfy-logo11.png", "href" => "our-products/siyahfy"],
+                        ["name" => "Chillinote", "img" => "product-images/chillinote-logo1.png", "href" => "our-products/project-management-software-in-india"],
+                        ["name" => "Wonestop", "img" => "product-images/wonestop.png", "href" => "our-products/bulk-whatsapp-api-marketing-software-in-india"],
+                        ["name" => "Tappify", "img" => "product-images/tappify.png", "href" => "our-products/nfc-digital-business-cards-in-india"],
+                    ]
+                ],
+                ["name" => "Portfolio", "href" => "portfolio", "children" => []],
+                ["name" => "About Us", "href" => "about", "children" => []],
+                ["name" => "Contact Us", "href" => "contact", "children" => []],
+                ["name" => "Career", "href" => "career", "children" => []],
+                ["name" => "Blogs", "href" => "blogs", "children" => []]
+            ];
 
 
-        foreach ($navItems as $item): ?>
-            <div class="relative group">
-                <a href="<?= WEB_URL . $item['href'] ?>"
-                    class="text-sm tracking-wider overflow-hidden group inline-flex items-center gap-1 relative <?= ($item['href'] === $currentUrl || in_array($currentUrl, array_column($item['children'], 'href'))) ? 'text-[#ff0808]' : '' ?>">
+            foreach ($navItems as $item): ?>
+                <div class="relative group">
+                    <a href="<?= WEB_URL . $item['href'] ?>"
+                        class="text-sm tracking-wider overflow-hidden group inline-flex items-center gap-1 relative <?= ($item['href'] === $currentUrl || in_array($currentUrl, array_column($item['children'], 'href'))) ? 'text-[#ff0808]' : '' ?>">
 
-                    <span class="block transition-transform duration-500 group-hover:-translate-y-full">
-                        <?= $item['name'] ?>
-                    </span>
-                    <span
-                        class="block absolute top-full left-0 transition-transform duration-500 group-hover:-translate-y-full
+                        <span class="block transition-transform duration-500 group-hover:-translate-y-full">
+                            <?= $item['name'] ?>
+                        </span>
+                        <span
+                            class="block absolute top-full left-0 transition-transform duration-500 group-hover:-translate-y-full
          <?= ($item['href'] === $currentUrl || in_array($currentUrl, array_column($item['children'], 'href'))) ? '' : 'text-[#ff0808]' ?>">
-                        <?= $item['name'] ?>
-                    </span>
+                            <?= $item['name'] ?>
+                        </span>
+
+                        <?php if (!empty($item['children'])): ?>
+                            <!-- Chevron Down Icon -->
+                            <svg class="w-4 h-4 ml-1  text-gray-500 group-hover:rotate-180 transition-transform duration-300"
+                                fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        <?php endif; ?>
+                    </a>
 
                     <?php if (!empty($item['children'])): ?>
-                        <!-- Chevron Down Icon -->
-                        <svg class="w-4 h-4 ml-1  text-gray-500 group-hover:rotate-180 transition-transform duration-300"
-                            fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                        </svg>
+                        <div
+                            class="absolute -left-10  top-4 mt-2 bg-white rounded-md shadow-lg pt-3 p-2 z-50 min-w-[200px] hidden group-hover:block group-focus-within:block">
+                            <?php foreach ($item['children'] as $child): ?>
+                                <a href="<?= WEB_URL . $child['href'] ?>"
+                                    class="flex items-center gap-3 px-2 py-2 rounded-md text-sm font-light tracking-wide hover:bg-gray-100 transition-colors duration-200">
+                                    <img src="<?= WEB_URL . $child['img'] ?>" alt="<?= $child['name'] ?>"
+                                        class="w-5 h-5 object-contain" />
+                                    <span><?= $child['name'] ?></span>
+                                </a>
+                            <?php endforeach; ?>
+                        </div>
                     <?php endif; ?>
-                </a>
 
-                <?php if (!empty($item['children'])): ?>
-                    <div
-                        class="absolute -left-10  top-4 mt-2 bg-white rounded-md shadow-lg pt-3 p-2 z-50 min-w-[200px] hidden group-hover:block group-focus-within:block">
-                        <?php foreach ($item['children'] as $child): ?>
-                            <a href="<?= WEB_URL . $child['href'] ?>"
-                                class="flex items-center gap-3 px-2 py-2 rounded-md text-sm font-light tracking-wide hover:bg-gray-100 transition-colors duration-200">
-                                <img src="<?= WEB_URL . $child['img'] ?>" alt="<?= $child['name'] ?>"
-                                    class="w-5 h-5 object-contain" />
-                                <span><?= $child['name'] ?></span>
-                            </a>
-                        <?php endforeach; ?>
-                    </div>
-                <?php endif; ?>
+                </div>
 
-            </div>
-
-        <?php endforeach; ?>
+            <?php endforeach; ?>
+        </div>
     </div>
 </div>
 

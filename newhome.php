@@ -183,7 +183,7 @@
     ?>
 
     <?php
-    // include('NewVersion/Homepage/Clients.php')
+    include('NewVersion/Homepage/Clients.php')
     ?>
 
     <?php

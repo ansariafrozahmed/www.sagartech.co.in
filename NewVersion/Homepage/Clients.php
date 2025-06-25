@@ -37,10 +37,10 @@
 </style>
 <div class="bg-white our-clients-section relative">
     <div class="max-w-[1500px] mx-auto space-y-8 px-4 py-8 md:p-8 lg:p-12">
-        <div class="space-y-0.5">
-            <span class="text-sm inline-block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal client-heading">Our Clients Who Shine</span>
-            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading leading-[0.9] uppercase font-black text-[#28282B] client-heading">Our</h3>
-            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading leading-[0.9] uppercase font-black text-[#28282B] client-heading">Clients</h3>
+        <div>
+            <span class="text-sm pb-2 inline-block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal client-heading">Our Clients Who Shine</span>
+            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading leading-none uppercase font-black text-[#28282B] client-heading">Our</h3>
+            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading leading-none uppercase font-black text-[#28282B] client-heading">Clients</h3>
         </div>
 
         <!-- Carousel Wrapper -->
