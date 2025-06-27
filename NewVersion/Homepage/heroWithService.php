@@ -49,13 +49,13 @@
 
     @media (min-width: 1400px) and (max-width: 1499px) {
         .heightWrapper {
-            height: 80vh;
+            height: 85vh;
         }
     }
 
-    @media (min-width: 1500px) {
+    @media (min-width: 1500px) and (max-width: 1599px) {
         .heightWrapper {
-            height: 70vh;
+            height: 80vh;
         }
     }
 </style>
@@ -93,7 +93,7 @@
                 <span class="text-sm text-center block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal">What we offer</span>
                 <h3 class="text-5xl md:text-7xl lg:text-5xl text-center leading-[0.9] font-semibold text-[#28282B]">Our Services</h3>
             </div>
-            <div class="grid grid-cols-5 gap-4">
+            <div class="grid grid-cols-4 gap-4">
                 <div data-float-target="1" class="heightWrapper"></div>
                 <div data-float-target="2" class="heightWrapper"></div>
                 <div data-float-target="3" class="heightWrapper"></div>
