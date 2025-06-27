@@ -183,7 +183,8 @@
         <?php
         include("include/new-services/web-development/servicesProvided.php"); ?>
         <?php
-        include("include/new-services/web-development/videoSection.php"); ?>
+        // include("include/new-services/web-development/videoSection.php"); 
+        ?>
         <?php
         include("include/new-services/web-development/whychooseUs.php"); ?>
         <?php
