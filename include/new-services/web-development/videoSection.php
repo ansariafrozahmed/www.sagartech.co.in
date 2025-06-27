@@ -3,38 +3,38 @@
 <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
 <script src="https://unpkg.com/split-type"></script>
 
-<div class="lg:pb-16 pb-10 lg:px-20 px-4">
+<div class="   h-[100vh] lg:px-20 px-4 flex flex-col justify-center items-center bg-[#A9A9B0]">
     <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
         <!-- Text Area -->
-        <div class="lg:w-1/2 w-full">
-            <section id="heading-section" class=" bg-white">
+        <div class=" w-full">
+            <section id="heading-section" class=" ">
                 <h2
                     id="animated-heading"
-                    class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal max-w-5xl mx-auto ">
+                    class="lg:text-[50px] text-[40px] text-[#fff] max-sm:text-center leading-[1.1] tracking-[0px] font-normal  mx-auto text-center ">
                     Why are <span class="text-red-600">web design</span> and <span class="text-red-600">web
                         development</span> important for your business?
                 </h2>
             </section>
-            <p class="text-[13.5px] font-light tracking-wide text-gray-600 max-sm:text-center mt-4">
+            <p class="text-[13.5px]  font-light tracking-wide text-gray-100 text-center mt-10 " id="animated-subtitle">
                 How a Strong Website Builds Trust, Engagement, and Conversions
             </p>
-            <div class="flex max-sm:justify-center mt-7">
+            <!-- <div class="flex justify-center mt-7">
                 <button data-aos="fade-right" class="button1">
                     <a href="about">About Us</a>
                 </button>
-            </div>
+            </div> -->
         </div>
 
-        <!-- Video Section -->
+        <!-- Video Section
         <div id="videoWrapper"
             class="relative lg:w-1/2 w-full mx-auto max-sm:mt-7 rounded-2xl overflow-hidden shadow-xl group bg-black">
-            <!-- Video -->
+            Video
             <video id="customVideo" class="w-full" poster="new-images/poster.webp">
                 <source src="video/web-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
 
-            <!-- Overlay Play Button -->
+            Overlay Play Button
             <button id="playPauseOverlay"
                 class="absolute inset-0 flex items-center justify-center bg-black/10 text-white text-4xl transition duration-300 group-hover:bg-black/20 z-10">
                 <div class="w-14 h-14 rounded-full bg-red-500 flex justify-center items-center">
@@ -42,7 +42,7 @@
                 </div>
             </button>
 
-            <!-- Custom Controls -->
+            Custom Controls
             <div id="videoControls"
                 class="absolute bottom-0 left-0 right-0 z-20 bg-black/0 backdrop-blur px-4 py-3 flex items-center justify-between gap-4 opacity-0 pointer-events-none transition-opacity duration-300">
                 <button id="playPauseBtn" class="text-white text-lg focus:outline-none" title="Play/Pause">▶</button>
@@ -50,11 +50,11 @@
                     class="w-full h-1 accent-red-500 bg-gray-300 rounded-lg cursor-pointer" />
                 <button id="fullscreenBtn" class="text-white text-lg focus:outline-none" title="Fullscreen">⛶</button>
             </div>
-        </div>
+        </div> -->
     </div>
     <p
         id="animated-paragraph"
-        class="text-[13.5px] font-light tracking-wide text-gray-600  opacity-0 translate-y-6 mt-10">
+        class="text-[13.5px] font-light tracking-wide text-gray-100  opacity-0 text-center translate-y-6 mt-10">
         In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of
         the top web development companies in Mumbai, we are extremely proud of our work as a web design agency
         and our skilled team of developers and designers. Our objective is to create websites that beat your
@@ -199,15 +199,43 @@
         }
     );
 
+    // Animate subtitle
+    gsap.fromTo(
+        "#animated-subtitle", {
+            opacity: 0, // Initial state
+            y: 20 // Start slightly translated down
+        }, {
+            opacity: 1,
+            y: 0,
+            duration: 0.5,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: "#heading-section",
+                start: "top 25%", // Adjusted to trigger when heading is more visible
+                // end: "top 10%",
+                // scrub: 1, // Smooth animation with scroll
+                toggleActions: "play none none reverse" // Play on enter, reverse on leave
+            }
+        }
+    );
+
     // Animate paragraph fade-in-up AFTER heading is mostly visible
-    gsap.to("#animated-paragraph", {
-        scrollTrigger: {
-            trigger: "#heading-section",
-            start: "top 10%", // Trigger after heading mostly appears
-        },
-        opacity: 1,
-        y: 0,
-        duration: 0.5,
-        ease: "none"
-    });
+    gsap.fromTo(
+        "#animated-paragraph", {
+            opacity: 0, // Initial state
+            y: 20 // Start slightly translated down
+        }, {
+            opacity: 1,
+            y: 0,
+            duration: 0.5,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: "#heading-section",
+                start: "top 18%", // Adjusted to trigger when heading is more visible
+                // end: "top 10%",
+                // scrub: 1, // Smooth animation with scroll
+                toggleActions: "play none none reverse"
+            }
+        }
+    );
 </script>
