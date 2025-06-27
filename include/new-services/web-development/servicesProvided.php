@@ -2,7 +2,7 @@
 <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
 <script src="https://unpkg.com/split-type"></script>
 
-<div class="lg:h-[310vh] h-[420vh] relative">
+<div class="">
     <div class="lg:px-20 px-4 bg-white lg:py-16 py-10 flex lg:flex-row flex-col max-sm:items-center justify-between gap-10">
         <div class="lg:w-[55%] w-full">
             <h3 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424] md:text-start text-center">
@@ -88,14 +88,14 @@
     </div>
 
     <!-- Empty box -->
-    <div class="h-[100vh]   w-full" id="animation-bottom"></div>
+    <!-- <div class="h-[100vh]   w-full"></div> -->
 
     <!-- video section -->
-    <div class=" sticky   -z-10 lg:bottom-0 -bottom-20 py-28 bg-center bg-cover  h-[100vh] lg:px-20 px-4 flex flex-col justify-center items-center bg-[url('new-images/sticky-bg4.webp')]">
-        <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/85"></div>
+    <div class=" py-28  h-[100vh] lg:px-20 px-4 flex flex-col justify-center items-center bg-[#565859]">
+        <!-- <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/85"></div> -->
         <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
             <!-- Text Area -->
-            <div class=" w-full">
+            <div class=" w-full" id="animation-bottom">
                 <section id="heading-section" class=" ">
                     <div id="trigger-heading-end" class="h-[1px] w-full"></div>
                     <h2
@@ -106,7 +106,7 @@
                     </h2>
                     <div id="trigger-heading-end" class="h-[1px] w-full"></div>
                 </section>
-                <p class="text-[13.5px] font-light tracking-wide text-gray-400 text-center mt-10 " id="animated-subtitle">
+                <p class="text-[13.5px] font-light tracking-wide text-gray-200 text-center mt-10 " id="animated-subtitle">
                     How a Strong Website Builds Trust, Engagement, and Conversions
                 </p>
                 <!-- <div class="flex justify-center mt-7">
@@ -145,7 +145,7 @@
         </div>
         <p
             id="animated-paragraph"
-            class="text-[13.5px] font-light tracking-wide text-gray-400  opacity-0 text-center translate-y-6 mt-10">
+            class="text-[13.5px] font-light tracking-wide text-gray-200  opacity-0 text-center translate-y-6 my-10">
             In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of
             the top web development companies in Mumbai, we are extremely proud of our work as a web design agency
             and our skilled team of developers and designers. Our objective is to create websites that beat your
@@ -275,8 +275,8 @@
     const headingTimeline = gsap.timeline({
         scrollTrigger: {
             trigger: "#animation-bottom",
-            start: "top 20%",
-            end: "bottom 20%",
+            start: "top 40%",
+            end: "top 12%",
             scrub: 1.2,
             pin: false, // You can enable pin if you want section to hold
             markers: false

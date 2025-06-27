@@ -46,6 +46,12 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
 
+    <!-- GSAP + ScrollTrigger + SplitType -->
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+
+
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -201,8 +207,6 @@
         include("include/new-services/web-development/checklist.php"); ?>
         <?php
         include("include/new-services/web-development/secondLast.php"); ?>
-        <?php
-        include("include/new-services/web-development/textReavelEffect.php"); ?>
         <?php
         include("include/faqs.php"); ?>
     </div>
