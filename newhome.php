@@ -175,15 +175,19 @@
     ?>
 
     <?php
-    include("NewVersion/Homepage/heroWithService.php")
+    // include("NewVersion/Homepage/heroWithService.php")
     ?>
 
     <?php
-    include('NewVersion/Homepage/gsapSlideStacking.php')
+    include("NewVersion/Homepage/newHero.php")
     ?>
 
     <?php
-    include('NewVersion/Homepage/Clients.php')
+    // include('NewVersion/Homepage/gsapSlideStacking.php')
+    ?>
+
+    <?php
+    // include('NewVersion/Homepage/Clients.php')
     ?>
 
     <?php
@@ -241,16 +245,15 @@
     ];
 
     $faqId = "faq1";
-    include 'include/faqs.php';
+    // include 'include/faqs.php';
     ?>
     <?php
     // include("include/homepage/BlogsSection.php");
     ?>
 
     <?php
-    include("NewVersion/StickyFooter.php");
+    // include("NewVersion/StickyFooter.php");
     ?>
-    <script src="https://unpkg.com/lenis@1.3.4/dist/lenis.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

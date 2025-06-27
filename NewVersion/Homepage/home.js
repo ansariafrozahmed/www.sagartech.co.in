@@ -1,23 +1,159 @@
 gsap.registerPlugin(ScrollTrigger);
 
-// LENIS SETUP
-lenis = new Lenis({
-  duration: 1,
-  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-  smooth: true,
-  smoothTouch: false,
-  direction: "vertical",
-  gestureDirection: "vertical",
-  lerp: 0.1,
+//Hero With Service
+gsap.fromTo(
+  ".hero-heading",
+  {
+    translateY: 150,
+  },
+  {
+    translateY: 0,
+    duration: 1.5,
+    ease: "power2.inOut",
+  }
+);
+
+const elem = document.querySelector(".firstSection");
+const mm = gsap.matchMedia();
+
+gsap.fromTo(
+  ".clientShowcase",
+  {
+    translateY: -300,
+    opacity: 0,
+  },
+  {
+    translateY: 0,
+    opacity: 1,
+    duration: 0.7,
+    delay: 1.5,
+    ease: "power2.inOut",
+  }
+);
+
+gsap.fromTo(
+  ".headerWrapper",
+  {
+    translateY: -300,
+    opacity: 0,
+    marginTop: "-70px",
+  },
+  {
+    translateY: 0,
+    marginTop: "0px",
+    opacity: 1,
+    duration: 0.7,
+    delay: 1.5,
+    ease: "power2.inOut",
+  }
+);
+
+mm.add("(max-width: 768px)", () => {
+  // Mobile
+  gsap.fromTo(
+    ".firstSection",
+    {
+      fontSize: "36px",
+      height: "100vh",
+      color: "#c2c2c2",
+      paddingTop: "0px",
+    },
+    {
+      paddingTop: "80px",
+      fontSize: "36px",
+      height: document.querySelector(".firstSection").scrollHeight,
+      duration: 0.7,
+      delay: 1.5,
+      color: "#242424",
+      ease: "power2.inOut",
+    }
+  );
 });
 
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-requestAnimationFrame(raf);
+mm.add("(min-width: 760px) and (max-width: 1024px)", () => {
+  // Tablet
+  gsap.fromTo(
+    ".firstSection",
+    {
+      fontSize: "70px",
+      height: "100vh",
+      color: "#c2c2c2",
+    },
+    {
+      fontSize: "60px",
+      height: document.querySelector(".firstSection").scrollHeight,
+      duration: 0.7,
+      delay: 1.5,
+      color: "#242424",
+      ease: "power2.inOut",
+    }
+  );
+});
 
-//Hero With Service
+mm.add("(min-width: 1025px)", () => {
+  // Desktop
+  gsap.fromTo(
+    ".firstSection",
+    {
+      fontSize: "90px",
+      height: "100vh",
+      paddingTop: "0px",
+      color: "#c2c2c2",
+    },
+    {
+      paddingTop: "50px",
+      fontSize: "60px",
+      height: document.querySelector(".firstSection").scrollHeight,
+      duration: 0.7,
+      delay: 1.5,
+      color: "#242424",
+      ease: "power2.inOut",
+    }
+  );
+});
+
+const boxes = document.querySelectorAll("#grid .box");
+
+boxes.forEach((box) => {
+  const inner = box.querySelector(".inner");
+
+  box.addEventListener("mouseenter", () => {
+    // Animate the hovered box's inner
+    gsap.to(inner, {
+      scaleY: 1.2,
+      scaleX: 1.2,
+      transformOrigin: "bottom center",
+      duration: 0.3,
+      ease: "power2.out",
+    });
+
+    // Animate other boxes' inners
+    boxes.forEach((other) => {
+      if (other !== box) {
+        const otherInner = other.querySelector(".inner");
+        gsap.to(otherInner, {
+          scaleY: 0.9,
+          scaleX: 0.9,
+          transformOrigin: "bottom center",
+          duration: 0.3,
+          ease: "power2.out",
+        });
+      }
+    });
+  });
+
+  box.addEventListener("mouseleave", () => {
+    boxes.forEach((b) => {
+      const bInner = b.querySelector(".inner");
+      gsap.to(bInner, {
+        scaleY: 1,
+        scaleX: 1,
+        duration: 0.3,
+        ease: "power2.out",
+      });
+    });
+  });
+});
 
 // Portfolio Slider
 const scrollSection = document.querySelectorAll(".scroll-section");
