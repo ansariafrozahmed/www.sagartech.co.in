@@ -52,7 +52,7 @@
                     <div class=" h-screen w-full">
                         <video class="lazy-video" preload="none" loop muted playsinline class="h-full w-full object-cover">
                             <source src="<?php WEB_URL ?>video/home/mobile4.mp4" type="video/mp4" loading="lazy" media="(max-width: 768px)">
-                            <source src="<?php WEB_URL ?>video/home/desktop4.mp4" type="video/mp4" loading="lazy" media="(min-width: 769px)">
+                            <source src="<?php WEB_URL ?>video/home/thaigerDesktop.mp4" type="video/mp4" loading="lazy" media="(min-width: 769px)">
                         </video>
                     </div>
                 </div>
