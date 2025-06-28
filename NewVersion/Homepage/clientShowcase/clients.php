@@ -2,7 +2,7 @@
     .slide {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        gap: 1.6rem;
+        gap: 1.5rem;
         position: absolute;
         width: 100%;
         top: 0;
@@ -21,7 +21,7 @@
     @media (max-width: 700px) {
         .slide {
             grid-template-columns: repeat(3, 1fr);
-            gap: 1.1rem;
+            gap: 1rem;
         }
     }
 
@@ -39,8 +39,8 @@
     <div class="max-w-[1500px] mx-auto space-y-8 px-4 py-8 md:p-8 lg:p-12">
         <div>
             <span class="text-sm pb-2 inline-block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal client-heading">Our Clients Who Shine</span>
-            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading leading-none uppercase font-black text-[#28282B] client-heading">Our</h3>
-            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading leading-none uppercase font-black text-[#28282B] client-heading">Clients</h3>
+            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading !leading-[0.9] uppercase font-black text-[#28282B] client-heading">Our</h3>
+            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading !leading-[0.9] uppercase font-black text-[#28282B] client-heading">Clients</h3>
         </div>
 
         <!-- Carousel Wrapper -->
@@ -49,7 +49,7 @@
 
         </div>
         <div class="max-w-[1500px] mx-auto w-full h-[2px] bg-gray-200">
-            <div id="slide-loader" class="h-full bg-black w-0"></div>
+            <div id="slide-loader" class="h-full bg-[#b6b6b6] w-0"></div>
         </div>
     </div>
 </div>

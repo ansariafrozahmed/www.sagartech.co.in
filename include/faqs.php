@@ -16,6 +16,8 @@
         </div>
     </div>
 
+
+
     <script>
         const faqData_<?php echo $faqId; ?> = <?php echo json_encode($faqData); ?>;
         const container_<?php echo $faqId; ?> = document.getElementById('faq-container-<?php echo $faqId; ?>');

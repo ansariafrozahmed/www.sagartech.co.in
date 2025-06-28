@@ -86,9 +86,11 @@ document.addEventListener("DOMContentLoaded", () => {
         height: "100vh",
         paddingTop: "0px",
         color: "#c2c2c2",
+        marginTop: "-70px",
       },
       {
         paddingTop: "50px",
+        marginTop: "0px",
         fontSize: "60px",
         height: firstSection.scrollHeight,
         duration: 0.7,
@@ -116,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (other !== box) {
           const otherInner = other.querySelector(".inner");
           gsap.to(otherInner, {
-            scale: 0.9,
+            scale: 1,
             opacity: 0.3,
             transformOrigin: "center center",
             duration: 0.3,

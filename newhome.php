@@ -179,11 +179,18 @@
     // include("NewVersion/Homepage/heroWithService.php")
     ?>
 
-    <?php include("NewVersion/Homepage/newHero/newHero.php") ?>
+    <?php
+    include("NewVersion/Homepage/newHero/newHero.php")
+    ?>
 
-    <?php include('NewVersion/Homepage/portfolio/gsapSlideStacking.php') ?>
+    <?php
+    include('NewVersion/Homepage/portfolio/gsapSlideStacking.php')
+    ?>
 
-    <?php include('NewVersion/Homepage/clientShowcase/clients.php') ?>
+
+    <?php
+    include('NewVersion/Homepage/clientShowcase/clients.php')
+    ?>
 
 
 
@@ -242,7 +249,7 @@
     ];
 
     $faqId = "faq1";
-    // include 'include/faqs.php';
+    include 'include/faqs.php';
     ?>
     <?php
     // include("include/homepage/BlogsSection.php");

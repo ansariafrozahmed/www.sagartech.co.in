@@ -4,46 +4,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Client carousel logic
   const clients = [
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
-    "https://www.datocms-assets.com/151374/1741889762-beauty-prose-edited.png",
+    "client-logos/Thaiger.png",
+    "client-logos/educ4ate.webp",
+    "client-logos/dontquit.png",
+    "client-logos/verify8-1.png",
+    "client-logos/syrocs logo.webp",
+    "client-logos/axxio-laboratory.webp",
+    "client-logos/yovant_recruitment_logo.webp",
+    "client-logos/varela-american logo.webp",
+    "client-logos/processindia.webp",
+    "client-logos/saudiwells.png",
+    "client-logos/BARKAT AL DUHA logo.webp",
+    "client-logos/alsalama.png",
   ];
 
   const w = window.innerWidth;
-  const ITEMS_PER_SLIDE = w <= 768 ? 9 : w <= 1024 ? 12 : 18;
+  const ITEMS_PER_SLIDE = w <= 768 ? 12 : w <= 1024 ? 12 : 18;
 
   const slides = [];
   let currentSlideIndex = 0;
@@ -59,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     slide.innerHTML = group
       .map(
         (img) => `
-      <div class="border border-[#45454a] bg-white rounded-lg p-4 md:p-6 aspect-[4/2.8] lg:aspect-[4/2.2] flex items-center justify-center">
+      <div class="border border-[#b6b6b6] bg-white rounded-lg px-3 py-2 aspect-[4/2.8] lg:aspect-[4/2.5] flex items-center justify-center">
         <img class="h-full w-full object-contain" src="${img}" alt="client logo">
       </div>
     `
