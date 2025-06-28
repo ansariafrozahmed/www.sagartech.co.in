@@ -19,11 +19,11 @@ const mm = gsap.matchMedia();
 gsap.fromTo(
   ".clientShowcase",
   {
-    translateY: -300,
+    top: -300,
     opacity: 0,
   },
   {
-    translateY: 0,
+    top: 0,
     opacity: 1,
     duration: 0.7,
     delay: 1.5,
@@ -120,9 +120,9 @@ boxes.forEach((box) => {
   box.addEventListener("mouseenter", () => {
     // Animate the hovered box's inner
     gsap.to(inner, {
-      scaleY: 1.2,
-      scaleX: 1.2,
-      transformOrigin: "bottom center",
+      scale: 1.15,
+      opacity: 1,
+      transformOrigin: "center center",
       duration: 0.3,
       ease: "power2.out",
     });
@@ -132,9 +132,9 @@ boxes.forEach((box) => {
       if (other !== box) {
         const otherInner = other.querySelector(".inner");
         gsap.to(otherInner, {
-          scaleY: 0.9,
-          scaleX: 0.9,
-          transformOrigin: "bottom center",
+          scale: 0.9,
+          opacity: 0.3,
+          transformOrigin: "center center",
           duration: 0.3,
           ease: "power2.out",
         });
@@ -146,8 +146,8 @@ boxes.forEach((box) => {
     boxes.forEach((b) => {
       const bInner = b.querySelector(".inner");
       gsap.to(bInner, {
-        scaleY: 1,
-        scaleX: 1,
+        scale: 1,
+        opacity: 1,
         duration: 0.3,
         ease: "power2.out",
       });

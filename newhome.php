@@ -183,11 +183,11 @@
     ?>
 
     <?php
-    // include('NewVersion/Homepage/gsapSlideStacking.php')
+    include('NewVersion/Homepage/gsapSlideStacking.php')
     ?>
 
     <?php
-    // include('NewVersion/Homepage/Clients.php')
+    include('NewVersion/Homepage/Clients.php')
     ?>
 
     <?php
@@ -257,7 +257,7 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="NewVersion/Homepage/home.js"></script>
+    <script src="<?php WEB_URL ?>/NewVersion/Homepage/home.js"></script>
 </body>
 
 </html>

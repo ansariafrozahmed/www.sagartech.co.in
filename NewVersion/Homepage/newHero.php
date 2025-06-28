@@ -1,5 +1,5 @@
 <div class=" max-w-[1500px]   px-4 pb-12 mx-auto">
-  <div class="h-[210px]  md:h-[260px] md:pb-4 gap-0 flex flex-col items-center justify-center firstSection leading-none">
+  <div class="h-[210px]  md:h-[260px] md:pb-0 gap-0 flex flex-col items-center justify-center firstSection leading-none">
     <div class="clientShowcase flex mb-2 items-center justify-center gap-2">
       <div
         class="h-[22px] md:h-[26px] border-2 border-white w-[24px] md:w-[26px] rounded-full overflow-hidden">
@@ -35,24 +35,34 @@
   </div>
 </div>
 
-<div class="max-w-[1500px] space-y-5 mx-auto px-4 pb-10 md:px-8 lg:px-12">
-  <h2 class="text-center text-xl tracking-wide uppercase">Our Services</h2>
-  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4" id="grid">
+<div class="max-w-[1500px] space-y-4 mx-auto px-4 pb-10 md:px-8 lg:px-12">
+  <h2 class="text-center text-2xl tracking-wide uppercase">Our Services</h2>
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5" id="grid">
 
-    <div class="box   aspect-square ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom"></div>
+    <div class="box   aspect-square cursor-pointer p-2 ">
+      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+        <img src="./brand-identity/oasis.webp" class="h-full w-full object-cover" alt="">
+      </div>
     </div>
-    <div class="box   aspect-square ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom"></div>
+    <div class="box   aspect-square cursor-pointer p-2 ">
+      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+        <img src="./brand-identity/oasis.webp" class="h-full w-full object-cover" alt="">
+      </div>
     </div>
-    <div class="box   aspect-square ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom"></div>
+    <div class="box   aspect-square cursor-pointer p-2 ">
+      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+        <img src="./brand-identity/oasis.webp" class="h-full w-full object-cover" alt="">
+      </div>
     </div>
-    <div class="box   aspect-square ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom"></div>
+    <div class="box   aspect-square cursor-pointer p-2 ">
+      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+        <img src="./brand-identity/oasis.webp" class="h-full w-full object-cover" alt="">
+      </div>
     </div>
-    <div class="box   aspect-square ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom"></div>
+    <div class="box   aspect-square cursor-pointer p-2 ">
+      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+        <img src="./brand-identity/oasis.webp" class="h-full w-full object-cover" alt="">
+      </div>
     </div>
   </div>
 </div>
