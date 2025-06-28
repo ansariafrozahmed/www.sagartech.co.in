@@ -1,22 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Best Web Design and Web Development Company in Mumbai</title>
+    <title>Best App Design and App Development Company in Mumbai</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
-        content="Are you trying to find a web development company? Our knowledgeable web designers in Mumbai fulfil your digital vision. We deliver excellence.">
-    <meta name="keywords" content="Web Development">
+        content="Are you trying to find a App development company? Our knowledgeable web designers in Mumbai fulfil your digital vision. We deliver excellence.">
+    <meta name="keywords" content="app Development">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Best Web Design and Web Development Company in Mumbai">
-    <meta property="og:url" content="https://sagartech.co.in/webDevelopment">
+    <meta property="og:title" content="Best App Design and App Development Company in Mumbai">
+    <meta property="og:url" content="https://sagartech.co.in/newAppDevelopment">
     <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/web-development-og.webp">
     <meta property="og:description"
-        content="Are you trying to find a web development company? Our knowledgeable web designers in Mumbai fulfil your digital vision. We deliver excellence.">
+        content="Are you trying to find a App development company? Our knowledgeable web designers in Mumbai fulfil your digital vision. We deliver excellence.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/webDevelopment" />
+    <link rel="canonical" href="https://sagartech.co.in/newAppDevelopment" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
     <!-- <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'> -->
     <!-- bootstrap -->
@@ -77,6 +77,7 @@
         }
     </script>
 </head>
+
 <style type="text/css">
     * {
         margin: 0;
@@ -167,89 +168,54 @@
         background-color: #b91c1c !important;
         /* Tailwind red-700 */
     }
-</style>
-</style>
 
-<body>
-    <!-- <div id="loading">
-        <div id="loading-center">
-            <img src="images/logoonly.jpg" alt="sagar tech logo" title="sagar tech logo">
-        </div>
-    </div> -->
-    <?php
-    $page = 'services';
-    include("include/newHeader.php"); ?>
-    <!-- Top Banner with Breadcrumb -->
+    .newsecondsection {
+        padding: 50px 60px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: start;
+    }
 
+    .newsecondsection .left {
+        width: 50%;
+    }
 
-    <div class=" lg:pt-16 pt-10">
+    .newsecondsection .left h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
 
-        <?php
-        include("include/new-services/web-development/landingSection.php"); ?>
-        <?php
-        include("include/new-services/web-development/servicesProvided.php"); ?>
-        <?php
-        // include("include/new-services/web-development/videoSection.php"); 
-        ?>
-        <?php
-        include("include/new-services/web-development/whychooseUs.php"); ?>
-        <?php
-        include("include/new-services/web-development/new-our-Client.php"); ?>
-        <?php
-        include("include/new-services/web-development/developmentServices.php"); ?>
-        <?php
-        include("include/new-services/web-development/carousel.php"); ?>
-        <?php
-        include("include/new-services/web-development/tanstack.php"); ?>
-        <?php
-        include("include/new-services/web-development/ourProcess.php"); ?>
-        <?php
-        include("include/new-services/web-development/checklist.php"); ?>
-        <?php
-        include("include/new-services/web-development/secondLast.php"); ?>
-        <?php
-        include("include/faqs.php"); ?>
-    </div>
-    <!-- /HEADER END -->
+    .newsecondsection .left h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
 
+    .newsecondsection .right {
+        width: 50%;
+    }
 
+    .newsecondsection .right img {
+        height: 100%;
+        width: 100%;
+    }
 
+    @media only screen and (max-width: 767px) {
+        .dsanjkdhw0qp {
+            height: auto !important;
+        }
 
-
-
-    <script>
-        document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
-            accordionToggle.addEventListener('click', () => {
-                const accordionItem = accordionToggle.parentNode;
-                const accordionContent = accordionToggle.nextElementSibling;
-
-                // If this accordion item is already open, close it.
-                if (accordionContent.style.maxHeight) {
-                    accordionContent.style.maxHeight = null;
-                    accordionItem.classList.remove('active');
-                } else {
-                    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-                    accordionItem.classList.add('active');
-                }
-            });
-        });
-    </script>
-
-
-
-
-
-    <style>
         .newsecondsection {
-            padding: 50px 60px;
+            padding: 50px 20px;
             display: flex;
-            gap: 50px;
+            flex-direction: column-reverse;
+            gap: 20px;
             align-items: center;
             justify-content: start;
         }
 
         .newsecondsection .left {
-            width: 50%;
+            width: 100%;
         }
 
         .newsecondsection .left h2 {
@@ -263,81 +229,93 @@
         }
 
         .newsecondsection .right {
-            width: 50%;
+            width: 100%;
         }
 
         .newsecondsection .right img {
             height: 100%;
             width: 100%;
         }
+    }
+</style>
 
-        @media only screen and (max-width: 767px) {
-            .dsanjkdhw0qp {
-                height: auto !important;
-            }
+<body>
+    <?php
+    $page = 'services';
+    include("include/newHeader.php"); ?>
 
-            .newsecondsection {
-                padding: 50px 20px;
-                display: flex;
-                flex-direction: column-reverse;
-                gap: 20px;
-                align-items: center;
-                justify-content: start;
-            }
+    <div class=" lg:pt-16 pt-10">
+        <?php
+        include("include/new-services/new-app-development/landingSection.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/servicesProvided.php"); ?>
+        <?php
+        // include("include/new-services/new-app-development/videoSection.php"); 
+        ?>
+        <?php
+        include("include/new-services/new-app-development/whychooseUs.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/new-our-Client.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/developmentServices.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/carousel.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/tanstack.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/ourProcess.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/checklist.php"); ?>
+        <?php
+        include("include/new-services/new-app-development/secondLast.php"); ?>
+        <?php
+        include("include/faqs.php"); ?>
 
-            .newsecondsection .left {
-                width: 100%;
-            }
-
-            .newsecondsection .left h2 {
-                font-size: 30px;
-                font-weight: 600;
-            }
-
-            .newsecondsection .left h3 {
-                font-size: 20px;
-                font-weight: 500;
-            }
-
-            .newsecondsection .right {
-                width: 100%;
-            }
-
-            .newsecondsection .right img {
-                height: 100%;
-                width: 100%;
-            }
-        }
-    </style>
-
-
-
-    <?php include("include/footer.php"); ?>
-    <script src="js/custom.js"></script>
-    <script type="text/javascript">
-        (function() {
-            var options = {
-                whatsapp: "+919820133303", // WhatsApp number
-                email: "info@sagartech.co.in", // Email
-                call_to_action: "Contact Us", // Call to action
-                button_color: "#FF0808", // Color of button
-                position: "left", // Position may be 'right' or 'left'
-                order: "whatsapp,email", // Order of buttons
-            };
-            var proto = document.location.protocol,
-                host = "getbutton.io",
-                url = proto + "//static." + host;
-            var s = document.createElement('script');
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = url + '/widget-send-button/js/init.js';
-            s.onload = function() {
-                WhWidgetSendButton.init(host, proto, options);
-            };
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-        })();
-    </script>
+        <?php include("include/footer.php"); ?>
+    </div>
 </body>
+
+<script>
+    document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
+        accordionToggle.addEventListener('click', () => {
+            const accordionItem = accordionToggle.parentNode;
+            const accordionContent = accordionToggle.nextElementSibling;
+
+            // If this accordion item is already open, close it.
+            if (accordionContent.style.maxHeight) {
+                accordionContent.style.maxHeight = null;
+                accordionItem.classList.remove('active');
+            } else {
+                accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+                accordionItem.classList.add('active');
+            }
+        });
+    });
+</script>
+<script src="js/custom.js"></script>
+<script type="text/javascript">
+    (function() {
+        var options = {
+            whatsapp: "+919820133303", // WhatsApp number
+            email: "info@sagartech.co.in", // Email
+            call_to_action: "Contact Us", // Call to action
+            button_color: "#FF0808", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "whatsapp,email", // Order of buttons
+        };
+        var proto = document.location.protocol,
+            host = "getbutton.io",
+            url = proto + "//static." + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function() {
+            WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    })();
+</script>
 
 </html>

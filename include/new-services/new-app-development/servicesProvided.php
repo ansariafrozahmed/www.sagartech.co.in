@@ -6,60 +6,60 @@
     <div class="lg:px-20 px-4 bg-white lg:py-16 py-10 flex lg:flex-row flex-col max-sm:items-center justify-between gap-10">
         <div class="lg:w-[55%] w-full">
             <h3 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424] md:text-start text-center">
-                We are committed to finding innovative and unconventional solutions. Pushing boundaries to exceed <span class="text-red-500">client goals</span>.
+                We are committed to building innovative and user-centric mobile apps. Pushing boundaries to exceed <span class="text-red-500">client goals</span>.
             </h3>
             <div class="max-w-[500px]  md:mx-0 mx-auto md:flex md:flex-wrap lg:justify-normal md:justify-center  gap-3 mt-10">
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Ecommerce Website
+                    Android App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Dynamic Website
+                    iOS App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Static Website
+                    Hybrid App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Blog Website
+                    Cross-Platform App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Travel & Tourism Website
+                    E-commerce App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Portfolio Website
+                    Travel & Tourism App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Hotel Managment Website
+                    Hotel Booking App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Business Website
+                    Business App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Logistic Website
+                    Logistics App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Healthcare Website
+                    Healthcare App
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Human Resource Website
+                    HR Management App
                 </div>
             </div>
             <div class=" flex gap-10 items-center max-sm:justify-center mt-10 ">
                 <div class="">
                     <div class=" text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
-                        20+
+                        3+
                     </div>
                     <hr class="my-2">
                     <div class="text-[13.5px] font-light tracking-wide text-gray-600 mt-">
-                        Team member
+                        App Experts
                     </div>
                 </div>
                 <div class="">
                     <div class=" text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
-                        500+
+                        10+
                     </div>
                     <hr class="my-2">
                     <div class="text-[13.5px] font-light tracking-wide text-gray-600 mt-">
-                        Completed Projects
+                        Apps Delivered
                     </div>
                 </div>
                 <div class="">
@@ -68,11 +68,12 @@
                     </div>
                     <hr class="my-2">
                     <div class="text-[13.5px] font-light tracking-wide text-gray-600 mt-">
-                        In the business
+                        App Development Experience
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="lg:w-[45%] w-full">
             <video
                 class="md:max-w-[400px] max-w-[350px] h-auto block object-cover"
@@ -101,13 +102,12 @@
                     <h2
                         id="animated-heading"
                         class="lg:text-[50px] text-[40px] text-[#fff] max-sm:text-center leading-[1.1] tracking-[0px] font-normal  mx-auto text-center ">
-                        Why are <span class="text-red-600">Web Design</span> and <span class="text-red-600">Web
-                            Development</span> important for your business?
+                        Why <span class="text-red-500">Mobile App Development</span> is Important For Your Business ?
                     </h2>
                     <div id="trigger-heading-end" class="h-[1px] w-full"></div>
                 </section>
                 <p class="text-[13.5px] font-light tracking-wide text-gray-200 text-center mt-10 " id="animated-subtitle">
-                    How a Strong Website Builds Trust, Engagement, and Conversions
+                    How a Strong App Builds Trust, Engagement, and Conversions
                 </p>
                 <!-- <div class="flex justify-center mt-7">
                 <button data-aos="fade-right" class="button1">
@@ -146,13 +146,7 @@
         <p
             id="animated-paragraph"
             class="text-[13.5px] font-light tracking-wide text-gray-200  opacity-0 text-center translate-y-6 my-10">
-            In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of
-            the top web development companies in Mumbai, we are extremely proud of our work as a web design agency
-            and our skilled team of developers and designers. Our objective is to create websites that beat your
-            expectations and provide you with a unique online presence. In the present digital age, having a strong
-            online presence is crucial, and we can assist you in making your ideas a reality. You can count on our
-            expertise as a leading web design company in India to produce a website that perfectly represents your
-            brand.
+            Mobile app development has become increasingly important for businesses across various industries. With a mobile app you connect with more people across the globe mobile app, your business is open 24/7. People can reach you wherever they are, free. This makes things super convenient for them.Your app's icon on their phones helps people remember you. It's like a little billboard for your brand that they carry around.
         </p>
     </div>
 </div>

@@ -23,7 +23,7 @@
                         </p>
                         <div class="flex justify-center mt-5">
                             <button class="button1">
-                                <a href="our-clients">View All</a>
+                                <a href="projects">View All</a>
                             </button>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                         </p>
                         <div class="flex justify-center mt-5">
                             <button class="button1">
-                                <a href="our-clients">View All</a>
+                                <a href="projects">View All</a>
                             </button>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                         </p>
                         <div class="flex justify-center mt-5">
                             <button class="button1">
-                                <a href="our-clients">View All</a>
+                                <a href="projects">View All</a>
                             </button>
                         </div>
                     </div>
