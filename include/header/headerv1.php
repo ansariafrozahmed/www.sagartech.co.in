@@ -207,8 +207,8 @@
         }
     </style>
 
-    <header class="bg-white relative z-[999999]">
-        <nav class="max-w-[1500px] mx-auto px-4 sm:px-6 md:px-12 lg:px-12 py-4 flex items-center justify-between">
+    <header class="bg-white  h-[73px] my-auto relative z-[999999]">
+        <nav class="max-w-[1500px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-4 flex items-center justify-between">
             <!-- Logo -->
             <div class="flex items-center">
                 <a href="#" class="flex items-center space-x-2" aria-label="Company Home">
@@ -228,7 +228,7 @@
                 </svg>
             </button>
             <!-- Navigation desktop Links -->
-            <div id="nav-menu" class="hidden lg:flex lg:items-center lg:space-x-4 xl:space-x-6">
+            <div id="nav-menu" class="hidden lg:flex font-light tracking-wide text-sm lg:items-center lg:space-x-4 xl:space-x-6">
                 <a href="/insights" class="text-black hover:text-gray-600">Home</a>
                 <div class="relative" id="services-container">
                     <button id="services-button" class="text-black hover:text-gray-600 flex items-center space-x-1"

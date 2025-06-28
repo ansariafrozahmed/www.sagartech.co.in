@@ -9,7 +9,7 @@
     opacity: 0;
   }
 </style>
-<div class=" max-w-[1500px]   px-4 pb-12 mx-auto">
+<div class="    pb-12 mx-auto">
   <div class="h-[210px]  md:h-[260px] md:pb-0 gap-0 flex flex-col items-center justify-center  firstSection leading-none">
     <div class="clientShowcase flex mb-2 items-center justify-center gap-2">
       <div
@@ -39,7 +39,7 @@
     </div>
   </div>
   <div class="max-w-[500px] lg:max-w-[550px] mx-auto">
-    <p class="text-[13.5px] text-center font-light tracking-wide text-gray-600">
+    <p class="text-[13.5px] text-center px-4 font-light tracking-wide text-gray-600">
       Sagar Tech Technical Solution Is Award Winning Web Development and Digital
       Marketing Agency In Mumbai.
     </p>

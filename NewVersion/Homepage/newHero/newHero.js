@@ -44,8 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         fontSize: "36px",
         height: "100vh",
+        marginTop: "-73px",
         color: "#c2c2c2",
         paddingTop: "0px",
+        backgroundColor: "#242424",
       },
       {
         paddingTop: "80px",
@@ -53,8 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
         height: firstSection.scrollHeight,
         duration: 0.7,
         delay: 1.5,
+        marginTop: "0px",
         color: "#242424",
         ease: "power2.inOut",
+        backgroundColor: "#fff",
       }
     );
   });
@@ -65,7 +69,9 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         fontSize: "70px",
         height: "100vh",
+        marginTop: "-73px",
         color: "#c2c2c2",
+        backgroundColor: "#242424",
       },
       {
         fontSize: "60px",
@@ -74,6 +80,8 @@ document.addEventListener("DOMContentLoaded", () => {
         delay: 1.5,
         color: "#242424",
         ease: "power2.inOut",
+        marginTop: "0px",
+        backgroundColor: "#fff",
       }
     );
   });
@@ -86,12 +94,14 @@ document.addEventListener("DOMContentLoaded", () => {
         height: "100vh",
         paddingTop: "0px",
         color: "#c2c2c2",
-        marginTop: "-70px",
+        marginTop: "-73px",
+        backgroundColor: "#242424",
       },
       {
         paddingTop: "50px",
         marginTop: "0px",
         fontSize: "60px",
+        backgroundColor: "#fff",
         height: firstSection.scrollHeight,
         duration: 0.7,
         delay: 1.5,
