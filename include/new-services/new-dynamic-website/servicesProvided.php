@@ -6,73 +6,74 @@
     <div class="lg:px-20 px-4 bg-white lg:py-16 py-10 flex lg:flex-row flex-col max-sm:items-center justify-between gap-10">
         <div class="lg:w-[55%] w-full">
             <h3 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424] md:text-start text-center">
-                We are committed to finding innovative and unconventional solutions. Pushing boundaries to exceed <span class="text-red-500">client goals</span>.
+                We specialize in creating powerful and user-friendly <span class="">dynamic websites</span> tailored to your business goals.
             </h3>
-            <div class="max-w-[500px]  md:mx-0 mx-auto md:flex md:flex-wrap lg:justify-normal md:justify-center  gap-3 mt-10">
+            <div class="max-w-[500px] md:mx-0 mx-auto md:flex md:flex-wrap lg:justify-normal md:justify-center gap-3 mt-10">
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Ecommerce Website
+                    CMS-Based Website
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Dynamic Website
+                    Admin Panel Integration
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Static Website
+                    Dynamic Product Listings
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Blog Website
+                    Membership/Subscription System
+                </div>
+                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
+                    Booking & Appointment Websites
+                </div>
+                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
+                    Business Portals
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
                     Travel & Tourism Website
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Portfolio Website
+                    Real-Time Data Integration
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Hotel Managment Website
+                    Dynamic Blog System
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Business Website
+                    E-commerce Functionality
                 </div>
                 <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Logistic Website
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Healthcare Website
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Human Resource Website
+                    CRM Integration
                 </div>
             </div>
-            <div class=" flex gap-10 items-center max-sm:justify-center mt-10 ">
-                <div class="">
-                    <div class=" text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
+            <div class="flex gap-10 items-center max-sm:justify-center mt-10">
+                <div>
+                    <div class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
                         20+
                     </div>
                     <hr class="my-2">
-                    <div class="text-[13.5px] font-light tracking-wide text-gray-600 mt-">
-                        Team member
+                    <div class="text-[13.5px] font-light tracking-wide text-gray-600">
+                        Dynamic Website Experts
                     </div>
                 </div>
-                <div class="">
-                    <div class=" text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
-                        500+
+                <div>
+                    <div class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
+                        100+
                     </div>
                     <hr class="my-2">
-                    <div class="text-[13.5px] font-light tracking-wide text-gray-600 mt-">
-                        Completed Projects
+                    <div class="text-[13.5px] font-light tracking-wide text-gray-600">
+                        Dynamic Websites Delivered
                     </div>
                 </div>
-                <div class="">
-                    <div class=" text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
+                <div>
+                    <div class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
                         8+ Years
                     </div>
                     <hr class="my-2">
-                    <div class="text-[13.5px] font-light tracking-wide text-gray-600 mt-">
-                        In the business
+                    <div class="text-[13.5px] font-light tracking-wide text-gray-600">
+                        In Dynamic Web Development
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="lg:w-[45%] w-full">
             <video
                 class="md:max-w-[400px] max-w-[350px] h-auto block object-cover"
@@ -91,7 +92,7 @@
     <!-- <div class="h-[100vh]   w-full"></div> -->
 
     <!-- video section -->
-    <div class=" py-28  h-[100vh] lg:px-20 px-4 flex flex-col justify-center items-center bg-[#565859]">
+    <div class=" lg:py-28 py-12  lg:px-20 px-4 flex flex-col justify-center items-center bg-gray-100 ">
         <!-- <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/85"></div> -->
         <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
             <!-- Text Area -->
@@ -100,14 +101,13 @@
                     <div id="trigger-heading-end" class="h-[1px] w-full"></div>
                     <h2
                         id="animated-heading"
-                        class="lg:text-[50px] text-[40px] text-[#fff] max-sm:text-center leading-[1.1] tracking-[0px] font-normal  mx-auto text-center ">
-                        Why are <span class="text-red-600">Web Design</span> and <span class="text-red-600">Web
-                            Development</span> important for your business?
+                        class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal  mx-auto text-center ">
+                        Why Your Business Need <span class="">Dynamic Website</span> Development
                     </h2>
                     <div id="trigger-heading-end" class="h-[1px] w-full"></div>
                 </section>
-                <p class="text-[13.5px] font-light tracking-wide text-gray-200 text-center mt-10 " id="animated-subtitle">
-                    How a Strong Website Builds Trust, Engagement, and Conversions
+                <p class="text-[13.5px] font-light tracking-wide text-gray-700 text-center mt-10 " id="animated-subtitle">
+                    How a Strong App Builds Trust, Engagement, and Conversions
                 </p>
                 <!-- <div class="flex justify-center mt-7">
                 <button data-aos="fade-right" class="button1">
@@ -145,15 +145,57 @@
         </div>
         <p
             id="animated-paragraph"
-            class="text-[13.5px] font-light tracking-wide text-gray-200  opacity-0 text-center translate-y-6 my-10">
-            In web development, we at Sagar Tech Technical Solutions combine creativity and intelligence. As one of
-            the top web development companies in Mumbai, we are extremely proud of our work as a web design agency
-            and our skilled team of developers and designers. Our objective is to create websites that beat your
-            expectations and provide you with a unique online presence. In the present digital age, having a strong
-            online presence is crucial, and we can assist you in making your ideas a reality. You can count on our
-            expertise as a leading web design company in India to produce a website that perfectly represents your
-            brand.
+            class="text-[13.5px] font-light tracking-wide text-gray-500  opacity-0 text-center translate-y-6 my-10">
+            In the digital age, a dynamic website is no longer a choice: it is a requirement for businesses seeking to establish a strong online presence and stay ahead of the competition. At Sagar Tech Technical Solution, we recognize the value of dynamic website development in driving business growth and increasing customer engagement. Here are some strong reasons why your business should have a dynamic website.
         </p>
+        <div class="">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 place-items-center" id="grid-column-container">
+                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center" id="grid-column-section">
+                    <img src="new-icons/experience.png" class="w-10" alt="">
+                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Enhanced User Experience</h3>
+                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
+                        Dynamic sites provide a more interactive and engaging user experience. With enhanced features you can give visitors a smooth and enjoyable browsing experience.
+                    </p>
+                </div>
+                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
+                    <img src="new-icons/performance.png" class="w-10" alt="">
+                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Improved SEO Performance</h3>
+                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
+                        Dynamic websites are naturally more SEO-friendly than static websites. They allow you to create SEO-friendly URLs and dynamic content and easily integrate meta tags.
+                    </p>
+                </div>
+                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
+                    <img src="new-icons/inc-sale.png" class="w-10" alt="">
+                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Increased Sales</h3>
+                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
+                        The online marketplace is dynamic and ever-expanding. An E-commerce website opens up new avenues for sales.
+                    </p>
+                </div>
+                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
+                    <img src="new-icons/scalability-black.png" class="w-10" alt="">
+                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Scalability
+                    </h3>
+                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
+                        Dynamic websites are highly scalable and can quickly expand and change as your company grows. Whether you need to add new products, expand your services.
+                    </p>
+                </div>
+                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
+                    <img src="new-icons/cost-effect.png" class="w-10" alt="">
+                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Cost-Effectiveness</h3>
+                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
+                        While dynamic website development may require a more initial investment than static website development.
+                    </p>
+                </div>
+                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
+                    <img src="new-icons/conversion-rate.png" class="w-10" alt="">
+                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Improved Conversion Rates
+                    </h3>
+                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
+                        Dynamic websites aim to turn visitors into customers. With features like personalised content and targeted calls to action.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -321,4 +363,32 @@
             ease: "power2.out"
         }
     );
+</script>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Disable animation if screen width is less than 768px (typical mobile breakpoint)
+    if (window.innerWidth >= 768) {
+        const cards = gsap.utils.toArray("#grid-column-container > div");
+
+        const timeline = gsap.timeline({
+            scrollTrigger: {
+                trigger: "#grid-column-container",
+                start: "top 20%",
+                end: "+=1200",
+                pin: true,
+                scrub: 1.5
+            }
+        });
+
+        cards.forEach((card) => {
+            timeline.from(card, {
+                x: 400,
+                opacity: 0,
+                duration: 0.6,
+                ease: "power2.out"
+            }, ">");
+        });
+    }
 </script>

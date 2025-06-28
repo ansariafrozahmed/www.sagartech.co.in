@@ -35,19 +35,7 @@
     <meta property="og:url" content="https://sagartech.co.in/about">
     <meta property="og:site_name" content="Sagar Tech - Technical Solution">
     <meta property="og:image" content="https://sagartech.co.in/images/sagartech1.webp">
-    <script>
-        window.addEventListener('load', function() {
-            // Wait a bit in case Elfsight loads content after DOM is ready
-            setTimeout(function() {
-                const links = document.querySelectorAll('a');
-                links.forEach(function(link) {
-                    if (link.textContent.trim() === 'Free Google Reviews widget') {
-                        link.style.display = 'none';
-                    }
-                });
-            }, 2000); // 2-second delay to allow widget to render
-        });
-    </script>
+
 
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156939866-1"></script>
@@ -96,7 +84,9 @@
         font-family: "Bricolage Grotesque", sans-serif;
     }
 
-    .content-all {}
+    a:contains("Free Google Reviews widget") {
+        display: none;
+    }
 
     .slider {
         animation: slide 40s linear infinite;
@@ -245,6 +235,17 @@
             // easing: 'ease-in-out', // Easing function
             once: true, // Animate only once while scrolling down
             mirror: false // Don't animate while scrolling back up
+        });
+    </script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                if (link.textContent.trim() === "Free Google Reviews widget") {
+                    link.style.display = 'none';
+                }
+            });
         });
     </script>
 

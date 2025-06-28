@@ -1,0 +1,67 @@
+<div class="lg:pb-20 lg:pt-20 pb-10 lg:px-20 px-4">
+    <h1 id="scale-heading"
+        class="lg:text-7xl text-3xl lg:text-start text-center max-sm:mt-16 tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#242424]">
+        Dynamic Website Developer & Designing Company In Mumbai
+    </h1>
+    <p class="text-[13.5px] font-light tracking-wide text-gray-600 leading-7 mt-7 max-w-[800px] w-full lg:text-start text-justify">
+        In today's digital world, having a dynamic website is more than a trend, it's a strategic decision that can greatly benefit your company. Unlike static websites, which remain unchanged for long periods of time, dynamic websites are designed to be flexible and responsive, allowing you to update content, add new features, and make changes quickly and easily. One of the main advantages of dynamic websites is the ability to provide a personalised and dynamic user experience.
+    </p>
+    <div class="flex items-center max-sm:justify-center  h-[50px] gap-3 !mt-10">
+        <div class="">
+            <a href="#open-modal" class=" rounded-full">
+
+                <button
+                    class="relative px-[30px] py-[10px] text-[15px] font-normal !bg-[#242424]  text-[#fff] border border-gray-500 hover:text-[#242424] rounded-full overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] group bg-transparent">
+                    <span class="relative z-10 text-sm">Quick Enquiry</span>
+
+                    <!-- expanding circle effect -->
+                    <span
+                        class="absolute inset-0 m-auto w-[50px] h-[50px] bg-[#fff] rounded-full scale-0 
+                        transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)]  
+                        group-hover:scale-[4] z-0"></span>
+                </button>
+            </a>
+
+        </div>
+        <div class="">
+            <a href="projects" class="">
+
+                <button
+                    class="relative px-[30px] py-[10px] text-[15px] font-normal text-[#242424] hover:text-[#fff] border border-gray-500 rounded-full overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] group bg-transparent">
+                    <span class="relative z-10 text-sm">Our Portfolio</span>
+
+                    <!-- expanding circle effect -->
+                    <span
+                        class="absolute inset-0 m-auto w-[50px] h-[50px] bg-[#242424] rounded-full scale-0 
+                        transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)]  
+                        group-hover:scale-[4] z-0"></span>
+                </button>
+            </a>
+
+        </div>
+
+    </div>
+</div>
+<div class="h-[100vh] w-full bg-fixed bg-top bg-cover bg-no-repeat " style="background-image: url('new-images/dynamic-website-bg.webp');">
+</div>
+
+<script>
+    // Split words
+    const splitWords = new SplitType("#scale-heading", {
+        types: "words"
+    });
+
+    // Animate each word from scale 3 to scale 1
+    gsap.from(splitWords.words, {
+        scale: 3,
+        opacity: 0,
+        duration: 0.5,
+        ease: "ease-out",
+        stagger: 0.3, // animate word by word
+        scrollTrigger: {
+            trigger: "#scale-heading",
+            start: "top 80%",
+            toggleActions: "play none none none"
+        }
+    });
+</script>
