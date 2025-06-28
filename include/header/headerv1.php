@@ -7,11 +7,9 @@
 
         header {
             opacity: 0;
-            pointer-events: none;
-            /* optional, if you don't want clicks */
             transform: translateY(-100px);
             transition: transform 0.4s cubic-bezier(0.33, 1, 0.68, 1);
-            animation: slideDown 0.4s cubic-bezier(0.33, 1, 0.68, 1) 2s forwards;
+            animation: slideDown 0.4s cubic-bezier(0.33, 1, 0.68, 1) 2.5s forwards;
         }
 
         @keyframes slideDown {
@@ -207,7 +205,7 @@
         }
     </style>
 
-    <header class="bg-white  h-[73px] my-auto relative z-[999999]">
+    <header class="bg-white  h-[73px] my-auto relative !z-[999999]">
         <nav class="max-w-[1500px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-4 flex items-center justify-between">
             <!-- Logo -->
             <div class="flex items-center">

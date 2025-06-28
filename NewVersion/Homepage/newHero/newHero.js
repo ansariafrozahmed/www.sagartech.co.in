@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       top: 0,
       opacity: 1,
       duration: 0.7,
-      delay: 1.5,
+      delay: 2.3,
       ease: "power2.inOut",
     }
   );
@@ -54,11 +54,14 @@ document.addEventListener("DOMContentLoaded", () => {
         fontSize: "36px",
         height: firstSection.scrollHeight,
         duration: 0.7,
-        delay: 1.5,
+        delay: 2,
         marginTop: "0px",
         color: "#242424",
         ease: "power2.inOut",
         backgroundColor: "#fff",
+        onComplete: () => {
+          ScrollTrigger.refresh();
+        },
       }
     );
   });
@@ -77,11 +80,14 @@ document.addEventListener("DOMContentLoaded", () => {
         fontSize: "60px",
         height: firstSection.scrollHeight,
         duration: 0.7,
-        delay: 1.5,
+        delay: 2,
         color: "#242424",
         ease: "power2.inOut",
         marginTop: "0px",
         backgroundColor: "#fff",
+        onComplete: () => {
+          ScrollTrigger.refresh();
+        },
       }
     );
   });
@@ -104,9 +110,12 @@ document.addEventListener("DOMContentLoaded", () => {
         backgroundColor: "#fff",
         height: firstSection.scrollHeight,
         duration: 0.7,
-        delay: 1.5,
+        delay: 2,
         color: "#242424",
         ease: "power2.inOut",
+        onComplete: () => {
+          ScrollTrigger.refresh();
+        },
       }
     );
   });

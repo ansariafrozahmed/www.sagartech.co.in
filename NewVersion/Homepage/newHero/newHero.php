@@ -9,7 +9,7 @@
     opacity: 0;
   }
 </style>
-<div class="    pb-12 mx-auto">
+<div class="pb-12 mx-auto relative">
   <div class="h-[210px]  md:h-[260px] md:pb-0 gap-0 flex flex-col items-center justify-center  firstSection leading-none">
     <div class="clientShowcase flex mb-2 items-center justify-center gap-2">
       <div

@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         end: () => `+=${items.length * 100}%`,
         scrub: 1,
         invalidateOnRefresh: true,
-        // markers: true,
+        markers: true,
       },
       defaults: {
         ease: "none",
