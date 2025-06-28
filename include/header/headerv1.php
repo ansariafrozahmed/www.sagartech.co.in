@@ -185,7 +185,7 @@
         }
     </style>
 
-    <header class="bg-white sticky  top-0 z-[999999]">
+    <header class="bg-white headerWrapper z-[999999]">
         <nav class="max-w-[1500px] mx-auto px-4 sm:px-6 md:px-12 lg:px-12 py-4 flex items-center justify-between">
             <!-- Logo -->
             <div class="flex items-center">

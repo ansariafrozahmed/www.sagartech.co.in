@@ -39,6 +39,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
         rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script>
         tailwind.config = {
             theme: {
@@ -178,17 +179,13 @@
     // include("NewVersion/Homepage/heroWithService.php")
     ?>
 
-    <?php
-    include("NewVersion/Homepage/newHero.php")
-    ?>
+    <?php include("NewVersion/Homepage/newHero/newHero.php") ?>
 
-    <?php
-    include('NewVersion/Homepage/gsapSlideStacking.php')
-    ?>
+    <?php include('NewVersion/Homepage/portfolio/gsapSlideStacking.php') ?>
 
-    <?php
-    include('NewVersion/Homepage/Clients.php')
-    ?>
+    <?php include('NewVersion/Homepage/clientShowcase/clients.php') ?>
+
+
 
     <?php
     // include("include/homepage/homeBanner/homeBanner.php") 
@@ -257,7 +254,30 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="<?php WEB_URL ?>/NewVersion/Homepage/home.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.fromTo(
+            ".headerWrapper", {
+                translateY: -300,
+                opacity: 0,
+                marginTop: "-70px",
+            }, {
+                translateY: 0,
+                marginTop: "0px",
+                opacity: 1,
+                duration: 0.7,
+                delay: 1.5,
+                ease: "power2.inOut",
+                onComplete: () => {
+                    ScrollTrigger.refresh();
+                },
+            }
+        );
+    </script>
+    <script src="./NewVersion/Homepage/newHero/newHero.js" defer></script>
+    <script src="./NewVersion/Homepage/clientShowcase/clients.js" defer></script>
+    <script src="./NewVersion/Homepage/portfolio/gsapSlideStacking.js" defer></script>
 </body>
 
 </html>

@@ -60,6 +60,7 @@
         </div>
     </div>
 </div>
+
 <script>
     window.addEventListener("load", () => {
         // Select all images and targets
