@@ -1,16 +1,15 @@
-<section id="blog" class="py-16 bg-gray-50 px-4">
+<section id="blog" class="py-16 bg-white px-4 transition-colors duration-500 ease-in-out">
     <div class="container mx-auto">
-        <!-- Section Title -->
         <div class="text-center mb-12">
-            <h3 class="text-[28px] lg:text-[40px] leading-[1.15] text-center font-[400] text-[#242424]">
-                Platform Used by Sagar Tech Technical Solution for <span class="">Dynamic Website</span> Development
+            <h3 id="blog-heading" class="text-[28px] lg:text-[40px] leading-[1.15] font-[400] text-[#242424] transition-colors duration-500">
+                Platform Used by Sagar Tech Technical Solution for Dynamic Website Development
             </h3>
         </div>
 
-        <!-- Blog Cards Grid -->
         <div id="blogCardsGrid1" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-center"></div>
     </div>
 </section>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
@@ -41,42 +40,6 @@
                 title: "Headless CMS (Content Management System)",
                 text: "Headless CMS platforms, such as Strapi, Contentful, and Sanity, provide a flexible and scalable way to manage content for dynamic websites. Unlike traditional CMS platforms, which tightly couple the content management and presentation layers, headless CMS platforms separate these layers, allowing us to deliver content to any device or platform via APIs.",
             },
-            // {
-            //     id: 4,
-            //     image: "new-images/consult.webp",
-            //     iconPath: "new-icons/project-scope.png",
-            //     date: "1",
-            //     title: "Project Scope Definition",
-            //     text: "Based on the gathered requirements, we define the project scope. This involves outlining the features, functionalities, and deliverables of the app. Clear scope definition is essential for setting expectations, timelines, and project milestones.",
-            // },
-            // {
-            //     id: 4,
-            //     image: "new-images/design.webp",
-            //     iconPath: "new-icons/curve.png",
-            //     date: "2",
-            //     title: "Design Kickoff",
-            //     text: "With the project officially initiated, our design team takes the lead. We commence the design phase, creating wireframes, prototypes, and visual designs that align with the client's brand identity and user experience goals. Client feedback is actively sought and incorporated during this iterative design process.",
-            // },
-
-
-
-            // {
-            //     id: 5,
-            //     image: "new-images/development.webp",
-            //     iconPath: "new-icons/development.png",
-            //     date: "3",
-            //     title: "Development Sprint Planning",
-            //     text: "Simultaneously, our development team begins planning for sprints. We break down the project into manageable development cycles, ensuring that each sprint delivers tangible progress. Agile methodologies are embraced to foster flexibility and responsiveness to evolving requirements.",
-            // },
-            // {
-            //     id: 6,
-            //     image: "new-images/test.webp",
-            //     iconPath: "new-icons/testing.png",
-            //     date: "4",
-            //     title: "Development and Testing",
-            //     text: "The development phase kicks off with coding based on the approved designs. Continuous testing is integrated into the development process to identify and rectify any issues promptly. Regular client updates and demonstrations are conducted to maintain transparency and gather feedback.",
-            // },
-
         ];
 
         const grid = document.getElementById("blogCardsGrid1");

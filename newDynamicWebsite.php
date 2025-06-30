@@ -35,6 +35,14 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
 
+    <!-- AOS Animation -->
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+
 
     <!-- GSAP + ScrollTrigger + SplitType -->
     <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
@@ -76,6 +84,10 @@
 
     body {
         font-family: "Bricolage Grotesque", sans-serif !important;
+    }
+
+    .darkBody {
+        background-color: #141414;
     }
 
     .button1 {
@@ -228,13 +240,17 @@
     }
 </style>
 
-<body>
+<body class="darkBody">
     <?php
     $page = 'services';
     include("include/newHeader.php"); ?>
 
     <?php
     include("include/new-services/new-dynamic-website/landingSection.php"); ?>
+
+    <?php
+    include("include/new-services/new-dynamic-website/gsapVideoSection.php"); ?>
+
     <?php
     include("include/new-services/new-dynamic-website/servicesProvided.php"); ?>
     <?php
@@ -242,6 +258,8 @@
     ?>
     <?php
     include("include/new-services/new-dynamic-website/whychooseUs.php"); ?>
+    <?php
+    include("include/new-services/new-dynamic-website/whyYourBusiness.php"); ?>
     <?php
     include("include/new-services/new-dynamic-website/new-our-Client.php"); ?>
     <?php
@@ -305,6 +323,15 @@
                 accordionItem.classList.add('active');
             }
         });
+    });
+</script>
+
+<script>
+    AOS.init({
+        offset: 50, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 700, // values from 0 to 3000, with step 50ms
+        once: true, // whether animation should happen only once - while scrolling down
     });
 </script>
 

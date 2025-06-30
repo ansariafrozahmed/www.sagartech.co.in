@@ -1,206 +1,73 @@
 <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
 <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
 <script src="https://unpkg.com/split-type"></script>
+<!-- <style>
+    .text-title,
+    .text-sub,
+    .tag-item {
+        transition: color 0.6s ease, border-color 0.6s ease;
+    }
+</style> -->
+<div class=" overflow-hidden ">
+    <div id="dynamic-section" class="transition-colors duration-500">
+        <div class="lg:px-20 px-4 lg:py-16 py-10 flex lg:flex-row flex-col max-sm:items-center justify-between gap-10">
 
-<div class="">
-    <div class="lg:px-20 px-4 bg-white lg:py-16 py-10 flex lg:flex-row flex-col max-sm:items-center justify-between gap-10">
-        <div class="lg:w-[55%] w-full">
-            <h3 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424] md:text-start text-center">
-                We specialize in creating powerful and user-friendly <span class="">dynamic websites</span> tailored to your business goals.
-            </h3>
-            <div class="max-w-[500px] md:mx-0 mx-auto md:flex md:flex-wrap lg:justify-normal md:justify-center gap-3 mt-10">
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    CMS-Based Website
+            <!-- Text Content -->
+            <div class="lg:w-[55%] w-full text-area">
+                <h3 class="text-title text-[28px] lg:text-[40px] leading-[1.15] font-[400] max-sm:text-white md:text-start text-center max-w-[700px]">
+                    We specialize in creating powerful and user-friendly
+                    <span class="text-title">dynamic websites</span> tailored to your business goals.
+                </h3>
+
+                <!-- Tags -->
+                <div class="max-w-[500px] md:mx-0 mx-auto md:flex md:flex-wrap lg:justify-normal md:justify-center gap-3 mt-10">
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">CMS-Based Website</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Admin Panel Integration</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Dynamic Product Listings</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Subscription System</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Booking & Appointments</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Business Portals</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Travel & Tourism</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Real-Time Data</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">Blog System</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">E-commerce</div>
+                    <div class="tag-item border border-gray-200 text-gray-700 px-3 py-2 rounded-full text-[13.5px] w-fit max-sm:mb-3">CRM Integration</div>
                 </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Admin Panel Integration
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Dynamic Product Listings
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Membership/Subscription System
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Booking & Appointment Websites
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Business Portals
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Travel & Tourism Website
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Real-Time Data Integration
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    Dynamic Blog System
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    E-commerce Functionality
-                </div>
-                <div class="w-fit max-md:mb-3 border border-gray-200 px-3 py-2 rounded-full text-[13.5px] text-gray-500">
-                    CRM Integration
-                </div>
-            </div>
-            <div class="flex gap-10 items-center max-sm:justify-center mt-10">
-                <div>
-                    <div class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
-                        20+
+
+                <!-- Stats -->
+                <div class="flex gap-10 items-center max-sm:justify-center mt-10 stat-area">
+                    <div>
+                        <div class="text-title text-[28px] lg:text-[40px] font-[400] max-sm:text-white">20+</div>
+                        <hr class="my-2 border-gray-300">
+                        <div class="text-sub text-[13.5px] text-gray-600">Dynamic Website Experts</div>
                     </div>
-                    <hr class="my-2">
-                    <div class="text-[13.5px] font-light tracking-wide text-gray-600">
-                        Dynamic Website Experts
+                    <div>
+                        <div class="text-title text-[28px] lg:text-[40px] font-[400] max-sm:text-white">100+</div>
+                        <hr class="my-2 border-gray-300">
+                        <div class="text-sub text-[13.5px] text-gray-600">Websites Delivered</div>
                     </div>
-                </div>
-                <div>
-                    <div class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
-                        100+
-                    </div>
-                    <hr class="my-2">
-                    <div class="text-[13.5px] font-light tracking-wide text-gray-600">
-                        Dynamic Websites Delivered
-                    </div>
-                </div>
-                <div>
-                    <div class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
-                        8+ Years
-                    </div>
-                    <hr class="my-2">
-                    <div class="text-[13.5px] font-light tracking-wide text-gray-600">
-                        In Dynamic Web Development
+                    <div>
+                        <div class="text-title text-[28px] lg:text-[40px] font-[400] max-sm:text-white">8+ Years</div>
+                        <hr class="my-2 border-gray-300">
+                        <div class="text-sub text-[13.5px] text-gray-600">Experience</div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="lg:w-[45%] w-full">
-            <video
-                class="md:max-w-[400px] max-w-[350px] h-auto block object-cover"
-                autoplay
-                loop
-                muted
-                playsinline>
-                <source src="video/logo-video.mp4" type="video/mp4" />
-                Your browser does not support the video tag
-            </video>
-        </div>
-
-    </div>
-
-    <!-- Empty box -->
-    <!-- <div class="h-[100vh]   w-full"></div> -->
-
-    <!-- video section -->
-    <div class=" lg:py-28 py-12  lg:px-20 px-4 flex flex-col justify-center items-center bg-gray-100 ">
-        <!-- <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/85"></div> -->
-        <div class="flex lg:flex-row flex-col max-sm:items-center justify-between mt-7">
-            <!-- Text Area -->
-            <div class=" w-full" id="animation-bottom">
-                <section id="heading-section" class=" ">
-                    <div id="trigger-heading-end" class="h-[1px] w-full"></div>
-                    <h2
-                        id="animated-heading"
-                        class="lg:text-[50px] text-[40px] text-[#242424] max-sm:text-center leading-[1.1] tracking-[0px] font-normal  mx-auto text-center ">
-                        Why Your Business Need <span class="">Dynamic Website</span> Development
-                    </h2>
-                    <div id="trigger-heading-end" class="h-[1px] w-full"></div>
-                </section>
-                <p class="text-[13.5px] font-light tracking-wide text-gray-700 text-center mt-10 " id="animated-subtitle">
-                    How a Strong App Builds Trust, Engagement, and Conversions
-                </p>
-                <!-- <div class="flex justify-center mt-7">
-                <button data-aos="fade-right" class="button1">
-                    <a href="about">About Us</a>
-                </button>
-            </div> -->
+            <!-- Video -->
+            <div class="lg:w-[45%] w-full">
+                <video class="md:max-w-[400px] max-w-[350px] h-auto block object-cover" autoplay loop muted playsinline>
+                    <source src="video/logo-video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag
+                </video>
             </div>
 
-            <!-- Video Section
-        <div id="videoWrapper"
-            class="relative lg:w-1/2 w-full mx-auto max-sm:mt-7 rounded-2xl overflow-hidden shadow-xl group bg-black">
-            Video
-            <video id="customVideo" class="w-full" poster="new-images/poster.webp">
-                <source src="video/web-video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-
-            Overlay Play Button
-            <button id="playPauseOverlay"
-                class="absolute inset-0 flex items-center justify-center bg-black/10 text-white text-4xl transition duration-300 group-hover:bg-black/20 z-10">
-                <div class="w-14 h-14 rounded-full bg-red-500 flex justify-center items-center">
-                    <i class="fa-solid fa-play text-xl"></i>
-                </div>
-            </button>
-
-            Custom Controls
-            <div id="videoControls"
-                class="absolute bottom-0 left-0 right-0 z-20 bg-black/0 backdrop-blur px-4 py-3 flex items-center justify-between gap-4 opacity-0 pointer-events-none transition-opacity duration-300">
-                <button id="playPauseBtn" class="text-white text-lg focus:outline-none" title="Play/Pause">▶</button>
-                <input type="range" id="progressBar" value="0"
-                    class="w-full h-1 accent-red-500 bg-gray-300 rounded-lg cursor-pointer" />
-                <button id="fullscreenBtn" class="text-white text-lg focus:outline-none" title="Fullscreen">⛶</button>
-            </div>
-        </div> -->
-        </div>
-        <p
-            id="animated-paragraph"
-            class="text-[13.5px] font-light tracking-wide text-gray-500  opacity-0 text-center translate-y-6 my-10">
-            In the digital age, a dynamic website is no longer a choice: it is a requirement for businesses seeking to establish a strong online presence and stay ahead of the competition. At Sagar Tech Technical Solution, we recognize the value of dynamic website development in driving business growth and increasing customer engagement. Here are some strong reasons why your business should have a dynamic website.
-        </p>
-        <div class="">
-            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 place-items-center" id="grid-column-container">
-                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center" id="grid-column-section">
-                    <img src="new-icons/experience.png" class="w-10" alt="">
-                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Enhanced User Experience</h3>
-                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
-                        Dynamic sites provide a more interactive and engaging user experience. With enhanced features you can give visitors a smooth and enjoyable browsing experience.
-                    </p>
-                </div>
-                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
-                    <img src="new-icons/performance.png" class="w-10" alt="">
-                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Improved SEO Performance</h3>
-                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
-                        Dynamic websites are naturally more SEO-friendly than static websites. They allow you to create SEO-friendly URLs and dynamic content and easily integrate meta tags.
-                    </p>
-                </div>
-                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
-                    <img src="new-icons/inc-sale.png" class="w-10" alt="">
-                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Increased Sales</h3>
-                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
-                        The online marketplace is dynamic and ever-expanding. An E-commerce website opens up new avenues for sales.
-                    </p>
-                </div>
-                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
-                    <img src="new-icons/scalability-black.png" class="w-10" alt="">
-                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Scalability
-                    </h3>
-                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
-                        Dynamic websites are highly scalable and can quickly expand and change as your company grows. Whether you need to add new products, expand your services.
-                    </p>
-                </div>
-                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
-                    <img src="new-icons/cost-effect.png" class="w-10" alt="">
-                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Cost-Effectiveness</h3>
-                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
-                        While dynamic website development may require a more initial investment than static website development.
-                    </p>
-                </div>
-                <div class="space-y-4 p-6 border rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center">
-                    <img src="new-icons/conversion-rate.png" class="w-10" alt="">
-                    <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Improved Conversion Rates
-                    </h3>
-                    <p class="text-[13px] font-light tracking-wide text-gray-600 text-center">
-                        Dynamic websites aim to turn visitors into customers. With features like personalised content and targeted calls to action.
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
 </div>
 
 <!-- SCRIPT SECTION -->
-<script>
+<!-- <script>
     const video = document.getElementById("customVideo");
     const wrapper = document.getElementById("videoWrapper");
     const playPauseBtn = document.getElementById("playPauseBtn");
@@ -299,96 +166,53 @@
         progressBar.value = 0;
         clearTimeout(hideControlsTimeout);
     });
-</script>
-
-<script>
-    // 1. Split heading text into characters
-    const splitHeading = new SplitType("#animated-heading", {
-        types: "words, chars"
-    });
-
-    // 2. Optional: preserve word spacing
-    splitHeading.words.forEach(word => {
-        word.style.display = "inline-block";
-        word.style.whiteSpace = "nowrap";
-    });
-
-    // 3. Create a timeline and ScrollTrigger
-    const headingTimeline = gsap.timeline({
-        scrollTrigger: {
-            trigger: "#animation-bottom",
-            start: "top 40%",
-            end: "top 12%",
-            scrub: 1.2,
-            pin: false, // You can enable pin if you want section to hold
-            markers: false
-        }
-    });
-
-    // 4. Add heading char animation to timeline
-    headingTimeline.fromTo(
-        splitHeading.chars, {
-            opacity: 0,
-            filter: "blur(4px)"
-        }, {
-            opacity: 1,
-            filter: "blur(0px)",
-            stagger: 0.05,
-            ease: "power4.out"
-        }
-    );
-
-    // 5. Then animate subtitle
-    headingTimeline.fromTo(
-        "#animated-subtitle", {
-            opacity: 0,
-            y: 20
-        }, {
-            opacity: 1,
-            y: 0,
-            duration: 0.6,
-            ease: "power2.out"
-        }
-    );
-
-    // 6. Then animate paragraph
-    headingTimeline.fromTo(
-        "#animated-paragraph", {
-            opacity: 0,
-            y: 20
-        }, {
-            opacity: 1,
-            y: 0,
-            duration: 0.6,
-            ease: "power2.out"
-        }
-    );
-</script>
-
+</script> -->
 <script>
     gsap.registerPlugin(ScrollTrigger);
 
-    // Disable animation if screen width is less than 768px (typical mobile breakpoint)
-    if (window.innerWidth >= 768) {
-        const cards = gsap.utils.toArray("#grid-column-container > div");
+    ScrollTrigger.matchMedia({
+        "(min-width: 768px)": function() {
+            const section = document.querySelector("#dynamic-section");
+            const textEls = document.querySelectorAll(".text-title, .text-sub, .tag-item");
 
-        const timeline = gsap.timeline({
-            scrollTrigger: {
-                trigger: "#grid-column-container",
-                start: "top 20%",
-                end: "+=1200",
-                pin: true,
-                scrub: 1.5
-            }
-        });
+            ScrollTrigger.create({
+                trigger: section,
+                start: "top 90%",
+                end: "bottom 80%",
+                scrub: true,
+                onLeave: () => {
+                    document.body.classList.add("darkBody");
+                },
+                onEnterBack: () => {
+                    document.body.classList.add("darkBody");
+                },
+                onEnter: () => {
+                    document.body.classList.remove("darkBody");
+                },
+                onLeaveBack: () => {
+                    document.body.classList.remove("darkBody");
+                },
 
-        cards.forEach((card) => {
-            timeline.from(card, {
-                x: 400,
-                opacity: 0,
-                duration: 0.6,
-                ease: "power2.out"
-            }, ">");
-        });
-    }
+                onUpdate: (self) => {
+                    const progress = self.progress;
+
+                    // Background transition: dark (#141414 rgb(20)) → white (#ffffff rgb(255))
+                    const bgVal = Math.round(20 + (255 - 20) * progress);
+                    const bgColor = `rgb(${bgVal}, ${bgVal}, ${bgVal})`;
+                    document.body.style.backgroundColor = bgColor;
+
+                    // Text transition: white (#ffffff rgb(255)) → dark (#242424 rgb(36))
+                    const textVal = Math.round(255 - (255 - 36) * progress);
+                    const textColor = `rgb(${textVal}, ${textVal}, ${textVal})`;
+
+                    textEls.forEach(el => {
+                        el.style.color = textColor;
+                        if (el.classList.contains("tag-item")) {
+                            el.style.borderColor = textColor;
+                        }
+                    });
+                }
+            });
+        }
+    });
 </script>
