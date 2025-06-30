@@ -36,6 +36,7 @@
     <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
         rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -163,101 +164,95 @@
     ::-webkit-scrollbar-thumb:hover {
         background: #ff0808;
     }
+
+    .robottoFont {
+        font-family: "Roboto Condensed", sans-serif;
+    }
 </style>
 
 <body>
 
-    <?php
-    include("include/config.php");
-    ?>
+    <div id="main">
+        <?php
+        include("include/config.php");
+        ?>
 
-    <?php
-    include("include/header/headerv1.php");
-    ?>
+        <?php
+        // include("include/header/headerv1.php");
+        ?>
 
-    <?php
-    // include("NewVersion/Homepage/heroWithService.php")
-    ?>
+        <?php
+        include("NewVersion/Homepage/newHero/newHero.php")
+        ?>
 
-    <?php
-    include("NewVersion/Homepage/newHero/newHero.php")
-    ?>
-
-    <?php
-    include('NewVersion/Homepage/portfolio/gsapSlideStacking.php')
-    ?>
+        <?php
+        include('NewVersion/Homepage/portfolio/gsapSlideStacking.php')
+        ?>
 
 
-    <?php
-    include('NewVersion/Homepage/clientShowcase/clients.php')
-    ?>
+        <?php
+        include('NewVersion/Homepage/clientShowcase/clients.php')
+        ?>
 
+        <?php
+        // include("include/homepage/ourService.php")
+        ?>
 
+        <?php
+        include("include/homepage/metaShowcase.php")
+        ?>
 
-    <?php
-    // include("include/homepage/homeBanner/homeBanner.php") 
-    ?>
-    <?php
-    // include("include/homepage/introduction.php") 
-    ?>
-    <?php
-    // include("include/homepage/ourService.php") 
-    ?>
-    <?php
-    // include("include/homepage/metaShowcase.php") 
-    ?>
-    <?php
-    // include("include/homepage/videoTestimonials.php") 
-    ?>
-    <?php
-    // include("include/new-services/web-development/new-our-Client.php"); 
-    ?>
-    <?php
-    $faqData = [
-        [
-            "question" => "How fast can you build my website?",
-            "answer" => "We deliver fully custom websites in just 7 days from the time we receive your content and branding details."
-        ],
-        [
-            "question" => "Is this really a custom website or just a template?",
-            "answer" => "Every Weblix site is 100% custom-designed to match your brand, goals, and audience—no templates, ever."
-        ],
-        [
-            "question" => "Do I need to provide content and images?",
-            "answer" => "You can provide your own, or we can help source professional images and write high-converting content for you."
-        ],
-        [
-            "question" => "Will my website be mobile-friendly?",
-            "answer" => "Absolutely! Your website will be fully responsive, optimized for mobile, tablet, and desktop devices."
-        ],
-        [
-            "question" => "Do you offer SEO services?",
-            "answer" => "Yes! Basic on-page SEO optimization is included in every package to help you rank and attract traffic."
-        ],
-        [
-            "question" => "Can I update the website myself later?",
-            "answer" => "Yes, your site will be built on a user-friendly platform so you can easily make changes anytime."
-        ],
-        [
-            "question" => "What if I need changes after launch?",
-            "answer" => "We include 30 days of free post-launch support, and offer affordable maintenance plans if you need ongoing help."
-        ],
-        [
-            "question" => "Is there any hidden cost?",
-            "answer" => "Nope! We believe in transparent, flat-rate pricing—you’ll know exactly what you’re paying for before we begin."
-        ]
-    ];
+        <?php
+        include("include/homepage/videoTestimonials.php")
+        ?>
 
-    $faqId = "faq1";
-    include 'include/faqs.php';
-    ?>
-    <?php
-    // include("include/homepage/BlogsSection.php");
-    ?>
+        <?php
+        $faqData = [
+            [
+                "question" => "How fast can you build my website?",
+                "answer" => "We deliver fully custom websites in just 7 days from the time we receive your content and branding details."
+            ],
+            [
+                "question" => "Is this really a custom website or just a template?",
+                "answer" => "Every Weblix site is 100% custom-designed to match your brand, goals, and audience—no templates, ever."
+            ],
+            [
+                "question" => "Do I need to provide content and images?",
+                "answer" => "You can provide your own, or we can help source professional images and write high-converting content for you."
+            ],
+            [
+                "question" => "Will my website be mobile-friendly?",
+                "answer" => "Absolutely! Your website will be fully responsive, optimized for mobile, tablet, and desktop devices."
+            ],
+            [
+                "question" => "Do you offer SEO services?",
+                "answer" => "Yes! Basic on-page SEO optimization is included in every package to help you rank and attract traffic."
+            ],
+            [
+                "question" => "Can I update the website myself later?",
+                "answer" => "Yes, your site will be built on a user-friendly platform so you can easily make changes anytime."
+            ],
+            [
+                "question" => "What if I need changes after launch?",
+                "answer" => "We include 30 days of free post-launch support, and offer affordable maintenance plans if you need ongoing help."
+            ],
+            [
+                "question" => "Is there any hidden cost?",
+                "answer" => "Nope! We believe in transparent, flat-rate pricing—you’ll know exactly what you’re paying for before we begin."
+            ]
+        ];
 
-    <?php
-    // include("NewVersion/StickyFooter.php");
-    ?>
+        $faqId = "faq1";
+        include 'include/faqs.php';
+        ?>
+        <?php
+        include("include/homepage/BlogsSection.php");
+        ?>
+
+        <?php
+        include("NewVersion/StickyFooter.php");
+        ?>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>

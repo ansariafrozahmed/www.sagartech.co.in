@@ -1,11 +1,11 @@
 <?php include('include/config.php') ?>
-<div class="max-w-[1500px] space-y-8 lg:space-y-10 mx-auto px-5 pb-10 md:px-10 md:pb-12 lg:px-20 lg:pb-24">
-    <h2 data-aos="fade-up"
+<div class="max-w-[1500px] bg-white space-y-8 lg:space-y-10 mx-auto px-5 pb-10 md:px-10 md:pb-12 lg:px-20 lg:pb-24">
+    <h2
         class="text-[28px] text-[#242424] lg:text-[40px] max-w-[500px] text-center mx-auto leading-[1.2] lg:leading-[1.05] font-[400] ">
         Testimonial
         From Our Valuable Clients
     </h2>
-    <div data-aos="fade-up" class="grid grid-cols-1 md:grid-cols-2 max-w-[900px] mx-auto gap-x-6 gap-y-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 max-w-[900px] mx-auto gap-x-6 gap-y-12">
         <div class="space-y-3 ">
             <a href="https://www.youtube.com/watch?v=YNW7g-z2am4" target="_blank"
                 class="border block relative group border-gray-100 cursor-pointer overflow-hidden rounded-xl bg-gray-100 aspect-[16/9]">
@@ -29,7 +29,7 @@ OASIS CONSULTING" loading="lazy">
                 </p>
             </div>
         </div>
-        <div data-aos="fade-up" class="space-y-3">
+        <div class="space-y-3">
             <a href="https://www.youtube.com/watch?v=MPSiwugCZZw" target="_blank"
                 class="border block relative group border-gray-100 cursor-pointer overflow-hidden rounded-xl bg-gray-100 aspect-[16/9]">
                 <img class="h-full group-hover:scale-105 transition-all ease-in-out duration-200 w-full object-cover"

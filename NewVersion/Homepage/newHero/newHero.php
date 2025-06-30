@@ -1,78 +1,60 @@
-<style>
-  .hero-heading {
-    transform: translateY(150px);
-  }
+<div class="bg-[#242424] relative overflow-hidden hero-wrapper w-full h-screen">
 
-  .clientShowcase {
-    position: relative;
-    top: -300px;
-    opacity: 0;
-  }
-</style>
-<div class="pb-12 mx-auto relative">
-  <div class="h-[210px]  md:h-[260px] md:pb-0 gap-0 flex flex-col items-center justify-center  firstSection leading-none">
-    <div class="clientShowcase flex mb-2 items-center justify-center gap-2">
-      <div
-        class="h-[22px] md:h-[26px] border-2 border-white w-[24px] md:w-[26px] rounded-full overflow-hidden">
-        <img src="./icons/avatar/1.webp" alt="" />
+  <div class="relative headerSection -translate-y-[70px] max-w-[1500px] mx-auto">
+  </div>
+
+  <div class="firstSection h-screen w-full flex flex-col items-center justify-center">
+    <div class="heading-wrapper space-y-6">
+      <div>
+        <div class="overflow-hidden ">
+          <h2 class="hero-heading  text-[2.3rem] md:text-[4.5rem] lg:text-[7rem] translate-y-full text-center robottoFont uppercase font-black leading-none text-[#424242]">Your Trusted</h2>
+        </div>
+        <div class="overflow-hidden">
+          <h2 class="hero-heading text-[2.3rem] md:text-[4.5rem] lg:text-[7rem] translate-y-full text-center robottoFont uppercase font-black leading-none text-[#424242]">Marketing Agency</h2>
+        </div>
+        <p class="text-content pt-2 opacity-0 translate-y-10 max-w-[600px] mx-auto font-light text-sm px-4 text-center tracking-wide text-[#24244]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio beatae facilis alias ex et minima quam unde exercitationem aut numquam natus.
+        </p>
       </div>
-      <div
-        class="h-[22px] md:h-[26px] border-2 border-white w-[24px] md:w-[26px] -ml-4 rounded-full overflow-hidden">
-        <img src="./icons/avatar/2.webp" alt="" />
-      </div>
-      <div
-        class="h-[22px] md:h-[26px] border-2 border-white w-[24px] md:w-[26px] -ml-4 rounded-full overflow-hidden">
-        <img src="./icons/avatar/3.webp" alt="" />
-      </div>
-      <span
-        class="text-[13.5px] text-center font-light tracking-wide text-gray-600">
-        1.5k+ Satisfied Clients
-      </span>
-    </div>
-    <div class="overflow-hidden">
-      <span
-        class="hero-heading text-center inline-block font-semibold tracking-wide">Your Trusted</span>
-    </div>
-    <div class="overflow-hidden">
-      <span
-        class="hero-heading text-center inline-block font-semibold tracking-wide">Marketing Agency</span>
     </div>
   </div>
-  <div class="max-w-[500px] lg:max-w-[550px] mx-auto">
-    <p class="text-[13.5px] text-center px-4 font-light tracking-wide text-gray-600">
-      Sagar Tech Technical Solution Is Award Winning Web Development and Digital
-      Marketing Agency In Mumbai.
-    </p>
-  </div>
+
+  <!-- <div class=" serviceSection translate-y-full max-w-[1500px] mx-auto">
+    <div class="absolute px-4 md:px-8 lg:px-12 bottom-0 left-0 w-full">
+      <h2 class="text-center text-lg uppercase font-medium text-[#242424] tracking-wide">Our Services</h2>
+      <div class="grid grid-cols-2 pt-2 md:grid-cols-3 lg:grid-cols-5 gap-2" id="grid">
+        <div class="box aspect-[4/3] cursor-pointer space-y-2">
+          <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+            <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
+          </div>
+          <h3 class="pb-4 text-sm">Service Name</h3>
+        </div>
+        <div class="box aspect-[4/3] cursor-pointer space-y-2">
+          <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+            <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
+          </div>
+          <h3 class="pb-4 text-sm">Service Name</h3>
+        </div>
+        <div class="box aspect-[4/3] cursor-pointer space-y-2">
+          <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+            <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
+          </div>
+          <h3 class="pb-4 text-sm">Service Name</h3>
+        </div>
+        <div class="box aspect-[4/3] cursor-pointer space-y-2">
+          <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+            <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
+          </div>
+          <h3 class="pb-4 text-sm">Service Name</h3>
+        </div>
+        <div class="box aspect-[4/3] cursor-pointer space-y-2">
+          <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
+            <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
+          </div>
+          <h3 class="pb-4 text-sm">Service Name</h3>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
 </div>
-
-<div class="max-w-[1500px] hidden lg:block space-y-2 mx-auto px-4 pb-10 md:px-8 lg:px-12">
-  <h2 class="text-center text-[26px] uppercase font-medium text-[#242424] tracking-wide">Our Services</h2>
-  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4" id="grid">
-
-
-    <div class="box   aspect-[4/3] cursor-pointer p-1 ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
-        <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
-      </div>
-    </div>
-    <div class="box   aspect-[4/3] cursor-pointer p-1 ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
-        <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
-      </div>
-    </div>
-    <div class="box   aspect-[4/3] cursor-pointer p-1 ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
-        <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
-      </div>
-    </div>
-    <div class="box   aspect-[4/3] cursor-pointer p-1 ">
-      <div class="inner h-full w-full bg-gray-200 origin-bottom overflow-hidden">
-        <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="">
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- embla Slider -->
-<div></div>
