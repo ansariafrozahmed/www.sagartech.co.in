@@ -1,4 +1,4 @@
-<div class="lg:px-20 lg:pb-16 pb-10 px-4">
+<div class="lg:px-20 lg:pb-16 pb-10 px-4 bg-white">
     <h2 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] mx-auto text-center font-[400] text-[#242424]"><span class="">Tech Stack</span> We Use</h2>
     <div class="grid lg:grid-cols-6 grid-cols-2 gap-5  mt-7">
         <?php

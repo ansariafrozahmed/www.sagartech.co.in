@@ -1,4 +1,4 @@
-<div class="lg:py-16 py-10 lg:px-20 px-4">
+<div class="lg:py-16 py-10 lg:px-20 px-4 bg-white">
     <h2 class="text-[28px] lg:text-[40px] leading-[1.15] font-[400] text-[#242424] text-center">
         Our <span class="">Clients</span>
     </h2>
