@@ -1,4 +1,4 @@
-<div class="w-full mx-auto overflow-hidden" id="video-zoom-wrapper">
+<div class="w-full mx-auto overflow-hidden bg-white" id="video-zoom-wrapper">
     <div class="h-[100vh] max-w-[200px] lg:max-w-[1200px] w-full mx-auto rounded-3xl overflow-hidden" id="video-zoom">
         <video class="w-full h-full object-cover" id="scale-video" loop muted autoplay playsinline>
             <source src="video/dynamic-section-video.mp4" type="video/mp4" />

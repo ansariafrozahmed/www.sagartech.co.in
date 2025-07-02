@@ -87,7 +87,7 @@
     }
 
     .darkBody {
-        background-color: #141414;
+        background-color: #fff;
     }
 
     .button1 {
@@ -261,7 +261,13 @@
     <?php
     include("include/new-services/new-dynamic-website/whyYourBusiness.php"); ?>
     <?php
-    include("include/new-services/new-dynamic-website/new-our-Client.php"); ?>
+    // include("include/new-services/new-dynamic-website/new-our-Client.php"); 
+    ?>
+    <div class="lg:px-8">
+        <?php
+        include('NewVersion/Homepage/clientShowcase/clients.php')
+        ?>
+    </div>
     <?php
     include("include/new-services/new-dynamic-website/developmentServices.php");
     ?>
@@ -269,7 +275,7 @@
     // include("include/new-services/new-dynamic-website/carousel.php"); 
     ?>
     <?php
-    include("include/new-services/new-dynamic-website/tanstack.php"); ?>
+    include("include/new-services/new-dynamic-website/new-tanstack.php"); ?>
     <?php
     include("include/new-services/new-dynamic-website/ourProcess.php"); ?>
     <?php
@@ -308,6 +314,9 @@
         x.parentNode.insertBefore(s, x);
     })();
 </script>
+
+<script src="./NewVersion/Homepage/clientShowcase/clients.js" defer></script>
+
 <script>
     document.querySelectorAll('.accordion-item h2').forEach((accordionToggle) => {
         accordionToggle.addEventListener('click', () => {

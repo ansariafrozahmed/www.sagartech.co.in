@@ -1,6 +1,6 @@
-<div class="lg:px-20 px-4 lg:py-16 py-10 bg-gray-50" id="last-container-pinned-animation">
-    <h2 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] text-center mx-auto font-[400] text-[#242424]">
-        We build Dynamic website for many industries
+<div class="lg:px-20 px-4 lg:py-16 py-10 w-full bg-gray-50" id="last-container-pinned-animation">
+    <h2 class="text-[35px] lg:text-[50px] leading-[1.15] w-full max-w-[600px] lg:max-w-[700px] text-start font-[400] text-[#242424]">
+        We build Dynamic website <br class="max-sm:hidden">for many industries
     </h2>
 
     <div class=" grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 max-sm:place-items-center gap-3 mt-10  mx-auto" id="last-section-pinned-animation">

@@ -1,24 +1,8 @@
-<div class="lg:px-20 lg:pb-16 pb-10 px-4 bg-white">
-    <h2 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] mx-auto text-center font-[400] text-[#242424]"><span class="">Tech Stack</span> We Use</h2>
+<div class="lg:px-20 lg:py-16 py-10 px-4 bg-[#141414]">
+    <h2 class="text-[28px] lg:text-[40px] leading-[1.15] max-w-[600px] lg:max-w-[700px] mx-auto text-center font-[400] text-[#fff]"><span class="">Tech Stack</span> We Use</h2>
     <div class="grid lg:grid-cols-6 grid-cols-2 gap-5  mt-7">
         <?php
-        // $imageUrls = [
-        //   "./image/techStack/rbi.webp",
-        //   "./image/techStack/armaf.webp",
-        //   "./image/techStack/bsauto.webp",
-        //   "./image/techStack/OasisConsulting.webp",
-        //   "./image/techStack/chief-parfums-final.webp",
-        //   "./image/techStack/axxio-laboratory.webp",
-        //   "./image/techStack/acharya-shiv.webp",
-        //   // "./image/techStack/ngmp.webp",
-        //   "./image/techStack/AlhamdGroup.webp",
-        //   "./image/techStack/cotton-culture.webp",
-        //   "./image/techStack/ASAudio.webp",
-        //   "./image/techStack/ZZConsultants.webp",
-        //   // "./image/techStack/Trillionaire.webp",
-        //   "./image/techStack/Tasavvur.webp",
-        //   //"./image/techStack/PadmavatiChains.webp",
-        // ];
+
         $imageUrls = [
             "./image/techStack/1.png",
             "./image/techStack/2.png",
@@ -100,14 +84,14 @@
             "/jwt-authentication-services-in-india",
         ];
         foreach ($imageUrls as $index => $imageUrl) {
-            echo '<div class="flex justify-center items-center border p-5 max-w-[180px] h-[120px] overflow-hidden lg:mb-5 mb-3 rounded-md shadow-md ">';
+            echo '<div class="flex justify-center items-center border p-5 max-w-[180px] bg-white h-[120px] overflow-hidden lg:mb-5 mb-3 rounded-md shadow-md ">';
             echo '<a href="' . $techLinks[$index] . '" title="' . $techNames[$index] . '">';
             echo '<img src="' . $imageUrl . '" alt="' . $techNames[$index] . '" class="w-28">';
             echo '</a>';
             echo '</div>';
         }
         ?>
-        <!-- target="_blank"  -->
+
     </div>
 
 </div>

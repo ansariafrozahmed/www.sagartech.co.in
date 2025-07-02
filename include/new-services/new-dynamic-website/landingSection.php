@@ -1,29 +1,57 @@
-<div class="lg:pb-20 lg:pt-20 pb-10 lg:px-20 px-4">
+<div class="lg:pb-20 lg:pt-20 pb-10 lg:px-20 px-4 bg-white">
     <!-- Heading For Desktop -->
     <div class="lg:block hidden">
         <div class="lg:h-[80px] overflow-hidden  ">
             <h1 id="transition-heading"
-                class="lg:text-7xl text-2xl lg:text-start text-center max-sm:mt-16 tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#fff] ">
+                class="lg:text-7xl text-2xl lg:text-start text-center max-sm:mt-16 tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#242424] ">
                 Dynamic Website Developer &
             </h1>
         </div>
         <div class="lg:h-[80px] overflow-hidden  ">
             <h1 id="transition-heading"
-                class="lg:text-7xl text-2xl lg:text-start text-center  tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#fff]">
+                class="lg:text-7xl text-2xl lg:text-start text-center  tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#242424]">
                 Designing Company In Mumbai
             </h1>
         </div>
     </div>
 
-    <!-- Heading For Mobile -->
-    <div class="h-[170px]  overflow-hidden lg:hidden block  ">
-        <h1 id="transition-heading"
-            class="lg:text-7xl text-3xl lg:text-start text-center max-sm:mt-16 tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#fff]">
-            Dynamic Website Developer & Designing Company In Mumbai
-        </h1>
+    <!-- For Mobile Version -->
+    <div class="overflow-hidden lg:hidden block max-sm:mt-16  ">
+        <div class="h-[50px]  overflow-hidden  ">
+            <h1 id="transition-heading"
+                class=" text-[34px] text-start leading-  tracking-wide max-w-[1100px] w-full text-[#242424] ">
+                Dynamic Website
+            </h1>
+        </div>
+        <div class="h-[50px]  overflow-hidden  ">
+            <h1 id="transition-heading"
+                class=" text-[34px] text-start leading-  tracking-wide max-w-[1100px] w-full text-[#242424]">
+                Developer &
+            </h1>
+        </div>
+        <div class="h-[50px]  overflow-hidden  ">
+            <h1 id="transition-heading"
+                class=" text-[34px] text-start leading-  tracking-wide max-w-[1100px] w-full text-[#242424]">
+                Designing Company
+            </h1>
+        </div>
+        <div class="h-[50px]  overflow-hidden  ">
+            <h1 id="transition-heading"
+                class=" text-[34px] text-start leading-  tracking-wide max-w-[1100px] w-full text-[#242424]">
+                In Mumbai
+            </h1>
+        </div>
     </div>
 
-    <p class="text-[13.5px] font-light tracking-wide text-gray-300 leading-7 mt-7 max-w-[800px] w-full lg:text-start text-justify"
+    <!-- Heading For Mobile -->
+    <!-- <div class="h-[170px]  overflow-hidden lg:hidden block  ">
+        <h1 id="transition-heading"
+            class="lg:text-7xl text-3xl lg:text-start text-center max-sm:mt-16 tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#242424]">
+            Dynamic Website Developer & Designing Company In Mumbai
+        </h1>
+    </div> -->
+
+    <p class="text-[13.5px] font-light tracking-wide text-gray-600 leading-7 mt-7 max-w-[800px] w-full lg:text-start text-justify"
         data-aos="fade-up">
         In today's digital world, having a dynamic website is more than a trend, it's a strategic decision that can greatly benefit your company. Unlike static websites, which remain unchanged for long periods of time, dynamic websites are designed to be flexible and responsive, allowing you to update content, add new features, and make changes quickly and easily. One of the main advantages of dynamic websites is the ability to provide a personalised and dynamic user experience.
     </p>
@@ -48,7 +76,7 @@
             <a href="projects" class="">
 
                 <button
-                    class="relative px-[30px] py-[10px] text-[15px] font-normal text-gray-200 hover:text-[#fff] border border-gray-500 rounded-full overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] group bg-transparent">
+                    class="relative px-[30px] py-[10px] text-[15px] font-normal text-[#242424] hover:text-[#fff] border border-gray-500 rounded-full overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] group bg-transparent">
                     <span class="relative z-10 text-sm">Our Portfolio</span>
 
                     <!-- expanding circle effect -->
