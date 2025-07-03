@@ -82,23 +82,47 @@
     });
 
     // GSAP ScrollTrigger animations
-    gsap.registerPlugin(ScrollTrigger);
+    // Animate cards (with conditional start for mobile and desktop)
+    ScrollTrigger.matchMedia({
 
-    // Animate cards
-    gsap.utils.toArray(".blog-card").forEach((card, i) => {
-      gsap.from(card, {
-        scrollTrigger: {
-          trigger: "#blogCardsGrid",
-          start: "top 50%",
-          end: "bottom 20%",
-          toggleActions: "play none none none",
-        },
-        opacity: 0,
-        y: 50,
-        duration: 0.6,
-        delay: i * 0.3,
-        ease: "power2.out",
-      });
+      // ✅ Mobile: (max-width: 767px) — start at 30% viewport height
+      "(max-width: 767px)": function() {
+        gsap.utils.toArray(".blog-card").forEach((card, i) => {
+          gsap.from(card, {
+            scrollTrigger: {
+              trigger: card,
+              start: "top 80%", // 30% from top
+              end: "top 50%",
+              toggleActions: "play none none none",
+            },
+            opacity: 0,
+            y: 50,
+            duration: 0.6,
+            delay: i * 0.1,
+            ease: "power2.out",
+          });
+        });
+      },
+
+      // ✅ Desktop: (min-width: 768px) — keep original values
+      "(min-width: 768px)": function() {
+        gsap.utils.toArray(".blog-card").forEach((card, i) => {
+          gsap.from(card, {
+            scrollTrigger: {
+              trigger: card,
+              start: "top 80%", // unchanged
+              end: "top 50%",
+              toggleActions: "play none none none",
+            },
+            opacity: 0,
+            y: 50,
+            duration: 0.6,
+            delay: i * 0.3,
+            ease: "power2.out",
+          });
+        });
+      }
+
     });
 
     // Animate section background from black to white

@@ -52,13 +52,13 @@
 
         blogPosts.forEach(post => {
             const card = document.createElement("div");
-            card.className = "blog-card1 w-full max-w-sm mx-auto relative border border-gray-100 rounded-lg overflow-hidden group bg-white text-white";
+            card.className = "blog-card1 w-full max-w-sm mx-auto relative border border-gray-500 rounded-lg overflow-hidden group bg-white text-white";
             card.innerHTML = `
-                <div class="relative z-20 h-full flex flex-col p-6">
+                <div class="relative z-20 h-full flex flex-col p-6" id="platform_card">
                     <div class="flex gap-5">
                         <div>
                             <img src="${post.iconPath}" alt="icon" class="mb-3 mt-2 w-10 h-10" />
-                            <h3 class="text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] text-[#242424] font-[400]">${post.title}</h3>
+                            <h3 class="text-[20px] lg:text-[24px] leading-[1.15] max-w-[600px] lg:max-w-[700px] text-[#242424] font-[400] lg:h-[50px]">${post.title}</h3>
                             <hr class="my-4">
                             <p class="text-[13.5px] font-light text-gray-400 mt-2">${post.text}</p>
                         </div>
@@ -68,24 +68,49 @@
             grid.appendChild(card);
         });
 
-        gsap.registerPlugin(ScrollTrigger);
+        // Animate cards (responsive start point)
+        ScrollTrigger.matchMedia({
 
-        // Animate blog cards on scroll
-        gsap.utils.toArray(".blog-card1").forEach((card, i) => {
-            gsap.from(card, {
-                scrollTrigger: {
-                    trigger: "#blogCardsGrid1",
-                    start: "top 80%",
-                    end: "bottom 20%",
-                    toggleActions: "play none none none",
-                },
-                opacity: 0,
-                y: 50,
-                duration: 0.6,
-                delay: i * 0.3,
-                ease: "power2.out",
-            });
+            // ✅ Mobile: start animation when card top hits 70% (i.e. 30% visible)
+            "(max-width: 767px)": function() {
+                gsap.utils.toArray(".blog-card1").forEach((card, i) => {
+                    gsap.from(card, {
+                        scrollTrigger: {
+                            trigger: card,
+                            start: "top 80%",
+                            end: "top 30%",
+                            toggleActions: "play none none none",
+                        },
+                        opacity: 0,
+                        y: 50,
+                        duration: 0.6,
+                        delay: i * 0.2,
+                        ease: "power2.out",
+                    });
+                });
+            },
+
+            // ✅ Desktop: keep default start at top 80%
+            "(min-width: 768px)": function() {
+                gsap.utils.toArray(".blog-card1").forEach((card, i) => {
+                    gsap.from(card, {
+                        scrollTrigger: {
+                            trigger: card,
+                            start: "top 80%",
+                            end: "top 30%",
+                            toggleActions: "play none none none",
+                        },
+                        opacity: 0,
+                        y: 50,
+                        duration: 0.6,
+                        delay: i * 0.3,
+                        ease: "power2.out",
+                    });
+                });
+            }
+
         });
+
 
         // Scroll progress-based color animation
         const blogSection = document.getElementById("blog");
@@ -115,12 +140,12 @@
 
                     // Text colors
                     const h3Val = Math.round(36 + (255 - 36) * progress);
-                    const pVal = Math.round(107 + (255 - 107) * progress);
+                    const pVal = Math.round(107 + (255 - 180) * progress);
                     if (h3) h3.style.color = `rgb(${h3Val}, ${h3Val}, ${h3Val})`;
                     if (p) p.style.color = `rgb(${pVal}, ${pVal}, ${pVal})`;
 
                     // Card background: white (255) → #141414 (20)
-                    const cardBgVal = Math.round(255 - (255 - 20) * progress);
+                    const cardBgVal = Math.round(255 - (255 - 30) * progress);
                     card.style.backgroundColor = `rgb(${cardBgVal}, ${cardBgVal}, ${cardBgVal})`;
                 });
             }

@@ -40,7 +40,7 @@
     <div class="max-w-[1500px] mx-auto space-y-8 px-4 py-8 md:p-8 lg:p-12 lg:px-20">
         <div>
             <!-- <span class="text-sm pb-2 inline-block px-1 tracking-wide rounded-3xl text-[#ff0808] font-normal tanstack-heading">Our Clients Who Shine</span> -->
-            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading !leading-[0.9] uppercase font-black text-[#fff] tanstack-heading">Tanstack</h3>
+            <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading !leading-[0.9] uppercase font-black text-[#fff] tanstack-heading">Tech Stack</h3>
             <h3 class="text-5xl md:text-7xl lg:text-8xl figtreeHeading !leading-[0.9] uppercase font-black text-[#fff] tanstack-heading">We use</h3>
         </div>
 
@@ -61,56 +61,52 @@
         const section = document.querySelector(".tanstack-section");
         if (!section) return;
 
-        // Client carousel logic
         const clients = [
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
-            "new-icons/stacks/white-stacks/nodejs.png",
+            "new-icons/stacks/white-stacks/nodejs.png", "new-icons/stacks/white-stacks/typescript.png",
+            "new-icons/stacks/white-stacks/reactjs.png", "new-icons/stacks/white-stacks/postgres.png",
+            "new-icons/stacks/white-stacks/nextjs.png", "new-icons/stacks/white-stacks/jwt.svg",
+            "new-icons/stacks/white-stacks/php.png", "new-icons/stacks/white-stacks/firebase.png",
+            "new-icons/stacks/white-stacks/shopify.png", "new-icons/stacks/white-stacks/flutter.png",
+            "new-icons/stacks/white-stacks/react-native.png", "new-icons/stacks/white-stacks/javascript.png"
         ];
+        const clients1 = ["new-icons/stacks/white-stacks/cms.png", "new-icons/stacks/white-stacks/css3.png",
+            "new-icons/stacks/white-stacks/bootstrap.png", "new-icons/stacks/white-stacks/expressjs.png",
+            "new-icons/stacks/white-stacks/cloudflare.png", "new-icons/stacks/white-stacks/expo.png",
+            "new-icons/stacks/white-stacks/nodejs.png", "new-icons/stacks/white-stacks/laravel.png",
+            "new-icons/stacks/white-stacks/flutter.png", "new-icons/stacks/white-stacks/mongodb.png",
+            "new-icons/stacks/white-stacks/firebase.png", "new-icons/stacks/white-stacks/mysql.png",
+
+        ]; // Replace with actual different images if needed
+        // Replace with actual different images if needed
 
         const w = window.innerWidth;
         const ITEMS_PER_SLIDE = w <= 768 ? 12 : w <= 1024 ? 12 : 18;
 
-        const slides = [];
-        let currentSlideIndex = 0;
-
         const container = document.getElementById("tanstack-slides");
         const loaderBar = document.getElementById("tanstack-loader");
 
-        // Create slides
-        for (let i = 0; i < clients.length; i += ITEMS_PER_SLIDE) {
-            const group = clients.slice(i, i + ITEMS_PER_SLIDE);
+        let slides = [];
+        let currentSlideIndex = 0;
+        let slideTimeout;
+        let isHovered = false;
+
+        function createSlide(arr) {
+            const group = arr.slice(0, ITEMS_PER_SLIDE);
             const slide = document.createElement("div");
             slide.className = "tanstack-slide";
-            slide.innerHTML = group
-                .map(
-                    (img) => `
-        <div class="border border-gray-500 bg-[#141414] rounded-lg px-3 py-2 aspect-[4/2.8] lg:aspect-[4/2.5] flex items-center justify-center">
-          <img class="h-full w-16 object-contain" src="${img}" alt="client logo">
-        </div>
-      `
-                )
-                .join("");
+            slide.innerHTML = group.map(
+                (img) => `
+      <div class="border border-gray-500 bg-[#141414] rounded-lg px-3 py-2 aspect-[4/2.8] lg:aspect-[4/2.5] flex items-center justify-center">
+        <img class="h-full w-16 object-contain" src="${img}" alt="client logo">
+      </div>
+    `
+            ).join("");
             container.appendChild(slide);
-            slides.push(slide);
+            return slide;
         }
 
-        async function showSlide(index) {
-            const currentSlide = slides.find((s) => s.classList.contains("active"));
-            if (currentSlide) {
-                await animateExit(currentSlide);
-            }
-            animateEntry(slides[index]);
-        }
+        // Create and append slides
+        slides = [createSlide(clients), createSlide(clients1)];
 
         function animateExit(slide) {
             return new Promise((resolve) => {
@@ -133,7 +129,7 @@
             gsap.fromTo(
                 slide.children, {
                     opacity: 0,
-                    scale: 0.5,
+                    scale: 0.5
                 }, {
                     opacity: 1,
                     scale: 1,
@@ -144,24 +140,45 @@
             );
         }
 
-        function startSlideCycle() {
+        async function showSlide(index) {
+            const currentSlide = document.querySelector(".tanstack-slide.active");
+            if (currentSlide) await animateExit(currentSlide);
+            animateEntry(slides[index]);
+        }
+
+        function startSlideLoop() {
+            if (isHovered) return;
+
             loaderBar.style.transition = "none";
             loaderBar.style.width = "0%";
-            void loaderBar.offsetWidth; // force reflow
+            void loaderBar.offsetWidth;
             loaderBar.style.transition = "width 5s linear";
             loaderBar.style.width = "100%";
 
-            setTimeout(() => {
+            slideTimeout = setTimeout(() => {
                 currentSlideIndex = (currentSlideIndex + 1) % slides.length;
                 showSlide(currentSlideIndex).then(() => {
-                    startSlideCycle();
+                    startSlideLoop();
                 });
             }, 5000);
         }
 
-        // Start the first slide cycle
+        // Hover events to pause and resume
+        container.addEventListener("mouseenter", () => {
+            isHovered = true;
+            clearTimeout(slideTimeout);
+            loaderBar.style.transition = "none";
+            loaderBar.style.width = getComputedStyle(loaderBar).width;
+        });
+
+        container.addEventListener("mouseleave", () => {
+            isHovered = false;
+            startSlideLoop();
+        });
+
+        // Start the show
         showSlide(currentSlideIndex).then(() => {
-            startSlideCycle();
+            startSlideLoop();
         });
     });
 </script>

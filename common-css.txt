@@ -423,3 +423,199 @@ tagline =   <span data-aos="fade-up" class="inline-block bg-gray-100 px-4 py-2 r
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            document.addEventListener("DOMContentLoaded", () => {
+  const section = document.querySelector(".our-clients-section");
+  if (!section) return;
+
+  // Client carousel logic
+  const clients = [
+    "client-logos/Thaiger.png",
+    "client-logos/educ4ate.webp",
+    "client-logos/dontquit.png",
+    "client-logos/verify8-1.png",
+    "client-logos/syrocs logo.webp",
+    "client-logos/axxio-laboratory.webp",
+    "client-logos/yovant_recruitment_logo.webp",
+    "client-logos/varela-american logo.webp",
+    "client-logos/processindia.webp",
+    "client-logos/saudiwells.png",
+    "client-logos/BARKAT AL DUHA logo.webp",
+    "client-logos/alsalama.png",
+  ];
+
+  const w = window.innerWidth;
+  const ITEMS_PER_SLIDE = w <= 768 ? 12 : w <= 1024 ? 12 : 18;
+
+  const slides = [];
+  let currentSlideIndex = 0;
+
+  const container = document.getElementById("card-slides");
+  const loaderBar = document.getElementById("slide-loader");
+
+  // Create slides
+  for (let i = 0; i < clients.length; i += ITEMS_PER_SLIDE) {
+    const group = clients.slice(i, i + ITEMS_PER_SLIDE);
+    const slide = document.createElement("div");
+    slide.className = "slide";
+    slide.innerHTML = group
+      .map(
+        (img) => `
+      <div class="border border-[#b6b6b6] bg-white rounded-lg px-3 py-2 aspect-[4/2.8] lg:aspect-[4/2.5] flex items-center justify-center">
+        <img class="h-full w-full object-contain" src="${img}" alt="client logo">
+      </div>
+    `
+      )
+      .join("");
+    container.appendChild(slide);
+    slides.push(slide);
+  }
+
+  async function showSlide(index) {
+    const currentSlide = slides.find((s) => s.classList.contains("active"));
+    if (currentSlide) {
+      await animateExit(currentSlide);
+    }
+    animateEntry(slides[index]);
+  }
+
+  function animateExit(slide) {
+    return new Promise((resolve) => {
+      gsap.to(slide.children, {
+        opacity: 0,
+        scale: 0.5,
+        stagger: 0.05,
+        ease: "back.in(1.1)",
+        duration: 0.6,
+        onComplete: () => {
+          slide.classList.remove("active");
+          resolve();
+        },
+      });
+    });
+  }
+
+  function animateEntry(slide) {
+    slide.classList.add("active");
+    gsap.fromTo(
+      slide.children,
+      {
+        opacity: 0,
+        scale: 0.5,
+      },
+      {
+        opacity: 1,
+        scale: 1,
+        stagger: 0.05,
+        ease: "back.out(1.1)",
+        duration: 0.6,
+      }
+    );
+  }
+
+  function startSlideCycle() {
+    loaderBar.style.transition = "none";
+    loaderBar.style.width = "0%";
+    void loaderBar.offsetWidth; // force reflow
+    loaderBar.style.transition = "width 5s linear";
+    loaderBar.style.width = "100%";
+
+    setTimeout(() => {
+      currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+      showSlide(currentSlideIndex).then(() => {
+        startSlideCycle();
+      });
+    }, 5000);
+  }
+
+  // Start the first slide cycle
+  showSlide(currentSlideIndex).then(() => {
+    startSlideCycle();
+  });
+});
+
+
+
+
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 place-items-center" id="grid-column-container">
+            <div id="" class=" glow-card relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+                <!-- Glow that follows cursor -->
+                <div id="" class=" glow-dot pointer-events-none absolute w-48 h-48 rounded-full bg-red-200 opacity-0 blur-3xl z-0"></div>
+
+                <img src="new-icons/experience.png" class="w-10" alt="">
+                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Enhanced User Experience</h3>
+                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
+                    Dynamic sites provide a more interactive and engaging user experience. With enhanced features you can give visitors a smooth and enjoyable browsing experience.
+                </p>
+            </div>
+            <div id="" class=" glow-card relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+                <!-- Glow that follows cursor -->
+                <div id="" class=" glow-dot pointer-events-none absolute w-48 h-48 rounded-full bg-red-200 opacity-0 blur-3xl z-0"></div>
+
+                <img src="new-icons/performance.png" class="w-10 z-10" alt="">
+                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Improved SEO Performance</h3>
+                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
+                    Dynamic websites are naturally more SEO-friendly than static websites. They allow you to create SEO-friendly URLs and dynamic content and easily integrate meta tags.
+                </p>
+            </div>
+            <div id="" class=" glow-card relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+                <!-- Glow that follows cursor -->
+                <div id="" class=" glow-dot pointer-events-none absolute w-48 h-48 rounded-full bg-red-200 opacity-0 blur-3xl z-0"></div>
+
+                <img src="new-icons/inc-sale.png" class="w-10" alt="">
+                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Increased Sales</h3>
+                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
+                    The online marketplace is dynamic and ever-expanding. An E-commerce website opens up new avenues for sales.
+                </p>
+            </div>
+            <div id="" class=" glow-card relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+                <!-- Glow that follows cursor -->
+                <div id="" class=" glow-dot pointer-events-none absolute w-48 h-48 rounded-full bg-red-200 opacity-0 blur-3xl z-0"></div>
+
+                <img src="new-icons/scalability-black.png" class="w-10" alt="">
+                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Scalability</h3>
+                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
+                    Dynamic websites are highly scalable and can quickly expand and change as your company grows. Whether you need to add new products, expand your services.
+                </p>
+            </div>
+            <div id="" class=" glow-card relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+                <!-- Glow that follows cursor -->
+                <div id="" class=" glow-dot pointer-events-none absolute w-48 h-48 rounded-full bg-red-200 opacity-0 blur-3xl z-0"></div>
+
+                <img src="new-icons/cost-effect.png" class="w-10" alt="">
+                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Cost-Effectiveness</h3>
+                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
+                    While dynamic website development may require a more initial investment than static website development.
+                </p>
+            </div>
+            <div id="" class=" glow-card relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+                <!-- Glow that follows cursor -->
+                <div id="" class=" glow-dot pointer-events-none absolute w-48 h-48 rounded-full bg-red-200 opacity-0 blur-3xl z-0"></div>
+
+                <img src="new-icons/conversion-rate.png" class="w-10" alt="">
+                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Improved Conversion Rates</h3>
+                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
+                    Dynamic websites aim to turn visitors into customers. With features like personalised content and targeted calls to action.
+                </p>
+            </div>
+        </div>

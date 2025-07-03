@@ -24,7 +24,7 @@
 </style>
 
 <div class="lg:!py-16 py-10 px-4  mx-auto relative lg:px-20 hidden  overflow-hidden lg:block bg-[url(new-images/sticky-bg4.webp)] bg-cover bg-center ">
-    <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/50"></div>
+    <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/70"></div>
     <div class="" id="pinned-text-section">
         <h2 class="text-[35px] lg:text-[50px] text-white max-w-[800px]  leading-[1.05] font-[400]" id="reveal-text">
             Why choose us <br class="max-sm:hidden"> for Dynamic development ?
@@ -207,7 +207,7 @@
 
 
 <!-- For Mobile Version -->
-<div class="lg:!py-16 py-10 px-4  mx-auto relative lg:px-14  overflow-hidden lg:hidden block bg-[url(new-images/sticky-bg4.webp)] bg-cover bg-center ">
+<div class="lg:!py-16 py-10 px-4  mx-auto relative lg:px-14  overflow-hidden lg:hidden block bg-[url(https://sagartech.co.in/portfolio-mockups/ecommerce/thaigerpharma.webp)] bg-cover bg-center ">
     <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/50"></div>
     <div class="" id="mobile-pinned-text-section">
         <h2 class="text-[35px] lg:text-[50px] text-white max-w-[800px]  leading-[1.05] font-[400]" id="reveal-text">
