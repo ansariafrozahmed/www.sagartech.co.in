@@ -16,25 +16,27 @@
     }
 
     .glass-dark {
-        background: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        /* border: 1px solid rgba(255, 255, 255, 0.2); */
+        background: rgba(40, 40, 40, 0.4);
+        /* lighter than original */
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        /* border: 1px solid rgba(255, 255, 255, 0.1); */
+        /* subtle edge */
     }
 </style>
 
 <div class="lg:!py-16 py-10 px-4  mx-auto relative lg:px-20 hidden  overflow-hidden lg:block bg-[url(new-images/sticky-bg4.webp)] bg-cover bg-center ">
     <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/70"></div>
     <div class="" id="pinned-text-section">
-        <h2 class="text-[35px] lg:text-[50px] text-white max-w-[800px]  leading-[1.05] font-[400]" id="reveal-text">
+        <h2 class="text-[35px] lg:text-[50px] text-white max-w-[800px]  leading-[1.05] font-[400] " id="reveal-text">
             Why choose us <br class="max-sm:hidden"> for Dynamic development ?
         </h2>
     </div>
-    <div class="flex justify-center lg:flex-row flex-col max-sm:gap-5 mt-16">
+    <div class="flex justify-center lg:flex-row flex-col max-sm:gap-5 mt-16 bg-gradient-to-b from-gray-700 rounded-3xl pt-16 ">
         <div class="max-sm:space-y-5">
             <!-- Card 1 -->
             <div id="tilta1-animation-container">
-                <div class=" glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilta1-animation-section">
+                <div class=" glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilta1-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/expert.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">Knowledge and skill</h2>
@@ -45,7 +47,7 @@
                 </div>
             </div>
             <div id="tilt1-animation-container">
-                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilt1-animation-section">
+                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilt1-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/expert.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">High-quality Portfolio</h2>
@@ -64,7 +66,7 @@
         <div class="lg:mt-16 max-sm:space-y-5">
             <!-- Card 4 -->
             <div id="tilt4-animation-container">
-                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilt4-animation-section">
+                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilt4-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/solution.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">Cost-Effectiveness</h2>
@@ -78,7 +80,7 @@
 
             <!-- Card 6 -->
             <div id="tilt3-animation-container">
-                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilt3-animation-section">
+                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="tilt3-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/optimization.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">Assistance and Service</h2>
@@ -218,7 +220,7 @@
         <div class="max-sm:space-y-5">
             <!-- Card 1 -->
             <div id="mobile-tilta1-animation-container">
-                <div class=" glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilta1-animation-section">
+                <div class=" glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilta1-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/expert.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">Knowledge and skill</h2>
@@ -229,7 +231,7 @@
                 </div>
             </div>
             <div id="mobile-tilt1-animation-container">
-                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilt1-animation-section">
+                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilt1-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/expert.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">High-quality Portfolio</h2>
@@ -248,7 +250,7 @@
         <div class="lg:mt-16 max-sm:space-y-5">
             <!-- Card 4 -->
             <div id="mobile-tilt4-animation-container">
-                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilt4-animation-section">
+                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilt4-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/solution.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">Cost-Effectiveness</h2>
@@ -262,7 +264,7 @@
 
             <!-- Card 6 -->
             <div id="mobile-tilt3-animation-container">
-                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-900 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilt3-animation-section">
+                <div class="glass-dark  lg:m-6 max-sm:text-justify border border-gray-800 rounded-3xl p-7 max-w-[450px] w-full bg-black" id="mobile-tilt3-animation-section">
                     <div class="text-gray-300 text-3xl mb-4">
                         <img src="new-icons/optimization.png" class="w-12 mb-3" alt="">
                         <h2 class="text-[20px] lg:text-[22px] leading-[1.15] mt-2 font-[400] text-white ">Assistance and Service</h2>

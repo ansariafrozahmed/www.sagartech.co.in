@@ -11,12 +11,12 @@
     <meta name="keywords" content="Dynamic Website">
     <meta property="og:type" content="website">
     <meta property="og:title" content="No. 1 Dynamic Website Developer & Designing Company In Mumbai">
-    <meta property="og:url" content="https://sagartech.co.in/dynamic-website-development-company-in-mumbai">
+    <meta property="og:url" content="https://sagartech.co.in/newDynamicWebsite">
     <meta property="og:image" content="https://sagartech.co.in/images/OG-Images/dynamic.png">
     <meta property="og:description"
         content="Best dynamic website development and design company in Mumbai creates pages in real time,adapting to dynamic features like screen size and device.">
     <!-- Favicon -->
-    <link rel="canonical" href="https://sagartech.co.in/dynamic-website-development-company-in-mumbai" />
+    <link rel="canonical" href="https://sagartech.co.in/newDynamicWebsite" />
     <link rel="shortcut icon" href="images/logoonly.jpg" />
 
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet" />

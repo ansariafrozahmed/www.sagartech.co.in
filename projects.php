@@ -86,7 +86,7 @@
   include("include/newHeader.php");
   ?>
   <div class="md:my-5 flex flex-col justify-center items-center px-5">
-    <div class=" h-[70px] overflow-hidden">
+    <div class=" lg:h-[70px] h-[100px] overflow-hidden">
       <h1 id="title_animation" class="md:text-3xl text-2xl md:max-w-[640px] w-full h-full uppercase font-medium text-center mt-7">
         Our Creative Projects Portfolio
       </h1>

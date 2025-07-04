@@ -1,3 +1,71 @@
+<style>
+    @keyframes float-up-down {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+    }
+
+    @keyframes float-down-up {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(20px);
+        }
+    }
+
+    @keyframes float-left-right {
+
+        0%,
+        100% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(-20px);
+        }
+    }
+
+    @keyframes float-right-left {
+
+        0%,
+        100% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(20px);
+        }
+    }
+
+    .float-up {
+        animation: float-up-down 4s ease-in-out infinite;
+    }
+
+    .float-down {
+        animation: float-down-up 4s ease-in-out infinite;
+    }
+
+    .float-left {
+        animation: float-left-right 5s ease-in-out infinite;
+    }
+
+    .float-right {
+        animation: float-right-left 5s ease-in-out infinite;
+    }
+</style>
+
+
+
 <div class="lg:py-28 py-12 overflow-hidden lg:px-20 px-4 flex flex-col justify-center items-center transition-colors duration-300" id="main-section">
     <!-- <div class="absolute top-0 left-0 w-full h-full inset-0 bg-black/85"></div> -->
     <div class="w-full" id="trigger-section">
@@ -18,77 +86,156 @@
         </p>
     </div>
     <div class="flex !justify-start w-full">
-        <p id="animated-paragraph" class="text-[13.5px] lg:text-xl max-w-[750px] text-start w-full font-light tracking-wide text-gray-100 opacity-0 translate-y-6 my-10 transition-colors duration-300">
+        <p id="animated-paragraph" class="text-[13.5px] lg:text-xl text-start w-full font-light tracking-wide text-gray-100 opacity-0 translate-y-6 my-10 transition-colors duration-300">
             In the digital age, a dynamic website is no longer a choice: it is a requirement for businesses seeking to establish a strong online presence and stay ahead of the competition. At Sagar Tech Technical Solution, we recognize the value of dynamic website development in driving business growth and increasing customer engagement. Here are some strong reasons why your business should have a dynamic website.
         </p>
     </div>
-    <div class="">
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 place-items-center" id="grid-column-container">
-            <div id="glow-card" class="relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+    <div class="w-full">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 place-items-center w-full" id="grid-column-container">
+            <div id="glow-card" class="lg:h-[270px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] bg-gray-50 shadow-md  w-full transition-colors duration-300">
 
                 <!-- Glow that follows cursor -->
-                <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-100 opacity-0 blur-3xl z-0"></div>
+                <div class="lg:w-[60%]  z-10 ">
 
-                <img src="new-icons/experience.png" class="w-10" alt="">
-                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Enhanced User Experience</h3>
-                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
-                    Dynamic sites provide a more interactive and engaging user experience. With enhanced features you can give visitors a smooth and enjoyable browsing experience.
-                </p>
+                    <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div>
+
+                    <h3 class="lg:text-[28px] text-[22px] leading-[1.15] font-[400] text-[#242424]  z-10">Enhanced User Experience</h3>
+                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800 lg:max-w-[250px] w-full mt-3 z-10">
+                        Dynamic sites provide a more interactive and engaging user experience. With enhanced features you can give visitors a smooth and enjoyable browsing experience.
+                    </p>
+                </div>
+                <div class="relative w-[40%]">
+                    <div class="lg:bg-[#E14434] bg-[#f0c3be] w-20 h-20 rounded-full absolute flex justify-center items-center -top-20 left-16 float-down">
+                        <img src="new-icons/white-icons/cms.png" class="w-8" alt="">
+                    </div>
+
+                    <div class="lg:bg-[#0D5EA6] bg-[#a5cdef] w-32 h-32 rounded-full absolute flex justify-center items-center top-10 right-10 float-left">
+                        <img src="new-icons/white-icons/admin-panel.png" class="w-16" alt="">
+                    </div>
+                </div>
             </div>
-            <div id="glow-card" class="relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+            <div id="glow-card" class="lg:h-[270px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] bg-gray-50 shadow-md  w-full transition-colors duration-300">
 
                 <!-- Glow that follows cursor -->
-                <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-100 opacity-0 blur-3xl z-0"></div>
+                <div class="lg:w-[60%]  z-10 ">
 
-                <img src="new-icons/performance.png" class="w-10 z-10" alt="">
-                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Improved SEO Performance</h3>
-                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
-                    Dynamic websites are naturally more SEO-friendly than static websites. They allow you to create SEO-friendly URLs and dynamic content and easily integrate meta tags.
-                </p>
+                    <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div>
+
+                    <h3 class="lg:text-[28px] text-[22px] leading-[1.15] font-[400] text-[#242424]  z-10">Improved SEO Performance</h3>
+                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800 lg:max-w-[250px] w-full mt-3 z-10">
+                        Dynamic websites are naturally more SEO-friendly than static websites. They allow you to create SEO-friendly URLs and dynamic content and easily integrate meta tags.
+                    </p>
+                </div>
+                <div class="relative w-[40%]">
+                    <div class="lg:bg-[#0D5EA6] bg-[#c0b0ec] w-10 h-10 rounded-full absolute flex justify-center items-center top-5 left-5 float-up">
+                        <img src="new-icons/white-icons/seo/seo1.png" class="w-5" alt="">
+                    </div>
+
+                    <div class="lg:bg-[#06923E] bg-[#f0c3be] w-20 h-20 rounded-full absolute flex justify-center items-center -top-20 left-16 float-down">
+                        <img src="new-icons/white-icons/seo/seo2.png" class="w-8" alt="">
+                    </div>
+                    <div class="lg:bg-[#FFB823] bg-[#fcedcb] w-20 h-20 rounded-full absolute flex justify-center items-center top-20 -right-5 float-right">
+                        <img src="new-icons/white-icons/seo/seo4.png" class="w-8" alt="">
+                    </div>
+
+                </div>
+
             </div>
-            <div id="glow-card" class="relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+            <div id="glow-card" class="lg:h-[270px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] bg-gray-50 shadow-md  w-full transition-colors duration-300">
 
                 <!-- Glow that follows cursor -->
-                <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-100 opacity-0 blur-3xl z-0"></div>
+                <div class="lg:w-[60%]  z-10 ">
 
-                <img src="new-icons/inc-sale.png" class="w-10" alt="">
-                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Increased Sales</h3>
-                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
-                    The online marketplace is dynamic and ever-expanding. An E-commerce website opens up new avenues for sales.
-                </p>
+                    <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div>
+
+                    <h3 class="lg:text-[28px] text-[22px] leading-[1.15] font-[400] text-[#242424]  z-10">Increased Sales</h3>
+                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800 lg:max-w-[250px] w-full mt-3 z-10">
+                        The online marketplace is dynamic and ever-expanding. An E-commerce website opens up new avenues for sales.
+                    </p>
+                </div>
+                <div class="relative w-[40%]">
+                    <div class="lg:bg-[#0D5EA6] bg-[#c0b0ec] w-10 h-10 rounded-full absolute flex justify-center items-center top-5 left-5 float-up">
+                        <img src="new-icons/white-icons/increase-sale/increase1.png" class="w-5" alt="">
+                    </div>
+
+                    <div class="lg:bg-[#06923E] bg-[#f0c3be] w-20 h-20 rounded-full absolute flex justify-center items-center -top-20 left-16 float-down">
+                        <img src="new-icons/white-icons/increase-sale/increase2.png" class="w-8" alt="">
+                    </div>
+                </div>
             </div>
-            <div id="glow-card" class="relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+            <div id="glow-card" class="lg:h-[270px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] bg-gray-50 shadow-md  w-full transition-colors duration-300">
 
                 <!-- Glow that follows cursor -->
-                <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-100 opacity-0 blur-3xl z-0"></div>
+                <div class="lg:w-[60%]  z-10 ">
 
-                <img src="new-icons/scalability-black.png" class="w-10" alt="">
-                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Scalability</h3>
-                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
-                    Dynamic websites are highly scalable and can quickly expand and change as your company grows. Whether you need to add new products, expand your services.
-                </p>
+                    <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div>
+
+                    <h3 class="lg:text-[28px] text-[22px] leading-[1.15] font-[400] text-[#242424]  z-10">Scalability</h3>
+                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800 lg:max-w-[250px] w-full mt-3 z-10">
+                        Dynamic websites are highly scalable and can quickly expand and change as your company grows. Whether you need to add new products, expand your services.
+                    </p>
+                </div>
+                <div class="relative w-[40%]">
+                    <div class="lg:bg-[#725CAD] bg-[#c0b0ec] w-10 h-10 rounded-full absolute flex justify-center items-center top-5 left-5 float-up">
+                        <img src="new-icons/white-icons/scalable/scalable1.png" class="w-5" alt="">
+                    </div>
+                    <div class="lg:bg-[#FFB823] bg-[#fcedcb] w-20 h-20 rounded-full absolute flex justify-center items-center top-20 -right-5 float-right">
+                        <img src="new-icons/white-icons/scalable/scalable4.png" class="w-8" alt="">
+                    </div>
+
+                    <div class="lg:bg-[#06923E] bg-[#c4ffdc] w-16 h-16 rounded-full absolute flex justify-center items-center -bottom-10 left-5 float-up">
+                        <img src="new-icons/white-icons/scalable/scalable5.png" class="w-8" alt="">
+                    </div>
+                </div>
             </div>
-            <div id="glow-card" class="relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+
+            <div id="glow-card" class="lg:h-[270px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] bg-gray-50 shadow-md  w-full transition-colors duration-300">
 
                 <!-- Glow that follows cursor -->
-                <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-100 opacity-0 blur-3xl z-0"></div>
+                <div class="lg:w-[60%]  z-10 ">
 
-                <img src="new-icons/cost-effect.png" class="w-10" alt="">
-                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Cost-Effectiveness</h3>
-                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
-                    While dynamic website development may require a more initial investment than static website development.
-                </p>
+                    <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div>
+
+                    <h3 class="lg:text-[28px] text-[22px] leading-[1.15] font-[400] text-[#242424]  z-10">Cost-Effectiveness</h3>
+                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800 lg:max-w-[250px] w-full mt-3 z-10">
+                        While dynamic website development may require a more initial investment than static website development.
+                    </p>
+                </div>
+                <div class="relative w-[40%]">
+                    <div class="lg:bg-[#FF9149] bg-[#a5cdef] w-28 h-28 rounded-full absolute flex justify-center items-center top-10 right-10 float-left">
+                        <img src="new-icons/white-icons/cost-effect/cost-eff3.png" class="w-12" alt="">
+                    </div>
+
+                    <div class="lg:bg-[#FFB823] bg-[#fcedcb] w-20 h-20 rounded-full absolute flex justify-center items-center top-20 -right-5 float-right">
+                        <img src="new-icons/white-icons/cost-effect/cost-eff4.png" class="w-8" alt="">
+                    </div>
+                </div>
+
             </div>
-            <div id="glow-card" class="relative group overflow-hidden space-y-4 p-6 border border-gray-200 rounded-lg max-w-[450px] md:h-[240px] bg-white w-full flex flex-col justify-center items-center transition-colors duration-300">
+            <div id="glow-card" class="lg:h-[270px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] bg-gray-50 shadow-md  w-full transition-colors duration-300">
 
                 <!-- Glow that follows cursor -->
-                <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-100 opacity-0 blur-3xl z-0"></div>
+                <div class="lg:w-[60%]  z-10 ">
 
-                <img src="new-icons/conversion-rate.png" class="w-10" alt="">
-                <h3 class="lg:text-[22px] leading-[1.15] font-[400] text-[#242424] z-10">Improved Conversion Rates</h3>
-                <p class="text-[13px] font-light tracking-wide text-gray-600 text-center z-10">
-                    Dynamic websites aim to turn visitors into customers. With features like personalised content and targeted calls to action.
-                </p>
+                    <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div>
+
+                    <h3 class="lg:text-[28px] text-[22px] leading-[1.15] font-[400] text-[#242424]  z-10">Improved Conversion Rates</h3>
+                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800 lg:max-w-[250px] w-full mt-3 z-10">
+                        Dynamic websites aim to turn visitors into customers. With features like personalised content and targeted calls to action.
+                    </p>
+                </div>
+                <div class="relative w-[40%]">
+
+
+                    <div class="lg:bg-[#0D5EA6] bg-[#a5cdef] w-16 h-16 rounded-full absolute flex justify-center items-center top-8 right-16 float-left">
+                        <img src="new-icons/white-icons/conversion-rates/conversion1.png" class="w-8" alt="">
+                    </div>
+
+                    <div class="lg:bg-[#DA498D] bg-[#fcedcb] w-20 h-20 rounded-full absolute flex justify-center items-center top-20 -right-5 float-right">
+                        <img src="new-icons/white-icons/conversion-rates/conversion2.png" class="w-8" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -179,7 +326,7 @@
                 opacity: 0,
                 y: 100,
                 duration: 0.6,
-                stagger: 0.2,
+                // stagger: 0.2,
                 ease: "power2.out"
             });
         },
@@ -192,17 +339,17 @@
                     trigger: "#grid-column-container",
                     start: "top 20%",
                     end: "+=1200",
-                    pin: true,
-                    scrub: 1.5
+                    // pin: true,
+                    // scrub: 1.5
                 }
             });
 
             cards.forEach((card) => {
                 timeline.from(card, {
-                    x: 400,
+                    y: 400,
                     opacity: 0,
-                    duration: 0.6,
-                    ease: "power2.out"
+                    duration: 0.2,
+                    ease: "ease-out"
                 }, ">");
             });
         }
