@@ -3,6 +3,7 @@
 ob_start();
 error_reporting(0);
 header('Content-Type: text/plain');
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -178,4 +179,3 @@ if (isset($_POST['msg_submit'])) {
         echo '0';
     }
 }
-?>

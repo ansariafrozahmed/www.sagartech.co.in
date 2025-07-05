@@ -31,14 +31,10 @@
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-
-    <!-- AOS Animation -->
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
     <!-- AOS JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
@@ -284,7 +280,45 @@
     <?php
     include("include/new-services/new-dynamic-website/secondLast.php"); ?>
     <?php
-    include("include/faqs.php"); ?>
+    $faqData = [
+        [
+            "question" => "Why do I need an E-Commerce Website for my business?",
+            "answer" => "An E-Commerce website expands your reach, allowing you to tap into a global market. It provides a convenient shopping experience for customers and enhances your business visibility."
+        ],
+        [
+            "question" => "What services do you offer for E-Commerce Websites?",
+            "answer" => "Yes, we specialize in developing custom E-Commerce websites designed to meet your specific business requirements, ensuring a unique and effective online presence."
+        ],
+        [
+            "question" => "Can you optimize my website for search engines (SEO)?",
+            "answer" => "Yes, we offer SEO-friendly web development services to ensure your website is optimized for search engines, helping to improve its visibility and ranking in search results."
+        ],
+        [
+            "question" => "How do you ensure the security of transactions on E-Commerce websites?",
+            "answer" => "We implement robust security measures, including SSL encryption, secure payment gateways, and compliance with industry standards, to protect customer data and ensure safe transactions."
+        ],
+        [
+            "question" => "Can you integrate popular payment gateways into my E-Commerce website?",
+            "answer" => "Yes, we can integrate various payment gateways like PayPal, Stripe, and others, providing your customers with multiple secure options for making online purchases."
+        ],
+        [
+            "question" => "What platforms do you use for building E-Commerce websites?",
+            "answer" => "We work with popular E-Commerce platforms such as Shopify, WooCommerce, Magento, and others, selecting the platform that best aligns with your business goals and requirements."
+        ],
+        [
+            "question" => "Can you create a mobile-responsive design for my E-Commerce website?",
+            "answer" => "Yes Absolutely, we prioritize mobile-responsive design to ensure that your E-Commerce website functions seamlessly on various devices, providing an optimal user experience."
+        ],
+        [
+            "question" => "Do you offer ongoing support and maintenance for E-Commerce websites?",
+            "answer" => "Yes, we provide ongoing support and maintenance services to keep your E-Commerce website updated, secure, and functioning smoothly, ensuring a positive experience for both you and your customers."
+        ]
+    ];
+
+    $faqId = "faq1"; // unique per section
+    include 'include/faqs.php';
+    ?>
+    </div>
 
     <?php include("include/footer.php"); ?>
 </body>
