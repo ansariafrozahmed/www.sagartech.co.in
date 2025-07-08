@@ -1,10 +1,13 @@
 <!-- Shopify Mockups Section (same as before) -->
 <section class="py-20 px-4 lg:px-20 bg-gray-50" data-aos="fade-up">
+
+
+
     <div class="text-start flex lg:flex-row flex-col justify-between mb-12">
-        <h2 class="text-[35px] lg:text-[50px] font-semibold text-[#242424]" data-aos="fade-up">Shopify Store Preview</h2>
+        <h2 class="text-[35px] lg:text-[50px] font-semibold text-[#242424]" data-aos="fade-up">Wordpress Store Preview</h2>
         <div class="">
-            <p class="text-gray-500 text-sm mt-2" data-aos="fade-up">
-                Hand-crafted Shopify storefronts designed <br class="max-sm:hidden"> to deliver performance & style.
+            <p class="text-gray-500 text-sm mt-5">
+                Hand-crafted Shopify storefronts designed <br class="max-sm:hidden" data-aos="fade-up"> to deliver performance & style.
             </p>
             <div class="mt-5" data-aos="fade-up" data-aos="fade-up">
                 <a href="projects" class="">
@@ -26,43 +29,43 @@
 
     <div class="grid grid-cols-2  lg:grid-cols-4 gap-5 max-w-7xl mx-auto">
         <!-- Store Card -->
-        <div onclick="openModal('new-images/cotton-culture-wbg.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300" data-aos="fade-up">
+        <div onclick="openModal('portfolio-mockups/education/capdiw.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300" data-aos="fade-up">
             <div class="  overflow-hidden  transition-all duration-300">
                 <div class="overflow-hidden p-5 rounded-xl bg-gray-100 flex justify-center items-center">
-                    <img src="new-images/cotton-culture-wbg.webp" alt="Cotton Culture"
+                    <img src="portfolio-mockups/education/capdiw.webp" alt="Cotton Culture"
                         class="max-w-[200px] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div class="py-4 pl-1">
-                    <h3 class="text-[17px] font-medium text-[#242424]">Cotton Culture</h3>
+                    <h3 class="text-[17px] font-medium text-[#242424]">Capdiw</h3>
                 </div>
             </div>
         </div>
-        <div onclick="openModal(`portfolio-images/chief-parfum2.webp`)" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300" data-aos="fade-up">
+        <div onclick="openModal(`portfolio-mockups/ecommerce/mistleblue.webp`)" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300" data-aos="fade-up">
             <div class="  overflow-hidden  transition-all duration-300">
                 <div class="overflow-hidden p-5 rounded-xl bg-gray-100 flex justify-center items-center">
-                    <img src="https://sagartech.co.in/portfolio-images/chief-parfum2.webp" alt="Cotton Culture"
+                    <img src="portfolio-mockups/ecommerce/mistleblue.webp" alt="Cotton Culture"
                         class="max-w-[200px] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div class="py-4 pl-1">
-                    <h3 class="text-[17px] font-medium text-[#242424]">Chef Perfum</h3>
+                    <h3 class="text-[17px] font-medium text-[#242424]">Mistle Blue</h3>
                 </div>
             </div>
         </div>
-        <div onclick="openModal('portfolio-images/diamondtoys.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300" data-aos="fade-up">
+        <div onclick="openModal('portfolio-mockups/ecommerce/bsauto.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300">
             <div class="  overflow-hidden  transition-all duration-300">
                 <div class="overflow-hidden p-5 rounded-xl bg-gray-100 flex justify-center items-center">
-                    <img src="https://sagartech.co.in/portfolio-images/diamondtoys.webp" alt="Cotton Culture"
+                    <img src="portfolio-mockups/ecommerce/bsauto.webp" alt="Cotton Culture"
                         class="max-w-[200px] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div class="py-4 pl-1">
-                    <h3 class="text-[17px] font-medium text-[#242424]">Diamond Toys</h3>
+                    <h3 class="text-[17px] font-medium text-[#242424]">BS Auto</h3>
                 </div>
             </div>
         </div>
-        <div onclick="openModal('portfolio-images/zenitto.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300" data-aos="fade-up">
+        <div onclick="openModal('portfolio-mockups/ecommerce/almarjaan.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300" data-aos="fade-up">
             <div class="  overflow-hidden  transition-all duration-300">
                 <div class="overflow-hidden p-5 rounded-xl bg-gray-100 flex justify-center items-center">
-                    <img src="https://sagartech.co.in/portfolio-images/zenitto.webp" alt="Cotton Culture"
+                    <img src="portfolio-mockups/ecommerce/almarjaan.webp" alt="Cotton Culture"
                         class="max-w-[200px] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
                 </div>
                 <div class="py-4 pl-1">
@@ -71,6 +74,8 @@
             </div>
         </div>
     </div>
+
+
 </section>
 
 
