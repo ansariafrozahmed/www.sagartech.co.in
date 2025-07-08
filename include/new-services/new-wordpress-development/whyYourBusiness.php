@@ -78,16 +78,16 @@
         </div>
         <div id="trigger-heading-end" class="h-[1px] w-full"></div>
         <h2 id="animated-heading" class="lg:text-[50px] text-[35px] text-start w-full leading-[1.1] tracking-[0px] font-normal transition-colors duration-300">
-            How a Custom Shopify Store <br class="max-sm:hidden">Can Elevate Your Business
+            Why a WordPress-Powered <br class="max-sm:hidden"> Website Is Right for Your Brand
         </h2>
         <div id="trigger-heading-end" class="h-[1px] w-full"></div>
         <p class="text-xl font-light tracking-wide text-gray-300 w-full mt-10 transition-colors duration-300" id="animated-subtitle">
-            Why High-Performing Shopify Stores Create Better Engagement & Conversions
+            Explore the features that make WordPress the go-to platform <br class="max-sm:hidden"> for flexible, future-ready websites.
         </p>
     </div>
     <div class="flex !justify-start w-full">
-        <p id="animated-paragraph" class="text-[13.5px] lg:text-sm max-w-[700px] w-full text-start w-full font-light tracking-wide text-gray-100 opacity-0 translate-y-6 my-10 transition-colors duration-300">
-            Sagar Tech is one of the top Shopify development companies, known for helping companies easily launch and grow their online presence. Our knowledgeable staff is committed to providing customised Shopify solutions that support your particular company objectives.
+        <p id="animated-paragraph" class="text-[13.5px] lg:text-sm max-w-[700px] w-full text-start font-light tracking-wide text-gray-100 opacity-0 translate-y-6 my-10 transition-colors duration-300">
+            In the digital age, a dynamic website is no longer a choice: it is a requirement for businesses seeking to establish a strong online presence and stay ahead of the competition. At Sagar Tech Technical Solution, we recognize the value of dynamic website development in driving business growth and increasing customer engagement. Here are some strong reasons why your business should have a dynamic website.
         </p>
     </div>
     <div class="w-full">
@@ -99,22 +99,14 @@
 
                     <!-- <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div> -->
                     <div class="flex justify-between gap-5 items-center">
-                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Successful Shopify Projects</h3>
-                        <img src="new-icons/project-black.png" alt="" class="w-8">
+                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Custom Tailored Designs</h3>
+                        <img src="new-icons/custom-des.png" alt="" class="w-8">
                     </div>
                     <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800  w-full mt-3 z-10">
-                        We’ve delivered a wide range of Shopify stores with precision and expertise. Elevate your e-commerce experience with tailored solutions that drive real results.
+                        Our team of skilled designers will create a website that not only looks great but also aligns with your brand's personality and goals.
                     </p>
                 </div>
-                <!-- <div class="relative w-[40%]">
-                    <div class="lg:bg-[#E14434] bg-[#f0c3be] w-20 h-20 rounded-full absolute flex justify-center items-center -top-20 left-16 float-down">
-                        <img src="new-icons/white-icons/cms.png" class="w-8" alt="">
-                    </div>
 
-                    <div class="lg:bg-[#0D5EA6] bg-[#a5cdef] w-32 h-32 rounded-full absolute flex justify-center items-center top-10 right-10 float-left">
-                        <img src="new-icons/white-icons/admin-panel.png" class="w-16" alt="">
-                    </div>
-                </div> -->
             </div>
             <div id="glow-card" class=" h-[220px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] border border-gray-200 w-full transition-colors duration-300">
 
@@ -123,22 +115,14 @@
 
                     <!-- <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div> -->
                     <div class="flex justify-between gap-5 items-center">
-                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Shopify Expertise</h3>
-                        <img src="new-icons/expert1.png" alt="" class="w-10">
+                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">SEO-Friendly Websites</h3>
+                        <img src="new-icons/dynamic-icons/seo.png" alt="" class="w-8">
                     </div>
                     <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800  w-full mt-3 z-10">
-                        We have strong experience working with Shopify, helping businesses build and grow their online stores with trusted, effective solutions.
+                        We ensure your website is optimized for search engines, helping you reach a wider audience and drive more organic traffic.
                     </p>
                 </div>
-                <!-- <div class="relative w-[40%]">
-                    <div class="lg:bg-[#E14434] bg-[#f0c3be] w-20 h-20 rounded-full absolute flex justify-center items-center -top-20 left-16 float-down">
-                        <img src="new-icons/white-icons/cms.png" class="w-8" alt="">
-                    </div>
 
-                    <div class="lg:bg-[#0D5EA6] bg-[#a5cdef] w-32 h-32 rounded-full absolute flex justify-center items-center top-10 right-10 float-left">
-                        <img src="new-icons/white-icons/admin-panel.png" class="w-16" alt="">
-                    </div>
-                </div> -->
             </div>
             <div id="glow-card" class=" h-[220px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] border border-gray-200 w-full transition-colors duration-300">
 
@@ -147,37 +131,14 @@
 
                     <!-- <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div> -->
                     <div class="flex justify-between gap-5 items-center">
-                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Custom Apps & Themes</h3>
-                        <img src="new-icons/custom-theme.png" alt="" class="w-8">
-                    </div>
-                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800  w-full mt-3 z-10">
-                        Tailor your Shopify store with custom apps and themes. Enhance functionality and design for a unique shopping experience.
-                    </p>
-                </div>
-                <!-- <div class="relative w-[40%]">
-                    <div class="lg:bg-[#E14434] bg-[#f0c3be] w-20 h-20 rounded-full absolute flex justify-center items-center -top-20 left-16 float-down">
-                        <img src="new-icons/white-icons/cms.png" class="w-8" alt="">
-                    </div>
-
-                    <div class="lg:bg-[#0D5EA6] bg-[#a5cdef] w-32 h-32 rounded-full absolute flex justify-center items-center top-10 right-10 float-left">
-                        <img src="new-icons/white-icons/admin-panel.png" class="w-16" alt="">
-                    </div>
-                </div> -->
-            </div>
-            <div id="glow-card" class=" h-[220px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] border border-gray-200 w-full transition-colors duration-300">
-
-                <!-- Glow that follows cursor -->
-                <div class=" z-10 ">
-
-                    <!-- <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div> -->
-                    <div class="flex justify-between gap-5 items-center">
-                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Responsive & SEO-friendly Stores</h3>
+                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Responsive Design</h3>
                         <img src="new-icons/responsive-black.png" alt="" class="w-8">
                     </div>
                     <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800  w-full mt-3 z-10">
-                        Build responsive and SEO-friendly stores that adapt seamlessly to any device and rank higher in search results. Optimize your e-commerce success.
+                        Your website will look fantastic on all devices, from desktops to smartphones, ensuring a seamless user experience.
                     </p>
                 </div>
+
             </div>
             <div id="glow-card" class=" h-[220px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] border border-gray-200 w-full transition-colors duration-300">
 
@@ -186,13 +147,30 @@
 
                     <!-- <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div> -->
                     <div class="flex justify-between gap-5 items-center">
-                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Security & Speed Optimization</h3>
-                        <img src="new-icons/security-black.png" alt="" class="w-9">
+                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">E-commerce Solutions</h3>
+                        <img src="new-icons/ecommerce.png" alt="" class="w-8">
                     </div>
                     <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800  w-full mt-3 z-10">
-                        Ensure your Shopify store's security and speed with top-notch optimization. Protect your site and enhance performance for a seamless user experience.
+                        Need an online store? Our WordPress development expertise can help you create a robust and secure e-commerce platform.
                     </p>
                 </div>
+
+            </div>
+            <div id="glow-card" class=" h-[220px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] border border-gray-200 w-full transition-colors duration-300">
+
+                <!-- Glow that follows cursor -->
+                <div class=" z-10 ">
+
+                    <!-- <div id="glow-dot" class="pointer-events-none absolute w-48 h-48 rounded-full bg-red-50 opacity-0 blur-3xl z-0"></div> -->
+                    <div class="flex justify-between gap-5 items-center">
+                        <h3 class="lg:text-[22px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">Ongoing Support and Maintenance</h3>
+                        <img src="new-icons/maintain.png" alt="" class="w-9">
+                    </div>
+                    <p class="text-[13.5px] font-light tracking-wide lg:text-gray-600 text-gray-800  w-full mt-3 z-10">
+                        We're committed to providing ongoing support and maintenance to keep your website running smoothly.
+                    </p>
+                </div>
+
             </div>
             <div id="glow-card" class=" h-[220px] flex justify-between relative group overflow-hidden space-y-4 lg:p-10 py-6 px-4  rounded-2xl max-w-[650px] border border-gray-200 w-full transition-colors duration-300">
 
@@ -208,6 +186,7 @@
                         Expertise in integrating and managing payment gateways for a smooth, secure checkout experience. Simplify transactions and boost customer confidence.
                     </p>
                 </div>
+
             </div>
         </div>
     </div>

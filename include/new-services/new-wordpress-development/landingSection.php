@@ -4,13 +4,13 @@
         <div class="lg:h-[80px] overflow-hidden  ">
             <h1 id="transition-heading"
                 class="lg:text-7xl text-2xl lg:text-start text-center max-sm:mt-16 tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#242424] ">
-                Shopify Website Development
+                WordPress Website Design
             </h1>
         </div>
         <div class="lg:h-[80px] overflow-hidden  ">
             <h1 id="transition-heading"
                 class="lg:text-7xl text-2xl lg:text-start text-center  tracking-wide md:!leading-[85px] max-w-[1100px] w-full text-[#242424]">
-                Your Online Store Experts
+                & Development Services
             </h1>
         </div>
     </div>
@@ -20,19 +20,19 @@
         <div class="h-[50px]  overflow-hidden  ">
             <h1 id="transition-heading"
                 class=" text-[34px] text-start leading-  tracking-wide max-w-[1100px] w-full text-[#242424] ">
-                Shopify Website
+                WordPress Website
             </h1>
         </div>
         <div class="h-[50px]  overflow-hidden  ">
             <h1 id="transition-heading"
                 class=" text-[34px] text-start leading-  tracking-wide max-w-[1100px] w-full text-[#242424]">
-                Developer Your
+                Design Your &
             </h1>
         </div>
         <div class="h-[50px]  overflow-hidden  ">
             <h1 id="transition-heading"
                 class=" text-[34px] text-start leading-  tracking-wide max-w-[1100px] w-full text-[#242424]">
-                Online Store Experts
+                Development Services
             </h1>
         </div>
     </div>
@@ -47,7 +47,7 @@
 
     <p class="text-[13.5px] font-light tracking-wide text-gray-600 leading-7 mt-7 max-w-[800px] w-full lg:text-start text-justify"
         data-aos="fade-up">
-        Sagar Tech Technical Solutions offers Shopify eCommerce development services that help you create online stores that are user-friendly, effective, and powerful. We provide premium services made to build trustworthy scalable eCommerce sites that spur expansion and prosperity. Our skilled team of Shopify developers creates solutions that go above and beyond your expectations while catering to your particular business needs. Sagar Tech can assist you in growing your eCommerce business or improving the online presence of your company. Set up a call with us right now to learn more about our premium branding options, which can propel your company forward.
+        At Sagar Tech, we believe that your website is more than just a digital storefront; it's your online identity. That's why we're dedicated to crafting stunning, functional WordPress websites tailored to your unique needs. WordPress is the world's most popular content management system (CMS), and for good reason. It's user-friendly, flexible, and offers a vast array of plugins and themes to customize your website. At Sagar Tech, we leverage the power of WordPress to create websites that are both visually appealing and functionally robust.
     </p>
     <div class="flex items-center max-sm:justify-center  h-[50px] gap-3 !mt-10">
         <div class="" data-aos="fade-up">
@@ -80,6 +80,7 @@
                         group-hover:scale-[4] z-0"></span>
                 </button>
             </a>
+
         </div>
 
     </div>
