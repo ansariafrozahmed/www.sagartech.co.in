@@ -3,10 +3,10 @@
 
 
 
-    <div class="text-center mb-12">
-        <h2 class="text-[28px] lg:text-[40px] font-semibold text-[#242424]">Shopify Store Preview</h2>
+    <div class="text-start mb-12">
+        <h2 class="text-[35px] lg:text-[50px] font-semibold text-[#242424]">Shopify Store Preview</h2>
         <p class="text-gray-500 text-sm mt-2">
-            Hand-crafted Shopify storefronts designed to deliver performance & style.
+            Hand-crafted Shopify storefronts designed <br class="max-sm:hidden"> to deliver performance & style.
         </p>
     </div>
 
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div onclick="openModal(`https://sagartech.co.in/portfolio-images/chief-parfum2.webp`)" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300">
+        <div onclick="openModal(`portfolio-images/chief-parfum2.webp`)" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300">
             <div class="  overflow-hidden  transition-all duration-300">
                 <div class="overflow-hidden p-5 rounded-xl bg-gray-100 flex justify-center items-center">
                     <img src="https://sagartech.co.in/portfolio-images/chief-parfum2.webp" alt="Cotton Culture"
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div onclick="openModal('https://sagartech.co.in/portfolio-images/diamondtoys.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300">
+        <div onclick="openModal('portfolio-images/diamondtoys.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300">
             <div class="  overflow-hidden  transition-all duration-300">
                 <div class="overflow-hidden p-5 rounded-xl bg-gray-100 flex justify-center items-center">
                     <img src="https://sagartech.co.in/portfolio-images/diamondtoys.webp" alt="Cotton Culture"
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div onclick="openModal('https://sagartech.co.in/portfolio-images/zenitto.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300">
+        <div onclick="openModal('portfolio-images/zenitto.webp')" class="relative group cursor-pointer hover:-translate-y-1 transition-all duration-300">
             <div class="  overflow-hidden  transition-all duration-300">
                 <div class="overflow-hidden p-5 rounded-xl bg-gray-100 flex justify-center items-center">
                     <img src="https://sagartech.co.in/portfolio-images/zenitto.webp" alt="Cotton Culture"

@@ -77,7 +77,7 @@
             </div>
         </div>
         <div id="trigger-heading-end" class="h-[1px] w-full"></div>
-        <h2 id="animated-heading" class="lg:text-[50px] text-[40px] text-start w-full leading-[1.1] tracking-[0px] font-normal transition-colors duration-300">
+        <h2 id="animated-heading" class="lg:text-[50px] text-[35px] text-start w-full leading-[1.1] tracking-[0px] font-normal transition-colors duration-300">
             How a Custom Shopify Store <br class="max-sm:hidden">Can Elevate Your Business
         </h2>
         <div id="trigger-heading-end" class="h-[1px] w-full"></div>

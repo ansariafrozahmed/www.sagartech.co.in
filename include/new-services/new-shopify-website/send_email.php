@@ -1,82 +1,64 @@
 <?php
-// Enable error reporting
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
-// Load PHPMailer classes
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '../../../phpmailer/src/Exception.php';
-require '../../../phpmailer/src/PHPMailer.php';
-require '../../../phpmailer/src/SMTP.php';
+require './PHPMailer/src/Exception.php';
+require './PHPMailer/src/PHPMailer.php';
+require './PHPMailer/src/SMTP.php';
 
-// Set JSON response header
-header('Content-Type: application/json');
+header('Content-Type: text/plain');
 
-// Use $_POST directly
-if (!empty($_POST['email']) && !empty($_POST['phone']) && !empty($_POST['plan']) && !empty($_POST['name'])) {
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $plan  = $_POST['plan'];
-    $name  = $_POST['name'];
-    // $email = "aditi@gmail.com";
-    // $phone = "9876543210";
-    // $plan = "Basic";
-    // $name = "Aditi";
+// Collect POST data
+$name    = isset($_POST['name']) ? strip_tags(trim($_POST['name'])) : '';
+$email    = isset($_POST['email']) ? filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL) : '';
+$phone    = isset($_POST['phone']) ? strip_tags(trim($_POST['phone'])) : '';
+$plan  = isset($_POST['plan']) ? strip_tags(trim($_POST['plan'])) : '';
+// echo $name;
+// echo $email;
+// echo $phone;
 
-    $mail = new PHPMailer(true);
+// Basic validation
+if (empty($name) || empty($email) || empty($phone) || empty($plan)) {
+    echo 'empty';
+    exit;
+}
 
-    try {
-        // SMTP config
-        $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'info@sagartech.co.in';
-        $mail->Password = 'zpwbequlfxlyomld'; // App password
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+// Send mail using PHPMailer
+$mail = new PHPMailer(true);
 
-        // Mail content
-        $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
-        $mail->isHTML(true);
-        $mail->Subject = "Enquiry from $name";
-        $mail->Body = "
-            <strong>Client Name:</strong> $name<br>
-            <strong>Email:</strong> $email<br>
-            <strong>Phone:</strong> $phone<br>
-            <strong>Plan:</strong> $plan
-        ";
+try {
+    // Server config
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'info.team.website@gmail.com'; // sender email
+    $mail->Password   = 'erwhdirhqftlvnbf';     // app password
+    $mail->SMTPSecure = 'tls';
+    $mail->Port       = 587;
 
-        $mail->send();
+    // Mail settings
+    $mail->setFrom('info@sagartech.co.in', 'Sagartech Contact Form');
+    $mail->addAddress('info@sagartech.co.in'); // recipient (your inbox)
 
-        // Optional: Send to WordPress API
-        $postData = [
-            'name' => $name,
-            'email' => $email,
-            'phone' => $phone,
-            'plan' => $plan
-        ];
+    $mail->isHTML(true);
+    $mail->Subject = "New Message from Contact Form: $name";
+    $mail->Body = '
+    <div style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; color: #333; border-radius: 8px; border: 1px solid #ddd; max-width: 600px; margin: auto;">
+        <h2 style="color: #2c3e50; font-weight: 600; margin-bottom: 20px;">New Quote Request Details</h2>
+        
+        <p style="margin: 10px 0;"><strong style="color: #555;">Full Name:</strong> ' . htmlspecialchars($name) . '</p>
+        <p style="margin: 10px 0;"><strong style="color: #555;">Email:</strong> ' . htmlspecialchars($email) . '</p>
+        <p style="margin: 10px 0;"><strong style="color: #555;">Phone:</strong> ' . htmlspecialchars($phone) . '</p>
+        <p style="margin: 10px 0;"><strong style="color: #555;">Selected Plan:</strong><br>' . nl2br(htmlspecialchars($plan)) . '</p>
+        
+        <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
+        <p style="font-size: 13px; color: #888;">This message was generated from the website quote request form.</p>
+    </div>';
 
-        $ch = curl_init('https://sagartech.co.in/blogs/wp-json/contact-form/v1/submit');
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($postData));
 
-        $response = curl_exec($ch);
-        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        curl_close($ch);
-
-        if ($httpCode === 200) {
-            echo json_encode(['success' => true]);
-        } else {
-            echo json_encode(['success' => false, 'message' => 'Email sent, but failed to save in CRM.']);
-        }
-    } catch (Exception $e) {
-        echo json_encode(['success' => false, 'message' => 'Mailer Error: ' . $mail->ErrorInfo]);
-    }
-} else {
-    echo json_encode(['success' => false, 'message' => 'Invalid form data.']);
+    $mail->send();
+    echo '1';
+} catch (Exception $e) {
+    echo '0';
 }

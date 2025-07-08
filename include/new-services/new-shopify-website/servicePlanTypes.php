@@ -5,34 +5,108 @@
         <h3 class="text-xl font-semibold text-[#242424] mb-2">Request a Quote</h3>
         <p class="text-sm text-gray-500 mb-4">We’ll get back to you shortly.</p>
         <div id="form-message" class="hidden text-sm mb-4"></div>
-        <form id="quoteForm" class="space-y-4">
-            <input type="hidden" name="plan" id="planInput">
+        <form id="myForm" class="space-y-4">
+            <input type="text" name="plan" id="plan">
             <div>
-                <input type="text" name="name" id="name" required placeholder="Your Name" class="w-full border p-2 rounded-lg text-sm focus:ring-2 focus:ring-blue-500" />
+                <input type="text" name="fname" id="fname" placeholder="Your Name" class="w-full border mb-2 p-2 rounded-lg text-sm focus:ring-2 focus:ring-blue-500" />
             </div>
             <div>
-                <input type="email" name="email" id="email" required placeholder="Your Email" class="w-full border p-2 rounded-lg text-sm focus:ring-2 focus:ring-blue-500" />
+                <input type="email" name="femail" id="femail" placeholder="Your Email" class="w-full mb-2 border p-2 rounded-lg text-sm focus:ring-2 focus:ring-blue-500" />
             </div>
             <div>
-                <input type="tel" name="phone" id="phone" required placeholder="Your Phone Number" class="w-full border p-2 rounded-lg text-sm focus:ring-2 focus:ring-blue-500" />
+                <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" class="w-full mb-2 border p-2 rounded-lg text-sm focus:ring-2 focus:ring-blue-500" />
             </div>
-            <button type="submit" name="msg_submit" class="w-full bg-black text-white py-2 rounded-lg text-sm hover:bg-gray-800 transition">Submit</button>
+            <button type="submit" id="send" class="w-full bg-black text-white py-2 rounded-lg text-sm hover:bg-gray-800 transition">Submit</button>
         </form>
     </div>
 </div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#myForm').validate({
+            rules: {
+                fname: {
+                    required: true
+                },
+                femail: {
+                    required: true,
+                    email: true
+                },
+                phone: {
+                    required: true,
+                    maxlength: 10,
+                    minlength: 10,
+                    digits: true
+                },
+                plan: {
+                    required: true,
+                },
+            },
+            submitHandler: function(form) {
+                const name = $("#fname").val();
+                const email = $("#femail").val();
+                const phone = $("#phone").val();
+                const plan = $("#plan").val();
+
+                // console.log('Form Data:', {
+                //     name,
+                //     email,
+                //     phone,
+                //     plan
+                // });
+
+                sendEmail(name, email, phone, plan);
+
+                return false; // prevent actual form submission
+            }
+        });
+    });
+
+    function sendEmail(name, email, phone, plan) {
+        // console.log(name, email, phone, plan, "name, email, phone, plan");
+
+        $.ajax({
+            url: 'include/new-services/new-shopify-website/send_email.php',
+            method: 'POST',
+            dataType: 'text',
+            data: {
+                name: name,
+                email: email,
+                phone: phone,
+                plan: plan,
+            },
+            success: function(data) {
+                console.log("Server Response:", data);
+                if (data == '1') {
+                    swal("Thanks for being awesome!", "We will get back to you shortly.", "success");
+                } else {
+                    swal("Oops", "Something went wrong.", "error");
+                }
+                $('#myForm')[0].reset();
+            },
+        });
+    }
+</script>
+
+
 
 <div class="bg-gray-50 py-20 px-4 lg:px-20">
     <div class="mb-12">
-        <h2 class="text-[28px] lg:text-[40px] text-center leading-[1.15] mx-auto max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
+        <h2 class="text-[35px] lg:text-[50px] leading-[1.15] max-w-[600px] lg:max-w-[700px] font-[400] text-[#242424]">
             Shopify Website Packages
         </h2>
-        <p class="text-gray-600 text-sm mt-2 max-w-2xl text-center mx-auto">
+        <p class="text-gray-600 text-sm mt-2 max-w-2xl ">
             Choose from flexible Shopify plans tailored for startups, growing brands, and established businesses. Get a fully functional online store that fits your needs and budget.
         </p>
     </div>
     <div
         id="plans-wrapper"
-        class="flex flex-wrap gap-6 justify-center h-full"
+        class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 justify-center h-full"
         style="background-image: url('new-image/plans-bg.png'); background-size: cover; background-position: center;">
     </div>
 </div>
@@ -42,7 +116,7 @@
             name: "Basic Plan",
             tagline: "Best for: Startups or solo entrepreneurs looking for a quick, clean online presence",
             type: "Shopify (Free Theme)",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s",
+            image: "new-images/shopify-color.png",
             features: [
                 "Shopify Store Setup",
                 "Theme Installation (Free Theme)",
@@ -59,7 +133,7 @@
             name: "Standard Plan",
             tagline: "Best for: Growing D2C brands that want better design and functionality",
             type: "Shopify (Premium Theme)",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s",
+            image: "new-images/shopify-color.png",
             features: [
                 "All Basic Plan Features",
                 "Premium Theme Customization",
@@ -77,7 +151,7 @@
             name: "Advanced Plan",
             tagline: "Best for: Scaling brands with automation, upselling & 3rd-party integrations",
             type: "Shopify (Premium Apps)",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58f__Hs5QwGWIEcsawDwW1o5IQzaYNPONhQ&s",
+            image: "new-images/shopify-color.png",
             features: [
                 "All Standard Plan Features",
                 "Product Upload (Up to 300 SKUs)",
@@ -112,10 +186,10 @@
             .join("");
 
         plansWrapper.innerHTML += `
-        <div class="max-w-[340px] lg:h-[635px] bg-white w-full h-full border rounded-lg p-5 flex flex-col justify-between" data-aos="fade-up">
+        <div class="max-w-[400px] lg:h-[635px] bg-white w-full h-full border rounded-lg p-5 flex flex-col justify-between" data-aos="fade-up">
           <div>
             <div class="flex justify-between items-center">
-              <img src="${plan.image}" alt="${plan.name} logo" class="w-7">
+              <img src="${plan.image}" alt="${plan.name} logo" class="w-10">
               <span class="text-sm font-medium text-gray-800">${plan.type}</span>
             </div>
             <h3 class="text-[28px] lg:text-[32px] font-[400] text-[#242424] mt-5 leading-[1.15]">${plan.name}</h3>
@@ -130,7 +204,7 @@
     });
 
     function openQuoteModal(planName) {
-        document.getElementById("planInput").value = planName;
+        document.getElementById("plan").value = planName;
         document.getElementById("quoteModal").classList.remove("hidden");
         document.getElementById("quoteModal").classList.add("flex");
         document.getElementById("form-message").classList.add("hidden");
@@ -156,8 +230,8 @@
     document.getElementById("quoteForm").addEventListener("submit", function(e) {
         e.preventDefault();
         const formMessage = document.getElementById("form-message");
-
         const formData = new FormData(document.getElementById("quoteForm"));
+        console.log(formData, "formData")
 
         fetch("send_email.php", {
                 method: "POST",
