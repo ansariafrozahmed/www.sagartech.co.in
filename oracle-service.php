@@ -718,7 +718,6 @@ include "include/config.php";
     </div>
 
 
-
     <style>
         .oracle-section {
             display: flex;
@@ -729,9 +728,6 @@ include "include/config.php";
             padding: 80px 20px;
             max-width: 1200px;
             margin: 0 auto;
-            /* background: #f9fafc;
-            border-radius: 16px; */
-            /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06); */
         }
 
         .oracle-left {
@@ -792,12 +788,18 @@ include "include/config.php";
             transform: scale(1.03);
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
+        /* Tablet and below */
+        @media (max-width: 992px) {
             .oracle-section {
                 flex-direction: column;
-                padding: 40px 16px;
+                padding: 60px 20px;
                 text-align: center;
+            }
+
+            .oracle-left,
+            .oracle-right {
+                flex: 1 1 100%;
+                max-width: 100%;
             }
 
             .oracle-left h2 {
@@ -805,11 +807,30 @@ include "include/config.php";
             }
 
             .oracle-list li {
-                justify-content: center;
+                justify-content: lefy;
             }
 
             .oracle-right {
                 margin-top: 30px;
+            }
+        }
+
+        /* Mobile-specific tweaks */
+        @media (max-width: 576px) {
+            .oracle-left h2 {
+                font-size: 24px;
+            }
+
+            .oracle-list li {
+                font-size: 16px;
+            }
+
+            .oracle-check-icon {
+                font-size: 18px;
+            }
+
+            .oracle-right img {
+                max-width: 100%;
             }
         }
     </style>
@@ -825,7 +846,7 @@ include "include/config.php";
             </ul>
         </div>
         <div class="oracle-right">
-            <img src="./image/Oracle-Service-Cloud-CTI-connector-Banner.png" alt="Oracle Solutions">
+            <img src="./image/Oracle-Service-Cloud-CTI-connector-Banner.png" alt="Oracle Solutions" />
         </div>
     </div>
 
@@ -835,8 +856,10 @@ include "include/config.php";
         <?php include "./oracleservice/oracleservice.html" ?>
     </div>
 
-    <!-- <style>
-        .oracle-tech-section {
+
+
+    <style>
+        .oracle-section-wrapper {
             background: linear-gradient(to right, #f8fbff, #eef4fa);
             padding: 60px 20px;
             font-family: "Segoe UI", sans-serif;
@@ -845,47 +868,64 @@ include "include/config.php";
         .oracle-container {
             max-width: 1100px;
             margin: 0 auto;
-            background: #fff;
-            padding: 50px 40px;
-            border-radius: 16px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
             animation: fadeInUp 1s ease;
         }
 
+        .oracle-card-section {
+            flex: 1 1 45%;
+            background: #fff;
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+            transition: all 0.3s ease;
+        }
+
+        .oracle-card-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+        }
+
         .oracle-heading {
-            font-size: 28px;
+            font-size: 26px;
             font-weight: 700;
-            color: #1f2d3d;
-            margin-bottom: 30px;
+            color: #1a202c;
+            margin-bottom: 25px;
             border-left: 5px solid #ff5733;
             padding-left: 15px;
         }
 
         .oracle-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px 30px;
+            grid-template-columns: 1fr;
+            gap: 14px;
         }
 
         .oracle-item {
             background: #f7f9fc;
-            padding: 15px 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+            padding: 14px 18px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
             font-size: 16px;
             color: #2c3e50;
-            position: relative;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
             transition: transform 0.3s ease;
         }
 
         .oracle-item:hover {
-            transform: translateY(-5px);
+            transform: translateX(4px);
+            background: #eef3f9;
         }
 
         .check-icon {
-            color: #27ae60;
-            margin-right: 10px;
-            font-weight: bold;
+            font-size: 18px;
+            color: #ff2828;
+            margin-top: 2px;
         }
 
         @keyframes fadeInUp {
@@ -900,39 +940,41 @@ include "include/config.php";
             }
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .oracle-grid {
-                grid-template-columns: 1fr;
+        @media (max-width: 992px) {
+            .oracle-card-section {
+                flex: 1 1 100%;
             }
         }
     </style>
-    <div class="container">
-        <div class="oracle-tech-section">
-            <div class="oracle-container">
-                <div class="oracle-section">
-                    <h2 class="oracle-heading">Technologies & Tools We Use</h2>
-                    <div class="oracle-grid">
-                        <div class="oracle-item"><i class="check-icon">✓</i> Oracle 11g / 12c / 19c</div>
-                        <div class="oracle-item"><i class="check-icon">✓</i> Oracle Forms & Reports 6i, 10g, 11g</div>
-                        <div class="oracle-item"><i class="check-icon">✓</i> Oracle Apex (on request)</div>
-                        <div class="oracle-item"><i class="check-icon">✓</i> Power BI, Excel, Visual Basic</div>
-                        <div class="oracle-item"><i class="check-icon">✓</i> RMAN, Data Pump, Shell Scripts</div>
-                    </div>
-                </div>
 
-                <div class="oracle-section">
-                    <h2 class="oracle-heading">Engagement Models</h2>
-                    <div class="oracle-grid">
-                        <div class="oracle-item"><i class="check-icon">✓</i> One-Time Implementation</div>
-                        <div class="oracle-item"><i class="check-icon">✓</i> Monthly Support Plans</div>
-                        <div class="oracle-item"><i class="check-icon">✓</i> Staff Augmentation / Dedicated DBA / Developer</div>
-                        <div class="oracle-item"><i class="check-icon">✓</i> AMC with Quarterly Audits</div>
-                    </div>
+    <div class="oracle-section-wrapper">
+        <div class="oracle-container">
+            <!-- Card 1 -->
+            <div class="oracle-card-section">
+                <h2 class="oracle-heading">Technologies & Tools We Use</h2>
+                <div class="oracle-grid">
+                    <div class="oracle-item"><span class="check-icon">✓</span> Oracle 11g / 12c / 19c</div>
+                    <div class="oracle-item"><span class="check-icon">✓</span> Oracle Forms & Reports 6i, 10g, 11g</div>
+                    <div class="oracle-item"><span class="check-icon">✓</span> Oracle Apex (on request)</div>
+                    <div class="oracle-item"><span class="check-icon">✓</span> Power BI, Excel, Visual Basic</div>
+                    <div class="oracle-item"><span class="check-icon">✓</span> RMAN, Data Pump, Shell Scripts</div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="oracle-card-section">
+                <h2 class="oracle-heading">Engagement Models</h2>
+                <div class="oracle-grid">
+                    <div class="oracle-item"><span class="check-icon">✓</span> One-Time Implementation</div>
+                    <div class="oracle-item"><span class="check-icon">✓</span> Monthly Support Plans</div>
+                    <div class="oracle-item"><span class="check-icon">✓</span> Staff Augmentation / Dedicated DBA / Developer</div>
+                    <div class="oracle-item"><span class="check-icon">✓</span> AMC with Quarterly Audits</div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+
+
 
 
     <h3 class="faq-headinggg">FAQs</h3>
