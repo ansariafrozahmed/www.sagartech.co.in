@@ -713,7 +713,7 @@ include "include/config.php";
             </div>
         </div>
         <div class="right">
-            <img style="width: 90%;margin: auto;display: block;" src="./image/oracle.png" alt="Bulk WhatsApp Message Service">
+            <img style="width: 90%;margin: auto;display: block;" src="./image/oracle-img.png" alt="Bulk WhatsApp Message Service">
         </div>
     </div>
 
@@ -846,7 +846,7 @@ include "include/config.php";
             </ul>
         </div>
         <div class="oracle-right">
-            <img src="./image/oracle-img.png" alt="Oracle Solutions" />
+            <img src="./image/Oracle-Service-Cloud-CTI-connector-Banner.png" alt="Oracle Solutions" />
         </div>
     </div>
 
