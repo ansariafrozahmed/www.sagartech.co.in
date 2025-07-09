@@ -846,7 +846,7 @@ include "include/config.php";
             </ul>
         </div>
         <div class="oracle-right">
-            <img src="./image/Oracle-Service-Cloud-CTI-connector-Banner.png" alt="Oracle Solutions" />
+            <img src="./image/oracle-img.png" alt="Oracle Solutions" />
         </div>
     </div>
 
