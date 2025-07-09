@@ -890,6 +890,10 @@ include('config.php');
                     <img src="<?= WEB_URL ?>icons/app-development.png" style="width: 30px" alt="" />
                     <a href="<?= WEB_URL ?>mobile-app-development-company-in-mumbai">App Development</a>
                   </div>
+                  <div class="titlee">
+                    <img src="<?= WEB_URL ?>icons/oracle.svg" style="width: 30px;margin-top: -2px;" alt="" />
+                    <a href="<?= WEB_URL ?>mobile-app-development-company-in-mumbai">Oracle Service</a>
+                  </div>
                 </div>
               </div>
             </li>

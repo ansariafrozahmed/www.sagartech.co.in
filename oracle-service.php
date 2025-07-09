@@ -713,7 +713,7 @@ include "include/config.php";
             </div>
         </div>
         <div class="right">
-            <img style="width: 90%;margin: auto;display: block;" src="./image/oracle-img.png" alt="Bulk WhatsApp Message Service">
+            <img style="width: 70%;margin: auto;display: block;" src="./image/oiam.png" alt="Bulk WhatsApp Message Service">
         </div>
     </div>
 
