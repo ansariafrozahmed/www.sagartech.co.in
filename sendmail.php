@@ -36,7 +36,9 @@ if (isset($_POST['msg_submit'])) {
 
         // Mail content
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        // $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('danishshaikh.st@gmail.com');
+
         $mail->isHTML(true);
         $mail->Subject = "Enquiry from $name";
         $mail->Body = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Message: $message";
@@ -163,7 +165,9 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port = 587; // TCP port to connect to
         // Sender info
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        // $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('danishshaikh.st@gmail.com');
+
         // $mail->addAddress('patiladiti240@gmail.com');
 
         // Content
@@ -172,7 +176,7 @@ if (isset($_POST['msg_submit'])) {
 
         $mail->Body = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Service: $service<br>Message: $message";
 
-        // $mail->send();
+        $mail->send();
         // echo '1';
         if (!$mail->send()) {
             echo "0";
