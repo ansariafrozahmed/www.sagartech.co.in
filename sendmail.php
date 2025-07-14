@@ -27,8 +27,10 @@ if (isset($_POST['msg_submit'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp-relay.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'info@sagartech.co.in';
-        $mail->Password = 'arzsumqvxpkalxlj'; // secure this
+        // $mail->Username = 'info@sagartech.co.in';
+        // $mail->Password = 'arzsumqvxpkalxlj'; // secure this
+        $mail->Username   = 'info.team.website@gmail.com'; // sender email
+        $mail->Password   = 'erwhdirhqftlvnbf';     // app password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
@@ -153,8 +155,10 @@ if (isset($_POST['msg_submit'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp-relay.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'info@sagartech.co.in';
-        $mail->Password = 'arzsumqvxpkalxlj'; // Use the actual email account password
+        // $mail->Username = 'info@sagartech.co.in';
+        // $mail->Password = 'arzsumqvxpkalxlj'; // Use the actual email account password
+        $mail->Username   = 'info.team.website@gmail.com'; // sender email
+        $mail->Password   = 'erwhdirhqftlvnbf';     // app password
         $mail->SMTPSecure = 'tls'; // Enable TLS encryption, [ICODE]ssl[/ICODE] also accepted
         $mail->Port = 587; // TCP port to connect to
         // Sender info
