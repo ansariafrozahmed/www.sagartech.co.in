@@ -73,29 +73,8 @@ if (isset($_POST['msg_submit'])) {
     }
 
     ob_end_clean(); // clean up extra output
-    /*  $mail = new PHPMailer();
-    $mail->Host = 'mail.sagartech.co.in';
-    $mail->isSMTP();
-    $mail->SMTPAuth = true;
-    $mail->Username = 'sender@sagartech.co.in';
-    $mail->Password = 'KN3MPPFair=0';
-    $mail->SMTPSecure = 'tls'; //TLS
-    $mail->Port = 587; //587
-
-    $mail->setFrom($_POST['email'],$_POST['name']);
-    $mail->addAddress('info@sagartech.co.in','Sagartech');
-    $mail->addReplyTo($_POST['email'],$_POST['name']);
-    $mail->Subject = "Enquiry from ".$name;
-    $mail->isHTML(true);
-    $mail->Body ='<h1>Name:'.$_POST['name'].'<br>Email:'.$_POST['email'].'<br>Phone:'.$_POST['phone'].'<br>Msg:'.$_POST['msg'].'</h1>';
- 
-    if (!$mail->send()){
-       echo "0";
-      }
-    else
-      {
-         echo "1";
-      }*/
+   
+    
 } else if (isset($_POST['quote_submit'])) {
 
     // Validation
@@ -152,6 +131,6 @@ if (isset($_POST['msg_submit'])) {
             echo "0";
         }
     } catch (Exception $e) {
-        echo "0"; // or log the error if needed
+        echo "error"; // or log the error if needed
     }
 }
