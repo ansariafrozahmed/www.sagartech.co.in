@@ -117,9 +117,11 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port = 587; // or 465 for SSL
 
         // Mail content
-        $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        // $mail->addAddress('info@sagartech.co.in');
+        $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');        
         $mail->addAddress('danishshaikh.st@gmail.com');
+
+        // $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
+        // $mail->addAddress('info@sagartech.co.in');
 
         $mail->isHTML(true);
         $mail->Subject = "Quote from " . $name;
