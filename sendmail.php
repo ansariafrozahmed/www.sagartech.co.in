@@ -73,8 +73,8 @@ if (isset($_POST['msg_submit'])) {
     }
 
     ob_end_clean(); // clean up extra output
-   
-    
+
+
 } else if (isset($_POST['quote_submit'])) {
 
     // Validation
@@ -128,9 +128,9 @@ if (isset($_POST['msg_submit'])) {
         if ($mail->send()) {
             echo "1";
         } else {
-            echo "0";
+            echo "Mailer Error: " . $mail->ErrorInfo;
         }
     } catch (Exception $e) {
-        echo "error"; // or log the error if needed
+        echo "Exception Error: " . $mail->ErrorInfo;
     }
 }
