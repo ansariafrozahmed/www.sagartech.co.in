@@ -107,18 +107,16 @@ if (isset($_POST['msg_submit'])) {
     try {
 
         $mail->isSMTP();
-        $mail->Host = 'smtp-relay.gmail.com';
-        $mail->SMTPAuth = true;
-        // $mail->Username = 'info@sagartech.co.in';
-        // $mail->Password = 'arzsumqvxpkalxlj';
-        $mail->Username   = 'info.team.website@gmail.com'; // sender email
-        $mail->Password   = 'erwhdirhqftlvnbf';     // app password
-        $mail->SMTPSecure = 'tls'; // or 'ssl'
-        $mail->Port = 587; // or 465 for SSL
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'info.team.website@gmail.com';
+        $mail->Password   = 'erwhdirhqftlvnbf';
+        $mail->SMTPSecure = 'tls';
+        $mail->Port       = 587;
 
-        // Mail content
-        $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');        
+        $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');
         $mail->addAddress('danishshaikh.st@gmail.com');
+
 
         // $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
         // $mail->addAddress('info@sagartech.co.in');
