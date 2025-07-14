@@ -18,20 +18,18 @@ require 'phpmailer/src/SMTP.php';
 
 
 if (isset($_POST['msg_submit'])) {
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $message = $_POST['msg'];
-    $name = $_POST['name'];
+    $name = trim($_POST['name'] ?? '');
+    $email = trim($_POST['email'] ?? '');
+    $phone = trim($_POST['phone'] ?? '');
+    $message = trim($_POST['msg'] ?? '');
 
+    // Required fields check
+    if (empty($name) || empty($email) || empty($phone) || empty($message)) {
+        echo "Please fill in all required fields.";
+        exit;
+    }
     $mail = new PHPMailer(true);
 
-    $required_fields = array('name', 'email', 'phone', 'msg');
-
-    foreach ($required_fields as $field) {
-        if (empty($_POST[$field])) {
-            $errors[] = "$field is required.";
-        }
-    }
 
     try {
         $mail->isSMTP();
@@ -43,8 +41,8 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port       = 587;
 
         $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');
-        // $mail->addAddress('info@sagartech.co.in');
-        $mail->addAddress('danishshaikh.st@gmail.com');
+        $mail->addAddress('info@sagartech.co.in');
+        // $mail->addAddress('danishshaikh.st@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = "Enquiry from $name";
@@ -149,8 +147,8 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port       = 587;
 
         $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');
-        // $mail->addAddress('info@sagartech.co.in');
-        $mail->addAddress('danishshaikh.st@gmail.com');
+        $mail->addAddress('info@sagartech.co.in');
+        // $mail->addAddress('danishshaikh.st@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = "Quote from " . $name;
