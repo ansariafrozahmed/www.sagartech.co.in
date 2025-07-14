@@ -47,8 +47,8 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port       = 587;
 
         $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');
-        // $mail->addAddress('danishshaikh.st@gmail.com');
-        $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('danishshaikh.st@gmail.com');
+        // $mail->addAddress('info@sagartech.co.in');
         $mail->isHTML(true);
         $mail->Subject = "Enquiry from $name";
         $mail->Body = '
