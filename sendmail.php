@@ -97,11 +97,6 @@ if (isset($_POST['msg_submit'])) {
          echo "1";
       }*/
 } else if (isset($_POST['quote_submit'])) {
-    // $service = $_POST['service'];
-    // $fname = $_POST['fname'];
-    // $mobile = $_POST['mobile'];
-    // $addwords = $_POST['addwords'];
-    // $emails = $_POST['email1'];
 
     // Validation
     $errors = array();
@@ -131,59 +126,32 @@ if (isset($_POST['msg_submit'])) {
     $mail = new PHPMailer(true);
 
     try {
-        // // Server settings
-        // $mail->isSMTP();
-        // $mail->Host = 'mail.sagartech.co.in';
-        // $mail->SMTPAuth = true;
-        // $mail->Username = '_mainaccount@sagartech.co.in';
-        // $mail->Password = '!2I1w4Y5qP(nZz'; // Use the actual email account password
-        // $mail->SMTPSecure = 'ssl';
-        // $mail->Port = 465;
 
-        // // Sender info
-        // $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        // $mail->addAddress('info@sagartech.co.in');
-
-        // // Content
-        // $mail->isHTML(true);
-        // $mail->Subject = "Quote Requested for" . $service;
-
-        // $mail->Body = "Client Name: $fname<br>Email: $emails<br>Phone: $mobile<br>Additional words: $addwords";
-
-        // $mail->send();
-        // echo '1';
-
-        // Server settings
         $mail->isSMTP();
         $mail->Host = 'smtp-relay.gmail.com';
         $mail->SMTPAuth = true;
         // $mail->Username = 'info@sagartech.co.in';
-        // $mail->Password = 'arzsumqvxpkalxlj'; // Use the actual email account password
+        // $mail->Password = 'arzsumqvxpkalxlj'; // secure this
         $mail->Username   = 'info.team.website@gmail.com'; // sender email
         $mail->Password   = 'erwhdirhqftlvnbf';     // app password
-        $mail->SMTPSecure = 'tls'; // Enable TLS encryption, [ICODE]ssl[/ICODE] also accepted
-        $mail->Port = 587; // TCP port to connect to
-        // Sender info
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
+
+        // Mail content
         $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
         // $mail->addAddress('info@sagartech.co.in');
         $mail->addAddress('danishshaikh.st@gmail.com');
 
-        // $mail->addAddress('patiladiti240@gmail.com');
-
-        // Content
         $mail->isHTML(true);
         $mail->Subject = "Quote from " . $name;
+        $mail->Body    = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Service: $service<br>Message: $message";
 
-        $mail->Body = "Client Name: $name<br>Email: $email<br>Phone: $phone<br>Service: $service<br>Message: $message";
-
-        $mail->send();
-        // echo '1';
-        if (!$mail->send()) {
-            echo "0";
-        } else {
+        if ($mail->send()) {
             echo "1";
+        } else {
+            echo "0";
         }
     } catch (Exception $e) {
-        echo '0';
+        echo "0"; // or log the error if needed
     }
 }
