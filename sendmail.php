@@ -107,7 +107,7 @@ if (isset($_POST['msg_submit'])) {
     try {
 
         $mail->isSMTP();
-        $mail->Host = 'mail.sagartech.co.in'; // or smtp.yourdomain.com
+        $mail->Host = 'smtp-relay.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'info@sagartech.co.in';
         $mail->Password = 'arzsumqvxpkalxlj';
