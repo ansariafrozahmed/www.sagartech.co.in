@@ -8,6 +8,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 
+// $mail->Username = 'info@sagartech.co.in';
+// $mail->Password = 'arzsumqvxpkalxlj'; // secure this
+
 // require 'vendor/autoload.php'; // if using Composer
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
@@ -22,22 +25,15 @@ if (isset($_POST['msg_submit'])) {
 
     $mail = new PHPMailer(true);
 
-    try {
-        // SMTP config
-        // $mail->isSMTP();
-        // $mail->Host = 'smtp-relay.gmail.com';
-        // $mail->SMTPAuth = true;
-        // // $mail->Username = 'info@sagartech.co.in';
-        // // $mail->Password = 'arzsumqvxpkalxlj'; // secure this
-        // $mail->Username   = 'info.team.website@gmail.com'; // sender email
-        // $mail->Password   = 'erwhdirhqftlvnbf';     // app password
-        // $mail->SMTPSecure = 'tls';
-        // $mail->Port = 587;
+    $required_fields = array('name', 'email', 'phone', 'msg');
 
-        // // Mail content
-        // $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        // // $mail->addAddress('info@sagartech.co.in');
-        // $mail->addAddress('danishshaikh.st@gmail.com');
+    foreach ($required_fields as $field) {
+        if (empty($_POST[$field])) {
+            $errors[] = "$field is required.";
+        }
+    }
+
+    try {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
@@ -47,13 +43,14 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port       = 587;
 
         $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');
-        $mail->addAddress('danishshaikh.st@gmail.com');
         // $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('danishshaikh.st@gmail.com');
+
         $mail->isHTML(true);
         $mail->Subject = "Enquiry from $name";
         $mail->Body = '
             <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-            <div style="background-color: #0d6efd; color: white; padding: 20px 30px; text-align: center;">
+            <div style="background-color: #ff2828; color: white; padding: 20px 30px; text-align: center;">
                 <h2 style="margin: 0; font-size: 24px;">New Enquiry Received</h2>
             </div>
             <div style="padding: 30px; background-color: #ffffff;">
@@ -82,7 +79,6 @@ if (isset($_POST['msg_submit'])) {
             </div>';
 
 
-        // $mail->send();
 
         // Send data to WordPress API
         $postData = [
@@ -102,6 +98,7 @@ if (isset($_POST['msg_submit'])) {
         $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         curl_close($ch);
 
+        // $mail->send();
         if ($mail->send()) {
             echo "1";
         } else {
@@ -111,9 +108,7 @@ if (isset($_POST['msg_submit'])) {
         echo "Exception Error: " . $mail->ErrorInfo;
     }
 
-    ob_end_clean(); // clean up extra output
-
-
+    exit;
 } else if (isset($_POST['quote_submit'])) {
 
     // Validation
@@ -154,17 +149,14 @@ if (isset($_POST['msg_submit'])) {
         $mail->Port       = 587;
 
         $mail->setFrom('info.team.website@gmail.com', 'Sagar Tech');
-        // $mail->addAddress('danishshaikh.st@gmail.com');
-
-
-        // $mail->setFrom('info@sagartech.co.in', 'Sagar Tech');
-        $mail->addAddress('info@sagartech.co.in');
+        // $mail->addAddress('info@sagartech.co.in');
+        $mail->addAddress('danishshaikh.st@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = "Quote from " . $name;
         $mail->Body = '
             <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #e0e0e0; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-            <div style="background-color: #0d6efd; color: white; padding: 20px 30px; text-align: center;">
+            <div style="background-color: #ff2828; color: white; padding: 20px 30px; text-align: center;">
                 <h2 style="margin: 0; font-size: 24px;">New Quote Request</h2>
             </div>
             <div style="padding: 30px; background-color: #ffffff;">
