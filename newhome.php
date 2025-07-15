@@ -270,7 +270,7 @@
             }
         );
     </script>
-    <script src="<?php WEB_URL ?>/NewVersion/Homepage/newHero/newHero.js" defer></script>
+    <script src="./NewVersion/Homepage/newHero/newHero.js" defer></script>
     <script src="./NewVersion/Homepage/clientShowcase/clients.js" defer></script>
     <script src="./NewVersion/Homepage/portfolio/gsapSlideStacking.js" defer></script>
 </body>

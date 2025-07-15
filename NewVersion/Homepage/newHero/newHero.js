@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
+  gsap.registerPlugin();
+  gsap.config({ force3D: true });
+
+  // Add will-change optimization to animating elements
+  document
+    .querySelectorAll(".service-card, .hero-heading, .text-content")
+    .forEach((el) => (el.style.willChange = "transform, opacity"));
+
   const heroHeadings = document.querySelectorAll(".hero-heading");
   const headingWrappers = document.querySelectorAll(".heading-wrapper");
 
@@ -6,17 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   mm.add(
     {
-      // Mobile: up to 767px
       isMobile: "(max-width: 767px)",
-      // Tablet: 768px to 1023px
       isTablet: "(min-width: 768px) and (max-width: 1023px)",
-      // Desktop: 1024px and up
       isDesktop: "(min-width: 1024px)",
     },
     (context) => {
       const { isMobile, isTablet, isDesktop } = context.conditions;
 
-      // Set responsive values
       let fontSize, delay, moveUp, bgColor, textColor;
 
       if (isMobile) {
@@ -39,13 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
         textColor = "#242424";
       }
 
-      // Reveal headings with stagger
+      // Animate Headings
       heroHeadings.forEach((heading, index) => {
         gsap.fromTo(
           heading,
-          { translateY: 150 },
+          { y: 150 },
           {
-            translateY: 0,
+            y: 0,
             duration: isMobile ? 0.6 : 0.8,
             delay: index * (isMobile ? 0.2 : 0.3),
             ease: "power2.out",
@@ -53,7 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
         );
       });
 
-      // Animate font size + color
       gsap.to(heroHeadings, {
         fontSize: fontSize,
         color: textColor,
@@ -62,15 +65,14 @@ document.addEventListener("DOMContentLoaded", () => {
         ease: "power2.inOut",
       });
 
-      // Move heading wrapper up
       gsap.to(headingWrappers, {
-        translateY: moveUp,
+        y: moveUp,
+        marginTop: "40px",
         delay: delay,
         duration: 1,
         ease: "power2.inOut",
       });
 
-      // Change background
       gsap.to(".hero-wrapper", {
         backgroundColor: bgColor,
         delay: delay,
@@ -80,26 +82,68 @@ document.addEventListener("DOMContentLoaded", () => {
 
       gsap.to(".text-content", {
         opacity: 1,
-        translateY: 0,
-        duration: 0.6,
-        delay: delay + 0.5,
-        ease: "power2.inOut",
-      });
-
-      gsap.to(".serviceSection", {
-        translateY: 0,
-        opacity: 1,
+        y: 0,
         duration: 0.6,
         delay: delay + 0.5,
         ease: "power2.inOut",
       });
 
       gsap.to(".headerSection", {
-        translateY: 0,
+        y: 0,
         duration: 0.6,
         delay: delay + 0.5,
         ease: "power2.inOut",
       });
+
+      // Reveal service-cards wrapper first
+      gsap.to(".service-cards", {
+        opacity: 1,
+        y: 0,
+        duration: 0.2,
+        delay: delay + 0.3,
+        ease: "power2.inOut",
+        onComplete: animateServiceCards,
+      });
+
+      // Animate .service-card elements after wrapper is shown
+      function animateServiceCards() {
+        const serviceCards = document.querySelectorAll(".service-card");
+        const total = serviceCards.length;
+        const centerIndex = Math.floor(total / 2);
+
+        // Initial state
+        serviceCards.forEach((card) => {
+          const randomScale = Math.random() * 0.5 + 0.5; // 0.5 to 1
+          gsap.set(card, {
+            scale: randomScale,
+            opacity: 0,
+            y: 100,
+          });
+        });
+
+        // Build center-out sequence
+        const sequence = [];
+        for (let i = 0; i < total; i++) {
+          const left = centerIndex - i;
+          const right = centerIndex + i;
+
+          if (left >= 0) sequence.push(serviceCards[left]);
+          if (right < total && right !== left)
+            sequence.push(serviceCards[right]);
+        }
+
+        // Animate cards
+        gsap.to(sequence, {
+          scale: 1,
+          opacity: 1,
+          y: 0,
+          duration: 0.5,
+          stagger: 0.05,
+          ease: "power3.out",
+        });
+      }
     }
   );
 });
+
+// hover card animation
