@@ -50,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
           { y: 150 },
           {
             y: 0,
+            // marginTop: "50px",
             duration: isMobile ? 0.6 : 0.8,
             delay: index * (isMobile ? 0.2 : 0.3),
             ease: "power2.out",
@@ -111,9 +112,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const total = serviceCards.length;
         const centerIndex = Math.floor(total / 2);
 
-        // Initial state
+        // Set initial state
         serviceCards.forEach((card) => {
-          const randomScale = Math.random() * 0.5 + 0.5; // 0.5 to 1
+          const randomScale = Math.random() * 0.5 + 0.5;
           gsap.set(card, {
             scale: randomScale,
             opacity: 0,
@@ -126,21 +127,33 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let i = 0; i < total; i++) {
           const left = centerIndex - i;
           const right = centerIndex + i;
-
           if (left >= 0) sequence.push(serviceCards[left]);
           if (right < total && right !== left)
             sequence.push(serviceCards[right]);
         }
 
-        // Animate cards
-        gsap.to(sequence, {
-          scale: 1,
-          opacity: 1,
+        // 🔄 Animate featured works + cards together
+        const tl = gsap.timeline();
+
+        tl.to(".featured-works", {
           y: 0,
-          duration: 0.5,
-          stagger: 0.05,
-          ease: "power3.out",
+          opacity: 1,
+          duration: 0.6,
+          ease: "power2.out",
         });
+
+        tl.to(
+          sequence,
+          {
+            scale: 1,
+            opacity: 1,
+            y: 0,
+            duration: 0.5,
+            stagger: 0.05,
+            ease: "power3.out",
+          },
+          "<"
+        ); // "<" means start this at same time as previous
       }
     }
   );
