@@ -19,17 +19,18 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       isMobile: "(max-width: 767px)",
       isTablet: "(min-width: 768px) and (max-width: 1023px)",
-      isDesktop: "(min-width: 1024px)",
+      isDesktop: "(min-width: 1024px) and (max-width:1366px)",
+      isLarge: "(min-width: 1367px) and (max-width:1600px)",
     },
     (context) => {
-      const { isMobile, isTablet, isDesktop } = context.conditions;
+      const { isMobile, isTablet, isDesktop, isLarge } = context.conditions;
 
       let fontSize, delay, moveUp, bgColor, textColor;
 
       if (isMobile) {
         fontSize = "2.3rem";
         delay = 1.0;
-        moveUp = -110;
+        moveUp = -65;
         bgColor = "#f5f5f5";
         textColor = "#000";
       } else if (isTablet) {
@@ -39,6 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
         bgColor = "#fafafa";
         textColor = "#1a1a1a";
       } else if (isDesktop) {
+        fontSize = "3.2rem";
+        delay = 1.6;
+        moveUp = -90;
+        bgColor = "#fff";
+        textColor = "#242424";
+      } else if (isLarge) {
         fontSize = "4rem";
         delay = 1.6;
         moveUp = -100;

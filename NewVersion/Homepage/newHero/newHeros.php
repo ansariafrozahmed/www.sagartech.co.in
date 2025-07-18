@@ -3,6 +3,7 @@
     transition: width 0.3s ease, height 0.3s ease;
     will-change: width, height;
   }
+
   .service-card {
     transition: width 0.3s ease, height 0.3s ease;
     will-change: width, height;
@@ -11,7 +12,8 @@
   .overlay-container {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0); /* Start transparent */
+    background-color: rgba(0, 0, 0, 0);
+    /* Start transparent */
     transition: background-color 0.3s ease;
     z-index: 20;
     pointer-events: none;
@@ -19,12 +21,14 @@
 
   /* When service-cards is hovered, make all titles gray-400 */
   .service-cards:hover .card-title {
-    color: #6e727a; /* Tailwind gray-400 */
+    color: #6e727a;
+    /* Tailwind gray-400 */
   }
 
   /* But if the parent .group is hovered, override it with gray-200 */
   .group:hover .card-title {
-    color: #e5e7eb !important; /* Tailwind gray-200 */
+    color: #e5e7eb !important;
+    /* Tailwind gray-200 */
   }
 
   .wrapper-scale {
@@ -46,147 +50,107 @@
 
 <div class="bg-[#242424] relative overflow-hidden hero-wrapper w-full -mt-20
 ">
-  <div
-    class="relative headerSection -translate-y-[70px] max-w-[1500px] mx-auto"
-  ></div>
+  <div class="relative headerSection -translate-y-[70px] max-w-[1500px] mx-auto"></div>
   <div class="overlay-container pointer-events-none z-20"></div>
-  <div
-    class="firstSection h-screen w-full flex flex-col items-center justify-center"
-  >
-    <div
-      class="heading-wrapper wrapper-scale !origin-top space-y-6 mt-72 transition duration-300 ease-out"
-    >
+  <div class="firstSection h-screen w-full flex flex-col  items-center justify-center">
+    <div class="heading-wrapper wrapper-scale !origin-top space-y-6 mt-72 transition duration-300 ease-out">
       <div>
         <div class="overflow-hidden heading1">
           <h2
-            class="hero-heading text-[2.3rem] md:text-[4.5rem] lg:text-[7rem] translate-y-full text-center robottoFont uppercase font-black leading-none text-[#424242]"
-          >
+            class="hero-heading text-[2.3rem] md:text-[4.5rem] lg:text-[7rem] translate-y-full text-center robottoFont uppercase font-black leading-none text-[#424242]">
             Your Trusted
           </h2>
         </div>
         <div class="overflow-hidden heading2">
           <h2
-            class="hero-heading text-[2.3rem] md:text-[4.5rem] lg:text-[7rem] translate-y-full text-center robottoFont uppercase font-black leading-none text-[#424242]"
-          >
+            class="hero-heading text-[2.3rem] md:text-[4.5rem] lg:text-[7rem] translate-y-full text-center robottoFont uppercase font-black leading-none text-[#424242]">
             Marketing Agency
           </h2>
         </div>
         <p
-          class="paragraph-text text-content pt-2 opacity-0 translate-y-10 max-w-[600px] mx-auto font-light text-sm px-4 text-center tracking-wide text-[#24244]"
-        >
+          class="paragraph-text text-content pt-2 opacity-0 translate-y-10 max-w-[600px] mx-auto font-light text-sm px-4 text-center tracking-wide text-[#24244]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio beatae
           facilis alias ex et minima quam unde exercitationem aut numquam natus.
         </p>
       </div>
     </div>
+    <!-- DIV MAINTAIN DISTANCE BETWEEN TITLE AND CARD SECTION -->
+    <div class="h-8">
 
-    <p
-      class="uppercase text-gray-600 text-[13px] lg:mb-4 mb-0 featured-works opacity-0"
-    >
-      Featured Works
-    </p>
-    <div
-      class="lg:px-20 px-4 w-full mx-auto lg:mt-10 mt-2 service-cards opacity-0 translate-y-36 relative z-30"
-    >
+    </div>
+
+    <div class="lg:px-20  px-4 w-full mx-auto lg:mt-10 mt-2 service-cards opacity-0 translate-y-36 relative z-30">
+      <p
+        class="uppercase absolute -top-7 md:-top-[132px] transform -translate-x-1/2 left-1/2 w-fit text-center text-gray-600 text-[13px] lg:mb-4 mb-0 featured-works opacity-0">
+        Featured Works
+      </p>
       <!-- For desktop only -->
-      <div
-        id="serviceCardContainer"
-        class="lg:flex hidden card-container justify-center gap-5 max-w-[1350px] lg:h-[250px] h-[200px] mx-auto items-end"
-      >
+      <div id="serviceCardContainer"
+        class="lg:flex hidden card-container justify-center gap-5 max-w-[1350px] h-[250px] -mt-16 mx-auto items-end">
         <!-- Repeat this block for each card -->
         <div class="group">
           <div class="service-card opacity-0 overflow-hidden">
             <div class="!h-full w-full card-image">
-              <img
-                src="./brand-identity/sagartech.webp"
-                class="h-full w-full object-cover"
-                alt=""
-              />
+              <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="" />
             </div>
           </div>
           <h4
-            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out"
-          >
+            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out">
             Design Club
           </h4>
         </div>
         <div class="group">
           <div class="service-card opacity-0 overflow-hidden">
             <div class="!h-full w-full card-image">
-              <img
-                src="./brand-identity/sagartech.webp"
-                class="h-full w-full object-cover"
-                alt=""
-              />
+              <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="" />
             </div>
           </div>
           <h4
-            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out"
-          >
+            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out">
             Design Club
           </h4>
         </div>
         <div class="group">
           <div class="service-card opacity-0 overflow-hidden">
             <div class="!h-full w-full card-image">
-              <img
-                src="./brand-identity/sagartech.webp"
-                class="h-full w-full object-cover"
-                alt=""
-              />
+              <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="" />
             </div>
           </div>
           <h4
-            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out"
-          >
+            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out">
             Design Club
           </h4>
         </div>
         <div class="group">
           <div class="service-card opacity-0 overflow-hidden">
             <div class="!h-full w-full card-image">
-              <img
-                src="./brand-identity/sagartech.webp"
-                class="h-full w-full object-cover"
-                alt=""
-              />
+              <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="" />
             </div>
           </div>
           <h4
-            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out"
-          >
+            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out">
             Design Club
           </h4>
         </div>
         <div class="group">
           <div class="service-card opacity-0 overflow-hidden">
             <div class="!h-full w-full card-image">
-              <img
-                src="./brand-identity/sagartech.webp"
-                class="h-full w-full object-cover"
-                alt=""
-              />
+              <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="" />
             </div>
           </div>
           <h4
-            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out"
-          >
+            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out">
             Design Club
           </h4>
         </div>
         <div class="group">
           <div class="service-card opacity-0 overflow-hidden">
             <div class="!h-full w-full card-image">
-              <img
-                src="./brand-identity/sagartech.webp"
-                class="h-full w-full object-cover"
-                alt=""
-              />
+              <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" alt="" />
             </div>
           </div>
           <h4
-            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out"
-          >
+            class="card-title uppercase text-sm text-gray-600 font-medium mt-2 group-hover:text-gray-200 transition-colors duration-300 ease-out">
             Design Club
           </h4>
         </div>
@@ -198,88 +162,53 @@
         <div class="swiper mySwiper w-full px-4">
           <div class="swiper-wrapper">
             <!-- Repeat each card inside swiper-slide -->
-            <div
-              class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]"
-            >
+            <div class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]">
               <div class="service-cardss overflow-hidden">
                 <div class="!h-full w-full card-image">
-                  <img
-                    src="./brand-identity/sagartech.webp"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" />
                 </div>
               </div>
-              <h4
-                class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center"
-              >
+              <h4 class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center">
                 Design Club
               </h4>
             </div>
-            <div
-              class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]"
-            >
+            <div class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]">
               <div class="service-cardss overflow-hidden">
                 <div class="!h-full w-full card-image">
-                  <img
-                    src="./brand-identity/sagartech.webp"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" />
                 </div>
               </div>
-              <h4
-                class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center"
-              >
+              <h4 class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center">
                 Design Club
               </h4>
             </div>
-            <div
-              class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]"
-            >
+            <div class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]">
               <div class="service-cardss overflow-hidden">
                 <div class="!h-full w-full card-image">
-                  <img
-                    src="./brand-identity/sagartech.webp"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" />
                 </div>
               </div>
-              <h4
-                class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center"
-              >
+              <h4 class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center">
                 Design Club
               </h4>
             </div>
-            <div
-              class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]"
-            >
+            <div class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]">
               <div class="service-cardss overflow-hidden">
                 <div class="!h-full w-full card-image">
-                  <img
-                    src="./brand-identity/sagartech.webp"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" />
                 </div>
               </div>
-              <h4
-                class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center"
-              >
+              <h4 class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center">
                 Design Club
               </h4>
             </div>
-            <div
-              class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]"
-            >
+            <div class="swiper-slide swiper-slide w-[70%] sm:w-[60%] md:w-[50%] lg:w-[40%]">
               <div class="service-cardss overflow-hidden">
                 <div class="!h-full w-full card-image">
-                  <img
-                    src="./brand-identity/sagartech.webp"
-                    class="h-full w-full object-cover"
-                  />
+                  <img src="./brand-identity/sagartech.webp" class="h-full w-full object-cover" />
                 </div>
               </div>
-              <h4
-                class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center"
-              >
+              <h4 class="card-titles uppercase text-sm text-gray-600 font-medium mt-2 text-center">
                 Design Club
               </h4>
             </div>
@@ -290,24 +219,15 @@
           <!-- Navigation Buttons -->
         </div>
         <div
-          class="absolute -bottom-10 left-1/2 -translate-x-1/2 flex gap-4 z-[100]"
-        >
-          <div
-            id="custom-prev"
-            class="w-14 h-8 border rounded-md flex items-center justify-center hover:bg-gray-300 transition-all duration-200 ease-in-out cursor-pointer"
-          >
+          class="absolute -bottom-10 max-sm:-bottom-10 sm:-bottom-32 max-md:-bottom-32  left-1/2 -translate-x-1/2 flex gap-4 z-[100]">
+          <div id="custom-prev"
+            class="w-14 h-8 border rounded-md flex items-center justify-center hover:bg-gray-300 transition-all duration-200 ease-in-out cursor-pointer">
             <img src="new-images/left-chevron.png" alt="Left" class="w-5 h-5" />
           </div>
 
-          <div
-            id="custom-next"
-            class="w-14 h-8 border rounded-md flex items-center justify-center hover:bg-gray-300 transition-all duration-200 ease-in-out cursor-pointer"
-          >
-            <img
-              src="new-images/right-chevron.png"
-              alt="Right"
-              class="w-5 h-5"
-            />
+          <div id="custom-next"
+            class="w-14 h-8 border rounded-md flex items-center justify-center hover:bg-gray-300 transition-all duration-200 ease-in-out cursor-pointer">
+            <img src="new-images/right-chevron.png" alt="Right" class="w-5 h-5" />
           </div>
         </div>
       </div>

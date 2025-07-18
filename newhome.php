@@ -36,7 +36,8 @@
     <meta name="p:domain_verify" content="d76965cda6bebd0c2cfde0c968d34c36" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
         rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -53,9 +54,9 @@
         }
     </script>
     <script>
-        ! function(f, b, e, v, n, t, s) {
+        ! function (f, b, e, v, n, t, s) {
             if (f.fbq) return;
-            n = f.fbq = function() {
+            n = f.fbq = function () {
                 n.callMethod ?
                     n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
@@ -136,10 +137,7 @@
             ]
         }
     </script>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <style>
@@ -188,16 +186,16 @@
 
         <?php
         include("NewVersion/Homepage/newHero/newHeros.php")
-        ?>
+            ?>
 
         <?php
         include('NewVersion/Homepage/portfolio/gsapSlideStacking.php')
-        ?>
+            ?>
 
 
         <?php
         include('NewVersion/Homepage/clientShowcase/clients.php')
-        ?>
+            ?>
 
         <?php
         // include("include/homepage/ourService.php")
@@ -205,11 +203,11 @@
 
         <?php
         include("include/homepage/metaShowcase.php")
-        ?>
+            ?>
 
         <?php
         include("include/homepage/videoTestimonials.php")
-        ?>
+            ?>
 
         <?php
         $faqData = [
@@ -267,12 +265,12 @@
         gsap.fromTo(
             ".headerWrapper", {
 
-            }, {
+        }, {
 
-                onComplete: () => {
-                    ScrollTrigger.refresh();
-                },
-            }
+            onComplete: () => {
+                ScrollTrigger.refresh();
+            },
+        }
         );
     </script>
     <script src="./NewVersion/Homepage/newHero/newHero.js" defer></script>
