@@ -44,7 +44,8 @@
   }
 </style>
 
-<div class="bg-[#242424] relative overflow-hidden hero-wrapper w-full h-screen">
+<div class="bg-[#242424] relative overflow-hidden hero-wrapper w-full -mt-20
+">
   <div
     class="relative headerSection -translate-y-[70px] max-w-[1500px] mx-auto"
   ></div>

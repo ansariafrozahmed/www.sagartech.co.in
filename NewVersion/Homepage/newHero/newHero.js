@@ -10,6 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const heroHeadings = document.querySelectorAll(".hero-heading");
   const headingWrappers = document.querySelectorAll(".heading-wrapper");
 
+  const isMobile = window.innerWidth < 768; // You can adjust this breakpoint
+  const paddingTopValue = isMobile ? "70px" : "90px";
+
   const mm = gsap.matchMedia();
 
   mm.add(
@@ -76,6 +79,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       gsap.to(".hero-wrapper", {
         backgroundColor: bgColor,
+        paddingTop: paddingTopValue,
+        // marginTop: "20px",
         delay: delay,
         duration: 1,
         ease: "power2.inOut",
